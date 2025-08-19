@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "文佳",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于多模型融合的航空电子产品故障预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "梁天辰",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于多模型融合的航空电子产品故障预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "陈擎宙",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于多模型融合的航空电子产品故障预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "钱东",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于多模型融合的航空电子产品故障预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "航空电子产品故障预测所面临的退化趋势差异大、训练数据样本量小等问题",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "改进长短期记忆(LSTM)神经网络模型",
+    "object_type": "Model"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "集成学习框架",
+    "object_type": "Model"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "Adaboosting算法",
+    "object_type": "Model"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空电子产品",
+    "object_type": "System"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "is_trained_on",
+    "object": "NASA公开的锂电池退化数据集",
+    "object_type": "Dataset"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "achieves",
+    "object": "更高的趋势拟合度和预测精度",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "is_evaluated_by",
+    "object": "趋势拟合度",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "is_evaluated_by",
+    "object": "预测精度",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "compares_to",
+    "object": "传统BP神经网络",
+    "object_type": "Model"
+  },
+  {
+    "subject": "改进长短期记忆(LSTM)神经网络模型与集成学习框架相结合的故障预测方法",
+    "subject_type": "Method",
+    "relation": "compares_to",
+    "object": "经典LSTM",
+    "object_type": "Model"
+  }
+]

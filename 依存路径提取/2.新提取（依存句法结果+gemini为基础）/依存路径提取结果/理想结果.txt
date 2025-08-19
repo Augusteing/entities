@@ -1,0 +1,78 @@
+理想状态下的模式（现阶段）
+典型路径模式分类 
+模式1：方法-问题关系 
+基于[技术]的[方法] → 解决 → [问题]
+路径：[基于] --prep--> [技术] --assmod--> [方法] --dobj--> [解决] --dobj--> [问题]
+{
+  "pattern_id": "method_problem",
+  "pattern_name": "方法解决问题",
+  "template": "[方法] → [解决] → [问题]",
+  "dependency_path": [
+    {"word": "方法", "pos": "NN", "deprel": "nsubj", "direction": "up"},
+    {"word": "解决", "pos": "VV", "deprel": "root", "direction": "root"},
+    {"word": "问题", "pos": "NN", "deprel": "dobj", "direction": "down"}
+  ],
+  "semantic_relation": "addresses",
+  "confidence": 0.95,
+  "frequency": 156
+}
+
+模式2：技术-应用关系
+[技术] → 应用于 → [系统/领域]
+路径：[技术] --nsubj--> [应用] --prep--> [于] --pobj--> [系统]
+{
+  "pattern_id": "tech_application",
+  "pattern_name": "技术应用于领域",
+  "template": "[技术] → [应用于] → [领域]",
+  "dependency_path": [
+    {"word": "技术", "pos": "NN", "deprel": "nsubj", "direction": "up"},
+    {"word": "应用", "pos": "VV", "deprel": "root", "direction": "root"},
+    {"word": "于", "pos": "P", "deprel": "prep", "direction": "down"},
+    {"word": "系统", "pos": "NN", "deprel": "pobj", "direction": "down"}
+  ],
+  "semantic_relation": "is_applied_to",
+  "confidence": 0.92,
+  "frequency": 134
+}
+模式3：模型-预测关系
+[模型] → 预测 → [结果]
+路径：[模型] --nsubj--> [预测] --dobj--> [结果]
+{
+  "pattern_id": "model_prediction",
+  "pattern_name": "模型预测结果",
+  "template": "[模型] → [预测] → [结果]",
+  "dependency_path": [
+    {"word": "模型", "pos": "NN", "deprel": "nsubj", "direction": "up"},
+    {"word": "预测", "pos": "VV", "deprel": "root", "direction": "root"},
+    {"word": "寿命", "pos": "NN", "deprel": "dobj", "direction": "down"}
+  ],
+  "semantic_relation": "predicts",
+  "confidence": 0.89,
+  "frequency": 98
+}
+模式4：数据-特征关系
+[数据] → 提取 → [特征]
+路径：[数据] --prep--> [中] --pobj--> [提取] --dobj--> [特征]
+{
+  "pattern_id": "feature_extraction",
+  "pattern_name": "从数据中提取特征",
+  "template": "从[数据]中提取[特征]",
+  "dependency_path": [
+    {"word": "从", "pos": "P", "deprel": "prep", "direction": "up"},
+    {"word": "数据", "pos": "NN", "deprel": "pobj", "direction": "down"},
+    {"word": "中", "pos": "LC", "deprel": "plmod", "direction": "down"},
+    {"word": "提取", "pos": "VV", "deprel": "root", "direction": "root"},
+    {"word": "特征", "pos": "NN", "deprel": "dobj", "direction": "down"}
+  ],
+  "semantic_relation": "extracts_from",
+  "confidence": 0.90,
+  "frequency": 54
+}
+
+
+路径模式统计
+1. assmod + dobj (基于...的方法 解决 问题) - 出现频率: 35%
+2. nsubj + prep + pobj (技术 应用于 系统) - 出现频率: 28%
+3. nn + amod + dobj (深度学习 模型 预测 结果) - 出现频率: 22%
+4. prep + pobj + dobj (从...中 提取 特征) - 出现频率: 15%
+

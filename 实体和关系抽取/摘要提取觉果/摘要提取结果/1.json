@@ -1,0 +1,58 @@
+[
+  {
+    "subject": "周贵荣",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "徐见源",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "马少博",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "宗军耀",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "沈金清",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "朱海杰",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "大型客机航电系统综合集成关键技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "技术综述与分析",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "提升大型客机安全性和空域运行效能",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "先进的航电系统架构、主要的功能特征、安全性设计流程",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "下一代大型客机航电系统的应用需求、技术特征、研究方向",
+    "object_type": "Future Work"
+  }
+]

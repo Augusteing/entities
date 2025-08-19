@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "方法论",
+    "relation": "应用于",
+    "object": "航空发动机健康管理系统",
+    "object_type": "系统"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "使用",
+    "object": "MagicDraw平台",
+    "object_type": "软件平台"
+  },
+  {
+    "subject": "MagicDraw平台",
+    "subject_type": "软件平台",
+    "relation": "支持",
+    "object": "系统建模语言",
+    "object_type": "建模语言"
+  },
+  {
+    "subject": "系统工程实践",
+    "subject_type": "实践",
+    "relation": "解决",
+    "object": "架构动态优化难题",
+    "object_type": "问题"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "具有",
+    "object": "逻辑架构",
+    "object_type": "架构"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "具有",
+    "object": "物理模型",
+    "object_type": "模型"
+  },
+  {
+    "subject": "物理模型",
+    "subject_type": "模型",
+    "relation": "通过构建",
+    "object": "块定义图",
+    "object_type": "图表"
+  },
+  {
+    "subject": "物理模型",
+    "subject_type": "模型",
+    "relation": "通过构建",
+    "object": "内部块图",
+    "object_type": "图表"
+  },
+  {
+    "subject": "协同建模框架",
+    "subject_type": "框架",
+    "relation": "用于",
+    "object": "复杂装备系统设计",
+    "object_type": "设计任务"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "旨在降低",
+    "object": "功能重叠率",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "旨在提升",
+    "object": "预测效率",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "管理",
+    "object": "利益相关方交互",
+    "object_type": "交互过程"
+  },
+  {
+    "subject": "研究成果",
+    "subject_type": "成果",
+    "relation": "提供",
+    "object": "普适参考价值",
+    "object_type": "价值"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "系统",
+    "relation": "覆盖",
+    "object": "全生命周期",
+    "object_type": "阶段"
+  },
+  {
+    "subject": "系统工程",
+    "subject_type": "学科",
+    "relation": "应对",
+    "object": "复杂系统需求边界模糊",
+    "object_type": "问题"
+  }
+]

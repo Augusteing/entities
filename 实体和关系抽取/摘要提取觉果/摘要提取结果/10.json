@@ -1,0 +1,37 @@
+[
+  {
+    "subject": "王岩韬",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于QAR数据的飞行控制系统故障研究综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "高艺",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于QAR数据的飞行控制系统故障研究综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "时统宇",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于QAR数据的飞行控制系统故障研究综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "文献综述",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "系统梳理国内外对民用飞机飞行控制系统故障分析的研究历程和现状",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "故障研究阶段基本处于故障诊断或非实时预测水平",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "实现故障实时预测技术",
+    "object_type": "Future Work"
+  }
+]

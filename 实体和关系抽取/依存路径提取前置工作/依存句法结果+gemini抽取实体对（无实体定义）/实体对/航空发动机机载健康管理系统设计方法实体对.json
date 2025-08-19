@@ -1,0 +1,86 @@
+[
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "基于",
+    "object": "系统工程思想",
+    "object_type": "概念"
+  },
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "建立",
+    "object": "正向设计流程平台",
+    "object_type": "平台"
+  },
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "建立",
+    "object": "硬件设计模型",
+    "object_type": "模型"
+  },
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "包含",
+    "object": "功能目标量化",
+    "object_type": "流程"
+  },
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "包含",
+    "object": "需求设计",
+    "object_type": "流程"
+  },
+  {
+    "subject": "航空发动机机载健康管理系统设计方法",
+    "subject_type": "方法",
+    "relation": "用于",
+    "object": "航空发动机",
+    "object_type": "系统"
+  },
+  {
+    "subject": "正向设计流程平台",
+    "subject_type": "平台",
+    "relation": "支持",
+    "object": "健康管理系统正向设计",
+    "object_type": "流程"
+  },
+  {
+    "subject": "硬件设计模型",
+    "subject_type": "模型",
+    "relation": "基于",
+    "object": "图形化设计方法",
+    "object_type": "方法"
+  },
+  {
+    "subject": "健康管理系统",
+    "subject_type": "系统",
+    "relation": "具有",
+    "object": "功能架构",
+    "object_type": "架构"
+  },
+  {
+    "subject": "系统设计",
+    "subject_type": "流程",
+    "relation": "遵循",
+    "object": "系统正向设计基本流程",
+    "object_type": "流程"
+  },
+  {
+    "subject": "设计方法",
+    "subject_type": "方法",
+    "relation": "对比分析",
+    "object": "国内外现有健康管理系统",
+    "object_type": "系统"
+  },
+  {
+    "subject": "航空发动机健康管理",
+    "subject_type": "领域",
+    "relation": "采用",
+    "object": "正向设计",
+    "object_type": "方法"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "基于机器学习的预测技术",
+        "object": "随机退化设备剩余寿命预测",
+        "relation": "addresses",
+        "path": [
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "需求",
+            "dobj"
+          ],
+          [
+            "面向",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "统计数据驱动的预测技术",
+        "object": "不确定性量化问题",
+        "relation": "addresses",
+        "path": [
+          [
+            "数据",
+            "nn"
+          ],
+          [
+            "背景",
+            "lobj"
+          ],
+          [
+            "下",
+            "dep"
+          ],
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "需求",
+            "dobj"
+          ],
+          [
+            "面向",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "深度学习与退化建模交互联动",
+        "object": "航空发动机",
+        "relation": "is_applied_to",
+        "path": [
+          [
+            "退化",
+            "amod"
+          ],
+          [
+            "设备",
+            "nn"
+          ],
+          [
+            "寿命",
+            "nn"
+          ],
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "需求",
+            "dobj"
+          ],
+          [
+            "面向",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "深度学习与退化建模交互联动",
+        "object": "不确定性量化问题",
+        "relation": "predicts",
+        "path": [
+          [
+            "退化",
+            "amod"
+          ],
+          [
+            "设备",
+            "nn"
+          ],
+          [
+            "寿命",
+            "nn"
+          ],
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "需求",
+            "dobj"
+          ],
+          [
+            "面向",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "数模联动预测思路",
+        "object": "剩余寿命预测结果",
+        "relation": "achieves",
+        "path": [
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "寿命",
+            "nn"
+          ],
+          [
+            "剩余",
+            "amod"
+          ]
+        ]
+      },
+      {
+        "subject": "剩余寿命预测结果",
+        "object": "研究展望",
+        "relation": "suggests",
+        "path": [
+          [
+            "剩余",
+            "amod"
+          ],
+          [
+            "寿命",
+            "nn"
+          ],
+          [
+            "预测",
+            "assmod"
+          ],
+          [
+            "需求",
+            "dobj"
+          ],
+          [
+            "面向",
+            "root"
+          ],
+          [
+            "分析",
+            "conj"
+          ],
+          [
+            "动态",
+            "dobj"
+          ],
+          [
+            "研究",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "特征",
+        "object": "多源传感监测大数据",
+        "relation": "is_from",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  }
+]

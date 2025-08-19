@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "钟维宇",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "柳林燕",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "唐启东",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "易江义",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "贺庆",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "故障频率高",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "故障种类多",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "故障溯源难度大",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "预测准确率低",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "使用",
+    "object": "人工蜂群故障预测算法",
+    "object_type": "模型 (Model)"
+  },
+  {
+    "subject": "知识图谱和人工蜂群算法相融合的航空柱塞泵故障预测诊断方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "使用",
+    "object": "航空柱塞泵故障诊断的知识图谱",
+    "object_type": "模型 (Model)"
+  },
+  {
+    "subject": "航空柱塞泵故障预测模型",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "航空柱塞泵",
+    "object_type": "系统/部件 (System/Component)"
+  },
+    {
+    "subject": "航空柱塞泵故障诊断的知识图谱",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "航空柱塞泵",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "航空柱塞泵故障预测模型",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "故障",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+   {
+    "subject": "航空柱塞泵故障诊断的知识图谱",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "故障",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+  {
+    "subject": "航空柱塞泵故障预测模型",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "有效性",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "航空柱塞泵故障预测模型",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "可行性",
+    "object_type": "研究结果 (Finding)"
+  },
+    {
+    "subject": "航空柱塞泵故障诊断的知识图谱",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "高效的故障诊断能力",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "航空柱塞泵故障预测模型",
+    "subject_type": "模型 (Model)",
+    "relation": "评估指标是",
+    "object": "预测准确率",
+    "object_type": "性能指标 (Metric)"
+  },
+  {
+    "subject": "航空柱塞泵故障诊断的知识图谱",
+    "subject_type": "模型 (Model)",
+    "relation": "训练于",
+    "object": "实际维修案例",
+    "object_type": "数据集 (Dataset)"
+  }
+]

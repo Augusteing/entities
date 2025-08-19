@@ -1,0 +1,44 @@
+[
+  {
+    "subject": "杨天策",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机机载健康管理系统设计方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "张瑞",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机机载健康管理系统设计方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "蔡景",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机机载健康管理系统设计方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "基于模型的系统工程",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "航空发动机机载健康管理系统正向设计流程不清晰、设计需求不明确、需求设计对应及追溯不规范",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "建立了可扩展的流程平台",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "为航空发动机机载健康管理系统设计提供参考",
+    "object_type": "Future Work"
+  },
+  {
+    "subject": "建立了可用的硬件设计模型",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "为航空发动机机载健康管理系统设计提供参考",
+    "object_type": "Future Work"
+  }
+]

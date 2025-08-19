@@ -1,0 +1,322 @@
+[
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": [
+          [
+            "技术",
+            "dobj"
+          ],
+          [
+            "包括",
+            "root"
+          ],
+          [
+            "具体",
+            "advmod"
+          ]
+        ]
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": [
+          [
+            "技术",
+            "dobj"
+          ],
+          [
+            "包括",
+            "root"
+          ],
+          [
+            "具体",
+            "advmod"
+          ]
+        ]
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": [
+          [
+            "技术",
+            "dobj"
+          ],
+          [
+            "包括",
+            "root"
+          ],
+          [
+            "具体",
+            "advmod"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": [
+          [
+            "航空",
+            "nn"
+          ],
+          [
+            "发动机",
+            "nn"
+          ],
+          [
+            "诊断",
+            "nsubj"
+          ],
+          [
+            "面临",
+            "rcmod"
+          ],
+          [
+            "挑战",
+            "dobj"
+          ],
+          [
+            "分析",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "动力学分析",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "信号处理",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "航空发动机振动类故障诊断技术",
+        "object": "深度学习",
+        "relation": "uses",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  }
+]

@@ -1,0 +1,808 @@
+{
+  "title": "航空发动机健康管理系统功能架构优化方法",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "功能架构优化方法",
+      "object": "航空发动机健康管理系统",
+      "relation": "针对",
+      "path": [
+        [
+          "架构",
+          "nn"
+        ],
+        [
+          "设计",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "功能分配方法",
+      "object": "逻辑决断图",
+      "relation": "采用",
+      "path": [
+        [
+          "功能",
+          "conj"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "采用",
+          "pccomp"
+        ],
+        [
+          "分析法",
+          "dobj"
+        ],
+        [
+          "逻辑",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 8,
+          "id": 14
+        },
+        {
+          "sentence_index": 8,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 4
+        },
+        {
+          "sentence_index": 8,
+          "id": 9
+        },
+        {
+          "sentence_index": 8,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "功能分配方法",
+      "object": "层次分析法(AHP)",
+      "relation": "采用",
+      "path": [
+        [
+          "功能",
+          "conj"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 7,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "功能分配方法",
+      "object": "功能优化配置",
+      "relation": "实现",
+      "path": [
+        [
+          "功能",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "功能分配方法",
+      "object": "部件与故障的功能分配",
+      "relation": "应用于",
+      "path": [
+        [
+          "功能",
+          "conj"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统",
+      "object": "状态监测",
+      "relation": "具有核心功能",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "实现",
+          "ccomp"
+        ],
+        [
+          "分配",
+          "dobj"
+        ],
+        [
+          "功能",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 9,
+          "id": 2
+        },
+        {
+          "sentence_index": 9,
+          "id": 10
+        },
+        {
+          "sentence_index": 9,
+          "id": 35
+        },
+        {
+          "sentence_index": 9,
+          "id": 25
+        },
+        {
+          "sentence_index": 9,
+          "id": 24
+        },
+        {
+          "sentence_index": 9,
+          "id": 12
+        },
+        {
+          "sentence_index": 9,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统",
+      "object": "故障诊断",
+      "relation": "具有核心功能",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "针对",
+          "assmod"
+        ],
+        [
+          "故障",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 8,
+          "id": 14
+        },
+        {
+          "sentence_index": 8,
+          "id": 25
+        },
+        {
+          "sentence_index": 8,
+          "id": 18
+        },
+        {
+          "sentence_index": 8,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统",
+      "object": "故障预测",
+      "relation": "具有核心功能",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "针对",
+          "assmod"
+        ],
+        [
+          "故障",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 8,
+          "id": 14
+        },
+        {
+          "sentence_index": 8,
+          "id": 25
+        },
+        {
+          "sentence_index": 8,
+          "id": 18
+        },
+        {
+          "sentence_index": 8,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统",
+      "object": "寿命管理",
+      "relation": "具有核心功能",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统架构设计",
+      "object": "用户需求",
+      "relation": "需满足",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统架构设计",
+      "object": "经济可承受性",
+      "relation": "需考虑",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ],
+        [
+          "可承受性",
+          "dobj"
+        ],
+        [
+          "经济",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机健康管理系统",
+      "object": "发动机健康管理系统",
+      "relation": "具有共同特征",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "通用健康管理系统架构",
+      "object": "发动机健康管理系统设计",
+      "relation": "可应用于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "提出的分配方法",
+      "object": "定量分配",
+      "relation": "实现",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "实现",
+          "root"
+        ],
+        [
+          "分配",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 5,
+          "id": 1
+        },
+        {
+          "sentence_index": 5,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

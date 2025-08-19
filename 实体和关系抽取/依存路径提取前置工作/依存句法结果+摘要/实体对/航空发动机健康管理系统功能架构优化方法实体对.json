@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "核心系统",
+    "relation": "提升",
+    "object": "安全性、可靠性以及经济可承受性",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "架构设计",
+    "subject_type": "关键技术",
+    "relation": "是...的关键技术",
+    "object": "航空发动机健康管理系统",
+    "object_type": "核心系统"
+  },
+  {
+    "subject": "高效合理的系统架构",
+    "subject_type": "系统架构",
+    "relation": "能...发挥",
+    "object": "系统的功能与作用",
+    "object_type": "功能"
+  },
+  {
+    "subject": "航空发动机健康管理系统功能架构优化方法",
+    "subject_type": "研究",
+    "relation": "实现",
+    "object": "系统功能的最优分配",
+    "object_type": "目标"
+  },
+  {
+    "subject": "航空发动机健康管理系统功能架构优化方法",
+    "subject_type": "研究",
+    "relation": "提炼形成",
+    "object": "通用的发动机健康管理系统功能架构",
+    "object_type": "功能架构"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "方法",
+    "relation": "基于",
+    "object": "逻辑决断图和层次分析法（AHP）",
+    "object_type": "方法"
+  },
+  {
+    "subject": "提出的分配方法",
+    "subject_type": "方法",
+    "relation": "可实现...的...分配",
+    "object": "状态监测、故障诊断、故障预测、寿命管理及趋势分析功能",
+    "object_type": "功能"
+  },
+  {
+    "subject": "状态监测、故障诊断、故障预测、寿命管理及趋势分析功能",
+    "subject_type": "功能",
+    "relation": "分配至",
+    "object": "机载和地面系统",
+    "object_type": "系统"
+  },
+  {
+    "subject": "通用健康管理系统架构",
+    "subject_type": "功能架构",
+    "relation": "可实现...的全面覆盖",
+    "object": "发动机健康管理系统核心功能及用户需求",
+    "object_type": "内容"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "方法",
+    "relation": "可实现...的优化配置",
+    "object": "机载、地面系统功能",
+    "object_type": "功能"
+  }
+]

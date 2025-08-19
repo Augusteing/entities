@@ -1,0 +1,105 @@
+{
+  "document_name": "大数据下数模联动的随机退化设备剩余寿命预测技术.json",
+  "comparison_summary": {
+    "total_in_new_method": 11,
+    "total_in_old_method": 7,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 11,
+    "unique_to_old_method_count": 7
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "剩余寿命预测",
+      "relation": "面临",
+      "object": "不确定性量化"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "结合",
+      "object": "机器学习方法"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "结合",
+      "object": "统计数据驱动方法"
+    },
+    {
+      "subject": "剩余寿命预测",
+      "relation": "应用于",
+      "object": "航空发动机"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "解决",
+      "object": "剩余寿命预测"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "融合",
+      "object": "机理模型"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "验证于",
+      "object": "航空发动机多源监测数据"
+    },
+    {
+      "subject": "数模联动",
+      "relation": "结合",
+      "object": "随机退化建模"
+    },
+    {
+      "subject": "深度学习",
+      "relation": "属于",
+      "object": "机器学习方法"
+    },
+    {
+      "subject": "剩余寿命预测",
+      "relation": "针对",
+      "object": "随机退化设备"
+    },
+    {
+      "subject": "剩余寿命预测",
+      "relation": "基于",
+      "object": "大数据"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "统计数据驱动的预测技术",
+      "relation": "addresses",
+      "object": "不确定性量化问题"
+    },
+    {
+      "subject": "深度学习与退化建模交互联动",
+      "relation": "predicts",
+      "object": "不确定性量化问题"
+    },
+    {
+      "subject": "特征",
+      "relation": "is_from",
+      "object": "多源传感监测大数据"
+    },
+    {
+      "subject": "数模联动预测思路",
+      "relation": "achieves",
+      "object": "剩余寿命预测结果"
+    },
+    {
+      "subject": "剩余寿命预测结果",
+      "relation": "suggests",
+      "object": "研究展望"
+    },
+    {
+      "subject": "深度学习与退化建模交互联动",
+      "relation": "is_applied_to",
+      "object": "航空发动机"
+    },
+    {
+      "subject": "基于机器学习的预测技术",
+      "relation": "addresses",
+      "object": "随机退化设备剩余寿命预测"
+    }
+  ]
+}

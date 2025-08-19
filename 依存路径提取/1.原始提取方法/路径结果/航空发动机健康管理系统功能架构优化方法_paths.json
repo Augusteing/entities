@@ -1,0 +1,605 @@
+[
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "的",
+            "cpm"
+          ],
+          [
+            "提升",
+            "rcmod"
+          ],
+          [
+            "之一",
+            "attr"
+          ],
+          [
+            "是",
+            "root"
+          ],
+          [
+            "系统",
+            "top"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "的",
+            "assm"
+          ],
+          [
+            "系统",
+            "assmod"
+          ],
+          [
+            "技术",
+            "attr"
+          ],
+          [
+            "是",
+            "root"
+          ],
+          [
+            "设计",
+            "top"
+          ],
+          [
+            "架构",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "的",
+            "cpm"
+          ],
+          [
+            "高效",
+            "rcmod"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "针对",
+            "root"
+          ],
+          [
+            "需求",
+            "pobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "的",
+            "assm"
+          ],
+          [
+            "架构",
+            "assmod"
+          ],
+          [
+            "合理性",
+            "dobj"
+          ],
+          [
+            "提升",
+            "pccomp"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "功能",
+            "assmod"
+          ],
+          [
+            "分配",
+            "dobj"
+          ],
+          [
+            "实现",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "功能",
+            "nn"
+          ],
+          [
+            "方法",
+            "nn"
+          ],
+          [
+            "系统",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "和",
+            "cc"
+          ],
+          [
+            "比较",
+            "dep"
+          ],
+          [
+            "分析",
+            "root"
+          ],
+          [
+            "架构",
+            "dobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": [
+          [
+            "和",
+            "cc"
+          ],
+          [
+            "比较",
+            "dep"
+          ],
+          [
+            "分析",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": [
+          [
+            "分析",
+            "root"
+          ],
+          [
+            "架构",
+            "dobj"
+          ],
+          [
+            "飞机",
+            "nn"
+          ],
+          [
+            "发动机",
+            "conj"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "基于",
+            "prep"
+          ],
+          [
+            "架构",
+            "pobj"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": [
+          [
+            "基于",
+            "prep"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": [
+          [
+            "基于",
+            "prep"
+          ]
+        ]
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "的",
+            "cpm"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": [
+          [
+            "的",
+            "cpm"
+          ],
+          [
+            "提出",
+            "rcmod"
+          ],
+          [
+            "方法",
+            "nsubj"
+          ],
+          [
+            "实现",
+            "ccomp"
+          ],
+          [
+            "分配",
+            "dobj"
+          ],
+          [
+            "功能",
+            "nn"
+          ],
+          [
+            "分析",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": [
+          [
+            "分析",
+            "nn"
+          ],
+          [
+            "管理",
+            "conj"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+        "relation": "解决",
+        "path": [
+          [
+            "功能",
+            "conj"
+          ],
+          [
+            "需求",
+            "assmod"
+          ],
+          [
+            "覆盖",
+            "dobj"
+          ],
+          [
+            "实现",
+            "root"
+          ],
+          [
+            "在",
+            "prep"
+          ],
+          [
+            "中",
+            "plmod"
+          ],
+          [
+            "设计",
+            "lobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "逻辑决断图",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "一种针对部件和故障的功能分配方法",
+        "object": "层次分析法（AHP）",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "层次分析法（AHP）",
+        "object": "航空发动机健康管理系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      }
+    ]
+  }
+]

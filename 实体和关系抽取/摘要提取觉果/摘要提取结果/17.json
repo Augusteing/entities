@@ -1,0 +1,128 @@
+[
+  {
+    "subject": "王诗彬",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "王世傲",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "陈雪峰",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "黄海",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "安波涛",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "赵志斌",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "刘永泉",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "李应红",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "基于迭代算法展开的网络构造框架",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "模型可解释性差",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "基于迭代算法展开的网络构造框架",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "理论基础薄弱",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "基于迭代算法展开的网络构造框架",
+    "subject_type": "研究方法 (Method)",
+    "relation": "使用",
+    "object": "航空发动机可解释性智能监测诊断网络",
+    "object_type": "模型 (Model)"
+  },
+  {
+    "subject": "航空发动机可解释性智能监测诊断网络",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "某型涡扇发动机",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "航空发动机可解释性智能监测诊断网络",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "中介轴承",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "可解释性异常检测子网络",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "异常检测",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+  {
+    "subject": "可解释性故障诊断子网络",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "中介轴承故障",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+  {
+    "subject": "航空发动机可解释性智能监测诊断网络",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "有效性",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "航空发动机可解释性智能监测诊断网络",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "可靠性",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "航空发动机可解释性智能监测诊断网络",
+    "subject_type": "模型 (Model)",
+    "relation": "训练于",
+    "object": "某型涡扇发动机整机长试试验积累的超过500小时的试车数据",
+    "object_type": "数据集 (Dataset)"
+  }
+]

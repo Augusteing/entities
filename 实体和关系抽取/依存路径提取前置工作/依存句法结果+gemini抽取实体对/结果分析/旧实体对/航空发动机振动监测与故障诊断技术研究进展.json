@@ -1,0 +1,24 @@
+[
+  
+  {
+    "subject": "航空发动机振动类故障诊断技术",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "动力学分析",
+    "object_type": "Method"
+  },
+  {
+    "subject": "航空发动机振动类故障诊断技术",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "信号处理",
+    "object_type": "Method"
+  },
+  {
+    "subject": "航空发动机振动类故障诊断技术",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "深度学习",
+    "object_type": "Model"
+  }
+]

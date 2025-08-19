@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "type": "论文 (Paper)",
+            "description": "描述论文基本信息，如标题。"
+        },
+        {
+            "type": "作者 (Author)",
+            "description": "描述论文基本信息，如作者姓名。"
+        },
+        {
+            "type": "单位 (Affiliation)",
+            "description": "描述论文基本信息，如作者所属机构。"
+        },
+        {
+            "type": "发表时间 (Date)",
+            "description": "描述论文基本信息，如发表或收稿日期。"
+        },
+        {
+            "type": "引用文献 (Cited Paper)",
+            "description": "描述论文基本信息，指参考文献部分。"
+        },
+        {
+            "type": "研究问题 (Problem)",
+            "description": "描述论文核心研究工作，指论文试图解决的具体挑战。"
+        },
+        {
+            "type": "研究方法 (Method)",
+            "description": "描述论文核心研究工作，指为解决问题而采用的总体思路或实验设计。"
+        },
+        {
+            "type": "模型 (Model)",
+            "description": "描述论文核心研究工作，指文中提出的具体算法模型或网络结构。"
+        },
+        {
+            "type": "研究结果 (Finding)",
+            "description": "描述论文核心研究工作，指通过研究实验得出的具体发现或结论。"
+        },
+        {
+            "type": "研究展望 (Future Work)",
+            "description": "描述论文核心研究工作，指对未来工作的建议或设想。"
+        },
+        {
+            "type": "系统/部件 (System/Component)",
+            "description": "PHM的研究对象，如发动机、轴承。"
+        },
+        {
+            "type": "故障模式 (Fault Mode)",
+            "description": "需要被预测或诊断的具体故障类型。"
+        },
+        {
+            "type": "数据集 (Dataset)",
+            "description": "数据处理与特征，用于训练、验证或测试模型的数据集。"
+        },
+        {
+            "type": "传感器/监测参数 (Sensor/Parameter)",
+            "description": "数据处理与特征，用于采集数据的设备或被监测的物理量。"
+        },
+        {
+            "type": "特征/健康指标 (Feature/HI)",
+            "description": "数据处理与特征，从数据中提取的、用于表征系统状态的量化指标。"
+        },
+        {
+            "type": "性能指标 (Metric)",
+            "description": "衡量方法优劣的评价标准，如准确率、RUL误差。"
+        },
+        {
+            "type": "软件工具 (Tool)",
+            "description": "研究所用的工具和潜在应用领域。"
+        },
+        {
+            "type": "应用场景 (Application)",
+            "description": "研究所用的工具和潜在应用领域。"
+        }
+    ],
+    "relations": [
+        {
+            "type": "撰写 (writes)",
+            "head": "作者 (Author)",
+            "tail": "论文 (Paper)"
+        },
+        {
+            "type": "解决 (addresses)",
+            "head": "研究方法 (Method)",
+            "tail": "研究问题 (Problem)"
+        },
+        {
+            "type": "使用 (uses)",
+            "head": "研究方法 (Method)",
+            "tail": "模型 (Model)"
+        },
+        {
+            "type": "应用于 (is_applied_to)",
+            "head": "模型 (Model)",
+            "tail": "系统/部件 (System/Component)"
+        },
+        {
+            "type": "预测/诊断 (predicts/diagnoses)",
+            "head": "模型 (Model)",
+            "tail": "故障模式 (Fault Mode)"
+        },
+        {
+            "type": "得出 (achieves)",
+            "head": "模型 (Model)",
+            "tail": "研究结果 (Finding)"
+        },
+        {
+            "type": "建议 (suggests)",
+            "head": "研究结果 (Finding)",
+            "tail": "研究展望 (Future Work)"
+        },
+        {
+            "type": "来自 (is_from)",
+            "head": "特征/健康指标 (Feature/HI)",
+            "tail": "传感器/监测参数 (Sensor/Parameter)"
+        },
+        {
+            "type": "评估指标是 (is_evaluated_by)",
+            "head": "模型 (Model)",
+            "tail": "性能指标 (Metric)"
+        }
+    ]
+}

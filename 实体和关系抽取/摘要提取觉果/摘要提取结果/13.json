@@ -1,0 +1,37 @@
+[
+  {
+    "subject": "陈肖楠",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于混合驱动的航空发动机气路故障诊断技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "王奕首",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于混合驱动的航空发动机气路故障诊断技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "卿新林",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于混合驱动的航空发动机气路故障诊断技术综述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "文献综述",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "航空发动机气路故障诊断技术面临的挑战",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "各种故障诊断方法的特点、优势及不足",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "航空发动机气路故障诊断技术的发展趋势",
+    "object_type": "Future Work"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "template_id": "T1",
+    "pattern": "基于(.*?)的(.*?)方法",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T2",
+    "pattern": "融合(.*?)与(.*?)方法",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T3",
+    "pattern": "基于(.*?)理论",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T4",
+    "pattern": "(采用|提出)(.*?)方法",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T5",
+    "pattern": "(采用|结合|通过|利用)(.*?)算法",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T6",
+    "pattern": "(采用|结合|通过|利用)(.*?)技术",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T7",
+    "pattern": "(采用|结合|通过|利用)(.*?)模型",
+    "entity_type": "研究方法"
+  },
+  {
+    "template_id": "T8",
+    "pattern": "(针对|研究)(.*?)问题",
+    "entity_type": "研究问题"
+  },
+  {
+    "template_id": "T9",
+    "pattern": "开展(.*?)研究",
+    "entity_type": "研究问题"
+  },
+  {
+    "template_id": "T10",
+    "pattern": "现有(.*?)在(.*?)方面存在不足",
+    "entity_type": "研究问题"
+  },
+  {
+    "template_id": "T11",
+    "pattern": "(.*?)系统面临(.*?)挑战",
+    "entity_type": "研究问题"
+  },
+  {
+    "template_id": "T12",
+    "pattern": "聚焦于解决(.*?)问题",
+    "entity_type": "研究问题"
+  },
+  {
+    "template_id": "T13",
+    "pattern": "(构建|提出)(.*?)模型",
+    "entity_type": "模型"
+  },
+  {
+    "template_id": "T14",
+    "pattern": "设计(.*?)(模型|框架)",
+    "entity_type": "模型"
+  },
+  {
+    "template_id": "T15",
+    "pattern": "基于(.*?)的(.*?)模型",
+    "entity_type": "模型"
+  },
+  {
+    "template_id": "T16",
+    "pattern": "准确率|精度|召回率|平均绝对误差|均方根误差|均方误差|计算耗时|收敛速度|故障检测率|故障隔离率",
+    "entity_type": "性能指标"
+  },
+  {
+    "template_id": "T17",
+    "pattern": "(.*?)率",
+    "entity_type": "性能指标"
+  },
+  {
+    "template_id": "T18",
+    "pattern": "轴承磨损|转子失衡|叶片损伤|齿轮箱故障|气路性能退化|冷却液泄漏|压力异常|流量波动|传感器漂移|电路故障|控制模块失效|舵面卡死|液压系统泄漏|滑油系统性能衰退|发动机喘振",
+    "entity_type": "故障模式"
+  },
+  {
+    "template_id": "T19",
+    "pattern": "(.*?)故障",
+    "entity_type": "故障模式"
+  },
+  {
+    "template_id": "T20",
+    "pattern": "(.*?)异常",
+    "entity_type": "故障模式"
+  },
+  {
+    "template_id": "T21",
+    "pattern": "(?i)AMESim|MATLAB|Simulink|ADAMS|Python|TensorFlow|PyTorch|Keras|Scikit-learn|MagicDraw|xPC Target",
+    "entity_type": "软件工具"
+  },
+  {
+    "template_id": "T22",
+    "pattern": "(.*?)软件",
+    "entity_type": "软件工具"
+  },
+  {
+    "template_id": "T23",
+    "pattern": "(.*?)平台",
+    "entity_type": "软件工具"
+  },
+  {
+    "template_id": "T24",
+    "pattern": "健康状态监测|气路故障诊断|剩余寿命预测|滑油系统管理|涡轮发动机健康管理|飞行控制系统故障监测|起落架健康管理|电源系统故障诊断|预测性维修决策|视情维修策略制定|全生命周期健康管理|地面综合诊断系统|航空柱塞泵故障预测|航电系统综合集成|导弹发射装置健康管理",
+    "entity_type": "应用场景"
+  },
+  {
+    "template_id": "T25",
+    "pattern": "用于(.*?)的(.*?)系统",
+    "entity_type": "应用场景"
+  },
+  {
+    "template_id": "T26",
+    "pattern": "(.*?)健康管理",
+    "entity_type": "应用场景"
+  },
+  {
+    "template_id": "T27",
+    "pattern": "(.*?)诊断",
+    "entity_type": "应用场景"
+  },
+  {
+    "template_id": "T28",
+    "pattern": "(.*?)预测",
+    "entity_type": "应用场景"
+  }
+]

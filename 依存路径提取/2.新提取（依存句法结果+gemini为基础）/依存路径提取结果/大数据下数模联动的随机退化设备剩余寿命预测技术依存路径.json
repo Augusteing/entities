@@ -1,0 +1,236 @@
+{
+  "title": "大数据下数模联动的随机退化设备剩余寿命预测技术",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "数模联动",
+      "object": "剩余寿命预测",
+      "relation": "解决",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "随机退化设备",
+      "relation": "针对",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "不确定性量化",
+      "relation": "面临",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "机器学习方法",
+      "relation": "结合",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "统计数据驱动方法",
+      "relation": "结合",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "随机退化建模",
+      "relation": "结合",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深度学习",
+      "object": "机器学习方法",
+      "relation": "属于",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "航空发动机多源监测数据",
+      "relation": "验证于",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "大数据",
+      "relation": "基于",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "机理模型",
+      "relation": "融合",
+      "path": [
+        [
+          "面向",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "subject": "功能架构优化方法",
+    "subject_type": "研究方法",
+    "relation": "针对",
+    "object": "航空发动机健康管理系统",
+    "object_type": "系统/部件"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "研究方法",
+    "relation": "采用",
+    "object": "逻辑决断图",
+    "object_type": "研究方法"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "研究方法",
+    "relation": "采用",
+    "object": "层次分析法(AHP)",
+    "object_type": "研究方法"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "研究方法",
+    "relation": "实现",
+    "object": "功能优化配置",
+    "object_type": "研究结果"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "研究方法",
+    "relation": "应用于",
+    "object": "部件与故障的功能分配",
+    "object_type": "研究问题"
+  },
+  {
+    "subject": "健康管理系统",
+    "subject_type": "系统/部件",
+    "relation": "具有核心功能",
+    "object": "状态监测",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "健康管理系统",
+    "subject_type": "系统/部件",
+    "relation": "具有核心功能",
+    "object": "故障诊断",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "健康管理系统",
+    "subject_type": "系统/部件",
+    "relation": "具有核心功能",
+    "object": "故障预测",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "健康管理系统",
+    "subject_type": "系统/部件",
+    "relation": "具有核心功能",
+    "object": "寿命管理",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "健康管理系统架构设计",
+    "subject_type": "研究问题",
+    "relation": "需满足",
+    "object": "用户需求",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "健康管理系统架构设计",
+    "subject_type": "研究问题",
+    "relation": "需考虑",
+    "object": "经济可承受性",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "飞机健康管理系统",
+    "subject_type": "系统/部件",
+    "relation": "具有共同特征",
+    "object": "发动机健康管理系统",
+    "object_type": "系统/部件"
+  },
+  {
+    "subject": "通用健康管理系统架构",
+    "subject_type": "模型",
+    "relation": "可应用于",
+    "object": "发动机健康管理系统设计",
+    "object_type": "研究问题"
+  },
+  {
+    "subject": "提出的分配方法",
+    "subject_type": "研究方法",
+    "relation": "实现",
+    "object": "定量分配",
+    "object_type": "研究结果"
+  }
+]

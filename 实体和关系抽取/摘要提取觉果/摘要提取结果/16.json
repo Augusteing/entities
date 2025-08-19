@@ -1,0 +1,86 @@
+[
+  {
+    "subject": "李大为",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "王奕首",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "李军",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "谢业平",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "张博文",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "夏迩豪",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "军用航空发动机气路故障诊断技术进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "机载实时模型",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "自适应循环发动机",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "机载实时模型",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "过渡态气路故障",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+  {
+    "subject": "提出了军用航空发动机气路故障诊断的关键技术",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "分阶段实施",
+    "object_type": "研究展望 (Future Work)"
+  },
+  {
+    "subject": "提出了军用航空发动机气路故障诊断的关键技术",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "利用机载实时模型开展不可测参数与可测参数关联研究",
+    "object_type": "研究展望 (Future Work)"
+  },
+  {
+    "subject": "提出了军用航空发动机气路故障诊断的关键技术",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "加强模式转换等过渡态气路故障诊断设计",
+    "object_type": "研究展望 (Future Work)"
+  },
+  {
+    "subject": "提出了军用航空发动机气路故障诊断的关键技术",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "辩证地处理控制系统和健康管理系统的功能分配关系",
+    "object_type": "研究展望 (Future Work)"
+  }
+]

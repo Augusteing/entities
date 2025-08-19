@@ -1,0 +1,65 @@
+[
+  {
+    "relation": "撰写",
+    "relation_label": "writes",
+    "subject_type": "作者 (Author)",
+    "object_type": "论文 (Paper)",
+    "example": "(张三) - [撰写] -> (论文A)"
+  },
+  {
+    "relation": "解决",
+    "relation_label": "addresses",
+    "subject_type": "研究方法 (Method)",
+    "object_type": "研究问题 (Problem)",
+    "example": "(深度学习方法) - [解决] -> (早期故障诊断问题)"
+  },
+  {
+    "relation": "使用",
+    "relation_label": "uses",
+    "subject_type": "研究方法 (Method)",
+    "object_type": "模型 (Model)",
+    "example": "(研究方法A) - [使用] -> (LSTM模型)"
+  },
+  {
+    "relation": "应用于",
+    "relation_label": "is_applied_to",
+    "subject_type": "模型 (Model)",
+    "object_type": "系统/部件 (System)",
+    "example": "(LSTM模型) - [应用于] -> (航空发动机)"
+  },
+  {
+    "relation": "预测/诊断",
+    "relation_label": "predicts/diagnoses",
+    "subject_type": "模型 (Model)",
+    "object_type": "故障模式 (Fault Mode)",
+    "example": "(LSTM模型) - [预测] -> (轴承外圈磨损)"
+  },
+  {
+    "relation": "得出",
+    "relation_label": "achieves",
+    "subject_type": "模型 (Model)",
+    "object_type": "研究结果 (Finding)",
+    "example": "(模型A) - [得出] -> (RUL预测误差为5%)"
+  },
+  {
+    "relation": "建议",
+    "relation_label": "suggests",
+    "subject_type": "研究结果 (Finding)",
+    "object_type": "研究展望 (Future Work)",
+    "example": "(结果A) - [建议] -> (未来的研究方向B)"
+  },
+  {
+    "relation": "来自",
+    "relation_label": "is_from",
+    "subject_type": "特征 (Feature)",
+    "object_type": "传感器 (Sensor)",
+    "example": "(峭度因子) - [来自] -> (振动信号)"
+  },
+  {
+    "relation": "评估指标是",
+    "relation_label": "is_evaluated_by",
+    "subject_type": "模型 (Model)",
+    "object_type": "性能指标 (Metric)",
+    "example": "(LSTM模型) - [评估指标是] -> (准确率)"
+  }
+]

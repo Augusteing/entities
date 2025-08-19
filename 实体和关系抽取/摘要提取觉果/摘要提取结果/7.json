@@ -1,0 +1,65 @@
+[
+  {
+    "subject": "孙见忠",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "王卓健",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "闫洪胜",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "李哲",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "段司正",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "胡汉纯",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "左洪福",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空预测性维修研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "技术综述与分析",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "航空预测性维修目前面临的技术与应用方面的挑战",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "对航空预测性维修目前面临的技术与应用方面的挑战的分析",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "未来需要重点关注的领域方向",
+    "object_type": "Future Work"
+  }
+]

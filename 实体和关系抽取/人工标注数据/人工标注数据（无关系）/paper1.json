@@ -1,0 +1,454 @@
+{
+    "entities": [
+        {
+            "type": "论文",
+            "text": "飞机开关磁阻发电系统故障推理模型研究"
+        },
+        {
+            "type": "作者",
+            "text": "李宁"
+        },
+        {
+            "type": "作者",
+            "text": "雷洪利"
+        },
+        {
+            "type": "作者",
+            "text": "韩建定"
+        },
+        {
+            "type": "作者",
+            "text": "朱喜华"
+        },
+        {
+            "type": "单位",
+            "text": "空军工程大学工程学院,陕西西安710038"
+        },
+        {
+            "type": "系统/部件",
+            "text": "开关磁阻发电系统"
+        },
+        {
+            "type": "研究问题",
+            "text": "研究飞机供电系统健康管理技术,减少故障推理模型的检测参数"
+        },
+        {
+            "type": "软件工具",
+            "text": "MATLAB"
+        },
+        {
+            "type": "故障模式",
+            "text": "开关磁阻发电机典型电气故障"
+        },
+        {
+            "type": "研究方法",
+            "text": "引入记忆模块"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "发电机输出电压信号"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD算法"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "分解后的各层频率信号的标准差"
+        },
+        {
+            "type": "模型",
+            "text": "神经网络"
+        },
+        {
+            "type": "研究结果",
+            "text": "开关磁阻发电系统的故障推理模型"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "输出电压"
+        },
+        {
+            "type": "研究问题",
+            "text": "the application of PHM in the power system of airplane"
+        },
+        {
+            "type": "研究方法",
+            "text": "reduce the measure parameters"
+        },
+        {
+            "type": "软件工具",
+            "text": "MATLAB"
+        },
+        {
+            "type": "软件工具",
+            "text": "memory module"
+        },
+        {
+            "type": "模型",
+            "text": "fault deducing model"
+        },
+        {
+            "type": "论文",
+            "text": "Fault deducing model research of switched reluctance power system of\nairplane based on PHM"
+        },
+        {
+            "type": "作者",
+            "text": "LI Ning"
+        },
+        {
+            "type": "作者",
+            "text": "LEI Hong-li"
+        },
+        {
+            "type": "作者",
+            "text": "HAN Jian-ding"
+        },
+        {
+            "type": "作者",
+            "text": "ZHU Xi-hua"
+        },
+        {
+            "type": "单位",
+            "text": "Engineering College, Air-force Engineering University, Xi'an Shanxi 710038, China"
+        },
+        {
+            "type": "系统/部件",
+            "text": "The switched reluctance power system"
+        },
+        {
+            "type": "故障模式",
+            "text": "the typical electric faults of SRG"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "The SRG voltage signal"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "the decomposed signal as character data"
+        },
+        {
+            "type": "模型",
+            "text": "the neural network"
+        },
+        {
+            "type": "研究结果",
+            "text": "the fault concluding model of SRG man electrical power system"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "the output voltage"
+        },
+        {
+            "type": "研究问题",
+            "text": "故障推理模型、故障预测模型的建立是健康管理系统的关键技术"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD算法"
+        },
+        {
+            "type": "模型",
+            "text": "故障推理模型"
+        },
+        {
+            "type": "模型",
+            "text": "开关磁阻发电系统原理"
+        },
+        {
+            "type": "研究问题",
+            "text": "开关磁阻发电机故障"
+        },
+        {
+            "type": "研究问题",
+            "text": "开关磁阻发电机的仿真模型"
+        },
+        {
+            "type": "故障模式",
+            "text": "绕组开路"
+        },
+        {
+            "type": "软件工具",
+            "text": "MATLAB"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "相电阻"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD算法"
+        },
+        {
+            "type": "模型",
+            "text": "故障推理模型"
+        },
+        {
+            "type": "研究问题",
+            "text": "开关磁阻发电机故障特征提取"
+        },
+        {
+            "type": "故障模式",
+            "text": "绕组开路"
+        },
+        {
+            "type": "故障模式",
+            "text": "绕组短路"
+        },
+        {
+            "type": "故障模式",
+            "text": "匝间短路"
+        },
+        {
+            "type": "故障模式",
+
+            "text": "绕组正端输出接地"
+        },
+        {
+            "type": "故障模式",
+            "text": "功率管开路"
+        },
+        {
+            "type": "故障模式",
+            "text": "功率管短路"
+        },
+        {
+            "type": "故障模式",
+            "text": "功率管输出接地"
+        },
+        {
+            "type": "故障模式",
+            "text": "正常状态"
+        },
+        {
+            "type": "模型",
+            "text": "相电压方程式"
+        },
+        {
+            "type": "模型",
+            "text": "相绕组电感的模型"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "导通角"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "关断角"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "转速"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "负载电阻"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "输出电容"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "PID 参数"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "转子极弧"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "定子极弧"
+        },
+        {
+            "type": "传感器/监测参数",
+            "text": "单边气隙长度"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "输出电压"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD算法"
+        },
+        {
+            "type": "研究问题",
+            "text": "开关磁阻发电机故障特征提取"
+        },
+        {
+            "type": "研究方法",
+            "text": "EMD算法"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "分解后每层信号的标准差"
+        },
+        {
+            "type": "模型",
+            "text": "B-P神经网络"
+        },
+        {
+            "type": "研究问题",
+            "text": "开关磁阻发电系统"
+        },
+        {
+            "type": "故障模式",
+            "text": "典型电气故障"
+        },
+        {
+            "type": "软件工具",
+            "text": "MATLAB"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "开关磁阻发电机输出电压信号"
+        },
+        {
+            "type": "研究问题",
+            "text": "EMD算法"
+        },
+        {
+            "type": "特征/健康指标",
+            "text": "分解后不同频率信号的标准差"
+        },
+        {
+            "type": "模型",
+            "text": "神经网络"
+        },
+        {
+            "type": "研究结果",
+            "text": "开关磁阻发电机主电源系统的故障推理模型"
+        },
+        {
+            "type": "引用文献",
+            "text": "巩建英,刘卫国,开关磁阻发电系统仿真与稳定性分析[ 系统仿真学报、2009、21(20): 6634-6638"
+        },
+        {
+            "type": "引用文献",
+            "text": "方天治,赵德安,开关磁阻发电机的控制模式及仿真研究[J]. 计算机仿真, 2004, 21(4): 51-53,"
+        },
+        {
+            "type": "引用文献",
+            "text": "刘震,林辉,司利云,开关磁阻发电系统故障分析与仿真[],电力系统及其自动化学报,2005,17(5):7-11"
+        },
+        {
+            "type": "引用文献",
+            "text": "刘震,林辉,徐敏,多电飞机开关磁阻发电系统的数字仿真研究 [J]. 系统仿真学报,2005,17(12): 3070-3073"
+        },
+        {
+            "type": "引用文献",
+            "text": "张慧,开关磁阻发电机系统的研究[D]. 浙江:浙江大学,2003"
+        },
+        {
+            "type": "引用文献",
+            "text": "陈东锁,开关磁阻电机驱动系统的动态模型及仿真[D]. 太原:太原理工大学,2002"
+        },
+        {
+            "type": "引用文献",
+            "text": "顾明磊,开关磁阻电机发电控制系统的研究[D]. 武汉:华中科技大学,2007"
+        },
+        {
+            "type": "引用文献",
+            "text": "张慧,开关磁阻发电机系统的研究[D]. 杭州:浙江大学,2003"
+        },
+        {
+            "type": "引用文献",
+            "text": "FAIZ J, MOAYED-ZADEH K. Design of switched reluctance machine for starter/generator of hybrid electric vehicle [J]. Electric Power Systems Research (S0378-7796), 2005, 75(2) 153-160"
+        },
+        {
+            "type": "引用文献",
+            "text": "ZHANG JH, ARTHUR V R. A new method to measure the switched reluctance motor's flux [J]. IEEE Transaction on Industry Applications (S0093-9994), 2006, 42(5): 1171-1176"
+        },
+        {
+            "type": "发表时间",
+            "text": "2011-03-02"
+        },
+        {
+            "type": "作者",
+            "text": "李宁"
+        }
+    ],
+    "relations": [
+        {
+            "type": "撰写",
+            "head": "李宁",
+            "tail": "飞机开关磁阻发电系统故障推理模型研究"
+        },
+        {
+            "type": "撰写",
+            "head": "雷洪利",
+            "tail": "飞机开关磁阻发电系统故障推理模型研究"
+        },
+        {
+            "type": "撰写",
+            "head": "韩建定",
+            "tail": "飞机开关磁阻发电系统故障推理模型研究"
+        },
+        {
+            "type": "撰写",
+            "head": "朱喜华",
+            "tail": "飞机开关磁阻发电系统故障推理模型研究"
+        },
+        {
+            "type": "解决",
+            "head": "基于EMD算法和神经网络的研究方法",
+            "tail": "开关磁阻发电系统故障诊断"
+        },
+        {
+            "type": "使用",
+            "head": "基于EMD算法和神经网络的研究方法",
+            "tail": "故障推理模型"
+        },
+        {
+            "type": "应用于",
+            "head": "故障推理模型",
+            "tail": "开关磁阻发电系统"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "定子绕组开路"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "绕组短路"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "绕组匝间短路"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "绕组正端输出接地"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "功率管开路"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "功率管短路"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障推理模型",
+            "tail": "功率管输出接地"
+        },
+        {
+            "type": "得出",
+            "head": "开关磁阻发电系统的故障推理模型",
+            "tail": "本模型只需测量输出电压一个参数，减少了检测参数的数量，为开关磁阻发电系统故障预测模型及飞机整个供电系统健康管理系统的开发奠定了基础。"
+        }
+    ]
+}

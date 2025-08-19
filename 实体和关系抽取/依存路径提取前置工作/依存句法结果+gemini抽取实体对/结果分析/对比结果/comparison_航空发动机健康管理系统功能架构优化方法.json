@@ -1,0 +1,105 @@
+{
+  "document_name": "航空发动机健康管理系统功能架构优化方法.json",
+  "comparison_summary": {
+    "total_in_new_method": 14,
+    "total_in_old_method": 4,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 14,
+    "unique_to_old_method_count": 4
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "飞机健康管理系统",
+      "relation": "具有共同特征",
+      "object": "发动机健康管理系统"
+    },
+    {
+      "subject": "功能分配方法",
+      "relation": "采用",
+      "object": "逻辑决断图"
+    },
+    {
+      "subject": "健康管理系统架构设计",
+      "relation": "需满足",
+      "object": "用户需求"
+    },
+    {
+      "subject": "功能架构优化方法",
+      "relation": "针对",
+      "object": "航空发动机健康管理系统"
+    },
+    {
+      "subject": "健康管理系统",
+      "relation": "具有核心功能",
+      "object": "状态监测"
+    },
+    {
+      "subject": "健康管理系统",
+      "relation": "具有核心功能",
+      "object": "故障预测"
+    },
+    {
+      "subject": "功能分配方法",
+      "relation": "采用",
+      "object": "层次分析法(AHP)"
+    },
+    {
+      "subject": "健康管理系统",
+      "relation": "具有核心功能",
+      "object": "故障诊断"
+    },
+    {
+      "subject": "提出的分配方法",
+      "relation": "实现",
+      "object": "定量分配"
+    },
+    {
+      "subject": "健康管理系统",
+      "relation": "具有核心功能",
+      "object": "寿命管理"
+    },
+    {
+      "subject": "功能分配方法",
+      "relation": "应用于",
+      "object": "部件与故障的功能分配"
+    },
+    {
+      "subject": "通用健康管理系统架构",
+      "relation": "可应用于",
+      "object": "发动机健康管理系统设计"
+    },
+    {
+      "subject": "功能分配方法",
+      "relation": "实现",
+      "object": "功能优化配置"
+    },
+    {
+      "subject": "健康管理系统架构设计",
+      "relation": "需考虑",
+      "object": "经济可承受性"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "层次分析法（AHP）",
+      "relation": "应用于",
+      "object": "航空发动机健康管理系统"
+    },
+    {
+      "subject": "一种针对部件和故障的功能分配方法",
+      "relation": "解决",
+      "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配"
+    },
+    {
+      "subject": "一种针对部件和故障的功能分配方法",
+      "relation": "使用",
+      "object": "层次分析法（AHP）"
+    },
+    {
+      "subject": "一种针对部件和故障的功能分配方法",
+      "relation": "使用",
+      "object": "逻辑决断图"
+    }
+  ]
+}

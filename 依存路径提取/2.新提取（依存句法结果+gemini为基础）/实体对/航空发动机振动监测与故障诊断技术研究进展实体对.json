@@ -1,0 +1,65 @@
+[
+  {
+    "subject": "航空发动机",
+    "subject_type": "System/Component",
+    "relation": "发生",
+    "object": "振动类故障",
+    "object_type": "Fault Mode"
+  },
+  {
+    "subject": "振动类故障",
+    "subject_type": "Fault Mode",
+    "relation": "是一种",
+    "object": "主要故障模式",
+    "object_type": "Fault Mode"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "Method",
+    "relation": "应用于",
+    "object": "航空发动机",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "健康管理技术",
+    "subject_type": "Method",
+    "relation": "包含",
+    "object": "故障诊断技术",
+    "object_type": "Method"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "Method",
+    "relation": "诊断",
+    "object": "振动类故障",
+    "object_type": "Fault Mode"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "Method",
+    "relation": "应用",
+    "object": "深度学习",
+    "object_type": "Method"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "Method",
+    "relation": "基于",
+    "object": "信号处理",
+    "object_type": "Method"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "Method",
+    "relation": "结合",
+    "object": "动力学分析",
+    "object_type": "Method"
+  },
+  {
+    "subject": "航空发动机",
+    "subject_type": "System/Component",
+    "relation": "处于",
+    "object": "恶劣服役环境",
+    "object_type": "Application"
+  }
+]

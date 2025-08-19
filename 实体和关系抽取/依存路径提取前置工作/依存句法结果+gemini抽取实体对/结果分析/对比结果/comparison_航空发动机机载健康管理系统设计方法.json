@@ -1,0 +1,105 @@
+{
+  "document_name": "航空发动机机载健康管理系统设计方法.json",
+  "comparison_summary": {
+    "total_in_new_method": 12,
+    "total_in_old_method": 6,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 12,
+    "unique_to_old_method_count": 6
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "系统正向设计流程",
+      "relation": "包含",
+      "object": "模块定义"
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "relation": "基于",
+      "object": "系统工程思想"
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "relation": "采用",
+      "object": "系统正向设计流程"
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "relation": "实现",
+      "object": "功能目标量化"
+    },
+    {
+      "subject": "系统正向设计流程",
+      "relation": "包含",
+      "object": "需求分析"
+    },
+    {
+      "subject": "系统正向设计流程",
+      "relation": "包含",
+      "object": "功能分配"
+    },
+    {
+      "subject": "航空发动机健康管理正向设计流程平台",
+      "relation": "实现",
+      "object": "图形化设计"
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "relation": "旨在解决",
+      "object": "航空发动机机载健康管理"
+    },
+    {
+      "subject": "研究",
+      "relation": "开发了",
+      "object": "航空发动机健康管理正向设计流程平台"
+    },
+    {
+      "subject": "研究",
+      "relation": "建立了",
+      "object": "健康管理功能架构体系"
+    },
+    {
+      "subject": "基于模型的设计方法",
+      "relation": "用于建立",
+      "object": "硬件设计模型"
+    },
+    {
+      "subject": "航空发动机机载健康管理系统",
+      "relation": "应用于",
+      "object": "航空发动机"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "由上到下的航空发动机健康管理系统正向设计基本流程",
+      "relation": "解决",
+      "object": "航空发动机机载健康管理系统正向设计流程不清晰、设计需求不明确、需求设计对应及追溯不规范的问题"
+    },
+    {
+      "subject": "由上到下的航空发动机健康管理系统正向设计基本流程",
+      "relation": "使用",
+      "object": "基于模型的系统工程思想"
+    },
+    {
+      "subject": "由上到下的航空发动机健康管理系统正向设计基本流程",
+      "relation": "使用",
+      "object": "图形化设计方法"
+    },
+    {
+      "subject": "建立了可扩展的流程平台",
+      "relation": "建议",
+      "object": "可为航空发动机机载健康管理系统设计提供参考"
+    },
+    {
+      "subject": "硬件设计模型",
+      "relation": "应用于",
+      "object": "航空发动机机载健康管理系统"
+    },
+    {
+      "subject": "建立了可用的硬件设计模型",
+      "relation": "建议",
+      "object": "可为航空发动机机载健康管理系统设计提供参考"
+    }
+  ]
+}

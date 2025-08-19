@@ -1,0 +1,1020 @@
+{
+  "title": "航空发动机健康管理系统功能架构分析与研究",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 1,
+    "path_found": 1,
+    "cross_sentence_pairs": 14,
+    "cross_sentence_path_found": 14
+  },
+  "pairs": [
+    {
+      "subject": "MagicGrid方法论",
+      "object": "航空发动机健康管理系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "object": "架构动态优化难题",
+      "relation": "解决",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "架构",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "object": "复杂系统需求边界模糊",
+      "relation": "解决",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "复杂",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "object": "MagicDraw",
+      "relation": "使用",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "平台",
+          "nsubj"
+        ],
+        [
+          "MagicDraw",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "object": "系统建模语言",
+      "relation": "基于",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "协同建模框架",
+      "object": "物理模型",
+      "relation": "用于构建",
+      "path": [
+        [
+          "协同",
+          "advmod"
+        ],
+        [
+          "建模",
+          "nn"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "物理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "物理模型",
+      "object": "块定义图与内部块图",
+      "relation": "通过",
+      "path": [
+        [
+          "物理",
+          "nn"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究成果",
+      "object": "预测效率",
+      "relation": "提升",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "成果",
+          "nsubj"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "降低",
+          "lccomp"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "效率",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 2
+        },
+        {
+          "sentence_index": 9,
+          "id": 4
+        },
+        {
+          "sentence_index": 8,
+          "id": 20
+        },
+        {
+          "sentence_index": 8,
+          "id": 3
+        },
+        {
+          "sentence_index": 8,
+          "id": 19
+        },
+        {
+          "sentence_index": 8,
+          "id": 4
+        },
+        {
+          "sentence_index": 8,
+          "id": 8
+        },
+        {
+          "sentence_index": 8,
+          "id": 10
+        },
+        {
+          "sentence_index": 8,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究成果",
+      "object": "功能重叠率",
+      "relation": "降低",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "成果",
+          "nsubj"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "物理",
+          "nn"
+        ],
+        [
+          "功能",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 2
+        },
+        {
+          "sentence_index": 9,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "object": "复杂装备系统设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "MagicGrid",
+          "nn"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "复杂",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可追溯性矩阵",
+      "object": "需求完整性分析",
+      "relation": "用于",
+      "path": [
+        [
+          "可追溯性",
+          "amod"
+        ],
+        [
+          "矩阵",
+          "dobj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "需求",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机健康管理系统",
+      "object": "航空发动机",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 10
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "案例验证",
+      "object": "MagicGrid方法论",
+      "relation": "验证",
+      "path": [
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "完成",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "融合",
+          "root"
+        ],
+        [
+          "方法论",
+          "dobj"
+        ],
+        [
+          "MagicGrid",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 9
+        },
+        {
+          "sentence_index": 4,
+          "id": 13
+        },
+        {
+          "sentence_index": 4,
+          "id": 7
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究成果",
+      "object": "普适参考价值",
+      "relation": "具有",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "成果",
+          "nsubj"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "价值",
+          "dobj"
+        ],
+        [
+          "普适",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 2
+        },
+        {
+          "sentence_index": 9,
+          "id": 4
+        },
+        {
+          "sentence_index": 12,
+          "id": 12
+        },
+        {
+          "sentence_index": 12,
+          "id": 15
+        },
+        {
+          "sentence_index": 12,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "生命周期建模范式",
+      "object": "系统工程实践",
+      "relation": "应用于",
+      "path": [
+        [
+          "建模",
+          "nn"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "难题",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

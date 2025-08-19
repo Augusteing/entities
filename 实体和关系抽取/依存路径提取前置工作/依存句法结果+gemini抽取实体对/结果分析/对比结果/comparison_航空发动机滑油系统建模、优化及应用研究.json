@@ -1,0 +1,105 @@
+{
+  "document_name": "航空发动机滑油系统建模、优化及应用研究.json",
+  "comparison_summary": {
+    "total_in_new_method": 8,
+    "total_in_old_method": 10,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 8,
+    "unique_to_old_method_count": 10
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "的评估指标是",
+      "object": "系统工作参数平均误差"
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "在...下验证",
+      "object": "典型工况"
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "包含",
+      "object": "通风、供油、热力、回油等子系统模型"
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "基于",
+      "object": "滑油系统元件物理特性"
+    },
+    {
+      "subject": "粒子群与遗传算法",
+      "relation": "用于优化",
+      "object": "滑油系统仿真模型"
+    },
+    {
+      "subject": "滑油系统健康管理",
+      "relation": "旨在实现",
+      "object": "滑油系统监测、诊断与预测"
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "旨在改进",
+      "object": "基于试验方法的监测与诊断"
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "relation": "应用于",
+      "object": "滑油系统健康管理"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "粒子群算法",
+      "relation": "得出",
+      "object": "较好的收敛性与优化效果"
+    },
+    {
+      "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+      "relation": "建议",
+      "object": "为滑油系统的健康管理提供支撑"
+    },
+    {
+      "subject": "滑油系统仿真模型构建与优化",
+      "relation": "使用",
+      "object": "粒子群算法"
+    },
+    {
+      "subject": "遗传算法",
+      "relation": "应用于",
+      "object": "航空发动机滑油系统"
+    },
+    {
+      "subject": "粒子群算法",
+      "relation": "对比",
+      "object": "遗传算法"
+    },
+    {
+      "subject": "滑油系统仿真模型构建与优化",
+      "relation": "使用",
+      "object": "遗传算法"
+    },
+    {
+      "subject": "滑油系统仿真模型构建与优化",
+      "relation": "解决",
+      "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点"
+    },
+    {
+      "subject": "粒子群算法",
+      "relation": "评估指标是",
+      "object": "平均误差"
+    },
+    {
+      "subject": "粒子群算法",
+      "relation": "得出",
+      "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右"
+    },
+    {
+      "subject": "粒子群算法",
+      "relation": "应用于",
+      "object": "航空发动机滑油系统"
+    }
+  ]
+}

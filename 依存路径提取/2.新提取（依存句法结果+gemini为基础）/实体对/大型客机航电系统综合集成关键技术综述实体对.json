@@ -1,0 +1,86 @@
+[
+  {
+    "subject": "大型客机航电系统",
+    "subject_type": "System/Component",
+    "relation": "需要",
+    "object": "航电系统综合集成",
+    "object_type": "Method"
+  },
+  {
+    "subject": "航电系统综合集成",
+    "subject_type": "Method",
+    "relation": "是",
+    "object": "关键技术",
+    "object_type": "Research Problem"
+  },
+  {
+    "subject": "综合模块化航电",
+    "subject_type": "Model",
+    "relation": "是",
+    "object": "航电系统架构",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "航电系统综合集成",
+    "subject_type": "Method",
+    "relation": "提升",
+    "object": "大型客机安全性",
+    "object_type": "Performance Metric"
+  },
+  {
+    "subject": "航电系统综合集成",
+    "subject_type": "Method",
+    "relation": "提升",
+    "object": "空域运行效能",
+    "object_type": "Performance Metric"
+  },
+  {
+    "subject": "大型客机航电系统",
+    "subject_type": "System/Component",
+    "relation": "包含",
+    "object": "飞行管理",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "大型客机航电系统",
+    "subject_type": "System/Component",
+    "relation": "包含",
+    "object": "通导监视",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "通导监视",
+    "subject_type": "Method",
+    "relation": "提升",
+    "object": "通导监视性能",
+    "object_type": "Performance Metric"
+  },
+  {
+    "subject": "安全性设计",
+    "subject_type": "Method",
+    "relation": "遵循",
+    "object": "安全性设计流程",
+    "object_type": "Method"
+  },
+  {
+    "subject": "国产大型客机",
+    "subject_type": "Application",
+    "relation": "推动",
+    "object": "客机综合化航电系统研制",
+    "object_type": "Research Problem"
+  },
+  {
+    "subject": "现代综合化航电系统",
+    "subject_type": "System/Component",
+    "relation": "处理",
+    "object": "机载信息",
+    "object_type": "Sensor/Parameter"
+  },
+  {
+    "subject": "航电系统架构",
+    "subject_type": "System/Component",
+    "relation": "决定",
+    "object": "功能特征",
+    "object_type": "Performance Metric"
+  }
+]

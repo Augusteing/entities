@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "研究方法",
+    "relation": "解决",
+    "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+    "object_type": "研究问题"
+  },
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "研究方法",
+    "relation": "使用",
+    "object": "粒子群算法",
+    "object_type": "模型"
+  },
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "研究方法",
+    "relation": "使用",
+    "object": "遗传算法",
+    "object_type": "模型"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "模型",
+    "relation": "应用于",
+    "object": "航空发动机滑油系统",
+    "object_type": "系统/部件"
+  },
+  {
+    "subject": "遗传算法",
+    "subject_type": "模型",
+    "relation": "应用于",
+    "object": "航空发动机滑油系统",
+    "object_type": "系统/部件"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "模型",
+    "relation": "对比",
+    "object": "遗传算法",
+    "object_type": "模型"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "模型",
+    "relation": "得出",
+    "object": "较好的收敛性与优化效果",
+    "object_type": "研究结果"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "模型",
+    "relation": "得出",
+    "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+    "object_type": "研究结果"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "模型",
+    "relation": "评估指标是",
+    "object": "平均误差",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+    "subject_type": "研究结果",
+    "relation": "建议",
+    "object": "为滑油系统的健康管理提供支撑",
+    "object_type": "研究展望"
+  }
+]

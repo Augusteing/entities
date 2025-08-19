@@ -1,0 +1,86 @@
+[
+  {
+    "subject": "程荣辉",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "先进航空发动机核心关键技术",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "张志舒",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "先进航空发动机核心关键技术",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "阮文博",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "先进航空发动机核心关键技术",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "王建锋",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "先进航空发动机核心关键技术",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "综合控温",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "转子结构系统稳健性",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "全权限数字控制",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "飞发综合热管理",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "健康管理",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "推力矢量",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "研究分析了实现需求的技术途径和主要关键技术",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "高隐身",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "技术途径和主要关键技术",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "先进航空发动机发展",
+    "object_type": "研究展望 (Future Work)"
+  }
+]

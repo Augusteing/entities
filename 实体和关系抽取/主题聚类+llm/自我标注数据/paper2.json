@@ -1,0 +1,217 @@
+{
+    "entities": [
+        {
+            "type": "论文",
+            "text": "飞机故障预测与健康管理框架研究"
+        },
+        {
+            "type": "作者",
+            "text": "马宁"
+        },
+        {
+            "type": "作者",
+            "text": "吕琛"
+        },
+        {
+            "type": "单位",
+            "text": "北京航空航天大学工程系统工程系,北京100191"
+        },
+        {
+            "type": "单位",
+            "text": "空军第一航空学院基础部,河南信阳464000"
+        },
+        {
+            "type": "研究问题",
+            "text": "忽视飞机预测及健康管理(PHM)而引起的维修保障困难问题"
+        },
+        {
+            "type": "研究结果",
+            "text": "一种开放的面向对象的PHM 体系结构"
+        },
+        {
+            "type": "研究问题",
+            "text": "aircraft system s prognostics and health management (PHM)"
+        },
+        {
+            "type": "论文",
+            "text": "Research on PHM architecture of aircraft"
+        },
+        {
+            "type": "作者",
+            "text": "Ma~Ning"
+        },
+        {
+            "type": "作者",
+            "text": "Lü Chen"
+        },
+        {
+            "type": "单位",
+            "text": "Department of System Engineering of Engineering Technology, Beihang University, Beijing 100191. China"
+        },
+        {
+            "type": "单位",
+            "text": "Department of Foundation Science, The First Aeronautical Engineering Institute of Chinese Air Force. Xinyang 464000, Henan China"
+        },
+        {
+            "type": "研究结果",
+            "text": "The proposed architecture can satisfy the requirements of standardization, hierarchy, evolvement and open, as well as reducing the maintenance cost and difficulties"
+        },
+        {
+            "type": "研究问题",
+            "text": "以更经济有效的方式满足现代战争联合作战、网络中心战等新型作战模式对飞机系统作战效能、敏捷度、准确度和经济的持续保障能力的需求"
+        },
+        {
+            "type": "研究问题",
+            "text": "一种开放的面向对象(object-oriented)的PHM 体系结构"
+        },
+        {
+            "type": "研究问题",
+            "text": "PHM 技术"
+        },
+        {
+            "type": "研究结果",
+            "text": "原来由事件主宰的维修(即事后维修)或时间相关的维修(即定期维修)被基于状态的维修(CBM,condition based mainte-nance)所取代"
+        },
+        {
+            "type": "研究问题",
+            "text": "PHM 通用体系结构"
+        },
+        {
+            "type": "研究问题",
+            "text": "飞机系统PHM 的体系结构"
+        },
+        {
+            "type": "系统/部件",
+            "text": "飞机液压系统"
+        },
+        {
+            "type": "系统/部件",
+            "text": "电源系统"
+        },
+        {
+            "type": "系统/部件",
+            "text": "飞控系统"
+        },
+        {
+            "type": "引用文献",
+            "text": "张宝珍·预测与健康管理技术的发展及应用[J] 测控技术,2008,27 $27(2)$: 5-7"
+        },
+        {
+            "type": "引用文献",
+            "text": "张宝珍·国外综合诊断、预测与健康管理技术的发展及应用[J] 计算机测量与控制,2008,16 $16(5)$:591-594"
+        },
+        {
+            "type": "引用文献",
+            "text": "Hess A. Fila L. The joint strike fighter (JSF) PHM concept: potential impact on aging aireraft problems [C]// Proceedings of Aerospace Conference. Piscat away: IEEE, 2002, 3021-3026"
+        },
+        {
+            "type": "引用文献",
+            "text": "Wilkinson C. Humphrey D. Vermeire B. et al. Prognostic and health management for avionics [J]. Proceedings of Aerospace Conference. 2004, 5, 3 435-3 447"
+        },
+        {
+            "type": "引用文献",
+            "text": "郭阳明,蔡小斌,张宝珍,等新一代装备的预测与健康状态管理技术[J]计算机工程与应用,2008,44(13): 199-202"
+        },
+        {
+            "type": "引用文献",
+            "text": "张宝珍,曾天翔,先进的故障预测与状态管理技术[J] 测控技术,2003,22 $22(11)$:4-6"
+        },
+        {
+            "type": "引用文献",
+            "text": "潘全文,李天,李行善 预测与健康管理系统体系结构研究[J] 电子测量与仪器学报,2007, $21(S)$: 32-37"
+        },
+        {
+            "type": "引用文献",
+            "text": "孙博康锐,谢劲松 故障预测与健康管理系统研究和应用现状综述[J] 系统工程与电子技术,2007, $29(10)$ 1 762-1 767"
+        },
+        {
+            "type": "引用文献",
+            "text": "潘泉,景小宁,美军新机的综合诊断技术及启示[J] 空军工程大学学报:自然科学版,2005,6 $6(2)$:1-3"
+        },
+        {
+            "type": "发表时间",
+            "text": "2009-05-08"
+        },
+        {
+            "type": "作者",
+            "text": "马宁"
+        }
+    ],
+    "relations": [
+        {
+            "type": "撰写",
+            "head": "马宁",
+            "tail": "飞机故障预测与健康管理框架研究"
+        },
+        {
+            "type": "撰写",
+            "head": "吕琛",
+            "tail": "飞机故障预测与健康管理框架研究"
+        },
+        {
+            "type": "撰写",
+            "head": "Ma~Ning",
+            "tail": "Research on PHM architecture of aircraft"
+        },
+        {
+            "type": "撰写",
+            "head": "Lü Chen",
+            "tail": "Research on PHM architecture of aircraft"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "忽视飞机预测及健康管理(PHM)而引起的维修保障困难问题"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "aircraft system s prognostics and health management (PHM)"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "以更经济有效的方式满足现代战争联合作战、网络中心战等新型作战模式对飞机系统作战效能、敏捷度、准确度和经济的持续保障能力的需求"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "PHM 技术"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "PHM 通用体系结构"
+        },
+        {
+            "type": "解决",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "飞机系统PHM 的体系结构"
+        },
+        {
+            "type": "得出",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "The proposed architecture can satisfy the requirements of standardization, hierarchy, evolvement and open, as well as reducing the maintenance cost and difficulties"
+        },
+        {
+            "type": "得出",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "原来由事件主宰的维修(即事后维修)或时间相关的维修(即定期维修)被基于状态的维修(CBM,condition based mainte-nance)所取代"
+        },
+        {
+            "type": "应用于",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "飞机液压系统"
+        },
+        {
+            "type": "应用于",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "电源系统"
+        },
+        {
+            "type": "应用于",
+            "head": "一种开放的面向对象的PHM 体系结构",
+            "tail": "飞控系统"
+        }
+    ]
+}

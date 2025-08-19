@@ -1,0 +1,93 @@
+[
+  {
+    "subject": "游雅倩",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "闫辉",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "苏耀峰",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "王晓双",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "鄢睿丞",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "基于EnsembleBRB-SHAP模型的航空发动机健康状态可解释预测方法",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "传统航空发动机健康状态预测的可解释性不足",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "基于EnsembleBRB-SHAP模型的航空发动机健康状态可解释预测方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "EnsembleBRB-SHAP",
+    "object_type": "Model"
+  },
+  {
+    "subject": "EnsembleBRB-SHAP",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机",
+    "object_type": "System"
+  },
+  {
+    "subject": "EnsembleBRB-SHAP",
+    "subject_type": "Model",
+    "relation": "is_trained_on",
+    "object": "发动机故障实验监测数据",
+    "object_type": "Dataset"
+  },
+  {
+    "subject": "EnsembleBRB-SHAP",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "准确性为MSE=0.0122",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "EnsembleBRB-SHAP",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "低压涡轮机冷却液泄漏量、风扇转速等是决定发动机健康状态的关键参数",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "低压涡轮机冷却液泄漏量、风扇转速等是决定发动机健康状态的关键参数",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "更好地支撑航空发动机健康管理等决策工作",
+    "object_type": "Future Work"
+  },
+  {
+    "subject": "EnsembleBRB-SHAP",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "MSE",
+    "object_type": "Metric"
+  }
+]

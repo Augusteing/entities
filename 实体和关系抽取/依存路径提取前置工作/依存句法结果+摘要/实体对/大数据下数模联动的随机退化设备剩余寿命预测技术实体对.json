@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "大数据背景",
+    "subject_type": "背景",
+    "relation": "引出",
+    "object": "随机退化设备剩余寿命预测的现实需求",
+    "object_type": "需求"
+  },
+  {
+    "subject": "随机退化设备剩余寿命预测",
+    "subject_type": "研究问题",
+    "relation": "面临",
+    "object": "剩余寿命预测不确定性量化",
+    "object_type": "核心问题"
+  },
+  {
+    "subject": "剩余寿命预测技术",
+    "subject_type": "技术",
+    "relation": "存在",
+    "object": "局限性和共性难题",
+    "object_type": "问题"
+  },
+  {
+    "subject": "多源传感监测大数据下剩余寿命预测问题",
+    "subject_type": "问题",
+    "relation": "催生",
+    "object": "数模联动的大数据下随机退化设备剩余寿命预测解决思路",
+    "object_type": "解决思路"
+  },
+  {
+    "subject": "航空发动机多源监测数据",
+    "subject_type": "数据",
+    "relation": "用于验证",
+    "object": "数模联动的大数据下随机退化设备剩余寿命预测解决思路",
+    "object_type": "解决思路"
+  },
+  {
+    "subject": "数模联动思路",
+    "subject_type": "解决思路",
+    "relation": "提出",
+    "object": "深度学习与随机退化建模交互联动",
+    "object_type": "关键科学问题"
+  },
+  {
+    "subject": "数模联动思路",
+    "subject_type": "解决思路",
+    "relation": "提出",
+    "object": "监测大数据与剩余寿命及其预测不确定性映射机制",
+    "object_type": "关键科学问题"
+  },
+  {
+    "subject": "数模联动思路",
+    "subject_type": "解决思路",
+    "relation": "提出",
+    "object": "非理想大数据下的剩余寿命预测",
+    "object_type": "关键科学问题"
+  },
+  {
+    "subject": "机器学习方法",
+    "subject_type": "技术方法",
+    "relation": "具有",
+    "object": "优势",
+    "object_type": "属性"
+  },
+  {
+    "subject": "统计数据驱动方法",
+    "subject_type": "技术方法",
+    "relation": "具有",
+    "object": "优势",
+    "object_type": "属性"
+  }
+]

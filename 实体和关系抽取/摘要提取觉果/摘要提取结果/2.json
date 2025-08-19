@@ -1,0 +1,100 @@
+[
+  {
+    "subject": "黄世杰",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机滑油系统建模、优化及应用研究",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "张振生",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机滑油系统建模、优化及应用研究",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "蔡景",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机滑油系统建模、优化及应用研究",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "张瑞",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机滑油系统建模、优化及应用研究",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "基于试验方法的滑油系统监测、诊断、预测工作存在成本高、周期长等缺点",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "粒子群算法",
+    "object_type": "Model"
+  },
+  {
+    "subject": "滑油系统仿真模型构建与优化",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "遗传算法",
+    "object_type": "Model"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机滑油系统",
+    "object_type": "System"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "Model",
+    "relation": "compares_to",
+    "object": "遗传算法",
+    "object_type": "Model"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "粒子群算法具有较好的收敛性与优化效果",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "滑油系统工作参数平均误差从10%以上降至2%左右",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "滑油系统工作参数平均误差从10%以上降至2%左右",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "滑油系统的健康管理",
+    "object_type": "Future Work"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "平均误差",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "粒子群算法",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "收敛性",
+    "object_type": "Metric"
+  }
+]

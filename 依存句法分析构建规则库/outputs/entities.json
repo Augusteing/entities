@@ -1,0 +1,127 @@
+[
+  {
+    "category": "工具与应用",
+    "types": [
+      {
+        "type": "软件工具",
+        "label": "Tool",
+        "description": "实验或建模中使用的编程平台、库或系统软件"
+      },
+      {
+        "type": "应用场景",
+        "label": "Application",
+        "description": "研究方法可推广的真实工程应用背景或场景"
+      }
+    ]
+  },
+  {
+    "category": "故障信息",
+    "types": [
+      {
+        "type": "故障模式",
+        "label": "Fault Mode",
+        "description": "需要被预测或诊断的具体故障"
+      }
+    ]
+  },
+  {
+    "category": "数据与评估",
+    "types": [
+      {
+        "type": "数据集",
+        "label": "Dataset",
+        "description": "被用于训练或测试模型的结构化数据来源"
+      },
+      {
+        "type": "传感器/监测参数",
+        "label": "Sensor/Parameter",
+        "description": "用于采集系统状态的设备或测量指标，如振动、电流"
+      },
+      {
+        "type": "特征/健康指标",
+        "label": "Feature/HI",
+        "description": "从原始数据中提取的反映设备健康状态的特征值"
+      }
+    ]
+  },
+  {
+    "category": "文献元信息",
+    "types": [
+      {
+        "type": "论文",
+        "label": "Paper",
+        "description": "论文标题"
+      },
+      {
+        "type": "作者",
+        "label": "Author",
+        "description": "撰写论文的研究人员姓名"
+      },
+      {
+        "type": "单位",
+        "label": "Affiliation",
+        "description": "作者所属的机构、院校或企业"
+      },
+      {
+        "type": "发表时间",
+        "label": "Date",
+        "description": "论文的正式发表或会议时间，由题录信息获取"
+      },
+      {
+        "type": "引用文献",
+        "label": "Cited Paper",
+        "description": "本论文中引用的其他文献或研究"
+      }
+    ]
+  },
+  {
+    "category": "研究内容",
+    "types": [
+      {
+        "type": "研究问题",
+        "label": "Problem",
+        "description": "描述论文核心研究工作"
+      },
+      {
+        "type": "研究方法",
+        "label": "Method",
+        "description": "用于研究问题的技术手段、策略或算法"
+      },
+      {
+        "type": "模型",
+        "label": "Model",
+        "description": "研究中使用或构建的数学/神经网络模型"
+      },
+      {
+        "type": "研究结果",
+        "label": "Finding",
+        "description": "研究所得出的主要结论或实验成果"
+      },
+      {
+        "type": "研究展望",
+        "label": "Future Work",
+        "description": "作者对未来研究的设想或建议方向"
+      }
+    ]
+  },
+  {
+    "category": "研究对象",
+    "types": [
+      {
+        "type": "系统/部件",
+        "label": "System/Component",
+        "description": "被研究或建模的具体系统或机械部件，如发动机、轴承"
+      }
+    ]
+  },
+  {
+    "category": "评估",
+    "types": [
+      {
+        "type": "性能指标",
+        "label": "Performance Metric",
+        "description": "衡量方法优劣的标准，如准确率、RUL误差"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "subject": "肖洪",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "智能航空发动机——本体智能化技术概述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "肖达盛",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "智能航空发动机——本体智能化技术概述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "林志富",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "智能航空发动机——本体智能化技术概述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "唐轲",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "智能航空发动机——本体智能化技术概述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "于艾洋",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "智能航空发动机——本体智能化技术概述",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "文献梳理",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "在航空发动机领域应用智能技术面临的三个核心问题",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "追求大数据、多维度、高实时下的多源异构信息的关联性",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "追求大数据、多维度、高实时下的多源异构信息的关联性",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "发挥出航空发动机的最佳性能",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "追求大数据、多维度、高实时下的多源异构信息的关联性",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "实现发动机的性能跨越",
+    "object_type": "Finding"
+  }
+]

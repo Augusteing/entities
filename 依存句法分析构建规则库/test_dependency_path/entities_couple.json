@@ -1,0 +1,51 @@
+[
+  {
+    "subject": "基于机器学习的预测技术",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "随机退化设备剩余寿命预测",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "统计数据驱动的预测技术",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "不确定性量化问题",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "深度学习与退化建模交互联动",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机",
+    "object_type": "System"
+  },
+  {
+    "subject": "深度学习与退化建模交互联动",
+    "subject_type": "Model",
+    "relation": "predicts",
+    "object": "不确定性量化问题",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "数模联动预测思路",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "剩余寿命预测结果",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "剩余寿命预测结果",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "研究展望",
+    "object_type": "Future Work"
+  },
+  {
+    "subject": "特征",
+    "subject_type": "Feature",
+    "relation": "is_from",
+    "object": "多源传感监测大数据",
+    "object_type": "Sensor"
+  }
+]

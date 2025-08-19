@@ -1,0 +1,115 @@
+{
+  "document_name": "航空发动机健康管理系统功能架构分析与研究.json",
+  "comparison_summary": {
+    "total_in_new_method": 15,
+    "total_in_old_method": 5,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 15,
+    "unique_to_old_method_count": 5
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "研究成果",
+      "relation": "具有",
+      "object": "普适参考价值"
+    },
+    {
+      "subject": "物理模型",
+      "relation": "通过",
+      "object": "块定义图与内部块图"
+    },
+    {
+      "subject": "生命周期建模范式",
+      "relation": "应用于",
+      "object": "系统工程实践"
+    },
+    {
+      "subject": "可追溯性矩阵",
+      "relation": "用于",
+      "object": "需求完整性分析"
+    },
+    {
+      "subject": "航空发动机健康管理系统",
+      "relation": "包含",
+      "object": "航空发动机"
+    },
+    {
+      "subject": "研究成果",
+      "relation": "降低",
+      "object": "功能重叠率"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "解决",
+      "object": "复杂系统需求边界模糊"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "应用于",
+      "object": "航空发动机健康管理系统"
+    },
+    {
+      "subject": "协同建模框架",
+      "relation": "用于构建",
+      "object": "物理模型"
+    },
+    {
+      "subject": "案例验证",
+      "relation": "验证",
+      "object": "MagicGrid方法论"
+    },
+    {
+      "subject": "研究成果",
+      "relation": "提升",
+      "object": "预测效率"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "解决",
+      "object": "架构动态优化难题"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "使用",
+      "object": "MagicDraw"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "应用于",
+      "object": "复杂装备系统设计"
+    },
+    {
+      "subject": "MagicGrid方法论",
+      "relation": "基于",
+      "object": "系统建模语言"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "该方法在降低功能重叠率、提升预测效率、敏捷评估状态影响并降低虚警率上具有显著成效",
+      "relation": "建议",
+      "object": "多视图协同建模机制对复杂装备系统设计具有普适参考价值"
+    },
+    {
+      "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+      "relation": "解决",
+      "object": "复杂系统需求边界模糊与架构动态优化难题"
+    },
+    {
+      "subject": "物理模型",
+      "relation": "应用于",
+      "object": "航空发动机健康管理系统"
+    },
+    {
+      "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+      "relation": "使用",
+      "object": "MagicGrid方法论"
+    },
+    {
+      "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+      "relation": "使用",
+      "object": "物理模型"
+    }
+  ]
+}

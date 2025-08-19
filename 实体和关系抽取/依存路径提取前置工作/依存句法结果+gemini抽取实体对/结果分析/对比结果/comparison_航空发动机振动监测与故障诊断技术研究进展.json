@@ -1,0 +1,75 @@
+{
+  "document_name": "航空发动机振动监测与故障诊断技术研究进展.json",
+  "comparison_summary": {
+    "total_in_new_method": 9,
+    "total_in_old_method": 3,
+    "common_pairs_count": 0,
+    "unique_to_new_method_count": 9,
+    "unique_to_old_method_count": 3
+  },
+  "common_pairs": [],
+  "unique_to_new_method": [
+    {
+      "subject": "故障诊断技术",
+      "relation": "应用于",
+      "object": "航空发动机"
+    },
+    {
+      "subject": "健康管理技术",
+      "relation": "包含",
+      "object": "故障诊断技术"
+    },
+    {
+      "subject": "航空发动机",
+      "relation": "处于",
+      "object": "恶劣服役环境"
+    },
+    {
+      "subject": "振动类故障",
+      "relation": "是一种",
+      "object": "主要故障模式"
+    },
+    {
+      "subject": "故障诊断技术",
+      "relation": "应用",
+      "object": "深度学习"
+    },
+    {
+      "subject": "故障诊断技术",
+      "relation": "结合",
+      "object": "动力学分析"
+    },
+    {
+      "subject": "航空发动机",
+      "relation": "发生",
+      "object": "振动类故障"
+    },
+    {
+      "subject": "故障诊断技术",
+      "relation": "诊断",
+      "object": "振动类故障"
+    },
+    {
+      "subject": "故障诊断技术",
+      "relation": "基于",
+      "object": "信号处理"
+    }
+  ],
+  "unique_to_old_method": [
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "relation": "uses",
+      "object": "信号处理"
+    },
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "relation": "uses",
+      "object": "深度学习"
+    },
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "relation": "uses",
+      "object": "动力学分析"
+    }
+  ]
+}

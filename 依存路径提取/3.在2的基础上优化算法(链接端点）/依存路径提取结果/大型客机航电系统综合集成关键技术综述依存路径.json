@@ -1,0 +1,760 @@
+{
+  "title": "大型客机航电系统综合集成关键技术综述",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 3,
+    "path_found": 3,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "大型客机航电系统",
+      "object": "航电系统综合集成",
+      "relation": "需要",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电系统综合集成",
+      "object": "关键技术",
+      "relation": "是",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合模块化航电",
+      "object": "航电系统架构",
+      "relation": "是",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "控制",
+          "vmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电系统综合集成",
+      "object": "大型客机安全性",
+      "relation": "提升",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "为了",
+          "root"
+        ],
+        [
+          "提升",
+          "pccomp"
+        ],
+        [
+          "效能",
+          "dobj"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "大型",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电系统综合集成",
+      "object": "空域运行效能",
+      "relation": "提升",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "为了",
+          "root"
+        ],
+        [
+          "提升",
+          "pccomp"
+        ],
+        [
+          "效能",
+          "dobj"
+        ],
+        [
+          "空域",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机航电系统",
+      "object": "飞行管理",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "享",
+          "vmod"
+        ],
+        [
+          "管理",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机航电系统",
+      "object": "通导监视",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "需",
+          "vmod"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "性能",
+          "pobj"
+        ],
+        [
+          "通导",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "通导监视",
+      "object": "通导监视性能",
+      "relation": "提升",
+      "path": [
+        [
+          "通导",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "安全性设计",
+      "object": "安全性设计流程",
+      "relation": "遵循",
+      "path": [
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "国产大型客机",
+      "object": "客机综合化航电系统研制",
+      "relation": "推动",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "效能",
+          "dobj"
+        ],
+        [
+          "提升",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "root"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "现代综合化航电系统",
+      "object": "机载信息",
+      "relation": "处理",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "享",
+          "vmod"
+        ],
+        [
+          "信息",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电系统架构",
+      "object": "功能特征",
+      "relation": "决定",
+      "path": [
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面对",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "内容",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "流程",
+          "nn"
+        ],
+        [
+          "特征",
+          "conj"
+        ],
+        [
+          "功能",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 20
+        },
+        {
+          "sentence_index": 4,
+          "id": 18
+        },
+        {
+          "sentence_index": 4,
+          "id": 16
+        },
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 11
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

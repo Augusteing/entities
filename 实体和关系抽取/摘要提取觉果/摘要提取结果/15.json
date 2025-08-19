@@ -1,0 +1,93 @@
+[
+  {
+    "subject": "吴梅",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于神经网络的飞机供水系统故障预测研究",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "陈思远",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于神经网络的飞机供水系统故障预测研究",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "李超群",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "基于神经网络的飞机供水系统故障预测研究",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "基于数据驱动的故障预测算法仿真研究",
+    "subject_type": "研究方法 (Method)",
+    "relation": "解决",
+    "object": "系统故障原因、故障模式的复杂性",
+    "object_type": "研究问题 (Problem)"
+  },
+  {
+    "subject": "基于数据驱动的故障预测算法仿真研究",
+    "subject_type": "研究方法 (Method)",
+    "relation": "使用",
+    "object": "系统仿真模型",
+    "object_type": "模型 (Model)"
+  },
+  {
+    "subject": "神经网络故障预测方法",
+    "subject_type": "研究方法 (Method)",
+    "relation": "使用",
+    "object": "神经网络",
+    "object_type": "模型 (Model)"
+  },
+  {
+    "subject": "系统仿真模型",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "飞机水/废水系统",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "飞机水/废水系统",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "应用于",
+    "object": "空气压缩机",
+    "object_type": "系统/部件 (System/Component)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "预测/诊断",
+    "object": "故障",
+    "object_type": "故障模式 (Fault Mode)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "有效预测系统关键部件的性能衰退趋势",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "得出",
+    "object": "有效预测产品剩余寿命",
+    "object_type": "研究结果 (Finding)"
+  },
+  {
+    "subject": "神经网络",
+    "subject_type": "模型 (Model)",
+    "relation": "训练于",
+    "object": "系统关键部位故障数据",
+    "object_type": "数据集 (Dataset)"
+  }
+]

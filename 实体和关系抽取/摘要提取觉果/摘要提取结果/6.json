@@ -1,0 +1,79 @@
+[
+  {
+    "subject": "胡明辉",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "高金吉",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "江志农",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "王维民",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "邹利民",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "周涛",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "凡云峰",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "王越",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "冯家欣",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "李晨阳",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机振动监测与故障诊断技术研究进展",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "技术综述与分析",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "航空发动机振动类故障诊断面临的问题与挑战",
+    "object_type": "Problem"
+  }
+]

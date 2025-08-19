@@ -1,0 +1,86 @@
+[
+  {
+    "subject": "郭晓静",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于改进GRU的航空发动机寿命预测自注意力优化算法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "徐晓慧",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于改进GRU的航空发动机寿命预测自注意力优化算法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "郭佳豪",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于改进GRU的航空发动机寿命预测自注意力优化算法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "采用常规模型训练易导致梯度消失",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机",
+    "object_type": "System"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "is_trained_on",
+    "object": "发动机寿命预测数据集(C-MAPSS)",
+    "object_type": "Dataset"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "寿命方均根误差(RMSE)落在区间[10.52,18.91]",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "超前预测分值(score)落在区间[48.69,204.98]",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "寿命方均根误差(RMSE)落在区间[10.52,18.91]",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "为发动机寿命预测和超前维护提供有效解决方案",
+    "object_type": "Future Work"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "方均根误差(RMSE)",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "超前预测分值(score)",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "改进门控循环单元(gated recurrent unit)的自注意力(self-attention)优化算法",
+    "subject_type": "Model",
+    "relation": "compares_to",
+    "object": "常规模型",
+    "object_type": "Model"
+  }
+]

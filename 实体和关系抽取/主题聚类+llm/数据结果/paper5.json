@@ -1,0 +1,204 @@
+{
+    "entities": [
+        {
+            "type": "作者",
+            "text": "和伟辉"
+        },
+        {
+            "type": "作者",
+            "text": "明新国"
+        },
+        {
+            "type": "作者",
+            "text": "刘安"
+        },
+        {
+            "type": "作者",
+            "text": "郑茂宽"
+        },
+        {
+            "type": "论文",
+            "text": "飞机健康管理平台的客户需求分析与 PLM 服务资源匹配"
+        },
+        {
+            "type": "研究方法",
+            "text": "模糊理论"
+        },
+        {
+            "type": "研究方法",
+            "text": "灰色关联法"
+        },
+        {
+            "type": "研究方法",
+            "text": "自回归求和移动平均( ARIMA) 模型"
+        },
+        {
+            "type": "研究问题",
+            "text": "飞机故障诊断和健康管理( Prognostic and Health Management，PHM) 平台的各个模块需实现的功能"
+        },
+        {
+            "type": "研究问题",
+            "text": "客户需求与企业 PLM 的服务资源映射关系"
+        },
+        {
+            "type": "模型",
+            "text": "ARIMA"
+        },
+        {
+            "type": "系统/部件",
+            "text": "飞机"
+        },
+        {
+            "type": "系统/部件",
+            "text": "飞机 PHM 平台"
+        },
+        {
+            "type": "研究结果",
+            "text": "客户需求与企业 PLM 的服务资源映射关系"
+        },
+        {
+            "type": "研究展望",
+            "text": "飞机 PHM 平台设计和搭建"
+        },
+        {
+            "type": "性能指标",
+            "text": "RMSE"
+        },
+        {
+            "type": "性能指标",
+            "text": "MAPE"
+        },
+        {
+            "type": "性能指标",
+            "text": "MAE"
+        },
+        {
+            "type": "引用文献",
+            "text": "基于自动数据获得技术的飞机 CBM 维修策略"
+        },
+        {
+            "type": "引用文献",
+            "text": "Quantification and integration of an improved Kano model into QFD based on multi－population adaptive genetic algorithm"
+        },
+        {
+            "type": "引用文献",
+            "text": "A fuzzy optimization model for QFD planning process using analytic network approach"
+        },
+        {
+            "type": "引用文献",
+            "text": "Health management design considerations for an all electric aircraft"
+        },
+        {
+            "type": "引用文献",
+            "text": "基于灰色系统理论的质量屋中动态需求的分析与预测"
+        },
+        {
+            "type": "引用文献",
+            "text": "基于模糊聚类及灰色关联的软件需求分析方法"
+        },
+        {
+            "type": "引用文献",
+            "text": "Time series analysis of aerosol optical depth over new delhi using box － jenkins ARIMA modeling approach"
+        },
+        {
+            "type": "引用文献",
+            "text": "民用飞机航材管理信息系统分析与设计"
+        },
+        {
+            "type": "引用文献",
+            "text": "Integrated vehicle health management in aerospace structures"
+        },
+        {
+            "type": "引用文献",
+            "text": "在 QFD 中应用灰色关联度确定关联关系的研究"
+        },
+        {
+            "type": "引用文献",
+            "text": "基于 QFD，TRIZ 和稳健设计的设计方法体系结构研究"
+        },
+        {
+            "type": "引用文献",
+            "text": "基于 FCM 和 IGA 的广义客户需求分析及其资源配置"
+        },
+        {
+            "type": "引用文献",
+            "text": "A multi － objective mathematical model integrating environmental concerns for supplier selection and order allocation based on fuzzy QFD in beverages industry"
+        },
+        {
+            "type": "引用文献",
+            "text": "Implementation of ARIMA model to asses seasonal variability macrobenthic assemblages"
+        }
+    ],
+    "relations": [
+        {
+            "type": "撰写",
+            "head": "和伟辉",
+            "tail": "飞机健康管理平台的客户需求分析与 PLM 服务资源匹配"
+        },
+        {
+            "type": "撰写",
+            "head": "明新国",
+            "tail": "飞机健康管理平台的客户需求分析与 PLM 服务资源匹配"
+        },
+        {
+            "type": "撰写",
+            "head": "刘安",
+            "tail": "飞机健康管理平台的客户需求分析与 PLM 服务资源匹配"
+        },
+        {
+            "type": "撰写",
+            "head": "郑茂宽",
+            "tail": "飞机健康管理平台的客户需求分析与 PLM 服务资源匹配"
+        },
+        {
+            "type": "解决",
+            "head": "模糊理论",
+            "tail": "飞机故障诊断和健康管理( Prognostic and Health Management，PHM) 平台的各个模块需实现的功能"
+        },
+        {
+            "type": "解决",
+            "head": "灰色关联法",
+            "tail": "客户需求与企业 PLM 的服务资源映射关系"
+        },
+        {
+            "type": "使用",
+            "head": "自回归求和移动平均( ARIMA) 模型",
+            "tail": "ARIMA"
+        },
+        {
+            "type": "应用于",
+            "head": "ARIMA",
+            "tail": "飞机"
+        },
+        {
+            "type": "应用于",
+            "head": "ARIMA",
+            "tail": "飞机 PHM 平台"
+        },
+        {
+            "type": "得出",
+            "head": "ARIMA",
+            "tail": "客户需求与企业 PLM 的服务资源映射关系"
+        },
+        {
+            "type": "建议",
+            "head": "客户需求与企业 PLM 的服务资源映射关系",
+            "tail": "飞机 PHM 平台设计和搭建"
+        },
+        {
+            "type": "评估指标是",
+            "head": "ARIMA",
+            "tail": "RMSE"
+        },
+        {
+            "type": "评估指标是",
+            "head": "ARIMA",
+            "tail": "MAPE"
+        },
+        {
+            "type": "评估指标是",
+            "head": "ARIMA",
+            "tail": "MAE"
+        }
+    ]
+}

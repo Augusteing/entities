@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "张振良",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "毕俊喜",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "何荣荣",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "崔哲",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "周相志",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "提出Caps-BiGRU-Attention模型",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "直升机涡轮发动机故障难以识别、健康状况难以量化",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "提出Caps-BiGRU-Attention模型",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "Caps-BiGRU-Attention",
+    "object_type": "Model"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "直升机涡轮发动机",
+    "object_type": "System"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "is_trained_on",
+    "object": "直升机涡轮发动机数据集",
+    "object_type": "Dataset"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "predicts/diagnoses",
+    "object": "故障模式",
+    "object_type": "Fault Mode"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "准确率超过99.7%",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "achieves",
+    "object": "扭矩裕度预测中的平均绝对误差降低至0.027",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "准确率",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "Caps-BiGRU-Attention",
+    "subject_type": "Model",
+    "relation": "is_evaluated_by",
+    "object": "平均绝对误差",
+    "object_type": "Metric"
+  },
+  {
+    "subject": "在发动机严重失效、轻微失效和健康状态的最佳分布为贝塔分布",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "为直升机涡轮发动机的健康管理提供重要参考",
+    "object_type": "Future Work"
+  }
+]

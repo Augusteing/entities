@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "航空发动机",
+    "subject_type": "核心装备",
+    "relation": "具有",
+    "object": "复杂结构",
+    "object_type": "固有特性"
+  },
+  {
+    "subject": "航空发动机",
+    "subject_type": "核心装备",
+    "relation": "面临",
+    "object": "恶劣服役环境",
+    "object_type": "运行条件"
+  },
+  {
+    "subject": "振动类故障",
+    "subject_type": "故障模式",
+    "relation": "是...的主要故障",
+    "object": "航空发动机",
+    "object_type": "核心装备"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "技术领域",
+    "relation": "诊断",
+    "object": "振动类故障",
+    "object_type": "故障模式"
+  },
+  {
+    "subject": "健康管理技术",
+    "subject_type": "技术体系",
+    "relation": "包含",
+    "object": "故障诊断技术",
+    "object_type": "技术领域"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "技术领域",
+    "relation": "运用",
+    "object": "信号处理",
+    "object_type": "技术方法"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "技术领域",
+    "relation": "运用",
+    "object": "深度学习",
+    "object_type": "技术方法"
+  },
+  {
+    "subject": "故障诊断技术",
+    "subject_type": "技术领域",
+    "relation": "基于",
+    "object": "动力学分析",
+    "object_type": "理论基础"
+  },
+  {
+    "subject": "整机振动监测",
+    "subject_type": "技术手段",
+    "relation": "用于",
+    "object": "故障诊断",
+    "object_type": "技术领域"
+  },
+  {
+    "subject": "健康管理技术",
+    "subject_type": "技术体系",
+    "relation": "是...的重要支撑",
+    "object": "国防实力",
+    "object_type": "国家能力"
+  }
+]

@@ -1,0 +1,8 @@
+Prompt存储文件夹：存储了paper1到5对应的prompt，其S模块均已经更新为对应的动态S模块。
+数据结果文件夹：s_modules中存的是步骤三中构建出来的对应论文的独特S模块。 embedding_vectors.json文件存储的是第一步人工标注的三篇文章向量化后的结果。 embedding_clusters_with_paragraph_annots.json是第二步降维和主题聚类的结果。paper1-5.json是最终llm的最终结果
+文献原文：存储5篇md格式的文献原文
+自我标注数据：人工标注的json文件和论文原文。
+batch_run.py文件：实验第四步的运行文件，负责api调用和保存结果。
+prompt_tip:使用的prompt模板（S模块会被填充）
+schema：结构定义
+剩下的三个文件分别完成了第一、二、三步的实际操作

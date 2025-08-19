@@ -1,0 +1,79 @@
+[
+  {
+    "subject": "王净巍",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "吴新",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "蔡景",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "张瑞",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "杨旭",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "陈晓哲",
+    "subject_type": "Author",
+    "relation": "writes",
+    "object": "航空发动机健康管理系统功能架构优化方法",
+    "object_type": "Paper"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "Method",
+    "relation": "addresses",
+    "object": "提升系统架构的高效性、合理性，实现系统功能的最优分配",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "逻辑决断图",
+    "object_type": "Model"
+  },
+  {
+    "subject": "功能分配方法",
+    "subject_type": "Method",
+    "relation": "uses",
+    "object": "层次分析法（AHP）",
+    "object_type": "Model"
+  },
+  {
+    "subject": "通用的发动机健康管理系统功能架构",
+    "subject_type": "Model",
+    "relation": "is_applied_to",
+    "object": "航空发动机健康管理系统",
+    "object_type": "System"
+  },
+  {
+    "subject": "实现状态监测、故障诊断、故障预测、寿命管理及趋势分析功能向机载和地面系统的定性与定量分配",
+    "subject_type": "Finding",
+    "relation": "suggests",
+    "object": "在军民用航空发动机健康管理系统设计中应用通用健康管理系统架构与功能分配方法实现优化配置",
+    "object_type": "Future Work"
+  }
+]

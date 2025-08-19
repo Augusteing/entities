@@ -1,0 +1,468 @@
+{
+  "title": "航空发动机振动监测与故障诊断技术研究进展",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 3,
+    "path_found": 3,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机",
+      "object": "振动类故障",
+      "relation": "发生",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "致使",
+          "root"
+        ],
+        [
+          "频发",
+          "dep"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "振动类故障",
+      "object": "主要故障模式",
+      "relation": "是一种",
+      "path": [
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理技术",
+      "object": "故障诊断技术",
+      "relation": "包含",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "振动类故障",
+      "relation": "诊断",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "致使",
+          "root"
+        ],
+        [
+          "频发",
+          "dep"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "深度学习",
+      "relation": "应用",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "深度",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "信号处理",
+      "relation": "基于",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "信号",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 7
+        },
+        {
+          "sentence_index": 7,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "动力学分析",
+      "relation": "结合",
+      "path": [
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "动力学",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 4
+        },
+        {
+          "sentence_index": 7,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "恶劣服役环境",
+      "relation": "处于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "致使",
+          "root"
+        ],
+        [
+          "环境",
+          "nsubj"
+        ],
+        [
+          "恶劣",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

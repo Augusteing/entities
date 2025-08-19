@@ -1,0 +1,721 @@
+[
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+        "relation": "解决",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ],
+          [
+            "预测",
+            "nn"
+          ],
+          [
+            "工作",
+            "dobj"
+          ],
+          [
+            "开展",
+            "pccomp"
+          ],
+          [
+            "针对",
+            "prep"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "粒子群算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "遗传算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "遗传算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "遗传算法",
+        "relation": "对比",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "较好的收敛性与优化效果",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "平均误差",
+        "relation": "评估指标是",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+        "object": "为滑油系统的健康管理提供支撑",
+        "relation": "建议",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+        "relation": "解决",
+        "path": [
+          [
+            "开展",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "粒子群算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "遗传算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "遗传算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "遗传算法",
+        "relation": "对比",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "较好的收敛性与优化效果",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "平均误差",
+        "relation": "评估指标是",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+        "object": "为滑油系统的健康管理提供支撑",
+        "relation": "建议",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+        "relation": "解决",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "特性",
+            "pobj"
+          ],
+          [
+            "基于",
+            "prep"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "粒子群算法",
+        "relation": "使用",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "特性",
+            "pobj"
+          ],
+          [
+            "基于",
+            "prep"
+          ],
+          [
+            "为",
+            "root"
+          ],
+          [
+            "构建",
+            "dep"
+          ],
+          [
+            "模型",
+            "dobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "子",
+            "amod"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "遗传算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": [
+          [
+            "子",
+            "amod"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "模型",
+            "dobj"
+          ],
+          [
+            "构建",
+            "dep"
+          ],
+          [
+            "为",
+            "root"
+          ],
+          [
+            "基于",
+            "prep"
+          ],
+          [
+            "特性",
+            "pobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "遗传算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "遗传算法",
+        "relation": "对比",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "较好的收敛性与优化效果",
+        "relation": "得出",
+        "path": [
+          [
+            "子",
+            "amod"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "模型",
+            "dobj"
+          ],
+          [
+            "构建",
+            "dep"
+          ],
+          [
+            "为",
+            "root"
+          ],
+          [
+            "开展",
+            "dep"
+          ],
+          [
+            "求解",
+            "dobj"
+          ],
+          [
+            "与",
+            "cc"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+        "relation": "得出",
+        "path": [
+          [
+            "子",
+            "amod"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "模型",
+            "dobj"
+          ],
+          [
+            "构建",
+            "dep"
+          ],
+          [
+            "为",
+            "root"
+          ],
+          [
+            "基于",
+            "prep"
+          ],
+          [
+            "特性",
+            "pobj"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "平均误差",
+        "relation": "评估指标是",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+        "object": "为滑油系统的健康管理提供支撑",
+        "relation": "建议",
+        "path": [
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+        "relation": "解决",
+        "path": [
+          [
+            "模型",
+            "pobj"
+          ],
+          [
+            "对",
+            "prep"
+          ],
+          [
+            "进行",
+            "conj"
+          ],
+          [
+            "结合",
+            "root"
+          ],
+          [
+            "、",
+            "punct"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "粒子群算法",
+        "relation": "使用",
+        "path": [
+          [
+            "模型",
+            "pobj"
+          ],
+          [
+            "对",
+            "prep"
+          ],
+          [
+            "进行",
+            "conj"
+          ],
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "遗传算法",
+        "relation": "使用",
+        "path": [
+          [
+            "模型",
+            "pobj"
+          ],
+          [
+            "对",
+            "prep"
+          ],
+          [
+            "进行",
+            "conj"
+          ],
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": [
+          [
+            "结合",
+            "root"
+          ],
+          [
+            "降至",
+            "conj"
+          ],
+          [
+            "误差",
+            "nsubj"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "遗传算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": [
+          [
+            "结合",
+            "root"
+          ],
+          [
+            "降至",
+            "conj"
+          ],
+          [
+            "误差",
+            "nsubj"
+          ],
+          [
+            "系统",
+            "nn"
+          ],
+          [
+            "滑油",
+            "nn"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "遗传算法",
+        "relation": "对比",
+        "path": [
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "较好的收敛性与优化效果",
+        "relation": "得出",
+        "path": [
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+        "relation": "得出",
+        "path": [
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "平均误差",
+        "relation": "评估指标是",
+        "path": [
+          [
+            "结合",
+            "root"
+          ]
+        ]
+      },
+      {
+        "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+        "object": "为滑油系统的健康管理提供支撑",
+        "relation": "建议",
+        "path": [
+          [
+            "、",
+            "punct"
+          ],
+          [
+            "结合",
+            "root"
+          ],
+          [
+            "表明",
+            "conj"
+          ],
+          [
+            "具有",
+            "ccomp"
+          ],
+          [
+            "效果",
+            "dobj"
+          ],
+          [
+            "好",
+            "rcmod"
+          ],
+          [
+            "的",
+            "cpm"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "",
+    "paths": [
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "基于试验方法开展滑油系统监测、诊断、预测等工作具备成本高、周期长等缺点",
+        "relation": "解决",
+        "path": [
+          [
+            "模型",
+            "assmod"
+          ],
+          [
+            "可扩展性",
+            "pobj"
+          ],
+          [
+            "基于",
+            "prep"
+          ]
+        ]
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "粒子群算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "滑油系统仿真模型构建与优化",
+        "object": "遗传算法",
+        "relation": "使用",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "遗传算法",
+        "object": "航空发动机滑油系统",
+        "relation": "应用于",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "遗传算法",
+        "relation": "对比",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "较好的收敛性与优化效果",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "不同典型工况下滑油系统工作参数平均误差从10%以上降至2%左右",
+        "relation": "得出",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "粒子群算法",
+        "object": "平均误差",
+        "relation": "评估指标是",
+        "path": null,
+        "note": "实体对无法与token对齐"
+      },
+      {
+        "subject": "分析模型在滑油监测、诊断、预测等方面的应用",
+        "object": "为滑油系统的健康管理提供支撑",
+        "relation": "建议",
+        "path": [
+          [
+            "基于",
+            "prep"
+          ]
+        ]
+      }
+    ]
+  }
+]

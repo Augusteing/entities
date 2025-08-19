@@ -1,0 +1,37 @@
+[
+  {
+    "subject": "马超",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "融合多源异构数据的飞机故障诊断方法研究进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "邹子炀",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "融合多源异构数据的飞机故障诊断方法研究进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "顾正柏",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "融合多源异构数据的飞机故障诊断方法研究进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "赵树杰",
+    "subject_type": "作者 (Author)",
+    "relation": "撰写",
+    "object": "融合多源异构数据的飞机故障诊断方法研究进展",
+    "object_type": "论文 (Paper)"
+  },
+  {
+    "subject": "多源异构数据的融合应用能够更加准确地分析故障成因",
+    "subject_type": "研究结果 (Finding)",
+    "relation": "建议",
+    "object": "是飞机故障诊断中数据应用技术的发展趋势",
+    "object_type": "研究展望 (Future Work)"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "詹轲倚",
+    "subject_type": "作者",
+    "relation": "撰写",
+    "object": "航空发动机健康管理系统功能架构分析与研究",
+    "object_type": "论文"
+  },
+  {
+    "subject": "黄维娜",
+    "subject_type": "作者",
+    "relation": "撰写",
+    "object": "航空发动机健康管理系统功能架构分析与研究",
+    "object_type": "论文"
+  },
+  {
+    "subject": "淳道勇",
+    "subject_type": "作者",
+    "relation": "撰写",
+    "object": "航空发动机健康管理系统功能架构分析与研究",
+    "object_type": "论文"
+  },
+  {
+    "subject": "桂咏涛",
+    "subject_type": "作者",
+    "relation": "撰写",
+    "object": "航空发动机健康管理系统功能架构分析与研究",
+    "object_type": "论文"
+  },
+  {
+    "subject": "张椿林",
+    "subject_type": "作者",
+    "relation": "撰写",
+    "object": "航空发动机健康管理系统功能架构分析与研究",
+    "object_type": "论文"
+  },
+  {
+    "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+    "subject_type": "研究方法",
+    "relation": "解决",
+    "object": "复杂系统需求边界模糊与架构动态优化难题",
+    "object_type": "研究问题"
+  },
+  {
+    "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+    "subject_type": "研究方法",
+    "relation": "使用",
+    "object": "MagicGrid方法论",
+    "object_type": "研究方法"
+  },
+  {
+    "subject": "\"场景-需求-功能-逻辑-物理\"五层协同建模框架",
+    "subject_type": "研究方法",
+    "relation": "使用",
+    "object": "物理模型",
+    "object_type": "模型"
+  },
+  {
+    "subject": "物理模型",
+    "subject_type": "模型",
+    "relation": "应用于",
+    "object": "航空发动机健康管理系统",
+    "object_type": "系统/部件"
+  },
+  {
+    "subject": "该方法在降低功能重叠率、提升预测效率、敏捷评估状态影响并降低虚警率上具有显著成效",
+    "subject_type": "研究结果",
+    "relation": "建议",
+    "object": "多视图协同建模机制对复杂装备系统设计具有普适参考价值",
+    "object_type": "研究展望"
+  }
+]

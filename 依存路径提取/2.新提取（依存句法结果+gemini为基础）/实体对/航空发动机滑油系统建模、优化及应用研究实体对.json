@@ -1,0 +1,58 @@
+[
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "基于",
+    "object": "滑油系统元件物理特性",
+    "object_type": "特征/健康指标"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "包含",
+    "object": "通风、供油、热力、回油等子系统模型",
+    "object_type": "模型"
+  },
+  {
+    "subject": "粒子群与遗传算法",
+    "subject_type": "研究方法",
+    "relation": "用于优化",
+    "object": "滑油系统仿真模型",
+    "object_type": "模型"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "应用于",
+    "object": "滑油系统健康管理",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "滑油系统健康管理",
+    "subject_type": "应用场景",
+    "relation": "旨在实现",
+    "object": "滑油系统监测、诊断与预测",
+    "object_type": "应用场景"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "旨在改进",
+    "object": "基于试验方法的监测与诊断",
+    "object_type": "研究问题"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "的评估指标是",
+    "object": "系统工作参数平均误差",
+    "object_type": "性能指标"
+  },
+  {
+    "subject": "滑油系统仿真模型",
+    "subject_type": "模型",
+    "relation": "在...下验证",
+    "object": "典型工况",
+    "object_type": "数据集"
+  }
+]

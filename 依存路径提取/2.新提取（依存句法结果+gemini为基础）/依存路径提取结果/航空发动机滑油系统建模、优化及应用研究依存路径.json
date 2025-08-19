@@ -1,0 +1,352 @@
+{
+  "title": "航空发动机滑油系统建模、优化及应用研究",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "滑油系统元件物理特性",
+      "relation": "基于",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "通风、供油、热力、回油等子系统模型",
+      "relation": "包含",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "粒子群与遗传算法",
+      "object": "滑油系统仿真模型",
+      "relation": "用于优化",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "优化",
+          "dobj"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "滑油系统健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统健康管理",
+      "object": "滑油系统监测、诊断与预测",
+      "relation": "旨在实现",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "基于试验方法的监测与诊断",
+      "relation": "旨在改进",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "系统工作参数平均误差",
+      "relation": "的评估指标是",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "典型工况",
+      "relation": "在...下验证",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

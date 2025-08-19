@@ -1,0 +1,33 @@
+[
+{
+  "rule_id": "R2",
+  "name": "依存 + 词性规则组合",
+  "description": "以名词（NN）为中心词，沿依存树上游扩展，若连接关系为 amod、nsubj、advmod、dobj，且词性为形容词（JJ）、数词（CD）、名词（NN）、副词（AD）、介词（P）时，拼接构成实体短语。",
+  "type": "dependency_pos",
+  "center_pos": "NN",
+  "dependency_chain": ["amod", "nsubj", "advmod", "dobj"],   
+  "allowed_pos": ["JJ", "CD", "NN", "AD", "P"],
+  "max_length": 3
+},
+{
+  "rule_id": "R3",
+  "name": "依存 + 邻接位置规则组合",
+  "description": "若中心词与其他词之间存在核心依存关系（如 amod、nmod、compound），且这些词在中心词左侧紧邻，默认将其并入为实体短语前缀。",
+  "type": "dependency_position",
+  "center_pos": "NN",
+  "dependency_chain": ["amod", "nmod", "compound","nn", "advmod", "case"],
+  "position_constraint": "left_adjacent",
+  "allowed_pos": ["JJ", "CD", "NN","AD", "P"],
+  "max_length": 5
+},
+{
+  "rule_id": "R4",
+  "name": "词性 + 相邻位置组合",
+  "description": "若某词为名词（NN），其左侧相邻词词性为 JJ/CD（形容词/数词）等修饰性词性，则默认组合为完整实体短语。",
+  "type": "pos_position",
+  "center_pos": "NN",
+  "left_adjacent_pos": ["JJ", "CD", "AD", "NN"],
+  "position_constraint": "strict_adjacent",
+  "max_length": 5
+}
+]
