@@ -18,6 +18,10 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
           "nsubj"
         ],
@@ -28,6 +32,10 @@
         [
           "航空",
           "nn"
+        ],
+        [
+          "机载",
+          "amod"
         ]
       ],
       "path_type": "intra_sentence",
@@ -36,6 +44,10 @@
         {
           "sentence_index": 0,
           "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
         },
         {
           "sentence_index": 0,
@@ -48,6 +60,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
         }
       ],
       "note": null
@@ -62,6 +78,10 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
           "nsubj"
         ]
@@ -72,6 +92,10 @@
         {
           "sentence_index": 0,
           "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
         },
         {
           "sentence_index": 0,
@@ -90,7 +114,23 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
           "nsubj"
         ]
       ],
@@ -103,7 +143,23 @@
         },
         {
           "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
           "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
         }
       ],
       "note": null
@@ -115,6 +171,14 @@
       "path": [
         [
           "系统",
+          "nsubj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
           "nsubj"
         ],
         [
@@ -144,6 +208,14 @@
         {
           "sentence_index": 0,
           "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
         },
         {
           "sentence_index": 0,
@@ -180,6 +252,14 @@
         [
           "正向",
           "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
         ],
         [
           "问题",
@@ -228,6 +308,14 @@
         {
           "sentence_index": 0,
           "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
         },
         {
           "sentence_index": 0,
@@ -282,6 +370,14 @@
           "rcmod"
         ],
         [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ],
+        [
           "问题",
           "dobj"
         ],
@@ -320,6 +416,14 @@
         {
           "sentence_index": 0,
           "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
         },
         {
           "sentence_index": 0,
@@ -384,6 +488,10 @@
         [
           "健康",
           "nn"
+        ],
+        [
+          "管理",
+          "nn"
         ]
       ],
       "path_type": "cross_sentence",
@@ -416,6 +524,10 @@
         {
           "sentence_index": 0,
           "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
         }
       ],
       "note": null
@@ -464,6 +576,14 @@
         [
           "正向",
           "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
         ]
       ],
       "path_type": "cross_sentence",
@@ -488,6 +608,14 @@
         {
           "sentence_index": 0,
           "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
         }
       ],
       "note": null
@@ -552,6 +680,26 @@
         [
           "航空",
           "nn"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -560,6 +708,26 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         }
       ],
       "note": null
@@ -571,6 +739,10 @@
       "path": [
         [
           "健康",
+          "nn"
+        ],
+        [
+          "管理",
           "nn"
         ],
         [
@@ -624,6 +796,10 @@
         {
           "sentence_index": 0,
           "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
         },
         {
           "sentence_index": 0,

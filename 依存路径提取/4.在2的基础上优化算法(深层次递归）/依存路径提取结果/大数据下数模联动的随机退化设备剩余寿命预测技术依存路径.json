@@ -54,12 +54,12 @@
           "nn"
         ],
         [
-          "寿命",
-          "nn"
-        ],
-        [
           "剩余",
           "amod"
+        ],
+        [
+          "寿命",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -107,11 +107,11 @@
         },
         {
           "sentence_index": 0,
-          "id": 33
+          "id": 32
         },
         {
           "sentence_index": 0,
-          "id": 32
+          "id": 33
         }
       ],
       "note": null
@@ -168,6 +168,10 @@
         [
           "随机",
           "amod"
+        ],
+        [
+          "退化",
+          "amod"
         ]
       ],
       "path_type": "intra_sentence",
@@ -220,6 +224,10 @@
         {
           "sentence_index": 0,
           "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
         }
       ],
       "note": null
@@ -328,6 +336,10 @@
         [
           "机器",
           "nn"
+        ],
+        [
+          "学习",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -380,6 +392,10 @@
         {
           "sentence_index": 0,
           "id": 174
+        },
+        {
+          "sentence_index": 0,
+          "id": 175
         }
       ],
       "note": null
@@ -432,6 +448,14 @@
         [
           "统计",
           "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "驱动",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -480,6 +504,14 @@
         {
           "sentence_index": 0,
           "id": 178
+        },
+        {
+          "sentence_index": 0,
+          "id": 179
+        },
+        {
+          "sentence_index": 0,
+          "id": 180
         }
       ],
       "note": null
@@ -536,6 +568,10 @@
         [
           "随机",
           "amod"
+        ],
+        [
+          "退化",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -588,6 +624,10 @@
         {
           "sentence_index": 0,
           "id": 210
+        },
+        {
+          "sentence_index": 0,
+          "id": 211
         }
       ],
       "note": null
@@ -644,6 +684,10 @@
         [
           "机器",
           "nn"
+        ],
+        [
+          "学习",
+          "nn"
         ]
       ],
       "path_type": "intra_sentence",
@@ -696,6 +740,10 @@
         {
           "sentence_index": 0,
           "id": 174
+        },
+        {
+          "sentence_index": 0,
+          "id": 175
         }
       ],
       "note": null
@@ -734,11 +782,19 @@
           "pobj"
         ],
         [
+          "航空",
+          "nn"
+        ],
+        [
           "发动机",
           "nn"
         ],
         [
-          "航空",
+          "多源",
+          "amod"
+        ],
+        [
+          "监测",
           "nn"
         ]
       ],
@@ -775,11 +831,19 @@
         },
         {
           "sentence_index": 0,
+          "id": 150
+        },
+        {
+          "sentence_index": 0,
           "id": 151
         },
         {
           "sentence_index": 0,
-          "id": 150
+          "id": 152
+        },
+        {
+          "sentence_index": 0,
+          "id": 153
         }
       ],
       "note": null

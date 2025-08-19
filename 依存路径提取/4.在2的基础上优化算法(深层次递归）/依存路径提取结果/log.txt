@@ -1,4 +1,4 @@
-=== 依存路径批处理开始 2025-08-16 21:01:05 ===
+=== 依存路径批处理开始 2025-08-19 21:24:06 ===
 [MISS_PAIRS_FILE] 2017预测与健康管理(PHM)研讨会在西安召开 -> 2017预测与健康管理(PHM)研讨会在西安召开实体对.json
 [MISS_PAIRS_FILE] A320飞机空调系统故障预测模型研究 -> A320飞机空调系统故障预测模型研究实体对.json
 [MISS_PAIRS_FILE] ATML在综合运载器健康管理系统中的应用 -> ATML在综合运载器健康管理系统中的应用实体对.json
@@ -218,8 +218,8 @@
 [MISS_PAIRS_FILE] 飞机远程实时监控的一种方案 -> 飞机远程实时监控的一种方案实体对.json
 [MISS_PAIRS_FILE] 飞行人员亚健康状态的调查及其健康管理策略 -> 飞行人员亚健康状态的调查及其健康管理策略实体对.json
 [MISS_PAIRS_FILE] 飞行试验数据驱动的涡扇发动机模型辨识 -> 飞行试验数据驱动的涡扇发动机模型辨识实体对.json
-=== 处理结束 2025-08-16 21:01:06 ===
-=== 依存路径批处理开始 2025-08-16 21:01:08 ===
+=== 处理结束 2025-08-19 21:24:06 ===
+=== 依存路径批处理开始 2025-08-19 21:33:38 ===
 [MISS_PAIRS_FILE] 2017预测与健康管理(PHM)研讨会在西安召开 -> 2017预测与健康管理(PHM)研讨会在西安召开实体对.json
 [MISS_PAIRS_FILE] A320飞机空调系统故障预测模型研究 -> A320飞机空调系统故障预测模型研究实体对.json
 [MISS_PAIRS_FILE] ATML在综合运载器健康管理系统中的应用 -> ATML在综合运载器健康管理系统中的应用实体对.json
@@ -379,7 +379,7 @@
 [MISS_PAIRS_FILE] 航天飞机考虑意外损伤时防热系统的健康管理研究 -> 航天飞机考虑意外损伤时防热系统的健康管理研究实体对.json
 [MISS_PAIRS_FILE] 航空发动机PHM中的数据挖掘机遇与挑战 -> 航空发动机PHM中的数据挖掘机遇与挑战实体对.json
 [MISS_PAIRS_FILE] 航空发动机健康参数的卡尔曼滤波估计方法分析 -> 航空发动机健康参数的卡尔曼滤波估计方法分析实体对.json
-[DONE] 航空发动机健康管理系统功能架构优化方法 stats={'total_pairs': 14, 'aligned_pairs': 5, 'path_found': 5, 'cross_sentence_pairs': 9, 'cross_sentence_path_found': 9}
+[DONE] 航空发动机健康管理系统功能架构优化方法 stats={'total_pairs': 14, 'aligned_pairs': 7, 'path_found': 7, 'cross_sentence_pairs': 7, 'cross_sentence_path_found': 7}
 [DONE] 航空发动机健康管理系统功能架构分析与研究 stats={'total_pairs': 15, 'aligned_pairs': 1, 'path_found': 1, 'cross_sentence_pairs': 14, 'cross_sentence_path_found': 14}
 [MISS_PAIRS_FILE] 航空发动机健康管理系统发展现状及其指标体系研究 -> 航空发动机健康管理系统发展现状及其指标体系研究实体对.json
 [MISS_PAIRS_FILE] 航空发动机双余度控制规律设计方法 -> 航空发动机双余度控制规律设计方法实体对.json
@@ -439,4 +439,4 @@
 [MISS_PAIRS_FILE] 飞机远程实时监控的一种方案 -> 飞机远程实时监控的一种方案实体对.json
 [MISS_PAIRS_FILE] 飞行人员亚健康状态的调查及其健康管理策略 -> 飞行人员亚健康状态的调查及其健康管理策略实体对.json
 [MISS_PAIRS_FILE] 飞行试验数据驱动的涡扇发动机模型辨识 -> 飞行试验数据驱动的涡扇发动机模型辨识实体对.json
-=== 处理结束 2025-08-16 21:01:08 ===
+=== 处理结束 2025-08-19 21:33:39 ===

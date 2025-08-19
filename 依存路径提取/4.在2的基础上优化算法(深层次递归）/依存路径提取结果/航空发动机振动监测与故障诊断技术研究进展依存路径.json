@@ -428,6 +428,10 @@
         [
           "恶劣",
           "amod"
+        ],
+        [
+          "服役",
+          "nn"
         ]
       ],
       "path_type": "cross_sentence",
@@ -456,6 +460,10 @@
         {
           "sentence_index": 2,
           "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
         }
       ],
       "note": null

@@ -2,6 +2,7 @@ from collections import deque, defaultdict
 import json
 import os
 from datetime import datetime
+import unicodedata
 
 """
 批量依存路径提取脚本（支持可选跨句最短路径）
@@ -40,55 +41,62 @@ CROSS_SENTENCE_STRATEGY = 'super_root'  # 目前仅实现 super_root
 def find_entity_token_span(entity_text, tokens):
     """
     在 tokens 中查找与 entity_text 匹配的连续 token span，返回 (start_id, end_id)。
-    新策略（更稳健）：
-    1) 精确匹配优先：joined(tokens[start:end]) == norm_entity
-    2) 否则取“最长包含”匹配：joined 被 entity 覆盖时，选择 joined 最长的那个（避免命中最短公共词）
-    3) 再否则，当 entity 被 joined 覆盖（很少见）时，选择最短的 joined
+    改进：允许跨越可忽略 token（功能词/标点）进行拼接匹配，以更容易命中多词实体（如“关键 的 技术”匹配“关键技术”）。
+
+    选择策略：
+    - 首选“精确匹配”（忽略词后拼接 == 实体规范化），在多个候选中优先窗口更短、起点更靠前。
+    - 若无精确匹配，则采用原策略的“被实体包含/实体被覆盖”。
     """
     import re
-    norm = re.sub(r"\s+", "", (entity_text or "").lower())
+    def norm_text(s: str) -> str:
+        return re.sub(r"\s+", "", (s or "").lower())
+
+    norm = norm_text(entity_text)
     if not norm:
         return None
-    forms = [re.sub(r"\s+", "", str(t.get("form", "")).lower()) for t in tokens]
+
+    raw_forms = [str(t.get("form", "")) for t in tokens]
+    forms = [norm_text(x) for x in raw_forms]
+
+    def is_punct(s: str) -> bool:
+        return bool(s) and all(unicodedata.category(ch).startswith('P') for ch in s)
+    IGNORED_FORMS = {"的", "地", "得", "之", "和", "与", "及", "等", "、"}
+    ignored = [(forms[i] in IGNORED_FORMS) or is_punct(raw_forms[i]) for i in range(len(tokens))]
+
     ids = [t.get("id") for t in tokens]
 
-    exact = []      # (length, start, end)
-    contained = []  # (length, start, end) where joined in norm
-    covering = []   # (length, start, end) where norm in joined
+    exact = []      # (window_len, start, end)
+    contained = []  # (joined_len, start, end)
+    covering = []   # (joined_len, start, end)
 
     n = len(tokens)
     for s in range(n):
         joined = ""
-        for e in range(s + 1, n + 1):
-            # 递增拼接避免重复 join 列表
-            if e == s + 1:
-                joined = forms[s]
-            else:
-                joined = joined + forms[e - 1]
+        for e in range(s, n):
+            if not ignored[e]:
+                joined += forms[e]
             if not joined:
                 continue
             if joined == norm:
-                exact.append((e - s, s, e))
+                exact.append((e - s + 1, s, e))
             elif joined in norm:
                 contained.append((len(joined), s, e))
             elif norm in joined:
                 covering.append((len(joined), s, e))
 
     if exact:
-        # 精确匹配：长度最长优先（更完整），再按起点最小
-        exact.sort(key=lambda x: (-x[0], x[1]))
+        # 精确匹配：优先窗口更短，再按起点更小
+        exact.sort(key=lambda x: (x[0], x[1]))
         _, s, e = exact[0]
-        return (ids[s], ids[e - 1])
+        return (ids[s], ids[e])
     if contained:
-        # 被实体包含：选择 joined 最长，避免只命中“技术/故障/滑油”等最短公共词
         contained.sort(key=lambda x: (-x[0], x[1]))
         _, s, e = contained[0]
-        return (ids[s], ids[e - 1])
+        return (ids[s], ids[e])
     if covering:
-        # 实体被 joined 覆盖（极端情况）：选最短
         covering.sort(key=lambda x: (x[0], x[1]))
         _, s, e = covering[0]
-        return (ids[s], ids[e - 1])
+        return (ids[s], ids[e])
     return None
 
 
@@ -193,6 +201,109 @@ def find_entity_in_sentences(entity_text, sentences_parsed):
     return None
 
 
+# ============== 实体 span 覆盖与锚点辅助 ==============
+def get_span_token_ids(span, tokens):
+    """给定 (start_id, end_id) 与该句 tokens，返回按句内顺序的 span token id 列表（含首尾）。"""
+    if not span:
+        return []
+    s, e = span
+    if s is None or e is None:
+        return []
+    lo, hi = (s, e) if s <= e else (e, s)
+    return [t["id"] for t in tokens if lo <= t.get("id") <= hi]
+
+
+def choose_span_head_id(span, tokens):
+    """选择实体 span 内的锚点 token：优先选 head 不在 span 内或为 root(0) 的 token；否则取 span 内的第一个。"""
+    ids_in_span = set(get_span_token_ids(span, tokens))
+    if not ids_in_span:
+        # 兜底为 span 起点
+        return span[0]
+    # 优先：head 不在 span 内或 head==0
+    for tok in tokens:
+        tid = tok.get("id")
+        if tid in ids_in_span:
+            h = tok.get("head", 0)
+            if h == 0 or h not in ids_in_span:
+                return tid
+    # 兜底：span 内第一个（按句内顺序）
+    for tok in tokens:
+        tid = tok.get("id")
+        if tid in ids_in_span:
+            return tid
+    return span[0]
+
+
+def expand_intra_path_with_spans(base_path_tokens, subj_span_ids, obj_span_ids, tokens):
+    """基于句内最短路径，确保 subject/object 的所有 token 也在最终 path 中。
+    合并策略：subject 剩余 -> base_path -> object 剩余，并去重保序。
+    返回 token 对象列表。
+    """
+    base_ids = [t["id"] for t in (base_path_tokens or [])]
+    subj_extra = [tid for tid in subj_span_ids if tid not in base_ids]
+    obj_extra = [tid for tid in obj_span_ids if tid not in base_ids]
+    ordered_ids = subj_extra + base_ids + obj_extra
+    seen = set()
+    final_tokens = []
+    # 为加速查询，建一个 id->token 映射
+    id_map = {t["id"]: t for t in tokens}
+    for tid in ordered_ids:
+        if tid in seen:
+            continue
+        tok = id_map.get(tid)
+        if tok is None:
+            continue
+        seen.add(tid)
+        final_tokens.append(tok)
+    return final_tokens
+
+
+def expand_cross_path_with_spans(base_path_tokens, subj_sent, subj_span_ids, obj_sent, obj_span_ids, cross_id_map):
+    """跨句场景下，确保两端实体 span 的 token 全覆盖：
+    使用跨句 id_to_token 映射（key= "si:id"）取出额外 token 并合并，返回 token 对象列表。
+    """
+    # base_path_tokens 的 key 是 token 对象（含 sentence_index, id）
+    base_keys = set()
+    ordered = []
+    def key_of(tok):
+        return f"{tok['sentence_index']}:{tok['id']}"
+    for tok in (base_path_tokens or []):
+        k = key_of(tok)
+        if k in base_keys:
+            continue
+        base_keys.add(k)
+        ordered.append(tok)
+
+    # 计算需要追加的 subject/object 额外 token
+    def pick_tokens(si, ids):
+        toks = []
+        for tid in ids:
+            k = f"{si}:{tid}"
+            tok = cross_id_map.get(k)
+            if tok:
+                toks.append(tok)
+        return toks
+
+    subj_extra = pick_tokens(subj_sent, [tid for tid in subj_span_ids])
+    obj_extra = pick_tokens(obj_sent, [tid for tid in obj_span_ids])
+
+    # 合并：subject 剩余 -> base -> object 剩余，去重
+    final = []
+    seen_keys = set()
+    def append_list(lst):
+        for t in lst:
+            k = key_of(t)
+            if k in seen_keys:
+                continue
+            seen_keys.add(k)
+            final.append(t)
+
+    append_list(subj_extra)
+    append_list(ordered)
+    append_list(obj_extra)
+    return final
+
+
 def extract_paths_for_article(dep_json_path, entity_pairs_path, output_dir, log_lines):
     title = os.path.basename(dep_json_path)[:-len("_dependency.json")]
     try:
@@ -250,23 +361,20 @@ def extract_paths_for_article(dep_json_path, entity_pairs_path, output_dir, log_
             # 句内
             aligned += 1
             tokens = sentences_parsed[subj_sent]
-            # 若两实体命中完全相同的单词（常见于“技术/故障/滑油”等公共词），尝试向更长匹配靠拢：
-            subj_id, obj_id = subj_span[0], obj_span[0]
-            if subj_span == obj_span and subj_span[0] == subj_span[1]:
-                # 尝试使用“最长包含”匹配再次求 span（通过给原文本加一个空格触发不同路径，保持简单且无副作用）
-                # 注：更系统的做法是让 find_entity_token_span 返回所有候选并做择优，这里先做轻量兜底。
-                alt_sub = find_entity_token_span(pair["subject"] + " ", tokens) or subj_span
-                alt_obj = find_entity_token_span(pair["object"] + " ", tokens) or obj_span
-                # 如果任一端找到更长的 span，则采用更长的作为起点/终点
-                if (alt_sub[1] - alt_sub[0]) > (subj_span[1] - subj_span[0]) or (alt_obj[1] - alt_obj[0]) > (obj_span[1] - obj_span[0]):
-                    subj_id, obj_id = alt_sub[0], alt_obj[0]
+            # 选取实体短语锚点作为 BFS 起止点
+            subj_id = choose_span_head_id(subj_span, tokens)
+            obj_id = choose_span_head_id(obj_span, tokens)
             graph, id_to_token = build_dependency_graph(tokens)
             path_tokens = find_shortest_dependency_path(graph, id_to_token, subj_id, obj_id)
             if path_tokens:
-                path = [(t["form"], t.get("deprel")) for t in path_tokens]
+                # 扩展以覆盖 subject/object 的所有 token
+                subj_ids_full = get_span_token_ids(subj_span, tokens)
+                obj_ids_full = get_span_token_ids(obj_span, tokens)
+                path_tokens_full = expand_intra_path_with_spans(path_tokens, subj_ids_full, obj_ids_full, tokens)
+                path = [(t["form"], t.get("deprel")) for t in path_tokens_full]
                 path_found += 1
                 note = ""
-                path_positions = [{"sentence_index": subj_sent, "id": t["id"]} for t in path_tokens]
+                path_positions = [{"sentence_index": subj_sent, "id": t["id"]} for t in path_tokens_full]
             else:
                 path = None
                 note = "无依存路径"
@@ -287,18 +395,27 @@ def extract_paths_for_article(dep_json_path, entity_pairs_path, output_dir, log_
             # 跨句
             cross_sentence_pairs += 1
             if ENABLE_CROSS_SENTENCE and cross_graph:
-                subj_key = f"{subj_sent}:{subj_span[0]}"
-                obj_key = f"{obj_sent}:{obj_span[0]}"
+                # 选取锚点
+                subj_anchor = choose_span_head_id(subj_span, sentences_parsed[subj_sent])
+                obj_anchor = choose_span_head_id(obj_span, sentences_parsed[obj_sent])
+                subj_key = f"{subj_sent}:{subj_anchor}"
+                obj_key = f"{obj_sent}:{obj_anchor}"
                 if subj_key in cross_graph and obj_key in cross_graph:
                     key_path = bfs_shortest_path(cross_graph, subj_key, obj_key)
                     if key_path:
                         # 去掉 SUPER_ROOT
                         filtered_keys = [k for k in key_path if k != cross_super_root]
-                        path_tokens = [cross_id_map[k] for k in filtered_keys]
-                        path = [(t["form"], t.get("deprel")) for t in path_tokens]
+                        base_tokens = [cross_id_map[k] for k in filtered_keys]
+                        # 扩展以覆盖 subject/object 的所有 token
+                        subj_ids_full = get_span_token_ids(subj_span, sentences_parsed[subj_sent])
+                        obj_ids_full = get_span_token_ids(obj_span, sentences_parsed[obj_sent])
+                        path_tokens_full = expand_cross_path_with_spans(
+                            base_tokens, subj_sent, subj_ids_full, obj_sent, obj_ids_full, cross_id_map
+                        )
+                        path = [(t["form"], t.get("deprel")) for t in path_tokens_full]
                         path_positions = [
                             {"sentence_index": t["sentence_index"], "id": t["id"]}
-                            for t in path_tokens
+                            for t in path_tokens_full
                         ]
                         cross_sentence_path_found += 1
                         note = ""

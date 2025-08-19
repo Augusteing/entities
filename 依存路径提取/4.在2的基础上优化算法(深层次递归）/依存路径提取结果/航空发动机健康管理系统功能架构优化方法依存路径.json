@@ -2,10 +2,10 @@
   "title": "航空发动机健康管理系统功能架构优化方法",
   "stats": {
     "total_pairs": 14,
-    "aligned_pairs": 5,
-    "path_found": 5,
-    "cross_sentence_pairs": 9,
-    "cross_sentence_path_found": 9
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
   },
   "pairs": [
     {
@@ -34,11 +34,19 @@
           "top"
         ],
         [
+          "航空",
+          "nn"
+        ],
+        [
           "发动机",
           "nn"
         ],
         [
-          "航空",
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
           "nn"
         ]
       ],
@@ -67,11 +75,19 @@
         },
         {
           "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
           "id": 2
         },
         {
           "sentence_index": 0,
-          "id": 1
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         }
       ],
       "note": null
@@ -82,8 +98,16 @@
       "relation": "采用",
       "path": [
         [
+          "的",
+          "assm"
+        ],
+        [
           "功能",
           "conj"
+        ],
+        [
+          "系统",
+          "assmod"
         ],
         [
           "作用",
@@ -112,6 +136,10 @@
         [
           "逻辑",
           "nn"
+        ],
+        [
+          "决断图",
+          "conj"
         ]
       ],
       "path_type": "cross_sentence",
@@ -119,7 +147,15 @@
       "path_positions": [
         {
           "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
           "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
         },
         {
           "sentence_index": 2,
@@ -148,6 +184,10 @@
         {
           "sentence_index": 8,
           "id": 5
+        },
+        {
+          "sentence_index": 8,
+          "id": 6
         }
       ],
       "note": null
@@ -158,8 +198,16 @@
       "relation": "采用",
       "path": [
         [
+          "的",
+          "assm"
+        ],
+        [
           "功能",
           "conj"
+        ],
+        [
+          "系统",
+          "assmod"
         ],
         [
           "作用",
@@ -172,6 +220,14 @@
         [
           "分析",
           "root"
+        ],
+        [
+          "比较",
+          "dep"
+        ],
+        [
+          "和",
+          "cc"
         ]
       ],
       "path_type": "cross_sentence",
@@ -179,7 +235,15 @@
       "path_positions": [
         {
           "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
           "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
         },
         {
           "sentence_index": 2,
@@ -192,6 +256,14 @@
         {
           "sentence_index": 7,
           "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 1
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
         }
       ],
       "note": null
@@ -204,6 +276,10 @@
         [
           "功能",
           "conj"
+        ],
+        [
+          "的",
+          "assm"
         ]
       ],
       "path_type": "intra_sentence",
@@ -212,6 +288,10 @@
         {
           "sentence_index": 2,
           "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
         }
       ],
       "note": null
@@ -226,32 +306,12 @@
           "conj"
         ],
         [
-          "作用",
-          "dobj"
-        ],
-        [
-          "发挥",
-          "root"
-        ],
-        [
-          "是",
-          "root"
-        ],
-        [
-          "之一",
-          "attr"
-        ],
-        [
-          "提升",
-          "rcmod"
-        ],
-        [
           "的",
-          "cpm"
+          "assm"
         ]
       ],
-      "path_type": "cross_sentence",
-      "sentence_index": null,
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
       "path_positions": [
         {
           "sentence_index": 2,
@@ -259,27 +319,7 @@
         },
         {
           "sentence_index": 2,
-          "id": 13
-        },
-        {
-          "sentence_index": 2,
-          "id": 8
-        },
-        {
-          "sentence_index": 0,
-          "id": 6
-        },
-        {
-          "sentence_index": 0,
-          "id": 21
-        },
-        {
-          "sentence_index": 0,
           "id": 10
-        },
-        {
-          "sentence_index": 0,
-          "id": 18
         }
       ],
       "note": null
@@ -291,6 +331,10 @@
       "path": [
         [
           "健康",
+          "nn"
+        ],
+        [
+          "管理",
           "nn"
         ],
         [
@@ -336,6 +380,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -386,71 +434,7 @@
           "nn"
         ],
         [
-          "系统",
-          "top"
-        ],
-        [
-          "是",
-          "root"
-        ],
-        [
-          "提出",
-          "root"
-        ],
-        [
-          "方法",
-          "dobj"
-        ],
-        [
-          "针对",
-          "assmod"
-        ],
-        [
-          "故障",
-          "pobj"
-        ]
-      ],
-      "path_type": "cross_sentence",
-      "sentence_index": null,
-      "path_positions": [
-        {
-          "sentence_index": 0,
-          "id": 3
-        },
-        {
-          "sentence_index": 0,
-          "id": 5
-        },
-        {
-          "sentence_index": 0,
-          "id": 6
-        },
-        {
-          "sentence_index": 8,
-          "id": 14
-        },
-        {
-          "sentence_index": 8,
-          "id": 25
-        },
-        {
-          "sentence_index": 8,
-          "id": 18
-        },
-        {
-          "sentence_index": 8,
-          "id": 21
-        }
-      ],
-      "note": null
-    },
-    {
-      "subject": "健康管理系统",
-      "object": "故障预测",
-      "relation": "具有核心功能",
-      "path": [
-        [
-          "健康",
+          "管理",
           "nn"
         ],
         [
@@ -476,6 +460,10 @@
         [
           "故障",
           "pobj"
+        ],
+        [
+          "和",
+          "cc"
         ]
       ],
       "path_type": "cross_sentence",
@@ -484,6 +472,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -508,6 +500,94 @@
         {
           "sentence_index": 8,
           "id": 21
+        },
+        {
+          "sentence_index": 8,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统",
+      "object": "故障预测",
+      "relation": "具有核心功能",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "针对",
+          "assmod"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "和",
+          "cc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 8,
+          "id": 14
+        },
+        {
+          "sentence_index": 8,
+          "id": 25
+        },
+        {
+          "sentence_index": 8,
+          "id": 18
+        },
+        {
+          "sentence_index": 8,
+          "id": 21
+        },
+        {
+          "sentence_index": 8,
+          "id": 20
         }
       ],
       "note": null
@@ -558,6 +638,10 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
           "top"
         ],
@@ -580,6 +664,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -607,6 +695,10 @@
       "path": [
         [
           "健康",
+          "nn"
+        ],
+        [
+          "管理",
           "nn"
         ],
         [
@@ -640,6 +732,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -678,6 +774,10 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
           "top"
         ],
@@ -692,6 +792,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -714,6 +818,10 @@
           "nn"
         ],
         [
+          "管理",
+          "nn"
+        ],
+        [
           "系统",
           "top"
         ],
@@ -728,6 +836,10 @@
         {
           "sentence_index": 0,
           "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
         },
         {
           "sentence_index": 0,
@@ -746,53 +858,13 @@
       "relation": "实现",
       "path": [
         [
-          "的",
-          "cpm"
-        ],
-        [
-          "提升",
-          "rcmod"
-        ],
-        [
-          "之一",
-          "attr"
-        ],
-        [
-          "是",
-          "root"
-        ],
-        [
-          "实现",
-          "root"
-        ],
-        [
           "分配",
           "dobj"
         ]
       ],
-      "path_type": "cross_sentence",
-      "sentence_index": null,
+      "path_type": "intra_sentence",
+      "sentence_index": 5,
       "path_positions": [
-        {
-          "sentence_index": 0,
-          "id": 18
-        },
-        {
-          "sentence_index": 0,
-          "id": 10
-        },
-        {
-          "sentence_index": 0,
-          "id": 21
-        },
-        {
-          "sentence_index": 0,
-          "id": 6
-        },
-        {
-          "sentence_index": 5,
-          "id": 1
-        },
         {
           "sentence_index": 5,
           "id": 6
