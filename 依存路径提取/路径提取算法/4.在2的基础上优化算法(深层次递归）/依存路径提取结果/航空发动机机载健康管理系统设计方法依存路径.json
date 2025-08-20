@@ -1,0 +1,856 @@
+{
+  "title": "航空发动机机载健康管理系统设计方法",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "健康管理系统设计方法",
+      "object": "航空发动机机载健康管理",
+      "relation": "旨在解决",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机载",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "object": "系统工程思想",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "object": "系统正向设计流程",
+      "relation": "采用",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统正向设计流程",
+      "object": "需求分析",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "清晰",
+          "rcmod"
+        ],
+        [
+          "明确",
+          "conj"
+        ],
+        [
+          "需求",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统正向设计流程",
+      "object": "功能分配",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "对比",
+          "rcmod"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "功能",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统正向设计流程",
+      "object": "模块定义",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "定义",
+          "nn"
+        ],
+        [
+          "模块",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 14
+        },
+        {
+          "sentence_index": 8,
+          "id": 10
+        },
+        {
+          "sentence_index": 8,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "健康管理功能架构体系",
+      "relation": "建立了",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型的设计方法",
+      "object": "硬件设计模型",
+      "relation": "用于建立",
+      "path": [
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "航空发动机健康管理正向设计流程平台",
+      "relation": "开发了",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机健康管理正向设计流程平台",
+      "object": "图形化设计",
+      "relation": "实现",
+      "path": [
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "清晰",
+          "rcmod"
+        ],
+        [
+          "流程",
+          "nsubj"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机机载健康管理系统",
+      "object": "航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理系统设计方法",
+      "object": "功能目标量化",
+      "relation": "实现",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "正向",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "对比",
+          "rcmod"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "功能",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

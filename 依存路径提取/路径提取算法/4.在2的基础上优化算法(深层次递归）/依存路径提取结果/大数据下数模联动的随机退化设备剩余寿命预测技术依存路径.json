@@ -1,0 +1,1188 @@
+{
+  "title": "大数据下数模联动的随机退化设备剩余寿命预测技术",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "数模联动",
+      "object": "剩余寿命预测",
+      "relation": "解决",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "随机退化设备",
+      "relation": "针对",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "随机",
+          "amod"
+        ],
+        [
+          "退化",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "不确定性量化",
+      "relation": "面临",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "不确定性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "机器学习方法",
+      "relation": "结合",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "借鉴",
+          "conj"
+        ],
+        [
+          "考虑",
+          "conj"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "机器",
+          "nn"
+        ],
+        [
+          "学习",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 173
+        },
+        {
+          "sentence_index": 0,
+          "id": 183
+        },
+        {
+          "sentence_index": 0,
+          "id": 181
+        },
+        {
+          "sentence_index": 0,
+          "id": 176
+        },
+        {
+          "sentence_index": 0,
+          "id": 174
+        },
+        {
+          "sentence_index": 0,
+          "id": 175
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "统计数据驱动方法",
+      "relation": "结合",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "借鉴",
+          "conj"
+        ],
+        [
+          "考虑",
+          "conj"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "统计",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "驱动",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 173
+        },
+        {
+          "sentence_index": 0,
+          "id": 183
+        },
+        {
+          "sentence_index": 0,
+          "id": 181
+        },
+        {
+          "sentence_index": 0,
+          "id": 178
+        },
+        {
+          "sentence_index": 0,
+          "id": 179
+        },
+        {
+          "sentence_index": 0,
+          "id": 180
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "随机退化建模",
+      "relation": "结合",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "联动",
+          "conj"
+        ],
+        [
+          "建模",
+          "nsubj"
+        ],
+        [
+          "随机",
+          "amod"
+        ],
+        [
+          "退化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        },
+        {
+          "sentence_index": 0,
+          "id": 244
+        },
+        {
+          "sentence_index": 0,
+          "id": 237
+        },
+        {
+          "sentence_index": 0,
+          "id": 214
+        },
+        {
+          "sentence_index": 0,
+          "id": 212
+        },
+        {
+          "sentence_index": 0,
+          "id": 210
+        },
+        {
+          "sentence_index": 0,
+          "id": 211
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深度学习",
+      "object": "机器学习方法",
+      "relation": "属于",
+      "path": [
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "学习",
+          "conj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "借鉴",
+          "conj"
+        ],
+        [
+          "考虑",
+          "conj"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "机器",
+          "nn"
+        ],
+        [
+          "学习",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 207
+        },
+        {
+          "sentence_index": 0,
+          "id": 208
+        },
+        {
+          "sentence_index": 0,
+          "id": 237
+        },
+        {
+          "sentence_index": 0,
+          "id": 244
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 173
+        },
+        {
+          "sentence_index": 0,
+          "id": 183
+        },
+        {
+          "sentence_index": 0,
+          "id": 181
+        },
+        {
+          "sentence_index": 0,
+          "id": 176
+        },
+        {
+          "sentence_index": 0,
+          "id": 174
+        },
+        {
+          "sentence_index": 0,
+          "id": 175
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "航空发动机多源监测数据",
+      "relation": "验证于",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 149
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 150
+        },
+        {
+          "sentence_index": 0,
+          "id": 151
+        },
+        {
+          "sentence_index": 0,
+          "id": 152
+        },
+        {
+          "sentence_index": 0,
+          "id": 153
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 149
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 151
+        },
+        {
+          "sentence_index": 0,
+          "id": 150
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "大数据",
+      "relation": "基于",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "背景",
+          "lobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "大",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动",
+      "object": "机理模型",
+      "relation": "融合",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "动态",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "驱动",
+          "assmod"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "机理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}
