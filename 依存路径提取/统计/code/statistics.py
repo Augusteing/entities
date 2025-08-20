@@ -5,18 +5,12 @@ from collections import Counter
 import pandas as pd
 from datetime import datetime
 
-def setup_logging():
+def setup_logging(base_dir):
     """配置日志功能，同时输出到文件和控制台"""
-    script_path = os.path.abspath(__file__)
-    code_dir = os.path.dirname(script_path)
-    base_dir = os.path.dirname(code_dir)
     log_dir = os.path.join(base_dir, 'dosc')
-
     os.makedirs(log_dir, exist_ok=True)
-
-    log_filename = f"semantic_pattern_analysis_log_{datetime.now().strftime('%Y-%m-%d')}.txt"
+    log_filename = f"semantic_path_pattern_analysis_log_{datetime.now().strftime('%Y-%m-%d')}.txt"
     log_filepath = os.path.join(log_dir, log_filename)
-
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -27,127 +21,143 @@ def setup_logging():
     )
     logging.info(f"日志将记录到: {log_filepath}")
 
-
 def simplify_path(path_list):
-    """
-    将扁平的依存路径切分为三段式：主体短语、核心关系、客体短语
-    """
-    if not path_list:
-        return None
-
+    """将扁平的依存路径切分为三段式：主体短语、核心关系、客体短语"""
+    if not path_list: return None
     root_indices = [i for i, item in enumerate(path_list) if item[1] and item[1].lower() == 'root']
-    subject_chunk_words, core_relation_words, object_chunk_words = [], [], []
-
+    core_relation_words = []
     if not root_indices:
         core_relation_words = [item[0] for item in path_list]
     elif len(root_indices) == 1:
-        idx = root_indices[0]
-        subject_chunk_words = [item[0] for item in path_list[:idx]]
-        core_relation_words = [path_list[idx][0]]
-        object_chunk_words = [item[0] for item in path_list[idx+1:]]
+        core_relation_words = [path_list[root_indices[0]][0]]
     else:
-        first_root_idx, last_root_idx = root_indices[0], root_indices[-1]
-        subject_chunk_words = [item[0] for item in path_list[:first_root_idx]]
-        core_relation_words = [item[0] for item in path_list[first_root_idx : last_root_idx+1]]
-        object_chunk_words = [item[0] for item in path_list[last_root_idx+1:]]
+        core_relation_words = [item[0] for item in path_list[root_indices[0] : root_indices[-1]+1]]
+    return " ".join(core_relation_words)
 
-    return {
-        "subject_chunk": " ".join(subject_chunk_words),
-        "core_relation": " ".join(core_relation_words),
-        "object_chunk": " ".join(object_chunk_words)
+def normalize_entity_type(type_str):
+    """标准化实体类型标签，处理中英文混用问题"""
+    mapping = {
+        "研究方法": "Method",
+        "研究问题": "Problem",
+        "系统/部件": "System/Component",
+        "模型": "Model",
+        "研究结果": "Finding",
+        "性能指标": "Performance Metric",
+        "应用场景": "Application",
+        "数据集": "Dataset",
+        "特征/健康指标": "Sensor/Parameter",
+        # 英文标签统一为首字母大写
+        "problem": "Problem",
+        "method": "Method",
+        "model": "Model",
+        "tool": "Tool"
     }
+    # 统一大小写并查找映射
+    normalized = type_str.strip()
+    return mapping.get(normalized, normalized)
+
 
 def main():
     """主执行函数"""
-    setup_logging()
-    logging.info("脚本开始执行: 提取基于核心关系的路径模式。")
-
     # --- 路径处理 ---
-    script_path = os.path.abspath(__file__)
-    code_dir = os.path.dirname(script_path)
-    base_dir = os.path.dirname(code_dir)
-    result_dir = os.path.join(base_dir, '依存路径提取结果')
-    output_dir = os.path.join(base_dir, '统计提取结果') # 新增：定义输出文件夹
+    try:
+        script_path = os.path.abspath(__file__)
+        code_dir = os.path.dirname(script_path)
+        base_dir = os.path.dirname(code_dir)
+    except NameError:
+        # 在交互式环境中, __file__ 未定义, 使用当前工作目录
+        base_dir = os.getcwd()
 
-    # 新增：确保输出文件夹存在
+    setup_logging(base_dir)
+    logging.info("脚本开始执行: 提取语义路径模式。")
+
+    entity_pair_dir = os.path.join(base_dir, '实体对')
+    path_result_dir = os.path.join(base_dir, '依存路径提取结果')
+    output_dir = os.path.join(base_dir, '统计提取结果')
     os.makedirs(output_dir, exist_ok=True)
+    
+    logging.info(f"项目根目录: {base_dir}")
+    logging.info(f"读取实体对类型: {entity_pair_dir}")
+    logging.info(f"读取依存路径: {path_result_dir}")
+    logging.info(f"结果将保存到: {output_dir}")
 
-    logging.info(f"项目根目录被识别为: {base_dir}")
-    logging.info(f"正在从数据目录读取文件: {result_dir}")
-    logging.info(f"分析结果将保存到目录: {output_dir}")
+    # --- 1. 读取并标准化所有实体对的类型信息 ---
+    type_lookup = {}
+    entity_pair_files = [f for f in os.listdir(entity_pair_dir) if f.endswith('实体对.json')]
+    for filename in entity_pair_files:
+        title = filename.replace('实体对.json', '')
+        filepath = os.path.join(entity_pair_dir, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                pairs = json.load(f)
+                for pair in pairs:
+                    # 使用 (文章标题, subject, object) 作为唯一键
+                    key = (title, pair['subject'], pair['object'])
+                    subj_type = normalize_entity_type(pair.get('subject_type', 'Unknown'))
+                    obj_type = normalize_entity_type(pair.get('object_type', 'Unknown'))
+                    type_lookup[key] = (subj_type, obj_type)
+        except Exception as e:
+            logging.error(f"读取实体对文件 {filename} 失败: {e}")
+    logging.info(f"成功加载了 {len(type_lookup)} 个实体对的类型信息。")
 
-    if not os.path.isdir(result_dir):
-        logging.error(f"错误：找不到数据目录 '{result_dir}'。请检查文件夹结构。")
-        return
-
-    json_files = [f for f in os.listdir(result_dir) if f.endswith('依存路径.json')]
-    if not json_files:
-        logging.warning(f"在 '{result_dir}' 目录中未找到任何 '...依存路径.json' 文件。")
-        return
-    logging.info(f"发现 {len(json_files)} 个JSON结果文件。")
-
-    # --- 数据处理 ---
-    all_simplified_paths = []
-    for filename in json_files:
-        filepath = os.path.join(result_dir, filename)
+    # --- 2. 结合路径信息，生成语义模式 ---
+    semantic_patterns = []
+    path_result_files = [f for f in os.listdir(path_result_dir) if f.endswith('依存路径.json')]
+    for filename in path_result_files:
+        title = filename.replace('依存路径.json', '')
+        filepath = os.path.join(path_result_dir, filename)
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                count = 0
                 for pair in data.get('pairs', []):
-                    if pair.get('path'):
-                        simplified = simplify_path(pair['path'])
-                        if simplified and simplified['core_relation']:
-                            all_simplified_paths.append({**pair, "simplified": simplified})
-                            count += 1
-                logging.info(f"从 {filename} 中成功处理了 {count} 条路径。")
+                    if not pair.get('path'): continue
+                    
+                    key = (title, pair['subject'], pair['object'])
+                    subj_type, obj_type = type_lookup.get(key, ('Unknown', 'Unknown'))
+                    core_relation = simplify_path(pair['path'])
+                    
+                    if core_relation:
+                        pattern = f"{subj_type} → {core_relation} → {obj_type}"
+                        semantic_patterns.append({
+                            "pattern": pattern,
+                            "subject": pair['subject'],
+                            "relation": pair.get('relation', 'N/A'),
+                            "object": pair['object']
+                        })
         except Exception as e:
-            logging.error(f"读取或解析文件 {filename} 时出错: {e}")
+            logging.error(f"读取路径文件 {filename} 失败: {e}")
 
-    if not all_simplified_paths:
-        logging.warning("未能从任何文件中提取出有效的核心关系路径。脚本执行结束。")
-        return
+    logging.info(f"成功生成了 {len(semantic_patterns)} 条语义路径。")
 
-    logging.info(f"共聚合了 {len(all_simplified_paths)} 条可供分析的路径。")
-
-    # --- 统计与展示 ---
-    core_relation_counts = Counter(p['simplified']['core_relation'] for p in all_simplified_paths)
-    logging.info(f"统计出 {len(core_relation_counts)} 种不同的核心关系模式。")
+    # --- 3. 统计与展示 ---
+    pattern_counts = Counter(p['pattern'] for p in semantic_patterns)
+    logging.info(f"统计出 {len(pattern_counts)} 种不同的语义路径模式。")
 
     results = []
-    for core, count in core_relation_counts.most_common(20):
+    for pattern, count in pattern_counts.most_common(20):
         examples = []
-        for p in all_simplified_paths:
-            if p['simplified']['core_relation'] == core:
-                subj_phrase = p['simplified']['subject_chunk']
-                obj_phrase = p['simplified']['object_chunk']
-                example_str = f"[{p['subject']}]({subj_phrase}) → {core} → [{p['object']}]({obj_phrase})"
-                examples.append(example_str)
-                if len(examples) >= 2:
-                    break
+        for p in semantic_patterns:
+            if p['pattern'] == pattern:
+                examples.append(f"[{p['subject']}]--({p['relation']})-->[{p['object']}]")
+                if len(examples) >= 2: break
         results.append({
-            "核心关系 (Core Relation)": core,
+            "语义路径模式 (Semantic Path Pattern)": pattern,
             "出现频次 (Frequency)": count,
-            "模式样例 (Pattern Examples)": "; ".join(examples)
+            "样例 (Examples)": "; ".join(examples)
         })
-
+    
     df = pd.DataFrame(results)
 
-    # --- 结果输出 ---
-    # 1. 打印到控制台
-    print("\n--- 基于“核心关系”的经典路径模式 (Top 20) ---")
+    # --- 4. 结果输出 ---
+    print("\n--- 经典语义路径模式 (Top 20) ---")
     print(df.to_string())
     
-    # 2. 新增：保存到文件
     timestamp = datetime.now().strftime('%Y-%m-%d_%H%M%S')
-    output_filename = f"semantic_patterns_summary_{timestamp}.csv"
+    output_filename = f"semantic_path_patterns_summary_{timestamp}.csv"
     output_filepath = os.path.join(output_dir, output_filename)
-    
     try:
-        # 使用 utf_8_sig 编码确保 Excel 能正确识别中文
         df.to_csv(output_filepath, index=False, encoding='utf_8_sig')
         logging.info(f"分析结果已成功保存到文件: {output_filepath}")
-        # 在控制台也给出明确提示
         print(f"\n[+] 分析结果已保存到 '统计提取结果' 文件夹下的 '{output_filename}' 文件中。")
     except Exception as e:
         logging.error(f"保存结果文件失败: {e}")
@@ -155,7 +165,6 @@ def main():
     
     print("\n")
     logging.info("脚本成功执行完毕。")
-
 
 if __name__ == '__main__':
     main()
