@@ -1,0 +1,81 @@
+[
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "解决",
+    "object": "剩余寿命预测",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "剩余寿命预测",
+    "subject_type": "Problem",
+    "relation": "针对",
+    "object": "随机退化设备",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "剩余寿命预测",
+    "subject_type": "Problem",
+    "relation": "面临",
+    "object": "不确定性量化",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "结合",
+    "object": "机器学习方法",
+    "object_type": "Method"
+  },
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "结合",
+    "object": "统计数据驱动方法",
+    "object_type": "Method"
+  },
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "结合",
+    "object": "随机退化建模",
+    "object_type": "Method"
+  },
+  {
+    "subject": "深度学习",
+    "subject_type": "Method",
+    "relation": "属于",
+    "object": "机器学习方法",
+    "object_type": "Method"
+  },
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "验证于",
+    "object": "航空发动机多源监测数据",
+    "object_type": "Dataset"
+  },
+  {
+    "subject": "剩余寿命预测",
+    "subject_type": "Problem",
+    "relation": "应用于",
+    "object": "航空发动机",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "剩余寿命预测",
+    "subject_type": "Problem",
+    "relation": "基于",
+    "object": "大数据",
+    "object_type": "Application"
+  },
+  {
+    "subject": "数模联动",
+    "subject_type": "Method",
+    "relation": "融合",
+    "object": "机理模型",
+    "object_type": "Model"
+  }
+
+
+]

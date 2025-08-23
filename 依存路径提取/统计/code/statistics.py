@@ -21,11 +21,17 @@ def setup_logging(base_dir):
     )
     logging.info(f"日志将记录到: {log_filepath}")
 
-def get_syntactic_path_str(path_list):
-    """将依存路径列表转换为标准化的字符串"""
+def get_syntactic_path_key(path_list):
+    """将依存路径列表转换为用于统计的key（仅含依存关系）"""
     if not path_list: return "N/A"
     deprels = [item[1] for item in path_list if item[1] is not None]
     return "->".join(d.lower() for d in deprels)
+
+def format_display_path(path_list):
+    """将依存路径列表转换为用于展示的字符串：Word(deprel) — Word(deprel)"""
+    if not path_list: return "N/A"
+    display_parts = [f"{item[0]}({item[1] or 'N/A'})" for item in path_list]
+    return " — ".join(display_parts)
 
 def normalize_entity_type(type_str):
     """标准化实体类型标签，处理中英文混用问题"""
@@ -79,7 +85,6 @@ def main():
     logging.info(f"成功加载了 {len(ground_truth_lookup)} 个实体对的真值信息。")
 
     # --- 2. 聚合数据: 将语义真值和句法路径关联 ---
-    # 结构: { "semantic_pattern": [ {"syntactic_path": "...", "example": "..."}, ... ] }
     analysis_data = defaultdict(list)
     path_result_files = [f for f in os.listdir(path_result_dir) if f.endswith('依存路径.json')]
     for filename in path_result_files:
@@ -93,12 +98,14 @@ def main():
                     subj_type, obj_type, relation = ground_truth_lookup.get(key, ('Unknown', 'Unknown', 'N/A'))
                     
                     semantic_pattern = f"{subj_type} → {relation} → {obj_type}"
-                    syntactic_path = get_syntactic_path_str(pair.get('path'))
-                    example_str = f"[{pair['subject']}] → [{pair['object']}]"
+                    
+                    full_path = pair.get('path')
+                    if not full_path: continue
 
                     analysis_data[semantic_pattern].append({
-                        "syntactic_path": syntactic_path,
-                        "example": example_str
+                        "syntactic_key": get_syntactic_path_key(full_path),
+                        "display_path": format_display_path(full_path),
+                        "example": f"[{pair['subject']}] → [{pair['object']}]"
                     })
         except Exception as e:
             logging.error(f"读取路径文件 {filename} 失败: {e}")
@@ -106,18 +113,22 @@ def main():
 
     # --- 3. 整理与展示 ---
     final_results = []
-    # 按总频次排序
     sorted_patterns = sorted(analysis_data.items(), key=lambda item: len(item[1]), reverse=True)
 
     for semantic_pattern, instances in sorted_patterns:
         total_frequency = len(instances)
-        syntactic_path_counts = Counter(inst['syntactic_path'] for inst in instances)
+        # 统计每种句法路径key的频次
+        syntactic_key_counts = Counter(inst['syntactic_key'] for inst in instances)
         
         syntactic_details = []
-        for syntactic_path, count in syntactic_path_counts.most_common():
-            # 找到该句法路径的一个例子
-            example = next((inst['example'] for inst in instances if inst['syntactic_path'] == syntactic_path), "")
-            syntactic_details.append(f"  - 句法路径: {syntactic_path} (频次: {count}, 样例: {example})")
+        # 为了展示，我们需要将key映射回一个具体的display_path
+        key_to_display_map = {inst['syntactic_key']: inst['display_path'] for inst in instances}
+        key_to_example_map = {inst['syntactic_key']: inst['example'] for inst in instances}
+
+        for syntactic_key, count in syntactic_key_counts.most_common():
+            display_path = key_to_display_map.get(syntactic_key, "N/A")
+            example = key_to_example_map.get(syntactic_key, "")
+            syntactic_details.append(f"  - 句法路径: {display_path} (频次: {count}, 样例: {example})")
 
         final_results.append({
             "语义模式 (Semantic Pattern)": semantic_pattern,
@@ -125,12 +136,12 @@ def main():
             "句法实现路径 (Syntactic Realizations)": "\n".join(syntactic_details)
         })
 
-    df = pd.DataFrame(final_results).head(20) # 取前20个语义模式
+    df = pd.DataFrame(final_results)
+    df_top20 = df.head(20)
 
     # --- 4. 结果输出 ---
     print("\n--- 经典'语义-句法'模式对应报告 (Top 20) ---")
-    # 为了更好的长文本展示，我们逐行打印
-    for index, row in df.iterrows():
+    for index, row in df_top20.iterrows():
         print("="*80)
         print(f"语义模式: {row['语义模式 (Semantic Pattern)']} (总频次: {row['总频次 (Total Freq)']})")
         print("句法实现:")
@@ -140,7 +151,7 @@ def main():
     output_filename = f"semantic_syntactic_patterns_report_{timestamp}.csv"
     output_filepath = os.path.join(output_dir, output_filename)
     try:
-        pd.DataFrame(final_results).to_csv(output_filepath, index=False, encoding='utf_8_sig')
+        df.to_csv(output_filepath, index=False, encoding='utf_8_sig')
         logging.info(f"分析报告已成功保存到文件: {output_filepath}")
         print(f"\n[+] 完整分析报告已保存到 '统计提取结果' 文件夹下的 '{output_filename}' 文件中。")
     except Exception as e:

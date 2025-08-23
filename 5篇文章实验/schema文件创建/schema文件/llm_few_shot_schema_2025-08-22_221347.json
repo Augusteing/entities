@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "generated_at": "2025-08-22 22:13:47",
+    "min_freq_threshold": 2,
+    "top_k": 10,
+    "source_file": "依存路径提取结果\\5篇文章的路径结果.csv",
+    "total_patterns": 60,
+    "included_patterns_count": 10,
+    "format": "compact",
+    "max_examples_per_pattern": 2
+  },
+  "patterns": [
+    {
+      "semantic_pattern": "Method → 包含 → Method",
+      "subject_type": "Method",
+      "relation": "包含",
+      "object_type": "Method",
+      "total_freq": 4,
+      "examples": [
+        {
+          "path": "技术(dobj)",
+          "from": "健康管理技术",
+          "to": "故障诊断技术",
+          "freq": 1
+        },
+        {
+          "path": "系统(nsubj) — 正向(rcmod) — 设计(nn) — 流程(nsubj) — 问题(dobj) — 解决(pccomp) — 为(root) — 在(root) — 上(plmod) — 基础(lobj) — 对比(rcmod) — 体系(dobj) — 功能(nn)",
+          "from": "系统正向设计流程",
+          "to": "功能分配",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 结合 → Method",
+      "subject_type": "Method",
+      "relation": "结合",
+      "object_type": "Method",
+      "total_freq": 4,
+      "examples": [
+        {
+          "path": "技术(dobj) — 汇集(root) — 包括(root) — 技术(dobj) — 学习(nn) — 分析(conj) — 动力学(nn)",
+          "from": "故障诊断技术",
+          "to": "动力学分析",
+          "freq": 1
+        },
+        {
+          "path": "数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 借鉴(conj) — 考虑(conj) — 优势(dobj) — 方法(assmod) — 方法(conj) — 机器(nn) — 学习(nn)",
+          "from": "数模联动",
+          "to": "机器学习方法",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "System/Component → 具有核心功能 → Application",
+      "subject_type": "System/Component",
+      "relation": "具有核心功能",
+      "object_type": "Application",
+      "total_freq": 4,
+      "examples": [
+        {
+          "path": "健康(nn) — 管理(nn) — 系统(top) — 是(root) — 提出(root) — 方法(dobj) — 针对(assmod) — 故障(pobj) — 和(cc)",
+          "from": "健康管理系统",
+          "to": "故障预测",
+          "freq": 2
+        },
+        {
+          "path": "健康(nn) — 管理(nn) — 系统(top) — 是(root) — 表明(root) — 实现(ccomp) — 分配(dobj) — 功能(nn) — 分析(nn) — 监测(conj) — 状态(nn)",
+          "from": "健康管理系统",
+          "to": "状态监测",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 提升 → Performance Metric",
+      "subject_type": "Method",
+      "relation": "提升",
+      "object_type": "Performance Metric",
+      "total_freq": 3,
+      "examples": [
+        {
+          "path": "监视(nn) — 通导(nn) — 性能(pobj)",
+          "from": "通导监视",
+          "to": "通导监视性能",
+          "freq": 1
+        },
+        {
+          "path": "系统(assmod) — 需求(dobj) — 面对(root) — 为了(root) — 提升(pccomp) — 效能(dobj) — 客机(nn) — 大型(amod) — 安全性(conj)",
+          "from": "航电系统综合集成",
+          "to": "大型客机安全性",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 解决 → Problem",
+      "subject_type": "Method",
+      "relation": "解决",
+      "object_type": "Problem",
+      "total_freq": 3,
+      "examples": [
+        {
+          "path": "MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 架构(nn) — 动态(amod) — 优化(nn)",
+          "from": "MagicGrid方法论",
+          "to": "架构动态优化难题",
+          "freq": 1
+        },
+        {
+          "path": "MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) — 复杂(amod) — 需求(nn) — 边界(nn) — 模糊(conj)",
+          "from": "MagicGrid方法论",
+          "to": "复杂系统需求边界模糊",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 采用 → Method",
+      "subject_type": "Method",
+      "relation": "采用",
+      "object_type": "Method",
+      "total_freq": 3,
+      "examples": [
+        {
+          "path": "健康(nn) — 管理(nn) — 系统(nsubj) — 正向(rcmod) — 设计(nn) — 流程(nsubj)",
+          "from": "健康管理系统设计方法",
+          "to": "系统正向设计流程",
+          "freq": 1
+        },
+        {
+          "path": "的(assm) — 功能(conj) — 系统(assmod) — 作用(dobj) — 发挥(root) — 分析(root) — 比较(dep) — 和(cc)",
+          "from": "功能分配方法",
+          "to": "层次分析法(AHP)",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "System/Component → 包含 → System/Component",
+      "subject_type": "System/Component",
+      "relation": "包含",
+      "object_type": "System/Component",
+      "total_freq": 3,
+      "examples": [
+        {
+          "path": "系统(assmod) — 需求(dobj) — 面对(root) — 提出(root) — 在(prep) — 方面(pobj) — 享(vmod) — 管理(dep) — 与(cc)",
+          "from": "大型客机航电系统",
+          "to": "飞行管理",
+          "freq": 1
+        },
+        {
+          "path": "系统(assmod) — 需求(dobj) — 面对(root) — 提出(root) — 在(prep) — 方面(pobj) — 需(vmod) — 基于(prep) — 性能(pobj) — 通导(nn) — 监视(nn)",
+          "from": "大型客机航电系统",
+          "to": "通导监视",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 基于 → Method",
+      "subject_type": "Method",
+      "relation": "基于",
+      "object_type": "Method",
+      "total_freq": 2,
+      "examples": [
+        {
+          "path": "健康(nn) — 管理(nn) — 系统(nsubj)",
+          "from": "健康管理系统设计方法",
+          "to": "系统工程思想",
+          "freq": 1
+        },
+        {
+          "path": "技术(dobj) — 汇集(root) — 包括(root) — 技术(dobj) — 学习(nn) — 处理(conj) — 信号(nn)",
+          "from": "故障诊断技术",
+          "to": "信号处理",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 实现 → Finding",
+      "subject_type": "Method",
+      "relation": "实现",
+      "object_type": "Finding",
+      "total_freq": 2,
+      "examples": [
+        {
+          "path": "分配(dobj)",
+          "from": "提出的分配方法",
+          "to": "定量分配",
+          "freq": 1
+        },
+        {
+          "path": "功能(conj) — 的(assm)",
+          "from": "功能分配方法",
+          "to": "功能优化配置",
+          "freq": 1
+        }
+      ]
+    },
+    {
+      "semantic_pattern": "Method → 应用于 → Application",
+      "subject_type": "Method",
+      "relation": "应用于",
+      "object_type": "Application",
+      "total_freq": 2,
+      "examples": [
+        {
+          "path": "MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) — 复杂(amod)",
+          "from": "MagicGrid方法论",
+          "to": "复杂装备系统设计",
+          "freq": 1
+        },
+        {
+          "path": "建模(nn) — 框架(dobj) — 提出(root) — 针对(root) — 难题(pobj) — 系统(nn)",
+          "from": "生命周期建模范式",
+          "to": "系统工程实践",
+          "freq": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "应用于",
+    "object": "航空发动机健康管理系统",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "解决",
+    "object": "架构动态优化难题",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "解决",
+    "object": "复杂系统需求边界模糊",
+    "object_type": "Problem"
+  },
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "使用",
+    "object": "MagicDraw",
+    "object_type": "Tool"
+  },
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "基于",
+    "object": "系统建模语言",
+    "object_type": "Tool"
+  },
+  {
+    "subject": "协同建模框架",
+    "subject_type": "Model",
+    "relation": "用于构建",
+    "object": "物理模型",
+    "object_type": "Model"
+  },
+  {
+    "subject": "物理模型",
+    "subject_type": "Model",
+    "relation": "通过",
+    "object": "块定义图与内部块图",
+    "object_type": "Model"
+  },
+  {
+    "subject": "研究成果",
+    "subject_type": "Finding",
+    "relation": "提升",
+    "object": "预测效率",
+    "object_type": "Performance Metric"
+  },
+  {
+    "subject": "研究成果",
+    "subject_type": "Finding",
+    "relation": "降低",
+    "object": "功能重叠率",
+    "object_type": "Performance Metric"
+  },
+  {
+    "subject": "MagicGrid方法论",
+    "subject_type": "Method",
+    "relation": "应用于",
+    "object": "复杂装备系统设计",
+    "object_type": "Application"
+  },
+  {
+    "subject": "可追溯性矩阵",
+    "subject_type": "Tool",
+    "relation": "用于",
+    "object": "需求完整性分析",
+    "object_type": "Method"
+  },
+  {
+    "subject": "航空发动机健康管理系统",
+    "subject_type": "System/Component",
+    "relation": "包含",
+    "object": "航空发动机",
+    "object_type": "System/Component"
+  },
+  {
+    "subject": "案例验证",
+    "subject_type": "Method",
+    "relation": "验证",
+    "object": "MagicGrid方法论",
+    "object_type": "Method"
+  },
+  {
+    "subject": "研究成果",
+    "subject_type": "Finding",
+    "relation": "具有",
+    "object": "普适参考价值",
+    "object_type": "Finding"
+  },
+  {
+    "subject": "生命周期建模范式",
+    "subject_type": "Method",
+    "relation": "应用于",
+    "object": "系统工程实践",
+    "object_type": "Application"
+  }
+]
