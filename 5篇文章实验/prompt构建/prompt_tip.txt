@@ -52,7 +52,9 @@
     {"type": "性能指标", "text": "RMSE"},
     {"type": "研究结果", "text": "0.05的误差"},
   "relations": [
-    {"type": "改进了", "head:" "循环神经网络", "tail": "卷积神经网络"},
+    {"type": "改进了", "head": "LSTM", "tail": "循环神经网络"},
+    {"type": "包含", "head": "机器学习", "tail": "深度学习"},
+    {"type": "包含", "head": "正则化方法", "tail": "L2正则化"},
     {"type": "使用", "head": "基于注意力机制的研究方法", "tail": "Transformer模型"},
     {"type": "训练于", "head": "Transformer模型", "tail": "IMS数据集"},
     {"type": "对比", "head": "Transformer模型", "tail": "SVM方法"},

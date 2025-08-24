@@ -14,7 +14,7 @@ from openai import OpenAI
 CODE_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(CODE_DIR)
 
-SCHEMA_FILE = os.path.join(BASE_DIR, "schema文件", "schema.txt")
+SCHEMA_FILE = os.path.join(BASE_DIR, "schema文件", "schema.json")
 PROMPT_FILE = os.path.join(BASE_DIR, "prompt", "prompt.txt")
 PAPERS_DIR = os.path.join(BASE_DIR, "论文文献")
 OUTPUT_DIR = os.path.join(BASE_DIR, "数据结果")
