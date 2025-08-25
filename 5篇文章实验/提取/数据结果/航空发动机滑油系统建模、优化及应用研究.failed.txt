@@ -1,0 +1,3 @@
+失败时间: 2025-08-25T11:04:32.904610+00:00
+异常: Expecting value: line 206 column 29 (char 9758)
+Prompt文件: e:\知识图谱构建\5篇文章实验\提取\数据结果\prompts\航空发动机滑油系统建模、优化及应用研究_prompt.txt
