@@ -17,14 +17,13 @@ BASE_DIR = os.path.dirname(CODE_DIR)
 SCHEMA_FILE = os.path.join(BASE_DIR, "schema文件", "schema.txt")
 PROMPT_FILE = os.path.join(BASE_DIR, "prompt", "prompt.txt")
 PAPERS_DIR = os.path.join(BASE_DIR, "论文文献")
-DATA_RESULT_DIR = os.path.join(BASE_DIR, "数据结果")
-EXTRACT_RESULT_DIR = os.path.join(DATA_RESULT_DIR, "提取结果")  # JSON结果存放目录
-LOG_DIR = os.path.join(DATA_RESULT_DIR, "log")              # 日志文件存放目录
-MAIN_LOG_FILE = os.path.join(LOG_DIR, "extraction_log.ndjson")  # 总日志文件
+OUTPUT_DIR = os.path.join(BASE_DIR, "数据结果")
+PROMPT_LOG_DIR = os.path.join(OUTPUT_DIR, "prompts")       # 保存每篇论文的 prompt
+PROMPT_LOG_FILE = os.path.join(OUTPUT_DIR, "prompt_log.ndjson")  # 全局 prompt 日志（追加）
+RUN_LOG_FILE = os.path.join(OUTPUT_DIR, "run_log.ndjson")  # 全局运行日志（追加）
 
-os.makedirs(DATA_RESULT_DIR, exist_ok=True)
-os.makedirs(EXTRACT_RESULT_DIR, exist_ok=True)
-os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(PROMPT_LOG_DIR, exist_ok=True)
 
 MODEL_NAME = "deepseek-chat"  # 可按需改为 deepseek-reasoner
 
@@ -75,21 +74,24 @@ def _usage_to_dict(usage_obj):
         return str(usage_obj)
 
 def append_run_log(item: dict):
-    with open(MAIN_LOG_FILE, "a", encoding="utf-8") as f:
+    with open(RUN_LOG_FILE, "a", encoding="utf-8") as f:
         f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
 def save_prompt(paper_file: str, prompt_text: str) -> str:
-    """保存单篇论文的 prompt 到日志，并写入总日志，返回 prompt 内容"""
+    """保存单篇论文的 prompt，并写入全局日志，返回 prompt 文件路径"""
+    prompt_path = os.path.join(PROMPT_LOG_DIR, paper_file.replace(".md", "_prompt.txt"))
+    with open(prompt_path, "w", encoding="utf-8") as f:
+        f.write(prompt_text)
+
     log_item = {
         "time": now_iso(),
         "paper": paper_file,
-        "prompt_length": len(prompt_text),
-        "action": "prompt_generated"
+        "prompt_file": prompt_path
     }
-    with open(MAIN_LOG_FILE, "a", encoding="utf-8") as logf:
+    with open(PROMPT_LOG_FILE, "a", encoding="utf-8") as logf:
         logf.write(json.dumps(log_item, ensure_ascii=False) + "\n")
 
-    return prompt_text  # 返回 prompt 内容而不是文件路径
+    return prompt_path
 
 # ------------------------------
 # 加载 schema 和 prompt
@@ -123,7 +125,7 @@ aborted_for_balance = False
 
 for paper_file in papers:
     # 输出文件路径（支持断点续跑）
-    output_file = os.path.join(EXTRACT_RESULT_DIR, paper_file.replace(".md", ".json"))
+    output_file = os.path.join(OUTPUT_DIR, paper_file.replace(".md", ".json"))
     if os.path.exists(output_file):
         print(f"已存在结果，跳过：{paper_file}")
         append_run_log({
@@ -147,7 +149,7 @@ for paper_file in papers:
     )
 
     # 记录 prompt
-    save_prompt(paper_file, prompt_filled)
+    prompt_file_path = save_prompt(paper_file, prompt_filled)
 
     print(f"提交论文：{paper_file} ...")
 
@@ -179,7 +181,7 @@ for paper_file in papers:
                 "usage": _usage_to_dict(getattr(resp, "usage", None))
             })
 
-            print(f"结果已保存到 {output_file}")
+            print(f"结果已保存到 {output_file}；对应 prompt 已记录：{prompt_file_path}")
             success += 1
             break  # 成功则跳出重试
         except Exception as e:
@@ -198,10 +200,10 @@ for paper_file in papers:
             is_last = (attempt == max_retries - 1)
             print(f"第 {attempt+1}/{max_retries} 次尝试失败：{msg}{'（已放弃）' if is_last else '，重试中…'}")
             if is_last:
-                # 失败也保留错误记录，便于复现
+                # 失败也保留 prompt 记录，便于复现
                 fail_flag = output_file.replace(".json", ".failed.txt")
                 with open(fail_flag, "w", encoding="utf-8") as ff:
-                    ff.write(f"失败时间: {now_iso()}\n异常: {msg}\n")
+                    ff.write(f"失败时间: {now_iso()}\n异常: {msg}\nPrompt文件: {prompt_file_path}\n")
                 append_run_log({
                     "time": now_iso(),
                     "paper": paper_file,
