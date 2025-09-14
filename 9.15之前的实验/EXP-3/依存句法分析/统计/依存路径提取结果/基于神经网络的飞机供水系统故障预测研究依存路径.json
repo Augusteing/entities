@@ -1,0 +1,868 @@
+{
+  "title": "基于神经网络的飞机供水系统故障预测研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "故障预测算法",
+      "object": "数据驱动",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "驱动",
+          "dobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测算法",
+      "object": "飞机水/废水系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "/",
+          "punct"
+        ],
+        [
+          "废水",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AMESim软件",
+      "object": "系统仿真模型",
+      "relation": "用于建立",
+      "path": [
+        [
+          "AMESim",
+          "nn"
+        ],
+        [
+          "软件",
+          "pobj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障注入",
+      "object": "故障数据",
+      "relation": "用于获取",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "驱动",
+          "dobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空气压缩机",
+      "object": "系统关键部件",
+      "relation": "是",
+      "path": [
+        [
+          "空气",
+          "nn"
+        ],
+        [
+          "压缩机",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "为例",
+          "dep"
+        ],
+        [
+          "采取",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "系统性能衰退曲线",
+      "relation": "用于拟合",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "性能衰退趋势",
+      "relation": "预测",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "拟合",
+          "conj"
+        ],
+        [
+          "曲线",
+          "dobj"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "衰退",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 13
+        },
+        {
+          "sentence_index": 5,
+          "id": 11
+        },
+        {
+          "sentence_index": 5,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "产品剩余寿命",
+      "relation": "预测",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "预测",
+          "root"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "剩余",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 7,
+          "id": 5
+        },
+        {
+          "sentence_index": 7,
+          "id": 16
+        },
+        {
+          "sentence_index": 7,
+          "id": 14
+        },
+        {
+          "sentence_index": 7,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "维护保养",
+      "relation": "便于",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "便于",
+          "root"
+        ],
+        [
+          "保养",
+          "dobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 8,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 4
+        },
+        {
+          "sentence_index": 8,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "系统可靠性",
+      "relation": "保证",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测方法",
+      "object": "系统安全性",
+      "relation": "保证",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

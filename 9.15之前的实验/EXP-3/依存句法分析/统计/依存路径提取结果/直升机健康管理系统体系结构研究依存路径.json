@@ -1,0 +1,1004 @@
+{
+  "title": "直升机健康管理系统体系结构研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "直升机健康管理系统",
+      "object": "直升机运行状态",
+      "relation": "监控",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "状态",
+          "pobj"
+        ],
+        [
+          "直升机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "运行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "故障",
+      "relation": "发现",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "conj"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "故障",
+      "relation": "预测",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "conj"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "技术支撑",
+      "relation": "提供",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "支撑",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术支撑",
+      "object": "操作人员",
+      "relation": "服务于",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "支撑",
+          "dobj"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "人员",
+          "pobj"
+        ],
+        [
+          "操作",
+          "nn"
+        ],
+        [
+          "人员",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术支撑",
+      "object": "维修人员",
+      "relation": "服务于",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "支撑",
+          "dobj"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "人员",
+          "pobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "HUMS处理单元",
+      "relation": "包含",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "dep"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "单元",
+          "conj"
+        ],
+        [
+          "HUMS",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "地面站",
+      "relation": "包含",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "dep"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "地面站",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机健康管理系统",
+      "object": "无线数据传输通信系统",
+      "relation": "包含",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "构建",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "dep"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "传输",
+          "nn"
+        ],
+        [
+          "通信",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "HUMS处理单元",
+      "object": "开放式体系架构",
+      "relation": "采用",
+      "path": [
+        [
+          "HUMS",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ],
+        [
+          "单元",
+          "conj"
+        ],
+        [
+          "架构",
+          "assmod"
+        ],
+        [
+          "开放式",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "地面站",
+      "object": "分布式体系架构",
+      "relation": "采用",
+      "path": [
+        [
+          "地面站",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "架构",
+          "assmod"
+        ],
+        [
+          "分布式",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

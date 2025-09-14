@@ -1,0 +1,896 @@
+{
+  "title": "航空发动机PHM中的数据挖掘机遇与挑战",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "飞行安全",
+      "relation": "确保",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "二级视情维修",
+      "relation": "实现",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "维修",
+          "dobj"
+        ],
+        [
+          "二",
+          "ordmod"
+        ],
+        [
+          "级",
+          "clf"
+        ],
+        [
+          "视情",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "先进航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘",
+      "object": "预测与健康管理(PHM)",
+      "relation": "是核心技术",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘",
+      "object": "发动机健康状态评估",
+      "relation": "实现",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘",
+      "object": "诊断",
+      "relation": "实现",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘",
+      "object": "剩余寿命预测",
+      "relation": "实现",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM技术",
+      "object": "军事需求",
+      "relation": "响应",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "入手",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "军事",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机PHM技术",
+      "object": "关键数据挖掘问题",
+      "relation": "面临",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘问题",
+      "object": "技术挑战",
+      "relation": "具有",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "计算机学科",
+      "object": "发动机PHM技术",
+      "relation": "推动",
+      "path": [
+        [
+          "计算机",
+          "conj"
+        ],
+        [
+          "宇航",
+          "nn"
+        ],
+        [
+          "学科",
+          "dobj"
+        ],
+        [
+          "集",
+          "rcmod"
+        ],
+        [
+          "建议",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 4,
+          "id": 9
+        },
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 4,
+          "id": 20
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空宇航学科",
+      "object": "发动机PHM技术",
+      "relation": "推动",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "title": "大型客机飞控作动系统配置方案设计",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "大型客机飞控作动系统",
+      "object": "高度集成化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "集成化",
+          "prnmod"
+        ],
+        [
+          "高度",
+          "advmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机飞控作动系统",
+      "object": "功率电传化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "集成化",
+          "prnmod"
+        ],
+        [
+          "电传化",
+          "conj"
+        ],
+        [
+          "功率",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机飞控作动系统",
+      "object": "信号光传化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "集成化",
+          "prnmod"
+        ],
+        [
+          "光传化",
+          "conj"
+        ],
+        [
+          "信号",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机飞控作动系统",
+      "object": "液压高压化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "集成化",
+          "prnmod"
+        ],
+        [
+          "高压化",
+          "conj"
+        ],
+        [
+          "液压",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大型客机飞控作动系统",
+      "object": "智能化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "集成化",
+          "prnmod"
+        ],
+        [
+          "智能化",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "作动系统能源配置方案",
+      "object": "我国大型客机",
+      "relation": "适用于",
+      "path": [
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "B787",
+          "assmod"
+        ],
+        [
+          "客机",
+          "nn"
+        ],
+        [
+          "大型",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "作动系统能源配置方案",
+      "object": "3H+E方案",
+      "relation": "具体为",
+      "path": [
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "方案",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "E",
+          "prnmod"
+        ],
+        [
+          "3H",
+          "nummod"
+        ],
+        [
+          "+",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "方案",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞控作动系统",
+      "object": "体系架构",
+      "relation": "发展需要解决",
+      "path": [
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "架构",
+          "conj"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞控作动系统",
+      "object": "高可靠性作动器研制",
+      "relation": "发展需要解决",
+      "path": [
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞控作动系统",
+      "object": "故障预测与健康管理",
+      "relation": "发展需要解决",
+      "path": [
+        [
+          "飞控",
+          "nn"
+        ],
+        [
+          "作动",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

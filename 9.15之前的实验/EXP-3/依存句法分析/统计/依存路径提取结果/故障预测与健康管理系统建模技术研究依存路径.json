@@ -1,0 +1,332 @@
+{
+  "title": "故障预测与健康管理系统建模技术研究",
+  "stats": {
+    "total_pairs": 5,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "飞机PHM系统",
+      "object": "分层体系模型",
+      "relation": "构建",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "分层",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分层体系模型",
+      "object": "飞机特征",
+      "relation": "依据",
+      "path": [
+        [
+          "分层",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "给出",
+          "dep"
+        ],
+        [
+          "依据",
+          "prep"
+        ],
+        [
+          "特征",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于数据的建模方法",
+      "object": "液压泵PHM系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "液压泵",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "液压泵",
+      "object": "飞机典型部件",
+      "relation": "是",
+      "path": [
+        [
+          "液压泵",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "典型",
+          "amod"
+        ],
+        [
+          "部件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "试验",
+      "object": "基于数据的建模方法",
+      "relation": "验证",
+      "path": [
+        [
+          "试验",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

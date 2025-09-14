@@ -1,0 +1,576 @@
+{
+  "title": "机载导弹发射装置PHM系统总体设计",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "保障技术手段",
+      "relation": "是",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载导弹发射装置",
+      "object": "机载武器系统",
+      "relation": "是配套产品",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "发射",
+          "nn"
+        ],
+        [
+          "装置",
+          "nsubj"
+        ],
+        [
+          "纳入",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "产品",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "武器",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载导弹发射装置",
+      "object": "飞机PHM系统",
+      "relation": "纳入",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "发射",
+          "nn"
+        ],
+        [
+          "装置",
+          "nsubj"
+        ],
+        [
+          "纳入",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "关键技术",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发射装置PHM框架结构",
+      "object": "机载导弹发射装置",
+      "relation": "针对",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "纳入",
+          "root"
+        ],
+        [
+          "装置",
+          "nsubj"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "发射",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "故障预测",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "维护管理方法",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)",
+      "object": "监测参数",
+      "relation": "需要选取",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "选取",
+          "conj"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 53
+        },
+        {
+          "sentence_index": 2,
+          "id": 46
+        },
+        {
+          "sentence_index": 2,
+          "id": 44
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

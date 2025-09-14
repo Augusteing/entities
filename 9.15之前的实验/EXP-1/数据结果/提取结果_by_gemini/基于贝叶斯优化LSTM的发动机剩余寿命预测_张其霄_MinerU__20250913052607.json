@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "贝叶斯优化LSTM"
+    },
+    {
+      "type": "算法",
+      "text": "长短期记忆网络算法(LSTM)"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯优化算法"
+    },
+    {
+      "type": "算法",
+      "text": "循环神经网络(RNN)"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归(SVR)"
+    },
+    {
+      "type": "算法",
+      "text": "多层感知机(MLP)"
+    },
+    {
+      "type": "算法",
+      "text": "卷积神经网络(CNN)"
+    },
+    {
+      "type": "算法",
+      "text": "BiLSTM"
+    },
+    {
+      "type": "算法",
+      "text": "bidirectionalhandshakingLSTM(BHSLSTM)"
+    },
+    {
+      "type": "算法",
+      "text": "深度置信网络"
+    },
+    {
+      "type": "算法",
+      "text": "高斯过程回归"
+    },
+    {
+      "type": "函数",
+      "text": "提升概率函数"
+    },
+    {
+      "type": "研究问题",
+      "text": "航空发动机剩余寿命预测"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测准确率"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差(RMSE)"
+    },
+    {
+      "type": "性能指标",
+      "text": "评分函数(Score)"
+    },
+    {
+      "type": "超参数",
+      "text": "隐藏层数"
+    },
+    {
+      "type": "超参数",
+      "text": "初始学习率"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA的涡扇发动机退化数据集(C-MAPSS)"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为15.188"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为37.56"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为20.96"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为18.45"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为16.8"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为18.8"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE为16.14"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "贝叶斯优化LSTM"
+    },
+    {
+      "type": "基于",
+      "head": "贝叶斯优化LSTM",
+      "tail": "长短期记忆网络算法(LSTM)"
+    },
+    {
+      "type": "演化为",
+      "head": "循环神经网络(RNN)",
+      "tail": "长短期记忆网络算法(LSTM)"
+    },
+    {
+      "type": "优化",
+      "head": "贝叶斯优化算法",
+      "tail": "长短期记忆网络算法(LSTM)"
+    },
+    {
+      "type": "优化",
+      "head": "贝叶斯优化算法",
+      "tail": "隐藏层数"
+    },
+    {
+      "type": "优化",
+      "head": "贝叶斯优化算法",
+      "tail": "初始学习率"
+    },
+    {
+      "type": "优化",
+      "head": "深度置信网络",
+      "tail": "长短期记忆网络算法(LSTM)"
+    },
+    {
+      "type": "评估指标是",
+      "head": "航空发动机剩余寿命预测",
+      "tail": "均方根误差(RMSE)"
+    },
+    {
+      "type": "验证数据集是",
+      "head": "贝叶斯优化LSTM",
+      "tail": "NASA的涡扇发动机退化数据集(C-MAPSS)"
+    },
+    {
+      "type": "得出",
+      "head": "贝叶斯优化LSTM",
+      "tail": "RMSE为15.188"
+    },
+    {
+      "type": "得出",
+      "head": "多层感知机(MLP)",
+      "tail": "RMSE为37.56"
+    },
+    {
+      "type": "得出",
+      "head": "支持向量回归(SVR)",
+      "tail": "RMSE为20.96"
+    },
+    {
+      "type": "得出",
+      "head": "卷积神经网络(CNN)",
+      "tail": "RMSE为18.45"
+    },
+    {
+      "type": "得出",
+      "head": "BiLSTM",
+      "tail": "RMSE为16.8"
+    },
+    {
+      "type": "得出",
+      "head": "bidirectionalhandshakingLSTM(BHSLSTM)",
+      "tail": "RMSE为18.8"
+    },
+    {
+      "type": "得出",
+      "head": "长短期记忆网络算法(LSTM)",
+      "tail": "RMSE为16.14"
+    }
+  ]
+}

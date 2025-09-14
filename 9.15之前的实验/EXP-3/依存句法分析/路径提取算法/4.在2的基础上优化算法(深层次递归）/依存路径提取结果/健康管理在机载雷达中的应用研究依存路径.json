@@ -1,0 +1,1068 @@
+{
+  "title": "健康管理在机载雷达中的应用研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "复杂系统健康管理",
+      "object": "测试技术",
+      "relation": "综合应用",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "应用",
+          "attr"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "人工智能",
+      "relation": "综合应用",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "应用",
+          "attr"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "人工",
+          "amod"
+        ],
+        [
+          "智能",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "信息技术",
+      "relation": "综合应用",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "应用",
+          "attr"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "信息",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "FDIR技术",
+      "relation": "演变自",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "由",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "重构",
+          "nn"
+        ],
+        [
+          "FDIR",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "先进的推理技术",
+      "relation": "运用",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "先进",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "推理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "系统自主重构",
+      "relation": "实现",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "扩充",
+          "conj"
+        ],
+        [
+          "重组",
+          "dobj"
+        ],
+        [
+          "重构",
+          "conj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "系统资源重组",
+      "relation": "实现",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "扩充",
+          "conj"
+        ],
+        [
+          "重组",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "资源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "系统任务目标",
+      "relation": "实现",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "目标",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "任务",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "维修人力",
+      "relation": "减少",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "费用",
+          "dobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "人力",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂系统健康管理",
+      "object": "保障费用",
+      "relation": "减少",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "演变",
+          "conj"
+        ],
+        [
+          "运用",
+          "dep"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "费用",
+          "dobj"
+        ],
+        [
+          "保障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理",
+      "object": "机载雷达",
+      "relation": "应用于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "应用",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "雷达",
+          "lobj"
+        ],
+        [
+          "机载",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

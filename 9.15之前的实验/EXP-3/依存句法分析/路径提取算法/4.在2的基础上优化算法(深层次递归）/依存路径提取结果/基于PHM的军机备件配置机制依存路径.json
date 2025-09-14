@@ -1,0 +1,940 @@
+{
+  "title": "基于PHM的军机备件配置机制",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "现有军机备件配置模型",
+      "object": "PHM技术支持下的军机备件配置",
+      "relation": "不能满足",
+      "path": [
+        [
+          "现有",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "军机",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "满足",
+          "root"
+        ],
+        [
+          "得出",
+          "conj"
+        ],
+        [
+          "模式",
+          "dobj"
+        ],
+        [
+          "下",
+          "assmod"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "支持",
+          "lobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM技术",
+      "object": "军机备件配置",
+      "relation": "影响",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "满足",
+          "root"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "军机",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统",
+      "object": "基层级备件配置机制框架",
+      "relation": "用于构建",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "基层级",
+          "amod"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "后方基地自动化后勤信息系统",
+      "object": "后方基地备件配置机制框架",
+      "relation": "用于构建",
+      "path": [
+        [
+          "后方",
+          "nn"
+        ],
+        [
+          "基地",
+          "nn"
+        ],
+        [
+          "自动化",
+          "amod"
+        ],
+        [
+          "后勤",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "后方",
+          "nn"
+        ],
+        [
+          "基地",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "虚拟库存理论",
+      "object": "后方基地备件配置机制框架",
+      "relation": "用于构建",
+      "path": [
+        [
+          "虚拟",
+          "amod"
+        ],
+        [
+          "库存",
+          "nn"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "后方",
+          "nn"
+        ],
+        [
+          "基地",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "信息共享理论",
+      "object": "联合共享备件配置机制框架",
+      "relation": "用于构建",
+      "path": [
+        [
+          "信息",
+          "nsubj"
+        ],
+        [
+          "共享",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "联合",
+          "amod"
+        ],
+        [
+          "共享",
+          "dep"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 120
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 118
+        },
+        {
+          "sentence_index": 0,
+          "id": 119
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "备件配置机制",
+      "object": "PHM技术",
+      "relation": "提供参考",
+      "path": [
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "满足",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM技术",
+      "object": "军机",
+      "relation": "应用于",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "满足",
+          "root"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "军机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "备件配置机制",
+      "object": "军机PHM体系",
+      "relation": "基于",
+      "path": [
+        [
+          "配置",
+          "nn"
+        ],
+        [
+          "机制",
+          "nn"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "满足",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "构建",
+          "vmod"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "军机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

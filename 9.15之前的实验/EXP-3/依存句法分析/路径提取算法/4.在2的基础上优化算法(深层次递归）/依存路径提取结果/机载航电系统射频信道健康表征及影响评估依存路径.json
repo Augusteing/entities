@@ -1,0 +1,616 @@
+{
+  "title": "机载航电系统射频信道健康表征及影响评估",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "健康表征参数选取原则和方法",
+      "object": "失效模式影响及危害性分析",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "选取",
+          "nn"
+        ],
+        [
+          "原则",
+          "conj"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "影响",
+          "conj"
+        ],
+        [
+          "失效",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康表征参数选取原则和方法",
+      "object": "故障树分析",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "选取",
+          "nn"
+        ],
+        [
+          "原则",
+          "conj"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "故障树",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康表征参数选取原则和方法",
+      "object": "历史案例",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "选取",
+          "nn"
+        ],
+        [
+          "原则",
+          "conj"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "历史",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康表征方法",
+      "object": "隐马尔可夫模型",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "贝叶斯",
+          "pobj"
+        ],
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "隐马尔可夫",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康表征方法",
+      "object": "贝叶斯",
+      "relation": "基于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "贝叶斯",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "模型",
+      "object": "射频信道的健康影响",
+      "relation": "分析",
+      "path": [
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "贝叶斯",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "影响",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康影响分析",
+      "object": "射频信道健康表征的优先参量",
+      "relation": "得到",
+      "path": [
+        [
+          "影响",
+          "conj"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "射频信道健康表征及影响评估",
+      "object": "先进战斗机健康管理技术研究",
+      "relation": "促进",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "表征",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

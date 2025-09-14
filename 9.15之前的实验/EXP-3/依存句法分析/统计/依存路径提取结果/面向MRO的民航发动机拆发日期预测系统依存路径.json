@@ -1,0 +1,1384 @@
+{
+  "title": "面向MRO的民航发动机拆发日期预测系统",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "民航发动机维护、维修和大修业务需求",
+      "relation": "满足",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "大修",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "维护",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "在翼民航发动机拆发日期",
+      "relation": "预测",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "性能",
+      "relation": "考虑",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "时限",
+          "nn"
+        ],
+        [
+          "性能",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "故障",
+      "relation": "考虑",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "时限",
+          "nn"
+        ],
+        [
+          "故障",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "时限",
+      "relation": "考虑",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "时限",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "损伤基线",
+      "relation": "提出",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "基线",
+          "assmod"
+        ],
+        [
+          "损伤",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "硬件损伤发展模型",
+      "relation": "建立",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "硬件",
+          "nn"
+        ],
+        [
+          "损伤",
+          "nn"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "硬件损伤发展模型",
+      "object": "线性退化轨道",
+      "relation": "基于",
+      "path": [
+        [
+          "硬件",
+          "nn"
+        ],
+        [
+          "损伤",
+          "nn"
+        ],
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "轨道",
+          "dobj"
+        ],
+        [
+          "线性",
+          "amod"
+        ],
+        [
+          "退化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 28
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 30
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "中国国际航空股份有限公司",
+      "relation": "应用于",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "少",
+          "pccomp"
+        ],
+        [
+          "样本",
+          "nsubj"
+        ],
+        [
+          "中",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "发动机健康管理和维修决策支持系统",
+      "relation": "作为子系统集成于",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "大修",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "支撑数据",
+      "relation": "获取",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "少",
+          "pccomp"
+        ],
+        [
+          "样本",
+          "nsubj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航发动机拆发日期预测系统",
+      "object": "预测结果",
+      "relation": "提供",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测结果",
+      "object": "维修计划制定模块",
+      "relation": "支撑",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "大修",
+          "assmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "维修",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机健康管理流程",
+      "object": "发动机状态监测",
+      "relation": "包含",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机健康管理流程",
+      "object": "拆发日期预测",
+      "relation": "包含",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "大修",
+          "assmod"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "开发",
+          "root"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "日期",
+          "nn"
+        ],
+        [
+          "拆发",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机健康管理流程",
+      "object": "维修决策",
+      "relation": "包含",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "大修",
+          "assmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "维修",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

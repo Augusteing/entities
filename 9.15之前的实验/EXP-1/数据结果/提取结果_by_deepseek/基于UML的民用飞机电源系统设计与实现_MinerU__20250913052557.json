@@ -1,0 +1,298 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "统一建模语言"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象设计方法"
+    },
+    {
+      "type": "方法",
+      "text": "分层插件设计方法"
+    },
+    {
+      "type": "系统",
+      "text": "民用飞机电源系统"
+    },
+    {
+      "type": "系统",
+      "text": "嵌入式软件"
+    },
+    {
+      "type": "系统",
+      "text": "综合维护管理服务"
+    },
+    {
+      "type": "组件",
+      "text": "硬件层"
+    },
+    {
+      "type": "组件",
+      "text": "驱动层"
+    },
+    {
+      "type": "组件",
+      "text": "API层"
+    },
+    {
+      "type": "组件",
+      "text": "应用层"
+    },
+    {
+      "type": "类",
+      "text": "Init"
+    },
+    {
+      "type": "类",
+      "text": "UART"
+    },
+    {
+      "type": "类",
+      "text": "NVRAM"
+    },
+    {
+      "type": "类",
+      "text": "Test_Item"
+    },
+    {
+      "type": "类",
+      "text": "PBIT"
+    },
+    {
+      "type": "类",
+      "text": "CBIT"
+    },
+    {
+      "type": "类",
+      "text": "PowerCtrl"
+    },
+    {
+      "type": "类",
+      "text": "API"
+    },
+    {
+      "type": "测试项",
+      "text": "处理器测试"
+    },
+    {
+      "type": "测试项",
+      "text": "NVRAM测试"
+    },
+    {
+      "type": "测试项",
+      "text": "Flash测试"
+    },
+    {
+      "type": "测试项",
+      "text": "RTC测试"
+    },
+    {
+      "type": "测试项",
+      "text": "RS232测试"
+    },
+    {
+      "type": "测试项",
+      "text": "电压测试"
+    },
+    {
+      "type": "测试项",
+      "text": "电流测试"
+    },
+    {
+      "type": "测试项",
+      "text": "温度测试"
+    },
+    {
+      "type": "性能指标",
+      "text": "可移植性"
+    },
+    {
+      "type": "性能指标",
+      "text": "可扩展性"
+    },
+    {
+      "type": "性能指标",
+      "text": "经济性"
+    },
+    {
+      "type": "性能指标",
+      "text": "安全性"
+    },
+    {
+      "type": "研究结果",
+      "text": "缩短系统开发周期"
+    },
+    {
+      "type": "研究结果",
+      "text": "降低成本"
+    },
+    {
+      "type": "研究结果",
+      "text": "实现健康管理"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "面向对象设计方法",
+      "tail": "统一建模语言"
+    },
+    {
+      "type": "采用",
+      "head": "电源系统设计",
+      "tail": "分层插件设计方法"
+    },
+    {
+      "type": "用于",
+      "head": "分层插件设计方法",
+      "tail": "嵌入式软件"
+    },
+    {
+      "type": "包含",
+      "head": "分层插件设计",
+      "tail": "硬件层"
+    },
+    {
+      "type": "包含",
+      "head": "分层插件设计",
+      "tail": "驱动层"
+    },
+    {
+      "type": "包含",
+      "head": "分层插件设计",
+      "tail": "API层"
+    },
+    {
+      "type": "包含",
+      "head": "分层插件设计",
+      "tail": "应用层"
+    },
+    {
+      "type": "提供",
+      "head": "驱动层",
+      "tail": "Init类"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "UART类"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "NVRAM类"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "Test_Item类"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "PBIT类"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "CBIT类"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "PowerCtrl类"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "API类"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "处理器测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "NVRAM测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "Flash测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "RTC测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "RS232测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "电压测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "电流测试"
+    },
+    {
+      "type": "用于",
+      "head": "Test_Item类",
+      "tail": "温度测试"
+    },
+    {
+      "type": "实现",
+      "head": "电源系统",
+      "tail": "健康监控"
+    },
+    {
+      "type": "实现",
+      "head": "电源系统",
+      "tail": "配电管理"
+    },
+    {
+      "type": "提高",
+      "head": "设计方法",
+      "tail": "可移植性"
+    },
+    {
+      "type": "提高",
+      "head": "设计方法",
+      "tail": "可扩展性"
+    },
+    {
+      "type": "提高",
+      "head": "设计方法",
+      "tail": "经济性"
+    },
+    {
+      "type": "提高",
+      "head": "设计方法",
+      "tail": "安全性"
+    },
+    {
+      "type": "得出",
+      "head": "实际使用",
+      "tail": "缩短系统开发周期"
+    },
+    {
+      "type": "得出",
+      "head": "实际使用",
+      "tail": "降低成本"
+    },
+    {
+      "type": "得出",
+      "head": "实际使用",
+      "tail": "实现健康管理"
+    }
+  ]
+}

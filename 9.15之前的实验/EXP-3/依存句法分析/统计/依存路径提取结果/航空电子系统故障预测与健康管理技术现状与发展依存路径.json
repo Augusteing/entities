@@ -1,0 +1,1176 @@
+{
+  "title": "航空电子系统故障预测与健康管理技术现状与发展",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "传统的故障诊断技术",
+      "relation": "高于",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "高级",
+          "rcmod"
+        ],
+        [
+          "比",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "传统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "电子系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "成为",
+          "conj"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统故障预测",
+      "object": "特征参数法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "综合法",
+          "dobj"
+        ],
+        [
+          "参数法",
+          "conj"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统故障预测",
+      "object": "预警电路",
+      "relation": "包含方法",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "综合法",
+          "dobj"
+        ],
+        [
+          "电路",
+          "conj"
+        ],
+        [
+          "预警",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统故障预测",
+      "object": "累积损伤模型法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "综合法",
+          "dobj"
+        ],
+        [
+          "模型法",
+          "conj"
+        ],
+        [
+          "累积",
+          "amod"
+        ],
+        [
+          "损伤",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统故障预测",
+      "object": "综合法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "综合法",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "特征参数获取",
+      "relation": "面临挑战",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "遇到",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "质量",
+          "nn"
+        ],
+        [
+          "获取",
+          "conj"
+        ],
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 67
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "物理损伤模型",
+      "relation": "面临挑战",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "遇到",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "质量",
+          "nn"
+        ],
+        [
+          "损伤",
+          "nn"
+        ],
+        [
+          "物理",
+          "amod"
+        ],
+        [
+          "模型",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 67
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "电子元器件质量",
+      "relation": "面临挑战",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "成为",
+          "conj"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "可测性",
+      "relation": "需要考虑",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "指标",
+          "nn"
+        ],
+        [
+          "可测性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "PHM的标准化",
+      "relation": "需要考虑",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电子系统PHM技术",
+      "object": "评价指标",
+      "relation": "需要考虑",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "指标",
+          "nn"
+        ],
+        [
+          "评价",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

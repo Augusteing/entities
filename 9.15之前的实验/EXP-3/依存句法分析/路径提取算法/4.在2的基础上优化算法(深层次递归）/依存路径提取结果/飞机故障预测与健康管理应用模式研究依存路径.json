@@ -1,0 +1,932 @@
+{
+  "title": "飞机故障预测与健康管理应用模式研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与健康管理",
+      "object": "视情维修",
+      "relation": "关联",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "维修",
+          "conj"
+        ],
+        [
+          "视",
+          "nn"
+        ],
+        [
+          "情",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "自主后勤",
+      "relation": "关联",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "视情维修",
+      "object": "自主后勤",
+      "relation": "关联",
+      "path": [
+        [
+          "视",
+          "nn"
+        ],
+        [
+          "情",
+          "nn"
+        ],
+        [
+          "维修",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "PHM应用模式",
+      "relation": "具有",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "模式",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "应用",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "PHM发展趋势",
+      "relation": "具有",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "指出",
+          "conj"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "PHM",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机故障预测与健康管理(PHM)系统框架",
+      "object": "故障预测与健康管理",
+      "relation": "用于实现",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "物联网技术",
+      "object": "自主保障系统",
+      "relation": "用于构建",
+      "path": [
+        [
+          "物联网",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自主保障系统",
+      "object": "飞机自主保障能力",
+      "relation": "提升",
+      "path": [
+        [
+          "自主",
+          "amod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "机制",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "持续采办与全寿命支持(CALS)",
+      "relation": "关联",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "论证",
+          "root"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "之间",
+          "assmod"
+        ],
+        [
+          "支持",
+          "lobj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "全",
+          "det"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "装备采购",
+      "relation": "提供支持",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "论证",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "支持",
+          "pobj"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "采购",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 30
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 3,
+          "id": 29
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理",
+      "object": "全寿命支持",
+      "relation": "提供支持",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "后勤",
+          "assmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "描述",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "论证",
+          "root"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "之间",
+          "assmod"
+        ],
+        [
+          "支持",
+          "lobj"
+        ],
+        [
+          "全",
+          "det"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

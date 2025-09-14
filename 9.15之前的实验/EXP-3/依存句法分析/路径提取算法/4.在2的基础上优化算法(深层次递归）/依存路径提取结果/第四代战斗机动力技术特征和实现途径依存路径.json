@@ -1,0 +1,944 @@
+{
+  "title": "第四代战斗机动力技术特征和实现途径",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 12,
+    "path_found": 12,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "第四代战斗机",
+      "object": "发动机",
+      "relation": "对...有要求",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "战斗机",
+          "assmod"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "高性能循环参数",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "参数",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "循环",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "高推重比技术",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "推重比",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "推力矢量技术",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "推力",
+          "nn"
+        ],
+        [
+          "矢量",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "隐身技术",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "隐身",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "全权限数字式控制系统",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "全权限",
+          "amod"
+        ],
+        [
+          "数字式",
+          "amod"
+        ],
+        [
+          "控制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "健康管理系统",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "热管理技术",
+      "relation": "采用",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "热",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "高可靠性和维修性",
+      "relation": "具有",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "先进成熟的基础技术",
+      "relation": "依赖",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "综述",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "指出",
+          "conj"
+        ],
+        [
+          "做",
+          "ccomp"
+        ],
+        [
+          "依赖",
+          "prep"
+        ],
+        [
+          "管理",
+          "dobj"
+        ],
+        [
+          "先进",
+          "rcmod"
+        ],
+        [
+          "成熟",
+          "comod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "科学的管理",
+      "relation": "依赖",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代发动机",
+      "object": "综合权衡设计",
+      "relation": "注重",
+      "path": [
+        [
+          "第四",
+          "ordmod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "维修性",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

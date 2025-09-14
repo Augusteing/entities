@@ -1,0 +1,1104 @@
+{
+  "title": "基于马氏距离的航空装备故障预测研究",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "故障状态类型的判别",
+      "object": "航空装备故障预测系统",
+      "relation": "是核心环节",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "类型",
+          "assmod"
+        ],
+        [
+          "判别",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "环节",
+          "attr"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障状态类型的判别",
+      "object": "故障预测的准确性",
+      "relation": "影响",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "类型",
+          "assmod"
+        ],
+        [
+          "判别",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "环节",
+          "attr"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "航空装备的故障状态类型判别问题",
+      "relation": "解决",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "类型",
+          "nn"
+        ],
+        [
+          "装备",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "判别",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "状态数据库矩阵",
+      "relation": "建立",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "矩阵",
+          "conj"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "数据库",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "状态判别模型",
+      "relation": "建立",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "判别",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "某型飞机火控系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "用",
+          "conj"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "某",
+          "det"
+        ],
+        [
+          "型",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "火控",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "98.48%的在线平均故障预测准确度",
+      "relation": "达到",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "用",
+          "conj"
+        ],
+        [
+          "使得",
+          "dep"
+        ],
+        [
+          "准确度",
+          "dobj"
+        ],
+        [
+          "离线",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "平均",
+          "amod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于马氏距离的故障预测方法",
+      "object": "97.77%的离线平均故障预测准确度",
+      "relation": "达到",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "用",
+          "conj"
+        ],
+        [
+          "使得",
+          "dep"
+        ],
+        [
+          "准确度",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "离线",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "平均",
+          "amod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "马氏距离",
+      "object": "应用和推广价值",
+      "relation": "具有",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "有",
+          "ccomp"
+        ],
+        [
+          "价值",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "推广",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 122
+        },
+        {
+          "sentence_index": 0,
+          "id": 120
+        },
+        {
+          "sentence_index": 0,
+          "id": 121
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "马氏距离",
+      "object": "航空装备的故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "马氏",
+          "nn"
+        ],
+        [
+          "距离",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "环节",
+          "attr"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

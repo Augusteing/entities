@@ -1,0 +1,636 @@
+{
+  "title": "航空大数据技术的发展与应用",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "大数据技术",
+      "object": "飞行器设计",
+      "relation": "具有应用价值",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据技术",
+      "object": "系统级故障预测",
+      "relation": "具有应用价值",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "级",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据技术",
+      "object": "航空装备维修与保障",
+      "relation": "具有应用价值",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据技术",
+      "object": "航空工业",
+      "relation": "应用于",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "工业",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空大数据分析技术",
+      "object": "系统级故障预测",
+      "relation": "应用于",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "级",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "美国大数据分析技术",
+      "object": "航空领域",
+      "relation": "应用于",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空大数据技术",
+      "object": "发展趋势",
+      "relation": "具有",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "扩充",
+          "dobj"
+        ],
+        [
+          "大",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "发展",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

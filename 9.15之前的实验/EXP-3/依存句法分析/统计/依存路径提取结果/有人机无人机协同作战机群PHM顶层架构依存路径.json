@@ -1,0 +1,928 @@
+{
+  "title": "有人机无人机协同作战机群PHM顶层架构",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "PHM技术",
+      "object": "新一代飞机设计的关键技术",
+      "relation": "是",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "部分",
+          "pobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "使用",
+          "lobj"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM技术",
+      "object": "新一代飞机设计的重要组成部分",
+      "relation": "是",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "部分",
+          "pobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "使用",
+          "lobj"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统工程方法",
+      "object": "场景分析",
+      "relation": "用于",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "工程",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "场景",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "场景分析",
+      "object": "有人机/无人机协同作战机群PHM系统",
+      "relation": "针对",
+      "path": [
+        [
+          "场景",
+          "nn"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统用例图与活动图建模",
+      "object": "系统需求分析",
+      "relation": "用于",
+      "path": [
+        [
+          "系统用",
+          "nn"
+        ],
+        [
+          "例图",
+          "conj"
+        ],
+        [
+          "建模",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统顶层架构",
+      "object": "功能架构设计",
+      "relation": "包含",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "部分",
+          "pobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "使用",
+          "lobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统顶层架构",
+      "object": "逻辑体系架构设计",
+      "relation": "包含",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "部分",
+          "pobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "使用",
+          "lobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统顶层架构",
+      "object": "数据传输服务",
+      "relation": "包含",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "服务",
+          "dobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "传输",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 56
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 66
+        },
+        {
+          "sentence_index": 1,
+          "id": 67
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统设计",
+      "object": "关键技术",
+      "relation": "涉及",
+      "path": [
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "使用",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "部分",
+          "pobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究成果",
+      "object": "机群PHM系统设计",
+      "relation": "指导",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "成果",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

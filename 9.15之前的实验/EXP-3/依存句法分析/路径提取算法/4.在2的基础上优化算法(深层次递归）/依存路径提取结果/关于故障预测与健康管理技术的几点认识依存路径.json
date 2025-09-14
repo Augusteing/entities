@@ -1,0 +1,1504 @@
+{
+  "title": "关于故障预测与健康管理技术的几点认识",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "基本概念与内涵",
+      "relation": "具有",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "基本",
+          "amod"
+        ],
+        [
+          "概念",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "飞机发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "固定翼飞机",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "飞机",
+          "conj"
+        ],
+        [
+          "固定翼",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "直升机",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "直升机",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "航天飞行器",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "飞行器",
+          "conj"
+        ],
+        [
+          "航天",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "舰船",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "舰船",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "车辆",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "车辆",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "轨道交通",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "nn"
+        ],
+        [
+          "轨道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术(PHM)",
+      "object": "故障预测与健康管理技术体系架构",
+      "relation": "具有",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "故障模型",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "状态监测",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "梳理",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "数据处理",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "梳理",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "综合诊断",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "梳理",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "健康管理",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "维修决策",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "梳理",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "决策",
+          "conj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理技术体系架构",
+      "object": "后勤支援信息系统",
+      "relation": "包含",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "内涵",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "梳理",
+          "root"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "后勤",
+          "nn"
+        ],
+        [
+          "支援",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

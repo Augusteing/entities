@@ -1,0 +1,616 @@
+{
+  "title": "飞机电源多Agent预测与健康管理系统研究",
+  "stats": {
+    "total_pairs": 6,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "多Agent飞机电源PHM系统架构",
+      "object": "OSA-CBM模型",
+      "relation": "基于",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "Agent",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "OSA-CBM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多Agent飞机电源PHM系统架构",
+      "object": "飞机电源PHM需求",
+      "relation": "满足",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "Agent",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "复杂",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AUML技术",
+      "object": "多Agent AEPHM系统模型",
+      "relation": "用于构建",
+      "path": [
+        [
+          "AUML",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "Agent",
+          "dobj"
+        ],
+        [
+          "多",
+          "nummod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AUML协议图",
+      "object": "Agent交互活动",
+      "relation": "描述",
+      "path": [
+        [
+          "AUML",
+          "nn"
+        ],
+        [
+          "协议图",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "描述",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "Agent",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多Agent飞机电源PHM系统架构",
+      "object": "设计开发模式",
+      "relation": "提供",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "Agent",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "开发",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计开发模式",
+      "object": "航空机载设备PHM系统建设",
+      "relation": "用于",
+      "path": [
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "title": "轻型飞机健康管理与故障预测的应用",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "健康管理与预测(PHM)技术",
+      "object": "飞行安全",
+      "relation": "保证",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "保证",
+          "conj"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理与预测(PHM)技术",
+      "object": "使用成本",
+      "relation": "降低",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "使用",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理与预测(PHM)技术",
+      "object": "维修计划",
+      "relation": "安排",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "保证",
+          "conj"
+        ],
+        [
+          "安排",
+          "dep"
+        ],
+        [
+          "计划",
+          "dobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机",
+      "object": "可靠性",
+      "relation": "面临挑战",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "可用性",
+          "nsubj"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机",
+      "object": "可用性",
+      "relation": "面临挑战",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "可用性",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机PHM系统",
+      "object": "框架",
+      "relation": "具有",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "受益",
+          "pobj"
+        ],
+        [
+          "框架",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机PHM系统",
+      "object": "关键问题",
+      "relation": "存在",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机PHM技术",
+      "object": "关键技术难题",
+      "relation": "面临",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "轻型飞机PHM技术",
+      "object": "未来发展方向",
+      "relation": "具有",
+      "path": [
+        [
+          "轻型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "使用",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "成熟",
+          "rcmod"
+        ],
+        [
+          "未",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

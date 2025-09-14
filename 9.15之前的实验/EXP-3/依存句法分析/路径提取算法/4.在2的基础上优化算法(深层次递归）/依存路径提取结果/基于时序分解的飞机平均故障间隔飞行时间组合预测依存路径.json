@@ -1,0 +1,1160 @@
+{
+  "title": "基于时序分解的飞机平均故障间隔飞行时间组合预测",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "基于时序分解的组合预测方法",
+      "object": "飞机平均故障间隔飞行时间",
+      "relation": "预测",
+      "path": [
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "间隔",
+          "rcmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "平均",
+          "amod"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "时间",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于时序分解的组合预测方法",
+      "object": "时间序列分解",
+      "relation": "基于",
+      "path": [
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "分解",
+          "dobj"
+        ],
+        [
+          "时间",
+          "nn"
+        ],
+        [
+          "序列",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "STL方法",
+      "object": "MFHBF指标",
+      "relation": "分解",
+      "path": [
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "指标值",
+          "assmod"
+        ],
+        [
+          "时间",
+          "nn"
+        ],
+        [
+          "MFHBF",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "STL方法",
+      "object": "长期趋势项",
+      "relation": "分解出",
+      "path": [
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "趋势",
+          "conj"
+        ],
+        [
+          "长期",
+          "amod"
+        ],
+        [
+          "项",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "STL方法",
+      "object": "季节变动项",
+      "relation": "分解出",
+      "path": [
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "季节",
+          "nn"
+        ],
+        [
+          "变动",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "灰色模型",
+      "object": "长期趋势项",
+      "relation": "预测",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "趋势",
+          "conj"
+        ],
+        [
+          "长期",
+          "amod"
+        ],
+        [
+          "项",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "BP神经网络和支持向量机回归组合模型",
+      "object": "季节变动项",
+      "relation": "预测",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "季节",
+          "nn"
+        ],
+        [
+          "变动",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "加法模型",
+      "object": "趋势和季节的预测值",
+      "relation": "合并",
+      "path": [
+        [
+          "加法",
+          "amod"
+        ],
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "趋势",
+          "conj"
+        ],
+        [
+          "季节",
+          "assmod"
+        ],
+        [
+          "预测值",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "获得",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "指标值",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 65
+        },
+        {
+          "sentence_index": 1,
+          "id": 67
+        },
+        {
+          "sentence_index": 1,
+          "id": 69
+        },
+        {
+          "sentence_index": 1,
+          "id": 71
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 72
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于时序分解的组合预测方法",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "指标值",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于时序分解的组合预测方法",
+      "object": "平均绝对误差",
+      "relation": "减小",
+      "path": [
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "间隔",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "平均",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于时序分解的组合预测方法",
+      "object": "可信的指标预测结果",
+      "relation": "提供",
+      "path": [
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "指标值",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "指标预测结果",
+      "object": "保障人员",
+      "relation": "用于",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "指标值",
+          "assmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "证明",
+          "dep"
+        ],
+        [
+          "提高",
+          "ccomp"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "保障",
+          "pccomp"
+        ],
+        [
+          "人员",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 34
+        },
+        {
+          "sentence_index": 2,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 46
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        },
+        {
+          "sentence_index": 2,
+          "id": 44
+        },
+        {
+          "sentence_index": 2,
+          "id": 45
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

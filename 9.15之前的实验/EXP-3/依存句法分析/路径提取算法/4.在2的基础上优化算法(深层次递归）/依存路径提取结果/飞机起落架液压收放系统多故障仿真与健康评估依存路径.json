@@ -1,0 +1,532 @@
+{
+  "title": "飞机起落架液压收放系统多故障仿真与健康评估",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "起落架收放系统",
+      "object": "飞行安全",
+      "relation": "影响",
+      "path": [
+        [
+          "起落架",
+          "nsubj"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "威胁",
+          "dep"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "起落架收放系统",
+      "relation": "研究对象为",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "掌握",
+          "dep"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "起落架",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AMESim软件",
+      "object": "仿真模型",
+      "relation": "用于建立",
+      "path": [
+        [
+          "AMESim",
+          "nn"
+        ],
+        [
+          "软件",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "仿真",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真模型",
+      "object": "起落架收放系统",
+      "relation": "模拟",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "起落架",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "元件参数性能",
+      "object": "系统工作性能",
+      "relation": "影响",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络算法",
+      "object": "健康评估",
+      "relation": "用于实现",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "掌握",
+          "dep"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 10
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估",
+      "object": "故障特征",
+      "relation": "需要",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "掌握",
+          "dep"
+        ],
+        [
+          "预防",
+          "dep"
+        ],
+        [
+          "发生",
+          "ccomp"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障特征",
+      "object": "系统输出参数",
+      "relation": "提取自",
+      "path": [
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "发生",
+          "ccomp"
+        ],
+        [
+          "预防",
+          "dep"
+        ],
+        [
+          "掌握",
+          "dep"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "新一代飞机起落架液压收放系统",
+      "relation": "提供思路给",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "掌握",
+          "dep"
+        ],
+        [
+          "收放",
+          "root"
+        ],
+        [
+          "起落架",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "title": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "防热系统健康管理",
+      "object": "关键技术",
+      "relation": "是",
+      "path": [
+        [
+          "防热",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航天飞机防热系统健康管理方法",
+      "object": "关键性能指标",
+      "relation": "通过监测",
+      "path": [
+        [
+          "防热",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "飞行器",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航天飞机防热系统健康管理方法",
+      "object": "系统状态",
+      "relation": "分析评估",
+      "path": [
+        [
+          "防热",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "防热系统健康监控",
+      "object": "意外损伤",
+      "relation": "考虑",
+      "path": [
+        [
+          "防热",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "ccomp"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "考虑",
+          "rcmod"
+        ],
+        [
+          "损伤",
+          "dobj"
+        ],
+        [
+          "意外",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ANSYS软件",
+      "object": "温度分布",
+      "relation": "用于模拟",
+      "path": [
+        [
+          "ANSYS",
+          "nn"
+        ],
+        [
+          "软件",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "模拟",
+          "conj"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "温度",
+          "nn"
+        ],
+        [
+          "分布",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "防热瓦",
+      "object": "损伤",
+      "relation": "遭受",
+      "path": [
+        [
+          "防热",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "ccomp"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "考虑",
+          "rcmod"
+        ],
+        [
+          "损伤",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "温度分布",
+      "object": "再入过程",
+      "relation": "发生在",
+      "path": [
+        [
+          "分布",
+          "nn"
+        ],
+        [
+          "温度",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "再入",
+          "vmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "比较分析",
+      "object": "方法可行性",
+      "relation": "论证",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "分析",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

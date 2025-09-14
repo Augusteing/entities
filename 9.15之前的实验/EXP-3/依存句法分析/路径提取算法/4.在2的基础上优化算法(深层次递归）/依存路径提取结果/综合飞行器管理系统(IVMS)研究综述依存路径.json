@@ -1,0 +1,1020 @@
+{
+  "title": "综合飞行器管理系统(IVMS)研究综述",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "感知层",
+      "relation": "分为",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "执行层",
+          "dobj"
+        ],
+        [
+          "感知层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "决策层",
+      "relation": "分为",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "执行层",
+          "dobj"
+        ],
+        [
+          "决策层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "执行层",
+      "relation": "分为",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "执行层",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "态势感知与评估",
+      "relation": "包含",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "阐述",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "方面",
+          "dobj"
+        ],
+        [
+          "交互",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "态势",
+          "nn"
+        ],
+        [
+          "感知",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 90
+        },
+        {
+          "sentence_index": 1,
+          "id": 88
+        },
+        {
+          "sentence_index": 1,
+          "id": 67
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "任务航迹规划",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "使",
+          "dep"
+        ],
+        [
+          "成为",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "任务",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "综合航行驾驶",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "自动攻击导引",
+      "relation": "包含",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "阐述",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "方面",
+          "dobj"
+        ],
+        [
+          "交互",
+          "nn"
+        ],
+        [
+          "导引",
+          "conj"
+        ],
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "攻击",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 90
+        },
+        {
+          "sentence_index": 1,
+          "id": 88
+        },
+        {
+          "sentence_index": 1,
+          "id": 79
+        },
+        {
+          "sentence_index": 1,
+          "id": 77
+        },
+        {
+          "sentence_index": 1,
+          "id": 78
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "健康管理与预测",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理系统",
+      "object": "智能人机交互",
+      "relation": "包含",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "阐述",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "方面",
+          "dobj"
+        ],
+        [
+          "交互",
+          "nn"
+        ],
+        [
+          "智能",
+          "amod"
+        ],
+        [
+          "人机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 90
+        },
+        {
+          "sentence_index": 1,
+          "id": 88
+        },
+        {
+          "sentence_index": 1,
+          "id": 86
+        },
+        {
+          "sentence_index": 1,
+          "id": 87
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空战模式",
+      "object": "综合飞行器管理技术",
+      "relation": "促进",
+      "path": [
+        [
+          "空战",
+          "nn"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合飞行器管理技术",
+      "object": "关键技术",
+      "relation": "是",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "飞行器",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "促使",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "使",
+          "dep"
+        ],
+        [
+          "成为",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

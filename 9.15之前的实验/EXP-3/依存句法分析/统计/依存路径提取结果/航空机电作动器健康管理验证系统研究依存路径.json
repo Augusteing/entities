@@ -1,0 +1,1528 @@
+{
+  "title": "航空机电作动器健康管理验证系统研究",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 16,
+    "path_found": 16,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "健康管理智能算法",
+      "relation": "用于验证",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "算法",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "推理模型",
+      "relation": "用于评估",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "验证系统硬件平台",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "模块",
+          "dobj"
+        ],
+        [
+          "平台",
+          "conj"
+        ],
+        [
+          "验证",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "硬件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "通用软件运行环境",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "模块",
+          "dobj"
+        ],
+        [
+          "环境",
+          "conj"
+        ],
+        [
+          "通用",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "运行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "验证与评估模块",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "模块",
+          "dobj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "评估",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "通用软件运行环境",
+      "object": "组件模式",
+      "relation": "基于",
+      "path": [
+        [
+          "通用",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "运行",
+          "nn"
+        ],
+        [
+          "环境",
+          "conj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "模式",
+          "pobj"
+        ],
+        [
+          "组件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "验证与评估模块",
+      "object": "实时显示功能",
+      "relation": "支持",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "模块",
+          "dobj"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "实时",
+          "amod"
+        ],
+        [
+          "显示",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "数学建模方法",
+      "relation": "提出",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "数学",
+          "nn"
+        ],
+        [
+          "建模",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数学建模方法",
+      "object": "电机",
+      "relation": "针对",
+      "path": [
+        [
+          "数学",
+          "nn"
+        ],
+        [
+          "建模",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "减速器",
+          "assmod"
+        ],
+        [
+          "电机",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数学建模方法",
+      "object": "控制器",
+      "relation": "针对",
+      "path": [
+        [
+          "数学",
+          "nn"
+        ],
+        [
+          "建模",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "减速器",
+          "assmod"
+        ],
+        [
+          "控制器",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数学建模方法",
+      "object": "齿轮减速器",
+      "relation": "针对",
+      "path": [
+        [
+          "数学",
+          "nn"
+        ],
+        [
+          "建模",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "减速器",
+          "assmod"
+        ],
+        [
+          "齿轮",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "故障注入方法",
+      "relation": "提出",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "注入",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障注入方法",
+      "object": "主要失效模式",
+      "relation": "针对",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "注入",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "模式",
+          "assmod"
+        ],
+        [
+          "主要",
+          "amod"
+        ],
+        [
+          "失效",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "健康管理算法",
+      "relation": "支持",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "调用",
+          "dobj"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "算法",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "系统模型",
+      "relation": "支持",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "调用",
+          "dobj"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空机电作动器健康管理验证系统",
+      "object": "验证与评估信息",
+      "relation": "在线显示",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "作动器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "root"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "显示",
+          "dobj"
+        ],
+        [
+          "信息",
+          "assmod"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "评估",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

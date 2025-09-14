@@ -1,0 +1,1208 @@
+{
+  "title": "2017预测与健康管理(PHM)研讨会在西安召开",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "西安",
+      "relation": "在...召开",
+      "path": [
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "西安",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "2017年5月19日",
+      "relation": "于...召开",
+      "path": [
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "19日",
+          "tmod"
+        ],
+        [
+          "2017年",
+          "nn"
+        ],
+        [
+          "5月",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "中国电子学会电子测量与仪器分会",
+      "relation": "由...主办",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "主办",
+          "root"
+        ],
+        [
+          "由",
+          "prep"
+        ],
+        [
+          "分会",
+          "pobj"
+        ],
+        [
+          "分会",
+          "conj"
+        ],
+        [
+          "学会",
+          "nn"
+        ],
+        [
+          "中国",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "测量",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "中国仪器仪表学会电子测量与仪器分会",
+      "relation": "由...主办",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "主办",
+          "root"
+        ],
+        [
+          "由",
+          "prep"
+        ],
+        [
+          "分会",
+          "pobj"
+        ],
+        [
+          "学会",
+          "nn"
+        ],
+        [
+          "仪器",
+          "nn"
+        ],
+        [
+          "仪表",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "测量",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "空军工程大学航空航天工程学院PHM实验室",
+      "relation": "由...承办",
+      "path": [
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ],
+        [
+          "空军",
+          "nn"
+        ],
+        [
+          "工程",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空军工程大学",
+      "object": "2017预测与健康管理(PHM)研讨会",
+      "relation": "参加",
+      "path": [
+        [
+          "空军",
+          "nn"
+        ],
+        [
+          "工程",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "浙江大学",
+      "object": "2017预测与健康管理(PHM)研讨会",
+      "relation": "参加",
+      "path": [
+        [
+          "浙江",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "哈尔滨工业大学",
+      "object": "2017预测与健康管理(PHM)研讨会",
+      "relation": "参加",
+      "path": [
+        [
+          "哈尔滨",
+          "nn"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "北京航空航天大学",
+      "object": "2017预测与健康管理(PHM)研讨会",
+      "relation": "参加",
+      "path": [
+        [
+          "北京",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "南京航空航天大学",
+      "object": "2017预测与健康管理(PHM)研讨会",
+      "relation": "参加",
+      "path": [
+        [
+          "南京",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "单位",
+          "dobj"
+        ],
+        [
+          "来自",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空军工程大学航空航天工程学院PHM实验室",
+      "object": "空军工程大学",
+      "relation": "隶属于",
+      "path": [
+        [
+          "空军",
+          "nn"
+        ],
+        [
+          "工程",
+          "nn"
+        ],
+        [
+          "大学",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "《仪器仪表学报》",
+      "relation": "得到...支持",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "主办",
+          "root"
+        ],
+        [
+          "电",
+          "dep"
+        ],
+        [
+          "学报",
+          "conj"
+        ],
+        [
+          "《",
+          "punct"
+        ],
+        [
+          "仪器",
+          "nn"
+        ],
+        [
+          "仪表",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 56
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "《电子测量与仪器学报》",
+      "relation": "得到...支持",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "主办",
+          "root"
+        ],
+        [
+          "由",
+          "prep"
+        ],
+        [
+          "分会",
+          "pobj"
+        ],
+        [
+          "分会",
+          "conj"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "测量",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "2017预测与健康管理(PHM)研讨会",
+      "object": "INSTRUMENTATION",
+      "relation": "得到...支持",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "2017",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "召开",
+          "root"
+        ],
+        [
+          "主办",
+          "root"
+        ],
+        [
+          "电",
+          "dep"
+        ],
+        [
+          "INSTRUMENTATION",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 56
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

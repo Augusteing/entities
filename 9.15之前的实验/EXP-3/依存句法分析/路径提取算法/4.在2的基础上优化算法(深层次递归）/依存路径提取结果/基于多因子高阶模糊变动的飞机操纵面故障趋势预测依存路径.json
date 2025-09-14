@@ -1,0 +1,960 @@
+{
+  "title": "基于多因子高阶模糊变动的飞机操纵面故障趋势预测",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "基于多因子高阶模糊变动的方法",
+      "object": "飞机操纵面故障趋势预测问题",
+      "relation": "解决",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "操纵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统可测状态参量",
+      "object": "操纵面故障情况",
+      "relation": "表现",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "可测",
+          "amod"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "参量",
+          "nsubj"
+        ],
+        [
+          "表现",
+          "rcmod"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "操纵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多因子高阶模糊变动的方法",
+      "object": "模糊时间序列预测方法",
+      "relation": "扩展",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多因子高阶模糊变动的方法",
+      "object": "多元时间序列的变动值",
+      "relation": "利用",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "变动",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多元时间序列的变动值",
+      "object": "多辅助因子模糊逻辑关系",
+      "relation": "构建",
+      "path": [
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "因子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自组织映射(SOM)方法",
+      "object": "论域",
+      "relation": "划分",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "论域",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多因子高阶模糊变动预测模型",
+      "object": "时间序列的周期性特点",
+      "relation": "基于",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "结合",
+          "prep"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "表现",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多因子高阶模糊变动预测模型",
+      "object": "左副翼损伤故障趋势",
+      "relation": "预测",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障映射模型",
+      "object": "故障类型",
+      "relation": "判别",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障映射模型",
+      "object": "故障程度",
+      "relation": "判别",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多因子高阶模糊变动预测模型",
+      "object": "更好的故障趋势预测能力",
+      "relation": "具有",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多因子高阶模糊变动预测模型",
+      "object": "传统模糊时间序列预测方法",
+      "relation": "优于",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因子",
+          "nn"
+        ],
+        [
+          "高阶",
+          "amod"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "变动",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

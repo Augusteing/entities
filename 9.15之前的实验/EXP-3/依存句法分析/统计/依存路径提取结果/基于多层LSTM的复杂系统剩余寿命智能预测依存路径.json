@@ -1,0 +1,596 @@
+{
+  "title": "基于多层LSTM的复杂系统剩余寿命智能预测",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "剩余寿命",
+      "object": "预测性维修",
+      "relation": "支撑",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "支撑",
+          "pobj"
+        ],
+        [
+          "维修",
+          "assmod"
+        ],
+        [
+          "预测性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能预测",
+      "object": "寿命变化规律",
+      "relation": "识别",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "规律",
+          "dobj"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "变化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能预测",
+      "object": "剩余寿命",
+      "relation": "预测",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "寿命",
+          "nsubj"
+        ],
+        [
+          "剩余",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多层LSTM预测模型",
+      "object": "梯度消失",
+      "relation": "防止",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "防止",
+          "conj"
+        ],
+        [
+          "消失",
+          "ccomp"
+        ],
+        [
+          "梯度",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多层LSTM预测模型",
+      "object": "深层次关联性抽象特征",
+      "relation": "提取",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "提取",
+          "dep"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "深",
+          "amod"
+        ],
+        [
+          "层次",
+          "nn"
+        ],
+        [
+          "关联性",
+          "nn"
+        ],
+        [
+          "抽象",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多层LSTM预测模型",
+      "object": "时序数据",
+      "relation": "处理",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "时序",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Dropout方法",
+      "object": "过拟合",
+      "relation": "减少",
+      "path": [
+        [
+          "Dropout",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "拟合",
+          "dobj"
+        ],
+        [
+          "过",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "误差得分函数",
+      "object": "预测模型的不确定性",
+      "relation": "评估",
+      "path": [
+        [
+          "误差",
+          "nn"
+        ],
+        [
+          "得分",
+          "nn"
+        ],
+        [
+          "函数",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "多层LSTM预测模型",
+      "relation": "验证",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "验证",
+          "root"
+        ],
+        [
+          "识别",
+          "root"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

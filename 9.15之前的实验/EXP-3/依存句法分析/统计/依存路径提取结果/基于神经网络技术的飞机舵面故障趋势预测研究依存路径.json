@@ -1,0 +1,956 @@
+{
+  "title": "基于神经网络技术的飞机舵面故障趋势预测研究",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "故障预报",
+      "object": "飞机安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "安全性",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机舵面故障诊断系统",
+      "object": "故障预报",
+      "relation": "需要",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "舵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测模型",
+      "object": "三层BP网络模型",
+      "relation": "采用",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "三",
+          "nummod"
+        ],
+        [
+          "层",
+          "clf"
+        ],
+        [
+          "BP",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "评价函数",
+      "object": "神经网络的预测精度",
+      "relation": "评价",
+      "path": [
+        [
+          "评价",
+          "nn"
+        ],
+        [
+          "函数",
+          "dobj"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测模型",
+      "object": "风洞实验数据",
+      "relation": "使用",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "风洞",
+          "nn"
+        ],
+        [
+          "实验",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络故障预测模型",
+      "object": "方向舵卡死",
+      "relation": "预测",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "卡死",
+          "pccomp"
+        ],
+        [
+          "方向",
+          "nn"
+        ],
+        [
+          "舵",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "方向舵卡死",
+      "object": "舵面故障模式",
+      "relation": "属于",
+      "path": [
+        [
+          "方向",
+          "nn"
+        ],
+        [
+          "舵",
+          "nsubj"
+        ],
+        [
+          "卡死",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "舵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络预测模型",
+      "object": "ARMA方法",
+      "relation": "优于",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "精度",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "ARMA",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机舵面故障趋势预测研究",
+      "object": "神经网络技术",
+      "relation": "基于",
+      "path": [
+        [
+          "舵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "title": "基于LSTM循环神经网络的故障时间序列预测",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "故障数据预测",
+      "object": "可靠性计划",
+      "relation": "指导",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "阶段",
+          "assmod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "制定",
+          "pccomp"
+        ],
+        [
+          "计划",
+          "dobj"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障数据预测",
+      "object": "可靠性维护活动",
+      "relation": "指导",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "阶段",
+          "assmod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "制定",
+          "pccomp"
+        ],
+        [
+          "开展",
+          "conj"
+        ],
+        [
+          "活动",
+          "dobj"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障时间序列预测方法",
+      "object": "LSTM循环神经网络",
+      "relation": "基于",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "记忆",
+          "pobj"
+        ],
+        [
+          "LSTM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "循环",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障时间序列预测方法",
+      "object": "网络结构设计",
+      "relation": "包括",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障时间序列预测方法",
+      "object": "网络训练",
+      "relation": "包括",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "训练",
+          "conj"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障时间序列预测方法",
+      "object": "预测过程实现算法",
+      "relation": "包括",
+      "path": [
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "地",
+          "dvpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM预测模型参数优选算法",
+      "object": "多层网格搜索",
+      "relation": "基于",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "搜索",
+          "dobj"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "层",
+          "clf"
+        ],
+        [
+          "网格",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 69
+        },
+        {
+          "sentence_index": 1,
+          "id": 58
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM预测模型参数优选算法",
+      "object": "预测误差",
+      "relation": "优化目标",
+      "path": [
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "地",
+          "dvpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM预测模型",
+      "object": "典型时间序列预测模型",
+      "relation": "对比",
+      "path": [
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "地",
+          "dvpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM预测模型",
+      "object": "故障时间序列分析",
+      "relation": "应用于",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "阶段",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM预测模型参数优选算法",
+      "object": "高准确性",
+      "relation": "验证",
+      "path": [
+        [
+          "地",
+          "dvpm"
+        ],
+        [
+          "预测",
+          "dep"
+        ],
+        [
+          "有效",
+          "dvpmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "准确性",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 84
+        },
+        {
+          "sentence_index": 1,
+          "id": 103
+        },
+        {
+          "sentence_index": 1,
+          "id": 112
+        },
+        {
+          "sentence_index": 1,
+          "id": 110
+        },
+        {
+          "sentence_index": 1,
+          "id": 111
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

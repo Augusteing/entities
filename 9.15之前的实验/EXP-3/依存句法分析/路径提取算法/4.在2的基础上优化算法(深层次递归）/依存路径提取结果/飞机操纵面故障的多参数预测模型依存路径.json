@@ -1,0 +1,456 @@
+{
+  "title": "飞机操纵面故障的多参数预测模型",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "飞机操纵面故障的准确预测",
+      "object": "飞机安全可靠工作",
+      "relation": "保障",
+      "path": [
+        [
+          "操纵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "保障",
+          "pccomp"
+        ],
+        [
+          "可靠",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "安全",
+          "nn"
+        ],
+        [
+          "工作",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "操纵面故障",
+      "object": "多种特征信号",
+      "relation": "表征出",
+      "path": [
+        [
+          "操纵面",
+          "nn"
+        ],
+        [
+          "故障",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "考虑",
+          "ccomp"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "特征",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "特征信号",
+      "object": "不同的故障",
+      "relation": "反映",
+      "path": [
+        [
+          "特征",
+          "amod"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "考虑",
+          "ccomp"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "故障",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "灰色预测建模",
+      "relation": "借鉴",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "信息融合",
+      "relation": "借鉴",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "借鉴",
+          "root"
+        ],
+        [
+          "思想",
+          "dobj"
+        ],
+        [
+          "融合",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "预测的准确性",
+      "relation": "增加",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "故障",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "准确",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "飞机操纵面故障预测",
+      "relation": "应用于",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "故障",
+          "assmod"
+        ],
+        [
+          "操纵面",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "现有故障预测方法",
+      "object": "缺乏对各特征参数的统一考虑",
+      "relation": "存在不足",
+      "path": [
+        [
+          "故障",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

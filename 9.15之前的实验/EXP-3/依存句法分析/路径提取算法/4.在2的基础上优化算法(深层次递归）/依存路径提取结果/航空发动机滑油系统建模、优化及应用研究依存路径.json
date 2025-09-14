@@ -1,0 +1,808 @@
+{
+  "title": "航空发动机滑油系统建模、优化及应用研究",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "滑油系统健康管理",
+      "relation": "支撑",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "滑油系统元件物理特性",
+      "relation": "基于",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "通风子系统模型",
+      "relation": "包含",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "供油子系统模型",
+      "relation": "包含",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "热力子系统模型",
+      "relation": "包含",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "回油子系统模型",
+      "relation": "包含",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "粒子群算法",
+      "object": "滑油系统仿真模型",
+      "relation": "用于优化",
+      "path": [
+        [
+          "等",
+          "etc"
+        ],
+        [
+          "子",
+          "amod"
+        ],
+        [
+          "回油",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "构建",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "遗传算法",
+      "object": "滑油系统仿真模型",
+      "relation": "用于优化",
+      "path": [
+        [
+          "遗传",
+          "amod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "粒子群算法",
+      "object": "较好的收敛性与优化效果",
+      "relation": "具有",
+      "path": [
+        [
+          "等",
+          "etc"
+        ],
+        [
+          "子",
+          "amod"
+        ],
+        [
+          "回油",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "构建",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "优化",
+          "dobj"
+        ],
+        [
+          "与",
+          "cc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "模型优化",
+      "object": "工作参数平均误差",
+      "relation": "降低",
+      "path": [
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "优化",
+          "dobj"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "等",
+          "etc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "滑油监测",
+      "relation": "用于",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "诊断",
+      "relation": "用于",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油系统仿真模型",
+      "object": "预测",
+      "relation": "用于",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "试验方法",
+      "object": "成本高、周期长缺点",
+      "relation": "具有",
+      "path": [
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "具备",
+          "root"
+        ],
+        [
+          "缺点",
+          "dobj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "周期",
+          "nsubj"
+        ],
+        [
+          "长",
+          "conj"
+        ],
+        [
+          "等",
+          "dep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

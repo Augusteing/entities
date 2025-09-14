@@ -1,0 +1,716 @@
+{
+  "title": "一种云环境下的发动机健康管理系统及其应用",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "云环境下的发动机健康管理系统",
+      "object": "航空公司",
+      "relation": "服务于",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "公司",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "云环境下的发动机健康管理系统",
+      "object": "发动机健康管理云端数据中心",
+      "relation": "包含",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "建立",
+          "pccomp"
+        ],
+        [
+          "中心",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "云端",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "云环境下的发动机健康管理系统",
+      "object": "发动机故障诊断方法",
+      "relation": "验证",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "验证",
+          "pccomp"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "云环境下的发动机健康管理系统",
+      "object": "协同故障诊断",
+      "relation": "支持",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "验证",
+          "pccomp"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "灰色故障识别方法",
+      "object": "灰色关联分析",
+      "relation": "基于",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "关联",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "灰色故障识别方法",
+      "object": "JT9D-7R4发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "发动机",
+          "assmod"
+        ],
+        [
+          "JT9D-7R4",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "云环境下的发动机健康管理系统",
+      "object": "航空发动机故障诊断",
+      "relation": "执行",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

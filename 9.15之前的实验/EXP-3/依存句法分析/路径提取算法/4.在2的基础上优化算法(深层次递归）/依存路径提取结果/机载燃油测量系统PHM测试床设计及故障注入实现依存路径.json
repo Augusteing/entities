@@ -1,0 +1,956 @@
+{
+  "title": "机载燃油测量系统PHM测试床设计及故障注入实现",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "PHM测试床",
+      "object": "燃油测量系统",
+      "relation": "以...为例",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "系统",
+          "prnmod"
+        ],
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "测量",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "燃油测量系统",
+      "object": "飞机典型机电子系统",
+      "relation": "是",
+      "path": [
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "测量",
+          "nn"
+        ],
+        [
+          "系统",
+          "prnmod"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "典型",
+          "amod"
+        ],
+        [
+          "机电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "NI虚拟仪器",
+      "relation": "采用",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "仪器",
+          "dobj"
+        ],
+        [
+          "模块",
+          "nn"
+        ],
+        [
+          "仪器",
+          "conj"
+        ],
+        [
+          "NI",
+          "nn"
+        ],
+        [
+          "虚拟",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "PXI总线模块仪器",
+      "relation": "采用",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "仪器",
+          "dobj"
+        ],
+        [
+          "PXI",
+          "nn"
+        ],
+        [
+          "总线",
+          "nn"
+        ],
+        [
+          "模块",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "故障注入功能",
+      "relation": "实现",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "注入",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "数据源匮乏",
+      "relation": "解决",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "解决",
+          "dep"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "匮乏",
+          "rcmod"
+        ],
+        [
+          "数据源",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "故障模式",
+      "relation": "再现",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "PHM技术",
+      "relation": "提供验证",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ",",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM测试床",
+      "object": "机电系统PHM通用化验证平台研究",
+      "relation": "为...提供参考",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "测试床",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ",",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

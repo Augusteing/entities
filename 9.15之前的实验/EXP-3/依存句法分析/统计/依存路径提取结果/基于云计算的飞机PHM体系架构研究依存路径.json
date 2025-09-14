@@ -1,0 +1,668 @@
+{
+  "title": "基于云计算的飞机PHM体系架构研究",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "基于云计算的PHM体系架构",
+      "object": "飞机维修资源利用率低问题",
+      "relation": "解决",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "利用率",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "资源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于云计算的PHM体系架构",
+      "object": "PHM系统通用性",
+      "relation": "提高",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于云计算的PHM体系架构",
+      "object": "知识利用率",
+      "relation": "提高",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "利用率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于云计算的PHM体系架构",
+      "object": "资源优化问题",
+      "relation": "解决",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "利用率",
+          "nsubj"
+        ],
+        [
+          "资源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "资源分配模型",
+      "object": "粒子群算法",
+      "relation": "基于",
+      "path": [
+        [
+          "资源",
+          "nn"
+        ],
+        [
+          "利用率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "使得",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "建立",
+          "pccomp"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "粒子群",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真实验",
+      "object": "CloudSim平台",
+      "relation": "运用",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "实验",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "CloudSim",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "资源分配模型",
+      "object": "虚拟层PHM资源",
+      "relation": "分配",
+      "path": [
+        [
+          "资源",
+          "nn"
+        ],
+        [
+          "利用率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

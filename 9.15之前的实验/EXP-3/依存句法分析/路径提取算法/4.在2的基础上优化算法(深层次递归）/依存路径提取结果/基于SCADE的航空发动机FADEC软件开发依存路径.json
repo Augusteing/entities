@@ -1,0 +1,844 @@
+{
+  "title": "基于SCADE的航空发动机FADEC软件开发",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "机载软件开发",
+      "object": "复杂性",
+      "relation": "面临",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "成本",
+          "nn"
+        ],
+        [
+          "复杂性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载软件开发",
+      "object": "安全性",
+      "relation": "面临",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "成本",
+          "nn"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载软件开发",
+      "object": "成本",
+      "relation": "面临",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "成本",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SCADE",
+      "object": "FADEC软件开发",
+      "relation": "应用于",
+      "path": [
+        [
+          "SCADE",
+          "nn"
+        ],
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "探索",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型开发",
+      "object": "FADEC软件开发",
+      "relation": "应用于",
+      "path": [
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "FADEC软件开发",
+      "object": "航空发动机数控系统",
+      "relation": "针对",
+      "path": [
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "研制",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "数控",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SCADE基于模型开发解决方案",
+      "object": "应用软件开发",
+      "relation": "用于",
+      "path": [
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "模型测试",
+      "object": "开发结果",
+      "relation": "验证",
+      "path": [
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "nn"
+        ],
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "探索",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "模型覆盖率分析",
+      "object": "开发结果",
+      "relation": "验证",
+      "path": [
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "nn"
+        ],
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "探索",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "软件硬件集成测试",
+      "object": "开发结果",
+      "relation": "验证",
+      "path": [
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型开发流程",
+      "object": "SCADE",
+      "relation": "联合",
+      "path": [
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "探索",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "SCADE",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型开发流程",
+      "object": "Simulink",
+      "relation": "联合",
+      "path": [
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "Simulink",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 11
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SCADE",
+      "object": "机载软件开发",
+      "relation": "用于",
+      "path": [
+        [
+          "SCADE",
+          "nn"
+        ],
+        [
+          "开发",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "探索",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "面临",
+          "root"
+        ],
+        [
+          "开发",
+          "nsubj"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1348 @@
+{
+  "title": "某地区民航空勤人员健康状况分析",
+  "stats": {
+    "total_pairs": 19,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "某地区民航空勤人员健康状况分析",
+      "object": "了解民航空勤人员的健康状况",
+      "relation": "目的为",
+      "path": [
+        [
+          "某",
+          "det"
+        ],
+        [
+          "地区",
+          "nn"
+        ],
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "人员",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "某地区民航空勤人员健康状况分析",
+      "object": "飞行人员健康管理",
+      "relation": "提供依据",
+      "path": [
+        [
+          "某",
+          "det"
+        ],
+        [
+          "地区",
+          "nn"
+        ],
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "防治",
+          "pobj"
+        ],
+        [
+          "人员",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "某地区民航空勤人员健康状况分析",
+      "object": "常见病防治",
+      "relation": "提供依据",
+      "path": [
+        [
+          "某",
+          "det"
+        ],
+        [
+          "地区",
+          "nn"
+        ],
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "防治",
+          "pobj"
+        ],
+        [
+          "常见病",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "t检验",
+      "relation": "采用",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "对象",
+          "dobj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "检验",
+          "dobj"
+        ],
+        [
+          "检验",
+          "conj"
+        ],
+        [
+          "t",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "Wilcoxon秩和检验",
+      "relation": "采用",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "对象",
+          "dobj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "检验",
+          "dobj"
+        ],
+        [
+          "检验",
+          "conj"
+        ],
+        [
+          "Wilcoxon",
+          "conj"
+        ],
+        [
+          "秩和",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "χ2检验",
+      "relation": "采用",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "对象",
+          "dobj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "检验",
+          "dobj"
+        ],
+        [
+          "χ2",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空勤人员",
+      "object": "高尿酸血症",
+      "relation": "主要健康威胁",
+      "path": [
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "患病率",
+          "nsubj"
+        ],
+        [
+          "血症",
+          "nn"
+        ],
+        [
+          "高尿酸",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空勤人员",
+      "object": "脂肪肝",
+      "relation": "主要健康威胁",
+      "path": [
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "脂肪肝",
+          "attr"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空勤人员",
+      "object": "超重",
+      "relation": "主要健康威胁",
+      "path": [
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "次",
+          "conj"
+        ],
+        [
+          "超重",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "高尿酸血症",
+      "object": "29.2%",
+      "relation": "患病率为",
+      "path": [
+        [
+          "高尿酸",
+          "amod"
+        ],
+        [
+          "血症",
+          "nn"
+        ],
+        [
+          "患病率",
+          "nsubj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "29.2%",
+          "attr"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "脂肪肝",
+      "object": "28.9%",
+      "relation": "患病率为",
+      "path": [
+        [
+          "脂肪肝",
+          "attr"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "18.2%",
+          "attr"
+        ],
+        [
+          "28.9%",
+          "nummod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "超重",
+      "object": "18.2%",
+      "relation": "患病率为",
+      "path": [
+        [
+          "超重",
+          "nsubj"
+        ],
+        [
+          "次",
+          "conj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "人员",
+          "pobj"
+        ],
+        [
+          "参加",
+          "rcmod"
+        ],
+        [
+          "12月",
+          "tmod"
+        ],
+        [
+          "1",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "安全员",
+      "object": "驾驶员",
+      "relation": "健康状况优于",
+      "path": [
+        [
+          "安全员",
+          "nn"
+        ],
+        [
+          "状况",
+          "nsubj"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "驾驶员",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "驾驶员",
+      "object": "高尿酸血症",
+      "relation": "患病率较高",
+      "path": [
+        [
+          "驾驶员",
+          "dobj"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "患病率",
+          "nsubj"
+        ],
+        [
+          "血症",
+          "nn"
+        ],
+        [
+          "高尿酸",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "驾驶员",
+      "object": "高脂血症",
+      "relation": "患病率较高",
+      "path": [
+        [
+          "驾驶员",
+          "dobj"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "患病率",
+          "nsubj"
+        ],
+        [
+          "血症",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "驾驶员",
+      "object": "脂肪肝",
+      "relation": "患病率较高",
+      "path": [
+        [
+          "驾驶员",
+          "dobj"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "脂肪肝",
+          "attr"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "驾驶员",
+      "object": "代谢性疾病",
+      "relation": "患病率较高",
+      "path": [
+        [
+          "驾驶员",
+          "dobj"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "高",
+          "conj"
+        ],
+        [
+          "疾病",
+          "nsubj"
+        ],
+        [
+          "代谢性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 63
+        },
+        {
+          "sentence_index": 3,
+          "id": 60
+        },
+        {
+          "sentence_index": 3,
+          "id": 59
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "制订健康管理方案",
+      "relation": "建议",
+      "path": [
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "对象",
+          "dobj"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "防治",
+          "pobj"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "空勤人员",
+      "object": "较低",
+      "relation": "健康水平",
+      "path": [
+        [
+          "空勤",
+          "nn"
+        ],
+        [
+          "人员",
+          "assmod"
+        ],
+        [
+          "状况",
+          "dobj"
+        ],
+        [
+          "了解",
+          "root"
+        ],
+        [
+          "好于",
+          "root"
+        ],
+        [
+          "高",
+          "conj"
+        ],
+        [
+          "较",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 63
+        },
+        {
+          "sentence_index": 3,
+          "id": 62
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

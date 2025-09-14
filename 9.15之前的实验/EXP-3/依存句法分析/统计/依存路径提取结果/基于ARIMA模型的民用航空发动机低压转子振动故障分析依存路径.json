@@ -1,0 +1,824 @@
+{
+  "title": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "故障分析方法",
+      "object": "回归分析",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "回归",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析方法",
+      "object": "ARIMA模型",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "ARIMA",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析方法",
+      "object": "CFM56-7B发动机",
+      "relation": "分析",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "数据",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "回归分析",
+      "object": "发动机振动值与转速的关系",
+      "relation": "拟合",
+      "path": [
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "数据",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ARIMA模型",
+      "object": "指数项系数",
+      "relation": "建立于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "ARIMA",
+          "nn"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "系数",
+          "pobj"
+        ],
+        [
+          "指数项",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ARIMA模型",
+      "object": "发动机振动-转速拟合系数变化趋势",
+      "relation": "描述",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "ARIMA",
+          "nn"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "数据",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ARIMA模型",
+      "object": "发动机振动故障",
+      "relation": "预测",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "ARIMA",
+          "nn"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "数据",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ARIMA模型",
+      "object": "发动机维护方案",
+      "relation": "提供依据",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "ARIMA",
+          "nn"
+        ],
+        [
+          "average",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "依据",
+          "attr"
+        ],
+        [
+          "制定",
+          "rcmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机运行数据",
+      "object": "发动机维护方案",
+      "relation": "作为参考",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "运行",
+          "nn"
+        ],
+        [
+          "数据",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "依据",
+          "attr"
+        ],
+        [
+          "制定",
+          "rcmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空公司",
+      "object": "发动机维护方案",
+      "relation": "制定",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "公司",
+          "nsubj"
+        ],
+        [
+          "制定",
+          "rcmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

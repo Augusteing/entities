@@ -1,0 +1,808 @@
+{
+  "title": "飞机燃油供油系统性能退化与故障预测",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "飞机燃油系统",
+      "object": "飞机安全性",
+      "relation": "影响",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "安全性",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理技术",
+      "object": "飞机燃油系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "达到",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "燃油",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理技术",
+      "object": "飞机飞行安全",
+      "relation": "保证",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "达到",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "供油增压泵叶片磨损",
+      "object": "性能退化",
+      "relation": "导致",
+      "path": [
+        [
+          "供油",
+          "nn"
+        ],
+        [
+          "增压泵",
+          "nn"
+        ],
+        [
+          "叶片",
+          "nsubj"
+        ],
+        [
+          "磨损",
+          "pccomp"
+        ],
+        [
+          "因",
+          "prep"
+        ],
+        [
+          "导致",
+          "rcmod"
+        ],
+        [
+          "退化",
+          "ccomp"
+        ],
+        [
+          "性能",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能退化",
+      "object": "飞机燃油供油系统",
+      "relation": "发生在",
+      "path": [
+        [
+          "性能",
+          "nsubj"
+        ],
+        [
+          "退化",
+          "ccomp"
+        ],
+        [
+          "导致",
+          "rcmod"
+        ],
+        [
+          "过程",
+          "dobj"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "燃油",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Simulink",
+      "object": "性能退化模型",
+      "relation": "用于建立",
+      "path": [
+        [
+          "Simulink",
+          "dobj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "退化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 30
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 37
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能退化模型",
+      "object": "性能退化历程",
+      "relation": "仿真",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "退化",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "仿真",
+          "conj"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "退化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 37
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 45
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        },
+        {
+          "sentence_index": 2,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "灰色预测模型",
+      "object": "故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 37
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机燃油供油系统",
+      "object": "健康状态指数",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "达到",
+          "root"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测",
+      "object": "健康管理",
+      "relation": "属于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "达到",
+          "root"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 20
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

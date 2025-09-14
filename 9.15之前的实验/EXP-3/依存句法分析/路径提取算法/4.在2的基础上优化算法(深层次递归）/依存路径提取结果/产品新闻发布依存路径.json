@@ -1,0 +1,484 @@
+{
+  "title": "产品新闻发布",
+  "stats": {
+    "total_pairs": 5,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航天科工集团一院测控公司",
+      "object": "大飞机健康管理项目",
+      "relation": "参与",
+      "path": [
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "科工",
+          "nn"
+        ],
+        [
+          "集团",
+          "nn"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "院",
+          "nn"
+        ],
+        [
+          "测控",
+          "nn"
+        ],
+        [
+          "公司",
+          "nsubj"
+        ],
+        [
+          "参与",
+          "root"
+        ],
+        [
+          "项目",
+          "dobj"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航天科工集团一院测控公司",
+      "object": "联合攻关团队",
+      "relation": "组成",
+      "path": [
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "科工",
+          "nn"
+        ],
+        [
+          "集团",
+          "nn"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "院",
+          "nn"
+        ],
+        [
+          "测控",
+          "nn"
+        ],
+        [
+          "公司",
+          "nsubj"
+        ],
+        [
+          "参与",
+          "root"
+        ],
+        [
+          "加以",
+          "conj"
+        ],
+        [
+          "团队",
+          "nsubj"
+        ],
+        [
+          "联合",
+          "amod"
+        ],
+        [
+          "攻关",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "中国商飞上海飞机客户服务有限公司",
+      "object": "联合攻关团队",
+      "relation": "组成",
+      "path": [
+        [
+          "中国",
+          "nn"
+        ],
+        [
+          "商飞",
+          "nn"
+        ],
+        [
+          "上海",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "客户",
+          "nn"
+        ],
+        [
+          "服务",
+          "nn"
+        ],
+        [
+          "有限",
+          "amod"
+        ],
+        [
+          "公司",
+          "nsubj"
+        ],
+        [
+          "成立",
+          "rcmod"
+        ],
+        [
+          "团队",
+          "nsubj"
+        ],
+        [
+          "联合",
+          "amod"
+        ],
+        [
+          "攻关",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "联合攻关团队",
+      "object": "总体方案",
+      "relation": "确定",
+      "path": [
+        [
+          "联合",
+          "amod"
+        ],
+        [
+          "攻关",
+          "nn"
+        ],
+        [
+          "团队",
+          "nsubj"
+        ],
+        [
+          "加以",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "方案",
+          "pobj"
+        ],
+        [
+          "总体",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "总体方案",
+      "object": "大飞机实时监测与健康管理项目",
+      "relation": "属于",
+      "path": [
+        [
+          "总体",
+          "nn"
+        ],
+        [
+          "方案",
+          "pobj"
+        ],
+        [
+          "项目",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "实时",
+          "amod"
+        ],
+        [
+          "监测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

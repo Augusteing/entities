@@ -1,0 +1,1260 @@
+{
+  "title": "F-35飞机自主式保障系统缺陷及原因分析",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "信息系统自动化程度有限",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "所需数据不完整或错误",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "完整",
+          "conj"
+        ],
+        [
+          "所",
+          "prtmod"
+        ],
+        [
+          "需",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ],
+        [
+          "或",
+          "cc"
+        ],
+        [
+          "错误",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "可部署性较弱",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "弱",
+          "conj"
+        ],
+        [
+          "可部署性",
+          "nsubj"
+        ],
+        [
+          "较",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "信息交流不顺畅",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "顺畅",
+          "conj"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "交流",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "备件短缺和不匹配",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "短缺",
+          "conj"
+        ],
+        [
+          "备件",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "备件运输困难",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "困难",
+          "conj"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "运输",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "紧缺备件分配优先级难以确定",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "以",
+          "prtmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统",
+      "object": "备件管理混乱",
+      "relation": "存在缺陷",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "混乱",
+          "conj"
+        ],
+        [
+          "备件",
+          "nn"
+        ],
+        [
+          "管理",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统缺陷",
+      "object": "装备成熟度与保障性之间的矛盾",
+      "relation": "原因为",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "报告",
+          "dobj"
+        ],
+        [
+          "关于",
+          "assmod"
+        ],
+        [
+          "保障",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统缺陷",
+      "object": "保障管理的组织架构有待完善",
+      "relation": "原因为",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "报告",
+          "dobj"
+        ],
+        [
+          "关于",
+          "assmod"
+        ],
+        [
+          "保障",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统缺陷",
+      "object": "全球供应链建设方面的困难估计不足",
+      "relation": "原因为",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "有限",
+          "ccomp"
+        ],
+        [
+          "困难",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35自主式保障系统缺陷",
+      "object": "保障管理方面的政策法规不完备",
+      "relation": "原因为",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "缺陷",
+          "conj"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "报告",
+          "dobj"
+        ],
+        [
+          "关于",
+          "assmod"
+        ],
+        [
+          "保障",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "美国政府问责局(GAO)",
+      "object": "F-35飞机保障的系列调查报告",
+      "relation": "发布",
+      "path": [
+        [
+          "美国",
+          "nn"
+        ],
+        [
+          "政府",
+          "nn"
+        ],
+        [
+          "问责局",
+          "nsubj"
+        ],
+        [
+          "发布",
+          "rcmod"
+        ],
+        [
+          "报告",
+          "dobj"
+        ],
+        [
+          "关于",
+          "assmod"
+        ],
+        [
+          "保障",
+          "pobj"
+        ],
+        [
+          "F-35",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

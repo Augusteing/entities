@@ -1,0 +1,932 @@
+{
+  "title": "从金属材料疲劳性能的力学描述到飞机结构疲劳寿命评定：现状与展望",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "疲劳失效",
+      "object": "飞机金属结构",
+      "relation": "影响",
+      "path": [
+        [
+          "疲劳",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "金属",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "疲劳失效",
+      "object": "安全性",
+      "relation": "影响",
+      "path": [
+        [
+          "疲劳",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "疲劳失效",
+      "object": "使用寿命",
+      "relation": "影响",
+      "path": [
+        [
+          "疲劳",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "使用",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机金属结构疲劳分析方法",
+      "object": "唯象疲劳分析方法",
+      "relation": "包含",
+      "path": [
+        [
+          "金属",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机金属结构疲劳分析方法",
+      "object": "以断裂力学为基础的分析方法",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "金属",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "综述",
+          "root"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "分析",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "唯象疲劳分析方法",
+      "object": "材料疲劳性能",
+      "relation": "基于",
+      "path": [
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "唯象疲劳分析方法",
+      "object": "结构疲劳品质",
+      "relation": "基于",
+      "path": [
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "以断裂力学为基础的分析方法",
+      "object": "断裂力学",
+      "relation": "基于",
+      "path": [
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "综述",
+          "root"
+        ],
+        [
+          "即",
+          "root"
+        ],
+        [
+          "方法",
+          "attr"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "力学",
+          "pobj"
+        ],
+        [
+          "断裂",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 32
+        },
+        {
+          "sentence_index": 3,
+          "id": 28
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        },
+        {
+          "sentence_index": 3,
+          "id": 27
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "学术研究",
+      "object": "飞机结构抗疲劳保安全策略",
+      "relation": "影响",
+      "path": [
+        [
+          "学术",
+          "nn"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "实践",
+          "nsubj"
+        ],
+        [
+          "得以",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分析方法",
+      "object": "飞机结构抗疲劳保安全策略",
+      "relation": "影响",
+      "path": [
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "综述",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进材料",
+      "object": "新挑战",
+      "relation": "提出",
+      "path": [
+        [
+          "材料",
+          "nn"
+        ],
+        [
+          "性能",
+          "pobj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "出发",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "attr"
+        ],
+        [
+          "即",
+          "root"
+        ],
+        [
+          "需求",
+          "root"
+        ],
+        [
+          "思路",
+          "dep"
+        ],
+        [
+          "挑战",
+          "conj"
+        ],
+        [
+          "新",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 6
+        },
+        {
+          "sentence_index": 3,
+          "id": 32
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 33
+        },
+        {
+          "sentence_index": 6,
+          "id": 18
+        },
+        {
+          "sentence_index": 6,
+          "id": 15
+        },
+        {
+          "sentence_index": 6,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型结构",
+      "object": "新挑战",
+      "relation": "提出",
+      "path": [
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "需求",
+          "root"
+        ],
+        [
+          "思路",
+          "dep"
+        ],
+        [
+          "挑战",
+          "conj"
+        ],
+        [
+          "新",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 6,
+          "id": 33
+        },
+        {
+          "sentence_index": 6,
+          "id": 18
+        },
+        {
+          "sentence_index": 6,
+          "id": 15
+        },
+        {
+          "sentence_index": 6,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "未来飞机结构",
+      "object": "疲劳与损伤容限评价",
+      "relation": "需要",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "寿命",
+          "dobj"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "因素",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "失效",
+          "top"
+        ],
+        [
+          "疲劳",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

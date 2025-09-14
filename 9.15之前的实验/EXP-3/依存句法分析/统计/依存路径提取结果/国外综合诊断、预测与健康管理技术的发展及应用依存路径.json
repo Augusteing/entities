@@ -1,0 +1,740 @@
+{
+  "title": "国外综合诊断、预测与健康管理技术的发展及应用",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "复杂系统五性",
+      "relation": "提高",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "性",
+          "dobj"
+        ],
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "五",
+          "nummod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "系统寿命周期费用",
+      "relation": "降低",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "费用",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "周期",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "关键使能技术",
+      "relation": "是",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "使能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "军事领域",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "军事",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "民用领域",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "民用",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断、预测与健康管理(PHM)技术",
+      "object": "学术研究领域",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "介绍",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "学术",
+          "nn"
+        ],
+        [
+          "研究",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35战斗机",
+      "object": "综合诊断、预测与健康管理(PHM)技术",
+      "relation": "应用",
+      "path": [
+        [
+          "战斗机",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "案例",
+          "dobj"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "回顾",
+          "conj"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

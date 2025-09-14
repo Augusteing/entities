@@ -1,0 +1,1092 @@
+{
+  "title": "可解释性智能监测诊断网络构造及航空发动机整机试车与中介轴承诊断应用",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 10,
+    "cross_sentence_path_found": 10
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机故障预测与健康管理",
+      "object": "关键技术",
+      "relation": "是",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测与健康管理",
+      "object": "航空发动机安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "可承受性",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测与健康管理",
+      "object": "航空发动机可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深度学习",
+      "object": "模型可解释性差",
+      "relation": "存在问题",
+      "path": [
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "差",
+          "vmod"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "可解释性",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深度学习",
+      "object": "理论基础薄弱",
+      "relation": "存在问题",
+      "path": [
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "差",
+          "vmod"
+        ],
+        [
+          "薄弱",
+          "conj"
+        ],
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "基础",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可解释性智能监测诊断网络",
+      "object": "异常检测",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "验证",
+          "root"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "assmod"
+        ],
+        [
+          "检测",
+          "conj"
+        ],
+        [
+          "异常",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        },
+        {
+          "sentence_index": 5,
+          "id": 20
+        },
+        {
+          "sentence_index": 5,
+          "id": 18
+        },
+        {
+          "sentence_index": 5,
+          "id": 13
+        },
+        {
+          "sentence_index": 5,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可解释性智能监测诊断网络",
+      "object": "中介轴承故障诊断",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可解释性智能监测诊断网络",
+      "object": "某型涡扇发动机",
+      "relation": "验证于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "稀疏表示模型",
+      "object": "发动机振动信号先验信息",
+      "relation": "融入",
+      "path": [
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "可解释性",
+          "nsubj"
+        ],
+        [
+          "差",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "核心网络",
+      "object": "迭代求解算法",
+      "relation": "展开自",
+      "path": [
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "现状",
+          "nsubj"
+        ],
+        [
+          "学习",
+          "rcmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可解释性异常检测子网络",
+      "object": "对抗训练框架",
+      "relation": "基于",
+      "path": [
+        [
+          "可解释性",
+          "nsubj"
+        ],
+        [
+          "差",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "融入",
+          "root"
+        ],
+        [
+          "，",
+          "punct"
+        ],
+        [
+          "对",
+          "prep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 6,
+          "id": 7
+        },
+        {
+          "sentence_index": 6,
+          "id": 11
+        },
+        {
+          "sentence_index": 6,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可解释性故障诊断子网络",
+      "object": "特征提取框架",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "构造",
+          "root"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "框架",
+          "pobj"
+        ],
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "提取",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 32
+        },
+        {
+          "sentence_index": 7,
+          "id": 23
+        },
+        {
+          "sentence_index": 7,
+          "id": 26
+        },
+        {
+          "sentence_index": 7,
+          "id": 24
+        },
+        {
+          "sentence_index": 7,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "迭代算法展开的网络构造框架",
+      "object": "明确的理论基础",
+      "relation": "具备",
+      "path": [
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "学习",
+          "rcmod"
+        ],
+        [
+          "现状",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "差",
+          "vmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "基础",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可视化方法",
+      "object": "网络学习效果",
+      "relation": "检验",
+      "path": [
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "学习",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "试车数据",
+      "object": "可解释性智能监测诊断网络",
+      "relation": "验证",
+      "path": [
+        [
+          "试车",
+          "nn"
+        ],
+        [
+          "数据",
+          "root"
+        ],
+        [
+          "受到",
+          "root"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "智能",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 11,
+          "id": 15
+        },
+        {
+          "sentence_index": 11,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

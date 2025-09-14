@@ -1,0 +1,828 @@
+{
+  "title": "民航飞机健康维修管理评估系统设计仿真",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "评估模型",
+      "object": "层次分析法",
+      "relation": "结合",
+      "path": [
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "在于",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "分析法",
+          "conj"
+        ],
+        [
+          "层次",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "评估模型",
+      "object": "T-S模糊神经网络",
+      "relation": "结合",
+      "path": [
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "在于",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "T-S",
+          "nn"
+        ],
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "评估模型",
+      "object": "飞机健康状态",
+      "relation": "评估",
+      "path": [
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "T-S模糊神经网络系统",
+      "object": "复杂系统建模和控制的有效工具",
+      "relation": "是",
+      "path": [
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民航飞机健康管理状态评估",
+      "object": "传感器采集的基础数据",
+      "relation": "需要",
+      "path": [
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "在于",
+          "root"
+        ],
+        [
+          "获得",
+          "ccomp"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "采集",
+          "rcmod"
+        ],
+        [
+          "传感器",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据处理过程",
+      "object": "健康状态特征参数提取",
+      "relation": "包含",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "决策",
+          "lobj"
+        ],
+        [
+          "提取",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据处理过程",
+      "object": "故障诊断算法",
+      "relation": "包含",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "决策",
+          "lobj"
+        ],
+        [
+          "算法",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据处理过程",
+      "object": "故障预测技术",
+      "relation": "包含",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "决策",
+          "lobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据处理过程",
+      "object": "健康管理决策",
+      "relation": "包含",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "决策",
+          "lobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "评估结果分析",
+      "object": "民航飞机健康状态的变化",
+      "relation": "有助于发现",
+      "path": [
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "民航",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康状态变化趋势",
+      "object": "相关维护措施",
+      "relation": "决定",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "提取",
+          "conj"
+        ],
+        [
+          "决策",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "在于",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "相",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

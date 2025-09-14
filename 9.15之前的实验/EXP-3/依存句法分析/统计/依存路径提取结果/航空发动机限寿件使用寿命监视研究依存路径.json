@@ -1,0 +1,924 @@
+{
+  "title": "航空发动机限寿件使用寿命监视研究",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机限寿件使用寿命监视技术",
+      "object": "早期传统使用监视方法的不足",
+      "relation": "克服",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "限寿件",
+          "nn"
+        ],
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "克服",
+          "pccomp"
+        ],
+        [
+          "不足",
+          "dobj"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "早期",
+          "nn"
+        ],
+        [
+          "传统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "单元体设计",
+      "object": "航空发动机限寿件使用寿命监视技术",
+      "relation": "促进",
+      "path": [
+        [
+          "单元体",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "理念",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "限寿件",
+          "nn"
+        ],
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于状态维修",
+      "object": "航空发动机限寿件使用寿命监视技术",
+      "relation": "促进",
+      "path": [
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "基于",
+          "vmod"
+        ],
+        [
+          "理念",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "限寿件",
+          "nn"
+        ],
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "功能结构",
+      "relation": "具有",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "功能",
+          "nn"
+        ],
+        [
+          "结构",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "发展现状",
+      "relation": "具有",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "理念",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "未来趋势",
+      "relation": "具有",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "未来",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "优越性",
+      "relation": "具有",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "对比",
+          "dep"
+        ],
+        [
+          "必要性",
+          "dobj"
+        ],
+        [
+          "优越性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "关键技术",
+      "relation": "需要解决",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "使用寿命监视",
+      "object": "应用前景",
+      "relation": "具有",
+      "path": [
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "监视",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "前景",
+          "dobj"
+        ],
+        [
+          "应用",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

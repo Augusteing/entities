@@ -1,0 +1,1092 @@
+{
+  "title": "基于模态切换的航空发动机容错控制",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 13,
+    "path_found": 13,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "容错控制系统",
+      "object": "模态切换",
+      "relation": "基于",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "切换",
+          "rcmod"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "模态",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "容错控制系统",
+      "object": "航空发动机控制",
+      "relation": "综合",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "容错控制系统",
+      "object": "故障诊断方法",
+      "relation": "综合",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "任务级模式",
+      "object": "发动机部件故障",
+      "relation": "应对",
+      "path": [
+        [
+          "任务级",
+          "nn"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ],
+        [
+          "达到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "时",
+          "plmod"
+        ],
+        [
+          "故障",
+          "lccomp"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "部件",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "任务级模式",
+      "object": "控制策略",
+      "relation": "切换",
+      "path": [
+        [
+          "任务级",
+          "nn"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ],
+        [
+          "达到",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "模式",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "策略",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "任务级模式",
+      "object": "发动机性能",
+      "relation": "恢复",
+      "path": [
+        [
+          "任务级",
+          "nn"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ],
+        [
+          "达到",
+          "conj"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "恢复",
+          "rcmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "性能",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机级模式",
+      "object": "控制回路失效",
+      "relation": "应对",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "级",
+          "nn"
+        ],
+        [
+          "模式",
+          "assmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "切换",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "时",
+          "plmod"
+        ],
+        [
+          "控制",
+          "lccomp"
+        ],
+        [
+          "回路",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "ccomp"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机级模式",
+      "object": "容错控制回路",
+      "relation": "切换到",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "级",
+          "nn"
+        ],
+        [
+          "模式",
+          "assmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "切换",
+          "conj"
+        ],
+        [
+          "回路",
+          "dobj"
+        ],
+        [
+          "容错",
+          "advmod"
+        ],
+        [
+          "控制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机级模式",
+      "object": "发动机",
+      "relation": "保证",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "级",
+          "nn"
+        ],
+        [
+          "模式",
+          "assmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "容错控制系统",
+      "object": "发动机的推力",
+      "relation": "恢复",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "容错控制系统",
+      "object": "压气机转速控制回路失效",
+      "relation": "应对",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "切换",
+          "conj"
+        ],
+        [
+          "当",
+          "prep"
+        ],
+        [
+          "时",
+          "plmod"
+        ],
+        [
+          "控制",
+          "lccomp"
+        ],
+        [
+          "压气机",
+          "nsubj"
+        ],
+        [
+          "转速",
+          "advmod"
+        ],
+        [
+          "回路",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "ccomp"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 119
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 118
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "容错控制系统",
+      "object": "风扇转速控制回路",
+      "relation": "切换到",
+      "path": [
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "切换",
+          "conj"
+        ],
+        [
+          "控制",
+          "dep"
+        ],
+        [
+          "风扇",
+          "nsubj"
+        ],
+        [
+          "转速",
+          "advmod"
+        ],
+        [
+          "回路",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 131
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字仿真",
+      "object": "容错控制系统",
+      "relation": "验证",
+      "path": [
+        [
+          "仿真",
+          "amod"
+        ],
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "综合",
+          "root"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "容错",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

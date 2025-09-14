@@ -1,0 +1,516 @@
+{
+  "title": "多机种一体化故障预测与健康管理技术应用研究",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "自主式保障",
+      "object": "新一代飞机设计的基本能力",
+      "relation": "是",
+      "path": [
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "保障",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "能力",
+          "attr"
+        ],
+        [
+          "设计",
+          "assmod"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "飞机",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM系统体系结构",
+      "object": "机载PHM系统",
+      "relation": "划分出",
+      "path": [
+        [
+          "飞机",
+          "conj"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "设计",
+          "assmod"
+        ],
+        [
+          "能力",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM系统体系结构",
+      "object": "地面PHM系统",
+      "relation": "划分出",
+      "path": [
+        [
+          "飞机",
+          "conj"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "设计",
+          "assmod"
+        ],
+        [
+          "能力",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载PHM系统",
+      "object": "分层智能推理机构",
+      "relation": "采用",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "机构",
+          "dobj"
+        ],
+        [
+          "分层",
+          "amod"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "地面PHM系统",
+      "object": "地面自主保障信息系统",
+      "relation": "宿驻在",
+      "path": [
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "保障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文",
+      "object": "PHM系统工作过程",
+      "relation": "优化",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "本文",
+      "object": "综合智能故障诊断方法",
+      "relation": "提出",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "本文",
+      "object": "维修任务预测算法",
+      "relation": "提出",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "本文",
+      "object": "飞机多机种自主式保障设计关键技术",
+      "relation": "提出",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

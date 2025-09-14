@@ -1,0 +1,1004 @@
+{
+  "title": "基于神经网络预测模型的歼击机结构故障检测方法",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "神经网络预测模型故障检测方法",
+      "object": "预测神经网络",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络方法",
+      "object": "非线性逼近能力强",
+      "relation": "具有",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "优点",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "非线性",
+          "amod"
+        ],
+        [
+          "逼近",
+          "nn"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络方法",
+      "object": "故障检测实时性好",
+      "relation": "具有",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "优点",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "好",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "实时性",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络预测模型故障检测方法",
+      "object": "多步直接预测算法",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络预测模型故障检测方法",
+      "object": "阈值选取原则",
+      "relation": "包含",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "原则",
+          "dobj"
+        ],
+        [
+          "阈值",
+          "nn"
+        ],
+        [
+          "选取",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络预测模型故障检测方法",
+      "object": "歼击机结构故障",
+      "relation": "检测",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "歼击机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真验证",
+      "object": "神经网络预测模型故障检测方法",
+      "relation": "验证",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "验证",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络预测模型故障检测方法",
+      "object": "某型歼击机",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "歼击机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络方法",
+      "object": "传统故障检测方法",
+      "relation": "优于",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "有",
+          "conj"
+        ],
+        [
+          "相比",
+          "conj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "title": "基于PHM的航空装备可用度影响因素分析方法",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "PHM技术",
+      "object": "航空装备保障过程",
+      "relation": "影响",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "过程",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "保障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空装备可用度影响因素",
+      "object": "使用影响因素",
+      "relation": "分为",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "类",
+          "range"
+        ],
+        [
+          "因素",
+          "dep"
+        ],
+        [
+          "因素",
+          "conj"
+        ],
+        [
+          "使用",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空装备可用度影响因素",
+      "object": "设计影响因素",
+      "relation": "分为",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "类",
+          "range"
+        ],
+        [
+          "因素",
+          "dep"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真假设条件",
+      "object": "仿真过程",
+      "relation": "简化",
+      "path": [
+        [
+          "仿真",
+          "amod"
+        ],
+        [
+          "假设",
+          "nn"
+        ],
+        [
+          "条件",
+          "dobj"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "简化",
+          "conj"
+        ],
+        [
+          "过程",
+          "dobj"
+        ],
+        [
+          "仿真",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真",
+      "object": "稳态可用度",
+      "relation": "输出",
+      "path": [
+        [
+          "仿真",
+          "amod"
+        ],
+        [
+          "条件",
+          "dobj"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "dep"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "可用度",
+          "top"
+        ],
+        [
+          "稳态",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 164
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 131
+        },
+        {
+          "sentence_index": 0,
+          "id": 130
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于PHM的航空装备可用度影响因素分析方法",
+      "object": "解析计算公式",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "dep"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "公式",
+          "dobj"
+        ],
+        [
+          "解析",
+          "nn"
+        ],
+        [
+          "计算",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 164
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 145
+        },
+        {
+          "sentence_index": 0,
+          "id": 143
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于PHM的航空装备可用度影响因素分析方法",
+      "object": "仿真程序",
+      "relation": "描述",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "dep"
+        ],
+        [
+          "描述",
+          "conj"
+        ],
+        [
+          "流程图",
+          "dobj"
+        ],
+        [
+          "构成",
+          "conj"
+        ],
+        [
+          "程序",
+          "assmod"
+        ],
+        [
+          "仿真",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 164
+        },
+        {
+          "sentence_index": 0,
+          "id": 148
+        },
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 153
+        },
+        {
+          "sentence_index": 0,
+          "id": 151
+        },
+        {
+          "sentence_index": 0,
+          "id": 150
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真结果",
+      "object": "基于PHM的航空装备可用度影响因素分析方法",
+      "relation": "验证",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "结果",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 166
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于PHM的航空装备可用度影响因素分析方法",
+      "object": "单因素分析",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "结论",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "单",
+          "amod"
+        ],
+        [
+          "因素",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 169
+        },
+        {
+          "sentence_index": 0,
+          "id": 184
+        },
+        {
+          "sentence_index": 0,
+          "id": 175
+        },
+        {
+          "sentence_index": 0,
+          "id": 173
+        },
+        {
+          "sentence_index": 0,
+          "id": 174
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于PHM的航空装备可用度影响因素分析方法",
+      "object": "多因素耦合分析",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "可用度",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ],
+        [
+          "因素",
+          "nsubj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "结论",
+          "dobj"
+        ],
+        [
+          "分析",
+          "assmod"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "因素",
+          "nn"
+        ],
+        [
+          "耦合",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 169
+        },
+        {
+          "sentence_index": 0,
+          "id": 184
+        },
+        {
+          "sentence_index": 0,
+          "id": 180
+        },
+        {
+          "sentence_index": 0,
+          "id": 177
+        },
+        {
+          "sentence_index": 0,
+          "id": 178
+        },
+        {
+          "sentence_index": 0,
+          "id": 179
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

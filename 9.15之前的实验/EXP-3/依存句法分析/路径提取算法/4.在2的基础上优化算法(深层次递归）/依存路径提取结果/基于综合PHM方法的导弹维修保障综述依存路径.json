@@ -1,0 +1,1144 @@
+{
+  "title": "基于综合PHM方法的导弹维修保障综述",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 14,
+    "path_found": 14,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "新型自主式后勤保障的关键技术",
+      "relation": "是",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "保障",
+          "dobj"
+        ],
+        [
+          "新型",
+          "amod"
+        ],
+        [
+          "自主式",
+          "amod"
+        ],
+        [
+          "后勤",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "故障检测",
+      "relation": "实现",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "检测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "诊断",
+      "relation": "实现",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "预测",
+      "relation": "实现",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "状态评估",
+      "relation": "实现",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "综合决策",
+      "relation": "实现",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "维修、使用和保障费用",
+      "relation": "降低",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "费用",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "保障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "战备完好率",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可用性",
+          "dobj"
+        ],
+        [
+          "战备",
+          "nn"
+        ],
+        [
+          "完好率",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "任务成功率",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可用性",
+          "dobj"
+        ],
+        [
+          "任务",
+          "nn"
+        ],
+        [
+          "成功率",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与管理技术(PHM)",
+      "object": "安全性和可用性",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可用性",
+          "dobj"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM方法",
+      "object": "导弹维修保障",
+      "relation": "应用于",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "作用",
+          "conj"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "应用",
+          "pobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "保障",
+          "lobj"
+        ],
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导弹维修保障综合PHM",
+      "object": "基本概念",
+      "relation": "包含",
+      "path": [
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "保障",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "dobj"
+        ],
+        [
+          "综合",
+          "rcmod"
+        ],
+        [
+          "难点",
+          "attr"
+        ],
+        [
+          "概念",
+          "conj"
+        ],
+        [
+          "基本",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导弹维修保障综合PHM",
+      "object": "体系构建方法",
+      "relation": "包含",
+      "path": [
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "保障",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "dobj"
+        ],
+        [
+          "综合",
+          "rcmod"
+        ],
+        [
+          "难点",
+          "attr"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "构建",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导弹维修保障综合PHM",
+      "object": "技术难点",
+      "relation": "存在",
+      "path": [
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "保障",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "dobj"
+        ],
+        [
+          "综合",
+          "rcmod"
+        ],
+        [
+          "难点",
+          "attr"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

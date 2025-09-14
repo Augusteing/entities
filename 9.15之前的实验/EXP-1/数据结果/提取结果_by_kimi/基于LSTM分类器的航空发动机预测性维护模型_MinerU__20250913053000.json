@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波"
+    },
+    {
+      "type": "算法",
+      "text": "长短期记忆网络（LSTM）"
+    },
+    {
+      "type": "算法",
+      "text": "深度置信网络（DBN）"
+    },
+    {
+      "type": "算法",
+      "text": "递归神经网络（RNN）"
+    },
+    {
+      "type": "算法",
+      "text": "卷积神经网络（CNN）"
+    },
+    {
+      "type": "算法",
+      "text": "多层感知器（MLP）"
+    },
+    {
+      "type": "算法",
+      "text": "多尺度排列熵算法"
+    },
+    {
+      "type": "算法",
+      "text": "一维CNN和双向长短期记忆（BD-LSTM）"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS数据集"
+    },
+    {
+      "type": "数据集",
+      "text": "FD001数据集"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "传统RNN",
+      "tail": "LSTM网络"
+    },
+    {
+      "type": "演化为",
+      "head": "LSTM网络",
+      "tail": "Transformer架构"
+    },
+    {
+      "type": "提出了",
+      "head": "Transformer架构",
+      "tail": "自注意力机制"
+    },
+    {
+      "type": "基于",
+      "head": "Transformer架构",
+      "tail": "注意力机制"
+    },
+    {
+      "type": "评估指标是",
+      "head": "轴承故障诊断系统",
+      "tail": "诊断准确率"
+    },
+    {
+      "type": "得出",
+      "head": "轴承故障诊断系统",
+      "tail": "95.6%的准确率"
+    },
+    {
+      "type": "使用了",
+      "head": "本文提出的模型",
+      "tail": "C-MAPSS数据集"
+    },
+    {
+      "type": "验证了",
+      "head": "LSTM分类器",
+      "tail": "FD001数据集"
+    }
+  ]
+}

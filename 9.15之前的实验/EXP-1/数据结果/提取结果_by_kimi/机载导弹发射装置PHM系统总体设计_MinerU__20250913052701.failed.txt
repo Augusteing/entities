@@ -1,0 +1,2 @@
+失败时间: 2025-09-14T09:26:07.048057+00:00
+异常: Error code: 429 - {'error': {'message': 'Your account org-cec156cb17fa4d66a05be7c5b1995387<ak-f54jfwhubqs111g7q1o1> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}

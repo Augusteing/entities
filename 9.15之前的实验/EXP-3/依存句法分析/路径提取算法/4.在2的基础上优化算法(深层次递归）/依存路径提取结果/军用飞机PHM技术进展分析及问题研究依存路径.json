@@ -1,0 +1,1352 @@
+{
+  "title": "军用飞机PHM技术进展分析及问题研究",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 14,
+    "path_found": 14,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "军用飞机PHM技术",
+      "object": "瓶颈问题",
+      "relation": "面临",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "瓶颈",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "瓶颈问题",
+      "object": "装备测试性设计与验证",
+      "relation": "体现在",
+      "path": [
+        [
+          "瓶颈",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "制定",
+          "nn"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "测试性",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "瓶颈问题",
+      "object": "多源故障信息交互与管理",
+      "relation": "体现在",
+      "path": [
+        [
+          "瓶颈",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "制定",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "多",
+          "amod"
+        ],
+        [
+          "源",
+          "clf"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "交互",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "瓶颈问题",
+      "object": "寿命预测与维修支持",
+      "relation": "体现在",
+      "path": [
+        [
+          "瓶颈",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "制定",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "瓶颈问题",
+      "object": "验证评估",
+      "relation": "体现在",
+      "path": [
+        [
+          "瓶颈",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "瓶颈问题",
+      "object": "标准制定",
+      "relation": "体现在",
+      "path": [
+        [
+          "瓶颈",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "制定",
+          "nn"
+        ],
+        [
+          "标准",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "军用飞机PHM技术",
+      "object": "测试性试验技术",
+      "relation": "需要研究",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "测试性",
+          "amod"
+        ],
+        [
+          "试验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "军用飞机PHM技术",
+      "object": "智能信息处理与融合技术",
+      "relation": "需要研究",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "处理",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "军用飞机PHM技术",
+      "object": "航空装备与信息标准化管理技术",
+      "relation": "需要研究",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "标准化",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "军用飞机PHM技术",
+      "object": "数据挖掘与平台构建技术",
+      "relation": "需要研究",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "方面",
+          "assmod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "平台",
+          "nn"
+        ],
+        [
+          "构建",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "技术体系构建",
+      "relation": "包含",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "数据采集与运用",
+      "relation": "包含",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "采集",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "系统状态监测与故障预测",
+      "relation": "包含",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)技术",
+      "object": "验证评估",
+      "relation": "包含",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

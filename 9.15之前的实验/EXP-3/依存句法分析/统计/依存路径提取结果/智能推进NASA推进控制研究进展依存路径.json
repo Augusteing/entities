@@ -1,0 +1,1792 @@
+{
+  "title": "智能推进NASA推进控制研究进展",
+  "stats": {
+    "total_pairs": 20,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "NASA格伦研究中心",
+      "object": "智能推进",
+      "relation": "研究",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "格伦",
+          "nn"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "NASA",
+          "prnmod"
+        ],
+        [
+          "航天局",
+          "nn"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "主动控制",
+      "relation": "包含",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "主动",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "基于模型的控制和健康管理",
+      "relation": "包含",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "分布式控制",
+      "relation": "包含",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "分布式",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "推进控制系统的智能化程度",
+      "relation": "旨在提高",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "建模仿真和控制技术",
+      "relation": "采用",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "恶劣工况",
+      "relation": "对抗",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          "提高",
+          "ccomp"
+        ],
+        [
+          "对抗",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "老化",
+          "rcmod"
+        ],
+        [
+          "工况",
+          "conj"
+        ],
+        [
+          "恶劣",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "部件老化",
+      "relation": "对抗",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          "提高",
+          "ccomp"
+        ],
+        [
+          "对抗",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "老化",
+          "rcmod"
+        ],
+        [
+          "部件",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "发动机最优工作性能",
+      "relation": "保持",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "工作",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "推进系统工作寿命",
+      "relation": "延长",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "推进",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "延长",
+          "root"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可靠性",
+          "dobj"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "延长",
+          "root"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可靠性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "全寿命周期的使用维护成本",
+      "relation": "降低",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "使",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型的控制和健康管理",
+      "object": "飞行试验",
+      "relation": "通过验证",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "通过",
+          "dep"
+        ],
+        [
+          "验证",
+          "dobj"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型的控制和健康管理",
+      "object": "7级",
+      "relation": "技术成熟度达到",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "达到",
+          "dep"
+        ],
+        [
+          "级",
+          "range"
+        ],
+        [
+          "7",
+          "nummod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "主动控制",
+      "object": "概念设计和实验室研究阶段",
+      "relation": "处于",
+      "path": [
+        [
+          "主动",
+          "amod"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "研究",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分布式控制",
+      "object": "概念设计和实验室研究阶段",
+      "relation": "处于",
+      "path": [
+        [
+          "分布式",
+          "amod"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "研究",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "主动控制",
+      "object": "6级",
+      "relation": "预计技术成熟度达到",
+      "path": [
+        [
+          "主动",
+          "amod"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "达到",
+          "dep"
+        ],
+        [
+          "级",
+          "range"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分布式控制",
+      "object": "6级",
+      "relation": "预计技术成熟度达到",
+      "path": [
+        [
+          "分布式",
+          "amod"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "工作",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "有",
+          "root"
+        ],
+        [
+          "达到",
+          "dep"
+        ],
+        [
+          "级",
+          "range"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能推进",
+      "object": "下一代航空航天推进系统的核心支撑技术",
+      "relation": "成为",
+      "path": [
+        [
+          "推进",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "围绕",
+          "ccomp"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "航天局",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

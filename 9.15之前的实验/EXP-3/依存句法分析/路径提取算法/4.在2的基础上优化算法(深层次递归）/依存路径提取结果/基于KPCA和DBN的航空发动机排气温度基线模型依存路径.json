@@ -1,0 +1,1200 @@
+{
+  "title": "基于KPCA和DBN的航空发动机排气温度基线模型",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "基于KPCA和DBN的建模方法",
+      "object": "航空发动机排气温度基线模型",
+      "relation": "构建",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "排气",
+          "nn"
+        ],
+        [
+          "温度",
+          "nn"
+        ],
+        [
+          "基线",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机排气温度基线模型",
+      "object": "航空发动机健康管理",
+      "relation": "用于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "排气",
+          "nn"
+        ],
+        [
+          "温度",
+          "nn"
+        ],
+        [
+          "基线",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "给",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机",
+      "object": "CFM56-7B发动机",
+      "relation": "配装",
+      "path": [
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "产生",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "给",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机",
+      "object": "快速存取数据",
+      "relation": "产生",
+      "path": [
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "产生",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "快速",
+          "amod"
+        ],
+        [
+          "存取",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "快速存取数据",
+      "object": "原始数据样本",
+      "relation": "作为",
+      "path": [
+        [
+          "快速",
+          "amod"
+        ],
+        [
+          "存取",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "样本",
+          "dobj"
+        ],
+        [
+          "原始",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "核主成分分析",
+      "object": "降维处理",
+      "relation": "用于",
+      "path": [
+        [
+          "核",
+          "nn"
+        ],
+        [
+          "主",
+          "amod"
+        ],
+        [
+          "成分",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "处理",
+          "dobj"
+        ],
+        [
+          "降维",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "核主成分分析",
+      "object": "高斯函数",
+      "relation": "选用",
+      "path": [
+        [
+          "核",
+          "nn"
+        ],
+        [
+          "主",
+          "amod"
+        ],
+        [
+          "成分",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "选用",
+          "conj"
+        ],
+        [
+          "函数",
+          "dobj"
+        ],
+        [
+          "高斯",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "高斯函数",
+      "object": "核函数",
+      "relation": "作为",
+      "path": [
+        [
+          "高斯",
+          "nn"
+        ],
+        [
+          "函数",
+          "dobj"
+        ],
+        [
+          "选用",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "核",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "降维后的数据",
+      "object": "深度置信网络",
+      "relation": "作为输入",
+      "path": [
+        [
+          "降维",
+          "lccomp"
+        ],
+        [
+          "后",
+          "assmod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "置信",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深度置信网络",
+      "object": "航空发动机EGT基线模型",
+      "relation": "建立",
+      "path": [
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "置信",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "给",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据",
+      "object": "航空发动机EGT基线模型",
+      "relation": "验证",
+      "path": [
+        [
+          "QAR",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "作为",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "给",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "性能",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于KPCA和DBN的建模方法",
+      "object": "网络结构复杂度",
+      "relation": "降低",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于KPCA和DBN的建模方法",
+      "object": "模型精度",
+      "relation": "提高",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于KPCA和DBN的建模方法",
+      "object": "传统神经网络建模方法",
+      "relation": "优于",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1332 @@
+{
+  "title": "先进航空发动机核心关键技术",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 11,
+    "cross_sentence_path_found": 11
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机",
+      "object": "先进战机作战能力",
+      "relation": "提升",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "提升",
+          "ccomp"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ],
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "战机",
+          "nn"
+        ],
+        [
+          "作战",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进战机",
+      "object": "高性能",
+      "relation": "要求",
+      "path": [
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "战机",
+          "nn"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "ccomp"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "要求",
+          "nsubj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "维护性",
+          "nn"
+        ],
+        [
+          "性能",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进战机",
+      "object": "高可靠性",
+      "relation": "要求",
+      "path": [
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "战机",
+          "nn"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "ccomp"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "要求",
+          "nsubj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "维护性",
+          "nn"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进战机",
+      "object": "长寿命",
+      "relation": "要求",
+      "path": [
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "战机",
+          "nn"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "ccomp"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "要求",
+          "nsubj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "维护性",
+          "nn"
+        ],
+        [
+          "寿命",
+          "conj"
+        ],
+        [
+          "长",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进战机",
+      "object": "良好维护性",
+      "relation": "要求",
+      "path": [
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "战机",
+          "nn"
+        ],
+        [
+          "能力",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "ccomp"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "要求",
+          "nsubj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "维护性",
+          "nn"
+        ],
+        [
+          "良好",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "综合控温",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "控温",
+          "conj"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "转子结构系统稳健性",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "稳健性",
+          "conj"
+        ],
+        [
+          "转子",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "全权限数字控制",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "全",
+          "amod"
+        ],
+        [
+          "权限",
+          "nn"
+        ],
+        [
+          "数字",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "飞发综合热管理",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "飞发",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "热",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "健康管理",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 29
+        },
+        {
+          "sentence_index": 3,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "推力矢量",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "隐身",
+          "nn"
+        ],
+        [
+          "矢量",
+          "conj"
+        ],
+        [
+          "推力",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 32
+        },
+        {
+          "sentence_index": 3,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "高隐身",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "要求",
+          "nsubj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "维护性",
+          "nn"
+        ],
+        [
+          "性能",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "先进航空发动机发展",
+      "relation": "支撑",
+      "path": [
+        [
+          "关键",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "发动机",
+          "top"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

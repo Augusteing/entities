@@ -1,0 +1,1528 @@
+{
+  "title": "面向飞机辅助动力装置在翼剩余寿命预测的性能参数扩增方法",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "性能参数扩增方法",
+      "object": "APU在翼性能参数维度低问题",
+      "relation": "解决",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "扩增",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "翼",
+          "pobj"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能参数扩增方法",
+      "object": "生成对抗网络",
+      "relation": "基于",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "扩增",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "对抗",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "网格搜索算法",
+      "object": "生成器与判别器的优化参数",
+      "relation": "确定",
+      "path": [
+        [
+          "网格",
+          "nn"
+        ],
+        [
+          "搜索",
+          "nn"
+        ],
+        [
+          "算法",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "确定",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能参数扩增方法",
+      "object": "APU剩余寿命预测的输入参数",
+      "relation": "提供",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "扩增",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能参数扩增方法",
+      "object": "中国南方航空股份有限公司机队的APU在翼监测参数",
+      "relation": "验证于",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "扩增",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "翼",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "生成对抗网络",
+      "object": "10维的排气温度参数",
+      "relation": "生成",
+      "path": [
+        [
+          "对抗",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "欧几里得距离",
+      "object": "生成参数与原始参数的一致性",
+      "relation": "度量",
+      "path": [
+        [
+          "欧几里得",
+          "nn"
+        ],
+        [
+          "距离",
+          "conj"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "皮尔森相关系数",
+      "object": "生成参数与原始参数的一致性",
+      "relation": "度量",
+      "path": [
+        [
+          "皮尔森",
+          "nn"
+        ],
+        [
+          "相关",
+          "amod"
+        ],
+        [
+          "系数",
+          "conj"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "KL散度",
+      "object": "生成参数与原始参数的一致性",
+      "relation": "度量",
+      "path": [
+        [
+          "KL",
+          "nn"
+        ],
+        [
+          "散度",
+          "nn"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能参数扩增方法",
+      "object": "APU剩余寿命预测的准确性",
+      "relation": "提升",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "扩增",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "生成",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "维度",
+          "nsubj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "平均绝对误差",
+      "object": "预测结果准确性",
+      "relation": "表征",
+      "path": [
+        [
+          "平均",
+          "amod"
+        ],
+        [
+          "绝对",
+          "amod"
+        ],
+        [
+          "误差",
+          "conj"
+        ],
+        [
+          "误差",
+          "nsubj"
+        ],
+        [
+          "表征",
+          "rcmod"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "获得",
+          "conj"
+        ],
+        [
+          "结果",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 44
+        },
+        {
+          "sentence_index": 3,
+          "id": 45
+        },
+        {
+          "sentence_index": 3,
+          "id": 46
+        },
+        {
+          "sentence_index": 3,
+          "id": 49
+        },
+        {
+          "sentence_index": 3,
+          "id": 50
+        },
+        {
+          "sentence_index": 3,
+          "id": 53
+        },
+        {
+          "sentence_index": 3,
+          "id": 56
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "均方根误差",
+      "object": "预测结果准确性",
+      "relation": "表征",
+      "path": [
+        [
+          "均方根",
+          "amod"
+        ],
+        [
+          "误差",
+          "nsubj"
+        ],
+        [
+          "表征",
+          "rcmod"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "解决",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "低",
+          "rcmod"
+        ],
+        [
+          "获得",
+          "conj"
+        ],
+        [
+          "结果",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 48
+        },
+        {
+          "sentence_index": 3,
+          "id": 49
+        },
+        {
+          "sentence_index": 3,
+          "id": 50
+        },
+        {
+          "sentence_index": 3,
+          "id": 53
+        },
+        {
+          "sentence_index": 3,
+          "id": 56
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

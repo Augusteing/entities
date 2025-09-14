@@ -1,0 +1,724 @@
+{
+  "title": "飞机健康监测与预测系统的发展及展望",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "健康监测与预测系统",
+      "object": "先进维护管理系统",
+      "relation": "是",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康监测与预测系统",
+      "object": "全面的故障检测、预测与状态管理系统",
+      "relation": "是",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "attr"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新一代飞机",
+      "object": "健康监测与预测系统",
+      "relation": "采用",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "采用",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康监测与预测系统",
+      "object": "关键技术",
+      "relation": "涉及",
+      "path": [
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "先进传感器技术",
+      "relation": "包括",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "采用",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "先进",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "故障诊断与健康评估技术",
+      "relation": "包括",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "故障预测技术",
+      "relation": "包括",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "数据融合技术",
+      "relation": "包括",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "融合",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 76
+        },
+        {
+          "sentence_index": 1,
+          "id": 70
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 69
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "系统验证与评价技术",
+      "relation": "包括",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "作为",
+          "prep"
+        ],
+        [
+          "系统",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

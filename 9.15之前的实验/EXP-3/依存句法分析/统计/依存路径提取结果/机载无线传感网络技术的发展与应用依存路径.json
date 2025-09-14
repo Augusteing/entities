@@ -1,0 +1,392 @@
+{
+  "title": "机载无线传感网络技术的发展与应用",
+  "stats": {
+    "total_pairs": 4,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "机载无线传感网络技术",
+      "object": "体系架构",
+      "relation": "具有",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "传感",
+          "amod"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载无线传感网络技术",
+      "object": "发展情况",
+      "relation": "具有",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "传感",
+          "amod"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "有",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载无线传感网络技术",
+      "object": "实际需求",
+      "relation": "响应",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "传感",
+          "amod"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "实际",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展建议",
+      "object": "机载无线传感网络技术",
+      "relation": "指导",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "有",
+          "rcmod"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "传感",
+          "amod"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

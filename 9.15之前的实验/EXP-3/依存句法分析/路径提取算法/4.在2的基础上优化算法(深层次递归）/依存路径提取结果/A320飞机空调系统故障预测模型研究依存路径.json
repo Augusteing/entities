@@ -1,0 +1,740 @@
+{
+  "title": "A320飞机空调系统故障预测模型研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 3,
+    "path_found": 3,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "故障预测",
+      "object": "飞机空调系统维护",
+      "relation": "支持",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "维护",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "空调",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统GM(1,1)预测模型",
+      "object": "灰色预测建模理论",
+      "relation": "基于",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统GM(1,1)预测模型",
+      "object": "指数规律序列",
+      "relation": "适用于",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "适用于",
+          "root"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "序列",
+          "pobj"
+        ],
+        [
+          "指数",
+          "nn"
+        ],
+        [
+          "规律",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统GM(1,1)预测模型",
+      "object": "波动序列",
+      "relation": "不适用于",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "适用于",
+          "root"
+        ],
+        [
+          "适合",
+          "dep"
+        ],
+        [
+          "序列",
+          "dobj"
+        ],
+        [
+          "波动",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "A320飞机空调系统参数",
+      "object": "波动性",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "空调",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "维护",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "适用于",
+          "root"
+        ],
+        [
+          "适合",
+          "dep"
+        ],
+        [
+          "序列",
+          "dobj"
+        ],
+        [
+          "波动",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进的GM(1,1)预测模型",
+      "object": "3点均值法",
+      "relation": "采用",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "均值法",
+          "dobj"
+        ],
+        [
+          "3",
+          "nummod"
+        ],
+        [
+          "点",
+          "clf"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 32
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "3点均值法",
+      "object": "原始波动序列",
+      "relation": "预处理",
+      "path": [
+        [
+          "3",
+          "nummod"
+        ],
+        [
+          "点",
+          "clf"
+        ],
+        [
+          "均值法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "适用于",
+          "root"
+        ],
+        [
+          "适合",
+          "dep"
+        ],
+        [
+          "序列",
+          "dobj"
+        ],
+        [
+          "波动",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 34
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 32
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进的GM(1,1)预测模型",
+      "object": "背景值",
+      "relation": "修正",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "修正",
+          "conj"
+        ],
+        [
+          "背景值",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 32
+        },
+        {
+          "sentence_index": 2,
+          "id": 40
+        },
+        {
+          "sentence_index": 2,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进的GM(1,1)预测模型",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进的GM(1,1)预测模型",
+      "object": "水分离器出口温度",
+      "relation": "验证于",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "温度",
+          "pobj"
+        ],
+        [
+          "水分离器",
+          "nn"
+        ],
+        [
+          "出口",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 10
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "水分离器出口温度",
+      "object": "A320空调系统",
+      "relation": "属于",
+      "path": [
+        [
+          "水分离器",
+          "nn"
+        ],
+        [
+          "出口",
+          "nn"
+        ],
+        [
+          "温度",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "维护",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "空调",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

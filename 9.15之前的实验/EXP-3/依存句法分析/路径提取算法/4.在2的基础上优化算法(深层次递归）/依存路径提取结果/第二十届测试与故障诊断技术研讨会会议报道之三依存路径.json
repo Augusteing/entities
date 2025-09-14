@@ -1,0 +1,640 @@
+{
+  "title": "第二十届测试与故障诊断技术研讨会会议报道之三",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "伊大伟",
+      "object": "北京航天测控技术有限公司",
+      "relation": "供职于",
+      "path": [
+        [
+          "伊大伟",
+          "nn"
+        ],
+        [
+          "工程师",
+          "nsubj"
+        ],
+        [
+          "公司",
+          "nn"
+        ],
+        [
+          "北京",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "测控",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "有限",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "伊大伟",
+      "object": "故障预测与健康管理方法",
+      "relation": "研究",
+      "path": [
+        [
+          "伊大伟",
+          "nn"
+        ],
+        [
+          "工程师",
+          "nsubj"
+        ],
+        [
+          "组成",
+          "root"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理方法",
+      "object": "直升机旋翼系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机旋翼系统",
+      "object": "动部件",
+      "relation": "包含",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "组成",
+          "root"
+        ],
+        [
+          "由",
+          "prep"
+        ],
+        [
+          "部件",
+          "pobj"
+        ],
+        [
+          "动",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机旋翼系统",
+      "object": "单一通道无备份",
+      "relation": "具有特性",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "组成",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "无",
+          "ccomp"
+        ],
+        [
+          "单一",
+          "amod"
+        ],
+        [
+          "通道",
+          "top"
+        ],
+        [
+          "备份",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机旋翼系统",
+      "object": "复杂工作环境",
+      "relation": "工作于",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "组成",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "无",
+          "ccomp"
+        ],
+        [
+          "复杂",
+          "conj"
+        ],
+        [
+          "环境",
+          "nsubj"
+        ],
+        [
+          "工作",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机旋翼系统",
+      "object": "直升机可靠性",
+      "relation": "确保",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "组成",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "系统",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "安全性",
+          "dobj"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "直升机旋翼系统",
+      "object": "直升机安全性",
+      "relation": "确保",
+      "path": [
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "旋翼",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          ":",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

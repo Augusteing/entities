@@ -1,0 +1,1308 @@
+{
+  "title": "航空发动机预测健康管理系统设计的关键技术",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 15,
+    "path_found": 15,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "定义",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "定义",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "设计目标",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "目标",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "功能",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "功能",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代战斗机发动机健康管理系统",
+      "object": "EJ200",
+      "relation": "包含实例",
+      "path": [
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "战斗机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "F119",
+          "nn"
+        ],
+        [
+          "EJ200",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代战斗机发动机健康管理系统",
+      "object": "F119",
+      "relation": "包含实例",
+      "path": [
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "战斗机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "F119",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "第四代战斗机发动机健康管理系统",
+      "object": "技术特点",
+      "relation": "具有",
+      "path": [
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "战斗机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "交联方案",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "交联",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "交联方案",
+      "object": "飞机",
+      "relation": "连接",
+      "path": [
+        [
+          "交联",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "与",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "交联方案",
+      "object": "发动机",
+      "relation": "连接",
+      "path": [
+        [
+          "交联",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "在线机载EPHM系统",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "完成",
+          "conj"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "EPHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统 (EPHM)",
+      "object": "离线EPHM系统",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "完成",
+          "conj"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "离线",
+          "amod"
+        ],
+        [
+          "EPHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "在线机载EPHM系统",
+      "object": "基本结构设计",
+      "relation": "具有",
+      "path": [
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "EPHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "基本",
+          "amod"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "离线EPHM系统",
+      "object": "基本结构设计",
+      "relation": "具有",
+      "path": [
+        [
+          "离线",
+          "amod"
+        ],
+        [
+          "EPHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "基本",
+          "amod"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机机载预测健康管理系统",
+      "object": "技术指标",
+      "relation": "应实现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "指标",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机预测健康管理系统设计",
+      "object": "关键技术",
+      "relation": "涉及",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "设计",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

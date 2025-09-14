@@ -1,0 +1,872 @@
+{
+  "title": "基于部件参数估计的航空发动机故障预测技术研究",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 12,
+    "path_found": 12,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机故障预测技术",
+      "object": "故障预测与健康管理系统需求",
+      "relation": "满足",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测技术",
+      "object": "气路故障预测问题",
+      "relation": "针对",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "满足",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本研究",
+      "object": "涡轮风扇发动机",
+      "relation": "研究对象为",
+      "path": [
+        [
+          "研究",
+          "dep"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "发动机",
+          "pobj"
+        ],
+        [
+          "涡轮",
+          "nn"
+        ],
+        [
+          "风扇",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "性能健康参数",
+      "object": "状态方程",
+      "relation": "扩展至",
+      "path": [
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "扩展",
+          "conj"
+        ],
+        [
+          "方程",
+          "dobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "卡尔曼滤波器",
+      "object": "状态变量",
+      "relation": "估计",
+      "path": [
+        [
+          "卡尔曼",
+          "nn"
+        ],
+        [
+          "滤波器",
+          "dobj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "变量",
+          "pobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "卡尔曼滤波器",
+      "object": "健康参数",
+      "relation": "估计",
+      "path": [
+        [
+          "卡尔曼",
+          "nn"
+        ],
+        [
+          "滤波器",
+          "dobj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康参数",
+      "object": "气路故障",
+      "relation": "用于预测",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "气路",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "扩展卡尔曼滤波器",
+      "object": "健康参数",
+      "relation": "估计",
+      "path": [
+        [
+          "扩展",
+          "nn"
+        ],
+        [
+          "卡尔曼",
+          "nn"
+        ],
+        [
+          "滤波器",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态估计器",
+      "object": "性能退化系数",
+      "relation": "估计",
+      "path": [
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "方程",
+          "dobj"
+        ],
+        [
+          "扩展",
+          "conj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "性能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态估计器",
+      "object": "故障发生的时间",
+      "relation": "预测",
+      "path": [
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "方程",
+          "dobj"
+        ],
+        [
+          "扩展",
+          "conj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "满足",
+          "pccomp"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测技术",
+      "object": "航空装备的保障",
+      "relation": "提供理论依据",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真",
+      "object": "涡扇发动机数学模型",
+      "relation": "基于",
+      "path": [
+        [
+          "仿真",
+          "amod"
+        ],
+        [
+          "对象",
+          "dobj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "涡扇",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "数学",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

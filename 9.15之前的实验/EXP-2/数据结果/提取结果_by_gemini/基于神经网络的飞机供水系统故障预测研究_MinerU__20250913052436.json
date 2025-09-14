@@ -1,0 +1,21 @@
+{
+  "status": "ready",
+  "message": "已理解任务描述、实体定义和关系定义。请提供需要进行信息抽取的文本。",
+  "schema": {
+    "description": "将遵循此结构输出抽取结果",
+    "entities": [
+      {
+        "id": "string (唯一实体ID)",
+        "name": "string (实体名称)",
+        "type": "string (实体类型，例如: '手段/工具', '研究对象', '研究结果')"
+      }
+    ],
+    "relations": [
+      {
+        "from": "string (源实体ID)",
+        "to": "string (目标实体ID)",
+        "label": "string (关系描述)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "title": "飞行人员亚健康状态的调查及其健康管理策略",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "本研究",
+      "object": "飞行人员亚健康状态",
+      "relation": "研究",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "人员",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本研究",
+      "object": "影响因素",
+      "relation": "研究",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "影响",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本研究",
+      "object": "健康管理策略",
+      "relation": "实施",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "实施",
+          "conj"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "流行病学调查",
+      "object": "亚健康状态量表",
+      "relation": "采用",
+      "path": [
+        [
+          "流行病学",
+          "nn"
+        ],
+        [
+          "调查",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "选择",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "亚",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "离婚或丧偶",
+      "object": "社会亚健康",
+      "relation": "影响",
+      "path": [
+        [
+          "离婚",
+          "rcmod"
+        ],
+        [
+          "或",
+          "cc"
+        ],
+        [
+          "丧偶",
+          "dep"
+        ],
+        [
+          "人员",
+          "nn"
+        ],
+        [
+          "得分",
+          "nsubj"
+        ],
+        [
+          "高",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "行政职务",
+      "object": "心理亚健康",
+      "relation": "影响",
+      "path": [
+        [
+          "行政",
+          "nn"
+        ],
+        [
+          "职务",
+          "dobj"
+        ],
+        [
+          "有",
+          "rcmod"
+        ],
+        [
+          "健康",
+          "nsubj"
+        ],
+        [
+          "明显",
+          "conj"
+        ],
+        [
+          "高",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "抽烟",
+      "object": "生理亚健康",
+      "relation": "影响",
+      "path": [
+        [
+          "抽烟",
+          "rcmod"
+        ],
+        [
+          "得分",
+          "nsubj"
+        ],
+        [
+          "高",
+          "conj"
+        ],
+        [
+          "高",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 34
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        },
+        {
+          "sentence_index": 2,
+          "id": 45
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "饮酒",
+      "object": "生理亚健康",
+      "relation": "影响",
+      "path": [
+        [
+          "饮酒",
+          "dep"
+        ],
+        [
+          "抽烟",
+          "rcmod"
+        ],
+        [
+          "得分",
+          "nsubj"
+        ],
+        [
+          "高",
+          "conj"
+        ],
+        [
+          "高",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 34
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        },
+        {
+          "sentence_index": 2,
+          "id": 45
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "体育锻炼",
+      "object": "心理亚健康",
+      "relation": "产生正性影响",
+      "path": [
+        [
+          "体育",
+          "nn"
+        ],
+        [
+          "锻炼",
+          "nsubj"
+        ],
+        [
+          "产生",
+          "conj"
+        ],
+        [
+          "高",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "亚",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 47
+        },
+        {
+          "sentence_index": 2,
+          "id": 48
+        },
+        {
+          "sentence_index": 2,
+          "id": 55
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康干预措施",
+      "object": "重点人群",
+      "relation": "针对",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "conj"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "预警",
+          "root"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "人群",
+          "assmod"
+        ],
+        [
+          "重点",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康干预措施",
+      "object": "健康",
+      "relation": "促进",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "title": "飞机电源系统智能BIT的发展及解决方案",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "智能BIT",
+      "object": "故障诊断效能",
+      "relation": "旨在提高",
+      "path": [
+        [
+          "BIT",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "阐述",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "提高",
+          "vmod"
+        ],
+        [
+          "效能",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能BIT",
+      "object": "虚警率",
+      "relation": "旨在降低",
+      "path": [
+        [
+          "BIT",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "阐述",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "提高",
+          "vmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "虚警率",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "部件级故障模式分析",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "分析",
+          "vmod"
+        ],
+        [
+          "部件级",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "模糊神经网络故障诊断方法",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "分析",
+          "vmod"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "模糊",
+          "amod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "系统级故障预测",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "分析",
+          "vmod"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统级",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "构建集成神经网络",
+      "relation": "包含",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "分析",
+          "vmod"
+        ],
+        [
+          "构建",
+          "conj"
+        ],
+        [
+          "集成",
+          "amod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "飞机电源系统智能BIT",
+      "relation": "用于发展",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "BIT",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "飞机电源系统可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "打下",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "维护性",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "飞机电源系统测试性",
+      "relation": "提高",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统解决方案",
+      "object": "飞机电源系统维护性",
+      "relation": "提高",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "现状",
+          "pobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

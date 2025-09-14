@@ -1,0 +1,301 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "不确定性"
+    },
+    {
+      "type": "概念",
+      "text": "状态监测"
+    },
+    {
+      "type": "概念",
+      "text": "寿命预测"
+    },
+    {
+      "type": "概念",
+      "text": "维修决策"
+    },
+    {
+      "type": "概念",
+      "text": "混杂系统"
+    },
+    {
+      "type": "技术",
+      "text": "传感器技术"
+    },
+    {
+      "type": "技术",
+      "text": "信号检测与处理"
+    },
+    {
+      "type": "技术",
+      "text": "AD转化器"
+    },
+    {
+      "type": "技术",
+      "text": "FFT"
+    },
+    {
+      "type": "技术",
+      "text": "小波变换"
+    },
+    {
+      "type": "技术",
+      "text": "EMD"
+    },
+    {
+      "type": "技术",
+      "text": "独立分量分析"
+    },
+    {
+      "type": "技术",
+      "text": "自组织神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "粗糙集"
+    },
+    {
+      "type": "技术",
+      "text": "马尔可夫过程"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合"
+    },
+    {
+      "type": "技术",
+      "text": "Nyquist- Shannon理论"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model"
+    },
+    {
+      "type": "技术",
+      "text": "fuzzy self- organizing maps"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于物理的损伤模型"
+    },
+    {
+      "type": "技术",
+      "text": "基于信息融合的维修决策"
+    },
+    {
+      "type": "技术",
+      "text": "基于模糊理论的马尔可夫过程"
+    },
+    {
+      "type": "技术",
+      "text": "发动机气路静电监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "多级决策模型"
+    },
+    {
+      "type": "技术",
+      "text": "模糊化和不确定性处理"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合技术"
+    },
+    {
+      "type": "技术",
+      "text": "基于零件条件失效概率分布的系统相关失效概率模型"
+    },
+    {
+      "type": "技术",
+      "text": "基于自组织神经网络和粗糙集的动态离散模型"
+    },
+    {
+      "type": "技术",
+      "text": "模糊理论"
+    },
+    {
+      "type": "技术",
+      "text": "粗糙集- 集成神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "系统失效概率分析"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"
+    },
+    {
+      "type": "技术",
+      "text": "一种新的航空发动机气路监测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙集- 集成神经网络的航空发动机磨损故障诊断方法"
+    },
+    {
+      "type": "技术",
+      "text": "应力- 强度干涉模型在系统失效概率分析中的应用及相关问题"
+    },
+    {
+      "type": "技术",
+      "text": "Hidden semi- Markov model- based methodology for multi- sensor equipment health diagnosis and prognosis"
+    },
+    {
+      "type": "技术",
+      "text": "Using fuzzy self- organizing maps for safety critical systems"
+    },
+    {
+      "type": "技术",
+      "text": "微弱信号检测方法及仪器"

@@ -1,0 +1,420 @@
+{
+  "entities": [
+    {
+      "type": "标准",
+      "text": "ASAAC标准"
+    },
+    {
+      "type": "系统",
+      "text": "BIT系统"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统"
+    },
+    {
+      "type": "功能",
+      "text": "故障检测"
+    },
+    {
+      "type": "功能",
+      "text": "故障隔离"
+    },
+    {
+      "type": "结构",
+      "text": "总线层次化方法"
+    },
+    {
+      "type": "结构",
+      "text": "系统级测试"
+    },
+    {
+      "type": "结构",
+      "text": "分系统级测试"
+    },
+    {
+      "type": "结构",
+      "text": "模块级测试"
+    },
+    {
+      "type": "设计",
+      "text": "软硬件设计方案"
+    },
+    {
+      "type": "指标",
+      "text": "测试覆盖率"
+    },
+    {
+      "type": "指标",
+      "text": "可靠性"
+    },
+    {
+      "type": "指标",
+      "text": "可测试性"
+    },
+    {
+      "type": "模块",
+      "text": "数据处理模块"
+    },
+    {
+      "type": "模块",
+      "text": "图形处理模块"
+    },
+    {
+      "type": "模块",
+      "text": "大容量存储模块"
+    },
+    {
+      "type": "模块",
+      "text": "电源转换模块"
+    },
+    {
+      "type": "模块",
+      "text": "网络支持模块"
+    },
+    {
+      "type": "软件层",
+      "text": "模块支持层"
+    },
+    {
+      "type": "软件层",
+      "text": "操作系统层"
+    },
+    {
+      "type": "软件层",
+      "text": "应用层"
+    },
+    {
+      "type": "管理",
+      "text": "健康管理"
+    },
+    {
+      "type": "管理",
+      "text": "故障管理"
+    },
+    {
+      "type": "管理",
+      "text": "配置管理"
+    },
+    {
+      "type": "管理",
+      "text": "安全管理"
+    },
+    {
+      "type": "接口",
+      "text": "MOS接口"
+    },
+    {
+      "type": "接口",
+      "text": "SMOS接口"
+    },
+    {
+      "type": "接口",
+      "text": "MLI接口"
+    },
+    {
+      "type": "接口",
+      "text": "SMB接口"
+    },
+    {
+      "type": "接口",
+      "text": "GUI接口"
+    },
+    {
+      "type": "测试类型",
+      "text": "PBIT"
+    },
+    {
+      "type": "测试类型",
+      "text": "CBIT"
+    },
+    {
+      "type": "测试类型",
+      "text": "IBIT"
+    },
+    {
+      "type": "硬件组件",
+      "text": "FPGA"
+    },
+    {
+      "type": "硬件组件",
+      "text": "IP核"
+    },
+    {
+      "type": "硬件组件",
+      "text": "数字测试电路"
+    },
+    {
+      "type": "硬件组件",
+      "text": "模拟测试电路"
+    },
+    {
+      "type": "硬件组件",
+      "text": "存储单元"
+    },
+    {
+      "type": "硬件组件",
+      "text": "测试总线"
+    },
+    {
+      "type": "硬件组件",
+      "text": "协议转换芯片"
+    },
+    {
+      "type": "硬件组件",
+      "text": "MTP接口"
+    },
+    {
+      "type": "协议",
+      "text": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "协议",
+      "text": "JTAG接口"
+    },
+    {
+      "type": "函数",
+      "text": "startPbit"
+    },
+    {
+      "type": "函数",
+      "text": "startCbit"
+    },
+    {
+      "type": "函数",
+      "text": "startIbit"
+    },
+    {
+      "type": "函数",
+      "text": "getPbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getCbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getIbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "sendBitTest"
+    },
+    {
+      "type": "函数",
+      "text": "receiveBitResult"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "BIT系统",
+      "tail": "ASAAC标准"
+    },
+    {
+      "type": "用于",
+      "head": "BIT系统",
+      "tail": "故障检测"
+    },
+    {
+      "type": "用于",
+      "head": "BIT系统",
+      "tail": "故障隔离"
+    },
+    {
+      "type": "采用",
+      "head": "BIT系统",
+      "tail": "总线层次化方法"
+    },
+    {
+      "type": "分为",
+      "head": "总线层次化方法",
+      "tail": "系统级测试"
+    },
+    {
+      "type": "分为",
+      "head": "总线层次化方法",
+      "tail": "分系统级测试"
+    },
+    {
+      "type": "分为",
+      "head": "总线层次化方法",
+      "tail": "模块级测试"
+    },
+    {
+      "type": "包括",
+      "head": "模块级测试",
+      "tail": "软硬件设计方案"
+    },
+    {
+      "type": "提高",
+      "head": "BIT系统",
+      "tail": "可靠性"
+    },
+    {
+      "type": "提高",
+      "head": "BIT系统",
+      "tail": "可测试性"
+    },
+    {
+      "type": "定义",
+      "head": "ASAAC标准",
+      "tail": "数据处理模块"
+    },
+    {
+      "type": "定义",
+      "head": "ASAAC标准",
+      "tail": "图形处理模块"
+    },
+    {
+      "type": "定义",
+      "head": "ASAAC标准",
+      "tail": "大容量存储模块"
+    },
+    {
+      "type": "定义",
+      "head": "ASAAC标准",
+      "tail": "电源转换模块"
+    },
+    {
+      "type": "定义",
+      "head": "ASAAC标准",
+      "tail": "网络支持模块"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件结构",
+      "tail": "模块支持层"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件结构",
+      "tail": "操作系统层"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件结构",
+      "tail": "应用层"
+    },
+    {
+      "type": "包括",
+      "head": "操作系统层",
+      "tail": "健康管理"
+    },
+    {
+      "type": "包括",
+      "head": "操作系统层",
+      "tail": "故障管理"
+    },
+    {
+      "type": "包括",
+      "head": "操作系统层",
+      "tail": "配置管理"
+    },
+    {
+      "type": "包括",
+      "head": "操作系统层",
+      "tail": "安全管理"
+    },
+    {
+      "type": "提供",
+      "head": "模块支持层",
+      "tail": "MOS接口"
+    },
+    {
+      "type": "提供",
+      "head": "模块支持层",
+      "tail": "MLI接口"
+    },
+    {
+      "type": "对应",
+      "head": "MOS接口",
+      "tail": "SMOS接口"
+    },
+    {
+      "type": "用于",
+      "head": "MLI接口",
+      "tail": "GSM通信"
+    },
+    {
+      "type": "归结至",
+      "head": "BIT测试",
+      "tail": "GSM通用系统管理"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试",
+      "tail": "PBIT"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试",
+      "tail": "CBIT"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试",
+      "tail": "IBIT"
+    },
+    {
+      "type": "实现",
+      "head": "BIT测试处理器",
+      "tail": "FPGA"
+    },
+    {
+      "type": "实现",
+      "head": "BIT测试处理器",
+      "tail": "IP核"
+    },
+    {
+      "type": "基于",
+      "head": "数字测试电路",
+      "tail": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "使用",
+      "head": "数字测试电路",
+      "tail": "JTAG接口"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "startPbit"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "startCbit"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "startIbit"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "getPbitResult"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "getCbitResult"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "getIbitResult"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "sendBitTest"
+    },
+    {
+      "type": "调用",
+      "head": "GSM",
+      "tail": "receiveBitResult"
+    }
+  ]
+}

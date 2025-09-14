@@ -1,0 +1,32 @@
+# 实体关系抽取Prompt
+
+## 任务描述
+你的角色是一位专业的学术文献实体关系抽取专家，专精于从航空航天领域科研文献中识别和抽取实体及其关系。你的任务是通读给定文本，抽取文本中出现的核心实体，及其对应的关系，并以JSON格式输出。
+
+## 输出格式
+请严格按照以下JSON格式输出结果：
+```json   
+{
+  "entities": [
+    {"type": "算法", "text": "卡尔曼滤波"},
+    {"type": "模型", "text": "Paris模型"},
+    {"type": "模型", "text": "LSTM网络"}, 
+    {"type": "函数", "text": "Copula函数"},
+    {"type": "性能指标", "text": "诊断准确率"},
+    {"type": "研究结果", "text": "95.6%的准确率"}
+  ],
+  "relations": [
+    {"type": "发展为", "head": "传统RNN", "tail": "LSTM网络"},
+    {"type": "演化为", "head": "LSTM网络", "tail": "Transformer架构"},
+    {"type": "提出了", "head": "Transformer架构", "tail": "自注意力机制"},
+    {"type": "基于", "head": "Transformer架构", "tail": "注意力机制"},
+    {"type": "评估指标是", "head": "轴承故障诊断系统", "tail": "诊断准确率"},
+    {"type": "得出", "head": "轴承故障诊断系统", "tail": "95.6%的准确率"}
+  ]
+}```
+
+## 输入数据 (INPUT DATA)
+现在，你将接收到用于处理的本次任务的全部输入数据。
+论文全文 (唯一事实来源):
+```markdown```
+{full_text_placeholder}

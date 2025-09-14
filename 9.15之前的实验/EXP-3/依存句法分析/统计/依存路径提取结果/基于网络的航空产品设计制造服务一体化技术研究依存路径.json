@@ -1,0 +1,1192 @@
+{
+  "title": "基于网络的航空产品设计制造服务一体化技术研究",
+  "stats": {
+    "total_pairs": 18,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "航空产品",
+      "object": "结构复杂",
+      "relation": "具有特征",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空产品",
+      "object": "制造环节多",
+      "relation": "具有特征",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "多",
+          "conj"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "环节",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空产品",
+      "object": "研制周期长",
+      "relation": "具有特征",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "长",
+          "conj"
+        ],
+        [
+          "研制",
+          "nn"
+        ],
+        [
+          "周期",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空产品",
+      "object": "产品生命周期",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "产品",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "产品生命周期",
+      "object": "研发设计",
+      "relation": "划分为",
+      "path": [
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "环节",
+          "dobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "研发",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "产品生命周期",
+      "object": "生产制造",
+      "relation": "划分为",
+      "path": [
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "产品生命周期",
+      "object": "使用维护",
+      "relation": "划分为",
+      "path": [
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "环节",
+          "dobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "使用",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "网络",
+      "relation": "基于",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "联系",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "网络",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "通信技术",
+      "relation": "运用",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "联系",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "通信",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "传感技术",
+      "relation": "运用",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "联系",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "传感",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "云计算",
+      "relation": "运用",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "联系",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "云计算",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "大数据分析",
+      "relation": "运用",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "联系",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "分析",
+          "nn"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "设计环节",
+      "relation": "联系",
+      "path": [
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "多",
+          "conj"
+        ],
+        [
+          "环节",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "制造环节",
+      "relation": "联系",
+      "path": [
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "多",
+          "conj"
+        ],
+        [
+          "环节",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "使用环节",
+      "relation": "联系",
+      "path": [
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "多",
+          "conj"
+        ],
+        [
+          "环节",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "航空产品技术水平",
+      "relation": "提高",
+      "path": [
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "产品质量",
+      "relation": "提高",
+      "path": [
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "产品",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计制造服务一体化技术",
+      "object": "服务水平",
+      "relation": "提高",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "制造",
+          "nn"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "划分",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "提高",
+          "pobj"
+        ],
+        [
+          "水平",
+          "assmod"
+        ],
+        [
+          "服务",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 79
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 76
+        },
+        {
+          "sentence_index": 1,
+          "id": 74
+        },
+        {
+          "sentence_index": 1,
+          "id": 73
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

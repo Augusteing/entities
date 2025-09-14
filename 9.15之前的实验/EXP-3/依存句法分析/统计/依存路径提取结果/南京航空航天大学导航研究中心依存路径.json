@@ -1,0 +1,556 @@
+{
+  "title": "南京航空航天大学导航研究中心",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "南京航空航天大学导航研究中心",
+      "object": "导航、制导与控制学科平台",
+      "relation": "依托",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "南京",
+          "nn"
+        ],
+        [
+          "学院",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "学科",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "南京航空航天大学导航研究中心",
+      "object": "南京航空航天大学自动化学院",
+      "relation": "依托",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "南京",
+          "nn"
+        ],
+        [
+          "学院",
+          "nn"
+        ],
+        [
+          "自动化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导航、制导与控制学科",
+      "object": "国家重点(培育)学科",
+      "relation": "是",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "学科",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "学科",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导航、制导与控制学科",
+      "object": "国防重点学科",
+      "relation": "是",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "学科",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "学科",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导航、制导与控制学科",
+      "object": "首批国防特色学科",
+      "relation": "是",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "学科",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ],
+        [
+          "学科",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "南京航空航天大学导航研究中心",
+      "object": "飞行器自主控制技术教育部工程中心",
+      "relation": "建有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "南京",
+          "nn"
+        ],
+        [
+          "学院",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "中心",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "南京航空航天大学导航研究中心",
+      "object": "先进飞行器导航、控制与健康管理工信部重点实验室",
+      "relation": "建有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "大学",
+          "nn"
+        ],
+        [
+          "南京",
+          "nn"
+        ],
+        [
+          "学院",
+          "nn"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "\"",
+          "punct"
+        ],
+        [
+          "导航",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

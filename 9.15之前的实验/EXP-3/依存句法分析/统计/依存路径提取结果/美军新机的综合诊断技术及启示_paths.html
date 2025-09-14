@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='zh'>
+<head>
+    <meta charset='UTF-8'/>
+    <title>美军新机的综合诊断技术及启示 依存路径可视化</title>
+    <style>
+        body{font-family:Arial,Helvetica,sans-serif;line-height:1.5;margin:16px;}
+        .sentence{margin:8px 0;padding:8px;border:1px solid #ddd;border-radius:4px;}
+        .sent-title{font-weight:bold;margin-bottom:4px;color:#555;}
+        .tok{display:inline-block;margin:2px 3px;padding:2px 4px;border-radius:3px;background:#f5f5f5;cursor:default;font-size:13px;transition:background .25s;}
+        .tok.intra{background:#ffe4b5;}
+        .tok.cross{background:#e6f7ff;}
+        .tok.subj{outline:2px solid #e74c3c;}
+        .tok.obj{outline:2px solid #2980b9;}
+        table{border-collapse:collapse;margin-top:18px;width:100%;font-size:13px;}
+        th,td{border:1px solid #ccc;padding:4px 6px;}
+        th{background:#fafafa;}
+        tr:nth-child(even){background:#fafafa;}
+        tr.row-cross_sentence td{background:#f0fbff;}
+        tr.row-intra_sentence td{background:#fffaf1;}
+        .summary{margin:12px 0;padding:8px;background:#eef;border-left:4px solid #66c;}
+        .legend span{display:inline-block;margin-right:12px;font-size:12px;}
+        .legend .box{width:14px;height:14px;display:inline-block;vertical-align:middle;margin-right:4px;border:1px solid #aaa;}
+        .btn-tree{margin-left:10px;font-size:12px;padding:2px 6px;cursor:pointer;}
+        .dep-tree-wrapper{margin-top:6px;padding:6px;border:1px dashed #ccc;background:#fafafa;}
+        .dep-tree-container svg{font-family:Arial,Helvetica,sans-serif;}
+        .dep-edge{stroke:#888;stroke-width:1.2px;fill:none;}
+        .dep-node rect{fill:#fff;stroke:#555;stroke-width:1px;rx:4px;ry:4px;}
+        .dep-node.intra rect{fill:#ffe4b5;}
+        .dep-node.cross rect{fill:#e6f7ff;}
+        .dep-node.subj rect{stroke:#e74c3c;stroke-width:2px;}
+        .dep-node.obj rect{stroke:#2980b9;stroke-width:2px;}
+        .dep-node text{font-size:12px;dominant-baseline:middle;text-anchor:middle;pointer-events:none;}
+        .dep-node{cursor:default;transition:filter .25s;}
+        .dep-node:hover{filter:brightness(0.92);}
+    </style>
+</head>
+<body>
+<h2>美军新机的综合诊断技术及启示 - 依存路径可视化</h2>
+<div class='summary'>总实体对: 7 | 句内成功: 6 | 跨句成功: 1 | 路径成功总计: 7</div>
+<div class='legend'>
+    <span><span class='box' style='background:#ffe4b5'></span>句内路径节点</span>
+    <span><span class='box' style='background:#e6f7ff'></span>跨句路径节点</span>
+    <span><span class='box' style='border:2px solid #e74c3c'></span>主语</span>
+    <span><span class='box' style='border:2px solid #2980b9'></span>宾语</span>
+</div>
+<h3>句子分词</h3>
+<div class='sentence' data-sent='0'><div class='sent-title'>句 0 <button class='btn-tree' onclick='toggleTree(0)'>依存树</button></div><span class='tok' data-sent='0' data-id='1' title='id=1 deprel=amod pos=JJ'>[1] 综合</span> <span class='tok' data-sent='0' data-id='2' title='id=2 deprel=top pos=NN'>[2] 诊断</span> <span class='tok' data-sent='0' data-id='3' title='id=3 deprel=root pos=VC'>[3] 是</span> <span class='tok' data-sent='0' data-id='4' title='id=4 deprel=rcmod pos=VV'>[4] 实现</span> <span class='tok' data-sent='0' data-id='5' title='id=5 deprel=nn pos=NN'>[5] 武器</span> <span class='tok' data-sent='0' data-id='6' title='id=6 deprel=nn pos=NN'>[6] 装备</span> <span class='tok' data-sent='0' data-id='7' title='id=7 deprel=conj pos=NN'>[7] 可靠性</span> <span class='tok' data-sent='0' data-id='8' title='id=8 deprel=punct pos=PU'>[8] 、</span> <span class='tok' data-sent='0' data-id='9' title='id=9 deprel=conj pos=NN'>[9] 维修性</span> <span class='tok' data-sent='0' data-id='10' title='id=10 deprel=cc pos=CC'>[10] 和</span> <span class='tok' data-sent='0' data-id='11' title='id=11 deprel=dobj pos=NN'>[11] 保障性</span> <span class='tok' data-sent='0' data-id='12' title='id=12 deprel=cpm pos=DEC'>[12] 的</span> <span class='tok' data-sent='0' data-id='13' title='id=13 deprel=amod pos=JJ'>[13] 重要</span> <span class='tok' data-sent='0' data-id='14' title='id=14 deprel=nn pos=NN'>[14] 技术</span> <span class='tok' data-sent='0' data-id='15' title='id=15 deprel=conj pos=NN'>[15] 手段</span> <span class='tok' data-sent='0' data-id='16' title='id=16 deprel=cc pos=CC'>[16] 和</span> <span class='tok' data-sent='0' data-id='17' title='id=17 deprel=nn pos=NN'>[17] 发展</span> <span class='tok' data-sent='0' data-id='18' title='id=18 deprel=attr pos=NN'>[18] 方向</span><div class='dep-tree-wrapper' id='tree-wrapper-0' data-built='0' style='display:none'><div class='dep-tree-container' id='dep-tree-0'></div></div></div>
+<div class='sentence' data-sent='1'><div class='sent-title'>句 1 <button class='btn-tree' onclick='toggleTree(1)'>依存树</button></div><span class='tok' data-sent='1' data-id='1' title='id=1 deprel=det pos=DT'>[1] 本</span> <span class='tok' data-sent='1' data-id='2' title='id=2 deprel=nsubj pos=NN'>[2] 文</span> <span class='tok' data-sent='1' data-id='3' title='id=3 deprel=root pos=VV'>[3] 分析</span> <span class='tok' data-sent='1' data-id='4' title='id=4 deprel=asp pos=AS'>[4] 了</span> <span class='tok' data-sent='1' data-id='5' title='id=5 deprel=nn pos=NN'>[5] 美军</span> <span class='tok' data-sent='1' data-id='6' title='id=6 deprel=assmod pos=P'>[6] 在</span> <span class='tok' data-sent='1' data-id='7' title='id=7 deprel=amod pos=NN'>[7] 新机</span> <span class='tok' data-sent='1' data-id='8' title='id=8 deprel=lobj pos=VV'>[8] 研制</span> <span class='tok' data-sent='1' data-id='9' title='id=9 deprel=plmod pos=LC'>[9] 中</span> <span class='tok' data-sent='1' data-id='10' title='id=10 deprel=assm pos=DEG'>[10] 的</span> <span class='tok' data-sent='1' data-id='11' title='id=11 deprel=amod pos=JJ'>[11] 综合</span> <span class='tok' data-sent='1' data-id='12' title='id=12 deprel=nn pos=NN'>[12] 诊断</span> <span class='tok' data-sent='1' data-id='13' title='id=13 deprel=nn pos=NN'>[13] 体系</span> <span class='tok' data-sent='1' data-id='14' title='id=14 deprel=conj pos=NN'>[14] 结构</span> <span class='tok' data-sent='1' data-id='15' title='id=15 deprel=cc pos=CC'>[15] 及</span> <span class='tok' data-sent='1' data-id='16' title='id=16 deprel=nn pos=PN'>[16] 其</span> <span class='tok' data-sent='1' data-id='17' title='id=17 deprel=nn pos=NN'>[17] 支撑</span> <span class='tok' data-sent='1' data-id='18' title='id=18 deprel=dobj pos=NN'>[18] 技术</span> <span class='tok' data-sent='1' data-id='19' title='id=19 deprel=punct pos=PU'>[19] ;</span> <span class='tok' data-sent='1' data-id='20' title='id=20 deprel=conj pos=VV'>[20] 论述</span> <span class='tok' data-sent='1' data-id='21' title='id=21 deprel=asp pos=AS'>[21] 了</span> <span class='tok' data-sent='1' data-id='22' title='id=22 deprel=rcmod pos=VV'>[22] 实现</span> <span class='tok' data-sent='1' data-id='23' title='id=23 deprel=amod pos=JJ'>[23] 综合</span> <span class='tok' data-sent='1' data-id='24' title='id=24 deprel=dobj pos=NN'>[24] 诊断</span> <span class='tok' data-sent='1' data-id='25' title='id=25 deprel=tmod pos=NT'>[25] 目前</span> <span class='tok' data-sent='1' data-id='26' title='id=26 deprel=mmod pos=VV'>[26] 需要</span> <span class='tok' data-sent='1' data-id='27' title='id=27 deprel=dep pos=VV'>[27] 研究</span> <span class='tok' data-sent='1' data-id='28' title='id=28 deprel=rcmod pos=VV'>[28] 解决</span> <span class='tok' data-sent='1' data-id='29' title='id=29 deprel=cpm pos=DEC'>[29] 的</span> <span class='tok' data-sent='1' data-id='30' title='id=30 deprel=dobj pos=NN'>[30] 问题</span> <span class='tok' data-sent='1' data-id='31' title='id=31 deprel=punct pos=PU'>[31] ;</span> <span class='tok' data-sent='1' data-id='32' title='id=32 deprel=conj pos=VV'>[32] 提出</span> <span class='tok' data-sent='1' data-id='33' title='id=33 deprel=asp pos=AS'>[33] 了</span> <span class='tok' data-sent='1' data-id='34' title='id=34 deprel=nn pos=PN'>[34] 我</span> <span class='tok' data-sent='1' data-id='35' title='id=35 deprel=nsubj pos=NN'>[35] 军</span> <span class='tok' data-sent='1' data-id='36' title='id=36 deprel=prep pos=P'>[36] 在</span> <span class='tok' data-sent='1' data-id='37' title='id=37 deprel=amod pos=JJ'>[37] 新</span> <span class='tok' data-sent='1' data-id='38' title='id=38 deprel=nn pos=NN'>[38] 机</span> <span class='tok' data-sent='1' data-id='39' title='id=39 deprel=lobj pos=NN'>[39] 研制</span> <span class='tok' data-sent='1' data-id='40' title='id=40 deprel=plmod pos=LC'>[40] 中</span> <span class='tok' data-sent='1' data-id='41' title='id=41 deprel=mmod pos=VV'>[41] 应该</span> <span class='tok' data-sent='1' data-id='42' title='id=42 deprel=rcmod pos=VV'>[42] 注意</span> <span class='tok' data-sent='1' data-id='43' title='id=43 deprel=ccomp pos=VV'>[43] 解决</span> <span class='tok' data-sent='1' data-id='44' title='id=44 deprel=cpm pos=DEC'>[44] 的</span> <span class='tok' data-sent='1' data-id='45' title='id=45 deprel=nummod pos=CD'>[45] 一些</span> <span class='tok' data-sent='1' data-id='46' title='id=46 deprel=dobj pos=NN'>[46] 问题</span><div class='dep-tree-wrapper' id='tree-wrapper-1' data-built='0' style='display:none'><div class='dep-tree-container' id='dep-tree-1'></div></div></div>
+<h3>实体对路径结果</h3>
+<table>
+<tr><th>主语</th><th>关系</th><th>宾语</th><th>句序(集合)</th><th>路径节点</th><th>类型</th><th>备注</th></tr>
+<tr class='row-intra_sentence'><td>综合诊断</td><td>实现</td><td>可靠性</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 实现(rcmod) — 保障性(dobj) — 可靠性(conj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>综合诊断</td><td>实现</td><td>维修性</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 实现(rcmod) — 保障性(dobj) — 维修性(conj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>综合诊断</td><td>实现</td><td>保障性</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 实现(rcmod) — 保障性(dobj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>综合诊断</td><td>是</td><td>技术手段</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 技术(nn) — 手段(conj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>综合诊断</td><td>是</td><td>发展方向</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 发展(nn)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-cross_sentence'><td>美军</td><td>拥有</td><td>综合诊断体系结构</td><td>0,1</td><td>美军(nn) — 结构(conj) — 技术(dobj) — 分析(root) — 是(root) — 诊断(top) — 综合(amod)</td><td>cross_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>综合诊断体系结构</td><td>拥有</td><td>支撑技术</td><td>0</td><td>综合(amod) — 诊断(top) — 是(root) — 方向(attr) — 技术(nn)</td><td>intra_sentence</td><td></td></tr>
+</table>
+<script>
+const pairPaths = [{"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 4}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 7}], "subject": "综合诊断", "object": "可靠性"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 4}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 9}], "subject": "综合诊断", "object": "维修性"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 4}, {"sentence_index": 0, "id": 11}], "subject": "综合诊断", "object": "保障性"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 14}, {"sentence_index": 0, "id": 15}], "subject": "综合诊断", "object": "技术手段"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 17}], "subject": "综合诊断", "object": "发展方向"}, {"path_type": "cross_sentence", "positions": [{"sentence_index": 1, "id": 5}, {"sentence_index": 1, "id": 14}, {"sentence_index": 1, "id": 18}, {"sentence_index": 1, "id": 3}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 1}], "subject": "美军", "object": "综合诊断体系结构"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 1}, {"sentence_index": 0, "id": 2}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 18}, {"sentence_index": 0, "id": 14}], "subject": "综合诊断体系结构", "object": "支撑技术"}];
+const sentencesTokens = [[{"id": 1, "form": "综合", "deprel": "amod", "pos": "JJ", "head": 2}, {"id": 2, "form": "诊断", "deprel": "top", "pos": "NN", "head": 3}, {"id": 3, "form": "是", "deprel": "root", "pos": "VC", "head": 0}, {"id": 4, "form": "实现", "deprel": "rcmod", "pos": "VV", "head": 18}, {"id": 5, "form": "武器", "deprel": "nn", "pos": "NN", "head": 11}, {"id": 6, "form": "装备", "deprel": "nn", "pos": "NN", "head": 11}, {"id": 7, "form": "可靠性", "deprel": "conj", "pos": "NN", "head": 11}, {"id": 8, "form": "、", "deprel": "punct", "pos": "PU", "head": 11}, {"id": 9, "form": "维修性", "deprel": "conj", "pos": "NN", "head": 11}, {"id": 10, "form": "和", "deprel": "cc", "pos": "CC", "head": 11}, {"id": 11, "form": "保障性", "deprel": "dobj", "pos": "NN", "head": 4}, {"id": 12, "form": "的", "deprel": "cpm", "pos": "DEC", "head": 4}, {"id": 13, "form": "重要", "deprel": "amod", "pos": "JJ", "head": 18}, {"id": 14, "form": "技术", "deprel": "nn", "pos": "NN", "head": 18}, {"id": 15, "form": "手段", "deprel": "conj", "pos": "NN", "head": 18}, {"id": 16, "form": "和", "deprel": "cc", "pos": "CC", "head": 18}, {"id": 17, "form": "发展", "deprel": "nn", "pos": "NN", "head": 18}, {"id": 18, "form": "方向", "deprel": "attr", "pos": "NN", "head": 3}], [{"id": 1, "form": "本", "deprel": "det", "pos": "DT", "head": 2}, {"id": 2, "form": "文", "deprel": "nsubj", "pos": "NN", "head": 3}, {"id": 3, "form": "分析", "deprel": "root", "pos": "VV", "head": 0}, {"id": 4, "form": "了", "deprel": "asp", "pos": "AS", "head": 3}, {"id": 5, "form": "美军", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 6, "form": "在", "deprel": "assmod", "pos": "P", "head": 14}, {"id": 7, "form": "新机", "deprel": "amod", "pos": "NN", "head": 8}, {"id": 8, "form": "研制", "deprel": "lobj", "pos": "VV", "head": 9}, {"id": 9, "form": "中", "deprel": "plmod", "pos": "LC", "head": 6}, {"id": 10, "form": "的", "deprel": "assm", "pos": "DEG", "head": 6}, {"id": 11, "form": "综合", "deprel": "amod", "pos": "JJ", "head": 12}, {"id": 12, "form": "诊断", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 13, "form": "体系", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 14, "form": "结构", "deprel": "conj", "pos": "NN", "head": 18}, {"id": 15, "form": "及", "deprel": "cc", "pos": "CC", "head": 18}, {"id": 16, "form": "其", "deprel": "nn", "pos": "PN", "head": 18}, {"id": 17, "form": "支撑", "deprel": "nn", "pos": "NN", "head": 18}, {"id": 18, "form": "技术", "deprel": "dobj", "pos": "NN", "head": 3}, {"id": 19, "form": ";", "deprel": "punct", "pos": "PU", "head": 3}, {"id": 20, "form": "论述", "deprel": "conj", "pos": "VV", "head": 3}, {"id": 21, "form": "了", "deprel": "asp", "pos": "AS", "head": 20}, {"id": 22, "form": "实现", "deprel": "rcmod", "pos": "VV", "head": 30}, {"id": 23, "form": "综合", "deprel": "amod", "pos": "JJ", "head": 24}, {"id": 24, "form": "诊断", "deprel": "dobj", "pos": "NN", "head": 22}, {"id": 25, "form": "目前", "deprel": "tmod", "pos": "NT", "head": 28}, {"id": 26, "form": "需要", "deprel": "mmod", "pos": "VV", "head": 28}, {"id": 27, "form": "研究", "deprel": "dep", "pos": "VV", "head": 28}, {"id": 28, "form": "解决", "deprel": "rcmod", "pos": "VV", "head": 30}, {"id": 29, "form": "的", "deprel": "cpm", "pos": "DEC", "head": 28}, {"id": 30, "form": "问题", "deprel": "dobj", "pos": "NN", "head": 20}, {"id": 31, "form": ";", "deprel": "punct", "pos": "PU", "head": 3}, {"id": 32, "form": "提出", "deprel": "conj", "pos": "VV", "head": 3}, {"id": 33, "form": "了", "deprel": "asp", "pos": "AS", "head": 32}, {"id": 34, "form": "我", "deprel": "nn", "pos": "PN", "head": 35}, {"id": 35, "form": "军", "deprel": "nsubj", "pos": "NN", "head": 42}, {"id": 36, "form": "在", "deprel": "prep", "pos": "P", "head": 42}, {"id": 37, "form": "新", "deprel": "amod", "pos": "JJ", "head": 38}, {"id": 38, "form": "机", "deprel": "nn", "pos": "NN", "head": 39}, {"id": 39, "form": "研制", "deprel": "lobj", "pos": "NN", "head": 40}, {"id": 40, "form": "中", "deprel": "plmod", "pos": "LC", "head": 36}, {"id": 41, "form": "应该", "deprel": "mmod", "pos": "VV", "head": 42}, {"id": 42, "form": "注意", "deprel": "rcmod", "pos": "VV", "head": 46}, {"id": 43, "form": "解决", "deprel": "ccomp", "pos": "VV", "head": 42}, {"id": 44, "form": "的", "deprel": "cpm", "pos": "DEC", "head": 42}, {"id": 45, "form": "一些", "deprel": "nummod", "pos": "CD", "head": 46}, {"id": 46, "form": "问题", "deprel": "dobj", "pos": "NN", "head": 32}]];
+function highlight(){
+    pairPaths.forEach(p=>{
+        if(!p.positions) return;
+        p.positions.forEach(pos=>{
+            const el=document.querySelector(`.sentence[data-sent='${pos.sentence_index}'] .tok[data-id='${pos.id}']`);
+            if(el) el.classList.add(p.path_type==='cross_sentence'?'cross':'intra');
+            const n=document.querySelector(`.dep-node[data-sent='${pos.sentence_index}'][data-id='${pos.id}']`);
+            if(n) n.classList.add(p.path_type==='cross_sentence'?'cross':'intra');
+        });
+        if(p.positions && p.positions.length>0){
+            const first=p.positions[0];
+            const last=p.positions[p.positions.length-1];
+            const fEl=document.querySelector(`.sentence[data-sent='${first.sentence_index}'] .tok[data-id='${first.id}']`);
+            const lEl=document.querySelector(`.sentence[data-sent='${last.sentence_index}'] .tok[data-id='${last.id}']`);
+            if(fEl) fEl.classList.add('subj');
+            if(lEl) lEl.classList.add('obj');
+            const fNode=document.querySelector(`.dep-node[data-sent='${first.sentence_index}'][data-id='${first.id}']`);
+            const lNode=document.querySelector(`.dep-node[data-sent='${last.sentence_index}'][data-id='${last.id}']`);
+            if(fNode) fNode.classList.add('subj');
+            if(lNode) lNode.classList.add('obj');
+        }
+    });
+}
+function buildTree(i){
+    const c=document.getElementById('dep-tree-'+i); if(!c) return;
+    const toks=sentencesTokens[i]||[]; if(!toks.length){c.innerHTML='<em>无 tokens</em>';return;}
+    if(toks.every(t=>t.head===undefined||t.head===null)){c.innerHTML='<em>缺少 head 字段，无法绘制依存树</em>';return;}
+    const byId=new Map(toks.map(t=>[String(t.id),t]));
+    const children=new Map(); toks.forEach(t=>children.set(String(t.id),[]));
+    toks.forEach(t=>{const h=t.head; if(h&&byId.has(String(h))&&String(h)!==String(t.id)) children.get(String(h)).push(t);});
+    const roots=toks.filter(t=>!t.head||t.head===0||String(t.head)===String(t.id));
+    if(!roots.length){toks.forEach(t=>{if(!byId.has(String(t.head))) roots.push(t);});}
+    const layerGap=70,nodeGap=70,nodeSize={w:66,h:26};
+    let nextX=0; const coords=new Map();
+    function layout(n,d){const kids=children.get(String(n.id))||[]; if(!kids.length){const x=nextX; nextX+=nodeGap; coords.set(String(n.id),{x,y:d*layerGap}); return x;} let first=null,last=null; kids.forEach(k=>{const cx=layout(k,d+1); if(first===null) first=cx; last=cx;}); const x=(first+last)/2; coords.set(String(n.id),{x,y:d*layerGap}); return x;}
+    roots.forEach(r=>layout(r,0));
+    const width=Math.max(200,nextX+20); const depthMax=Math.max(...Array.from(coords.values()).map(c=>c.y)); const height=depthMax+layerGap+20;
+    const svgns='http://www.w3.org/2000/svg'; const svg=document.createElementNS(svgns,'svg'); svg.setAttribute('width',width); svg.setAttribute('height',height);
+    toks.forEach(t=>{const h=t.head; if(!h||!byId.has(String(h))||String(h)===String(t.id)) return; const from=coords.get(String(h)); const to=coords.get(String(t.id)); if(!from||!to) return; const path=document.createElementNS(svgns,'path'); const mx=(from.x+to.x)/2; const d=`M${from.x+nodeSize.w/2},${from.y+nodeSize.h} C ${mx},${from.y+nodeSize.h+30} ${mx},${to.y-30} ${to.x+nodeSize.w/2},${to.y}`; path.setAttribute('d',d); path.setAttribute('class','dep-edge'); svg.appendChild(path); const lbl=document.createElementNS(svgns,'text'); lbl.setAttribute('x',mx); lbl.setAttribute('y',(from.y+to.y)/2); lbl.setAttribute('text-anchor','middle'); lbl.setAttribute('font-size','10'); lbl.setAttribute('fill','#555'); lbl.textContent=t.deprel||''; svg.appendChild(lbl); });
+    toks.forEach(t=>{const g=document.createElementNS(svgns,'g'); g.setAttribute('class','dep-node'); g.setAttribute('data-id',t.id); g.setAttribute('data-sent',i); const c2=coords.get(String(t.id)); if(!c2) return; const rect=document.createElementNS(svgns,'rect'); rect.setAttribute('x',c2.x); rect.setAttribute('y',c2.y); rect.setAttribute('width',nodeSize.w); rect.setAttribute('height',nodeSize.h); const text=document.createElementNS(svgns,'text'); text.setAttribute('x',c2.x+nodeSize.w/2); text.setAttribute('y',c2.y+nodeSize.h/2+1); text.textContent=`[${t.id}] ${t.form}`; g.appendChild(rect); g.appendChild(text); svg.appendChild(g); });
+    c.innerHTML=''; c.appendChild(svg); setTimeout(()=>highlight(),0);
+}
+function toggleTree(i){const w=document.getElementById('tree-wrapper-'+i); if(!w) return; const built=w.getAttribute('data-built')==='1'; if(w.style.display==='none'){w.style.display='block'; if(!built){buildTree(i); w.setAttribute('data-built','1');}} else {w.style.display='none';}}
+highlight();
+</script>
+<p style='margin-top:30px'><a href='index.html'>&larr; 返回索引</a></p>
+</body></html>

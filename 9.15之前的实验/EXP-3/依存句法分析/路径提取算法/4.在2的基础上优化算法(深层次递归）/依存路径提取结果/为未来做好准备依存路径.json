@@ -1,0 +1,616 @@
+{
+  "title": "为未来做好准备",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "航空产品供应链",
+      "object": "发展趋势",
+      "relation": "呈现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "供应链",
+          "nsubj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "原材料的生产",
+      "relation": "涉及",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "涉及",
+          "conj"
+        ],
+        [
+          "创新",
+          "dobj"
+        ],
+        [
+          "原材料",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "信息技术",
+      "relation": "涉及",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "涉及",
+          "conj"
+        ],
+        [
+          "创新",
+          "dobj"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "管理创新",
+      "relation": "涉及",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "涉及",
+          "conj"
+        ],
+        [
+          "创新",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "飞机设计理念的改变",
+      "relation": "带来",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "改变",
+          "attr"
+        ],
+        [
+          "理念",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "全行业价值的变化",
+      "relation": "带来",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "带来",
+          "dep"
+        ],
+        [
+          "变化",
+          "dobj"
+        ],
+        [
+          "优势",
+          "assmod"
+        ],
+        [
+          "行业",
+          "nn"
+        ],
+        [
+          "全",
+          "det"
+        ],
+        [
+          "价值",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "竞争优势的变化",
+      "relation": "带来",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "带来",
+          "dep"
+        ],
+        [
+          "变化",
+          "dobj"
+        ],
+        [
+          "优势",
+          "assmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "竞争",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势",
+      "object": "企业的成败",
+      "relation": "决定",
+      "path": [
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "呈现",
+          "ccomp"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "决定",
+          "dep"
+        ],
+        [
+          "成败",
+          "dobj"
+        ],
+        [
+          "企业",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

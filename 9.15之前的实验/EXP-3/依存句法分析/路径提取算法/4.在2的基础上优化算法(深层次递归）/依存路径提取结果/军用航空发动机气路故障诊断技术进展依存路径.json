@@ -1,0 +1,1068 @@
+{
+  "title": "军用航空发动机气路故障诊断技术进展",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机健康管理系统",
+      "object": "气路故障诊断技术",
+      "relation": "包含",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断技术",
+      "object": "飞行安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "出发",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "安全性",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断技术",
+      "object": "视情维修成本",
+      "relation": "降低",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "出发",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "成本",
+          "dobj"
+        ],
+        [
+          "视情",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "军用航空发动机",
+      "object": "气路故障诊断设计",
+      "relation": "需要",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断设计",
+      "object": "发动机工作安全性",
+      "relation": "提升",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断",
+      "object": "基于数学模型的方法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "优缺点",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "数学",
+          "nn"
+        ],
+        [
+          "模型",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 2
+        },
+        {
+          "sentence_index": 6,
+          "id": 24
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 5
+        },
+        {
+          "sentence_index": 6,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断",
+      "object": "数据驱动的方法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "优缺点",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "融合",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "驱动",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 2
+        },
+        {
+          "sentence_index": 6,
+          "id": 24
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 12
+        },
+        {
+          "sentence_index": 6,
+          "id": 7
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断",
+      "object": "信息融合的方法",
+      "relation": "包含方法",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "优缺点",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "融合",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "信息",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 2
+        },
+        {
+          "sentence_index": 6,
+          "id": 24
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 12
+        },
+        {
+          "sentence_index": 6,
+          "id": 10
+        },
+        {
+          "sentence_index": 6,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断设计",
+      "object": "先进军用变循环发动机",
+      "relation": "针对",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载实时模型",
+      "object": "不可测参数与可测参数关联研究",
+      "relation": "用于",
+      "path": [
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "融合",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "优缺点",
+          "dobj"
+        ],
+        [
+          "研究",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 6,
+      "path_positions": [
+        {
+          "sentence_index": 6,
+          "id": 6
+        },
+        {
+          "sentence_index": 6,
+          "id": 12
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 24
+        },
+        {
+          "sentence_index": 6,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "控制系统",
+      "object": "健康管理系统",
+      "relation": "存在功能分配关系",
+      "path": [
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断设计",
+      "object": "过渡态气路故障诊断",
+      "relation": "需要加强",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "气路",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文研究",
+      "object": "自适应循环发动机的气路故障诊断设计",
+      "relation": "提供参考",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "进步",
+          "pobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 6,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

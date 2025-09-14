@@ -1,0 +1,696 @@
+{
+  "title": "机载预测与健康管理(PHM)系统的体系结构",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与健康管理(PHM)系统",
+      "object": "视情维修",
+      "relation": "推动",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "转变",
+          "ccomp"
+        ],
+        [
+          "向",
+          "prep"
+        ],
+        [
+          "维修",
+          "pobj"
+        ],
+        [
+          "视情",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理(PHM)系统",
+      "object": "作战飞机",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "转变",
+          "ccomp"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "作战",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载PHM系统",
+      "object": "层次化体系结构",
+      "relation": "采用",
+      "path": [
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "层次化体系结构",
+      "object": "新一代作战飞机",
+      "relation": "针对",
+      "path": [
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "转变",
+          "ccomp"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "作战",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "层次化体系结构",
+      "object": "模块/单元层PHM",
+      "relation": "包含",
+      "path": [
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "层次化体系结构",
+      "object": "子系统级PHM",
+      "relation": "包含",
+      "path": [
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "层次化体系结构",
+      "object": "区域级PHM",
+      "relation": "包含",
+      "path": [
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "层次化体系结构",
+      "object": "平台级PHM",
+      "relation": "包含",
+      "path": [
+        [
+          "层次化",
+          "amod"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

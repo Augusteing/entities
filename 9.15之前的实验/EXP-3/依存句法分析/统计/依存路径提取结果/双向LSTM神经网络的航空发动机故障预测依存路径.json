@@ -1,0 +1,1312 @@
+{
+  "title": "双向LSTM神经网络的航空发动机故障预测",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 11,
+    "cross_sentence_path_found": 11
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机故障预测",
+      "object": "维修决策",
+      "relation": "提供依据",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "决策",
+          "pobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测",
+      "object": "装备完好率",
+      "relation": "提高",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提高",
+          "dep"
+        ],
+        [
+          "完好率",
+          "dobj"
+        ],
+        [
+          "装备",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测",
+      "object": "灾难性故障",
+      "relation": "避免",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "避免",
+          "conj"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "灾难性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障预测",
+      "object": "经济损失",
+      "relation": "最小化",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "避免",
+          "conj"
+        ],
+        [
+          "最小化",
+          "conj"
+        ],
+        [
+          "损失",
+          "dobj"
+        ],
+        [
+          "经济",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向长短期记忆(LSTM)神经网络",
+      "object": "航空发动机故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "双向",
+          "amod"
+        ],
+        [
+          "长",
+          "amod"
+        ],
+        [
+          "短期",
+          "amod"
+        ],
+        [
+          "记忆",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测模型",
+      "object": "双向长短期记忆(LSTM)神经网络",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "记忆",
+          "nn"
+        ],
+        [
+          "双向",
+          "amod"
+        ],
+        [
+          "长",
+          "amod"
+        ],
+        [
+          "短期",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测模型",
+      "object": "数据预处理",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "测试",
+          "dobj"
+        ],
+        [
+          "预处理",
+          "conj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测模型",
+      "object": "网络模型设计",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "测试",
+          "dobj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测模型",
+      "object": "训练与测试",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "测试",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "训练",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "C-MAPSS数据集",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "特点",
+          "pobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "C-MAPSS数据集",
+      "object": "双向LSTM故障预测模型",
+      "relation": "用于验证",
+      "path": [
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "特点",
+          "pobj"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "RNN",
+      "relation": "优于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "使用",
+          "root"
+        ],
+        [
+          "下降",
+          "dep"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "对比",
+          "pccomp"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "LSTM",
+          "nn"
+        ],
+        [
+          "RNN",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "GRU",
+      "relation": "优于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "使用",
+          "root"
+        ],
+        [
+          "下降",
+          "dep"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "对比",
+          "pccomp"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "LSTM",
+          "nn"
+        ],
+        [
+          "GRU",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "LSTM时间序列模型",
+      "relation": "优于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "记忆",
+          "nn"
+        ],
+        [
+          "LSTM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "双向LSTM故障预测模型",
+      "object": "非对称评分",
+      "relation": "降低",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "使用",
+          "root"
+        ],
+        [
+          "下降",
+          "dep"
+        ],
+        [
+          "下降",
+          "conj"
+        ],
+        [
+          "评分",
+          "nsubj"
+        ],
+        [
+          "非对称",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 43
+        },
+        {
+          "sentence_index": 2,
+          "id": 42
+        },
+        {
+          "sentence_index": 2,
+          "id": 41
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

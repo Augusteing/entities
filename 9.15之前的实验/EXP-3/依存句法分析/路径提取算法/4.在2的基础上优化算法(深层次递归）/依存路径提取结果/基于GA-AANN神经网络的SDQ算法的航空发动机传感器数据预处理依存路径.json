@@ -1,0 +1,1404 @@
+{
+  "title": "基于GA-AANN神经网络的SDQ算法的航空发动机传感器数据预处理",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机传感器数据预处理方法",
+      "object": "数据鉴定",
+      "relation": "实现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "传感器",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "预处理",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "鉴定",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机传感器数据预处理方法",
+      "object": "故障诊断",
+      "relation": "实现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "传感器",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "预处理",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机传感器数据预处理方法",
+      "object": "噪声信号干扰",
+      "relation": "去除",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "传感器",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "预处理",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "去除",
+          "conj"
+        ],
+        [
+          "干扰",
+          "dobj"
+        ],
+        [
+          "噪声",
+          "nn"
+        ],
+        [
+          "信号",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法模型",
+      "object": "合理性检验模块",
+      "relation": "包含",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模块",
+          "pobj"
+        ],
+        [
+          "模块",
+          "conj"
+        ],
+        [
+          "合理性",
+          "amod"
+        ],
+        [
+          "检验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法模型",
+      "object": "解析冗余检验模块",
+      "relation": "包含",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模块",
+          "pobj"
+        ],
+        [
+          "解析",
+          "nn"
+        ],
+        [
+          "冗余",
+          "amod"
+        ],
+        [
+          "检验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "遗传算法",
+      "object": "AANN神经网络",
+      "relation": "优化",
+      "path": [
+        [
+          "遗传",
+          "amod"
+        ],
+        [
+          "算法",
+          "nsubj"
+        ],
+        [
+          "优化",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "AANN",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "GA-AANN神经网络",
+      "object": "解析冗余检验",
+      "relation": "实现",
+      "path": [
+        [
+          "AANN",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "优化",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "模块",
+          "pobj"
+        ],
+        [
+          "解析",
+          "nn"
+        ],
+        [
+          "冗余",
+          "amod"
+        ],
+        [
+          "检验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "蒙特卡罗仿真方法",
+      "object": "对比仿真验证",
+      "relation": "用于",
+      "path": [
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "基于最小二乘法的SDQ算法",
+      "relation": "对比",
+      "path": [
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "阶跃故障",
+      "relation": "隔离",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "漂移故障",
+      "relation": "隔离",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "故障隔离平均正确率",
+      "relation": "提高",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "诊断",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "传感器信号平均信噪比",
+      "relation": "提高",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "传感器",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机传感器数据",
+      "object": "健康管理系统",
+      "relation": "输入",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "传感器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "输入",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SDQ算法",
+      "object": "双通道传感器航空涡扇发动机",
+      "relation": "针对",
+      "path": [
+        [
+          "SDQ",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "搭建",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

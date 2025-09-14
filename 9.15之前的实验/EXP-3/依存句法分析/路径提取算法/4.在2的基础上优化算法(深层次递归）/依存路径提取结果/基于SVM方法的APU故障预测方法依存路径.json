@@ -1,0 +1,1140 @@
+{
+  "title": "基于SVM方法的APU故障预测方法",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "基于实时报文数据的APU故障预测方法",
+      "object": "QAR数据实时性欠缺问题",
+      "relation": "解决",
+      "path": [
+        [
+          "APU",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "存在",
+          "pccomp"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于实时报文数据的APU故障预测方法",
+      "object": "QAR数据精度不足问题",
+      "relation": "解决",
+      "path": [
+        [
+          "APU",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "存在",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "欠缺",
+          "rcmod"
+        ],
+        [
+          "不足",
+          "conj"
+        ],
+        [
+          "精度",
+          "nsubj"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于实时报文数据的APU故障预测方法",
+      "object": "实时报文数据",
+      "relation": "基于",
+      "path": [
+        [
+          "APU",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "实时",
+          "amod"
+        ],
+        [
+          "报文",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于实时报文数据的APU故障预测方法",
+      "object": "多参数故障预测模型",
+      "relation": "建立",
+      "path": [
+        [
+          "APU",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数故障预测模型",
+      "object": "支持向量机",
+      "relation": "基于",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "向量机",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 74
+        },
+        {
+          "sentence_index": 1,
+          "id": 90
+        },
+        {
+          "sentence_index": 1,
+          "id": 76
+        },
+        {
+          "sentence_index": 1,
+          "id": 77
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关性分析",
+      "object": "表征APU运行性能的参数",
+      "relation": "用于选取",
+      "path": [
+        [
+          "相关性",
+          "amod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "选取",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          ",",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关性分析",
+      "object": "特征选择算法解释性差的问题",
+      "relation": "解决",
+      "path": [
+        [
+          "相关性",
+          "amod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "选取",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "存在",
+          "pccomp"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "欠缺",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据集标注",
+      "object": "参数阈值",
+      "relation": "依据",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "存在",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "情况",
+          "nn"
+        ],
+        [
+          "阈值",
+          "conj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据集标注",
+      "object": "维修记录",
+      "relation": "依据",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "存在",
+          "pccomp"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "情况",
+          "nn"
+        ],
+        [
+          "记录",
+          "conj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数故障预测模型",
+      "object": "预测正确率",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          "装置",
+          "nn"
+        ],
+        [
+          "预测",
+          "lobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数故障预测模型",
+      "object": "APU视情维修策略",
+      "relation": "为...提供参考",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "APU",
+          "prnmod"
+        ],
+        [
+          ",",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

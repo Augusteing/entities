@@ -1,0 +1,1012 @@
+{
+  "title": "数据挖掘技术在航空发动机PHM中的应用",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "数据挖掘技术",
+      "object": "航空发动机PHM",
+      "relation": "应用于",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "模式",
+          "dep"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "管理",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "模式",
+          "dep"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "管理",
+          "lobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "健康管理",
+      "relation": "用于",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "模式",
+          "dep"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "管理",
+          "lobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "神经网络",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "网络",
+          "conj"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "时间序列分析",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "时间",
+          "nn"
+        ],
+        [
+          "序列",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "模糊逻辑",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "逻辑",
+          "conj"
+        ],
+        [
+          "模糊",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "遗传算法",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "算法",
+          "conj"
+        ],
+        [
+          "遗传",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "证据理论",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "理论",
+          "conj"
+        ],
+        [
+          "证据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据挖掘技术",
+      "object": "支持向量机",
+      "relation": "包含",
+      "path": [
+        [
+          "挖掘",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "工具",
+          "assmod"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

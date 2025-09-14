@@ -1,0 +1,1240 @@
+{
+  "title": "基于改进GRU的航空发动机寿命预测自注意力优化算法",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 1,
+    "path_found": 1,
+    "cross_sentence_pairs": 13,
+    "cross_sentence_path_found": 13
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机性能参数",
+      "object": "寿命退行",
+      "relation": "表征",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "表征",
+          "root"
+        ],
+        [
+          "退行",
+          "ccomp"
+        ],
+        [
+          "寿命",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "常规模型",
+      "object": "梯度消失",
+      "relation": "导致",
+      "path": [
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "常规",
+          "amod"
+        ],
+        [
+          "训练",
+          "dobj"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "导致",
+          "root"
+        ],
+        [
+          "消失",
+          "ccomp"
+        ],
+        [
+          "梯度",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "数据源域行梯度",
+      "relation": "分析",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "导致",
+          "root"
+        ],
+        [
+          "消失",
+          "ccomp"
+        ],
+        [
+          "梯度",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "列间相关性",
+      "relation": "分析",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "相关性",
+          "dobj"
+        ],
+        [
+          "列间",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 7
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "特征权重",
+      "relation": "优化",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "列",
+          "root"
+        ],
+        [
+          "重",
+          "dobj"
+        ],
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "权",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 5
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 7
+        },
+        {
+          "sentence_index": 5,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "模型收敛",
+      "relation": "加速",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "导致",
+          "root"
+        ],
+        [
+          "采用",
+          "dep"
+        ],
+        [
+          "训练",
+          "dobj"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "精度",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 1
+        },
+        {
+          "sentence_index": 7,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "发动机寿命预测数据集（C-MAPSS）",
+      "relation": "在...上验证",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "寿命方均根误差（RMSE）",
+      "relation": "降低",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表征",
+          "root"
+        ],
+        [
+          "退行",
+          "ccomp"
+        ],
+        [
+          "寿命",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "超前预测分值（score）",
+      "relation": "降低",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "精度",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 1
+        },
+        {
+          "sentence_index": 7,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "寿命预测效果",
+      "relation": "改善",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表征",
+          "root"
+        ],
+        [
+          "退行",
+          "ccomp"
+        ],
+        [
+          "寿命",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进GRU的自注意力优化算法",
+      "object": "有效解决方案",
+      "relation": "提供",
+      "path": [
+        [
+          "）",
+          "punct"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "自注意力",
+          "nn"
+        ],
+        [
+          "unit",
+          "prnmod"
+        ],
+        [
+          "单元",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "有效",
+          "amod"
+        ],
+        [
+          "解决",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 12,
+          "id": 9
+        },
+        {
+          "sentence_index": 12,
+          "id": 12
+        },
+        {
+          "sentence_index": 12,
+          "id": 10
+        },
+        {
+          "sentence_index": 12,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "有效解决方案",
+      "object": "发动机寿命预测",
+      "relation": "用于",
+      "path": [
+        [
+          "有效",
+          "amod"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "参数",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 12,
+          "id": 10
+        },
+        {
+          "sentence_index": 12,
+          "id": 11
+        },
+        {
+          "sentence_index": 12,
+          "id": 12
+        },
+        {
+          "sentence_index": 12,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "有效解决方案",
+      "object": "超前维护",
+      "relation": "用于",
+      "path": [
+        [
+          "有效",
+          "amod"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "落",
+          "root"
+        ],
+        [
+          "分值",
+          "nsubj"
+        ],
+        [
+          "超前",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 12,
+          "id": 10
+        },
+        {
+          "sentence_index": 12,
+          "id": 11
+        },
+        {
+          "sentence_index": 12,
+          "id": 12
+        },
+        {
+          "sentence_index": 12,
+          "id": 9
+        },
+        {
+          "sentence_index": 9,
+          "id": 7
+        },
+        {
+          "sentence_index": 9,
+          "id": 3
+        },
+        {
+          "sentence_index": 9,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

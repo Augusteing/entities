@@ -1,0 +1,1956 @@
+{
+  "title": "数字孪生体及其在智慧管网应用的可行性",
+  "stats": {
+    "total_pairs": 19,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "数字孪生体",
+      "object": "航空航天",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "行业",
+          "lobj"
+        ],
+        [
+          "能源",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "航天",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "汽车制造",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "行业",
+          "lobj"
+        ],
+        [
+          "能源",
+          "nn"
+        ],
+        [
+          "汽车",
+          "nn"
+        ],
+        [
+          "制造",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "军事",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "行业",
+          "lobj"
+        ],
+        [
+          "能源",
+          "nn"
+        ],
+        [
+          "军事",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "能源",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "行业",
+          "lobj"
+        ],
+        [
+          "能源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "管道行业",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "产品设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "案例",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "装配",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "产品",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "飞机故障预测",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "案例",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "装配",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "电厂发电机组智能健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "案例",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "装配",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "电厂",
+          "nn"
+        ],
+        [
+          "发电",
+          "nn"
+        ],
+        [
+          "机组",
+          "nn"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "复杂产品装配",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "案例",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "装配",
+          "nn"
+        ],
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "产品",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "油气管道",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "管道设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "调度优化",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "优化",
+          "conj"
+        ],
+        [
+          "调度",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "管道设备运行维护",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "管道全生命周期管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "信息交互及融合",
+      "relation": "提供技术手段",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "融合",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "交互",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "信息交互及融合",
+      "object": "真实管道系统",
+      "relation": "连接",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "交互",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "融合",
+          "pobj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "信息交互及融合",
+      "object": "虚拟管道系统",
+      "relation": "连接",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "交互",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "融合",
+          "pobj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "虚拟管道的仿真优化",
+      "relation": "实现",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "起到",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "行业",
+          "pobj"
+        ],
+        [
+          "管道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生体",
+      "object": "智慧管网建设",
+      "relation": "促进",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生体",
+          "nn"
+        ],
+        [
+          "概念",
+          "nsubj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "有利于",
+          "conj"
+        ],
+        [
+          "促进",
+          "ccomp"
+        ],
+        [
+          "建设",
+          "dobj"
+        ],
+        [
+          "智慧",
+          "nn"
+        ],
+        [
+          "管网",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        },
+        {
+          "sentence_index": 2,
+          "id": 32
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 34
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

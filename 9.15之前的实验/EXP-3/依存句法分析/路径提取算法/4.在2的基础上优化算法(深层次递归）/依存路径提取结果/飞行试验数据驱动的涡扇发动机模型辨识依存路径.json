@@ -1,0 +1,756 @@
+{
+  "title": "飞行试验数据驱动的涡扇发动机模型辨识",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "NNARX模型",
+      "object": "三层前向人工神经网络",
+      "relation": "基于",
+      "path": [
+        [
+          "NNARX",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "三",
+          "nummod"
+        ],
+        [
+          "层",
+          "clf"
+        ],
+        [
+          "前向",
+          "nn"
+        ],
+        [
+          "人工",
+          "amod"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "NNARX模型",
+      "object": "涡扇发动机实际飞行试验数据",
+      "relation": "使用",
+      "path": [
+        [
+          "NNARX",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "涡扇",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "实际",
+          "amod"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "试验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "NNARX模型",
+      "object": "输出层反馈至输入层",
+      "relation": "引入",
+      "path": [
+        [
+          "NNARX",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "反馈",
+          "dep"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "引入",
+          "pccomp"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ],
+        [
+          "至",
+          "rcomp"
+        ],
+        [
+          "输入层",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辨识模型",
+      "object": "11个发动机关键参数",
+      "relation": "研究",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "11个发动机关键参数",
+      "object": "高压转子转速",
+      "relation": "包含",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "包括",
+          "rcmod"
+        ],
+        [
+          "在内",
+          "loc"
+        ],
+        [
+          "转速",
+          "lobj"
+        ],
+        [
+          "高压",
+          "nn"
+        ],
+        [
+          "转子",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辨识模型",
+      "object": "额外架次全程飞行试验数据",
+      "relation": "验证于",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "试验",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辨识模型",
+      "object": "5%以内最大相对误差",
+      "relation": "具有",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "以",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辨识模型",
+      "object": "试飞实时监控",
+      "relation": "应用于",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "实时",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辨识模型",
+      "object": "全包线自适应实时监控模型",
+      "relation": "提供参考",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "形成",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "实时",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

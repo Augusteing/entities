@@ -1,0 +1,1308 @@
+{
+  "title": "基于融合知识图谱的航空柱塞泵故障预测诊断方法",
+  "stats": {
+    "total_pairs": 17,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 11,
+    "cross_sentence_path_found": 11
+  },
+  "pairs": [
+    {
+      "subject": "航空柱塞泵",
+      "object": "故障频率高",
+      "relation": "存在问题",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵",
+      "object": "故障种类多",
+      "relation": "存在问题",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "多",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "种类",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵",
+      "object": "故障溯源难度大",
+      "relation": "存在问题",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "大",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "溯源",
+          "nn"
+        ],
+        [
+          "难度",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵",
+      "object": "预测准确率低",
+      "relation": "存在问题",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "低",
+          "conj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "准确率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵故障预测诊断方法",
+      "object": "知识图谱",
+      "relation": "融合",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "融合",
+          "rcmod"
+        ],
+        [
+          "算法",
+          "nsubj"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "图谱",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵故障预测诊断方法",
+      "object": "人工蜂群算法",
+      "relation": "融合",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "融合",
+          "rcmod"
+        ],
+        [
+          "算法",
+          "nsubj"
+        ],
+        [
+          "人工",
+          "amod"
+        ],
+        [
+          "蜂群",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵故障预测诊断方法",
+      "object": "航空柱塞泵故障",
+      "relation": "用于解决",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "输入层",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ],
+        [
+          "输入层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "指派层",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ],
+        [
+          "指派层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "传播层",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ],
+        [
+          "传播层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "自注意力层",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ],
+        [
+          "自注意力层",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "输出层",
+      "relation": "包含",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "输出层",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "注意力机制",
+      "relation": "采用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "机制",
+          "dobj"
+        ],
+        [
+          "注意力",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 31
+        },
+        {
+          "sentence_index": 3,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工蜂群故障预测算法",
+      "object": "航空柱塞泵故障预测模型",
+      "relation": "形成",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "频率",
+          "nsubj"
+        ],
+        [
+          "高",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "特征向量",
+      "object": "航空柱塞泵故障预测模型",
+      "relation": "用于训练",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "向量",
+          "nn"
+        ],
+        [
+          "训练",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "形成",
+          "conj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 34
+        },
+        {
+          "sentence_index": 3,
+          "id": 35
+        },
+        {
+          "sentence_index": 3,
+          "id": 36
+        },
+        {
+          "sentence_index": 3,
+          "id": 33
+        },
+        {
+          "sentence_index": 3,
+          "id": 37
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空柱塞泵故障诊断的知识图谱",
+      "object": "实际维修案例",
+      "relation": "构建于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "案例",
+          "pobj"
+        ],
+        [
+          "实际",
+          "amod"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "实验",
+      "object": "航空柱塞泵故障预测诊断方法",
+      "relation": "证明",
+      "path": [
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "证明",
+          "conj"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "柱塞泵",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 16
+        },
+        {
+          "sentence_index": 4,
+          "id": 17
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

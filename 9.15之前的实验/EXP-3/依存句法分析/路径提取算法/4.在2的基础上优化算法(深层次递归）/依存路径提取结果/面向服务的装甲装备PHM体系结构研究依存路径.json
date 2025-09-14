@@ -1,0 +1,1088 @@
+{
+  "title": "面向服务的装甲装备PHM体系结构研究",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "装甲装备维修保障方式改革",
+      "relation": "适应",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "适应",
+          "pccomp"
+        ],
+        [
+          "需要",
+          "dobj"
+        ],
+        [
+          "改革",
+          "rcmod"
+        ],
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "保障",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "典型PHM体系结构",
+      "object": "共性特征",
+      "relation": "具有",
+      "path": [
+        [
+          "典型",
+          "amod"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "得出",
+          "conj"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "共性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "面向服务架构的原理",
+      "relation": "结合",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "结合",
+          "prep"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "服务",
+          "nn"
+        ],
+        [
+          "架构",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "装甲装备综合电子信息系统的特点",
+      "relation": "结合",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "结合",
+          "prep"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "分布式特点",
+      "relation": "具有",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "开放性",
+          "nn"
+        ],
+        [
+          "分布式",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "层次化特点",
+      "relation": "具有",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "开放性",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "层次化",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "开放性特点",
+      "relation": "具有",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "开放性",
+          "nn"
+        ],
+        [
+          "等",
+          "etc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "面向服务的装甲装备PHM体系结构",
+      "object": "装甲装备PHM系统分布式应用环境要求",
+      "relation": "满足",
+      "path": [
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "满足",
+          "conj"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "装甲",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分布式",
+          "amod"
+        ],
+        [
+          "应用",
+          "nn"
+        ],
+        [
+          "环境",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

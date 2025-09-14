@@ -1,0 +1,1260 @@
+{
+  "title": "人工智能在波音787上的应用与思考",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "人工智能技术",
+      "object": "未来民机",
+      "relation": "应用于",
+      "path": [
+        [
+          "人工",
+          "amod"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "民机",
+          "pobj"
+        ],
+        [
+          "未来",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "人工智能技术",
+      "object": "民用飞机国际竞争力",
+      "relation": "提升",
+      "path": [
+        [
+          "人工",
+          "amod"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ],
+        [
+          "竞争力",
+          "dobj"
+        ],
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "国际",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能装配技术",
+      "object": "波音787",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "波音787",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能驾驶舱技术",
+      "object": "波音787",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "波音787",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能飞控系统",
+      "object": "波音787",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "波音787",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能维护技术",
+      "object": "波音787",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "波音787",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能材料和标签",
+      "object": "波音787",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "波音787",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "我国民机主制造商",
+      "object": "智能技术",
+      "relation": "应进行变革",
+      "path": [
+        [
+          "民机",
+          "pobj"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "智能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能技术",
+      "object": "产品设计创新",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "把握",
+          "root"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "创新",
+          "conj"
+        ],
+        [
+          "产品",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 38
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能技术",
+      "object": "生产制造优化",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "把握",
+          "root"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "优化",
+          "conj"
+        ],
+        [
+          "生产",
+          "nn"
+        ],
+        [
+          "制造",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 38
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能技术",
+      "object": "管理效率提升",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能技术",
+      "object": "个性服务定制",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "把握",
+          "root"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "定制",
+          "conj"
+        ],
+        [
+          "个性",
+          "amod"
+        ],
+        [
+          "服务",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 38
+        },
+        {
+          "sentence_index": 2,
+          "id": 36
+        },
+        {
+          "sentence_index": 2,
+          "id": 32
+        },
+        {
+          "sentence_index": 2,
+          "id": 30
+        },
+        {
+          "sentence_index": 2,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能技术",
+      "object": "飞机健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "提升",
+          "rcmod"
+        ],
+        [
+          "竞争力",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "我国民机主制造商",
+      "object": "新型智能技术",
+      "relation": "应研究",
+      "path": [
+        [
+          "民机",
+          "pobj"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "智能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "我国民机主制造商",
+      "object": "新型智能技术",
+      "relation": "应储备",
+      "path": [
+        [
+          "民机",
+          "pobj"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "智能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

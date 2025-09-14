@@ -1,0 +1,720 @@
+{
+  "title": "航空电子设备故障预测框架与方法",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "故障预测框架",
+      "object": "电子设备全寿命周期",
+      "relation": "覆盖",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "框架",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "覆盖",
+          "rcmod"
+        ],
+        [
+          "周期",
+          "dobj"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "全",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "环境应力",
+      "object": "累积损伤",
+      "relation": "造成",
+      "path": [
+        [
+          "环境",
+          "nn"
+        ],
+        [
+          "应力",
+          "nsubj"
+        ],
+        [
+          "造成",
+          "rcmod"
+        ],
+        [
+          "损伤",
+          "pobj"
+        ],
+        [
+          "累积",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "辅助软件eXpress",
+      "object": "可预测性设计",
+      "relation": "用于",
+      "path": [
+        [
+          "辅助",
+          "nn"
+        ],
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "eXpress",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进神经网络",
+      "object": "趋势预测",
+      "relation": "进行",
+      "path": [
+        [
+          "改进",
+          "amod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "趋势预测",
+      "object": "特征参数",
+      "relation": "针对",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多指标评价准则",
+      "object": "信息熵理论",
+      "relation": "基于",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "指标",
+          "nn"
+        ],
+        [
+          "评价",
+          "nn"
+        ],
+        [
+          "准则",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "理论",
+          "pobj"
+        ],
+        [
+          "信息熵",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多指标评价准则",
+      "object": "单项预测方法",
+      "relation": "融合",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "指标",
+          "nn"
+        ],
+        [
+          "评价",
+          "nn"
+        ],
+        [
+          "准则",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "组合预测方法",
+      "object": "故障组合预测",
+      "relation": "实现",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "覆盖",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "组合预测方法",
+      "object": "单项预测方法",
+      "relation": "优于",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测框架",
+      "object": "某型电子设备",
+      "relation": "验证于",
+      "path": [
+        [
+          "框架",
+          "conj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "覆盖",
+          "rcmod"
+        ],
+        [
+          "周期",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

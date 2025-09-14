@@ -1,0 +1,444 @@
+{
+  "title": "美军新机的综合诊断技术及启示",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "综合诊断",
+      "object": "可靠性",
+      "relation": "实现",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "保障性",
+          "dobj"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断",
+      "object": "维修性",
+      "relation": "实现",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "保障性",
+          "dobj"
+        ],
+        [
+          "维修性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断",
+      "object": "保障性",
+      "relation": "实现",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "保障性",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断",
+      "object": "技术手段",
+      "relation": "是",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "手段",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断",
+      "object": "发展方向",
+      "relation": "是",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "美军",
+      "object": "综合诊断体系结构",
+      "relation": "拥有",
+      "path": [
+        [
+          "美军",
+          "nn"
+        ],
+        [
+          "结构",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合诊断体系结构",
+      "object": "支撑技术",
+      "relation": "拥有",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "方向",
+          "attr"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,880 @@
+{
+  "title": "基于SMO-SVR的飞机舵面损伤故障趋势预测",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "SMO-SVR预测方法",
+      "object": "状态参量变化情况",
+      "relation": "预测",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "SMO-SVR",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "预测",
+          "pccomp"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "参量",
+          "nn"
+        ],
+        [
+          "变化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "改进C-C平均方法",
+      "object": "相空间重构",
+      "relation": "用于",
+      "path": [
+        [
+          "改进",
+          "amod"
+        ],
+        [
+          "C-",
+          "nummod"
+        ],
+        [
+          "C",
+          "nn"
+        ],
+        [
+          "平均",
+          "amod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "重构",
+          "dobj"
+        ],
+        [
+          "相空间",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相空间重构",
+      "object": "最优嵌入维数m",
+      "relation": "确定",
+      "path": [
+        [
+          "相空间",
+          "amod"
+        ],
+        [
+          "重构",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "确定",
+          "conj"
+        ],
+        [
+          "嵌入",
+          "ccomp"
+        ],
+        [
+          "最",
+          "advmod"
+        ],
+        [
+          "优",
+          "dep"
+        ],
+        [
+          "维数",
+          "nn"
+        ],
+        [
+          "m",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相空间重构",
+      "object": "延迟时间τd",
+      "relation": "确定",
+      "path": [
+        [
+          "相空间",
+          "amod"
+        ],
+        [
+          "重构",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "确定",
+          "conj"
+        ],
+        [
+          "嵌入",
+          "ccomp"
+        ],
+        [
+          "延迟",
+          "conj"
+        ],
+        [
+          "时间",
+          "nn"
+        ],
+        [
+          "τd",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "区间自适应粒子群算法",
+      "object": "SVR参数",
+      "relation": "优化",
+      "path": [
+        [
+          "区间",
+          "nn"
+        ],
+        [
+          "自适应",
+          "amod"
+        ],
+        [
+          "粒子群",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "优化",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "SVR",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "区间自适应粒子群算法",
+      "object": "参数优化速度",
+      "relation": "提高",
+      "path": [
+        [
+          "区间",
+          "nn"
+        ],
+        [
+          "自适应",
+          "amod"
+        ],
+        [
+          "粒子群",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "优化",
+          "conj"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "速度",
+          "dobj"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "优化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SMO-SVR预测方法",
+      "object": "SMO算法的停机准则",
+      "relation": "调整",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "SMO-SVR",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "调整",
+          "conj"
+        ],
+        [
+          "准则",
+          "dobj"
+        ],
+        [
+          "算法",
+          "assmod"
+        ],
+        [
+          "SMO",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SMO-SVR预测模型",
+      "object": "径向基函数神经网络",
+      "relation": "对比",
+      "path": [
+        [
+          "SMO-SVR",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "与",
+          "prep"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "径向基函数",
+          "amod"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 148
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 147
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 135
+        },
+        {
+          "sentence_index": 0,
+          "id": 136
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "SMO-SVR预测模型",
+      "object": "预测能力",
+      "relation": "具有",
+      "path": [
+        [
+          "SMO-SVR",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 163
+        },
+        {
+          "sentence_index": 0,
+          "id": 162
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机舵面",
+      "object": "损伤",
+      "relation": "发生",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "舵面",
+          "nsubj"
+        ],
+        [
+          "出现",
+          "lccomp"
+        ],
+        [
+          "损伤",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

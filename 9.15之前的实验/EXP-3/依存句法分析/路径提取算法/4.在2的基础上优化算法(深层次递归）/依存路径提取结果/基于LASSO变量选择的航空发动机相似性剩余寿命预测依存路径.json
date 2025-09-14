@@ -1,0 +1,540 @@
+{
+  "title": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 1,
+    "path_found": 1,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "LASSO变量选取方法",
+      "object": "相似性寿命预测方法",
+      "relation": "结合",
+      "path": [
+        [
+          "变量",
+          "nsubj"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LASSO变量选取方法",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "变量",
+          "nsubj"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "K-means聚类",
+      "object": "工况",
+      "relation": "用于区分",
+      "path": [
+        [
+          "聚类",
+          "nsubj"
+        ],
+        [
+          "K-means",
+          "dep"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "区分",
+          "pccomp"
+        ],
+        [
+          "工况",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 4,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LASSO方法",
+      "object": "最优传感器变量",
+      "relation": "选取",
+      "path": [
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "变量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相似性方法",
+      "object": "航空发动机剩余寿命预测",
+      "relation": "进行",
+      "path": [
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统方法",
+      "object": "性能退化趋势明显的变量",
+      "relation": "选取",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "变量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LASSO变量选取方法",
+      "object": "相似性寿命预测误差的标准差",
+      "relation": "减少",
+      "path": [
+        [
+          "变量",
+          "nsubj"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "选取",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文研究",
+      "object": "LASSO变量选取方法",
+      "relation": "提出",
+      "path": [
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "变量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 8,
+          "id": 29
+        },
+        {
+          "sentence_index": 8,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文研究",
+      "object": "LASSO变量选取方法",
+      "relation": "对比",
+      "path": [
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "由于",
+          "root"
+        ],
+        [
+          "众多",
+          "pccomp"
+        ],
+        [
+          "变量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 8,
+          "id": 29
+        },
+        {
+          "sentence_index": 8,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

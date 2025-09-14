@@ -1,0 +1,872 @@
+{
+  "title": "综合化航空电子的系统管理技术",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "航空电子系统",
+      "object": "综合化航空电子系统",
+      "relation": "发展为",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "完成",
+          "rcmod"
+        ],
+        [
+          "功能",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "向",
+          "prep"
+        ],
+        [
+          "方向",
+          "pobj"
+        ],
+        [
+          "综合化",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "综合化航空电子平台",
+      "relation": "应用在",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "发展",
+          "dep"
+        ],
+        [
+          "向",
+          "prep"
+        ],
+        [
+          "方向",
+          "pobj"
+        ],
+        [
+          "综合化",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "健康管理",
+      "relation": "包含",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "故障管理",
+      "relation": "包含",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "安全管理",
+      "relation": "包含",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "安全",
+          "nn"
+        ],
+        [
+          "管理",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "配置管理",
+      "relation": "包含",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "配置",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "可靠性问题",
+      "relation": "解决",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统管理技术",
+      "object": "可用性问题",
+      "relation": "解决",
+      "path": [
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "可用性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

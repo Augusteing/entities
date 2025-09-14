@@ -1,0 +1,860 @@
+{
+  "title": "面向军用飞机任务能力的健康评估方法",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "军用飞机健康评估",
+      "object": "应用困难",
+      "relation": "存在",
+      "path": [
+        [
+          "军用",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "困难",
+          "rcmod"
+        ],
+        [
+          "应用",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "军用飞机",
+      "relation": "研究",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "军用",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "面向任务的能力分析",
+      "relation": "包含",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "开展",
+          "dep"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "任务",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "基于故障劣化的功能分析",
+      "relation": "包含",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "开展",
+          "dep"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "劣化",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "参数化的健康评估",
+      "relation": "包含",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "“飞机-任务功能-影响参数”两级映射",
+      "relation": "得到",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "“飞机-任务功能-影响参数”两级映射",
+      "object": "健康评估的对象",
+      "relation": "作为",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "劣化度",
+      "relation": "利用",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "得到",
+          "dep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析法",
+          "nn"
+        ],
+        [
+          "劣化度",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "严酷度",
+      "relation": "利用",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "得到",
+          "dep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析法",
+          "nn"
+        ],
+        [
+          "严酷度",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "极大熵改进区间层次分析法",
+      "relation": "利用",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "得到",
+          "dep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析法",
+          "nn"
+        ],
+        [
+          "极大",
+          "amod"
+        ],
+        [
+          "熵",
+          "nn"
+        ],
+        [
+          "改进",
+          "nn"
+        ],
+        [
+          "区间",
+          "nn"
+        ],
+        [
+          "层次",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 61
+        },
+        {
+          "sentence_index": 1,
+          "id": 62
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "飞机健康状态评估结果",
+      "relation": "得到",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "高可信度",
+      "relation": "具有",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "高",
+          "ccomp"
+        ],
+        [
+          "可信度",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估方法",
+      "object": "高工程实用价值",
+      "relation": "具有",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "实际",
+          "lobj"
+        ],
+        [
+          "工程",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

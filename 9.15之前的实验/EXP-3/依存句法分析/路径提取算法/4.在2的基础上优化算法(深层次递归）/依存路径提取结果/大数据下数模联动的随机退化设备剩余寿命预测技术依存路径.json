@@ -1,0 +1,1052 @@
+{
+  "title": "大数据下数模联动的随机退化设备剩余寿命预测技术",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "剩余寿命预测",
+      "object": "随机退化设备",
+      "relation": "应用于",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "随机",
+          "amod"
+        ],
+        [
+          "退化",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测",
+      "object": "不确定性量化",
+      "relation": "核心问题是",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "量化",
+          "nn"
+        ],
+        [
+          "不确定性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测技术",
+      "object": "机理模型与数据混合驱动的剩余寿命预测技术",
+      "relation": "包含",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "驱动",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测技术",
+      "object": "基于机器学习的剩余寿命预测技术",
+      "relation": "包含",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "驱动",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "剩余寿命预测技术",
+      "object": "统计数据驱动的剩余寿命预测技术",
+      "relation": "包含",
+      "path": [
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "驱动",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "当前研究",
+      "object": "局限性和共性难题",
+      "relation": "存在",
+      "path": [
+        [
+          "研究",
+          "nsubj"
+        ],
+        [
+          "当前",
+          "tmod"
+        ],
+        [
+          "存在",
+          "rcmod"
+        ],
+        [
+          "难题",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "共性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动解决思路",
+      "object": "随机退化设备剩余寿命预测",
+      "relation": "用于解决",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "随机",
+          "amod"
+        ],
+        [
+          "退化",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        },
+        {
+          "sentence_index": 0,
+          "id": 139
+        },
+        {
+          "sentence_index": 0,
+          "id": 140
+        },
+        {
+          "sentence_index": 0,
+          "id": 141
+        },
+        {
+          "sentence_index": 0,
+          "id": 142
+        },
+        {
+          "sentence_index": 0,
+          "id": 143
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数模联动解决思路",
+      "object": "航空发动机多源监测数据",
+      "relation": "通过...验证",
+      "path": [
+        [
+          "数模",
+          "nsubj"
+        ],
+        [
+          "联动",
+          "rcmod"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 149
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 150
+        },
+        {
+          "sentence_index": 0,
+          "id": 151
+        },
+        {
+          "sentence_index": 0,
+          "id": 152
+        },
+        {
+          "sentence_index": 0,
+          "id": 153
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据背景下的剩余寿命预测",
+      "object": "深度学习与随机退化建模交互联动",
+      "relation": "亟待解决",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "背景",
+          "lobj"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "随机",
+          "amod"
+        ],
+        [
+          "退化",
+          "nn"
+        ],
+        [
+          "建模",
+          "nsubj"
+        ],
+        [
+          "交互",
+          "advmod"
+        ],
+        [
+          "联动",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        },
+        {
+          "sentence_index": 0,
+          "id": 244
+        },
+        {
+          "sentence_index": 0,
+          "id": 237
+        },
+        {
+          "sentence_index": 0,
+          "id": 209
+        },
+        {
+          "sentence_index": 0,
+          "id": 210
+        },
+        {
+          "sentence_index": 0,
+          "id": 211
+        },
+        {
+          "sentence_index": 0,
+          "id": 212
+        },
+        {
+          "sentence_index": 0,
+          "id": 213
+        },
+        {
+          "sentence_index": 0,
+          "id": 214
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据背景下的剩余寿命预测",
+      "object": "监测大数据与剩余寿命及其预测不确定性映射机制",
+      "relation": "亟待解决",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "背景",
+          "lobj"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "联动",
+          "conj"
+        ],
+        [
+          "监测",
+          "dep"
+        ],
+        [
+          "机制",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "寿命",
+          "conj"
+        ],
+        [
+          "及",
+          "cc"
+        ],
+        [
+          "其",
+          "nn"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ],
+        [
+          "映射",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        },
+        {
+          "sentence_index": 0,
+          "id": 244
+        },
+        {
+          "sentence_index": 0,
+          "id": 237
+        },
+        {
+          "sentence_index": 0,
+          "id": 214
+        },
+        {
+          "sentence_index": 0,
+          "id": 216
+        },
+        {
+          "sentence_index": 0,
+          "id": 227
+        },
+        {
+          "sentence_index": 0,
+          "id": 224
+        },
+        {
+          "sentence_index": 0,
+          "id": 221
+        },
+        {
+          "sentence_index": 0,
+          "id": 222
+        },
+        {
+          "sentence_index": 0,
+          "id": 223
+        },
+        {
+          "sentence_index": 0,
+          "id": 225
+        },
+        {
+          "sentence_index": 0,
+          "id": 226
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "大数据背景下的剩余寿命预测",
+      "object": "非理想大数据下的剩余寿命预测",
+      "relation": "亟待解决",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "背景",
+          "lobj"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "面向",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "非",
+          "advmod"
+        ],
+        [
+          "理想",
+          "amod"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "数据",
+          "lobj"
+        ],
+        [
+          "下",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        },
+        {
+          "sentence_index": 0,
+          "id": 244
+        },
+        {
+          "sentence_index": 0,
+          "id": 237
+        },
+        {
+          "sentence_index": 0,
+          "id": 228
+        },
+        {
+          "sentence_index": 0,
+          "id": 229
+        },
+        {
+          "sentence_index": 0,
+          "id": 230
+        },
+        {
+          "sentence_index": 0,
+          "id": 231
+        },
+        {
+          "sentence_index": 0,
+          "id": 232
+        },
+        {
+          "sentence_index": 0,
+          "id": 233
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

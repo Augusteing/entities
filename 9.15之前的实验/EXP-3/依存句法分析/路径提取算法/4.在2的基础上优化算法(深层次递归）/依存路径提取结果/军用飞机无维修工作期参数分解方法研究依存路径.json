@@ -1,0 +1,1000 @@
+{
+  "title": "军用飞机无维修工作期参数分解方法研究",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "MFOP参数分解方法",
+      "object": "MFOP指标无法分解和落实的问题",
+      "relation": "解决",
+      "path": [
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "分解",
+          "rcmod"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "指标",
+          "nsubj"
+        ],
+        [
+          "无法",
+          "advmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基本可靠性",
+      "object": "无维修工作期",
+      "relation": "影响",
+      "path": [
+        [
+          "基本",
+          "amod"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "工作期",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测",
+      "object": "无维修工作期",
+      "relation": "影响",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "工作期",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "系统重构",
+      "object": "无维修工作期",
+      "relation": "影响",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "重构",
+          "conj"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "工作期",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "冗余设计",
+      "object": "无维修工作期",
+      "relation": "影响",
+      "path": [
+        [
+          "冗余",
+          "amod"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "因素",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "工作期",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MFOP参数分解方法",
+      "object": "方法基础",
+      "relation": "提供",
+      "path": [
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "基础",
+          "dobj"
+        ],
+        [
+          "方法",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MFOP参数分解",
+      "object": "使用参数至合同参数",
+      "relation": "实现转化",
+      "path": [
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "分解",
+          "pobj"
+        ],
+        [
+          "由",
+          "assmod"
+        ],
+        [
+          "参数",
+          "pobj"
+        ],
+        [
+          "使用",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MFOP参数分解方法",
+      "object": "理论指导",
+      "relation": "提供",
+      "path": [
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "指导",
+          "dobj"
+        ],
+        [
+          "理论",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 113
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "理论指导",
+      "object": "MFOP指标分析论证",
+      "relation": "用于",
+      "path": [
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "指导",
+          "dobj"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "工作",
+          "pobj"
+        ],
+        [
+          "论证",
+          "conj"
+        ],
+        [
+          "MFOP",
+          "nn"
+        ],
+        [
+          "指标",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "理论指导",
+      "object": "飞机可靠性设计",
+      "relation": "用于",
+      "path": [
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "指导",
+          "dobj"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "工作",
+          "pobj"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 113
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

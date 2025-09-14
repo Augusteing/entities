@@ -1,0 +1,1340 @@
+{
+  "title": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+  "stats": {
+    "total_pairs": 17,
+    "aligned_pairs": 17,
+    "path_found": 17,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "基于EMD和RVM-AR的预测方法",
+      "object": "滑油光谱数据非线性非平稳问题",
+      "relation": "解决",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "特性",
+          "conj"
+        ],
+        [
+          "数据",
+          "assmod"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "光谱",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "非线性",
+          "amod"
+        ],
+        [
+          "非平稳",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油光谱数据",
+      "object": "非线性非平稳特性",
+      "relation": "具有",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "光谱",
+          "nn"
+        ],
+        [
+          "数据",
+          "assmod"
+        ],
+        [
+          "特性",
+          "conj"
+        ],
+        [
+          "非线性",
+          "amod"
+        ],
+        [
+          "非平稳",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "滑油光谱数据",
+      "relation": "分解",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "特性",
+          "conj"
+        ],
+        [
+          "数据",
+          "assmod"
+        ],
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "光谱",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "趋势项",
+      "relation": "分离",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "趋势项",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "随机项",
+      "relation": "分离",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "随机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "固有模态函数(IMF)",
+      "relation": "生成",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "函数",
+          "conj"
+        ],
+        [
+          "固有",
+          "amod"
+        ],
+        [
+          "模态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "残余函数(RF)",
+      "relation": "生成",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "分解",
+          "conj"
+        ],
+        [
+          "项",
+          "dobj"
+        ],
+        [
+          "函数",
+          "nn"
+        ],
+        [
+          "IMF",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "残余",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AR模型",
+      "object": "IMF分量",
+      "relation": "建模",
+      "path": [
+        [
+          "AR",
+          "nn"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "分量",
+          "assmod"
+        ],
+        [
+          "IMF",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "RVM模型",
+      "object": "RF分量",
+      "relation": "建模",
+      "path": [
+        [
+          "RVM",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "分量",
+          "assmod"
+        ],
+        [
+          "RF",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "量子粒子群优化算法",
+      "object": "RVM的最优核参数",
+      "relation": "搜索",
+      "path": [
+        [
+          "量子",
+          "nn"
+        ],
+        [
+          "粒子群",
+          "nn"
+        ],
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "进化",
+          "conj"
+        ],
+        [
+          "搜索",
+          "dep"
+        ],
+        [
+          "维数",
+          "dobj"
+        ],
+        [
+          "RVM",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "最优核",
+          "amod"
+        ],
+        [
+          "参数",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "量子粒子群优化算法",
+      "object": "RVM的嵌入维数",
+      "relation": "搜索",
+      "path": [
+        [
+          "量子",
+          "nn"
+        ],
+        [
+          "粒子群",
+          "nn"
+        ],
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "进化",
+          "conj"
+        ],
+        [
+          "搜索",
+          "dep"
+        ],
+        [
+          "维数",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "嵌入",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "留一交叉验证误差",
+      "object": "适应度函数",
+      "relation": "作为",
+      "path": [
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "交叉",
+          "advmod"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "误差",
+          "dobj"
+        ],
+        [
+          "留",
+          "conj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "函数",
+          "dobj"
+        ],
+        [
+          "适应度",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "最终预测值",
+      "object": "各AR模型和RVM模型的预测值",
+      "relation": "由...叠加",
+      "path": [
+        [
+          "最终",
+          "amod"
+        ],
+        [
+          "预测值",
+          "dobj"
+        ],
+        [
+          "作为",
+          "dep"
+        ],
+        [
+          "叠加",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "留",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "分量",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "RVM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 127
+        },
+        {
+          "sentence_index": 0,
+          "id": 128
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 125
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于EMD和RVM-AR的预测方法",
+      "object": "AR方法",
+      "relation": "优于",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于EMD和RVM-AR的预测方法",
+      "object": "SVM方法",
+      "relation": "优于",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "相比",
+          "prep"
+        ],
+        [
+          "方法",
+          "pobj"
+        ],
+        [
+          "SVM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 142
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 138
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于EMD和RVM-AR的预测方法",
+      "object": "Fe元素的预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "精度",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 142
+        },
+        {
+          "sentence_index": 0,
+          "id": 147
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        },
+        {
+          "sentence_index": 0,
+          "id": 145
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于EMD和RVM-AR的预测方法",
+      "object": "Si元素的预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "assmod"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "具有",
+          "ccomp"
+        ],
+        [
+          "精度",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 142
+        },
+        {
+          "sentence_index": 0,
+          "id": 147
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        },
+        {
+          "sentence_index": 0,
+          "id": 145
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

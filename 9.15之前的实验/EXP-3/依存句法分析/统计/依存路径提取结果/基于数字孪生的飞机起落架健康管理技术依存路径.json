@@ -1,0 +1,1228 @@
+{
+  "title": "基于数字孪生的飞机起落架健康管理技术",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "数字孪生健康管理技术",
+      "object": "飞机起落架系统",
+      "relation": "针对",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "起落架",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统健康管理方式",
+      "object": "知识不完备",
+      "relation": "存在",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "知识",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统健康管理方式",
+      "object": "数据不平衡",
+      "relation": "存在",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "平衡",
+          "conj"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统健康管理方式",
+      "object": "模型固化",
+      "relation": "存在",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "固化",
+          "conj"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理框架",
+      "object": "自更新模型",
+      "relation": "基于",
+      "path": [
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理框架",
+      "object": "故障诊断",
+      "relation": "实现",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理框架",
+      "object": "故障预测",
+      "relation": "实现",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "孪生模型",
+      "object": "数字映射",
+      "relation": "实现",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "驱动",
+          "assmod"
+        ],
+        [
+          "数字",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "强化学习算法",
+      "object": "数字孪生模型参数",
+      "relation": "用于更新",
+      "path": [
+        [
+          "强化",
+          "nn"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 3
+        },
+        {
+          "sentence_index": 5,
+          "id": 4
+        },
+        {
+          "sentence_index": 5,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "孪生模型",
+      "object": "实体健康状态",
+      "relation": "跟踪",
+      "path": [
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "孪生模型",
+      "object": "实体健康状态",
+      "relation": "反映",
+      "path": [
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "完备",
+          "vmod"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理技术",
+      "object": "基于事件的故障诊断方案",
+      "relation": "设计",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理技术",
+      "object": "基于粒子滤波的故障预测方案",
+      "relation": "设计",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "框架",
+          "dobj"
+        ],
+        [
+          "为",
+          "rcmod"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理技术",
+      "object": "起落架收放系统",
+      "relation": "验证于",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "存在",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "系统",
+          "pobj"
+        ],
+        [
+          "起落架",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生健康管理技术",
+      "object": "传统方法",
+      "relation": "优于",
+      "path": [
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "方式",
+          "nsubj"
+        ],
+        [
+          "传统",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

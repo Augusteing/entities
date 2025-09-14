@@ -1,0 +1,292 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM(预测与健康管理)"
+    },
+    {
+      "type": "机构",
+      "text": "空军装备研究院"
+    },
+    {
+      "type": "机构",
+      "text": "空军指挥学院"
+    },
+    {
+      "type": "技术",
+      "text": "V&V(verification and validation,验证与确认)"
+    },
+    {
+      "type": "技术",
+      "text": "HUMS(健康和使用监控系统)"
+    },
+    {
+      "type": "技术",
+      "text": "ADAPT(先进诊断预测测试平台)"
+    },
+    {
+      "type": "技术",
+      "text": "EMA(electro-mechanical actuators)"
+    },
+    {
+      "type": "技术",
+      "text": "FUMS64"
+    },
+    {
+      "type": "技术",
+      "text": "SHM(structure health management)"
+    },
+    {
+      "type": "技术",
+      "text": "BITE(机内测试设备)"
+    },
+    {
+      "type": "技术",
+      "text": "CFD(计算流体动力学)"
+    },
+    {
+      "type": "文献",
+      "text": "IEEE Aerospace Conference"
+    },
+    {
+      "type": "文献",
+      "text": "AIAA Infotech@ Aerospace"
+    },
+    {
+      "type": "文献",
+      "text": "International Conference on Prognostics and Health Management"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测率"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障隔离率"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均故障间隔时间"
+    },
+    {
+      "type": "性能指标",
+      "text": "算法的稳定性"
+    },
+    {
+      "type": "性能指标",
+      "text": "灵敏度"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均偏差"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均故障预测时间"
+    },
+    {
+      "type": "性能指标",
+      "text": "收敛性"
+    },
+    {
+      "type": "性能指标",
+      "text": "置信水平"
+    },
+    {
+      "type": "性能指标",
+      "text": "寿命周期费用"
+    },
+    {
+      "type": "性能指标",
+      "text": "投资回报率"
+    },
+    {
+      "type": "性能指标",
+      "text": "技术价值"
+    },
+    {
+      "type": "性能指标",
+      "text": "总体价值"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "PHM(预测与健康管理)",
+      "tail": "航空装备"
+    },
+    {
+      "type": "位于",
+      "head": "空军装备研究院",
+      "tail": "北京"
+    },
+    {
+      "type": "位于",
+      "head": "空军指挥学院",
+      "tail": "北京"
+    },
+    {
+      "type": "包含",
+      "head": "V&V(verification and validation,验证与确认)",
+      "tail": "PHM系统"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS(健康和使用监控系统)",
+      "tail": "直升机"
+    },
+    {
+      "type": "建立",
+      "head": "NASA",
+      "tail": "ADAPT(先进诊断预测测试平台)"
+    },
+    {
+      "type": "验证",
+      "head": "ADAPT(先进诊断预测测试平台)",
+      "tail": "诊断模型"
+    },
+    {
+      "type": "验证",
+      "head": "ADAPT(先进诊断预测测试平台)",
+      "tail": "预测与健康管理技术"
+    },
+    {
+      "type": "使用",
+      "head": "EMA(electro-mechanical actuators)",
+      "tail": "新一代飞机和航天器"
+    },
+    {
+      "type": "设计开发",
+      "head": "英国史密斯公司",
+      "tail": "FUMS64"
+    },
+    {
+      "type": "合作",
+      "head": "英国史密斯公司",
+      "tail": "英国国防部"
+    },
+    {
+      "type": "关联",
+      "head": "SHM(structure health management)",
+      "tail": "机体结构"
+    },
+    {
+      "type": "设计",
+      "head": "航电系统 PHM",
+      "tail": "BITE(机内测试设备)"
+    },
+    {
+      "type": "验证",
+      "head": "CFD(计算流体动力学)",
+      "tail": "反推蜗壳处增加压力测点"
+    },
+    {
+      "type": "发表",
+      "head": "The joint strike fighter (JSF) PHM concept: potential impact on aging aircraft problems",
+      "tail": "IEEE Aerospace Conference"
+    },
+    {
+      "type": "发表",
+      "head": "Advanced diagnostics and prognostics testbed",
+      "tail": "18th International Workshop on Principles of Diagnosis"
+    },
+    {
+      "type": "发表",
+      "head": "Experimental validation of a prognostic health management system for electromechanical actuators",
+      "tail": "AIAA Infotech@ Aerospace"
+    },
+    {
+      "type": "发表",
+      "head": "Prognostics performance metrics and their relation to requirements, design, verification and cost-benefit",
+      "tail": "2008 International Conference on Prognostics and Health Management"
+    },
+    {
+      "type": "发表",
+      "head": "Evaluating algorithm performance metrics tailored for prognostics",
+      "tail": "2009 IEEE Aerospace Conference"
+    },
+    {
+      "type": "包含",
+      "head": "PHM指标体系",
+      "tail": "故障检测率"
+    },
+    {
+      "type": "包含",
+      "head": "PHM指标体系",
+      "tail": "故障隔离率"
+    },
+    {
+      "type": "包含",
+      "head": "PHM指标体系",
+      "tail": "虚警率"
+    },
+    {
+      "type": "包含",
+      "head": "PHM指标体系",
+      "tail": "平均故障间隔时间"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "算法的稳定性"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "灵敏度"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "预测精度"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "平均偏差"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "平均故障预测时间"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "收敛性"
+    },
+    {
+      "type": "包含",
+      "head": "预测性能指标",
+      "tail": "置信水平"
+    },
+    {
+      "type": "包含",
+      "head": "费效性能指标",
+      "tail": "寿命周期费用"
+    },
+    {
+      "type": "包含",
+      "head": "费效性能指标",
+      "tail": "投资回报率"
+    },
+    {
+      "type": "包含",
+      "head": "费效性能指标",
+      "tail": "技术价值"
+    },
+    {
+      "type": "包含",
+      "head": "费效性能指标",
+      "tail": "总体价值"
+    }
+  ]
+}

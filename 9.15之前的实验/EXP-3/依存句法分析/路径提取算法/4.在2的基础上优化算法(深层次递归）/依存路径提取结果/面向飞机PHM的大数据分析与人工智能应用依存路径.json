@@ -1,0 +1,1408 @@
+{
+  "title": "面向飞机PHM的大数据分析与人工智能应用",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "新一代飞机",
+      "object": "复杂的系统结构",
+      "relation": "具有",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "飞机",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "机理",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "conj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新一代飞机",
+      "object": "复杂的失效机理",
+      "relation": "具有",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "飞机",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "机理",
+          "nsubj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "失效",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新一代飞机",
+      "object": "多样的失效模式",
+      "relation": "具有",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "飞机",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "失效",
+          "amod"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统方法",
+      "object": "有效健康管理",
+      "relation": "难以实现",
+      "path": [
+        [
+          "传统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "管理",
+          "dobj"
+        ],
+        [
+          "有效",
+          "amod"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM",
+      "object": "海量数据挖掘",
+      "relation": "应用",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "数据预处理",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "集成管理",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "管理",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "聚类",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "论述",
+          "conj"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "聚类",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "分类",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "论述",
+          "conj"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "分类",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "关联",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "论述",
+          "conj"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "关联",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "海量数据挖掘",
+      "object": "预测",
+      "relation": "包含",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "论述",
+          "conj"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "预测",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM海量数据挖掘平台",
+      "object": "私有云",
+      "relation": "基于",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "私有云",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 59
+        },
+        {
+          "sentence_index": 1,
+          "id": 71
+        },
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM海量数据挖掘平台",
+      "object": "总体框架",
+      "relation": "具有",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "阐述",
+          "conj"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "总体",
+          "nn"
+        ],
+        [
+          "框架",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 74
+        },
+        {
+          "sentence_index": 1,
+          "id": 83
+        },
+        {
+          "sentence_index": 1,
+          "id": 79
+        },
+        {
+          "sentence_index": 1,
+          "id": 80
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM海量数据挖掘平台",
+      "object": "软硬件结构",
+      "relation": "具有",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "机理",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM海量数据挖掘平台",
+      "object": "验证平台",
+      "relation": "提供",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "复杂",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "平台",
+          "dobj"
+        ],
+        [
+          "验证",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 90
+        },
+        {
+          "sentence_index": 1,
+          "id": 93
+        },
+        {
+          "sentence_index": 1,
+          "id": 92
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机PHM海量数据挖掘平台",
+      "object": "飞机PHM的集成与工程化实现",
+      "relation": "促进",
+      "path": [
+        [
+          "海量",
+          "amod"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "挖掘",
+          "pobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

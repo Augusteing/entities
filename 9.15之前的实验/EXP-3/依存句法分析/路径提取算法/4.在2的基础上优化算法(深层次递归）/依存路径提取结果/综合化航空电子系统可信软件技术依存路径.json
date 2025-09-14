@@ -1,0 +1,1044 @@
+{
+  "title": "综合化航空电子系统可信软件技术",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 9,
+    "cross_sentence_path_found": 9
+  },
+  "pairs": [
+    {
+      "subject": "航空电子系统",
+      "object": "确定性",
+      "relation": "要求",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "具有",
+          "dep"
+        ],
+        [
+          "可控性",
+          "dobj"
+        ],
+        [
+          "确定性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子系统",
+      "object": "可预测性",
+      "relation": "要求",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "具有",
+          "dep"
+        ],
+        [
+          "可控性",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子系统",
+      "object": "可控性",
+      "relation": "要求",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "具有",
+          "dep"
+        ],
+        [
+          "可控性",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统软件",
+      "object": "安全性需求",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统软件",
+      "object": "可靠性需求",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统软件",
+      "object": "完整性需求",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "完整性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统软件",
+      "object": "实时性需求",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可信计算",
+      "object": "综合化航空电子系统",
+      "relation": "引入",
+      "path": [
+        [
+          "可信",
+          "amod"
+        ],
+        [
+          "计算",
+          "nsubj"
+        ],
+        [
+          "引入",
+          "root"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统",
+      "object": "可信软件体系结构",
+      "relation": "建立",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可信软件体系结构",
+      "object": "软件可信运行环境构建方法",
+      "relation": "支持",
+      "path": [
+        [
+          "软件",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可信软件体系结构",
+      "object": "可靠性增强技术",
+      "relation": "支持",
+      "path": [
+        [
+          "软件",
+          "nn"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性增强技术",
+      "object": "综合化航空电子系统的可预测性",
+      "relation": "保障",
+      "path": [
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ],
+        [
+          "实时性",
+          "nn"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统可信软件",
+      "object": "飞机任务的执行",
+      "relation": "保障",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "执行",
+          "dobj"
+        ],
+        [
+          "任务",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统可信软件",
+      "object": "飞机安全",
+      "relation": "保障",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "保障",
+          "root"
+        ],
+        [
+          "具有",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "保证",
+          "pccomp"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "任务",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 20
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合化航空电子系统可信软件",
+      "object": "中国大飞机",
+      "relation": "应用于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "要求",
+          "root"
+        ],
+        [
+          "引入",
+          "root"
+        ],
+        [
+          "中",
+          "loc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

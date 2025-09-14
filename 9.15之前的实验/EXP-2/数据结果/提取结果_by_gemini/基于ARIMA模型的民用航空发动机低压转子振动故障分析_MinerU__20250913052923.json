@@ -1,0 +1,21 @@
+{
+  "status": "ready",
+  "task": "Entity and Relationship Extraction from Academic Literature",
+  "domain": "Aerospace PHM",
+  "entity_types": [
+    "Means/Tool",
+    "Research Object",
+    "Research Result"
+  ],
+  "relationship_types": [
+    "Evolution",
+    "Innovation",
+    "Comparison",
+    "Dependency",
+    "Functionality",
+    "Causality",
+    "Composition",
+    "Combination"
+  ],
+  "output_schema": "[{\"source_entity\": \"string\", \"relationship\": \"string\", \"target_entity\": \"string\"}]"
+}

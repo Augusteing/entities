@@ -1,0 +1,1084 @@
+{
+  "title": "飞机液压泵源预测与健康管理系统",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "体系结构总体方案",
+      "relation": "提出",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "总体",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "机载液压泵源健康监测系统",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "地面维护管理系统",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载液压泵源健康监测系统",
+      "object": "数字信号处理器",
+      "relation": "基于",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "处理器",
+          "pobj"
+        ],
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "信号",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "故障诊断算法",
+      "relation": "采用",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "给出",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "典型液压泵源系统故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "保障",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "典型",
+          "amod"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "后勤保障",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "保障",
+          "pobj"
+        ],
+        [
+          "后勤",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "地面维护管理系统",
+      "object": "地面维护管理数据库",
+      "relation": "包含",
+      "path": [
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "数据库",
+          "dobj"
+        ],
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机液压泵源预测与健康管理系统",
+      "object": "飞机液压泵源系统",
+      "relation": "管理",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "要求",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "泵源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

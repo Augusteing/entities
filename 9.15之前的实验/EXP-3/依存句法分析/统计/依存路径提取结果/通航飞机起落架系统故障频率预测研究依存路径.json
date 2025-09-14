@@ -1,0 +1,700 @@
+{
+  "title": "通航飞机起落架系统故障频率预测研究",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "时序回归预测技术",
+      "object": "模糊信息粒化",
+      "relation": "融合",
+      "path": [
+        [
+          "时序",
+          "nn"
+        ],
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "模糊",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "粒化",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "时序回归预测技术",
+      "object": "支持向量机",
+      "relation": "融合",
+      "path": [
+        [
+          "时序",
+          "nn"
+        ],
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "模糊",
+          "rcmod"
+        ],
+        [
+          "支持",
+          "dep"
+        ],
+        [
+          "向量机",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "时序回归预测技术",
+      "object": "起落架系统故障频率",
+      "relation": "预测",
+      "path": [
+        [
+          "时序",
+          "nn"
+        ],
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "频率",
+          "dobj"
+        ],
+        [
+          "发生",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "起落架",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "时序回归预测技术",
+      "object": "起落架故障数据",
+      "relation": "基于",
+      "path": [
+        [
+          "时序",
+          "nn"
+        ],
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "频率",
+          "dobj"
+        ],
+        [
+          "发生",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "起落架",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究",
+      "object": "预防维修",
+      "relation": "旨在实现",
+      "path": [
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "变",
+          "conj"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "维修",
+          "attr"
+        ],
+        [
+          "预防",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预防维修",
+      "object": "飞行安全",
+      "relation": "保证",
+      "path": [
+        [
+          "预防",
+          "nn"
+        ],
+        [
+          "维修",
+          "attr"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "变",
+          "conj"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "保证",
+          "conj"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测结果",
+      "object": "技术支持",
+      "relation": "提供",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "模糊",
+          "rcmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "支持",
+          "dep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术支持",
+      "object": "机务维修",
+      "relation": "用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "支持",
+          "dep"
+        ],
+        [
+          "模糊",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "变",
+          "conj"
+        ],
+        [
+          "维修",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测结果",
+      "object": "起落架故障频率的变化趋势",
+      "relation": "揭示",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "频率",
+          "dobj"
+        ],
+        [
+          "发生",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

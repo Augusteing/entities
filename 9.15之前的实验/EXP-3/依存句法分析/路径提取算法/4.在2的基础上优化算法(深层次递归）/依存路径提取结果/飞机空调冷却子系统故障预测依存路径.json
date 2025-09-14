@@ -1,0 +1,1064 @@
+{
+  "title": "飞机空调冷却子系统故障预测",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "飞机空调冷却子系统",
+      "object": "维修次数超警戒",
+      "relation": "存在问题",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "空调",
+          "nn"
+        ],
+        [
+          "冷却子",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "警戒",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "维修次数超警戒",
+      "object": "航空公司运营效率低下",
+      "relation": "导致",
+      "path": [
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "警戒",
+          "dobj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "导致",
+          "conj"
+        ],
+        [
+          "低下",
+          "ccomp"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "公司",
+          "nn"
+        ],
+        [
+          "运营",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "失效模型建立新方法",
+      "object": "系统失效数据",
+      "relation": "基于",
+      "path": [
+        [
+          "失效",
+          "amod"
+        ],
+        [
+          "建立",
+          "vmod"
+        ],
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "失效",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "扩展Weibull分步建模",
+      "object": "热交换器",
+      "relation": "应用于",
+      "path": [
+        [
+          "扩展",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "Weibull",
+          "nn"
+        ],
+        [
+          "分步",
+          "amod"
+        ],
+        [
+          "建模",
+          "dobj"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "部件",
+          "pobj"
+        ],
+        [
+          "交换器",
+          "nn"
+        ],
+        [
+          "热",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "热交换器",
+      "object": "飞机空调冷却子系统",
+      "relation": "属于",
+      "path": [
+        [
+          "热",
+          "amod"
+        ],
+        [
+          "交换器",
+          "nn"
+        ],
+        [
+          "部件",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "空调",
+          "nn"
+        ],
+        [
+          "冷却子",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "更新过程",
+      "object": "期望失效数",
+      "relation": "解出",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "失效",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "幂律过程建模",
+      "object": "飞机空调冷却子系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "建模",
+          "dobj"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "空调",
+          "nn"
+        ],
+        [
+          "冷却子",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "拉普拉斯算法",
+      "object": "故障趋势预测",
+      "relation": "用于",
+      "path": [
+        [
+          "拉普拉斯",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "使用",
+          "conj"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "理论计算与实际维修资料对比",
+      "object": "模型准确性",
+      "relation": "验证",
+      "path": [
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "失效模型",
+      "object": "故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "失效",
+          "amod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "运用",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "失效模型",
+      "object": "拟定可靠性方案",
+      "relation": "用于",
+      "path": [
+        [
+          "失效",
+          "amod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "用于",
+          "root"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "拟定",
+          "conj"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 14
+        },
+        {
+          "sentence_index": 4,
+          "id": 18
+        },
+        {
+          "sentence_index": 4,
+          "id": 19
+        },
+        {
+          "sentence_index": 4,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "失效模型",
+      "object": "维修计划",
+      "relation": "修改",
+      "path": [
+        [
+          "失效",
+          "amod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "超",
+          "rcmod"
+        ],
+        [
+          "次数",
+          "nsubj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1244 @@
+{
+  "title": "飞机PHM系统故障诊断能力外场验证模型",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "预测与健康管理系统(PHM)",
+      "relation": "针对",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ],
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理系统(PHM)",
+      "object": "外场验证和评价技术手段",
+      "relation": "缺乏",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "nsubj"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "手段",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "评价",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "先验信息",
+      "relation": "基于",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ],
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "先验",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "诊断信息",
+      "relation": "利用",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ],
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "诊断信息",
+      "object": "LRU(外场可更换单元)",
+      "relation": "来自",
+      "path": [
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "手段",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "外场",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "诊断能力指标先验估计值",
+      "relation": "确定",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "能力",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "外场数据",
+      "relation": "利用",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ],
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "手段",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "外场",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "外场数据",
+      "object": "先验分布",
+      "relation": "修正",
+      "path": [
+        [
+          "外场",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "手段",
+          "dobj"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "先验",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先验分布",
+      "object": "后验分布",
+      "relation": "形成",
+      "path": [
+        [
+          "先验",
+          "amod"
+        ],
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "后",
+          "loc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "后验分布",
+      "object": "PHM诊断能力参数后验估计值",
+      "relation": "用于得到",
+      "path": [
+        [
+          "后",
+          "loc"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障检测率",
+      "object": "典型测试性参数",
+      "relation": "是",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测率",
+          "conj"
+        ],
+        [
+          "隔离率",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "验",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 57
+        },
+        {
+          "sentence_index": 1,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障隔离率",
+      "object": "典型测试性参数",
+      "relation": "是",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "隔离率",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "验",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 57
+        },
+        {
+          "sentence_index": 1,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM诊断能力外场评估和验证方法",
+      "object": "小样本条件下外场评估的工程实际需要",
+      "relation": "满足",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "能力",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "外场",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

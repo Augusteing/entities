@@ -1,0 +1,644 @@
+{
+  "title": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "模糊理论",
+      "object": "PHM平台功能",
+      "relation": "确立",
+      "path": [
+        [
+          "模糊",
+          "nn"
+        ],
+        [
+          "理论",
+          "pobj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "确立",
+          "root"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "灰色关联法",
+      "object": "客户需求重要度排序",
+      "relation": "用于",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "关联法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "排序",
+          "dobj"
+        ],
+        [
+          "重要度",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "ARIMA模型",
+      "object": "客户需求的动态特征",
+      "relation": "求解",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "ARIMA",
+          "prnmod"
+        ],
+        [
+          "平均",
+          "nn"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "求解",
+          "conj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "客户",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "质量屋",
+      "object": "PLM服务资源与客户需求的匹配度",
+      "relation": "衡量",
+      "path": [
+        [
+          "质量屋",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "衡量",
+          "root"
+        ],
+        [
+          "确立",
+          "root"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "客户",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "匹配度",
+      "object": "客户满意度",
+      "relation": "反映",
+      "path": [
+        [
+          "匹配度",
+          "dobj"
+        ],
+        [
+          "衡量",
+          "root"
+        ],
+        [
+          "确立",
+          "root"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "客户",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机故障诊断和健康管理",
+      "object": "PHM",
+      "relation": "简称",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "全生命周期管理",
+      "object": "PLM",
+      "relation": "简称",
+      "path": [
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "功能",
+          "dobj"
+        ],
+        [
+          "确立",
+          "root"
+        ],
+        [
+          "衡量",
+          "root"
+        ],
+        [
+          "匹配度",
+          "dobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "PLM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "质量屋",
+      "object": "HOQ",
+      "relation": "简称",
+      "path": [
+        [
+          "质量屋",
+          "pobj"
+        ],
+        [
+          "of",
+          "prnmod"
+        ],
+        [
+          "HOQ",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自回归求和移动平均模型",
+      "object": "ARIMA模型",
+      "relation": "简称",
+      "path": [
+        [
+          "自回归求",
+          "nn"
+        ],
+        [
+          "平均",
+          "nn"
+        ],
+        [
+          "ARIMA",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "模型",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1040 @@
+{
+  "title": "基于多状态MOG-HMM和Viterbi的航空发动机突发故障预测",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "突发故障",
+      "relation": "预测",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "突发",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "航空发动机",
+      "relation": "应用于",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "发动机",
+          "assmod"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "多状态混合高斯隐马尔科夫模型",
+      "relation": "结合",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "混合",
+          "amod"
+        ],
+        [
+          "高斯隐马尔科夫",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "Viterbi算法",
+      "relation": "结合",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "和",
+          "prep"
+        ],
+        [
+          "算法",
+          "pobj"
+        ],
+        [
+          "Viterbi",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多状态MOG-HMM模型",
+      "object": "历史监测数据",
+      "relation": "建立于",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "根据",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "历史",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多状态MOG-HMM模型",
+      "object": "状态转移矩阵",
+      "relation": "确定",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多状态MOG-HMM模型",
+      "object": "观察值概率分布",
+      "relation": "确定",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "确定",
+          "conj"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "分布",
+          "conj"
+        ],
+        [
+          "观察值",
+          "nn"
+        ],
+        [
+          "概率",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多状态MOG-HMM模型",
+      "object": "突发故障状态",
+      "relation": "确定",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "发动机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "突发",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Viterbi算法",
+      "object": "当前状态",
+      "relation": "解码",
+      "path": [
+        [
+          "Viterbi",
+          "nn"
+        ],
+        [
+          "算法",
+          "pobj"
+        ],
+        [
+          "和",
+          "prep"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "pobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Viterbi算法",
+      "object": "新采集的观测数据",
+      "relation": "处理",
+      "path": [
+        [
+          "Viterbi",
+          "nn"
+        ],
+        [
+          "算法",
+          "pobj"
+        ],
+        [
+          "和",
+          "prep"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "解码",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "采集",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "观测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "时间间隔",
+      "relation": "计算",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "计算",
+          "conj"
+        ],
+        [
+          "间隔",
+          "dobj"
+        ],
+        [
+          "时间",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 60
+        },
+        {
+          "sentence_index": 1,
+          "id": 69
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于多状态MOG-HMM和Viterbi的预测方法",
+      "object": "标准预测指标",
+      "relation": "符合",
+      "path": [
+        [
+          "MOG-HMM",
+          "dobj"
+        ],
+        [
+          "简称",
+          "dep"
+        ],
+        [
+          "mixture",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

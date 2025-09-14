@@ -1,0 +1,704 @@
+{
+  "title": "发动机数据监视和存储策略",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "应用策略",
+      "object": "发动机健康管理系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "应用",
+          "nn"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载设备",
+      "object": "在线监测",
+      "relation": "具有",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "设备",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "vmod"
+        ],
+        [
+          "要求",
+          "pobj"
+        ],
+        [
+          "监测",
+          "vmod"
+        ],
+        [
+          "在线",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载设备",
+      "object": "大容量存储发动机工作数据",
+      "relation": "具有",
+      "path": [
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "设备",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "vmod"
+        ],
+        [
+          "要求",
+          "pobj"
+        ],
+        [
+          "监测",
+          "vmod"
+        ],
+        [
+          "存储",
+          "dep"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "容量",
+          "dep"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "工作",
+          "nn"
+        ],
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "应用策略",
+      "object": "多任务管理",
+      "relation": "包含",
+      "path": [
+        [
+          "应用",
+          "nn"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "任务",
+          "nn"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "管理",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "应用策略",
+      "object": "存储管理",
+      "relation": "包含",
+      "path": [
+        [
+          "应用",
+          "nn"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "存储",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多任务管理",
+      "object": "优先级抢占机制",
+      "relation": "采用",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "管理",
+          "conj"
+        ],
+        [
+          "任务",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "机制",
+          "dobj"
+        ],
+        [
+          "优先级",
+          "nn"
+        ],
+        [
+          "抢占",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "存储管理",
+      "object": "二级缓存模式",
+      "relation": "采用",
+      "path": [
+        [
+          "存储",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "模式",
+          "dobj"
+        ],
+        [
+          "二",
+          "ordmod"
+        ],
+        [
+          "级",
+          "clf"
+        ],
+        [
+          "缓存",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计策略",
+      "object": "VxWorks操作系统",
+      "relation": "实现于",
+      "path": [
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计策略",
+      "object": "HRFS文件系统",
+      "relation": "实现于",
+      "path": [
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "设计策略",
+      "object": "可行性",
+      "relation": "验证了",
+      "path": [
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "实现",
+          "root"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "可行性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

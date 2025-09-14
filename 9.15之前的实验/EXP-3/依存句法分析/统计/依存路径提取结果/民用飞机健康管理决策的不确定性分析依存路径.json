@@ -1,0 +1,756 @@
+{
+  "title": "民用飞机健康管理决策的不确定性分析",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "飞机健康管理",
+      "object": "飞行安全",
+      "relation": "保证",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dobj"
+        ],
+        [
+          "实施",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "保证",
+          "rcmod"
+        ],
+        [
+          "经济",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "安全",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机健康管理",
+      "object": "经济",
+      "relation": "保证",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "dobj"
+        ],
+        [
+          "实施",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "手段",
+          "attr"
+        ],
+        [
+          "保证",
+          "rcmod"
+        ],
+        [
+          "经济",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康管理决策",
+      "object": "不确定性",
+      "relation": "存在",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态监测",
+      "object": "不确定性",
+      "relation": "引入",
+      "path": [
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "环节",
+          "lobj"
+        ],
+        [
+          "中",
+          "loc"
+        ],
+        [
+          "引入",
+          "rcmod"
+        ],
+        [
+          "不确定性",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "展开",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "信号检测与处理",
+      "object": "不确定性",
+      "relation": "引入",
+      "path": [
+        [
+          "信号",
+          "nn"
+        ],
+        [
+          "检测",
+          "conj"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "确定",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "展开",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "阈值确定",
+      "object": "不确定性",
+      "relation": "引入",
+      "path": [
+        [
+          "阈值",
+          "nn"
+        ],
+        [
+          "确定",
+          "nn"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "展开",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于模型的寿命预测",
+      "object": "不确定性",
+      "relation": "引入",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "来源",
+          "dobj"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "展开",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "维修决策",
+      "object": "不确定性",
+      "relation": "引入",
+      "path": [
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "对策",
+      "object": "降低不确定性",
+      "relation": "用于",
+      "path": [
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "实施",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "展开",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "不确定性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

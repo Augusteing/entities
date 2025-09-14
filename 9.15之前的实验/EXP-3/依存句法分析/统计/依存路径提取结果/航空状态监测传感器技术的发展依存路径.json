@@ -1,0 +1,600 @@
+{
+  "title": "航空状态监测传感器技术的发展",
+  "stats": {
+    "total_pairs": 6,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "航空状态监测传感器",
+      "object": "飞机健康管理",
+      "relation": "支撑",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "基础",
+          "attr"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型航空状态监测传感器",
+      "object": "MEMS",
+      "relation": "基于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "概述",
+          "root"
+        ],
+        [
+          "做",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "进展",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "原理",
+          "dobj"
+        ],
+        [
+          "MEMS",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型航空状态监测传感器",
+      "object": "光纤",
+      "relation": "基于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "概述",
+          "root"
+        ],
+        [
+          "做",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "进展",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "原理",
+          "dobj"
+        ],
+        [
+          "光纤",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型航空状态监测传感器",
+      "object": "无线传感网络",
+      "relation": "基于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "概述",
+          "root"
+        ],
+        [
+          "做",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "进展",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "原理",
+          "dobj"
+        ],
+        [
+          "网络",
+          "conj"
+        ],
+        [
+          "无线",
+          "amod"
+        ],
+        [
+          "传感",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型航空状态监测传感器",
+      "object": "静电感应原理",
+      "relation": "基于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "概述",
+          "root"
+        ],
+        [
+          "做",
+          "conj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "进展",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "原理",
+          "dobj"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "感应",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新型航空状态监测传感器",
+      "object": "航空状态监测传感器",
+      "relation": "属于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "传感器",
+          "top"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

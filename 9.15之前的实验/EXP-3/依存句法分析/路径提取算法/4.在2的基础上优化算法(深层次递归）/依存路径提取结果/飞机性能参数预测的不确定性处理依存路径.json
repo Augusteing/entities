@@ -1,0 +1,1064 @@
+{
+  "title": "飞机性能参数预测的不确定性处理",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "飞机性能参数",
+      "object": "故障预报",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机性能参数",
+      "object": "状态监控",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "监控",
+          "dobj"
+        ],
+        [
+          "状态",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机性能参数",
+      "object": "非线性",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "非线性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机性能参数",
+      "object": "噪声",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "噪声",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "噪声",
+      "object": "不确定性",
+      "relation": "导致",
+      "path": [
+        [
+          "噪声",
+          "dobj"
+        ],
+        [
+          "包含",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "具有",
+          "dep"
+        ],
+        [
+          "不确定性",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "飞机性能参数预测",
+      "relation": "处理",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "性能",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "线性约束",
+      "relation": "通过增加",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "解决",
+          "dep"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "增加",
+          "rcmod"
+        ],
+        [
+          "约束",
+          "dobj"
+        ],
+        [
+          "线性",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "增加线性约束",
+      "object": "不确定性问题",
+      "relation": "解决",
+      "path": [
+        [
+          "增加",
+          "rcmod"
+        ],
+        [
+          "线性",
+          "amod"
+        ],
+        [
+          "约束",
+          "dobj"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "解决",
+          "dep"
+        ],
+        [
+          "研究",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "具有",
+          "dep"
+        ],
+        [
+          "不确定性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "结果",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "序列最小最优化算法",
+      "relation": "利用",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "序列",
+          "nn"
+        ],
+        [
+          "最",
+          "advmod"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "最优化",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        },
+        {
+          "sentence_index": 3,
+          "id": 22
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "序列最小最优化算法",
+      "object": "大规模二次规划",
+      "relation": "用于处理",
+      "path": [
+        [
+          "序列",
+          "nn"
+        ],
+        [
+          "最",
+          "advmod"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "最优化",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "适用于",
+          "rcmod"
+        ],
+        [
+          "处理",
+          "ccomp"
+        ],
+        [
+          "规划",
+          "dobj"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "二次",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 22
+        },
+        {
+          "sentence_index": 3,
+          "id": 23
+        },
+        {
+          "sentence_index": 3,
+          "id": 24
+        },
+        {
+          "sentence_index": 3,
+          "id": 25
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 20
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "大数据量预测问题",
+      "relation": "解决",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "结果",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "非线性支持向量机",
+      "object": "飞机安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "非线性",
+          "dobj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "重要",
+          "root"
+        ],
+        [
+          "利用",
+          "top"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真数据",
+      "object": "非线性支持向量机",
+      "relation": "用于验证",
+      "path": [
+        [
+          "仿真",
+          "amod"
+        ],
+        [
+          "数据",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "非线性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

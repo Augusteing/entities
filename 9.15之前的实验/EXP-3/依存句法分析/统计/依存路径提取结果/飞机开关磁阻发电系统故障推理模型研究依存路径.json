@@ -1,0 +1,996 @@
+{
+  "title": "飞机开关磁阻发电系统故障推理模型研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "开关磁阻发电系统",
+      "object": "飞机供电系统",
+      "relation": "是核心部分",
+      "path": [
+        [
+          "开关",
+          "nn"
+        ],
+        [
+          "磁阻",
+          "nn"
+        ],
+        [
+          "发电",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "部分",
+          "attr"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "供电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "MATLAB软件",
+      "object": "仿真分析",
+      "relation": "用于",
+      "path": [
+        [
+          "MATLAB",
+          "nn"
+        ],
+        [
+          "软件",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "仿真",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真分析",
+      "object": "开关磁阻发电机典型电气故障",
+      "relation": "针对",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "开关",
+          "nn"
+        ],
+        [
+          "磁阻",
+          "nn"
+        ],
+        [
+          "发电机",
+          "nn"
+        ],
+        [
+          "典型",
+          "amod"
+        ],
+        [
+          "电气",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "记忆模块",
+      "object": "代数环问题",
+      "relation": "解决",
+      "path": [
+        [
+          "记忆",
+          "nn"
+        ],
+        [
+          "模块",
+          "dobj"
+        ],
+        [
+          "引入",
+          "conj"
+        ],
+        [
+          "解决",
+          "conj"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "代数环",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EMD算法",
+      "object": "发电机输出电压信号",
+      "relation": "分解",
+      "path": [
+        [
+          "EMD",
+          "nn"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "故障",
+          "pobj"
+        ],
+        [
+          "发电机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "各层频率信号的标准差",
+      "object": "神经网络",
+      "relation": "训练",
+      "path": [
+        [
+          "各",
+          "det"
+        ],
+        [
+          "层",
+          "clf"
+        ],
+        [
+          "频率",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "后",
+          "assmod"
+        ],
+        [
+          "信号",
+          "assmod"
+        ],
+        [
+          "标准差",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络",
+      "object": "故障推理模型",
+      "relation": "生成",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障推理模型",
+      "object": "检测参数",
+      "relation": "减少",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "检测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障推理模型",
+      "object": "输出电压",
+      "relation": "测量",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "输出",
+          "nn"
+        ],
+        [
+          "电压",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障推理模型",
+      "object": "开关磁阻发电系统故障预测模型",
+      "relation": "奠定基础",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "开关",
+          "nn"
+        ],
+        [
+          "磁阻",
+          "nn"
+        ],
+        [
+          "发电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障推理模型",
+      "object": "飞机供电系统健康管理系统",
+      "relation": "奠定基础",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "减少",
+          "conj"
+        ],
+        [
+          "研究",
+          "pccomp"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "供电",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

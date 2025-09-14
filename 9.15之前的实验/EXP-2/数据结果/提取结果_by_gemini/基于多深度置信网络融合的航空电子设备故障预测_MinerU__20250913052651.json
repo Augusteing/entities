@@ -1,0 +1,42 @@
+[
+  {
+    "source": "信号处理",
+    "target": "特征提取",
+    "relation": "是...的基础"
+  },
+  {
+    "source": "特征提取",
+    "target": "智能诊断",
+    "relation": "应用于"
+  },
+  {
+    "source": "智能诊断",
+    "target": "故障模式",
+    "relation": "识别"
+  },
+  {
+    "source": "PHM系统",
+    "target": "健康管理",
+    "relation": "包含"
+  },
+  {
+    "source": "PHM系统",
+    "target": "状态监测",
+    "relation": "包含"
+  },
+  {
+    "source": "PHM系统",
+    "target": "预测维护",
+    "relation": "包含"
+  },
+  {
+    "source": "状态监测",
+    "target": "发动机",
+    "relation": "作用于"
+  },
+  {
+    "source": "预测方法",
+    "target": "寿命预测",
+    "relation": "实现"
+  }
+]

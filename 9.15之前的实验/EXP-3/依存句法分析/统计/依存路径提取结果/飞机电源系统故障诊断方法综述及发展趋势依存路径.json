@@ -1,0 +1,1152 @@
+{
+  "title": "飞机电源系统故障诊断方法综述及发展趋势",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 12,
+    "cross_sentence_path_found": 12
+  },
+  "pairs": [
+    {
+      "subject": "飞机电源系统",
+      "object": "电能",
+      "relation": "提供",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "来源",
+          "attr"
+        ],
+        [
+          "电能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统",
+      "object": "用电设备",
+      "relation": "供给",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "来源",
+          "attr"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "用电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "现代航空工业",
+      "object": "多电/全电飞机技术",
+      "relation": "推进",
+      "path": [
+        [
+          "现代",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "工业",
+          "nsubj"
+        ],
+        [
+          "推进",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电驱动装置",
+      "object": "飞机电源系统",
+      "relation": "影响",
+      "path": [
+        [
+          "电",
+          "dep"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "推进",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力电子器件",
+      "object": "飞机电源系统",
+      "relation": "影响",
+      "path": [
+        [
+          "电",
+          "dep"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "推进",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "飞机电源系统",
+      "relation": "用于",
+      "path": [
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "推进",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统",
+      "object": "故障模式",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        },
+        {
+          "sentence_index": 6,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 5
+        },
+        {
+          "sentence_index": 6,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统",
+      "object": "故障特点",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        },
+        {
+          "sentence_index": 6,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 5
+        },
+        {
+          "sentence_index": 6,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统",
+      "object": "失效原因",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "原因",
+          "dobj"
+        ],
+        [
+          "失效",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 10,
+          "id": 1
+        },
+        {
+          "sentence_index": 10,
+          "id": 16
+        },
+        {
+          "sentence_index": 10,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源健康管理系统",
+      "object": "设计架构",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 11,
+          "id": 2
+        },
+        {
+          "sentence_index": 11,
+          "id": 12
+        },
+        {
+          "sentence_index": 11,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断方法",
+      "object": "基于模型的方法",
+      "relation": "包含",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "综述",
+          "root"
+        ],
+        [
+          "进展",
+          "dobj"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 6,
+          "id": 5
+        },
+        {
+          "sentence_index": 6,
+          "id": 6
+        },
+        {
+          "sentence_index": 6,
+          "id": 7
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        },
+        {
+          "sentence_index": 12,
+          "id": 2
+        },
+        {
+          "sentence_index": 12,
+          "id": 15
+        },
+        {
+          "sentence_index": 12,
+          "id": 13
+        },
+        {
+          "sentence_index": 12,
+          "id": 5
+        },
+        {
+          "sentence_index": 12,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断方法",
+      "object": "基于数据的方法",
+      "relation": "包含",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "综述",
+          "root"
+        ],
+        [
+          "进展",
+          "dobj"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "基于",
+          "conj"
+        ],
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 6,
+          "id": 5
+        },
+        {
+          "sentence_index": 6,
+          "id": 6
+        },
+        {
+          "sentence_index": 6,
+          "id": 7
+        },
+        {
+          "sentence_index": 6,
+          "id": 4
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        },
+        {
+          "sentence_index": 12,
+          "id": 2
+        },
+        {
+          "sentence_index": 12,
+          "id": 15
+        },
+        {
+          "sentence_index": 12,
+          "id": 13
+        },
+        {
+          "sentence_index": 12,
+          "id": 5
+        },
+        {
+          "sentence_index": 12,
+          "id": 7
+        },
+        {
+          "sentence_index": 12,
+          "id": 8
+        },
+        {
+          "sentence_index": 12,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统故障诊断技术",
+      "object": "挑战",
+      "relation": "面临",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "挑战",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 14,
+          "id": 2
+        },
+        {
+          "sentence_index": 14,
+          "id": 15
+        },
+        {
+          "sentence_index": 14,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机电源系统故障诊断技术",
+      "object": "发展趋势",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "在",
+          "root"
+        ],
+        [
+          "下",
+          "plmod"
+        ],
+        [
+          "背景",
+          "lobj"
+        ],
+        [
+          "需求",
+          "assmod"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,1060 @@
+{
+  "title": "涡轴发动机尾气静电监测信号影响因素分析",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "发动机工作状态",
+      "object": "尾气静电监测信号",
+      "relation": "影响",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "试车台",
+          "nn"
+        ],
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机健康状态",
+      "object": "尾气静电监测信号",
+      "relation": "影响",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "试车台",
+          "nn"
+        ],
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "燃油供给量",
+      "object": "尾气静电信号",
+      "relation": "影响",
+      "path": [
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "供给量",
+          "attr"
+        ],
+        [
+          "为",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "燃油供给量",
+      "object": "尾气静电信号能量",
+      "relation": "导致增加",
+      "path": [
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "供给量",
+          "attr"
+        ],
+        [
+          "为",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机性能衰退",
+      "object": "尾气静电信号能量",
+      "relation": "导致增加",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "试车台",
+          "nn"
+        ],
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "尾气静电信号",
+      "object": "健康基线",
+      "relation": "用于建立",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "尾气",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "产生",
+          "ccomp"
+        ],
+        [
+          "状态",
+          "nsubj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康基线",
+      "object": "气路状态监测",
+      "relation": "用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "nsubj"
+        ],
+        [
+          "产生",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康基线",
+      "object": "故障识别",
+      "relation": "用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "nsubj"
+        ],
+        [
+          "产生",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "为",
+          "ccomp"
+        ],
+        [
+          "因素",
+          "top"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "下",
+          "loc"
+        ],
+        [
+          "情况",
+          "lobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "静电监测技术",
+      "object": "预警信息",
+      "relation": "提供",
+      "path": [
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "提供",
+          "ccomp"
+        ],
+        [
+          "信息",
+          "dobj"
+        ],
+        [
+          "预警",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 13
+        },
+        {
+          "sentence_index": 4,
+          "id": 15
+        },
+        {
+          "sentence_index": 4,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预警信息",
+      "object": "突发性故障",
+      "relation": "针对",
+      "path": [
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "信息",
+          "dobj"
+        ],
+        [
+          "提供",
+          "ccomp"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "发现",
+          "root"
+        ],
+        [
+          "为",
+          "ccomp"
+        ],
+        [
+          "因素",
+          "top"
+        ],
+        [
+          "影响",
+          "rcmod"
+        ],
+        [
+          "下",
+          "loc"
+        ],
+        [
+          "情况",
+          "lobj"
+        ],
+        [
+          "无",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 14
+        },
+        {
+          "sentence_index": 4,
+          "id": 15
+        },
+        {
+          "sentence_index": 4,
+          "id": 13
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "静电监测技术",
+      "object": "发动机整机性能衰退",
+      "relation": "反映",
+      "path": [
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "试车台",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "静电监测技术",
+      "object": "航空发动机健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ],
+        [
+          "信号",
+          "nsubj"
+        ],
+        [
+          "获得",
+          "rcmod"
+        ],
+        [
+          "实验",
+          "nsubj"
+        ],
+        [
+          "试车台",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "静电监测技术",
+      "object": "静电传感器",
+      "relation": "拓展能力",
+      "path": [
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "静电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

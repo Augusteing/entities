@@ -1,0 +1,1460 @@
+{
+  "title": "航空发动机油液磨粒与故障关系RVM预测方法",
+  "stats": {
+    "total_pairs": 17,
+    "aligned_pairs": 13,
+    "path_found": 13,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "支持向量机",
+      "object": "发动机油液磨粒与故障关系预测",
+      "relation": "应用于",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "油液",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "支持向量机",
+      "object": "稀疏性不强",
+      "relation": "存在问题",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "稀疏性",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "支持向量机",
+      "object": "计算量大",
+      "relation": "存在问题",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "大",
+          "conj"
+        ],
+        [
+          "计算量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "支持向量机",
+      "object": "核函数必须满足Mercer条件",
+      "relation": "存在问题",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "满足",
+          "conj"
+        ],
+        [
+          "核函数",
+          "nsubj"
+        ],
+        [
+          "必须",
+          "mmod"
+        ],
+        [
+          "Mercer",
+          "nn"
+        ],
+        [
+          "条件",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "支持向量机问题",
+      "relation": "解决",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "滑油光谱分析",
+      "object": "金属磨粒浓度",
+      "relation": "获取",
+      "path": [
+        [
+          "滑油",
+          "nn"
+        ],
+        [
+          "光谱",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "金属磨粒浓度",
+      "relation": "使用数据",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "发动机工作状态",
+      "relation": "预测",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "最小二乘支持向量机",
+      "object": "发动机工作状态",
+      "relation": "预测",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "反向传播神经网络",
+      "object": "发动机工作状态",
+      "relation": "预测",
+      "path": [
+        [
+          "反向",
+          "advmod"
+        ],
+        [
+          "传播",
+          "rcmod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "支持",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "最小二乘支持向量机",
+      "relation": "优于",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "支持",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "反向传播神经网络",
+      "relation": "优于",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "支持",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "传播",
+          "rcmod"
+        ],
+        [
+          "反向",
+          "advmod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "计算量较少",
+      "relation": "具有",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "问题",
+          "dobj"
+        ],
+        [
+          "强",
+          "vmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "计算量",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "预测时间较短",
+      "relation": "具有",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "时",
+          "loc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "精度较高",
+      "relation": "具有",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "出现",
+          "root"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "拥有",
+          "ccomp"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "少",
+          "vmod"
+        ],
+        [
+          "高",
+          "conj"
+        ],
+        [
+          "精度",
+          "nsubj"
+        ],
+        [
+          "较",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 30
+        },
+        {
+          "sentence_index": 3,
+          "id": 19
+        },
+        {
+          "sentence_index": 3,
+          "id": 28
+        },
+        {
+          "sentence_index": 3,
+          "id": 26
+        },
+        {
+          "sentence_index": 3,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "发动机油液磨粒分析",
+      "relation": "可应用于",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "磨粒",
+          "conj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "油液",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "相关向量机",
+      "object": "故障预测",
+      "relation": "可应用于",
+      "path": [
+        [
+          "向量机",
+          "nn"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "lccomp"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "关系",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

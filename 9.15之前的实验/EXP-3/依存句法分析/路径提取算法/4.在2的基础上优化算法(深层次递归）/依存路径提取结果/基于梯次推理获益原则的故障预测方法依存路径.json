@@ -1,0 +1,1628 @@
+{
+  "title": "基于梯次推理获益原则的故障预测方法",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "产生式规则推理",
+      "object": "效率低下",
+      "relation": "存在问题",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低下",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "异构信息融合",
+      "object": "知识元权重分配困难",
+      "relation": "存在问题",
+      "path": [
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "信息",
+          "nsubj"
+        ],
+        [
+          "融合",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "困难",
+          "rcmod"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "元权",
+          "nsubj"
+        ],
+        [
+          "重",
+          "amod"
+        ],
+        [
+          "分配",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "产生式规则推理效率低下",
+      "relation": "解决",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低下",
+          "rcmod"
+        ],
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "推理",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "知识元权重分配困难",
+      "relation": "解决",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "困难",
+          "rcmod"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "元权",
+          "nsubj"
+        ],
+        [
+          "重",
+          "amod"
+        ],
+        [
+          "分配",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "数据和音频",
+      "relation": "使用",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "数据",
+          "lobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "分组分级的推理策略",
+      "relation": "采用",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低下",
+          "rcmod"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "推理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "互信息-信息增益",
+      "relation": "采用",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "困难",
+          "rcmod"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "融合",
+          "lccomp"
+        ],
+        [
+          "信息",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "互信息-信息增益",
+      "object": "获益尺度",
+      "relation": "作为",
+      "path": [
+        [
+          "信息",
+          "nsubj"
+        ],
+        [
+          "融合",
+          "lccomp"
+        ],
+        [
+          "时",
+          "loc"
+        ],
+        [
+          "困难",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "原则",
+          "dobj"
+        ],
+        [
+          "获益",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "知识元特征的获益值",
+      "object": "知识元权重",
+      "relation": "确定",
+      "path": [
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "元权",
+          "nsubj"
+        ],
+        [
+          "重",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "发动机故障实例",
+      "relation": "通过...验证",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "模拟",
+          "dep"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机故障实例",
+      "object": "飞行数据",
+      "relation": "使用",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "模拟",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "下",
+          "dep"
+        ],
+        [
+          "数据",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机故障实例",
+      "object": "同步座舱音频",
+      "relation": "使用",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "模拟",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "音频",
+          "nn"
+        ],
+        [
+          "和",
+          "cc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "较高的执行效率",
+      "relation": "具有",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低下",
+          "rcmod"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "较好的推理效果",
+      "relation": "具有",
+      "path": [
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低下",
+          "rcmod"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "推理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "梯次推理获益原则的产生式规则知识表示方法",
+      "object": "实际工程的故障诊断和预测",
+      "relation": "可应用于",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "产生式",
+          "amod"
+        ],
+        [
+          "规则",
+          "nn"
+        ],
+        [
+          "知识",
+          "nn"
+        ],
+        [
+          "表示",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "设计",
+          "dep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "应用",
+          "dep"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "工程",
+          "assmod"
+        ],
+        [
+          "实际",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 51
+        },
+        {
+          "sentence_index": 2,
+          "id": 52
+        },
+        {
+          "sentence_index": 2,
+          "id": 59
+        },
+        {
+          "sentence_index": 2,
+          "id": 54
+        },
+        {
+          "sentence_index": 2,
+          "id": 53
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

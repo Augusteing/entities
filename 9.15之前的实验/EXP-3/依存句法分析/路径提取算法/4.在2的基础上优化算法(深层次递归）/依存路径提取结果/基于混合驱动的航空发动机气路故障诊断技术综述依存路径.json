@@ -1,0 +1,740 @@
+{
+  "title": "基于混合驱动的航空发动机气路故障诊断技术综述",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机健康管理技术",
+      "object": "发动机安全",
+      "relation": "提高",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机健康管理技术",
+      "object": "维修成本",
+      "relation": "降低",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "成本",
+          "dobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断方法",
+      "object": "模型驱动方法",
+      "relation": "可分类为",
+      "path": [
+        [
+          "气路",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "以",
+          "root"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "驱动",
+          "pobj"
+        ],
+        [
+          "驱动",
+          "conj"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断方法",
+      "object": "数据驱动方法",
+      "relation": "可分类为",
+      "path": [
+        [
+          "气路",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "以",
+          "root"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "驱动",
+          "pobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "驱动",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 4,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障诊断方法",
+      "object": "混合驱动方法",
+      "relation": "可分类为",
+      "path": [
+        [
+          "气路",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "以",
+          "root"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "驱动",
+          "pobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "混合",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "混合驱动方法",
+      "object": "数模混合驱动故障诊断方法",
+      "relation": "包含",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "混合",
+          "amod"
+        ],
+        [
+          "驱动",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 4,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 9
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路故障诊断技术",
+      "object": "航空发动机建模方法",
+      "relation": "关联",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路故障诊断技术",
+      "object": "航空发动机传感器故障诊断方法",
+      "relation": "关联",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路故障诊断技术",
+      "object": "航空发动机气路性能预测技术",
+      "relation": "关联",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路故障诊断技术",
+      "object": "发展趋势",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路故障诊断技术",
+      "object": "挑战",
+      "relation": "面临",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "发展",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 2
+        },
+        {
+          "sentence_index": 9,
+          "id": 16
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

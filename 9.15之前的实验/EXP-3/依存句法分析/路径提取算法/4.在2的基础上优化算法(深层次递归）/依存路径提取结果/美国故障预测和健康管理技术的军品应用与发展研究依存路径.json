@@ -1,0 +1,596 @@
+{
+  "title": "美国故障预测和健康管理技术的军品应用与发展研究",
+  "stats": {
+    "total_pairs": 5,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "故障预测和健康管理技术",
+      "object": "武器装备系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "武器",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测和健康管理技术",
+      "object": "导弹武器系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "意义",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "武器",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测和健康管理技术",
+      "object": "视情维护",
+      "relation": "应用于",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "意义",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "标准",
+          "lobj"
+        ],
+        [
+          "维护",
+          "conj"
+        ],
+        [
+          "视情",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "美国",
+      "object": "故障预测和健康管理技术",
+      "relation": "研究",
+      "path": [
+        [
+          "美国",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "导弹武器系统",
+      "object": "武器装备系统",
+      "relation": "是一种",
+      "path": [
+        [
+          "导弹",
+          "nn"
+        ],
+        [
+          "武器",
+          "nn"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "意义",
+          "dobj"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "论述",
+          "root"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "系统",
+          "lobj"
+        ],
+        [
+          "武器",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

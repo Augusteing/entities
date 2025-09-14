@@ -1,0 +1,604 @@
+{
+  "title": "基于UML的航电设备故障诊断与预测系统设计",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航电设备故障诊断与预测系统设计",
+      "object": "UML",
+      "relation": "采用",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "UML",
+          "prnmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "UML",
+      "object": "面向对象技术",
+      "relation": "基于",
+      "path": [
+        [
+          "UML",
+          "prnmod"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "具有",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "面向",
+          "amod"
+        ],
+        [
+          "对象",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电设备故障诊断与预测系统",
+      "object": "UML模型",
+      "relation": "建立",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "UML",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电设备故障诊断与预测系统",
+      "object": "系统软件",
+      "relation": "开发",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "设计",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "开发",
+          "dep"
+        ],
+        [
+          "软件",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态趋势预测",
+      "object": "系统有效性",
+      "relation": "验证",
+      "path": [
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "采用",
+          "root"
+        ],
+        [
+          "说明",
+          "conj"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态趋势预测",
+      "object": "+5V输出电压数据",
+      "relation": "分析",
+      "path": [
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "电压",
+          "nn"
+        ],
+        [
+          "+",
+          "nummod"
+        ],
+        [
+          "5V",
+          "nn"
+        ],
+        [
+          "输出",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 98
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航电设备电源",
+      "object": "+5V输出电压数据",
+      "relation": "产生",
+      "path": [
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "电源",
+          "assmod"
+        ],
+        [
+          "电压",
+          "nn"
+        ],
+        [
+          "+",
+          "nummod"
+        ],
+        [
+          "5V",
+          "nn"
+        ],
+        [
+          "输出",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

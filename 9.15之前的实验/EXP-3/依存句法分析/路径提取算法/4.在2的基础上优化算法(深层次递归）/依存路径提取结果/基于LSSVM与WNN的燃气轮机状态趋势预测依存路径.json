@@ -1,0 +1,648 @@
+{
+  "title": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "LSSVM与WNN组合预测方法",
+      "object": "燃气轮机状态趋势预测",
+      "relation": "用于",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "趋势",
+          "nn"
+        ],
+        [
+          "燃气轮机",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSSVM与WNN组合预测方法",
+      "object": "最小二乘支持向量机",
+      "relation": "组合",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "支持",
+          "vmod"
+        ],
+        [
+          "最",
+          "advmod"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "二",
+          "nummod"
+        ],
+        [
+          "乘",
+          "nsubj"
+        ],
+        [
+          "向量机",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSSVM与WNN组合预测方法",
+      "object": "小波神经网络",
+      "relation": "组合",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "小波",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "小波神经网络",
+      "object": "残差",
+      "relation": "预测",
+      "path": [
+        [
+          "小波",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "计算",
+          "conj"
+        ],
+        [
+          "残差",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "残差",
+      "object": "实际参数数据",
+      "relation": "计算自",
+      "path": [
+        [
+          "残差",
+          "dobj"
+        ],
+        [
+          "计算",
+          "conj"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "数据",
+          "conj"
+        ],
+        [
+          "实际",
+          "amod"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "残差",
+      "object": "LSSVM预测结果",
+      "relation": "计算自",
+      "path": [
+        [
+          "残差",
+          "dobj"
+        ],
+        [
+          "计算",
+          "conj"
+        ],
+        [
+          "分为",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSSVM与WNN组合预测方法",
+      "object": "某型燃气轮机",
+      "relation": "应用于",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "趋势",
+          "pobj"
+        ],
+        [
+          "燃气轮机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSSVM与WNN组合预测方法",
+      "object": "0.12%相对误差",
+      "relation": "实现",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "LSSVM",
+          "prnmod"
+        ],
+        [
+          "网络",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

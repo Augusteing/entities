@@ -1,0 +1,1224 @@
+{
+  "title": "基于逆跟踪控制的航空发动机气路健康参数估计修正方法研究",
+  "stats": {
+    "total_pairs": 14,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "发动机非线性模型",
+      "object": "故障样本",
+      "relation": "用于获取",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "非线性",
+          "amod"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "样本",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "气路故障模拟方法",
+      "object": "故障样本",
+      "relation": "用于获取",
+      "path": [
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模拟",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "样本",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "最小二乘支持向量回归机(LSSVR)",
+      "object": "理想估计器",
+      "relation": "用于建立",
+      "path": [
+        [
+          "最",
+          "advmod"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "二",
+          "nummod"
+        ],
+        [
+          "乘",
+          "nn"
+        ],
+        [
+          "支持",
+          "nn"
+        ],
+        [
+          "向量",
+          "nn"
+        ],
+        [
+          "回归机",
+          "dobj"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "估计器",
+          "dobj"
+        ],
+        [
+          "理想",
+          "assmod"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "理想估计器",
+      "object": "气路健康参数",
+      "relation": "估计",
+      "path": [
+        [
+          "理想",
+          "assmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "估计器",
+          "dobj"
+        ],
+        [
+          "参数",
+          "assmod"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "逆模型在线辨识",
+      "relation": "基于",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "模型",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "变结构控制",
+      "relation": "结合",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "控制",
+          "pobj"
+        ],
+        [
+          "变",
+          "amod"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "测量噪声的影响",
+      "relation": "减小",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "减小",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "造成",
+          "rcmod"
+        ],
+        [
+          "噪声",
+          "nsubj"
+        ],
+        [
+          "测量",
+          "nn"
+        ],
+        [
+          "噪声",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "系统噪声的影响",
+      "relation": "减小",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "减小",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "造成",
+          "rcmod"
+        ],
+        [
+          "噪声",
+          "nsubj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "性能估计的准确度",
+      "relation": "提高",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "减小",
+          "conj"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "造成",
+          "rcmod"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "精度",
+          "pobj"
+        ],
+        [
+          "估计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "误判的概率",
+      "relation": "减小",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "缩小",
+          "root"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "减小",
+          "conj"
+        ],
+        [
+          "概率",
+          "dobj"
+        ],
+        [
+          "误判",
+          "conj"
+        ],
+        [
+          "监控",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 37
+        },
+        {
+          "sentence_index": 2,
+          "id": 44
+        },
+        {
+          "sentence_index": 2,
+          "id": 55
+        },
+        {
+          "sentence_index": 2,
+          "id": 51
+        },
+        {
+          "sentence_index": 2,
+          "id": 49
+        },
+        {
+          "sentence_index": 2,
+          "id": 50
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "修正系统",
+      "object": "误诊的概率",
+      "relation": "减小",
+      "path": [
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "缩小",
+          "root"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "减小",
+          "conj"
+        ],
+        [
+          "概率",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "误诊",
+          "rcmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 37
+        },
+        {
+          "sentence_index": 2,
+          "id": 44
+        },
+        {
+          "sentence_index": 2,
+          "id": 55
+        },
+        {
+          "sentence_index": 2,
+          "id": 52
+        },
+        {
+          "sentence_index": 2,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机气路健康参数估计修正方法",
+      "object": "航空发动机气路部件状态监控缺乏故障样本",
+      "relation": "解决",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "气路",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "监控",
+          "nsubj"
+        ],
+        [
+          "缺乏",
+          "pccomp"
+        ],
+        [
+          "部件",
+          "nn"
+        ],
+        [
+          "状态",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "样本",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "离线修正",
+      "object": "估计值的相对误差最大值",
+      "relation": "缩小",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "修正",
+          "nn"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "回归机",
+          "dobj"
+        ],
+        [
+          "乘",
+          "nn"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "最",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "在线修正",
+      "object": "估计值的相对误差最大值",
+      "relation": "缩小",
+      "path": [
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "辨识",
+          "conj"
+        ],
+        [
+          "控制",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "设计",
+          "ccomp"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "运用",
+          "conj"
+        ],
+        [
+          "回归机",
+          "dobj"
+        ],
+        [
+          "乘",
+          "nn"
+        ],
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "最",
+          "advmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

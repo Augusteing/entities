@@ -1,0 +1,1140 @@
+{
+  "title": "基于灰色理论的172飞机故障预测方法",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 13,
+    "path_found": 13,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "高故障率问题",
+      "relation": "解决",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "故障率",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "塞斯纳172基本型飞机",
+      "object": "高故障率问题",
+      "relation": "存在",
+      "path": [
+        [
+          "塞斯纳",
+          "nn"
+        ],
+        [
+          "172",
+          "nummod"
+        ],
+        [
+          "基本型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "故障率",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "灰色理论",
+      "relation": "基于",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "172基本型飞机故障信息数据集",
+      "relation": "处理",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "数据",
+          "nsubj"
+        ],
+        [
+          "172",
+          "nummod"
+        ],
+        [
+          "基本型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "信息",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "172基本型飞机故障千时率",
+      "relation": "分析",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "分析",
+          "dep"
+        ],
+        [
+          "千时率",
+          "dobj"
+        ],
+        [
+          "172",
+          "nummod"
+        ],
+        [
+          "基本型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "预测模型GM(1,1)",
+      "relation": "建立",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "建立",
+          "dep"
+        ],
+        [
+          "GM",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测模型GM(1,1)",
+      "object": "飞机设备的失效预测",
+      "relation": "完成",
+      "path": [
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "模型",
+          "nn"
+        ],
+        [
+          "GM",
+          "dobj"
+        ],
+        [
+          "建立",
+          "dep"
+        ],
+        [
+          "完成",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "拟合检验",
+      "relation": "进行",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "检验",
+          "dobj"
+        ],
+        [
+          "拟合",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "塞斯纳172基本型飞机故障",
+      "relation": "预测",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "塞斯纳",
+          "nn"
+        ],
+        [
+          "172",
+          "nummod"
+        ],
+        [
+          "基本型",
+          "amod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "较高的预测精度",
+      "relation": "实现",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "得到",
+          "ccomp"
+        ],
+        [
+          "精度",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "故障率",
+      "relation": "降低",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "故障率",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "设备可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "提高",
+          "conj"
+        ],
+        [
+          "可靠性",
+          "dobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 119
+        },
+        {
+          "sentence_index": 0,
+          "id": 118
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色理论的故障预测方法",
+      "object": "飞行安全",
+      "relation": "保障",
+      "path": [
+        [
+          "灰色",
+          "amod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "保障",
+          "dep"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 121
+        },
+        {
+          "sentence_index": 0,
+          "id": 123
+        },
+        {
+          "sentence_index": 0,
+          "id": 122
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "title": "基于贝叶斯优化LSTM的发动机剩余寿命预测",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "航空发动机剩余寿命",
+      "relation": "用于预测",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "LSTM",
+      "relation": "基于",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "算法",
+          "assmod"
+        ],
+        [
+          "LSTM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "深度学习算法参数优化效率低",
+      "relation": "解决",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "深度",
+          "amod"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "预测准确率差",
+      "relation": "解决",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "差",
+          "conj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "准确率",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化算法",
+      "object": "LSTM的超参数",
+      "relation": "优化",
+      "path": [
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "参数",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM",
+      "object": "时间序列预测",
+      "relation": "执行",
+      "path": [
+        [
+          "LSTM",
+          "prnmod"
+        ],
+        [
+          "算法",
+          "assmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "预测",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM",
+      "object": "航空发动机的传感器数据",
+      "relation": "处理",
+      "path": [
+        [
+          "LSTM",
+          "prnmod"
+        ],
+        [
+          "算法",
+          "assmod"
+        ],
+        [
+          "基础",
+          "lobj"
+        ],
+        [
+          "上",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "NASA公开数据集",
+      "object": "贝叶斯优化LSTM",
+      "relation": "用于验证",
+      "path": [
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "优化",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "维修替换策略",
+      "relation": "提供参考",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "保证",
+          "pccomp"
+        ],
+        [
+          "制定",
+          "conj"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "替换",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 13
+        },
+        {
+          "sentence_index": 8,
+          "id": 2
+        },
+        {
+          "sentence_index": 8,
+          "id": 3
+        },
+        {
+          "sentence_index": 8,
+          "id": 9
+        },
+        {
+          "sentence_index": 8,
+          "id": 12
+        },
+        {
+          "sentence_index": 8,
+          "id": 10
+        },
+        {
+          "sentence_index": 8,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "贝叶斯优化LSTM",
+      "object": "航空器安全使用",
+      "relation": "保障",
+      "path": [
+        [
+          "优化",
+          "nn"
+        ],
+        [
+          "效率",
+          "nsubj"
+        ],
+        [
+          "低",
+          "vmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "中",
+          "dep"
+        ],
+        [
+          "预测",
+          "lobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

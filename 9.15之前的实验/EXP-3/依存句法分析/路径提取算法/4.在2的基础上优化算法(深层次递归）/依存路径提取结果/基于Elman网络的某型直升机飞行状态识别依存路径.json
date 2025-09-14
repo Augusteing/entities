@@ -1,0 +1,580 @@
+{
+  "title": "基于Elman网络的某型直升机飞行状态识别",
+  "stats": {
+    "total_pairs": 7,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "Elman网络",
+      "object": "非线性逼近能力",
+      "relation": "具有",
+      "path": [
+        [
+          "Elman",
+          "nn"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "良好",
+          "rcmod"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "能力",
+          "conj"
+        ],
+        [
+          "非线性",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Elman网络",
+      "object": "容错能力",
+      "relation": "具有",
+      "path": [
+        [
+          "Elman",
+          "nn"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "良好",
+          "rcmod"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "能力",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Elman网络",
+      "object": "泛化能力",
+      "relation": "具有",
+      "path": [
+        [
+          "Elman",
+          "nn"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "良好",
+          "rcmod"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "泛化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Elman神经网络识别模型",
+      "object": "直升机飞行状态",
+      "relation": "识别",
+      "path": [
+        [
+          "Elman",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "表明",
+          "dep"
+        ],
+        [
+          "识别",
+          "ccomp"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行状态识别",
+      "object": "故障诊断",
+      "relation": "提供依据",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "识别",
+          "assmod"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "对待",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "表明",
+          "dep"
+        ],
+        [
+          "识别",
+          "ccomp"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断",
+      "object": "直升机传动系统",
+      "relation": "针对",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "直升机",
+          "nn"
+        ],
+        [
+          "传动",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行状态识别",
+      "object": "直升机健康管理",
+      "relation": "提供依据",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "识别",
+          "assmod"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "对待",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "表明",
+          "dep"
+        ],
+        [
+          "识别",
+          "ccomp"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "管理",
+          "pobj"
+        ],
+        [
+          "直升机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

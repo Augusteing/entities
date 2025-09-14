@@ -1,0 +1,396 @@
+{
+  "title": "航空发动机健康管理系统发展现状及其指标体系研究",
+  "stats": {
+    "total_pairs": 5,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "预测与健康管理(PHM)系统",
+      "object": "先进发动机",
+      "relation": "是...的必备功能",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "ccomp"
+        ],
+        [
+          "功能",
+          "attr"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "发动机",
+          "dobj"
+        ],
+        [
+          "先进",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "预测与健康管理(PHM)系统",
+      "object": "航空发动机故障检测与诊断",
+      "relation": "发展自",
+      "path": [
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "是",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "dep"
+        ],
+        [
+          "简述",
+          "root"
+        ],
+        [
+          "历程",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "assmod"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "检测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EPHM系统",
+      "object": "EPHM的需求",
+      "relation": "具有",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "EPHM系统",
+      "object": "指标体系",
+      "relation": "具有",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "系统",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "是",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "dep"
+        ],
+        [
+          "简述",
+          "root"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "梳理",
+          "dep"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "指标",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机健康管理系统发展现状及其指标体系研究",
+      "object": "我国航空发动机健康管理",
+      "relation": "展望",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

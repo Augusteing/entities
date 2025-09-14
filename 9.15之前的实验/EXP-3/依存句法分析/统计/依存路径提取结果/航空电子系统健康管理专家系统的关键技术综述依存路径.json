@@ -1,0 +1,412 @@
+{
+  "title": "航空电子系统健康管理专家系统的关键技术综述",
+  "stats": {
+    "total_pairs": 3,
+    "aligned_pairs": 3,
+    "path_found": 3,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空电子系统健康管理专家系统",
+      "object": "健康状态的管理模式",
+      "relation": "涉及",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "专家",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "策略",
+          "nn"
+        ],
+        [
+          "模式",
+          "conj"
+        ],
+        [
+          "状态",
+          "assmod"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子系统健康管理专家系统",
+      "object": "推理机的模型设计",
+      "relation": "涉及",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "专家",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "策略",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "推理机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子系统健康管理专家系统",
+      "object": "故障修复策略",
+      "relation": "涉及",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "专家",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "策略",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "修复",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

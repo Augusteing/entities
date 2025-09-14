@@ -1,0 +1,884 @@
+{
+  "title": "飞机结构健康监测与管理技术研究进展和展望",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "飞机结构",
+      "object": "飞机平台",
+      "relation": "是...的基础",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "基础",
+          "attr"
+        ],
+        [
+          "平台",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构",
+      "object": "承力架构",
+      "relation": "是",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "架构",
+          "attr"
+        ],
+        [
+          "承力",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构",
+      "object": "飞机安全",
+      "relation": "确保",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "架构",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "使用",
+          "dobj"
+        ],
+        [
+          "安全",
+          "conj"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构",
+      "object": "长寿命使用",
+      "relation": "确保",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "架构",
+          "attr"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "使用",
+          "dobj"
+        ],
+        [
+          "安全",
+          "conj"
+        ],
+        [
+          "寿命",
+          "dep"
+        ],
+        [
+          "长",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空技术",
+      "object": "飞机机体结构性能",
+      "relation": "提出要求",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "发展",
+          "pobj"
+        ],
+        [
+          "随着",
+          "prep"
+        ],
+        [
+          "演变",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "严酷的使用环境",
+      "object": "结构完整性",
+      "relation": "挑战",
+      "path": [
+        [
+          "使用",
+          "dobj"
+        ],
+        [
+          "确保",
+          "rcmod"
+        ],
+        [
+          "架构",
+          "attr"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "实时性",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "在线性",
+          "nn"
+        ],
+        [
+          "实时性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "在线性",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "优势",
+          "dobj"
+        ],
+        [
+          "在线性",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "结构安全性",
+      "relation": "保证",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "维护费用",
+      "relation": "降低",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "之一",
+          "attr"
+        ],
+        [
+          "保证",
+          "rcmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "费用",
+          "dobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        },
+        {
+          "sentence_index": 3,
+          "id": 27
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 20
+        },
+        {
+          "sentence_index": 3,
+          "id": 22
+        },
+        {
+          "sentence_index": 3,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "基本内涵",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "阐释",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基本",
+          "amod"
+        ],
+        [
+          "内涵",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 23
+        },
+        {
+          "sentence_index": 4,
+          "id": 17
+        },
+        {
+          "sentence_index": 4,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "任务",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "阐释",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "任务",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 23
+        },
+        {
+          "sentence_index": 4,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测与管理技术",
+      "object": "实施方法",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "阐释",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "实施",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 23
+        },
+        {
+          "sentence_index": 4,
+          "id": 22
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

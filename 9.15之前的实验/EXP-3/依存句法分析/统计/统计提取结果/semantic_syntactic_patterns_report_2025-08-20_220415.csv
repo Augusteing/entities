@@ -1,0 +1,81 @@
+﻿语义模式 (Semantic Pattern),总频次 (Total Freq),句法实现路径 (Syntactic Realizations)
+Method → 结合 → Method,4,"  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 借鉴(conj) — 考虑(conj) — 优势(dobj) — 方法(assmod) — 方法(conj) — 机器(nn) — 学习(nn) (频次: 1, 样例: [数模联动] → [机器学习方法])
+  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 借鉴(conj) — 考虑(conj) — 优势(dobj) — 方法(assmod) — 统计(amod) — 数据(nn) — 驱动(nn) (频次: 1, 样例: [数模联动] → [统计数据驱动方法])
+  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 提出(conj) — 问题(dobj) — 预测(nn) — 联动(conj) — 建模(nsubj) — 随机(amod) — 退化(nn) (频次: 1, 样例: [数模联动] → [随机退化建模])
+  - 句法路径: 技术(dobj) — 汇集(root) — 包括(root) — 技术(dobj) — 学习(nn) — 分析(conj) — 动力学(nn) (频次: 1, 样例: [故障诊断技术] → [动力学分析])"
+System/Component → 具有核心功能 → Application,4,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 是(root) — 提出(root) — 方法(dobj) — 针对(assmod) — 故障(pobj) — 和(cc) (频次: 2, 样例: [健康管理系统] → [故障预测])
+  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 是(root) — 表明(root) — 实现(ccomp) — 分配(dobj) — 功能(nn) — 分析(nn) — 监测(conj) — 状态(nn) (频次: 1, 样例: [健康管理系统] → [状态监测])
+  - 句法路径: 健康(nn) — 系统(top) — 管理(nn) (频次: 1, 样例: [健康管理系统] → [寿命管理])"
+Method → 包含 → Method,4,"  - 句法路径: 技术(dobj) (频次: 1, 样例: [健康管理技术] → [故障诊断技术])
+  - 句法路径: 系统(nsubj) — 设计(nn) — 流程(nsubj) — 正向(rcmod) — 问题(dobj) — 清晰(rcmod) — 明确(conj) — 需求(nsubj) (频次: 1, 样例: [系统正向设计流程] → [需求分析])
+  - 句法路径: 系统(nsubj) — 正向(rcmod) — 设计(nn) — 流程(nsubj) — 问题(dobj) — 解决(pccomp) — 为(root) — 在(root) — 上(plmod) — 基础(lobj) — 对比(rcmod) — 体系(dobj) — 功能(nn) (频次: 1, 样例: [系统正向设计流程] → [功能分配])
+  - 句法路径: 系统(nsubj) — 正向(rcmod) — 设计(nn) — 流程(nsubj) — 问题(dobj) — 解决(pccomp) — 为(root) — 建立(root) — 方法(dobj) — 定义(nn) — 模块(nn) (频次: 1, 样例: [系统正向设计流程] → [模块定义])"
+Method → 提升 → Performance Metric,3,"  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 为了(root) — 提升(pccomp) — 效能(dobj) — 客机(nn) — 大型(amod) — 安全性(conj) (频次: 1, 样例: [航电系统综合集成] → [大型客机安全性])
+  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 为了(root) — 提升(pccomp) — 效能(dobj) — 空域(nn) — 运行(nn) (频次: 1, 样例: [航电系统综合集成] → [空域运行效能])
+  - 句法路径: 监视(nn) — 通导(nn) — 性能(pobj) (频次: 1, 样例: [通导监视] → [通导监视性能])"
+System/Component → 包含 → System/Component,3,"  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 提出(root) — 在(prep) — 方面(pobj) — 享(vmod) — 管理(dep) — 与(cc) (频次: 1, 样例: [大型客机航电系统] → [飞行管理])
+  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 提出(root) — 在(prep) — 方面(pobj) — 需(vmod) — 基于(prep) — 性能(pobj) — 通导(nn) — 监视(nn) (频次: 1, 样例: [大型客机航电系统] → [通导监视])
+  - 句法路径: 系统(nn) — 难题(pobj) — 针对(root) — 开展(root) — 在(prep) — 中(plmod) — 系统(lobj) — 发动机(nn) — 航空(nn) (频次: 1, 样例: [航空发动机健康管理系统] → [航空发动机])"
+Method → 解决 → Problem,3,"  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 结合(conj) — 问题(dobj) — 量化(nn) — 预测(nn) — 剩余(amod) — 寿命(nn) (频次: 1, 样例: [数模联动] → [剩余寿命预测])
+  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 架构(nn) — 动态(amod) — 优化(nn) (频次: 1, 样例: [MagicGrid方法论] → [架构动态优化难题])
+  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) — 复杂(amod) — 需求(nn) — 边界(nn) — 模糊(conj) (频次: 1, 样例: [MagicGrid方法论] → [复杂系统需求边界模糊])"
+Method → 采用 → Method,3,"  - 句法路径: 的(assm) — 功能(conj) — 系统(assmod) — 作用(dobj) — 发挥(root) — 提出(root) — 基于(prep) — 采用(pccomp) — 分析法(dobj) — 逻辑(nn) — 决断图(conj) (频次: 1, 样例: [功能分配方法] → [逻辑决断图])
+  - 句法路径: 的(assm) — 功能(conj) — 系统(assmod) — 作用(dobj) — 发挥(root) — 分析(root) — 比较(dep) — 和(cc) (频次: 1, 样例: [功能分配方法] → [层次分析法(AHP)])
+  - 句法路径: 健康(nn) — 管理(nn) — 系统(nsubj) — 正向(rcmod) — 设计(nn) — 流程(nsubj) (频次: 1, 样例: [健康管理系统设计方法] → [系统正向设计流程])"
+Method → 实现 → Finding,2,"  - 句法路径: 功能(conj) — 的(assm) (频次: 1, 样例: [功能分配方法] → [功能优化配置])
+  - 句法路径: 分配(dobj) (频次: 1, 样例: [提出的分配方法] → [定量分配])"
+Method → 应用于 → System/Component,2,"  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) (频次: 1, 样例: [MagicGrid方法论] → [航空发动机健康管理系统])
+  - 句法路径: 技术(dobj) — 汇集(root) — 发动机(nsubj) — 航空(nn) (频次: 1, 样例: [故障诊断技术] → [航空发动机])"
+Method → 应用于 → Application,2,"  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) — 复杂(amod) (频次: 1, 样例: [MagicGrid方法论] → [复杂装备系统设计])
+  - 句法路径: 建模(nn) — 框架(dobj) — 提出(root) — 针对(root) — 难题(pobj) — 系统(nn) (频次: 1, 样例: [生命周期建模范式] → [系统工程实践])"
+Method → 基于 → Method,2,"  - 句法路径: 技术(dobj) — 汇集(root) — 包括(root) — 技术(dobj) — 学习(nn) — 处理(conj) — 信号(nn) (频次: 1, 样例: [故障诊断技术] → [信号处理])
+  - 句法路径: 健康(nn) — 管理(nn) — 系统(nsubj) (频次: 1, 样例: [健康管理系统设计方法] → [系统工程思想])"
+System/Component → 需要 → Method,1,"  - 句法路径: 系统(assmod) (频次: 1, 样例: [大型客机航电系统] → [航电系统综合集成])"
+Method → 是 → Research Problem,1,"  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 结合(root) — 特点(dobj) — 系统(assmod) — 的(assm) — 技术(nn) (频次: 1, 样例: [航电系统综合集成] → [关键技术])"
+Model → 是 → System/Component,1,"  - 句法路径: 综合(amod) — 控制(vmod) — 方面(pobj) — 在(prep) — 提出(root) — 面对(root) — 需求(dobj) — 系统(assmod) (频次: 1, 样例: [综合模块化航电] → [航电系统架构])"
+Method → 遵循 → Method,1,"  - 句法路径: 安全性(conj) (频次: 1, 样例: [安全性设计] → [安全性设计流程])"
+Application → 推动 → Research Problem,1,"  - 句法路径: 大型(amod) — 客机(nn) — 效能(dobj) — 提升(pccomp) — 为了(root) — 面对(root) — 需求(dobj) — 系统(assmod) (频次: 1, 样例: [国产大型客机] → [客机综合化航电系统研制])"
+System/Component → 处理 → Sensor/Parameter,1,"  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 提出(root) — 在(prep) — 方面(pobj) — 享(vmod) — 信息(nsubj) (频次: 1, 样例: [现代综合化航电系统] → [机载信息])"
+System/Component → 决定 → Performance Metric,1,"  - 句法路径: 系统(assmod) — 需求(dobj) — 面对(root) — 总结(root) — 内容(dobj) — 方面(assmod) — 流程(nn) — 特征(conj) — 功能(nn) (频次: 1, 样例: [航电系统架构] → [功能特征])"
+Problem → 针对 → System/Component,1,"  - 句法路径: 剩余(amod) — 寿命(nn) — 预测(nn) — 量化(nn) — 问题(dobj) — 结合(conj) — 面向(root) — 需求(dobj) — 预测(assmod) — 寿命(nn) — 设备(nn) — 随机(amod) — 退化(amod) (频次: 1, 样例: [剩余寿命预测] → [随机退化设备])"
+Problem → 面临 → Problem,1,"  - 句法路径: 剩余(amod) — 寿命(nn) — 预测(nn) — 量化(nn) — 不确定性(amod) (频次: 1, 样例: [剩余寿命预测] → [不确定性量化])"
+Method → 属于 → Method,1,"  - 句法路径: 深度(amod) — 学习(conj) — 预测(nn) — 问题(dobj) — 提出(conj) — 面向(root) — 借鉴(conj) — 考虑(conj) — 优势(dobj) — 方法(assmod) — 方法(conj) — 机器(nn) — 学习(nn) (频次: 1, 样例: [深度学习] → [机器学习方法])"
+Method → 验证于 → Dataset,1,"  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 通过(prep) — 数据(pobj) — 航空(nn) — 发动机(nn) — 多源(amod) — 监测(nn) (频次: 1, 样例: [数模联动] → [航空发动机多源监测数据])"
+Problem → 应用于 → System/Component,1,"  - 句法路径: 剩余(amod) — 寿命(nn) — 预测(nn) — 量化(nn) — 问题(dobj) — 结合(conj) — 面向(root) — 为(conj) — 通过(prep) — 数据(pobj) — 发动机(nn) — 航空(nn) (频次: 1, 样例: [剩余寿命预测] → [航空发动机])"
+Problem → 基于 → Application,1,"  - 句法路径: 剩余(amod) — 寿命(nn) — 预测(nn) — 量化(nn) — 问题(dobj) — 结合(conj) — 面向(root) — 需求(dobj) — 预测(assmod) — 下(dep) — 背景(lobj) — 数据(nn) — 大(amod) (频次: 1, 样例: [剩余寿命预测] → [大数据])"
+Method → 融合 → Model,1,"  - 句法路径: 数模(nsubj) — 联动(rcmod) — 思路(dobj) — 提出(dep) — 为(conj) — 面向(root) — 分析(conj) — 动态(dobj) — 技术(conj) — 驱动(assmod) — 模型(conj) — 机理(nn) (频次: 1, 样例: [数模联动] → [机理模型])"
+Method → 针对 → System/Component,1,"  - 句法路径: 架构(nn) — 设计(top) — 是(root) — 是(root) — 系统(top) — 航空(nn) — 发动机(nn) — 健康(nn) — 管理(nn) (频次: 1, 样例: [功能架构优化方法] → [航空发动机健康管理系统])"
+Method → 应用于 → Problem,1,"  - 句法路径: 功能(conj) — 的(assm) (频次: 1, 样例: [功能分配方法] → [部件与故障的功能分配])"
+Problem → 需满足 → Performance Metric,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 是(root) — 针对(root) — 需求(pobj) (频次: 1, 样例: [健康管理系统架构设计] → [用户需求])"
+Problem → 需考虑 → Performance Metric,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 是(root) — 之一(attr) — 提升(rcmod) — 可承受性(dobj) — 经济(nn) (频次: 1, 样例: [健康管理系统架构设计] → [经济可承受性])"
+System/Component → 具有共同特征 → System/Component,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 发动机(nn) (频次: 1, 样例: [飞机健康管理系统] → [发动机健康管理系统])"
+Model → 可应用于 → Problem,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(top) — 发动机(nn) (频次: 1, 样例: [通用健康管理系统架构] → [发动机健康管理系统设计])"
+Method → 使用 → Tool,1,"  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 开展(root) — 平台(nsubj) — MagicDraw(nn) (频次: 1, 样例: [MagicGrid方法论] → [MagicDraw])"
+Method → 基于 → Tool,1,"  - 句法路径: MagicGrid(nn) — 方法论(dobj) — 融合(root) — 针对(root) — 难题(pobj) — 系统(nn) (频次: 1, 样例: [MagicGrid方法论] → [系统建模语言])"
+Model → 用于构建 → Model,1,"  - 句法路径: 协同(advmod) — 建模(nn) — 框架(dobj) — 物理(nn) — -(punct) (频次: 1, 样例: [协同建模框架] → [物理模型])"
+Model → 通过 → Model,1,"  - 句法路径: -(punct) — 物理(nn) — 框架(dobj) — 提出(root) — 开展(root) — 建立(conj) — 通过(prep) — 块图(pobj) — 内部(nn) (频次: 1, 样例: [物理模型] → [块定义图与内部块图])"
+Finding → 提升 → Performance Metric,1,"  - 句法路径: 研究(nn) — 成果(nsubj) — 构建(root) — 具有(root) — 在(prep) — 上(plmod) — 降低(lccomp) — 提升(conj) — 效率(dobj) — 预测(nn) (频次: 1, 样例: [研究成果] → [预测效率])"
+Finding → 降低 → Performance Metric,1,"  - 句法路径: 研究(nn) — 成果(nsubj) — 构建(root) — 提出(root) — 框架(dobj) — 物理(nn) — -(punct) — 功能(dep) (频次: 1, 样例: [研究成果] → [功能重叠率])"
+Tool → 用于 → Method,1,"  - 句法路径: 可追溯性(amod) — 矩阵(dobj) — 构建(conj) — 利用(root) — 针对(root) — 难题(pobj) — 优化(nn) — 需求(nn) (频次: 1, 样例: [可追溯性矩阵] → [需求完整性分析])"
+Method → 验证 → Method,1,"  - 句法路径: 验证(conj) — 分析(dobj) — 完成(conj) — 利用(root) — 融合(root) — 方法论(dobj) — MagicGrid(nn) (频次: 1, 样例: [案例验证] → [MagicGrid方法论])"
+Finding → 具有 → Finding,1,"  - 句法路径: 研究(nn) — 成果(nsubj) — 构建(root) — 具有(root) — 价值(dobj) — 普适(amod) — 参考(nn) (频次: 1, 样例: [研究成果] → [普适参考价值])"
+System/Component → 发生 → Fault Mode,1,"  - 句法路径: 航空(nn) — 发动机(nsubj) — 汇集(root) — 致使(root) — 频发(dep) — 故障(nsubj) (频次: 1, 样例: [航空发动机] → [振动类故障])"
+Fault Mode → 是一种 → Fault Mode,1,"  - 句法路径: 故障(nsubj) (频次: 1, 样例: [振动类故障] → [主要故障模式])"
+Method → 诊断 → Fault Mode,1,"  - 句法路径: 技术(dobj) — 汇集(root) — 致使(root) — 频发(dep) — 故障(nsubj) (频次: 1, 样例: [故障诊断技术] → [振动类故障])"
+Method → 应用 → Method,1,"  - 句法路径: 技术(dobj) — 汇集(root) — 包括(root) — 技术(dobj) — 学习(nn) — 深度(nn) (频次: 1, 样例: [故障诊断技术] → [深度学习])"
+System/Component → 处于 → Application,1,"  - 句法路径: 航空(nn) — 发动机(nsubj) — 汇集(root) — 致使(root) — 环境(nsubj) — 恶劣(amod) — 服役(nn) (频次: 1, 样例: [航空发动机] → [恶劣服役环境])"
+Method → 旨在解决 → Problem,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(nsubj) — 发动机(nn) — 航空(nn) — 机载(amod) (频次: 1, 样例: [健康管理系统设计方法] → [航空发动机机载健康管理])"
+Finding → 建立了 → Model,1,"  - 句法路径: 研究(root) — 为(root) — 解决(pccomp) — 问题(dobj) — 正向(rcmod) — 系统(nsubj) — 健康(nn) — 管理(nn) (频次: 1, 样例: [研究] → [健康管理功能架构体系])"
+Method → 用于建立 → Model,1,"  - 句法路径: 设计(nn) (频次: 1, 样例: [基于模型的设计方法] → [硬件设计模型])"
+Finding → 开发了 → Tool,1,"  - 句法路径: 研究(root) — 为(root) — 解决(pccomp) — 问题(dobj) — 正向(rcmod) — 设计(nn) — 流程(nsubj) (频次: 1, 样例: [研究] → [航空发动机健康管理正向设计流程平台])"
+Tool → 实现 → Method,1,"  - 句法路径: 正向(rcmod) — 问题(dobj) — 清晰(rcmod) — 流程(nsubj) — 设计(nn) (频次: 1, 样例: [航空发动机健康管理正向设计流程平台] → [图形化设计])"
+System/Component → 应用于 → System/Component,1,"  - 句法路径: 航空(nn) — 机载(amod) — 健康(nn) — 管理(nn) — 系统(nsubj) — 发动机(nn) (频次: 1, 样例: [航空发动机机载健康管理系统] → [航空发动机])"
+Method → 实现 → Performance Metric,1,"  - 句法路径: 健康(nn) — 管理(nn) — 系统(nsubj) — 正向(rcmod) — 问题(dobj) — 解决(pccomp) — 为(root) — 在(root) — 上(plmod) — 基础(lobj) — 对比(rcmod) — 体系(dobj) — 功能(nn) (频次: 1, 样例: [健康管理系统设计方法] → [功能目标量化])"
+Model → 基于 → Sensor/Parameter,1,"  - 句法路径: 系统(nn) — 滑油(nn) (频次: 1, 样例: [滑油系统仿真模型] → [滑油系统元件物理特性])"
+Model → 包含 → Model,1,"  - 句法路径: 滑油(nn) — 预测(nn) — 系统(nn) (频次: 1, 样例: [滑油系统仿真模型] → [通风、供油、热力、回油等子系统模型])"
+Method → 用于优化 → Model,1,"  - 句法路径: 等(etc) — 子(amod) — 回油(nn) — 模型(dobj) — 构建(dep) — 为(root) — 具备(root) — 针对(prep) — 开展(pccomp) — 工作(dobj) — 预测(nn) — 滑油(nn) — 系统(nn) (频次: 1, 样例: [粒子群与遗传算法] → [滑油系统仿真模型])"
+Model → 应用于 → Application,1,"  - 句法路径: 系统(nn) — 滑油(nn) (频次: 1, 样例: [滑油系统仿真模型] → [滑油系统健康管理])"
+Application → 旨在实现 → Application,1,"  - 句法路径: 系统(nn) — 滑油(nn) — 监测(conj) (频次: 1, 样例: [滑油系统健康管理] → [滑油系统监测、诊断与预测])"
+Model → 旨在改进 → Problem,1,"  - 句法路径: 系统(nn) — 滑油(nn) — 预测(nn) — 工作(dobj) — 开展(pccomp) — 基于(prep) — 试验(nn) — 方法(pobj) (频次: 1, 样例: [滑油系统仿真模型] → [基于试验方法的监测与诊断])"
+Model → 的评估指标是 → Performance Metric,1,"  - 句法路径: 滑油(nn) — 预测(nn) — 系统(nn) (频次: 1, 样例: [滑油系统仿真模型] → [系统工作参数平均误差])"
+Model → 在...下验证 → Dataset,1,"  - 句法路径: 滑油(nn) — 系统(nn) — 预测(nn) — 工作(dobj) — 开展(pccomp) — 针对(prep) — 具备(root) — 结合(root) — 降至(conj) — 下(loc) — 工况(lobj) — 典型(amod) (频次: 1, 样例: [滑油系统仿真模型] → [典型工况])"

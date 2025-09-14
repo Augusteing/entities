@@ -1,0 +1,377 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "Miner准则"
+    },
+    {
+      "type": "模型",
+      "text": "S-N曲线"
+    },
+    {
+      "type": "模型",
+      "text": "ε-N曲线"
+    },
+    {
+      "type": "模型",
+      "text": "Walker模型"
+    },
+    {
+      "type": "模型",
+      "text": "SWT模型"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型"
+    },
+    {
+      "type": "模型",
+      "text": "Goodman模型"
+    },
+    {
+      "type": "模型",
+      "text": "Gerber模型"
+    },
+    {
+      "type": "模型",
+      "text": "Soderberg模型"
+    },
+    {
+      "type": "模型",
+      "text": "Kitagawa-Takahashi模型"
+    },
+    {
+      "type": "模型",
+      "text": "El Haddad模型"
+    },
+    {
+      "type": "模型",
+      "text": "Chapetti模型"
+    },
+    {
+      "type": "模型",
+      "text": "Hobson模型"
+    },
+    {
+      "type": "模型",
+      "text": "Miller模型"
+    },
+    {
+      "type": "模型",
+      "text": "Navarro-Rios模型"
+    },
+    {
+      "type": "模型",
+      "text": "Wheeler模型"
+    },
+    {
+      "type": "模型",
+      "text": "Willenborg模型"
+    },
+    {
+      "type": "模型",
+      "text": "Elber裂纹闭合模型"
+    },
+    {
+      "type": "模型",
+      "text": "Dugdale条带屈服模型"
+    },
+    {
+      "type": "模型",
+      "text": "疲劳元模型"
+    },
+    {
+      "type": "方法",
+      "text": "局部应力应变法"
+    },
+    {
+      "type": "方法",
+      "text": "应力场强法"
+    },
+    {
+      "type": "方法",
+      "text": "临界距离理论"
+    },
+    {
+      "type": "方法",
+      "text": "名义应力法"
+    },
+    {
+      "type": "方法",
+      "text": "细节疲劳额定值法"
+    },
+    {
+      "type": "方法",
+      "text": "积木式试验"
+    },
+    {
+      "type": "方法",
+      "text": "PFMA方法"
+    },
+    {
+      "type": "方法",
+      "text": "DCGA方法"
+    },
+    {
+      "type": "方法",
+      "text": "CIA方法"
+    },
+    {
+      "type": "方法",
+      "text": "结构健康管理"
+    },
+    {
+      "type": "方法",
+      "text": "数字孪生"
+    },
+    {
+      "type": "理论",
+      "text": "断裂力学"
+    },
+    {
+      "type": "理论",
+      "text": "线弹性断裂力学"
+    },
+    {
+      "type": "理论",
+      "text": "损伤容限理念"
+    },
+    {
+      "type": "理论",
+      "text": "安全寿命理念"
+    },
+    {
+      "type": "理论",
+      "text": "破损安全理念"
+    },
+    {
+      "type": "理论",
+      "text": "耐久性分析"
+    },
+    {
+      "type": "概念",
+      "text": "应力强度因子"
+    },
+    {
+      "type": "概念",
+      "text": "裂纹扩展速率"
+    },
+    {
+      "type": "概念",
+      "text": "净驱动力"
+    },
+    {
+      "type": "概念",
+      "text": "原始疲劳质量"
+    },
+    {
+      "type": "概念",
+      "text": "经济寿命"
+    },
+    {
+      "type": "材料",
+      "text": "Ti-6Al-4V"
+    },
+    {
+      "type": "材料",
+      "text": "7050-T7451铝合金"
+    },
+    {
+      "type": "材料",
+      "text": "2324-T39铝合金"
+    },
+    {
+      "type": "材料",
+      "text": "TC18钛合金"
+    },
+    {
+      "type": "材料",
+      "text": "2024-T3铝合金"
+    },
+    {
+      "type": "结构",
+      "text": "飞机金属结构"
+    },
+    {
+      "type": "结构",
+      "text": "大型整体化结构"
+    },
+    {
+      "type": "结构",
+      "text": "拓扑结构"
+    },
+    {
+      "type": "结构",
+      "text": "梯度复合结构"
+    },
+    {
+      "type": "结构",
+      "text": "点阵结构"
+    },
+    {
+      "type": "性能指标",
+      "text": "疲劳寿命"
+    },
+    {
+      "type": "性能指标",
+      "text": "疲劳强度"
+    },
+    {
+      "type": "性能指标",
+      "text": "裂纹扩展寿命"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余强度"
+    },
+    {
+      "type": "研究结果",
+      "text": "95%可靠度"
+    },
+    {
+      "type": "研究结果",
+      "text": "裂纹分叉现象"
+    },
+    {
+      "type": "研究结果",
+      "text": "疲劳裂纹偏折行为"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Walker",
+      "tail": "Walker模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Smith, Watson, Topper",
+      "tail": "SWT模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Paris",
+      "tail": "Paris模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Elber",
+      "tail": "Elber裂纹闭合模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Kitagawa, Takahashi",
+      "tail": "Kitagawa-Takahashi模型"
+    },
+    {
+      "type": "提出了",
+      "head": "El Haddad",
+      "tail": "El Haddad模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Chapetti",
+      "tail": "Chapetti模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Hobson",
+      "tail": "Hobson模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Miller",
+      "tail": "Miller模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Navarro, Rios",
+      "tail": "Navarro-Rios模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Wheeler",
+      "tail": "Wheeler模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Willenborg",
+      "tail": "Willenborg模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Dugdale",
+      "tail": "Dugdale条带屈服模型"
+    },
+    {
+      "type": "基于",
+      "head": "局部应力应变法",
+      "tail": "ε-N曲线"
+    },
+    {
+      "type": "基于",
+      "head": "应力场强法",
+      "tail": "S-N曲线"
+    },
+    {
+      "type": "基于",
+      "head": "名义应力法",
+      "tail": "S-N曲线"
+    },
+    {
+      "type": "基于",
+      "head": "细节疲劳额定值法",
+      "tail": "S-N曲线"
+    },
+    {
+      "type": "基于",
+      "head": "PFMA方法",
+      "tail": "断裂力学"
+    },
+    {
+      "type": "演化为",
+      "head": "安全寿命理念",
+      "tail": "损伤容限理念"
+    },
+    {
+      "type": "补充了",
+      "head": "破损安全理念",
+      "tail": "安全寿命理念"
+    },
+    {
+      "type": "应用于",
+      "head": "断裂力学",
+      "tail": "飞机金属结构"
+    },
+    {
+      "type": "影响",
+      "head": "材料微细观组织",
+      "tail": "疲劳裂纹扩展"
+    },
+    {
+      "type": "影响",
+      "head": "新型结构形式",
+      "tail": "疲劳分析方法"
+    },
+    {
+      "type": "发展为",
+      "head": "传统疲劳分析方法",
+      "tail": "跨尺度分析方法"
+    },
+    {
+      "type": "发展为",
+      "head": "结构健康管理",
+      "tail": "数字孪生"
+    },
+    {
+      "type": "评估指标是",
+      "head": "飞机结构",
+      "tail": "疲劳寿命"
+    },
+    {
+      "type": "评估指标是",
+      "head": "损伤容限设计",
+      "tail": "检查周期"
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "title": "基于健康监测的飞机结构寿命预测技术",
+  "stats": {
+    "total_pairs": 15,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "飞机结构健康监测技术",
+      "object": "结构设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测技术",
+      "object": "飞行",
+      "relation": "应用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "飞行",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测技术",
+      "object": "维护过程",
+      "relation": "应用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测技术",
+      "object": "结构健康状况预判",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机结构健康监测技术",
+      "object": "辅助维修与维护决策",
+      "relation": "用于",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "及",
+          "cc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "F-35",
+      "object": "结构健康监测工程案例",
+      "relation": "是",
+      "path": [
+        [
+          "F-35",
+          "conj"
+        ],
+        [
+          "A400M",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "A400M",
+      "object": "结构健康监测工程案例",
+      "relation": "是",
+      "path": [
+        [
+          "A400M",
+          "pobj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 4
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计",
+      "object": "基本流程",
+      "relation": "包含",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "文",
+          "nsubj"
+        ],
+        [
+          "本",
+          "det"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 8
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        },
+        {
+          "sentence_index": 5,
+          "id": 19
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计流程",
+      "object": "控制点选择",
+      "relation": "包含",
+      "path": [
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "控制",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 5,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 8
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计流程",
+      "object": "飞行参数筛选",
+      "relation": "包含",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "飞行",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 8
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        },
+        {
+          "sentence_index": 5,
+          "id": 19
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计流程",
+      "object": "载荷/应变方程构建",
+      "relation": "包含",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "环节",
+          "dobj"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "/",
+          "punct"
+        ],
+        [
+          "应变",
+          "nn"
+        ],
+        [
+          "方程",
+          "nn"
+        ],
+        [
+          "构建",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 8
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        },
+        {
+          "sentence_index": 5,
+          "id": 19
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 10,
+          "id": 1
+        },
+        {
+          "sentence_index": 10,
+          "id": 30
+        },
+        {
+          "sentence_index": 10,
+          "id": 27
+        },
+        {
+          "sentence_index": 10,
+          "id": 12
+        },
+        {
+          "sentence_index": 10,
+          "id": 13
+        },
+        {
+          "sentence_index": 10,
+          "id": 14
+        },
+        {
+          "sentence_index": 10,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计流程",
+      "object": "损伤计算及寿命评估",
+      "relation": "包含",
+      "path": [
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "和",
+          "cc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 5,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命预计流程",
+      "object": "结果输出及方程验证",
+      "relation": "包含",
+      "path": [
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "寿命",
+          "nn"
+        ],
+        [
+          "控制",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "阐述",
+          "root"
+        ],
+        [
+          "环节",
+          "dobj"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "结果",
+          "nn"
+        ],
+        [
+          "输出",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 8
+        },
+        {
+          "sentence_index": 5,
+          "id": 9
+        },
+        {
+          "sentence_index": 5,
+          "id": 10
+        },
+        {
+          "sentence_index": 5,
+          "id": 19
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 10,
+          "id": 1
+        },
+        {
+          "sentence_index": 10,
+          "id": 30
+        },
+        {
+          "sentence_index": 10,
+          "id": 27
+        },
+        {
+          "sentence_index": 10,
+          "id": 22
+        },
+        {
+          "sentence_index": 10,
+          "id": 23
+        },
+        {
+          "sentence_index": 10,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于裂纹的监测方法",
+      "object": "应用限制因素",
+      "relation": "存在",
+      "path": [
+        [
+          "监测",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "因素",
+          "dobj"
+        ],
+        [
+          "研究",
+          "rcmod"
+        ],
+        [
+          "及",
+          "cc"
+        ],
+        [
+          "限制",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 6,
+          "id": 1
+        },
+        {
+          "sentence_index": 6,
+          "id": 15
+        },
+        {
+          "sentence_index": 6,
+          "id": 8
+        },
+        {
+          "sentence_index": 6,
+          "id": 9
+        },
+        {
+          "sentence_index": 6,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空领域",
+      "object": "结构健康监测智能化",
+      "relation": "未来研究方向",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "领域",
+          "nsubj"
+        ],
+        [
+          "开展",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "发挥",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "结构",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "监测",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 12,
+          "id": 2
+        },
+        {
+          "sentence_index": 12,
+          "id": 3
+        },
+        {
+          "sentence_index": 12,
+          "id": 5
+        },
+        {
+          "sentence_index": 12,
+          "id": 1
+        },
+        {
+          "sentence_index": 12,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

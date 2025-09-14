@@ -1,0 +1,1644 @@
+{
+  "title": "可靠性工程四川省重点实验室",
+  "stats": {
+    "total_pairs": 19,
+    "aligned_pairs": 19,
+    "path_found": 19,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "电子科技大学",
+      "relation": "依托",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "大学",
+          "dobj"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "科技",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "可靠性、维修性与故障诊断技术",
+      "relation": "面向需求",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "关键技术装备",
+      "relation": "主要研究",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "国防武器装备",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "装备",
+          "conj"
+        ],
+        [
+          "国防",
+          "nn"
+        ],
+        [
+          "武器",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "航空器",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "航空器",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "航天器",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "航天器",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "大型数控机床",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "机床",
+          "conj"
+        ],
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "数控",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "极大规模集成电路制造装备",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "装备",
+          "conj"
+        ],
+        [
+          "极",
+          "advmod"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "集成",
+          "amod"
+        ],
+        [
+          "电路",
+          "nn"
+        ],
+        [
+          "制造",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "轨道交通",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "交通",
+          "conj"
+        ],
+        [
+          "轨道",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "汽车",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "汽车",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "工程机械",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "机械",
+          "conj"
+        ],
+        [
+          "工程",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术装备",
+      "object": "新能源设备",
+      "relation": "包含",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "装备",
+          "pobj"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "能源",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "大型复杂装备的可靠性建模、分析与评估",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "装备",
+          "assmod"
+        ],
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "复杂",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "复杂装备的可靠性设计",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "装备",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "基于可靠性的装备多学科设计优化",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "学科",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "优化",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 100
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 103
+        },
+        {
+          "sentence_index": 0,
+          "id": 104
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "大型装备故障诊断与健康管理",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 105
+        },
+        {
+          "sentence_index": 0,
+          "id": 106
+        },
+        {
+          "sentence_index": 0,
+          "id": 107
+        },
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "剩余寿命预测",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "剩余",
+          "amod"
+        ],
+        [
+          "寿命",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "复杂装备维修性分析及维护决策",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "维修性",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 117
+        },
+        {
+          "sentence_index": 0,
+          "id": 118
+        },
+        {
+          "sentence_index": 0,
+          "id": 119
+        },
+        {
+          "sentence_index": 0,
+          "id": 120
+        },
+        {
+          "sentence_index": 0,
+          "id": 121
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "可靠性工程四川省重点实验室",
+      "object": "微纳机电系统(MEMS)可靠性设计分析与试验评价",
+      "relation": "研究方向为",
+      "path": [
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "四川省",
+          "nn"
+        ],
+        [
+          "重点",
+          "nn"
+        ],
+        [
+          "实验室",
+          "nsubj"
+        ],
+        [
+          "工程",
+          "nsubj"
+        ],
+        [
+          "依托",
+          "root"
+        ],
+        [
+          "评价",
+          "dobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "MEMS",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "可靠性",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 137
+        },
+        {
+          "sentence_index": 0,
+          "id": 128
+        },
+        {
+          "sentence_index": 0,
+          "id": 130
+        },
+        {
+          "sentence_index": 0,
+          "id": 131
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 133
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

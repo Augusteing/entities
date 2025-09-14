@@ -1,0 +1,636 @@
+{
+  "title": "飞机发动机故障的多参数预测模型",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "多参数预测模型",
+      "object": "飞机发动机故障",
+      "relation": "针对",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "表现",
+          "root"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "灰色预测建模",
+      "relation": "借鉴",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "灰色",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "信息融合",
+      "relation": "借鉴",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "表现",
+          "root"
+        ],
+        [
+          "借鉴",
+          "root"
+        ],
+        [
+          "思想",
+          "dobj"
+        ],
+        [
+          "融合",
+          "rcmod"
+        ],
+        [
+          "信息",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数预测模型",
+      "object": "预测的准确性",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "准确性",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机发动机故障",
+      "object": "多种特征信号",
+      "relation": "表现出",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "表现",
+          "root"
+        ],
+        [
+          "表征",
+          "dep"
+        ],
+        [
+          "信号",
+          "dobj"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "种",
+          "clf"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "特征信号",
+      "object": "飞机发动机故障",
+      "relation": "反映",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "信号",
+          "dobj"
+        ],
+        [
+          "表征",
+          "dep"
+        ],
+        [
+          "表现",
+          "root"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统的基于灰色理论的飞机发动机故障预测",
+      "object": "预测准确性不足",
+      "relation": "存在问题",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "准确性",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "特征参数时间序列",
+      "object": "预测信息",
+      "relation": "提供",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "考虑",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "prep"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "预测",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真验证结果",
+      "object": "多参数预测模型具有较高的预测准确性",
+      "relation": "表明",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "验证",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "表现",
+          "root"
+        ],
+        [
+          "使得",
+          "conj"
+        ],
+        [
+          "准确性",
+          "dobj"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

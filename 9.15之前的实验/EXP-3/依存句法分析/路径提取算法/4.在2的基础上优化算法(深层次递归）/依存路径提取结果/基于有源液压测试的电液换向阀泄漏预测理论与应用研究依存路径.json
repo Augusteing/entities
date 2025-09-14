@@ -1,0 +1,494 @@
+{
+  "title": "基于有源液压测试的电液换向阀泄漏预测理论与应用研究",
+  "stats": {
+    "total_pairs": 6,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "飞机起落架电液换向阀内泄漏故障预测方法",
+      "object": "电液换向阀内泄漏无法实施检测的问题",
+      "relation": "解决",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "起落架",
+          "nn"
+        ],
+        [
+          "电液",
+          "nn"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "泄漏",
+          "vmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "实施",
+          "rcmod"
+        ],
+        [
+          "电液",
+          "nn"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "泄漏",
+          "nsubj"
+        ],
+        [
+          "无法",
+          "advmod"
+        ],
+        [
+          "检测",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电液换向阀内泄漏",
+      "object": "飞机起落架故障",
+      "relation": "导致",
+      "path": [
+        [
+          "电液",
+          "nn"
+        ],
+        [
+          "泄漏",
+          "nsubj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "起落架",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文",
+      "object": "电液换向阀内泄漏机制",
+      "relation": "研究",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "有源液压测试技术",
+      "object": "电液换向阀内泄漏模型",
+      "relation": "用于建立",
+      "path": [
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "泄漏",
+          "nsubj"
+        ],
+        [
+          "电液",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "实验",
+      "object": "有源液压测试技术的可行性",
+      "relation": "验证",
+      "path": [
+        [
+          "实验",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "验证",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "实施",
+          "rcmod"
+        ],
+        [
+          "泄漏",
+          "nsubj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "有源液压测试技术",
+      "object": "电液换向阀内泄漏无法预测的问题",
+      "relation": "解决",
+      "path": [
+        [
+          "液压",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "换向阀",
+          "lobj"
+        ],
+        [
+          "内",
+          "loc"
+        ],
+        [
+          "泄漏",
+          "nsubj"
+        ],
+        [
+          "电液",
+          "nn"
+        ],
+        [
+          "无法",
+          "advmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

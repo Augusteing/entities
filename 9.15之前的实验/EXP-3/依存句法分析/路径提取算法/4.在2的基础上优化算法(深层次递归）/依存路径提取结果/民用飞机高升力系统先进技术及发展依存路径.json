@@ -1,0 +1,788 @@
+{
+  "title": "民用飞机高升力系统先进技术及发展",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "飞机高升力系统",
+      "object": "技术问题",
+      "relation": "存在",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "升力",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "问题",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机高升力系统",
+      "object": "技术瓶颈",
+      "relation": "存在",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "升力",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新一代典型飞机高升力系统",
+      "object": "先进技术",
+      "relation": "采用",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "升力",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势预测",
+      "object": "绿色航空理念",
+      "relation": "结合",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "理念",
+          "dobj"
+        ],
+        [
+          "绿色",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发展趋势预测",
+      "object": "TRIZ",
+      "relation": "利用",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "发展",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "理论",
+          "dobj"
+        ],
+        [
+          "TRIZ",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 35
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "TRIZ",
+      "object": "Theory of Inventive Problem Solving",
+      "relation": "全称是",
+      "path": [
+        [
+          "TRIZ",
+          "nn"
+        ],
+        [
+          "Theory",
+          "prnmod"
+        ],
+        [
+          "of",
+          "prep"
+        ],
+        [
+          "Inventive",
+          "amod"
+        ],
+        [
+          "Problem",
+          "nn"
+        ],
+        [
+          "Solving",
+          "pobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分析研究工作",
+      "object": "飞机层级",
+      "relation": "包含维度",
+      "path": [
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分析研究工作",
+      "object": "系统层级",
+      "relation": "包含维度",
+      "path": [
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分析研究工作",
+      "object": "关键部件技术",
+      "relation": "包含维度",
+      "path": [
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "分析研究工作",
+      "object": "材料",
+      "relation": "包含维度",
+      "path": [
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "开展",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "维度",
+          "pobj"
+        ],
+        [
+          "材料",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "研究结论",
+      "object": "民用飞机高升力系统先进技术应用",
+      "relation": "提供支持",
+      "path": [
+        [
+          "研究",
+          "dobj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "瓶颈",
+          "dobj"
+        ],
+        [
+          "现状",
+          "conj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "高",
+          "amod"
+        ],
+        [
+          "升力",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

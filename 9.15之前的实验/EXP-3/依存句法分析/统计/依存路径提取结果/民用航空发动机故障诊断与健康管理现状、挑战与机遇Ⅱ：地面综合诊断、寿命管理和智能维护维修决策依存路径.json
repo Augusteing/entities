@@ -1,0 +1,888 @@
+{
+  "title": "民用航空发动机故障诊断与健康管理现状、挑战与机遇Ⅱ：地面综合诊断、寿命管理和智能维护维修决策",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 3,
+    "path_found": 3,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "地面综合诊断",
+      "relation": "包含",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 39
+        },
+        {
+          "sentence_index": 5,
+          "id": 16
+        },
+        {
+          "sentence_index": 5,
+          "id": 14
+        },
+        {
+          "sentence_index": 5,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "寿命管理",
+      "relation": "包含",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "智能视情维护维修决策",
+      "relation": "包含",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "视",
+          "nn"
+        ],
+        [
+          "情",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 39
+        },
+        {
+          "sentence_index": 5,
+          "id": 26
+        },
+        {
+          "sentence_index": 5,
+          "id": 21
+        },
+        {
+          "sentence_index": 5,
+          "id": 22
+        },
+        {
+          "sentence_index": 5,
+          "id": 23
+        },
+        {
+          "sentence_index": 5,
+          "id": 24
+        },
+        {
+          "sentence_index": 5,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "挑战",
+      "relation": "面临",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "差距",
+      "relation": "存在",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "差距",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 14
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "民用航空发动机健康管理",
+      "object": "研发方向",
+      "relation": "具有",
+      "path": [
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "指出",
+          "root"
+        ],
+        [
+          "方向",
+          "dobj"
+        ],
+        [
+          "研发",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        },
+        {
+          "sentence_index": 3,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "CBM+全流程",
+      "object": "民用航空发动机健康管理系统",
+      "relation": "用于分析",
+      "path": [
+        [
+          "CBM",
+          "dep"
+        ],
+        [
+          "+",
+          "punct"
+        ],
+        [
+          "全",
+          "det"
+        ],
+        [
+          "流程",
+          "assmod"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "地面综合诊断",
+      "object": "热点技术",
+      "relation": "具有",
+      "path": [
+        [
+          "地面",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "热点",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 5,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 14
+        },
+        {
+          "sentence_index": 5,
+          "id": 15
+        },
+        {
+          "sentence_index": 5,
+          "id": 16
+        },
+        {
+          "sentence_index": 5,
+          "id": 39
+        },
+        {
+          "sentence_index": 5,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "寿命管理",
+      "object": "热点技术",
+      "relation": "具有",
+      "path": [
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "目标",
+          "pobj"
+        ],
+        [
+          "基于",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "热点",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 5,
+          "id": 2
+        },
+        {
+          "sentence_index": 5,
+          "id": 39
+        },
+        {
+          "sentence_index": 5,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能视情维护维修决策",
+      "object": "热点技术",
+      "relation": "具有",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "视",
+          "nn"
+        ],
+        [
+          "情",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "决策",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "热点",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 5,
+      "path_positions": [
+        {
+          "sentence_index": 5,
+          "id": 21
+        },
+        {
+          "sentence_index": 5,
+          "id": 22
+        },
+        {
+          "sentence_index": 5,
+          "id": 23
+        },
+        {
+          "sentence_index": 5,
+          "id": 24
+        },
+        {
+          "sentence_index": 5,
+          "id": 25
+        },
+        {
+          "sentence_index": 5,
+          "id": 26
+        },
+        {
+          "sentence_index": 5,
+          "id": 39
+        },
+        {
+          "sentence_index": 5,
+          "id": 38
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

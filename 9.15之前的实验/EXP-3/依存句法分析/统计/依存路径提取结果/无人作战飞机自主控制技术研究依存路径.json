@@ -1,0 +1,320 @@
+{
+  "title": "无人作战飞机自主控制技术研究",
+  "stats": {
+    "total_pairs": 4,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "MMS/EVMS结构",
+      "object": "自主控制技术",
+      "relation": "实现",
+      "path": [
+        [
+          "/",
+          "punct"
+        ],
+        [
+          "EVMS",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "实现",
+          "rcmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "自主",
+          "amod"
+        ],
+        [
+          "控制",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "无人作战飞机",
+      "object": "自主控制",
+      "relation": "需要",
+      "path": [
+        [
+          "无",
+          "amod"
+        ],
+        [
+          "人",
+          "dobj"
+        ],
+        [
+          "作战",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "控制",
+          "rcmod"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本研究",
+      "object": "MMS/EVMS结构",
+      "relation": "设计",
+      "path": [
+        [
+          "本",
+          "det"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "归纳",
+          "root"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "/",
+          "punct"
+        ],
+        [
+          "EVMS",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本研究",
+      "object": "可变权限自主的结构和实现方法",
+      "relation": "提出",
+      "path": [
+        [
+          "本",
+          "det"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "结果",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "归纳",
+          "root"
+        ],
+        [
+          "提出",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "自主",
+          "rcmod"
+        ],
+        [
+          "可变",
+          "amod"
+        ],
+        [
+          "权限",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

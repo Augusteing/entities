@@ -1,0 +1,912 @@
+{
+  "title": "航空发动机的多参数快速故障诊断模型",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "粗糙集",
+      "relation": "结合",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "集",
+          "conj"
+        ],
+        [
+          "粗糙",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "灰色理论",
+      "relation": "结合",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "灰色",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "粗糙集",
+      "object": "冗余信息",
+      "relation": "去除",
+      "path": [
+        [
+          "粗糙",
+          "amod"
+        ],
+        [
+          "集",
+          "conj"
+        ],
+        [
+          "理论",
+          "nn"
+        ],
+        [
+          "特点",
+          "dobj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "去除",
+          "dep"
+        ],
+        [
+          "信息",
+          "dobj"
+        ],
+        [
+          "冗余",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数灰色模型",
+      "object": "约简后的信息",
+      "relation": "预测",
+      "path": [
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "信息",
+          "pobj"
+        ],
+        [
+          "后",
+          "assmod"
+        ],
+        [
+          "约简",
+          "lccomp"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 29
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 31
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "诊断效率",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "效率",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "对人的过分依赖",
+      "relation": "降低",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "过分",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "计算时间",
+      "relation": "减少",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "减少",
+          "ccomp"
+        ],
+        [
+          "时间",
+          "dobj"
+        ],
+        [
+          "计算",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "快速性",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "快速",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "实时性",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "减少",
+          "ccomp"
+        ],
+        [
+          "提高",
+          "dep"
+        ],
+        [
+          "实时性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 17
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多参数快速故障诊断模型",
+      "object": "预测精度",
+      "relation": "保持",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "依赖",
+          "dobj"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "为了",
+          "prep"
+        ],
+        [
+          "建立",
+          "root"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "快速",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

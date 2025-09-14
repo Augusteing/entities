@@ -1,0 +1,852 @@
+{
+  "title": "军用飞机预测与健康管理系统性能度量体系研究",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "PHM技术",
+      "object": "健康退化曲线",
+      "relation": "基于",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "曲线",
+          "pobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "退化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "能力需求",
+      "relation": "源于",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "能力",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "PHM系统的诊断和预测能力",
+      "relation": "评价",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "诊断性能度量",
+      "relation": "包括",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "度量",
+          "dobj"
+        ],
+        [
+          "度量",
+          "conj"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "预测性能度量",
+      "relation": "包括",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "度量",
+          "dobj"
+        ],
+        [
+          "度量",
+          "conj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "综合度量",
+      "relation": "包括",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "度量",
+          "dobj"
+        ],
+        [
+          "综合",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 64
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "PHM系统算法设计",
+      "relation": "为...奠定基础",
+      "path": [
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "系统能力验证",
+      "relation": "为...奠定基础",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "需求",
+          "pobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "能力",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM系统性能度量方法体系",
+      "object": "工程应用价值",
+      "relation": "具有",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "性能",
+          "nn"
+        ],
+        [
+          "度量",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "体系",
+          "dobj"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "为",
+          "dep"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "应用",
+          "pobj"
+        ],
+        [
+          "和",
+          "cc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,2464 @@
+{
+  "title": "基于QAR数据的飞行控制系统故障研究综述",
+  "stats": {
+    "total_pairs": 24,
+    "aligned_pairs": 12,
+    "path_found": 12,
+    "cross_sentence_pairs": 12,
+    "cross_sentence_path_found": 12
+  },
+  "pairs": [
+    {
+      "subject": "飞行控制系统故障分析",
+      "object": "QAR数据",
+      "relation": "基于",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "过程",
+          "dobj"
+        ],
+        [
+          "提取",
+          "nn"
+        ],
+        [
+          "QAR",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据分析",
+      "object": "数据预处理",
+      "relation": "需要",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "过程",
+          "dobj"
+        ],
+        [
+          "提取",
+          "nn"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "预处理",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据分析",
+      "object": "特征提取",
+      "relation": "需要",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "分析",
+          "dobj"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "过程",
+          "dobj"
+        ],
+        [
+          "提取",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障研究",
+      "object": "故障监测",
+      "relation": "分为",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障研究",
+      "object": "故障识别",
+      "relation": "分为",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障研究",
+      "object": "故障诊断",
+      "relation": "分为",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障研究",
+      "object": "故障预测",
+      "relation": "分为",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "方向舵液压泄漏",
+      "relation": "具有",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "方向舵",
+          "nn"
+        ],
+        [
+          "液压",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "升降舵指示不一致",
+      "relation": "具有",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "一致",
+          "conj"
+        ],
+        [
+          "升降舵",
+          "nn"
+        ],
+        [
+          "指示",
+          "nsubj"
+        ],
+        [
+          "不",
+          "neg"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "襟翼动作耗时",
+      "relation": "具有",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "耗时",
+          "conj"
+        ],
+        [
+          "襟翼",
+          "nn"
+        ],
+        [
+          "动作",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 30
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障建模",
+      "object": "QAR数据项",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据项",
+      "object": "飞机主舵面位置",
+      "relation": "包括",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据项",
+      "object": "飞行姿态",
+      "relation": "包括",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据项",
+      "object": "飞机性能",
+      "relation": "包括",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据项",
+      "object": "左右襟翼角度",
+      "relation": "包括",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "位置",
+          "dobj"
+        ],
+        [
+          "左右",
+          "nn"
+        ],
+        [
+          "襟翼",
+          "nn"
+        ],
+        [
+          "角度",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 38
+        },
+        {
+          "sentence_index": 2,
+          "id": 55
+        },
+        {
+          "sentence_index": 2,
+          "id": 50
+        },
+        {
+          "sentence_index": 2,
+          "id": 51
+        },
+        {
+          "sentence_index": 2,
+          "id": 52
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "QAR数据项",
+      "object": "襟翼位置",
+      "relation": "包括",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "QAR",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "数据",
+          "pobj"
+        ],
+        [
+          "记录器",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "类型",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "位置",
+          "dobj"
+        ],
+        [
+          "襟翼",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 38
+        },
+        {
+          "sentence_index": 2,
+          "id": 55
+        },
+        {
+          "sentence_index": 2,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析",
+      "object": "物理模型",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "模型",
+          "conj"
+        ],
+        [
+          "物理",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 60
+        },
+        {
+          "sentence_index": 2,
+          "id": 71
+        },
+        {
+          "sentence_index": 2,
+          "id": 62
+        },
+        {
+          "sentence_index": 2,
+          "id": 61
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析",
+      "object": "多变量统计",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "统计",
+          "conj"
+        ],
+        [
+          "多变量",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 60
+        },
+        {
+          "sentence_index": 2,
+          "id": 71
+        },
+        {
+          "sentence_index": 2,
+          "id": 65
+        },
+        {
+          "sentence_index": 2,
+          "id": 64
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析",
+      "object": "逻辑推理",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "推理",
+          "conj"
+        ],
+        [
+          "逻辑",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 60
+        },
+        {
+          "sentence_index": 2,
+          "id": 71
+        },
+        {
+          "sentence_index": 2,
+          "id": 68
+        },
+        {
+          "sentence_index": 2,
+          "id": 67
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障分析",
+      "object": "机器学习",
+      "relation": "使用",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "学习",
+          "dobj"
+        ],
+        [
+          "机器",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 60
+        },
+        {
+          "sentence_index": 2,
+          "id": 71
+        },
+        {
+          "sentence_index": 2,
+          "id": 70
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "方向舵",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "方向舵",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "升降舵",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "一致",
+          "conj"
+        ],
+        [
+          "指示",
+          "nsubj"
+        ],
+        [
+          "升降舵",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 24
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行控制系统",
+      "object": "襟翼",
+      "relation": "包含",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "控制",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "对",
+          "assmod"
+        ],
+        [
+          "现状",
+          "dobj"
+        ],
+        [
+          "梳理",
+          "pccomp"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "总结",
+          "root"
+        ],
+        [
+          "得出",
+          "root"
+        ],
+        [
+          "包括",
+          "dep"
+        ],
+        [
+          "泄漏",
+          "ccomp"
+        ],
+        [
+          "耗时",
+          "conj"
+        ],
+        [
+          "动作",
+          "nsubj"
+        ],
+        [
+          "襟翼",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 18
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        },
+        {
+          "sentence_index": 2,
+          "id": 30
+        },
+        {
+          "sentence_index": 2,
+          "id": 29
+        },
+        {
+          "sentence_index": 2,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障研究",
+      "object": "故障实时预测技术",
+      "relation": "旨在实现",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

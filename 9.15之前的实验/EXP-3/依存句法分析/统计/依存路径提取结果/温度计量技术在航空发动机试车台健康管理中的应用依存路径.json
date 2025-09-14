@@ -1,0 +1,600 @@
+{
+  "title": "温度计量技术在航空发动机试车台健康管理中的应用",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "温度计量技术",
+      "object": "试车台健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "温度",
+          "nn"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "试车台",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统离线校准方法",
+      "object": "反复拆装耗时长",
+      "relation": "存在问题",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "离线",
+          "nn"
+        ],
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "长",
+          "rcmod"
+        ],
+        [
+          "反复",
+          "amod"
+        ],
+        [
+          "拆装",
+          "nsubj"
+        ],
+        [
+          "耗时",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统离线校准方法",
+      "object": "易引发故障",
+      "relation": "存在问题",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "离线",
+          "nn"
+        ],
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "针对",
+          "root"
+        ],
+        [
+          "不足",
+          "pobj"
+        ],
+        [
+          "长",
+          "rcmod"
+        ],
+        [
+          "引发",
+          "conj"
+        ],
+        [
+          "易",
+          "advmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "传统离线校准方法",
+      "object": "系统综合误差的判定方法",
+      "relation": "缺少",
+      "path": [
+        [
+          "传统",
+          "amod"
+        ],
+        [
+          "离线",
+          "nn"
+        ],
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "整机在线校准方法",
+      "object": "温度传感器",
+      "relation": "校准",
+      "path": [
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "温度",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "整机在线校准方法",
+      "object": "温度通道",
+      "relation": "校准",
+      "path": [
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "温度",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "整机在线校准方法",
+      "object": "标准热源",
+      "relation": "使用",
+      "path": [
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "通过",
+          "root"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "提供",
+          "rcmod"
+        ],
+        [
+          "热源",
+          "dobj"
+        ],
+        [
+          "标准",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "比较模拟仪表显示结果与标准器读数",
+      "object": "在线校准的有效性",
+      "relation": "确认",
+      "path": [
+        [
+          "标准",
+          "amod"
+        ],
+        [
+          "热源",
+          "dobj"
+        ],
+        [
+          "提供",
+          "rcmod"
+        ],
+        [
+          "方式",
+          "pobj"
+        ],
+        [
+          "通过",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "校准",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 7
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "整机在线校准方法",
+      "object": "试车台系统综合误差校准",
+      "relation": "实现",
+      "path": [
+        [
+          "校准",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "试车台",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "试车台系统综合误差校准",
+      "object": "试车台健康管理",
+      "relation": "支撑",
+      "path": [
+        [
+          "试车台",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

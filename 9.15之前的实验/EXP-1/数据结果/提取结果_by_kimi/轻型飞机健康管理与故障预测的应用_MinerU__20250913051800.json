@@ -1,0 +1,261 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "健康管理与预测"
+    },
+    {
+      "type": "技术",
+      "text": "Prognostics and Health Management (PHM)"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断与预测"
+    },
+    {
+      "type": "技术",
+      "text": "Condition- Based Maintenance (CBM)"
+    },
+    {
+      "type": "技术",
+      "text": "集成产品与过程设计"
+    },
+    {
+      "type": "技术",
+      "text": "IPD"
+    },
+    {
+      "type": "技术",
+      "text": "质量功能展开"
+    },
+    {
+      "type": "技术",
+      "text": "QFD"
+    },
+    {
+      "type": "技术",
+      "text": "失效模式、影响及危害性分析"
+    },
+    {
+      "type": "技术",
+      "text": "FMECA"
+    },
+    {
+      "type": "技术",
+      "text": "Health and Usage Monitoring System (HUMS)"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统软件"
+    },
+    {
+      "type": "技术",
+      "text": "新型传感器技术"
+    },
+    {
+      "type": "技术",
+      "text": "异种传感器数据融合传输技术"
+    },
+    {
+      "type": "技术",
+      "text": "传感器嵌入技术"
+    },
+    {
+      "type": "技术",
+      "text": "传感器布置优化"
+    },
+    {
+      "type": "技术",
+      "text": "布线技术"
+    },
+    {
+      "type": "技术",
+      "text": "PHM的故障诊断与预测算法"
+    },
+    {
+      "type": "组织",
+      "text": "中国民用航空飞行学院"
+    },
+    {
+      "type": "组织",
+      "text": "西南交通大学电气工程学院"
+    },
+    {
+      "type": "组织",
+      "text": "美国国防部"
+    },
+    {
+      "type": "组织",
+      "text": "美国军方的航空工程指挥部"
+    },
+    {
+      "type": "组织",
+      "text": "Honeywell"
+    },
+    {
+      "type": "组织",
+      "text": "Aviation Engineering Directorate"
+    },
+    {
+      "type": "文件",
+      "text": "RTCA/D0- 178B"
+    },
+    {
+      "type": "文件",
+      "text": "RTCA/D0- 254"
+    },
+    {
+      "type": "文件",
+      "text": "MIL- HDBK- 516B"
+    },
+    {
+      "type": "文件",
+      "text": "ADS- 79- HDBK"
+    },
+    {
+      "type": "文件",
+      "text": "Boeing. 787 GoldCare"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "健康管理与预测",
+      "tail": "轻型飞机"
+    },
+    {
+      "type": "应用于",
+      "head": "Prognostics and Health Management (PHM)",
+      "tail": "轻型飞机"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "预测"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "健康管理"
+    },
+    {
+      "type": "实现",
+      "head": "PHM系统",
+      "tail": "视情维修"
+    },
+    {
+      "type": "减少",
+      "head": "PHM技术",
+      "tail": "备件"
+    },
+    {
+      "type": "减少",
+      "head": "PHM技术",
+      "tail": "维修设备"
+    },
+    {
+      "type": "减少",
+      "head": "PHM技术",
+      "tail": "人力成本"
+    },
+    {
+      "type": "提供",
+      "head": "PHM系统",
+      "tail": "机务维修人员"
+    },
+    {
+      "type": "提供",
+      "head": "PHM系统",
+      "tail": "飞行员"
+    },
+    {
+      "type": "提供",
+      "head": "PHM系统",
+      "tail": "系统设计人员"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "PHM系统软件"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "新型传感器技术"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "异种传感器数据融合传输技术"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "传感器嵌入技术"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "传感器布置优化"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "布线技术"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "PHM的故障诊断与预测算法"
+    },
+    {
+      "type": "提出",
+      "head": "美国国防部",
+      "tail": "IPD"
+    },
+    {
+      "type": "提出",
+      "head": "美国国防部",
+      "tail": "QFD"
+    },
+    {
+      "type": "规定",
+      "head": "RTCA/D0- 178B",
+      "tail": "航空系统软件的适航认证"
+    },
+    {
+      "type": "规定",
+      "head": "RTCA/D0- 254",
+      "tail": "航空电子设备硬件的适航认证"
+    },
+    {
+      "type": "规定",
+      "head": "MIL- HDBK- 516B",
+      "tail": "航空器系统的适航认证标准"
+    },
+    {
+      "type": "规定",
+      "head": "ADS- 79- HDBK",
+      "tail": "Condition Based Maintenance Systems"
+    },
+    {
+      "type": "使用",
+      "head": "Honeywell",
+      "tail": "Health and Usage Monitoring System (HUMS)"
+    },
+    {
+      "type": "规定",
+      "head": "Aviation Engineering Directorate",
+      "tail": "HUMS以及基于HUMS的维修适航标准"
+    }
+  ]
+}

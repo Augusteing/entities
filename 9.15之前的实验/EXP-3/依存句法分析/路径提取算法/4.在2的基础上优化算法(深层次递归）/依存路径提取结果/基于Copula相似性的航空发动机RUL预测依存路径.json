@@ -1,0 +1,752 @@
+{
+  "title": "基于Copula相似性的航空发动机RUL预测",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "航空发动机剩余寿命预测",
+      "relation": "用于",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "众多",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "退化",
+          "pccomp"
+        ],
+        [
+          "性能",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "性能退化特征众多问题",
+      "relation": "解决",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "众多",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "退化",
+          "pccomp"
+        ],
+        [
+          "性能",
+          "nsubj"
+        ],
+        [
+          "特征",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "特征相互影响问题",
+      "relation": "解决",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "众多",
+          "root"
+        ],
+        [
+          "特征",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "K-means聚类",
+      "object": "航空发动机工作状态",
+      "relation": "用于分类",
+      "path": [
+        [
+          "K-means",
+          "dep"
+        ],
+        [
+          "聚类",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "分类",
+          "root"
+        ],
+        [
+          "众多",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "退化",
+          "pccomp"
+        ],
+        [
+          "性能",
+          "nsubj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 2
+        },
+        {
+          "sentence_index": 4,
+          "id": 3
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Copula函数",
+      "object": "传感器相关性",
+      "relation": "用于建模",
+      "path": [
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "考虑",
+          "root"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "相关",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "Copula结构",
+      "relation": "构建",
+      "path": [
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "Copula",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "Copula相似性",
+      "object": "剩余寿命预测",
+      "relation": "实现",
+      "path": [
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "RUL",
+          "nn"
+        ],
+        [
+          "remaining",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "RUL",
+          "nn"
+        ],
+        [
+          "remaining",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "预测误差",
+      "relation": "减少",
+      "path": [
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "RUL",
+          "nn"
+        ],
+        [
+          "remaining",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于Copula相似性的RUL预测方法",
+      "object": "传统方法",
+      "relation": "优于",
+      "path": [
+        [
+          "Copula",
+          "nn"
+        ],
+        [
+          "相似性",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 3,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 4
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 16
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

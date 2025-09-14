@@ -1,0 +1,740 @@
+{
+  "title": "基于AFDX网络的综合模块化航电故障注入技术",
+  "stats": {
+    "total_pairs": 9,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 3,
+    "cross_sentence_path_found": 3
+  },
+  "pairs": [
+    {
+      "subject": "故障注入技术",
+      "object": "综合模块化航电系统的健康管理功能",
+      "relation": "验证",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "注入",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "功能",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障注入技术",
+      "object": "AFDX网络",
+      "relation": "通过",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "注入",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "以太网",
+          "pobj"
+        ],
+        [
+          "AFDX",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术解决方案",
+      "object": "故障数据的配置管理方法",
+      "relation": "提出",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "功能",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术解决方案",
+      "object": "发送策略",
+      "relation": "提出",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "发送",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发送策略",
+      "object": "主机数据更新间隔、发送间隔与AFDX端系统定时器周期不匹配问题",
+      "relation": "解决",
+      "path": [
+        [
+          "发送",
+          "nn"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "以太网",
+          "pobj"
+        ],
+        [
+          "AFDX",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术解决方案",
+      "object": "故障注入装置",
+      "relation": "搭建",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "注入",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "技术解决方案",
+      "object": "故障注入软件",
+      "relation": "开发",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "解决",
+          "nn"
+        ],
+        [
+          "方案",
+          "dobj"
+        ],
+        [
+          "进行",
+          "rcmod"
+        ],
+        [
+          "注入",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "实验测试",
+      "object": "配置管理方法",
+      "relation": "验证",
+      "path": [
+        [
+          "实验",
+          "nn"
+        ],
+        [
+          "测试",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "说明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "功能",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "实验测试",
+      "object": "发送策略",
+      "relation": "验证",
+      "path": [
+        [
+          "实验",
+          "nn"
+        ],
+        [
+          "测试",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "说明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "策略",
+          "dobj"
+        ],
+        [
+          "发送",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

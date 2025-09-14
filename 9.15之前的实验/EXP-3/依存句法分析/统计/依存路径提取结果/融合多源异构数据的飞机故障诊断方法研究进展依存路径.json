@@ -1,0 +1,688 @@
+{
+  "title": "融合多源异构数据的飞机故障诊断方法研究进展",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 7,
+    "cross_sentence_path_found": 7
+  },
+  "pairs": [
+    {
+      "subject": "飞机",
+      "object": "多源异构数据",
+      "relation": "产生",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "程度",
+          "assmod"
+        ],
+        [
+          "提高",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多源异构数据",
+      "object": "飞机安全",
+      "relation": "保障",
+      "path": [
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "提高",
+          "pobj"
+        ],
+        [
+          "程度",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机全寿命周期",
+      "object": "数据源类型",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "程度",
+          "assmod"
+        ],
+        [
+          "提高",
+          "pobj"
+        ],
+        [
+          "随着",
+          "root"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据源类型",
+      "object": "初始适航设计数据",
+      "relation": "包括",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据源类型",
+      "object": "运营可靠性数据",
+      "relation": "包括",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据源类型",
+      "object": "运行维护数据",
+      "relation": "包括",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数据源类型",
+      "object": "机载设备数据",
+      "relation": "包括",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多源异构数据的融合应用",
+      "object": "故障成因",
+      "relation": "分析",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "大量",
+          "assmod"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "介绍",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "融合",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 8
+        },
+        {
+          "sentence_index": 9,
+          "id": 3
+        },
+        {
+          "sentence_index": 9,
+          "id": 5
+        },
+        {
+          "sentence_index": 9,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多源异构数据的融合应用",
+      "object": "排故",
+      "relation": "辅助",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "大量",
+          "assmod"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "起到",
+          "root"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "排故",
+          "rcmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 12,
+          "id": 1
+        },
+        {
+          "sentence_index": 12,
+          "id": 8
+        },
+        {
+          "sentence_index": 12,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多源异构数据的融合应用",
+      "object": "维修性设计",
+      "relation": "辅助",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "大量",
+          "assmod"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "数据",
+          "conj"
+        ],
+        [
+          "设计",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 1
+        },
+        {
+          "sentence_index": 4,
+          "id": 17
+        },
+        {
+          "sentence_index": 4,
+          "id": 5
+        },
+        {
+          "sentence_index": 4,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "融合数据的故障诊断方法",
+      "object": "传统单一数据来源的故障诊断分析方法",
+      "relation": "优于",
+      "path": [
+        [
+          "数据",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多源异构数据的融合应用",
+      "object": "发展趋势",
+      "relation": "是",
+      "path": [
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "多源",
+          "amod"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "大量",
+          "assmod"
+        ],
+        [
+          "产生",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "趋势",
+          "attr"
+        ],
+        [
+          "发展",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 13,
+          "id": 1
+        },
+        {
+          "sentence_index": 13,
+          "id": 11
+        },
+        {
+          "sentence_index": 13,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

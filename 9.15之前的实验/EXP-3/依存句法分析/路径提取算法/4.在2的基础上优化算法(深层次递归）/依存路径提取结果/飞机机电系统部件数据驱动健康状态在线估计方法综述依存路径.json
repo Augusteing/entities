@@ -1,0 +1,936 @@
+{
+  "title": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+  "stats": {
+    "total_pairs": 12,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "飞机机电系统",
+      "object": "飞机机电系统部件",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件",
+      "object": "健康状态",
+      "relation": "具有",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "处于",
+          "top"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康状态",
+      "object": "安全运行",
+      "relation": "保障",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "处于",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "前提",
+          "attr"
+        ],
+        [
+          "运行",
+          "rcmod"
+        ],
+        [
+          "安全",
+          "advmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康状态",
+      "object": "飞机正常飞行",
+      "relation": "保障",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "处于",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康状态",
+      "object": "成员安全",
+      "relation": "保障",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "处于",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "前提",
+          "attr"
+        ],
+        [
+          "运行",
+          "rcmod"
+        ],
+        [
+          "安全",
+          "advmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件健康状态在线估计",
+      "object": "健康状态在线估计",
+      "relation": "实现",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "处于",
+          "top"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "良好",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件健康状态在线估计",
+      "object": "视情维修",
+      "relation": "支撑",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "支撑",
+          "root"
+        ],
+        [
+          "维修",
+          "dobj"
+        ],
+        [
+          "视情",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 6
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件健康状态在线估计",
+      "object": "决策参考",
+      "relation": "提供",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "参考",
+          "dobj"
+        ],
+        [
+          "决策",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "决策参考",
+      "object": "飞行任务保障",
+      "relation": "用于",
+      "path": [
+        [
+          "决策",
+          "nn"
+        ],
+        [
+          "参考",
+          "dobj"
+        ],
+        [
+          "提供",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "保障",
+          "pccomp"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 7
+        },
+        {
+          "sentence_index": 4,
+          "id": 8
+        },
+        {
+          "sentence_index": 4,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件",
+      "object": "机电作动器",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "机电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机机电系统部件",
+      "object": "辅助动力装置",
+      "relation": "包含",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "机电",
+          "nn"
+        ],
+        [
+          "系统",
+          "nn"
+        ],
+        [
+          "部件",
+          "prnmod"
+        ],
+        [
+          "部件",
+          "dep"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "为",
+          "root"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "装置",
+          "pobj"
+        ],
+        [
+          "辅助",
+          "nn"
+        ],
+        [
+          "动力",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 5,
+          "id": 15
+        },
+        {
+          "sentence_index": 5,
+          "id": 3
+        },
+        {
+          "sentence_index": 5,
+          "id": 14
+        },
+        {
+          "sentence_index": 5,
+          "id": 12
+        },
+        {
+          "sentence_index": 5,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康状态估计方法",
+      "object": "数据驱动健康状态在线估计方法",
+      "relation": "包含",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "状态",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

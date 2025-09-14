@@ -1,0 +1,664 @@
+{
+  "title": "基于神经网络的军用飞机故障预报系统研究",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "故障预报",
+      "object": "飞行器安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "提高",
+          "pccomp"
+        ],
+        [
+          "安全性",
+          "dobj"
+        ],
+        [
+          "飞行器",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络技术",
+      "object": "故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "应用",
+          "rcmod"
+        ],
+        [
+          "过程",
+          "lobj"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "及时",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预报系统",
+      "object": "神经网络",
+      "relation": "结合",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "及时",
+          "rcmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "考虑",
+          "ccomp"
+        ],
+        [
+          "优点",
+          "dobj"
+        ],
+        [
+          "用",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "nsubj"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预报系统",
+      "object": "预测理论",
+      "relation": "结合",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "及时",
+          "rcmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "考虑",
+          "ccomp"
+        ],
+        [
+          "优点",
+          "dobj"
+        ],
+        [
+          "用",
+          "rcmod"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预报系统",
+      "object": "专家系统",
+      "relation": "结合",
+      "path": [
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "及时",
+          "rcmod"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "要求",
+          "pobj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "神经网络模型",
+      "object": "训练算法",
+      "relation": "具有",
+      "path": [
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "模型",
+          "assmod"
+        ],
+        [
+          "算法",
+          "dobj"
+        ],
+        [
+          "训练",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预报系统",
+      "object": "故障的预测",
+      "relation": "实现",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障的预测",
+      "object": "某型军用飞机冷气系统",
+      "relation": "针对",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "及时",
+          "rcmod"
+        ],
+        [
+          "预报",
+          "nsubj"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "军用",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

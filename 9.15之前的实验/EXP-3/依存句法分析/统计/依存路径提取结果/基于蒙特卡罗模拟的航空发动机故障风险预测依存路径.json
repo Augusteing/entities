@@ -1,0 +1,900 @@
+{
+  "title": "基于蒙特卡罗模拟的航空发动机故障风险预测",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机故障风险预测方法",
+      "object": "蒙特卡罗模拟技术",
+      "relation": "基于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "蒙特卡罗",
+          "nn"
+        ],
+        [
+          "模拟",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机故障风险预测方法",
+      "object": "发动机部件故障可能性",
+      "relation": "用于评估",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "用",
+          "conj"
+        ],
+        [
+          "评估",
+          "ccomp"
+        ],
+        [
+          "可能性",
+          "dobj"
+        ],
+        [
+          "发生",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障概率模型",
+      "object": "威布尔分布",
+      "relation": "基于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "概率",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "分布",
+          "pobj"
+        ],
+        [
+          "威布尔",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "中位秩回归参数法",
+      "object": "威布尔分布参数",
+      "relation": "用于估计",
+      "path": [
+        [
+          "中位秩",
+          "nn"
+        ],
+        [
+          "回归",
+          "nn"
+        ],
+        [
+          "参数法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "估计",
+          "conj"
+        ],
+        [
+          "参数",
+          "dobj"
+        ],
+        [
+          "威布尔",
+          "nn"
+        ],
+        [
+          "分布",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "乘同余组合发生器",
+      "object": "随机数",
+      "relation": "用于产生",
+      "path": [
+        [
+          "同余",
+          "amod"
+        ],
+        [
+          "组合",
+          "nn"
+        ],
+        [
+          "发生器",
+          "conj"
+        ],
+        [
+          "乘",
+          "rcmod"
+        ],
+        [
+          "方式",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "产生",
+          "conj"
+        ],
+        [
+          "随机数",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "反变换法",
+      "object": "随机数",
+      "relation": "用于产生",
+      "path": [
+        [
+          "反变换法",
+          "nsubj"
+        ],
+        [
+          "结合",
+          "rcmod"
+        ],
+        [
+          "方式",
+          "dobj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "产生",
+          "conj"
+        ],
+        [
+          "随机数",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "随机数",
+      "object": "威布尔分布",
+      "relation": "满足",
+      "path": [
+        [
+          "随机数",
+          "dobj"
+        ],
+        [
+          "产生",
+          "conj"
+        ],
+        [
+          "利用",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "分布",
+          "pobj"
+        ],
+        [
+          "威布尔",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "蒙特卡罗模拟方法",
+      "object": "航空发动机故障风险预测",
+      "relation": "应用于",
+      "path": [
+        [
+          "蒙特卡罗",
+          "nn"
+        ],
+        [
+          "模拟",
+          "nn"
+        ],
+        [
+          "方法",
+          "nn"
+        ],
+        [
+          "可用性",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 143
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        },
+        {
+          "sentence_index": 0,
+          "id": 145
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机厂商预测数据",
+      "object": "算法有效性",
+      "relation": "用于验证",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "厂商",
+          "nsubj"
+        ],
+        [
+          "提供",
+          "rcmod"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "对比",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "可用性",
+          "dobj"
+        ],
+        [
+          "有效性",
+          "conj"
+        ],
+        [
+          "算法",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 130
+        },
+        {
+          "sentence_index": 0,
+          "id": 131
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        },
+        {
+          "sentence_index": 0,
+          "id": 135
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 141
+        },
+        {
+          "sentence_index": 0,
+          "id": 139
+        },
+        {
+          "sentence_index": 0,
+          "id": 140
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "复杂结构",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "多样故障模式",
+      "relation": "具有",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "结构",
+          "nsubj"
+        ],
+        [
+          "复杂",
+          "rcmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模式",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

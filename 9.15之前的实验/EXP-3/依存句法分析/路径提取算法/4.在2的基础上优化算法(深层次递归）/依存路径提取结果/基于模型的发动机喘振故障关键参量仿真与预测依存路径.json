@@ -1,0 +1,736 @@
+{
+  "title": "基于模型的发动机喘振故障关键参量仿真与预测",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "深喘",
+      "object": "发动机运行稳定",
+      "relation": "破坏",
+      "path": [
+        [
+          "深",
+          "amod"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "运行",
+          "nn"
+        ],
+        [
+          "稳定",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "深喘",
+      "object": "飞机安全",
+      "relation": "破坏",
+      "path": [
+        [
+          "深",
+          "amod"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键参量",
+      "object": "喘振故障",
+      "relation": "表征",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "参量",
+          "dobj"
+        ],
+        [
+          "表征",
+          "rcmod"
+        ],
+        [
+          "特征",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "故障",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机整体仿真模型",
+      "object": "气动热力机理",
+      "relation": "基于",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "表征",
+          "conj"
+        ],
+        [
+          "模拟",
+          "dvpmod"
+        ],
+        [
+          "构建",
+          "rcmod"
+        ],
+        [
+          "基于",
+          "prep"
+        ],
+        [
+          "机理",
+          "pobj"
+        ],
+        [
+          "气动",
+          "nn"
+        ],
+        [
+          "热力",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机整体仿真模型",
+      "object": "关键参量变化情况",
+      "relation": "模拟",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "表征",
+          "conj"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "参量",
+          "nn"
+        ],
+        [
+          "变化",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "长短记忆神经网络模型",
+      "object": "数据变化趋势预测",
+      "relation": "进行",
+      "path": [
+        [
+          "长",
+          "amod"
+        ],
+        [
+          "短",
+          "amod"
+        ],
+        [
+          "记忆",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "变化",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 49
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 51
+        },
+        {
+          "sentence_index": 1,
+          "id": 55
+        },
+        {
+          "sentence_index": 1,
+          "id": 52
+        },
+        {
+          "sentence_index": 1,
+          "id": 53
+        },
+        {
+          "sentence_index": 1,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LSTM模型",
+      "object": "喘振故障关键参量预测",
+      "relation": "用于",
+      "path": [
+        [
+          "LSTM",
+          "nn"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "用于",
+          "rcmod"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "破坏",
+          "root"
+        ],
+        [
+          "喘",
+          "nsubj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "故障",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 72
+        },
+        {
+          "sentence_index": 1,
+          "id": 73
+        },
+        {
+          "sentence_index": 1,
+          "id": 74
+        },
+        {
+          "sentence_index": 1,
+          "id": 81
+        },
+        {
+          "sentence_index": 1,
+          "id": 70
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "与其他网络算法的比较",
+      "object": "LSTM模型有效性",
+      "relation": "验证",
+      "path": [
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "算法",
+          "nn"
+        ],
+        [
+          "结果",
+          "pobj"
+        ],
+        [
+          "与",
+          "assmod"
+        ],
+        [
+          "比较",
+          "pobj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "验证",
+          "conj"
+        ],
+        [
+          "有效性",
+          "dobj"
+        ],
+        [
+          "用于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "nsubj"
+        ],
+        [
+          "LSTM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 63
+        },
+        {
+          "sentence_index": 1,
+          "id": 64
+        },
+        {
+          "sentence_index": 1,
+          "id": 66
+        },
+        {
+          "sentence_index": 1,
+          "id": 58
+        },
+        {
+          "sentence_index": 1,
+          "id": 68
+        },
+        {
+          "sentence_index": 1,
+          "id": 57
+        },
+        {
+          "sentence_index": 1,
+          "id": 70
+        },
+        {
+          "sentence_index": 1,
+          "id": 81
+        },
+        {
+          "sentence_index": 1,
+          "id": 74
+        },
+        {
+          "sentence_index": 1,
+          "id": 73
+        },
+        {
+          "sentence_index": 1,
+          "id": 72
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

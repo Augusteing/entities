@@ -1,0 +1,1580 @@
+{
+  "title": "面向自主保障的航空电子设备在线测试系统",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 13,
+    "path_found": 13,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "故障预测与健康管理系统",
+      "object": "实时数据",
+      "relation": "缺乏",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "应用",
+          "nsubj"
+        ],
+        [
+          "缺乏",
+          "rcmod"
+        ],
+        [
+          "环境",
+          "dobj"
+        ],
+        [
+          "数据",
+          "conj"
+        ],
+        [
+          "实时",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障预测与健康管理系统",
+      "object": "应用环境",
+      "relation": "缺乏",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "应用",
+          "nsubj"
+        ],
+        [
+          "缺乏",
+          "rcmod"
+        ],
+        [
+          "环境",
+          "dobj"
+        ],
+        [
+          "应用",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "故障预测与健康管理",
+      "relation": "实现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "自主保障",
+      "relation": "实现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "保障",
+          "dobj"
+        ],
+        [
+          "自主",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "新算法",
+      "relation": "应用",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "新",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "算法",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "信息处理结构",
+      "relation": "应用",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "信息",
+          "nn"
+        ],
+        [
+          "处理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "航空电子设备异常",
+      "relation": "分析",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "应用",
+          "conj"
+        ],
+        [
+          "装置",
+          "dobj"
+        ],
+        [
+          "异常",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 67
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "复杂异常",
+      "relation": "监测",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "监测",
+          "rcmod"
+        ],
+        [
+          "识别",
+          "dep"
+        ],
+        [
+          "异常",
+          "dobj"
+        ],
+        [
+          "复杂",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 165
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 171
+        },
+        {
+          "sentence_index": 0,
+          "id": 170
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "复杂异常",
+      "relation": "识别",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "监测",
+          "rcmod"
+        ],
+        [
+          "识别",
+          "dep"
+        ],
+        [
+          "异常",
+          "dobj"
+        ],
+        [
+          "复杂",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 165
+        },
+        {
+          "sentence_index": 0,
+          "id": 167
+        },
+        {
+          "sentence_index": 0,
+          "id": 171
+        },
+        {
+          "sentence_index": 0,
+          "id": 170
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "机上环境数据",
+      "relation": "利用",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "监测",
+          "rcmod"
+        ],
+        [
+          "利用",
+          "dep"
+        ],
+        [
+          "数据",
+          "dobj"
+        ],
+        [
+          "机",
+          "lobj"
+        ],
+        [
+          "上",
+          "dep"
+        ],
+        [
+          "环境",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 165
+        },
+        {
+          "sentence_index": 0,
+          "id": 183
+        },
+        {
+          "sentence_index": 0,
+          "id": 193
+        },
+        {
+          "sentence_index": 0,
+          "id": 190
+        },
+        {
+          "sentence_index": 0,
+          "id": 191
+        },
+        {
+          "sentence_index": 0,
+          "id": 192
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备在线测试系统",
+      "object": "在线和线下故障预测",
+      "relation": "提供基础",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "dobj"
+        ],
+        [
+          "面向",
+          "rcmod"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "监测",
+          "rcmod"
+        ],
+        [
+          "提供",
+          "dep"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "进行",
+          "pccomp"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "和",
+          "cc"
+        ],
+        [
+          "线下",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 165
+        },
+        {
+          "sentence_index": 0,
+          "id": 203
+        },
+        {
+          "sentence_index": 0,
+          "id": 196
+        },
+        {
+          "sentence_index": 0,
+          "id": 197
+        },
+        {
+          "sentence_index": 0,
+          "id": 202
+        },
+        {
+          "sentence_index": 0,
+          "id": 199
+        },
+        {
+          "sentence_index": 0,
+          "id": 200
+        },
+        {
+          "sentence_index": 0,
+          "id": 201
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机上在线异常检测方法",
+      "object": "多元统计分析",
+      "relation": "基于",
+      "path": [
+        [
+          "机上",
+          "nn"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "异常",
+          "nn"
+        ],
+        [
+          "检测",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "保障",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "分析",
+          "pobj"
+        ],
+        [
+          "多元",
+          "amod"
+        ],
+        [
+          "统计",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 143
+        },
+        {
+          "sentence_index": 0,
+          "id": 146
+        },
+        {
+          "sentence_index": 0,
+          "id": 144
+        },
+        {
+          "sentence_index": 0,
+          "id": 145
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机上在线异常检测方法",
+      "object": "混合SOM-RBF神经网络",
+      "relation": "基于",
+      "path": [
+        [
+          "机上",
+          "nn"
+        ],
+        [
+          "在线",
+          "amod"
+        ],
+        [
+          "异常",
+          "nn"
+        ],
+        [
+          "检测",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "保障",
+          "dobj"
+        ],
+        [
+          "网络",
+          "assmod"
+        ],
+        [
+          "混合",
+          "amod"
+        ],
+        [
+          "SOM-",
+          "conj"
+        ],
+        [
+          "RBF",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 154
+        },
+        {
+          "sentence_index": 0,
+          "id": 155
+        },
+        {
+          "sentence_index": 0,
+          "id": 156
+        },
+        {
+          "sentence_index": 0,
+          "id": 157
+        },
+        {
+          "sentence_index": 0,
+          "id": 158
+        },
+        {
+          "sentence_index": 0,
+          "id": 159
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 152
+        },
+        {
+          "sentence_index": 0,
+          "id": 148
+        },
+        {
+          "sentence_index": 0,
+          "id": 149
+        },
+        {
+          "sentence_index": 0,
+          "id": 150
+        },
+        {
+          "sentence_index": 0,
+          "id": 151
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

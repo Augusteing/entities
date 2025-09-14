@@ -1,0 +1,856 @@
+{
+  "title": "开展学术交流  推动试验与测试、预测与故障诊断技术的发展",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "学术交流",
+      "object": "试验与测试技术",
+      "relation": "推动",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "学术交流",
+      "object": "预测与故障诊断技术",
+      "relation": "推动",
+      "path": null,
+      "path_type": null,
+      "sentence_index": null,
+      "path_positions": null,
+      "note": "实体至少一端未找到"
+    },
+    {
+      "subject": "自动化测试",
+      "object": "航天",
+      "relation": "应用于",
+      "path": [
+        [
+          "自动化",
+          "nn"
+        ],
+        [
+          "测试",
+          "conj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "航天",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "先进总线技术",
+      "object": "航空",
+      "relation": "应用于",
+      "path": [
+        [
+          "总线",
+          "nn"
+        ],
+        [
+          "技术",
+          "conj"
+        ],
+        [
+          "先进",
+          "amod"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "航空",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "兵器",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "兵器",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "船舶",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "船舶",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障诊断技术",
+      "object": "核工业",
+      "relation": "应用于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "核",
+          "conj"
+        ],
+        [
+          "工业",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "中国计算机自动测量与控制技术协会",
+      "object": "自动化测试",
+      "relation": "推动",
+      "path": [
+        [
+          "中国",
+          "nn"
+        ],
+        [
+          "计算机",
+          "nn"
+        ],
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "测量",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "管",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推进",
+          "pccomp"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "测试",
+          "conj"
+        ],
+        [
+          "自动化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "国防科技工业自动化测试技术研究应用中心",
+      "object": "自动化测试",
+      "relation": "推动",
+      "path": [
+        [
+          "国防",
+          "nn"
+        ],
+        [
+          "科技",
+          "nn"
+        ],
+        [
+          "自动化",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "研究",
+          "nn"
+        ],
+        [
+          "应用",
+          "nn"
+        ],
+        [
+          "中心",
+          "conj"
+        ],
+        [
+          "工业",
+          "nn"
+        ],
+        [
+          "管",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推进",
+          "pccomp"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "测试",
+          "conj"
+        ],
+        [
+          "自动化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "北京航天测控技术有限公司",
+      "object": "自动化测试",
+      "relation": "推动",
+      "path": [
+        [
+          "航天",
+          "nn"
+        ],
+        [
+          "测控",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "有限",
+          "amod"
+        ],
+        [
+          "公司",
+          "conj"
+        ],
+        [
+          "北京",
+          "nn"
+        ],
+        [
+          "管",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推进",
+          "pccomp"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "测试",
+          "conj"
+        ],
+        [
+          "自动化",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能诊断与健康管理",
+      "object": "高速交通工具",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "管",
+          "root"
+        ],
+        [
+          "工具",
+          "nn"
+        ],
+        [
+          "高速",
+          "amod"
+        ],
+        [
+          "交通",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

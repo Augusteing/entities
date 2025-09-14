@@ -1,0 +1,740 @@
+{
+  "title": "多电飞机电力系统及其关键技术",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "多电飞机",
+      "object": "电能",
+      "relation": "统一能源为",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "电能",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多电飞机",
+      "object": "燃油经济性",
+      "relation": "提高",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "维护性",
+          "dobj"
+        ],
+        [
+          "燃油",
+          "nn"
+        ],
+        [
+          "经济性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多电飞机",
+      "object": "可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "维护性",
+          "dobj"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多电飞机",
+      "object": "维护性",
+      "relation": "提高",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "提高",
+          "root"
+        ],
+        [
+          "维护性",
+          "dobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "机载二次能源系统",
+      "relation": "是核心",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "能源",
+          "nsubj"
+        ],
+        [
+          "机载",
+          "amod"
+        ],
+        [
+          "二次",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "多电飞机",
+      "relation": "支撑",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "多",
+          "nummod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "飞机综合性能",
+      "relation": "提升",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "飞机综合性能",
+      "relation": "提升",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "起到",
+          "root"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 14
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "多电飞机",
+      "object": "电力系统架构",
+      "relation": "具有",
+      "path": [
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "电",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "关键技术",
+      "object": "电力系统",
+      "relation": "支撑",
+      "path": [
+        [
+          "关键",
+          "amod"
+        ],
+        [
+          "作用",
+          "dobj"
+        ],
+        [
+          "起到",
+          "root"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "电",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 4,
+          "id": 12
+        },
+        {
+          "sentence_index": 4,
+          "id": 14
+        },
+        {
+          "sentence_index": 4,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "高压",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "智能化",
+          "assmod"
+        ],
+        [
+          "高压",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 16
+        },
+        {
+          "sentence_index": 9,
+          "id": 13
+        },
+        {
+          "sentence_index": 9,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "直流",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "智能化",
+          "assmod"
+        ],
+        [
+          "直流",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 16
+        },
+        {
+          "sentence_index": 9,
+          "id": 13
+        },
+        {
+          "sentence_index": 9,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "电力系统",
+      "object": "智能化",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "电",
+          "nn"
+        ],
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "统一",
+          "root"
+        ],
+        [
+          "讨论",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "智能化",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 9,
+          "id": 1
+        },
+        {
+          "sentence_index": 9,
+          "id": 16
+        },
+        {
+          "sentence_index": 9,
+          "id": 13
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

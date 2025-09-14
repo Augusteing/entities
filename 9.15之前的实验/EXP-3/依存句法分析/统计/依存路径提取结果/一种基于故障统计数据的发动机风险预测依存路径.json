@@ -1,0 +1,752 @@
+{
+  "title": "一种基于故障统计数据的发动机风险预测",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 9,
+    "path_found": 9,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "发动机风险预测",
+      "object": "故障统计数据",
+      "relation": "基于",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机多故障模式风险评估流程",
+      "object": "蒙特卡罗仿真",
+      "relation": "基于",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "蒙特卡罗",
+          "pobj"
+        ],
+        [
+          "仿真",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机多故障模式风险评估流程",
+      "object": "发动机故障",
+      "relation": "用于预测",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机多故障模式风险评估流程",
+      "object": "故障风险",
+      "relation": "用于评估",
+      "path": [
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "评估",
+          "nn"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "风险",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险预测方法",
+      "object": "风险因子计算方法",
+      "relation": "包含",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "因子",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险预测方法",
+      "object": "飞行风险计算方法",
+      "relation": "包含",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "计算",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险预测",
+      "object": "历史故障数据",
+      "relation": "基于",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "划分",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险预测",
+      "object": "多种故障模式",
+      "relation": "针对",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "流程",
+          "dobj"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "维修周期",
+      "object": "风险因子",
+      "relation": "影响",
+      "path": [
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "周期",
+          "nn"
+        ],
+        [
+          "影响",
+          "dobj"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "给出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "因子",
+          "conj"
+        ],
+        [
+          "风险",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "降低风险的方案",
+      "object": "飞行风险",
+      "relation": "用于降低",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "风险",
+          "assmod"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "title": "新一代航空电子综合化及预测与健康管理技术",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 8,
+    "path_found": 8,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "失效机理分析",
+      "relation": "包含",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "类别",
+          "dobj"
+        ],
+        [
+          "电路",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "失效",
+          "nn"
+        ],
+        [
+          "机理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "应力损伤评估",
+      "relation": "包含",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "类别",
+          "dobj"
+        ],
+        [
+          "电路",
+          "nn"
+        ],
+        [
+          "评估",
+          "conj"
+        ],
+        [
+          "应力",
+          "nn"
+        ],
+        [
+          "损伤",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "故障先兆",
+      "relation": "包含",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "类别",
+          "dobj"
+        ],
+        [
+          "电路",
+          "nn"
+        ],
+        [
+          "先兆",
+          "conj"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "预警电路(canary)",
+      "relation": "包含",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "包括",
+          "conj"
+        ],
+        [
+          "类别",
+          "dobj"
+        ],
+        [
+          "电路",
+          "nn"
+        ],
+        [
+          "canary",
+          "prnmod"
+        ],
+        [
+          "(",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 56
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "信息融合",
+      "relation": "应用",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "融合",
+          "conj"
+        ],
+        [
+          "信息",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "人工智能",
+      "relation": "应用",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "智能",
+          "conj"
+        ],
+        [
+          "人工",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子预测与健康管理(PHM)",
+      "object": "数据挖掘与预测",
+      "relation": "应用",
+      "path": [
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "应用",
+          "dobj"
+        ],
+        [
+          "技术",
+          "assmod"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "挖掘",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 63
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新一代综合模块化航空电子系统",
+      "object": "PHM",
+      "relation": "集成",
+      "path": [
+        [
+          "新",
+          "amod"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "clf"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "模块化",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "系统",
+          "conj"
+        ],
+        [
+          "PHM",
+          "assmod"
+        ],
+        [
+          "架构",
+          "dobj"
+        ],
+        [
+          "给出",
+          "dep"
+        ],
+        [
+          "研究",
+          "conj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "探讨",
+          "conj"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "管理",
+          "assmod"
+        ],
+        [
+          "PHM",
+          "prnmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 90
+        },
+        {
+          "sentence_index": 0,
+          "id": 91
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 93
+        },
+        {
+          "sentence_index": 0,
+          "id": 94
+        },
+        {
+          "sentence_index": 0,
+          "id": 95
+        },
+        {
+          "sentence_index": 0,
+          "id": 96
+        },
+        {
+          "sentence_index": 0,
+          "id": 97
+        },
+        {
+          "sentence_index": 0,
+          "id": 99
+        },
+        {
+          "sentence_index": 0,
+          "id": 102
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

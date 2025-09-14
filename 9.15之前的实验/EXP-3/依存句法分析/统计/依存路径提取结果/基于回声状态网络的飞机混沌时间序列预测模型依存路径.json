@@ -1,0 +1,488 @@
+{
+  "title": "基于回声状态网络的飞机混沌时间序列预测模型",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 2,
+    "cross_sentence_path_found": 2
+  },
+  "pairs": [
+    {
+      "subject": "故障检测",
+      "object": "飞行安全",
+      "relation": "保障",
+      "path": [
+        [
+          "检测",
+          "dep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "状态变化趋势预测",
+      "object": "飞行安全",
+      "relation": "保障",
+      "path": [
+        [
+          "状态",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "变化",
+          "nn"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "检测",
+          "dep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "对于",
+          "prep"
+        ],
+        [
+          "实现",
+          "pccomp"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "飞行",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于小波降噪的回声状态网络预测模型",
+      "object": "回声状态网络",
+      "relation": "改进",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "状态",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于小波降噪的回声状态网络预测模型",
+      "object": "小波变换",
+      "relation": "采用",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ],
+        [
+          "检测",
+          "dep"
+        ],
+        [
+          "具有",
+          "root"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "降噪",
+          "dobj"
+        ],
+        [
+          "小波",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "小波变换",
+      "object": "降噪预处理",
+      "relation": "用于",
+      "path": [
+        [
+          "小波",
+          "nn"
+        ],
+        [
+          "降噪",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "降噪预处理",
+      "object": "混沌时间序列",
+      "relation": "针对",
+      "path": [
+        [
+          "降噪",
+          "dobj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "模型",
+          "dobj"
+        ],
+        [
+          "构建",
+          "root"
+        ],
+        [
+          "保留",
+          "root"
+        ],
+        [
+          "采取",
+          "conj"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "序列",
+          "pobj"
+        ],
+        [
+          "混沌",
+          "amod"
+        ],
+        [
+          "时间",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 16
+        },
+        {
+          "sentence_index": 2,
+          "id": 23
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        },
+        {
+          "sentence_index": 2,
+          "id": 22
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 21
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于小波降噪的回声状态网络预测模型",
+      "object": "预测精度",
+      "relation": "提高",
+      "path": [
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机发动机滑油散热器温度时间序列数据",
+      "object": "基于小波降噪的回声状态网络预测模型",
+      "relation": "用于验证",
+      "path": [
+        [
+          "飞机",
+          "nsubj"
+        ],
+        [
+          "发生",
+          "rcmod"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "检测",
+          "dep"
+        ],
+        [
+          "预测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

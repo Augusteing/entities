@@ -1,0 +1,1280 @@
+{
+  "title": "航空装备故障风险分析与趋势预测方法",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 10,
+    "path_found": 10,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "航空装备故障风险分析与趋势预测方法",
+      "object": "基于可拓学的飞行试验故障后果定量分析方法",
+      "relation": "提出",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nsubj"
+        ],
+        [
+          "有效",
+          "dep"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "后果",
+          "nn"
+        ],
+        [
+          "定量",
+          "nn"
+        ],
+        [
+          "分析",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空装备故障风险分析与趋势预测方法",
+      "object": "飞行试验故障可能性评定方法",
+      "relation": "提出",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nsubj"
+        ],
+        [
+          "有效",
+          "dep"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "分析法",
+          "assmod"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "可能性",
+          "nn"
+        ],
+        [
+          "评定",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空装备故障风险分析与趋势预测方法",
+      "object": "基于灰色波形的故障风险综合预警信号预测方法",
+      "relation": "提出",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "趋势",
+          "nsubj"
+        ],
+        [
+          "有效",
+          "dep"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "信号",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行试验故障可能性评定方法",
+      "object": "蒙特卡洛抽样",
+      "relation": "应用",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "可能性",
+          "nn"
+        ],
+        [
+          "评定",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "分析法",
+          "assmod"
+        ],
+        [
+          "抽样",
+          "conj"
+        ],
+        [
+          "蒙特卡洛",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞行试验故障可能性评定方法",
+      "object": "层次分析法",
+      "relation": "应用",
+      "path": [
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "可能性",
+          "nn"
+        ],
+        [
+          "评定",
+          "nn"
+        ],
+        [
+          "方法",
+          "conj"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "分析法",
+          "assmod"
+        ],
+        [
+          "层次",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 38
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色波形的故障风险综合预警信号预测方法",
+      "object": "航空装备故障风险趋势",
+      "relation": "预测",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "信号",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "有效",
+          "dep"
+        ],
+        [
+          "趋势",
+          "nsubj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "装备",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "基于灰色波形的故障风险综合预警信号预测方法",
+      "object": "短期预测",
+      "relation": "适合于",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "信号",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "基于",
+          "assmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "预测",
+          "ccomp"
+        ],
+        [
+          "有效",
+          "dep"
+        ],
+        [
+          "适合",
+          "dep"
+        ],
+        [
+          "于",
+          "prep"
+        ],
+        [
+          "预测",
+          "pobj"
+        ],
+        [
+          "短期",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 55
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 61
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 80
+        },
+        {
+          "sentence_index": 0,
+          "id": 84
+        },
+        {
+          "sentence_index": 0,
+          "id": 85
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险综合预警指数曲线",
+      "object": "实时监控",
+      "relation": "实现",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "指数",
+          "nn"
+        ],
+        [
+          "曲线",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "实现",
+          "conj"
+        ],
+        [
+          "预测",
+          "dobj"
+        ],
+        [
+          "监控",
+          "conj"
+        ],
+        [
+          "实时",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 114
+        },
+        {
+          "sentence_index": 0,
+          "id": 122
+        },
+        {
+          "sentence_index": 0,
+          "id": 116
+        },
+        {
+          "sentence_index": 0,
+          "id": 115
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "风险综合预警指数曲线",
+      "object": "短期趋势预测",
+      "relation": "实现",
+      "path": [
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "预警",
+          "nn"
+        ],
+        [
+          "指数",
+          "nn"
+        ],
+        [
+          "曲线",
+          "dobj"
+        ],
+        [
+          "建立",
+          "conj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "形成",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "与",
+          "cc"
+        ],
+        [
+          "趋势",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 108
+        },
+        {
+          "sentence_index": 0,
+          "id": 109
+        },
+        {
+          "sentence_index": 0,
+          "id": 110
+        },
+        {
+          "sentence_index": 0,
+          "id": 111
+        },
+        {
+          "sentence_index": 0,
+          "id": 112
+        },
+        {
+          "sentence_index": 0,
+          "id": 101
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "本文方法",
+      "object": "飞行试验故障风险监测与预警",
+      "relation": "提供思路",
+      "path": [
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "形成",
+          "rcmod"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提供",
+          "conj"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "预警",
+          "pobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "飞行",
+          "nn"
+        ],
+        [
+          "试验",
+          "nn"
+        ],
+        [
+          "风险",
+          "nn"
+        ],
+        [
+          "监测",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 135
+        },
+        {
+          "sentence_index": 0,
+          "id": 126
+        },
+        {
+          "sentence_index": 0,
+          "id": 134
+        },
+        {
+          "sentence_index": 0,
+          "id": 130
+        },
+        {
+          "sentence_index": 0,
+          "id": 128
+        },
+        {
+          "sentence_index": 0,
+          "id": 129
+        },
+        {
+          "sentence_index": 0,
+          "id": 131
+        },
+        {
+          "sentence_index": 0,
+          "id": 132
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

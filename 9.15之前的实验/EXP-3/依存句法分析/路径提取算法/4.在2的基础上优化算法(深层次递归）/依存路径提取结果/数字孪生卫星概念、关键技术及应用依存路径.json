@@ -1,0 +1,1588 @@
+{
+  "title": "数字孪生卫星概念、关键技术及应用",
+  "stats": {
+    "total_pairs": 17,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "数字孪生技术",
+      "object": "卫星工程",
+      "relation": "结合",
+      "path": [
+        [
+          "数字",
+          "amod"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "工程",
+          "assmod"
+        ],
+        [
+          "卫星",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 50
+        },
+        {
+          "sentence_index": 0,
+          "id": 51
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "卫星产业转型升级",
+      "relation": "促进",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "后",
+          "plmod"
+        ],
+        [
+          "分析",
+          "lccomp"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "趋势",
+          "conj"
+        ],
+        [
+          "产业",
+          "nn"
+        ],
+        [
+          "卫星",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "大型卫星工程管理水平",
+      "relation": "提升",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "工程",
+          "assmod"
+        ],
+        [
+          "大型",
+          "amod"
+        ],
+        [
+          "卫星",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "数字孪生卫星试验验证系统",
+      "relation": "组成",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "数字孪生卫星总装车间",
+      "relation": "组成",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "数字孪生卫星产品",
+      "relation": "组成",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "数字孪生卫星网络",
+      "relation": "组成",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "核心要素",
+      "relation": "具有",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "要素",
+          "pobj"
+        ],
+        [
+          "核心",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星核心要素",
+      "object": "模型线程",
+      "relation": "包含",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "要素",
+          "pobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "线程",
+          "dobj"
+        ],
+        [
+          "线程",
+          "conj"
+        ],
+        [
+          "模型",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星核心要素",
+      "object": "数据线程",
+      "relation": "包含",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "要素",
+          "pobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "线程",
+          "dobj"
+        ],
+        [
+          "线程",
+          "conj"
+        ],
+        [
+          "数据",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 20
+        },
+        {
+          "sentence_index": 2,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星核心要素",
+      "object": "服务线程",
+      "relation": "包含",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "进行",
+          "root"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "要素",
+          "pobj"
+        ],
+        [
+          "包括",
+          "prnmod"
+        ],
+        [
+          "线程",
+          "dobj"
+        ],
+        [
+          "服务",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 2,
+          "id": 33
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 27
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "关键技术体系",
+      "relation": "具有",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "发展",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "卫星总体设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "后",
+          "plmod"
+        ],
+        [
+          "分析",
+          "lccomp"
+        ],
+        [
+          "需求",
+          "dobj"
+        ],
+        [
+          "趋势",
+          "conj"
+        ],
+        [
+          "产业",
+          "nn"
+        ],
+        [
+          "卫星",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "详细设计",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "应用",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "阶段",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "详细",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 67
+        },
+        {
+          "sentence_index": 3,
+          "id": 30
+        },
+        {
+          "sentence_index": 3,
+          "id": 66
+        },
+        {
+          "sentence_index": 3,
+          "id": 34
+        },
+        {
+          "sentence_index": 3,
+          "id": 64
+        },
+        {
+          "sentence_index": 3,
+          "id": 62
+        },
+        {
+          "sentence_index": 3,
+          "id": 40
+        },
+        {
+          "sentence_index": 3,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "生产制造",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "dep"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "应用",
+          "pobj"
+        ],
+        [
+          "在",
+          "assmod"
+        ],
+        [
+          "阶段",
+          "pobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "制造",
+          "conj"
+        ],
+        [
+          "生产",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 3,
+          "id": 5
+        },
+        {
+          "sentence_index": 3,
+          "id": 67
+        },
+        {
+          "sentence_index": 3,
+          "id": 30
+        },
+        {
+          "sentence_index": 3,
+          "id": 66
+        },
+        {
+          "sentence_index": 3,
+          "id": 34
+        },
+        {
+          "sentence_index": 3,
+          "id": 64
+        },
+        {
+          "sentence_index": 3,
+          "id": 62
+        },
+        {
+          "sentence_index": 3,
+          "id": 43
+        },
+        {
+          "sentence_index": 3,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "在轨服务与健康管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "数字孪生卫星",
+      "object": "网络运维管理",
+      "relation": "应用于",
+      "path": [
+        [
+          "数字",
+          "nn"
+        ],
+        [
+          "孪生",
+          "amod"
+        ],
+        [
+          "卫星",
+          "assmod"
+        ],
+        [
+          "概念",
+          "dobj"
+        ],
+        [
+          "探讨",
+          "dep"
+        ],
+        [
+          "结合",
+          "root"
+        ],
+        [
+          "为",
+          "prep"
+        ],
+        [
+          "推动",
+          "pccomp"
+        ],
+        [
+          "提升",
+          "conj"
+        ],
+        [
+          "能力",
+          "dobj"
+        ],
+        [
+          "管理",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        },
+        {
+          "sentence_index": 0,
+          "id": 73
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 68
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

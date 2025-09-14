@@ -1,0 +1,1084 @@
+{
+  "title": "ATML在综合运载器健康管理系统中的应用",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "综合运载器健康管理(IVHM)技术",
+      "object": "安全性",
+      "relation": "提高",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "途径",
+          "attr"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "可维护性",
+          "dobj"
+        ],
+        [
+          "安全性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合运载器健康管理(IVHM)技术",
+      "object": "可靠性",
+      "relation": "提高",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "途径",
+          "attr"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "可维护性",
+          "dobj"
+        ],
+        [
+          "可靠性",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合运载器健康管理(IVHM)技术",
+      "object": "可维护性",
+      "relation": "提高",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "途径",
+          "attr"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "可维护性",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "综合运载器健康管理(IVHM)技术",
+      "object": "成本",
+      "relation": "降低",
+      "path": [
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "途径",
+          "attr"
+        ],
+        [
+          "提高",
+          "rcmod"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "成本",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "IVHM系统",
+      "object": "高互操作性",
+      "relation": "具有",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "IVHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "特点",
+          "pobj"
+        ],
+        [
+          "互操作性",
+          "conj"
+        ],
+        [
+          "高",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "IVHM系统",
+      "object": "复杂数据交换特点",
+      "relation": "具有",
+      "path": [
+        [
+          "(",
+          "punct"
+        ],
+        [
+          "IVHM",
+          "prnmod"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "特点",
+          "pobj"
+        ],
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "数据",
+          "nn"
+        ],
+        [
+          "交换",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自动测试标记语言(ATML)",
+      "object": "航空机载设备",
+      "relation": "用于描述",
+      "path": [
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "标记",
+          "nn"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "设备",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机载",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自动测试标记语言(ATML)",
+      "object": "系统的高度集成",
+      "relation": "实现",
+      "path": [
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "标记",
+          "nn"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "有利于",
+          "conj"
+        ],
+        [
+          "实现",
+          "ccomp"
+        ],
+        [
+          "可扩展性",
+          "dobj"
+        ],
+        [
+          "集成",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "高度",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自动测试标记语言(ATML)",
+      "object": "可扩展性",
+      "relation": "实现",
+      "path": [
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "标记",
+          "nn"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "有利于",
+          "conj"
+        ],
+        [
+          "实现",
+          "ccomp"
+        ],
+        [
+          "可扩展性",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "自动测试标记语言(ATML)",
+      "object": "综合运载器健康管理系统",
+      "relation": "应用于",
+      "path": [
+        [
+          "自动",
+          "amod"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "标记",
+          "nn"
+        ],
+        [
+          "语言",
+          "dobj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电源故障诊断与预测系统",
+      "object": "综合运载器健康管理系统",
+      "relation": "是...的实例",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电源",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "诊断",
+          "conj"
+        ],
+        [
+          "系统",
+          "assmod"
+        ],
+        [
+          "实例",
+          "dobj"
+        ],
+        [
+          "结合",
+          "conj"
+        ],
+        [
+          "采用",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "top"
+        ],
+        [
+          "管理",
+          "nn"
+        ],
+        [
+          "综合",
+          "amod"
+        ],
+        [
+          "运载器",
+          "nn"
+        ],
+        [
+          "健康",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 42
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 50
+        },
+        {
+          "sentence_index": 1,
+          "id": 41
+        },
+        {
+          "sentence_index": 1,
+          "id": 14
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

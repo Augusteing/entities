@@ -1,0 +1,1172 @@
+{
+  "title": "基于LVQ神经网络的飞机减震器故障预测",
+  "stats": {
+    "total_pairs": 13,
+    "aligned_pairs": 5,
+    "path_found": 5,
+    "cross_sentence_pairs": 8,
+    "cross_sentence_path_found": 8
+  },
+  "pairs": [
+    {
+      "subject": "LVQ神经网络",
+      "object": "故障预测",
+      "relation": "用于",
+      "path": [
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "导致",
+          "pccomp"
+        ],
+        [
+          "故障",
+          "dobj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "起落架减震器密封失效",
+      "object": "油液泄漏故障",
+      "relation": "导致",
+      "path": [
+        [
+          "起落架",
+          "nn"
+        ],
+        [
+          "减震器",
+          "nn"
+        ],
+        [
+          "密封",
+          "nsubj"
+        ],
+        [
+          "失效",
+          "pccomp"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "导致",
+          "pccomp"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "油液",
+          "nn"
+        ],
+        [
+          "泄漏",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LVQ神经网络故障预测模型",
+      "object": "油液泄漏故障",
+      "relation": "预测",
+      "path": [
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "导致",
+          "pccomp"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "油液",
+          "nn"
+        ],
+        [
+          "泄漏",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LVQ神经网络故障预测模型",
+      "object": "输入向量",
+      "relation": "使用",
+      "path": [
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "输入",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 26
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "LVQ神经网络故障预测模型",
+      "object": "输出向量",
+      "relation": "使用",
+      "path": [
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "输出",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "输入向量",
+      "object": "总起落次数",
+      "relation": "包含",
+      "path": [
+        [
+          "输入",
+          "nn"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "因子",
+          "nsubj"
+        ],
+        [
+          "次数",
+          "conj"
+        ],
+        [
+          "总",
+          "amod"
+        ],
+        [
+          "起落",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "输入向量",
+      "object": "密封件使用时间",
+      "relation": "包含",
+      "path": [
+        [
+          "输入",
+          "nn"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "失效",
+          "pccomp"
+        ],
+        [
+          "密封",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "输入向量",
+      "object": "密封有效期间的起落次数",
+      "relation": "包含",
+      "path": [
+        [
+          "输入",
+          "nn"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "失效",
+          "pccomp"
+        ],
+        [
+          "密封",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "输入向量",
+      "object": "运行环境影响因子",
+      "relation": "包含",
+      "path": [
+        [
+          "输入",
+          "nn"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "因子",
+          "nsubj"
+        ],
+        [
+          "运行",
+          "nn"
+        ],
+        [
+          "环境",
+          "nn"
+        ],
+        [
+          "影响",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 26
+        },
+        {
+          "sentence_index": 1,
+          "id": 27
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 22
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "输出向量",
+      "object": "油液是否泄漏",
+      "relation": "表示",
+      "path": [
+        [
+          "输出",
+          "nn"
+        ],
+        [
+          "向量",
+          "dobj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "导致",
+          "pccomp"
+        ],
+        [
+          "故障",
+          "dobj"
+        ],
+        [
+          "油液",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 33
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        },
+        {
+          "sentence_index": 1,
+          "id": 32
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "历史维修信息",
+      "object": "LVQ神经网络故障预测模型",
+      "relation": "用于训练",
+      "path": [
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "信息",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "次数",
+          "conj"
+        ],
+        [
+          "因子",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "当前维修信息",
+      "object": "LVQ神经网络故障预测模型",
+      "relation": "输入至",
+      "path": [
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "信息",
+          "lobj"
+        ],
+        [
+          "中",
+          "assmod"
+        ],
+        [
+          "次数",
+          "conj"
+        ],
+        [
+          "因子",
+          "nsubj"
+        ],
+        [
+          "作为",
+          "conj"
+        ],
+        [
+          "利用",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 25
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "仿真实例",
+      "object": "LVQ神经网络故障预测模型",
+      "relation": "验证",
+      "path": [
+        [
+          "仿真",
+          "nn"
+        ],
+        [
+          "实例",
+          "nsubj"
+        ],
+        [
+          "表明",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "网络",
+          "dobj"
+        ],
+        [
+          "LVQ",
+          "nn"
+        ],
+        [
+          "神经",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 3,
+          "id": 1
+        },
+        {
+          "sentence_index": 3,
+          "id": 2
+        },
+        {
+          "sentence_index": 3,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

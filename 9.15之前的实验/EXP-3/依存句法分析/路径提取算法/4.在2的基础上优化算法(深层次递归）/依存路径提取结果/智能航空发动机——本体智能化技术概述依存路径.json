@@ -1,0 +1,584 @@
+{
+  "title": "智能航空发动机——本体智能化技术概述",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 2,
+    "path_found": 2,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "智能化技术",
+      "object": "航空发动机领域",
+      "relation": "应用于",
+      "path": [
+        [
+          "智能化",
+          "nsubj"
+        ],
+        [
+          "提升",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "问题",
+          "attr"
+        ],
+        [
+          "应用",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "传统航空发动机",
+      "relation": "区别于",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ],
+        [
+          "提升",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "问题",
+          "attr"
+        ],
+        [
+          "应用",
+          "rcmod"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "发动机",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 15
+        },
+        {
+          "sentence_index": 1,
+          "id": 7
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "数据利用",
+      "relation": "强调",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ],
+        [
+          "提升",
+          "root"
+        ],
+        [
+          "在于",
+          "root"
+        ],
+        [
+          "速度",
+          "dobj"
+        ],
+        [
+          "利用",
+          "rcmod"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "数据",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 14
+        },
+        {
+          "sentence_index": 7,
+          "id": 8
+        },
+        {
+          "sentence_index": 7,
+          "id": 6
+        },
+        {
+          "sentence_index": 7,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "机械思维模式",
+      "relation": "摆脱",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ],
+        [
+          "提升",
+          "root"
+        ],
+        [
+          "阐明",
+          "root"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "理解",
+          "rcmod"
+        ],
+        [
+          "区别",
+          "dobj"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "思维",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "多源异构信息的关联性",
+      "relation": "追求",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ],
+        [
+          "提升",
+          "root"
+        ],
+        [
+          "追求",
+          "root"
+        ],
+        [
+          "关联性",
+          "dobj"
+        ],
+        [
+          "下",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "多",
+          "nummod"
+        ],
+        [
+          "源",
+          "nn"
+        ],
+        [
+          "异构",
+          "amod"
+        ],
+        [
+          "信息",
+          "assmod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 10,
+          "id": 2
+        },
+        {
+          "sentence_index": 10,
+          "id": 18
+        },
+        {
+          "sentence_index": 10,
+          "id": 11
+        },
+        {
+          "sentence_index": 10,
+          "id": 12
+        },
+        {
+          "sentence_index": 10,
+          "id": 13
+        },
+        {
+          "sentence_index": 10,
+          "id": 14
+        },
+        {
+          "sentence_index": 10,
+          "id": 15
+        },
+        {
+          "sentence_index": 10,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机械思维模式",
+      "object": "参数因果关系",
+      "relation": "追求",
+      "path": [
+        [
+          "思维",
+          "nn"
+        ],
+        [
+          "模式",
+          "nn"
+        ],
+        [
+          "区别",
+          "dobj"
+        ],
+        [
+          "理解",
+          "rcmod"
+        ],
+        [
+          "角度",
+          "pobj"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "阐明",
+          "root"
+        ],
+        [
+          "摆脱",
+          "root"
+        ],
+        [
+          "思路",
+          "dobj"
+        ],
+        [
+          "追求",
+          "rcmod"
+        ],
+        [
+          "关系",
+          "dobj"
+        ],
+        [
+          "参数",
+          "nn"
+        ],
+        [
+          "因果",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 9
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 11
+        },
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 13
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 15
+        },
+        {
+          "sentence_index": 9,
+          "id": 4
+        },
+        {
+          "sentence_index": 9,
+          "id": 16
+        },
+        {
+          "sentence_index": 9,
+          "id": 10
+        },
+        {
+          "sentence_index": 9,
+          "id": 13
+        },
+        {
+          "sentence_index": 9,
+          "id": 11
+        },
+        {
+          "sentence_index": 9,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "最佳性能",
+      "relation": "发挥",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "智能航空发动机",
+      "object": "性能跨越",
+      "relation": "实现",
+      "path": [
+        [
+          "能",
+          "mmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

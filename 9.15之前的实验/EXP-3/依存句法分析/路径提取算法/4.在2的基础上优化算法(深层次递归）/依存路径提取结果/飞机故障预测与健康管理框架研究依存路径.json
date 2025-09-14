@@ -1,0 +1,972 @@
+{
+  "title": "飞机故障预测与健康管理框架研究",
+  "stats": {
+    "total_pairs": 11,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 0,
+    "cross_sentence_path_found": 0
+  },
+  "pairs": [
+    {
+      "subject": "PHM体系结构",
+      "object": "维修保障困难",
+      "relation": "解决",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "针对",
+          "prep"
+        ],
+        [
+          "问题",
+          "pobj"
+        ],
+        [
+          "困难",
+          "nn"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "保障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "新型飞机",
+      "relation": "基于",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "以",
+          "prep"
+        ],
+        [
+          "研究",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "新型",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 36
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 38
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "关键系统",
+      "relation": "结合",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "结合",
+          "dep"
+        ],
+        [
+          "系统",
+          "dobj"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 48
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "体系结构设计",
+      "relation": "包含",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "包含",
+          "dep"
+        ],
+        [
+          "实现",
+          "dobj"
+        ],
+        [
+          "设计",
+          "conj"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 60
+        },
+        {
+          "sentence_index": 0,
+          "id": 58
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "技术实现",
+      "relation": "包含",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "为",
+          "conj"
+        ],
+        [
+          "包含",
+          "dep"
+        ],
+        [
+          "实现",
+          "dobj"
+        ],
+        [
+          "技术",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 66
+        },
+        {
+          "sentence_index": 0,
+          "id": 65
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "标准化要求",
+      "relation": "满足",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "标准化",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "层次化要求",
+      "relation": "满足",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "标准化",
+          "rcmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "层次化",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 76
+        },
+        {
+          "sentence_index": 0,
+          "id": 77
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "可进化要求",
+      "relation": "满足",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "标准化",
+          "rcmod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可进化",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 79
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "开放性要求",
+      "relation": "满足",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "要求",
+          "dobj"
+        ],
+        [
+          "标准化",
+          "rcmod"
+        ],
+        [
+          "开放性",
+          "dep"
+        ],
+        [
+          "的",
+          "cpm"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 75
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "维护费用",
+      "relation": "降低",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "难度",
+          "dobj"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "费用",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        },
+        {
+          "sentence_index": 0,
+          "id": 90
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "PHM体系结构",
+      "object": "维护难度",
+      "relation": "降低",
+      "path": [
+        [
+          "PHM",
+          "nn"
+        ],
+        [
+          "体系",
+          "nn"
+        ],
+        [
+          "结构",
+          "dobj"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "表明",
+          "conj"
+        ],
+        [
+          "满足",
+          "ccomp"
+        ],
+        [
+          "降低",
+          "conj"
+        ],
+        [
+          "难度",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 20
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 92
+        },
+        {
+          "sentence_index": 0,
+          "id": 87
+        },
+        {
+          "sentence_index": 0,
+          "id": 88
+        },
+        {
+          "sentence_index": 0,
+          "id": 89
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

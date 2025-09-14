@@ -1,0 +1,1568 @@
+{
+  "title": "航空电子设备故障预测特征参数提取方法研究",
+  "stats": {
+    "total_pairs": 16,
+    "aligned_pairs": 11,
+    "path_found": 11,
+    "cross_sentence_pairs": 5,
+    "cross_sentence_path_found": 5
+  },
+  "pairs": [
+    {
+      "subject": "故障特征提取",
+      "object": "航空电子设备故障预测",
+      "relation": "是关键技术",
+      "path": [
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "小波变换",
+      "object": "故障特征提取",
+      "relation": "用于",
+      "path": [
+        [
+          "小",
+          "amod"
+        ],
+        [
+          "波",
+          "nn"
+        ],
+        [
+          "变换",
+          "conj"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "傅里叶变换",
+      "object": "故障特征提取",
+      "relation": "用于",
+      "path": [
+        [
+          "变换",
+          "conj"
+        ],
+        [
+          "傅里叶",
+          "nn"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "经验模态分解",
+      "object": "故障特征提取",
+      "relation": "用于",
+      "path": [
+        [
+          "经验",
+          "nn"
+        ],
+        [
+          "模态",
+          "nn"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空电子设备",
+      "object": "大规模集成电路",
+      "relation": "属于",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "混叠",
+          "conj"
+        ],
+        [
+          "由于",
+          "prep"
+        ],
+        [
+          "属于",
+          "pccomp"
+        ],
+        [
+          "电路",
+          "dobj"
+        ],
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "集成",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障特征数量大",
+      "object": "故障预测精度",
+      "relation": "影响",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "混叠",
+          "conj"
+        ],
+        [
+          "影响",
+          "conj"
+        ],
+        [
+          "速度",
+          "dobj"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "预测",
+          "nn"
+        ],
+        [
+          "精度",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 69
+        },
+        {
+          "sentence_index": 0,
+          "id": 74
+        },
+        {
+          "sentence_index": 0,
+          "id": 70
+        },
+        {
+          "sentence_index": 0,
+          "id": 71
+        },
+        {
+          "sentence_index": 0,
+          "id": 72
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障特征数量大",
+      "object": "故障预测速度",
+      "relation": "影响",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "故障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新方法",
+      "object": "极大似然法",
+      "relation": "包含",
+      "path": [
+        [
+          "等",
+          "etc"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "混叠",
+          "conj"
+        ],
+        [
+          "由于",
+          "prep"
+        ],
+        [
+          "属于",
+          "pccomp"
+        ],
+        [
+          "电路",
+          "dobj"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "大",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新方法",
+      "object": "降噪自编码神经网络",
+      "relation": "包含",
+      "path": [
+        [
+          "等",
+          "etc"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "提取",
+          "ccomp"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "降噪",
+          "dobj"
+        ],
+        [
+          "自",
+          "advmod"
+        ],
+        [
+          "编码",
+          "vmod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "极大似然法",
+      "object": "高维数据集",
+      "relation": "分析",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "电路",
+          "dobj"
+        ],
+        [
+          "属于",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "prep"
+        ],
+        [
+          "混叠",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "使用",
+          "root"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "数据集",
+          "dobj"
+        ],
+        [
+          "高维",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 26
+        },
+        {
+          "sentence_index": 2,
+          "id": 25
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "极大似然法",
+      "object": "故障特征维数",
+      "relation": "估计",
+      "path": [
+        [
+          "大",
+          "amod"
+        ],
+        [
+          "规模",
+          "nn"
+        ],
+        [
+          "电路",
+          "dobj"
+        ],
+        [
+          "属于",
+          "pccomp"
+        ],
+        [
+          "由于",
+          "prep"
+        ],
+        [
+          "混叠",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 44
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        },
+        {
+          "sentence_index": 0,
+          "id": 43
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 62
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "降噪自编码神经网络",
+      "object": "关键故障特征",
+      "relation": "提取",
+      "path": [
+        [
+          "降噪",
+          "dobj"
+        ],
+        [
+          "自",
+          "advmod"
+        ],
+        [
+          "编码",
+          "vmod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "提取",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "特征",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "降噪自编码神经网络",
+      "object": "冗余信息",
+      "relation": "去除",
+      "path": [
+        [
+          "降噪",
+          "dobj"
+        ],
+        [
+          "自",
+          "advmod"
+        ],
+        [
+          "编码",
+          "vmod"
+        ],
+        [
+          "神经",
+          "nn"
+        ],
+        [
+          "网络",
+          "nn"
+        ],
+        [
+          "基于",
+          "rcmod"
+        ],
+        [
+          "方法",
+          "nsubj"
+        ],
+        [
+          "提取",
+          "ccomp"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "是",
+          "conj"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "从",
+          "prep"
+        ],
+        [
+          "中",
+          "plmod"
+        ],
+        [
+          "信息",
+          "lobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 12
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 86
+        },
+        {
+          "sentence_index": 0,
+          "id": 83
+        },
+        {
+          "sentence_index": 0,
+          "id": 78
+        },
+        {
+          "sentence_index": 0,
+          "id": 82
+        },
+        {
+          "sentence_index": 0,
+          "id": 81
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "新方法",
+      "object": "航空电子系统电源模块",
+      "relation": "验证于",
+      "path": [
+        [
+          "等",
+          "etc"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "技术",
+          "attr"
+        ],
+        [
+          "预测",
+          "assmod"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "电子",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "健康评估",
+      "object": "新方法",
+      "relation": "验证",
+      "path": [
+        [
+          "健康",
+          "nn"
+        ],
+        [
+          "评估",
+          "dobj"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "使用",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "等",
+          "etc"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 95
+        },
+        {
+          "sentence_index": 2,
+          "id": 96
+        },
+        {
+          "sentence_index": 2,
+          "id": 94
+        },
+        {
+          "sentence_index": 2,
+          "id": 77
+        },
+        {
+          "sentence_index": 2,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "故障特征可视化",
+      "object": "新方法",
+      "relation": "验证",
+      "path": [
+        [
+          "特征",
+          "nn"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "提取",
+          "top"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "采用",
+          "conj"
+        ],
+        [
+          "方法",
+          "dobj"
+        ],
+        [
+          "分解",
+          "nn"
+        ],
+        [
+          "等",
+          "etc"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 4
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

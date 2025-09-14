@@ -1,0 +1,752 @@
+{
+  "title": "商用大飞机健康管理应用研究",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "AHM技术",
+      "object": "维修",
+      "relation": "改善",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "集中",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "改善",
+          "vmod"
+        ],
+        [
+          "配置",
+          "dobj"
+        ],
+        [
+          "维修",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "备件",
+      "relation": "改善",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "集中",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "改善",
+          "vmod"
+        ],
+        [
+          "配置",
+          "dobj"
+        ],
+        [
+          "备件",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 30
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "人员配置",
+      "relation": "改善",
+      "path": [
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "集中",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "改善",
+          "vmod"
+        ],
+        [
+          "配置",
+          "dobj"
+        ],
+        [
+          "人员",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 35
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "飞机设计理念",
+      "object": "完全自动化",
+      "relation": "转向",
+      "path": [
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "设计",
+          "nn"
+        ],
+        [
+          "理念",
+          "nsubj"
+        ],
+        [
+          "转向",
+          "root"
+        ],
+        [
+          "自动化",
+          "dobj"
+        ],
+        [
+          "完全",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 1,
+      "path_positions": [
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 5
+        },
+        {
+          "sentence_index": 1,
+          "id": 6
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 10
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "关键部位",
+      "relation": "监测",
+      "path": [
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "转向",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "方面",
+          "pobj"
+        ],
+        [
+          "保证",
+          "vmod"
+        ],
+        [
+          "安全",
+          "dobj"
+        ],
+        [
+          "部位",
+          "nn"
+        ],
+        [
+          "关键",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 17
+        },
+        {
+          "sentence_index": 1,
+          "id": 23
+        },
+        {
+          "sentence_index": 1,
+          "id": 18
+        },
+        {
+          "sentence_index": 1,
+          "id": 21
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 19
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "异常",
+      "relation": "处理",
+      "path": [
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "转向",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "失效",
+          "pobj"
+        ],
+        [
+          "异常",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        },
+        {
+          "sentence_index": 1,
+          "id": 34
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "失效",
+      "relation": "处理",
+      "path": [
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "转向",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "实现",
+          "dep"
+        ],
+        [
+          "进行",
+          "ccomp"
+        ],
+        [
+          "对",
+          "prep"
+        ],
+        [
+          "失效",
+          "pobj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 28
+        },
+        {
+          "sentence_index": 1,
+          "id": 37
+        },
+        {
+          "sentence_index": 1,
+          "id": 30
+        },
+        {
+          "sentence_index": 1,
+          "id": 36
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "AHM技术",
+      "object": "飞机的安全运行",
+      "relation": "确保",
+      "path": [
+        [
+          "AHM",
+          "nn"
+        ],
+        [
+          "技术",
+          "nn"
+        ],
+        [
+          "革新",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "转向",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "确保",
+          "dep"
+        ],
+        [
+          "运行",
+          "dobj"
+        ],
+        [
+          "飞机",
+          "assmod"
+        ],
+        [
+          "的",
+          "assm"
+        ],
+        [
+          "安全",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 24
+        },
+        {
+          "sentence_index": 1,
+          "id": 43
+        },
+        {
+          "sentence_index": 1,
+          "id": 47
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 45
+        },
+        {
+          "sentence_index": 1,
+          "id": 46
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

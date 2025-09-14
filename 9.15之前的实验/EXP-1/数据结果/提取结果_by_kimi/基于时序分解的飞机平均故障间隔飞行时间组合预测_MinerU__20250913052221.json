@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "STL(SeasonalandTrendDecompositionusingLoess)"
+    },
+    {
+      "type": "模型",
+      "text": "灰色模型"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量机回归"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均绝对误差由45%减小至21%"
+    },
+    {
+      "type": "算法",
+      "text": "自回归滑动平均（ARMA）模型"
+    },
+    {
+      "type": "算法",
+      "text": "小波变换"
+    },
+    {
+      "type": "算法",
+      "text": "变调节周期的PID算法"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "STL(SeasonalandTrendDecompositionusingLoess)",
+      "tail": "MFHBF指标的长期趋势项和季节变动项分解"
+    },
+    {
+      "type": "用于预测",
+      "head": "灰色模型",
+      "tail": "指标的长期趋势"
+    },
+    {
+      "type": "用于预测",
+      "head": "BP神经网络",
+      "tail": "指标的季节变动"
+    },
+    {
+      "type": "用于预测",
+      "head": "支持向量机回归",
+      "tail": "指标的季节变动"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测方法",
+      "tail": "平均绝对误差"
+    },
+    {
+      "type": "得出",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "平均绝对误差由45%减小至21%"
+    },
+    {
+      "type": "基于",
+      "head": "自回归滑动平均（ARMA）模型",
+      "tail": "飞机每月的故障率预测"
+    },
+    {
+      "type": "提取",
+      "head": "小波变换",
+      "tail": "备件消耗数据的不同频率信息"
+    },
+    {
+      "type": "改进",
+      "head": "变调节周期的PID算法",
+      "tail": "温度控制系统"
+    }
+  ]
+}

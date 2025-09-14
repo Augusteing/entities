@@ -1,0 +1,928 @@
+{
+  "title": "军用飞机二线测试设备现状及发展趋势",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 6,
+    "path_found": 6,
+    "cross_sentence_pairs": 4,
+    "cross_sentence_path_found": 4
+  },
+  "pairs": [
+    {
+      "subject": "二级维修体制",
+      "object": "下一代飞机维护保障模式",
+      "relation": "成为",
+      "path": [
+        [
+          "二",
+          "ordmod"
+        ],
+        [
+          "级",
+          "clf"
+        ],
+        [
+          "维修",
+          "nn"
+        ],
+        [
+          "体制",
+          "nsubj"
+        ],
+        [
+          "成为",
+          "pccomp"
+        ],
+        [
+          "方向",
+          "dobj"
+        ],
+        [
+          "模式",
+          "assmod"
+        ],
+        [
+          "下",
+          "det"
+        ],
+        [
+          "一",
+          "nummod"
+        ],
+        [
+          "代",
+          "dep"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "保障",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 17
+        },
+        {
+          "sentence_index": 0,
+          "id": 18
+        },
+        {
+          "sentence_index": 0,
+          "id": 19
+        },
+        {
+          "sentence_index": 0,
+          "id": 21
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        },
+        {
+          "sentence_index": 0,
+          "id": 22
+        },
+        {
+          "sentence_index": 0,
+          "id": 23
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 25
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "飞机可测试性设计",
+      "relation": "基于",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "基于",
+          "ccomp"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "可测试性",
+          "amod"
+        ],
+        [
+          "设计",
+          "conj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 40
+        },
+        {
+          "sentence_index": 0,
+          "id": 41
+        },
+        {
+          "sentence_index": 0,
+          "id": 42
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "PHM技术",
+      "relation": "基于",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "基于",
+          "ccomp"
+        ],
+        [
+          "技术",
+          "pobj"
+        ],
+        [
+          "PHM",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 45
+        },
+        {
+          "sentence_index": 0,
+          "id": 44
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "功能前移和后推",
+      "relation": "需要",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "基于",
+          "ccomp"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "功能",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 46
+        },
+        {
+          "sentence_index": 0,
+          "id": 47
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "更强的故障定位能力",
+      "relation": "需要",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "基于",
+          "ccomp"
+        ],
+        [
+          "前移",
+          "conj"
+        ],
+        [
+          ",",
+          "punct"
+        ],
+        [
+          "故障",
+          "nn"
+        ],
+        [
+          "定位",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 52
+        },
+        {
+          "sentence_index": 0,
+          "id": 53
+        },
+        {
+          "sentence_index": 0,
+          "id": 54
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "综合化高",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "综合化",
+          "nsubj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "通用性强",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "dep"
+        ],
+        [
+          "基于",
+          "ccomp"
+        ],
+        [
+          "前移",
+          "conj"
+        ],
+        [
+          "需求",
+          "dep"
+        ],
+        [
+          "强",
+          "rcmod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 39
+        },
+        {
+          "sentence_index": 0,
+          "id": 49
+        },
+        {
+          "sentence_index": 0,
+          "id": 59
+        },
+        {
+          "sentence_index": 0,
+          "id": 57
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "管用",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "管用",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "好用",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "好用",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "二线测试设备",
+      "object": "耐用",
+      "relation": "发展趋势为",
+      "path": [
+        [
+          "二线",
+          "nn"
+        ],
+        [
+          "测试",
+          "nn"
+        ],
+        [
+          "设备",
+          "nn"
+        ],
+        [
+          "情况",
+          "dobj"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "趋势",
+          "dobj"
+        ],
+        [
+          "高",
+          "rcmod"
+        ],
+        [
+          "耐用",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 9
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 20
+        },
+        {
+          "sentence_index": 1,
+          "id": 4
+        },
+        {
+          "sentence_index": 1,
+          "id": 13
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

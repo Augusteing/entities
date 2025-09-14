@@ -1,0 +1,672 @@
+{
+  "title": "航空发动机振动监测与故障诊断技术研究进展",
+  "stats": {
+    "total_pairs": 10,
+    "aligned_pairs": 4,
+    "path_found": 4,
+    "cross_sentence_pairs": 6,
+    "cross_sentence_path_found": 6
+  },
+  "pairs": [
+    {
+      "subject": "航空发动机",
+      "object": "高精尖技术",
+      "relation": "汇集",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "高",
+          "advmod"
+        ],
+        [
+          "精尖",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 8
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机",
+      "object": "国家科技、工业和国防实力",
+      "relation": "体现",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "是",
+          "root"
+        ],
+        [
+          "体现",
+          "attr"
+        ],
+        [
+          "实力",
+          "assmod"
+        ],
+        [
+          "国家",
+          "nn"
+        ],
+        [
+          "科技",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 11
+        },
+        {
+          "sentence_index": 1,
+          "id": 8
+        },
+        {
+          "sentence_index": 1,
+          "id": 2
+        },
+        {
+          "sentence_index": 1,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "复杂结构",
+      "object": "故障频发",
+      "relation": "导致",
+      "path": [
+        [
+          "复杂",
+          "amod"
+        ],
+        [
+          "结构",
+          "conj"
+        ],
+        [
+          "环境",
+          "nsubj"
+        ],
+        [
+          "致使",
+          "root"
+        ],
+        [
+          "频发",
+          "dep"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 1
+        },
+        {
+          "sentence_index": 2,
+          "id": 2
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "恶劣服役环境",
+      "object": "故障频发",
+      "relation": "导致",
+      "path": [
+        [
+          "恶劣",
+          "amod"
+        ],
+        [
+          "服役",
+          "nn"
+        ],
+        [
+          "环境",
+          "nsubj"
+        ],
+        [
+          "致使",
+          "root"
+        ],
+        [
+          "频发",
+          "dep"
+        ],
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 4
+        },
+        {
+          "sentence_index": 2,
+          "id": 5
+        },
+        {
+          "sentence_index": 2,
+          "id": 6
+        },
+        {
+          "sentence_index": 2,
+          "id": 7
+        },
+        {
+          "sentence_index": 2,
+          "id": 10
+        },
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "发动机故障诊断与健康管理技术",
+      "object": "安全、可靠运行",
+      "relation": "保障",
+      "path": [
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "成为",
+          "root"
+        ],
+        [
+          "支撑",
+          "dobj"
+        ],
+        [
+          "保障",
+          "rcmod"
+        ],
+        [
+          "运行",
+          "dobj"
+        ],
+        [
+          "安全",
+          "amod"
+        ],
+        [
+          "、",
+          "punct"
+        ],
+        [
+          "可靠",
+          "dep"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 3,
+          "id": 8
+        },
+        {
+          "sentence_index": 3,
+          "id": 17
+        },
+        {
+          "sentence_index": 3,
+          "id": 9
+        },
+        {
+          "sentence_index": 3,
+          "id": 14
+        },
+        {
+          "sentence_index": 3,
+          "id": 11
+        },
+        {
+          "sentence_index": 3,
+          "id": 12
+        },
+        {
+          "sentence_index": 3,
+          "id": 13
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "振动类故障",
+      "object": "主要故障模式",
+      "relation": "是",
+      "path": [
+        [
+          "故障",
+          "nsubj"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 2,
+      "path_positions": [
+        {
+          "sentence_index": 2,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "object": "动力学分析",
+      "relation": "包括",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "分析",
+          "conj"
+        ],
+        [
+          "动力学",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 4
+        },
+        {
+          "sentence_index": 7,
+          "id": 3
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "object": "信号处理",
+      "relation": "包括",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "处理",
+          "conj"
+        ],
+        [
+          "信号",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 7
+        },
+        {
+          "sentence_index": 7,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机振动类故障诊断技术",
+      "object": "深度学习",
+      "relation": "包括",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "包括",
+          "root"
+        ],
+        [
+          "技术",
+          "dobj"
+        ],
+        [
+          "学习",
+          "nn"
+        ],
+        [
+          "深度",
+          "nn"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 7,
+          "id": 2
+        },
+        {
+          "sentence_index": 7,
+          "id": 13
+        },
+        {
+          "sentence_index": 7,
+          "id": 10
+        },
+        {
+          "sentence_index": 7,
+          "id": 9
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "航空发动机振动类故障诊断",
+      "object": "问题与挑战",
+      "relation": "面临",
+      "path": [
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "发动机",
+          "nsubj"
+        ],
+        [
+          "汇集",
+          "root"
+        ],
+        [
+          "分析",
+          "root"
+        ],
+        [
+          "挑战",
+          "dobj"
+        ],
+        [
+          "面临",
+          "rcmod"
+        ],
+        [
+          "的",
+          "cpm"
+        ],
+        [
+          "问题",
+          "conj"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 1
+        },
+        {
+          "sentence_index": 0,
+          "id": 2
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 8,
+          "id": 1
+        },
+        {
+          "sentence_index": 8,
+          "id": 12
+        },
+        {
+          "sentence_index": 8,
+          "id": 8
+        },
+        {
+          "sentence_index": 8,
+          "id": 9
+        },
+        {
+          "sentence_index": 8,
+          "id": 10
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

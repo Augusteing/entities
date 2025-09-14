@@ -1,0 +1,640 @@
+{
+  "title": "基于RFID技术的机载设备维护管理系统",
+  "stats": {
+    "total_pairs": 8,
+    "aligned_pairs": 7,
+    "path_found": 7,
+    "cross_sentence_pairs": 1,
+    "cross_sentence_path_found": 1
+  },
+  "pairs": [
+    {
+      "subject": "RFID技术",
+      "object": "民用航空机场运输领域",
+      "relation": "应用于",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "RFID",
+          "prnmod"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "机场",
+          "nn"
+        ],
+        [
+          "运输",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        },
+        {
+          "sentence_index": 0,
+          "id": 12
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 14
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "RFID技术",
+      "object": "民用航空制造领域",
+      "relation": "未推广应用",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "RFID",
+          "prnmod"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "领域",
+          "conj"
+        ],
+        [
+          "民用",
+          "amod"
+        ],
+        [
+          "航空",
+          "nn"
+        ],
+        [
+          "制造",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 29
+        },
+        {
+          "sentence_index": 0,
+          "id": 26
+        },
+        {
+          "sentence_index": 0,
+          "id": 27
+        },
+        {
+          "sentence_index": 0,
+          "id": 28
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "RFID技术",
+      "object": "飞机运营维护领域",
+      "relation": "未推广应用",
+      "path": [
+        [
+          ")",
+          "punct"
+        ],
+        [
+          "RFID",
+          "prnmod"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "飞机",
+          "nn"
+        ],
+        [
+          "运营",
+          "nn"
+        ],
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 6
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 31
+        },
+        {
+          "sentence_index": 0,
+          "id": 32
+        },
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载设备维护管理系统",
+      "object": "RFID技术",
+      "relation": "应用",
+      "path": [
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "技术",
+          "nsubj"
+        ],
+        [
+          "识别",
+          "nn"
+        ],
+        [
+          "RFID",
+          "prnmod"
+        ],
+        [
+          ")",
+          "punct"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 7
+        },
+        {
+          "sentence_index": 0,
+          "id": 3
+        },
+        {
+          "sentence_index": 0,
+          "id": 5
+        },
+        {
+          "sentence_index": 0,
+          "id": 6
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载设备维护管理系统",
+      "object": "民用飞机机载设备全生命周期维护和管理",
+      "relation": "用于",
+      "path": [
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "机场",
+          "nn"
+        ],
+        [
+          "民用",
+          "amod"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 0,
+          "id": 10
+        },
+        {
+          "sentence_index": 0,
+          "id": 15
+        },
+        {
+          "sentence_index": 0,
+          "id": 13
+        },
+        {
+          "sentence_index": 0,
+          "id": 11
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "机载设备维护管理系统",
+      "object": "机载设备全生命周期的高效维护和管理",
+      "relation": "实现",
+      "path": [
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "例行维护任务",
+      "object": "机载设备维护管理系统",
+      "relation": "验证",
+      "path": [
+        [
+          "维护",
+          "nn"
+        ]
+      ],
+      "path_type": "intra_sentence",
+      "sentence_index": 0,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        }
+      ],
+      "note": null
+    },
+    {
+      "subject": "例行维护任务",
+      "object": "客舱应急设备",
+      "relation": "针对",
+      "path": [
+        [
+          "维护",
+          "nn"
+        ],
+        [
+          "领域",
+          "pobj"
+        ],
+        [
+          "在",
+          "prep"
+        ],
+        [
+          "得到",
+          "conj"
+        ],
+        [
+          "得到",
+          "root"
+        ],
+        [
+          "提出",
+          "root"
+        ],
+        [
+          "进行",
+          "conj"
+        ],
+        [
+          "通过",
+          "prep"
+        ],
+        [
+          "任务",
+          "pobj"
+        ],
+        [
+          "设备",
+          "assmod"
+        ],
+        [
+          "客舱",
+          "nn"
+        ],
+        [
+          "应急",
+          "amod"
+        ]
+      ],
+      "path_type": "cross_sentence",
+      "sentence_index": null,
+      "path_positions": [
+        {
+          "sentence_index": 0,
+          "id": 33
+        },
+        {
+          "sentence_index": 0,
+          "id": 34
+        },
+        {
+          "sentence_index": 0,
+          "id": 24
+        },
+        {
+          "sentence_index": 0,
+          "id": 37
+        },
+        {
+          "sentence_index": 0,
+          "id": 16
+        },
+        {
+          "sentence_index": 1,
+          "id": 1
+        },
+        {
+          "sentence_index": 1,
+          "id": 48
+        },
+        {
+          "sentence_index": 1,
+          "id": 35
+        },
+        {
+          "sentence_index": 1,
+          "id": 44
+        },
+        {
+          "sentence_index": 1,
+          "id": 40
+        },
+        {
+          "sentence_index": 1,
+          "id": 38
+        },
+        {
+          "sentence_index": 1,
+          "id": 39
+        }
+      ],
+      "note": null
+    }
+  ],
+  "config": {
+    "enable_cross_sentence": true,
+    "cross_sentence_strategy": "super_root"
+  }
+}

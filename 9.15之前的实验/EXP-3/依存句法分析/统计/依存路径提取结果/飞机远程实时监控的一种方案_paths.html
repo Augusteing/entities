@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='zh'>
+<head>
+    <meta charset='UTF-8'/>
+    <title>飞机远程实时监控的一种方案 依存路径可视化</title>
+    <style>
+        body{font-family:Arial,Helvetica,sans-serif;line-height:1.5;margin:16px;}
+        .sentence{margin:8px 0;padding:8px;border:1px solid #ddd;border-radius:4px;}
+        .sent-title{font-weight:bold;margin-bottom:4px;color:#555;}
+        .tok{display:inline-block;margin:2px 3px;padding:2px 4px;border-radius:3px;background:#f5f5f5;cursor:default;font-size:13px;transition:background .25s;}
+        .tok.intra{background:#ffe4b5;}
+        .tok.cross{background:#e6f7ff;}
+        .tok.subj{outline:2px solid #e74c3c;}
+        .tok.obj{outline:2px solid #2980b9;}
+        table{border-collapse:collapse;margin-top:18px;width:100%;font-size:13px;}
+        th,td{border:1px solid #ccc;padding:4px 6px;}
+        th{background:#fafafa;}
+        tr:nth-child(even){background:#fafafa;}
+        tr.row-cross_sentence td{background:#f0fbff;}
+        tr.row-intra_sentence td{background:#fffaf1;}
+        .summary{margin:12px 0;padding:8px;background:#eef;border-left:4px solid #66c;}
+        .legend span{display:inline-block;margin-right:12px;font-size:12px;}
+        .legend .box{width:14px;height:14px;display:inline-block;vertical-align:middle;margin-right:4px;border:1px solid #aaa;}
+        .btn-tree{margin-left:10px;font-size:12px;padding:2px 6px;cursor:pointer;}
+        .dep-tree-wrapper{margin-top:6px;padding:6px;border:1px dashed #ccc;background:#fafafa;}
+        .dep-tree-container svg{font-family:Arial,Helvetica,sans-serif;}
+        .dep-edge{stroke:#888;stroke-width:1.2px;fill:none;}
+        .dep-node rect{fill:#fff;stroke:#555;stroke-width:1px;rx:4px;ry:4px;}
+        .dep-node.intra rect{fill:#ffe4b5;}
+        .dep-node.cross rect{fill:#e6f7ff;}
+        .dep-node.subj rect{stroke:#e74c3c;stroke-width:2px;}
+        .dep-node.obj rect{stroke:#2980b9;stroke-width:2px;}
+        .dep-node text{font-size:12px;dominant-baseline:middle;text-anchor:middle;pointer-events:none;}
+        .dep-node{cursor:default;transition:filter .25s;}
+        .dep-node:hover{filter:brightness(0.92);}
+    </style>
+</head>
+<body>
+<h2>飞机远程实时监控的一种方案 - 依存路径可视化</h2>
+<div class='summary'>总实体对: 7 | 句内成功: 6 | 跨句成功: 1 | 路径成功总计: 7</div>
+<div class='legend'>
+    <span><span class='box' style='background:#ffe4b5'></span>句内路径节点</span>
+    <span><span class='box' style='background:#e6f7ff'></span>跨句路径节点</span>
+    <span><span class='box' style='border:2px solid #e74c3c'></span>主语</span>
+    <span><span class='box' style='border:2px solid #2980b9'></span>宾语</span>
+</div>
+<h3>句子分词</h3>
+<div class='sentence' data-sent='0'><div class='sent-title'>句 0 <button class='btn-tree' onclick='toggleTree(0)'>依存树</button></div><span class='tok' data-sent='0' data-id='1' title='id=1 deprel=nsubj pos=NN'>[1] 旨</span> <span class='tok' data-sent='0' data-id='2' title='id=2 deprel=root pos=VV'>[2] 在</span> <span class='tok' data-sent='0' data-id='3' title='id=3 deprel=ccomp pos=VV'>[3] 分析</span> <span class='tok' data-sent='0' data-id='4' title='id=4 deprel=nsubj pos=NN'>[4] 飞机</span> <span class='tok' data-sent='0' data-id='5' title='id=5 deprel=lccomp pos=VV'>[5] 运行</span> <span class='tok' data-sent='0' data-id='6' title='id=6 deprel=loc pos=LC'>[6] 时</span> <span class='tok' data-sent='0' data-id='7' title='id=7 deprel=rcmod pos=VV'>[7] 下载</span> <span class='tok' data-sent='0' data-id='8' title='id=8 deprel=cpm pos=DEC'>[8] 的</span> <span class='tok' data-sent='0' data-id='9' title='id=9 deprel=dobj pos=NN'>[9] 数据</span> <span class='tok' data-sent='0' data-id='10' title='id=10 deprel=prtmod pos=MSP'>[10] 来</span> <span class='tok' data-sent='0' data-id='11' title='id=11 deprel=conj pos=VV'>[11] 研究</span> <span class='tok' data-sent='0' data-id='12' title='id=12 deprel=nummod pos=CD'>[12] 一</span> <span class='tok' data-sent='0' data-id='13' title='id=13 deprel=clf pos=M'>[13] 套</span> <span class='tok' data-sent='0' data-id='14' title='id=14 deprel=mmod pos=VV'>[14] 能</span> <span class='tok' data-sent='0' data-id='15' title='id=15 deprel=advmod pos=AD'>[15] 及时</span> <span class='tok' data-sent='0' data-id='16' title='id=16 deprel=rcmod pos=VV'>[16] 察觉</span> <span class='tok' data-sent='0' data-id='17' title='id=17 deprel=punct pos=PU'>[17] 、</span> <span class='tok' data-sent='0' data-id='18' title='id=18 deprel=dep pos=VV'>[18] 分类</span> <span class='tok' data-sent='0' data-id='19' title='id=19 deprel=cc pos=CC'>[19] 并</span> <span class='tok' data-sent='0' data-id='20' title='id=20 deprel=dep pos=VV'>[20] 预报</span> <span class='tok' data-sent='0' data-id='21' title='id=21 deprel=dobj pos=NN'>[21] 故障</span> <span class='tok' data-sent='0' data-id='22' title='id=22 deprel=cpm pos=DEC'>[22] 的</span> <span class='tok' data-sent='0' data-id='23' title='id=23 deprel=nn pos=NN'>[23] 飞机</span> <span class='tok' data-sent='0' data-id='24' title='id=24 deprel=nn pos=NN'>[24] 健康</span> <span class='tok' data-sent='0' data-id='25' title='id=25 deprel=nn pos=NN'>[25] 管理</span> <span class='tok' data-sent='0' data-id='26' title='id=26 deprel=dobj pos=NN'>[26] 系统</span><div class='dep-tree-wrapper' id='tree-wrapper-0' data-built='0' style='display:none'><div class='dep-tree-container' id='dep-tree-0'></div></div></div>
+<div class='sentence' data-sent='1'><div class='sent-title'>句 1 <button class='btn-tree' onclick='toggleTree(1)'>依存树</button></div><span class='tok' data-sent='1' data-id='1' title='id=1 deprel=dep pos=VV'>[1] 分析</span> <span class='tok' data-sent='1' data-id='2' title='id=2 deprel=root pos=VV'>[2] 着手于</span> <span class='tok' data-sent='1' data-id='3' title='id=3 deprel=amod pos=JJ'>[3] 实时</span> <span class='tok' data-sent='1' data-id='4' title='id=4 deprel=dobj pos=NN'>[4] 数据</span> <span class='tok' data-sent='1' data-id='5' title='id=5 deprel=punct pos=PU'>[5] ,</span> <span class='tok' data-sent='1' data-id='6' title='id=6 deprel=dep pos=VV'>[6] 结合</span> <span class='tok' data-sent='1' data-id='7' title='id=7 deprel=nn pos=NN'>[7] 飞机</span> <span class='tok' data-sent='1' data-id='8' title='id=8 deprel=nn pos=NN'>[8] 维护</span> <span class='tok' data-sent='1' data-id='9' title='id=9 deprel=nn pos=NN'>[9] 技术</span> <span class='tok' data-sent='1' data-id='10' title='id=10 deprel=conj pos=NN'>[10] 文档</span> <span class='tok' data-sent='1' data-id='11' title='id=11 deprel=cc pos=CC'>[11] 和</span> <span class='tok' data-sent='1' data-id='12' title='id=12 deprel=nn pos=NN'>[12] 历史</span> <span class='tok' data-sent='1' data-id='13' title='id=13 deprel=nn pos=NN'>[13] 维护</span> <span class='tok' data-sent='1' data-id='14' title='id=14 deprel=dobj pos=NN'>[14] 经验</span> <span class='tok' data-sent='1' data-id='15' title='id=15 deprel=punct pos=PU'>[15] ,</span> <span class='tok' data-sent='1' data-id='16' title='id=16 deprel=dep pos=VV'>[16] 设计</span> <span class='tok' data-sent='1' data-id='17' title='id=17 deprel=cc pos=CC'>[17] 并</span> <span class='tok' data-sent='1' data-id='18' title='id=18 deprel=advmod pos=AD'>[18] 初步</span> <span class='tok' data-sent='1' data-id='19' title='id=19 deprel=dep pos=VV'>[19] 实现</span> <span class='tok' data-sent='1' data-id='20' title='id=20 deprel=asp pos=AS'>[20] 了</span> <span class='tok' data-sent='1' data-id='21' title='id=21 deprel=det pos=DT'>[21] 该</span> <span class='tok' data-sent='1' data-id='22' title='id=22 deprel=nn pos=NN'>[22] 飞机</span> <span class='tok' data-sent='1' data-id='23' title='id=23 deprel=nn pos=NN'>[23] 健康</span> <span class='tok' data-sent='1' data-id='24' title='id=24 deprel=nn pos=NN'>[24] 管理</span> <span class='tok' data-sent='1' data-id='25' title='id=25 deprel=assmod pos=NN'>[25] 系统</span> <span class='tok' data-sent='1' data-id='26' title='id=26 deprel=assm pos=DEG'>[26] 的</span> <span class='tok' data-sent='1' data-id='27' title='id=27 deprel=nummod pos=CD'>[27] 一</span> <span class='tok' data-sent='1' data-id='28' title='id=28 deprel=clf pos=M'>[28] 个</span> <span class='tok' data-sent='1' data-id='29' title='id=29 deprel=amod pos=JJ'>[29] 主要</span> <span class='tok' data-sent='1' data-id='30' title='id=30 deprel=dobj pos=NN'>[30] 部分</span><div class='dep-tree-wrapper' id='tree-wrapper-1' data-built='0' style='display:none'><div class='dep-tree-container' id='dep-tree-1'></div></div></div>
+<h3>实体对路径结果</h3>
+<table>
+<tr><th>主语</th><th>关系</th><th>宾语</th><th>句序(集合)</th><th>路径节点</th><th>类型</th><th>备注</th></tr>
+<tr class='row-intra_sentence'><td>飞机健康管理系统</td><td>分析</td><td>实时数据</td><td>0</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 研究(conj) — 分析(ccomp) — 数据(dobj) — 下载(rcmod) — 的(cpm)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>飞机健康管理系统</td><td>察觉</td><td>故障</td><td>0</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 察觉(rcmod) — 预报(dep) — 故障(dobj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>飞机健康管理系统</td><td>分类</td><td>故障</td><td>0</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 察觉(rcmod) — 预报(dep) — 故障(dobj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>飞机健康管理系统</td><td>预报</td><td>故障</td><td>0</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 察觉(rcmod) — 预报(dep) — 故障(dobj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>飞机健康管理系统</td><td>结合</td><td>飞机维护技术文档</td><td>0</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 研究(conj) — 分析(ccomp) — 数据(dobj) — 下载(rcmod) — 时(loc) — 运行(lccomp) — 飞机(nsubj)</td><td>intra_sentence</td><td></td></tr>
+<tr class='row-cross_sentence'><td>飞机健康管理系统</td><td>结合</td><td>历史维护经验</td><td>0,1</td><td>飞机(nn) — 健康(nn) — 管理(nn) — 系统(dobj) — 研究(conj) — 分析(ccomp) — 在(root) — 着手于(root) — 结合(dep) — 经验(dobj) — 历史(nn) — 维护(nn)</td><td>cross_sentence</td><td></td></tr>
+<tr class='row-intra_sentence'><td>飞机远程实时监控方案</td><td>包含</td><td>飞机健康管理系统</td><td>0</td><td>飞机(nsubj) — 运行(lccomp) — 时(loc) — 下载(rcmod) — 数据(dobj) — 分析(ccomp) — 研究(conj) — 系统(dobj) — 飞机(nn) — 健康(nn) — 管理(nn)</td><td>intra_sentence</td><td></td></tr>
+</table>
+<script>
+const pairPaths = [{"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 9}, {"sentence_index": 0, "id": 7}, {"sentence_index": 0, "id": 8}], "subject": "飞机健康管理系统", "object": "实时数据"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 16}, {"sentence_index": 0, "id": 20}, {"sentence_index": 0, "id": 21}], "subject": "飞机健康管理系统", "object": "故障"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 16}, {"sentence_index": 0, "id": 20}, {"sentence_index": 0, "id": 21}], "subject": "飞机健康管理系统", "object": "故障"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 16}, {"sentence_index": 0, "id": 20}, {"sentence_index": 0, "id": 21}], "subject": "飞机健康管理系统", "object": "故障"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 9}, {"sentence_index": 0, "id": 7}, {"sentence_index": 0, "id": 6}, {"sentence_index": 0, "id": 5}, {"sentence_index": 0, "id": 4}], "subject": "飞机健康管理系统", "object": "飞机维护技术文档"}, {"path_type": "cross_sentence", "positions": [{"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 2}, {"sentence_index": 1, "id": 2}, {"sentence_index": 1, "id": 6}, {"sentence_index": 1, "id": 14}, {"sentence_index": 1, "id": 12}, {"sentence_index": 1, "id": 13}], "subject": "飞机健康管理系统", "object": "历史维护经验"}, {"path_type": "intra_sentence", "positions": [{"sentence_index": 0, "id": 4}, {"sentence_index": 0, "id": 5}, {"sentence_index": 0, "id": 6}, {"sentence_index": 0, "id": 7}, {"sentence_index": 0, "id": 9}, {"sentence_index": 0, "id": 3}, {"sentence_index": 0, "id": 11}, {"sentence_index": 0, "id": 26}, {"sentence_index": 0, "id": 23}, {"sentence_index": 0, "id": 24}, {"sentence_index": 0, "id": 25}], "subject": "飞机远程实时监控方案", "object": "飞机健康管理系统"}];
+const sentencesTokens = [[{"id": 1, "form": "旨", "deprel": "nsubj", "pos": "NN", "head": 2}, {"id": 2, "form": "在", "deprel": "root", "pos": "VV", "head": 0}, {"id": 3, "form": "分析", "deprel": "ccomp", "pos": "VV", "head": 2}, {"id": 4, "form": "飞机", "deprel": "nsubj", "pos": "NN", "head": 5}, {"id": 5, "form": "运行", "deprel": "lccomp", "pos": "VV", "head": 6}, {"id": 6, "form": "时", "deprel": "loc", "pos": "LC", "head": 7}, {"id": 7, "form": "下载", "deprel": "rcmod", "pos": "VV", "head": 9}, {"id": 8, "form": "的", "deprel": "cpm", "pos": "DEC", "head": 7}, {"id": 9, "form": "数据", "deprel": "dobj", "pos": "NN", "head": 3}, {"id": 10, "form": "来", "deprel": "prtmod", "pos": "MSP", "head": 11}, {"id": 11, "form": "研究", "deprel": "conj", "pos": "VV", "head": 3}, {"id": 12, "form": "一", "deprel": "nummod", "pos": "CD", "head": 13}, {"id": 13, "form": "套", "deprel": "clf", "pos": "M", "head": 26}, {"id": 14, "form": "能", "deprel": "mmod", "pos": "VV", "head": 16}, {"id": 15, "form": "及时", "deprel": "advmod", "pos": "AD", "head": 16}, {"id": 16, "form": "察觉", "deprel": "rcmod", "pos": "VV", "head": 26}, {"id": 17, "form": "、", "deprel": "punct", "pos": "PU", "head": 16}, {"id": 18, "form": "分类", "deprel": "dep", "pos": "VV", "head": 16}, {"id": 19, "form": "并", "deprel": "cc", "pos": "CC", "head": 16}, {"id": 20, "form": "预报", "deprel": "dep", "pos": "VV", "head": 16}, {"id": 21, "form": "故障", "deprel": "dobj", "pos": "NN", "head": 20}, {"id": 22, "form": "的", "deprel": "cpm", "pos": "DEC", "head": 16}, {"id": 23, "form": "飞机", "deprel": "nn", "pos": "NN", "head": 26}, {"id": 24, "form": "健康", "deprel": "nn", "pos": "NN", "head": 26}, {"id": 25, "form": "管理", "deprel": "nn", "pos": "NN", "head": 26}, {"id": 26, "form": "系统", "deprel": "dobj", "pos": "NN", "head": 11}], [{"id": 1, "form": "分析", "deprel": "dep", "pos": "VV", "head": 2}, {"id": 2, "form": "着手于", "deprel": "root", "pos": "VV", "head": 0}, {"id": 3, "form": "实时", "deprel": "amod", "pos": "JJ", "head": 4}, {"id": 4, "form": "数据", "deprel": "dobj", "pos": "NN", "head": 2}, {"id": 5, "form": ",", "deprel": "punct", "pos": "PU", "head": 2}, {"id": 6, "form": "结合", "deprel": "dep", "pos": "VV", "head": 2}, {"id": 7, "form": "飞机", "deprel": "nn", "pos": "NN", "head": 8}, {"id": 8, "form": "维护", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 9, "form": "技术", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 10, "form": "文档", "deprel": "conj", "pos": "NN", "head": 14}, {"id": 11, "form": "和", "deprel": "cc", "pos": "CC", "head": 14}, {"id": 12, "form": "历史", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 13, "form": "维护", "deprel": "nn", "pos": "NN", "head": 14}, {"id": 14, "form": "经验", "deprel": "dobj", "pos": "NN", "head": 6}, {"id": 15, "form": ",", "deprel": "punct", "pos": "PU", "head": 2}, {"id": 16, "form": "设计", "deprel": "dep", "pos": "VV", "head": 2}, {"id": 17, "form": "并", "deprel": "cc", "pos": "CC", "head": 16}, {"id": 18, "form": "初步", "deprel": "advmod", "pos": "AD", "head": 19}, {"id": 19, "form": "实现", "deprel": "dep", "pos": "VV", "head": 2}, {"id": 20, "form": "了", "deprel": "asp", "pos": "AS", "head": 19}, {"id": 21, "form": "该", "deprel": "det", "pos": "DT", "head": 22}, {"id": 22, "form": "飞机", "deprel": "nn", "pos": "NN", "head": 25}, {"id": 23, "form": "健康", "deprel": "nn", "pos": "NN", "head": 25}, {"id": 24, "form": "管理", "deprel": "nn", "pos": "NN", "head": 25}, {"id": 25, "form": "系统", "deprel": "assmod", "pos": "NN", "head": 30}, {"id": 26, "form": "的", "deprel": "assm", "pos": "DEG", "head": 25}, {"id": 27, "form": "一", "deprel": "nummod", "pos": "CD", "head": 28}, {"id": 28, "form": "个", "deprel": "clf", "pos": "M", "head": 30}, {"id": 29, "form": "主要", "deprel": "amod", "pos": "JJ", "head": 30}, {"id": 30, "form": "部分", "deprel": "dobj", "pos": "NN", "head": 19}]];
+function highlight(){
+    pairPaths.forEach(p=>{
+        if(!p.positions) return;
+        p.positions.forEach(pos=>{
+            const el=document.querySelector(`.sentence[data-sent='${pos.sentence_index}'] .tok[data-id='${pos.id}']`);
+            if(el) el.classList.add(p.path_type==='cross_sentence'?'cross':'intra');
+            const n=document.querySelector(`.dep-node[data-sent='${pos.sentence_index}'][data-id='${pos.id}']`);
+            if(n) n.classList.add(p.path_type==='cross_sentence'?'cross':'intra');
+        });
+        if(p.positions && p.positions.length>0){
+            const first=p.positions[0];
+            const last=p.positions[p.positions.length-1];
+            const fEl=document.querySelector(`.sentence[data-sent='${first.sentence_index}'] .tok[data-id='${first.id}']`);
+            const lEl=document.querySelector(`.sentence[data-sent='${last.sentence_index}'] .tok[data-id='${last.id}']`);
+            if(fEl) fEl.classList.add('subj');
+            if(lEl) lEl.classList.add('obj');
+            const fNode=document.querySelector(`.dep-node[data-sent='${first.sentence_index}'][data-id='${first.id}']`);
+            const lNode=document.querySelector(`.dep-node[data-sent='${last.sentence_index}'][data-id='${last.id}']`);
+            if(fNode) fNode.classList.add('subj');
+            if(lNode) lNode.classList.add('obj');
+        }
+    });
+}
+function buildTree(i){
+    const c=document.getElementById('dep-tree-'+i); if(!c) return;
+    const toks=sentencesTokens[i]||[]; if(!toks.length){c.innerHTML='<em>无 tokens</em>';return;}
+    if(toks.every(t=>t.head===undefined||t.head===null)){c.innerHTML='<em>缺少 head 字段，无法绘制依存树</em>';return;}
+    const byId=new Map(toks.map(t=>[String(t.id),t]));
+    const children=new Map(); toks.forEach(t=>children.set(String(t.id),[]));
+    toks.forEach(t=>{const h=t.head; if(h&&byId.has(String(h))&&String(h)!==String(t.id)) children.get(String(h)).push(t);});
+    const roots=toks.filter(t=>!t.head||t.head===0||String(t.head)===String(t.id));
+    if(!roots.length){toks.forEach(t=>{if(!byId.has(String(t.head))) roots.push(t);});}
+    const layerGap=70,nodeGap=70,nodeSize={w:66,h:26};
+    let nextX=0; const coords=new Map();
+    function layout(n,d){const kids=children.get(String(n.id))||[]; if(!kids.length){const x=nextX; nextX+=nodeGap; coords.set(String(n.id),{x,y:d*layerGap}); return x;} let first=null,last=null; kids.forEach(k=>{const cx=layout(k,d+1); if(first===null) first=cx; last=cx;}); const x=(first+last)/2; coords.set(String(n.id),{x,y:d*layerGap}); return x;}
+    roots.forEach(r=>layout(r,0));
+    const width=Math.max(200,nextX+20); const depthMax=Math.max(...Array.from(coords.values()).map(c=>c.y)); const height=depthMax+layerGap+20;
+    const svgns='http://www.w3.org/2000/svg'; const svg=document.createElementNS(svgns,'svg'); svg.setAttribute('width',width); svg.setAttribute('height',height);
+    toks.forEach(t=>{const h=t.head; if(!h||!byId.has(String(h))||String(h)===String(t.id)) return; const from=coords.get(String(h)); const to=coords.get(String(t.id)); if(!from||!to) return; const path=document.createElementNS(svgns,'path'); const mx=(from.x+to.x)/2; const d=`M${from.x+nodeSize.w/2},${from.y+nodeSize.h} C ${mx},${from.y+nodeSize.h+30} ${mx},${to.y-30} ${to.x+nodeSize.w/2},${to.y}`; path.setAttribute('d',d); path.setAttribute('class','dep-edge'); svg.appendChild(path); const lbl=document.createElementNS(svgns,'text'); lbl.setAttribute('x',mx); lbl.setAttribute('y',(from.y+to.y)/2); lbl.setAttribute('text-anchor','middle'); lbl.setAttribute('font-size','10'); lbl.setAttribute('fill','#555'); lbl.textContent=t.deprel||''; svg.appendChild(lbl); });
+    toks.forEach(t=>{const g=document.createElementNS(svgns,'g'); g.setAttribute('class','dep-node'); g.setAttribute('data-id',t.id); g.setAttribute('data-sent',i); const c2=coords.get(String(t.id)); if(!c2) return; const rect=document.createElementNS(svgns,'rect'); rect.setAttribute('x',c2.x); rect.setAttribute('y',c2.y); rect.setAttribute('width',nodeSize.w); rect.setAttribute('height',nodeSize.h); const text=document.createElementNS(svgns,'text'); text.setAttribute('x',c2.x+nodeSize.w/2); text.setAttribute('y',c2.y+nodeSize.h/2+1); text.textContent=`[${t.id}] ${t.form}`; g.appendChild(rect); g.appendChild(text); svg.appendChild(g); });
+    c.innerHTML=''; c.appendChild(svg); setTimeout(()=>highlight(),0);
+}
+function toggleTree(i){const w=document.getElementById('tree-wrapper-'+i); if(!w) return; const built=w.getAttribute('data-built')==='1'; if(w.style.display==='none'){w.style.display='block'; if(!built){buildTree(i); w.setAttribute('data-built','1');}} else {w.style.display='none';}}
+highlight();
+</script>
+<p style='margin-top:30px'><a href='index.html'>&larr; 返回索引</a></p>
+</body></html>

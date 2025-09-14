@@ -1,0 +1,81 @@
+﻿语义模式 (Semantic Pattern),总频次 (Total Freq),句法实现路径 (Syntactic Realizations)
+Method → 结合 → Method,4,"  - 句法路径: nsubj->rcmod->dobj->dep->conj->root->conj->conj->dobj->assmod->conj->nn->nn (频次: 1, 样例: [数模联动] → [机器学习方法])
+  - 句法路径: nsubj->rcmod->dobj->dep->conj->root->conj->conj->dobj->assmod->amod->nn->nn (频次: 1, 样例: [数模联动] → [统计数据驱动方法])
+  - 句法路径: nsubj->rcmod->dobj->dep->conj->root->conj->dobj->nn->conj->nsubj->amod->nn (频次: 1, 样例: [数模联动] → [随机退化建模])
+  - 句法路径: dobj->root->root->dobj->nn->conj->nn (频次: 1, 样例: [故障诊断技术] → [动力学分析])"
+System/Component → 具有核心功能 → Application,4,"  - 句法路径: nn->nn->top->root->root->dobj->assmod->pobj->cc (频次: 2, 样例: [健康管理系统] → [故障诊断])
+  - 句法路径: nn->nn->top->root->root->ccomp->dobj->nn->nn->conj->nn (频次: 1, 样例: [健康管理系统] → [状态监测])
+  - 句法路径: nn->top->nn (频次: 1, 样例: [健康管理系统] → [寿命管理])"
+Method → 包含 → Method,4,"  - 句法路径: dobj (频次: 1, 样例: [健康管理技术] → [故障诊断技术])
+  - 句法路径: nsubj->nn->nsubj->rcmod->dobj->rcmod->conj->nsubj (频次: 1, 样例: [系统正向设计流程] → [需求分析])
+  - 句法路径: nsubj->rcmod->nn->nsubj->dobj->pccomp->root->root->plmod->lobj->rcmod->dobj->nn (频次: 1, 样例: [系统正向设计流程] → [功能分配])
+  - 句法路径: nsubj->rcmod->nn->nsubj->dobj->pccomp->root->root->dobj->nn->nn (频次: 1, 样例: [系统正向设计流程] → [模块定义])"
+Method → 提升 → Performance Metric,3,"  - 句法路径: assmod->dobj->root->root->pccomp->dobj->nn->amod->conj (频次: 1, 样例: [航电系统综合集成] → [大型客机安全性])
+  - 句法路径: assmod->dobj->root->root->pccomp->dobj->nn->nn (频次: 1, 样例: [航电系统综合集成] → [空域运行效能])
+  - 句法路径: nn->nn->pobj (频次: 1, 样例: [通导监视] → [通导监视性能])"
+System/Component → 包含 → System/Component,3,"  - 句法路径: assmod->dobj->root->root->prep->pobj->vmod->dep->cc (频次: 1, 样例: [大型客机航电系统] → [飞行管理])
+  - 句法路径: assmod->dobj->root->root->prep->pobj->vmod->prep->pobj->nn->nn (频次: 1, 样例: [大型客机航电系统] → [通导监视])
+  - 句法路径: nn->pobj->root->root->prep->plmod->lobj->nn->nn (频次: 1, 样例: [航空发动机健康管理系统] → [航空发动机])"
+Method → 解决 → Problem,3,"  - 句法路径: nsubj->rcmod->dobj->dep->conj->root->conj->dobj->nn->nn->amod->nn (频次: 1, 样例: [数模联动] → [剩余寿命预测])
+  - 句法路径: nn->dobj->root->root->pobj->nn->amod->nn (频次: 1, 样例: [MagicGrid方法论] → [架构动态优化难题])
+  - 句法路径: nn->dobj->root->root->pobj->nn->amod->nn->nn->conj (频次: 1, 样例: [MagicGrid方法论] → [复杂系统需求边界模糊])"
+Method → 采用 → Method,3,"  - 句法路径: assm->conj->assmod->dobj->root->root->prep->pccomp->dobj->nn->conj (频次: 1, 样例: [功能分配方法] → [逻辑决断图])
+  - 句法路径: assm->conj->assmod->dobj->root->root->dep->cc (频次: 1, 样例: [功能分配方法] → [层次分析法(AHP)])
+  - 句法路径: nn->nn->nsubj->rcmod->nn->nsubj (频次: 1, 样例: [健康管理系统设计方法] → [系统正向设计流程])"
+Method → 实现 → Finding,2,"  - 句法路径: conj->assm (频次: 1, 样例: [功能分配方法] → [功能优化配置])
+  - 句法路径: dobj (频次: 1, 样例: [提出的分配方法] → [定量分配])"
+Method → 应用于 → System/Component,2,"  - 句法路径: nn->dobj->root->root->pobj->nn (频次: 1, 样例: [MagicGrid方法论] → [航空发动机健康管理系统])
+  - 句法路径: dobj->root->nsubj->nn (频次: 1, 样例: [故障诊断技术] → [航空发动机])"
+Method → 应用于 → Application,2,"  - 句法路径: nn->dobj->root->root->pobj->nn->amod (频次: 1, 样例: [MagicGrid方法论] → [复杂装备系统设计])
+  - 句法路径: nn->dobj->root->root->pobj->nn (频次: 1, 样例: [生命周期建模范式] → [系统工程实践])"
+Method → 基于 → Method,2,"  - 句法路径: dobj->root->root->dobj->nn->conj->nn (频次: 1, 样例: [故障诊断技术] → [信号处理])
+  - 句法路径: nn->nn->nsubj (频次: 1, 样例: [健康管理系统设计方法] → [系统工程思想])"
+System/Component → 需要 → Method,1,"  - 句法路径: assmod (频次: 1, 样例: [大型客机航电系统] → [航电系统综合集成])"
+Method → 是 → Research Problem,1,"  - 句法路径: assmod->dobj->root->root->dobj->assmod->assm->nn (频次: 1, 样例: [航电系统综合集成] → [关键技术])"
+Model → 是 → System/Component,1,"  - 句法路径: amod->vmod->pobj->prep->root->root->dobj->assmod (频次: 1, 样例: [综合模块化航电] → [航电系统架构])"
+Method → 遵循 → Method,1,"  - 句法路径: conj (频次: 1, 样例: [安全性设计] → [安全性设计流程])"
+Application → 推动 → Research Problem,1,"  - 句法路径: amod->nn->dobj->pccomp->root->root->dobj->assmod (频次: 1, 样例: [国产大型客机] → [客机综合化航电系统研制])"
+System/Component → 处理 → Sensor/Parameter,1,"  - 句法路径: assmod->dobj->root->root->prep->pobj->vmod->nsubj (频次: 1, 样例: [现代综合化航电系统] → [机载信息])"
+System/Component → 决定 → Performance Metric,1,"  - 句法路径: assmod->dobj->root->root->dobj->assmod->nn->conj->nn (频次: 1, 样例: [航电系统架构] → [功能特征])"
+Problem → 针对 → System/Component,1,"  - 句法路径: amod->nn->nn->nn->dobj->conj->root->dobj->assmod->nn->nn->amod->amod (频次: 1, 样例: [剩余寿命预测] → [随机退化设备])"
+Problem → 面临 → Problem,1,"  - 句法路径: amod->nn->nn->nn->amod (频次: 1, 样例: [剩余寿命预测] → [不确定性量化])"
+Method → 属于 → Method,1,"  - 句法路径: amod->conj->nn->dobj->conj->root->conj->conj->dobj->assmod->conj->nn->nn (频次: 1, 样例: [深度学习] → [机器学习方法])"
+Method → 验证于 → Dataset,1,"  - 句法路径: nsubj->rcmod->dobj->dep->conj->prep->pobj->nn->nn->amod->nn (频次: 1, 样例: [数模联动] → [航空发动机多源监测数据])"
+Problem → 应用于 → System/Component,1,"  - 句法路径: amod->nn->nn->nn->dobj->conj->root->conj->prep->pobj->nn->nn (频次: 1, 样例: [剩余寿命预测] → [航空发动机])"
+Problem → 基于 → Application,1,"  - 句法路径: amod->nn->nn->nn->dobj->conj->root->dobj->assmod->dep->lobj->nn->amod (频次: 1, 样例: [剩余寿命预测] → [大数据])"
+Method → 融合 → Model,1,"  - 句法路径: nsubj->rcmod->dobj->dep->conj->root->conj->dobj->conj->assmod->conj->nn (频次: 1, 样例: [数模联动] → [机理模型])"
+Method → 针对 → System/Component,1,"  - 句法路径: nn->top->root->root->top->nn->nn->nn->nn (频次: 1, 样例: [功能架构优化方法] → [航空发动机健康管理系统])"
+Method → 应用于 → Problem,1,"  - 句法路径: conj->assm (频次: 1, 样例: [功能分配方法] → [部件与故障的功能分配])"
+Problem → 需满足 → Performance Metric,1,"  - 句法路径: nn->nn->top->root->root->pobj (频次: 1, 样例: [健康管理系统架构设计] → [用户需求])"
+Problem → 需考虑 → Performance Metric,1,"  - 句法路径: nn->nn->top->root->attr->rcmod->dobj->nn (频次: 1, 样例: [健康管理系统架构设计] → [经济可承受性])"
+System/Component → 具有共同特征 → System/Component,1,"  - 句法路径: nn->nn->top->nn (频次: 1, 样例: [飞机健康管理系统] → [发动机健康管理系统])"
+Model → 可应用于 → Problem,1,"  - 句法路径: nn->nn->top->nn (频次: 1, 样例: [通用健康管理系统架构] → [发动机健康管理系统设计])"
+Method → 使用 → Tool,1,"  - 句法路径: nn->dobj->root->root->nsubj->nn (频次: 1, 样例: [MagicGrid方法论] → [MagicDraw])"
+Method → 基于 → Tool,1,"  - 句法路径: nn->dobj->root->root->pobj->nn (频次: 1, 样例: [MagicGrid方法论] → [系统建模语言])"
+Model → 用于构建 → Model,1,"  - 句法路径: advmod->nn->dobj->nn->punct (频次: 1, 样例: [协同建模框架] → [物理模型])"
+Model → 通过 → Model,1,"  - 句法路径: punct->nn->dobj->root->root->conj->prep->pobj->nn (频次: 1, 样例: [物理模型] → [块定义图与内部块图])"
+Finding → 提升 → Performance Metric,1,"  - 句法路径: nn->nsubj->root->root->prep->plmod->lccomp->conj->dobj->nn (频次: 1, 样例: [研究成果] → [预测效率])"
+Finding → 降低 → Performance Metric,1,"  - 句法路径: nn->nsubj->root->root->dobj->nn->punct->dep (频次: 1, 样例: [研究成果] → [功能重叠率])"
+Tool → 用于 → Method,1,"  - 句法路径: amod->dobj->conj->root->root->pobj->nn->nn (频次: 1, 样例: [可追溯性矩阵] → [需求完整性分析])"
+Method → 验证 → Method,1,"  - 句法路径: conj->dobj->conj->root->root->dobj->nn (频次: 1, 样例: [案例验证] → [MagicGrid方法论])"
+Finding → 具有 → Finding,1,"  - 句法路径: nn->nsubj->root->root->dobj->amod->nn (频次: 1, 样例: [研究成果] → [普适参考价值])"
+System/Component → 发生 → Fault Mode,1,"  - 句法路径: nn->nsubj->root->root->dep->nsubj (频次: 1, 样例: [航空发动机] → [振动类故障])"
+Fault Mode → 是一种 → Fault Mode,1,"  - 句法路径: nsubj (频次: 1, 样例: [振动类故障] → [主要故障模式])"
+Method → 诊断 → Fault Mode,1,"  - 句法路径: dobj->root->root->dep->nsubj (频次: 1, 样例: [故障诊断技术] → [振动类故障])"
+Method → 应用 → Method,1,"  - 句法路径: dobj->root->root->dobj->nn->nn (频次: 1, 样例: [故障诊断技术] → [深度学习])"
+System/Component → 处于 → Application,1,"  - 句法路径: nn->nsubj->root->root->nsubj->amod->nn (频次: 1, 样例: [航空发动机] → [恶劣服役环境])"
+Method → 旨在解决 → Problem,1,"  - 句法路径: nn->nn->nsubj->nn->nn->amod (频次: 1, 样例: [健康管理系统设计方法] → [航空发动机机载健康管理])"
+Finding → 建立了 → Model,1,"  - 句法路径: root->root->pccomp->dobj->rcmod->nsubj->nn->nn (频次: 1, 样例: [研究] → [健康管理功能架构体系])"
+Method → 用于建立 → Model,1,"  - 句法路径: nn (频次: 1, 样例: [基于模型的设计方法] → [硬件设计模型])"
+Finding → 开发了 → Tool,1,"  - 句法路径: root->root->pccomp->dobj->rcmod->nn->nsubj (频次: 1, 样例: [研究] → [航空发动机健康管理正向设计流程平台])"
+Tool → 实现 → Method,1,"  - 句法路径: rcmod->dobj->rcmod->nsubj->nn (频次: 1, 样例: [航空发动机健康管理正向设计流程平台] → [图形化设计])"
+System/Component → 应用于 → System/Component,1,"  - 句法路径: nn->amod->nn->nn->nsubj->nn (频次: 1, 样例: [航空发动机机载健康管理系统] → [航空发动机])"
+Method → 实现 → Performance Metric,1,"  - 句法路径: nn->nn->nsubj->rcmod->dobj->pccomp->root->root->plmod->lobj->rcmod->dobj->nn (频次: 1, 样例: [健康管理系统设计方法] → [功能目标量化])"
+Model → 基于 → Sensor/Parameter,1,"  - 句法路径: nn->nn (频次: 1, 样例: [滑油系统仿真模型] → [滑油系统元件物理特性])"
+Model → 包含 → Model,1,"  - 句法路径: nn->nn->nn (频次: 1, 样例: [滑油系统仿真模型] → [通风、供油、热力、回油等子系统模型])"
+Method → 用于优化 → Model,1,"  - 句法路径: etc->amod->nn->dobj->dep->root->root->prep->pccomp->dobj->nn->nn->nn (频次: 1, 样例: [粒子群与遗传算法] → [滑油系统仿真模型])"
+Model → 应用于 → Application,1,"  - 句法路径: nn->nn (频次: 1, 样例: [滑油系统仿真模型] → [滑油系统健康管理])"
+Application → 旨在实现 → Application,1,"  - 句法路径: nn->nn->conj (频次: 1, 样例: [滑油系统健康管理] → [滑油系统监测、诊断与预测])"
+Model → 旨在改进 → Problem,1,"  - 句法路径: nn->nn->nn->dobj->pccomp->prep->nn->pobj (频次: 1, 样例: [滑油系统仿真模型] → [基于试验方法的监测与诊断])"
+Model → 的评估指标是 → Performance Metric,1,"  - 句法路径: nn->nn->nn (频次: 1, 样例: [滑油系统仿真模型] → [系统工作参数平均误差])"
+Model → 在...下验证 → Dataset,1,"  - 句法路径: nn->nn->nn->dobj->pccomp->prep->root->root->conj->loc->lobj->amod (频次: 1, 样例: [滑油系统仿真模型] → [典型工况])"
