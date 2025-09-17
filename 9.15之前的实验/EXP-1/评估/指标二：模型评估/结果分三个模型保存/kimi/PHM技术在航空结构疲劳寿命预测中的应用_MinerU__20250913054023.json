@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "飞机机体结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "失效物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "局部应力应变法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系数",
+      "text": "应力严重系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系数",
+      "text": "疲劳缺口系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "材料",
+      "text": "2024铝合金",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "MTS Landmark试验机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "应变疲劳参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "材料",
+      "text": "7050铝合金",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于物理模型的故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于统计的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "一维简化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公式",
+      "text": "Neuber公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公式",
+      "text": "Manson-Coffin公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "MTS Landmark电液伺服疲劳试验机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "疲劳载荷和试件几何数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "疲劳载荷和连接件几何数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "试验寿命和计算寿命",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "飞机机体结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "疲劳寿命预测方法",
+      "tail": "失效物理模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "失效物理模型",
+      "tail": "应力严重系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "失效物理模型",
+      "tail": "疲劳缺口系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "中心圆孔板件",
+      "tail": "2024铝合金",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "连接件",
+      "tail": "7050铝合金",
+      "evaluation": "错误"
+    },
+    {
+      "type": "集成于",
+      "head": "故障预测方法",
+      "tail": "PHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "基于物理模型的故障预测方法",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "基于统计的预测方法",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "基于数据驱动的预测方法",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "连接件细节分析",
+      "tail": "一维简化模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "描述",
+      "head": "Neuber公式",
+      "tail": "名义应力转化为局部应力应变",
+      "evaluation": "错误"
+    },
+    {
+      "type": "描述",
+      "head": "Manson-Coffin公式",
+      "tail": "应变-寿命曲线",
+      "evaluation": "错误"
+    },
+    {
+      "type": "进行",
+      "head": "疲劳试验",
+      "tail": "MTS Landmark电液伺服疲劳试验机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "算例Ch1至Ch3",
+      "tail": "疲劳载荷和试件几何数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "算例F1至F3",
+      "tail": "疲劳载荷和连接件几何数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "试验寿命和计算寿命",
+      "tail": "预测精度",
+      "evaluation": "错误"
+    }
+  ]
+}

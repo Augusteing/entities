@@ -1,0 +1,63 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[5] 孙博, 康锐, 谢劲松. 故障预测与健康管理系统研究和应用现状综述[J]. 系统工程与电子技术, 2007, 29(10): 1762- 1767. Sun Bo, Kang Rui, Xie Jinsong. Research and application of the prognostic and health management system [J]. System Engineering and Electronics, 2007, 29(10): 1762- 1767. (in Chinese)[6] Azam M, Ghoshal S, Bell J, et al. Prognostics and health management (PHM) of electromechanical actuation (EMA) systems for next- generation aircraft[J]. American Institute of Aeronautics and Astronautics, 2013(56): 478- 487. [7] 马飒飒, 陈国顺, 方兴桥, 等. 复杂装备故障预测与健康管理系统初探[J]. 计算机测量与控制, 2010, 18(1): 1- 4. Ma Sasa, Chen Guoshun, Fang Xingqiao, et al. Research on prognostic and health management system of complex equipment [J]. Computer Measurement & Control, 2010, 18(1): 1- 4. (in Chinese)[8] 唐有才, 孙立金, 陈新波. 飞机液压泵故障分析及预防[J]. 液压与气动, 2002, 3: 24- 26. Tang Youcai, Sun Lijin, Chen Xuhui. The analysis and prevent the faults of aircraft hydraulic pump[J]. Hydraulics & Pneumatics, 2002, 3: 24- 26. (in Chinese)[9] 赵四军, 王少萍, 尚耀星. 飞机液压泵源预测与健康管理系统[J]. 北京航空航天大学学报, 2010, 36(1): 14- 17. Zhao Sijun, Wang Shaoping, Shiang Yaoxing. Prognostics and health management system of hydraulic power supply[J]. Journal of Beijing University of Aeronautics and Astronautics, 2010, 36(1): 14- 17. (in Chinese)[10] 王海涛. 飞机液压元件与系统[M]. 北京: 国防工业出版社, 2012: 36- 62. [11] 李军. 飞机液压系统压力脉冲试验的机理分析与控制[D]. 西安: 西北工业大学, 2007. [12] 孙文胜, 毕玉泉, 祁功道, 等. 油液污染对某型飞机液压泵性能影响的分析[J]. 机床与液压, 2012, 40(7): 204- 206. Sun Wensheng, Bi Yuquan, Qi Gongdao, et al. The analysis of oil pollution for a type aircraft hydraulic pump performance influence[J]. Machine Tool & Hydraulics, 2012, 40(7): 204- 206. (in Chinese)[13] 陈玮. 基于灰色聚类与模糊综合评判的空气质量评价[D]. 上海: 华东师范大学, 2012. [14] 武朝, 胡军华, 黎申, 等. 基于二级模糊综合评判的液压系统故障诊断方法[J]. 液压与气动, 2013, 5: 130- 133.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机液压泵"
+    },
+    {
+      "type": "系统/部件",
+      "text": "液压系统"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的关键部件",
+      "head": "飞机液压泵",
+      "tail": "液压系统"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[1] 夏立群，田一松，王可.浅谈作动器健康管理技术[D].系统仿真学报，2009，20（增2）：295- 299. [2] AHMADI A,FHANSSON T.Integration of RCM andPHM for the Next Generation of Aircraft [C] //Proceedingsof International IEEE Aerospace Conference. Big Sky,USA:[s.n.],2009:1- 9. [3] 李向前.复杂装备故障预测与健康管理关键技术研究[D].北京：北京理工大学，2014. [4] 李振翼.PHM对提升新一代飞机综合保障能力的研究[D].成都：电子科技大学，2009. [5] 杨洲，景博，张动，等.飞机故障预测与健康管理应用模式研究[J].计算机测量与控制，2011，19（9）：2061- 2063. [6] 罗军舟，金嘉晖，宋爱波，等.云计算：体系架构与关键技术[D].通信学报，2011，32（7）：3- 21. [7] 肖明清，杨召，薛辉辉，等.云计算及其在测试领域的应用探索[D].空军工程大学学报（自然科学版），2015,16(1):50- 55. [8] 扣彦敏，王俊峰，薛霄，等.集群协同制造服务组合策略比较研究[J].计算机工程，2016，42（12）：208- 216. [9] 刘志雄，梁华.粒子群算法中随机数参数的设置与实验分析[D].控制理论与应用，2010，27（11）：1489- 1496. [10] CHEN C L,DONG D Y,CHEN Z H.Grey Systems forIntelligent Sensors and Information Processing [J].Journal of Systems Engineering and Electronics,2008,19(4):659- 665. [11] 王娜，卫波，王晋东，等.基于混沌多目标粒子群算法的云服务选择方法[D].计算机工程，2014，40（3）：23- 27. [12] ZHAO Xinchao, SONG Boqian, HUANG Panyu, et al. AnImproved Discrete Immune Optimization Algorithm Basedon PSO for QoS- driven Web Service Composition [J].Applied Soft Computing,2012,12（8）:2208- 2216. [13] 周相兵.一种基于粒子群优化的虚拟资源分配方法[D].重庆邮电大学学报（自然科学版），2014，26（5）：686- 693. [14] RAO L,LIU X,LE XIE,et al. Minimizing ElectricityCost:Optimization of Distributed Internet Data Centersin a Multi- electricity- market Environment [C] //Proceedings of IEEE INFOCOM'10. Washington D.C.,USA:IEEE Press,2010:1145- 1153. [15] LECUE F, MEHANDJIEV N. Seeking Quality of WebService Composition in a Semantic Dimension [J].IEEETransactions on Knowledge and Data Engineering,2011,23(6):942- 958. [16] 李超.基于改进粒子群算法的云计算资源调度研究[D].徐州：中国矿业大学，2015.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "云计算"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群算法"
+    },
+    {
+      "type": "软件资源",
+      "text": "算法"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[1] Zhang S N, Kang R, He X F, et al China's efforts in prognostics and health management[J]. IEEE Transactions on Components and Packaging Technologies 2008, 31(2): 509- 518. [2] 韩国泰.航空电子的故障预测与健康管理技术[J].航空电子技术，2009, 40(1): 30- 38.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测"
+    }
+  ]
+}
+```

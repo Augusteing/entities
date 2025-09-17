@@ -1,0 +1,308 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "扩展FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊合成运算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最大隶属度原则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "加权平均法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "多、全电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "BITE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "特征信息提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障容错",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "开关磁阻电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "远程终端",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "负载管理中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "SRU模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "数据采集模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "数据处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "诊断预测模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "动态数据存储模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "分析决策模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "系统总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "机载通信设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "空地数据链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "维修接口板",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "联合分布式信息系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "组件",
+      "text": "地面支援系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "指标",
+      "text": "可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "稳定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "维修效率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "针对",
+      "head": "分布一集中式PHM系统",
+      "tail": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "分布一集中式PHM系统",
+      "tail": "扩展FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "分布一集中式PHM系统",
+      "tail": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融入",
+      "head": "分布一集中式PHM系统",
+      "tail": "飞机总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "扩展FMEA分析",
+      "tail": "故障分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "扩展FMEA分析",
+      "tail": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "诊断预测模块",
+      "tail": "PHM系统的核心部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断预测模块",
+      "tail": "模糊合成运算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断预测模块",
+      "tail": "最大隶属度原则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断预测模块",
+      "tail": "加权平均法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采集",
+      "head": "数据采集模块",
+      "tail": "传感器信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理",
+      "head": "数据处理模块",
+      "tail": "数据融合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提取",
+      "head": "数据处理模块",
+      "tail": "特征信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测",
+      "head": "状态监测模块",
+      "tail": "健康状况",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测",
+      "head": "诊断预测模块",
+      "tail": "剩余寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "连接",
+      "head": "系统总线",
+      "tail": "飞机功能管理区域PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "联合分布式信息系统",
+      "tail": "维修效率",
+      "evaluation": "正确"
+    }
+  ]
+}

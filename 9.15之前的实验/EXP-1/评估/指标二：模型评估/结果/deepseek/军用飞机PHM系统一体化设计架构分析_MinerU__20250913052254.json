@@ -1,0 +1,319 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计准则",
+      "text": "三维多相迭代设计准则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计架构",
+      "text": "三化一体设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "软硬件协同",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "知识图谱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MBSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "5.63倍的加速计算效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "82.7%的计算功耗缩减",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据维度",
+      "text": "设计数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据维度",
+      "text": "实验数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据维度",
+      "text": "使用数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据维度",
+      "text": "维护数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构维度",
+      "text": "组件级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构维度",
+      "text": "分系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构维度",
+      "text": "系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构维度",
+      "text": "平台级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "推理决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能维度",
+      "text": "接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SVM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "FPGA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "DSP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "ASIC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "OSA-CBM标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提升了PHM系统知识与设计需求管理的可追溯性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "三维多相迭代设计准则",
+      "tail": "PHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "三化一体设计架构",
+      "tail": "PHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "三化一体设计架构",
+      "tail": "软硬件协同",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "三化一体设计架构",
+      "tail": "知识图谱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "三化一体设计架构",
+      "tail": "MBSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现了",
+      "head": "三化一体设计架构",
+      "tail": "5.63倍的加速计算效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现了",
+      "head": "三化一体设计架构",
+      "tail": "82.7%的计算功耗缩减",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提升了",
+      "head": "三化一体设计架构",
+      "tail": "提升了PHM系统知识与设计需求管理的可追溯性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "数据维度",
+      "tail": "设计数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数据维度",
+      "tail": "实验数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数据维度",
+      "tail": "使用数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数据维度",
+      "tail": "维护数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "结构维度",
+      "tail": "组件级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "结构维度",
+      "tail": "分系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "结构维度",
+      "tail": "系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "结构维度",
+      "tail": "平台级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "推理决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "功能维度",
+      "tail": "接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "SVM算法",
+      "tail": "故障诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "软硬件协同",
+      "tail": "FPGA",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "包括",
+      "head": "软硬件协同",
+      "tail": "DSP",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "包括",
+      "head": "软硬件协同",
+      "tail": "ASIC",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "参考",
+      "head": "功能维度",
+      "tail": "OSA-CBM标准",
+      "evaluation": "正确"
+    }
+  ]
+}

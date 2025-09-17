@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "Weibull分步建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "拉普拉斯算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "3参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2段Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "幂律过程模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "分段幂指模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "累积概率失效曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "热交换器的平均失效时间为207.21飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "空调冷却子系统每年该有21次非例行维修任务",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "Weibull分步建模",
+      "tail": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "拉普拉斯算法",
+      "tail": "故障趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "2参数Weibull分步",
+      "tail": "累积分布函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "2参数Weibull分步",
+      "tail": "失效率函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "3参数Weibull分步",
+      "tail": "累积分布函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "3参数Weibull分步",
+      "tail": "失效率函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "3参数Weibull分步",
+      "tail": "平均失效时间MTTF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "幂律过程模型",
+      "tail": "现场失效数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "分段幂指模型",
+      "tail": "叠加系统失效数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型准确性",
+      "tail": "累积概率失效曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "热交换器的平均失效时间为207.21飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "空调冷却子系统每年该有21次非例行维修任务",
+      "evaluation": "正确"
+    }
+  ]
+}

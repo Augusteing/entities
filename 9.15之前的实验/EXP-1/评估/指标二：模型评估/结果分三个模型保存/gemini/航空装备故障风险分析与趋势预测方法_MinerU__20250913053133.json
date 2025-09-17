@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "可拓学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "风险指数矩阵法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障后果定量分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障可能性评定方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色波形预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色波形",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "灰色模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "“人- 机- 环”理论",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "Gamma分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "关联函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "更适合于短期预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "后果严重度等级为 II 级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障可能性等级为A级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "风险指数为23",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "短期预测准确率达到85%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "中期预测部分准确率达到71%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障后果定量分析方法",
+      "tail": "可拓学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障后果定量分析方法",
+      "tail": "关联函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障可能性评定方法",
+      "tail": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障可能性评定方法",
+      "tail": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障可能性评定方法",
+      "tail": "Gamma分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "灰色波形预测方法",
+      "tail": "灰色波形",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "灰色波形预测方法",
+      "tail": "GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "灰色波形预测方法",
+      "tail": "预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "故障后果定量分析方法",
+      "tail": "后果严重度等级为 II 级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "故障可能性评定方法",
+      "tail": "故障可能性等级为A级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "风险指数矩阵法",
+      "tail": "风险指数为23",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "灰色波形预测方法",
+      "tail": "更适合于短期预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "灰色波形预测方法",
+      "tail": "短期预测准确率达到85%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "灰色波形预测方法",
+      "tail": "中期预测部分准确率达到71%",
+      "evaluation": "正确"
+    }
+  ]
+}

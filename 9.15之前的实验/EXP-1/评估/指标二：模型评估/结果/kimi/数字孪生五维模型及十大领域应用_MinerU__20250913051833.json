@@ -1,0 +1,354 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "数字孪生五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "智能制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "物联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "大数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "虚拟现实（VR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "增强现实（AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "虚拟实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "孪生数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "连接",
+      "text": "连接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生卫星",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生卫星网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生空间信息网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电厂智能管控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机起落架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生医疗",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生城市",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "数字孪生五维模型",
+      "tail": "数字孪生技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "支持",
+      "head": "数字孪生技术",
+      "tail": "智能制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "数字孪生技术",
+      "tail": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "数字孪生技术",
+      "tail": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "数字孪生技术",
+      "tail": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "扩展",
+      "head": "三维模型",
+      "tail": "五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "数字孪生五维模型",
+      "tail": "物联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "数字孪生五维模型",
+      "tail": "大数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "数字孪生五维模型",
+      "tail": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "数字孪生五维模型",
+      "tail": "虚拟现实（VR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "数字孪生五维模型",
+      "tail": "增强现实（AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "数字孪生五维模型",
+      "tail": "物理实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "数字孪生五维模型",
+      "tail": "虚拟实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "数字孪生五维模型",
+      "tail": "孪生数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "数字孪生五维模型",
+      "tail": "服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "数字孪生五维模型",
+      "tail": "连接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生卫星",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生卫星网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生空间信息网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "电厂智能管控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "飞机起落架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "PHM技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生医疗",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生技术",
+      "tail": "数字孪生城市",
+      "evaluation": "正确"
+    }
+  ]
+}

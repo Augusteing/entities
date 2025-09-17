@@ -1,0 +1,63 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] GANDOMI A, HAIDER M. Beyond the hype: big data concepts, methods, and analytics[J]. International Journal of Information Management, 2015, 35(2): 137- 144. [2] 马小骏，左洪福，刘昕．大型客机运行监控与健康管理系统设计[J]. 交通运输工程学报，2011，11(6)：119- 126. MA Xiaojun, ZUC Hongfu, LIU Xin. System design of operation monitoring and health management for large passenger aircraft[J]. Journal of Traffic and Transportation Engineering, 2011, 11(6): 119- 126. (in Chinese) [3] 李国松，都基瑛，闫然，等．基于工业互联网的飞机发动机故障智慧诊断[J]. 航空维修与工程，2022(10): 21- 23. LI Guosong, DU Jying, YAN Ran, et al. Faults intelligent diagnosis of aero- engine based on industrial Internet[J]. Aviation Maintenance & Engineering, 2022(10): 21- 23. (in Chinese) [4] 马兴坤，邢凯铭，赵树杰，等．浅谈波音737NG飞机APU滑油系统一项监控指标在故障监控中的应用[J]. 航空维修与工程，2021(3): 50- 52. MA Xingkun, XING Kaiming, ZHAO Shujie, et al. Application of a monitoring index of APU oil system of B737NG in fault monitoring[J]. Aviation Maintenance & Engineering, 2021(3): 50- 52. (in Chinese) [5] 柴林峰，马静，郑华，等．航空发动机控制系统故障诊断[M]. 北京：科学出版社，2022：58.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机"
+    },
+    {
+      "type": "系统/部件",
+      "text": "发动机"
+    }
+  ]
+}
+```
+
+示例2 段落：
+航空蓄电池是飞机电源系统的核心组成，主要在主电源异常时为机内关键系统设备供电，目前已经作为应急电源和辅助电源广泛应用于国内外各类飞机平台。航空电子产品主要是在航空外部应力下对健康相关信息进行处理，而航空蓄电池健康信息清晰，故障机理典型，因此本文选择航空蓄电池作为航空电子产品的典型代表。航空蓄电池主要包括镍镉蓄电池、铅酸蓄电池、锂离子蓄电池三类。随着锂离子蓄电池工艺技术逐渐成熟，其寿命、质量和容量优势逐渐明显，目前已经逐渐取代镍镉蓄电池、铅酸蓄电池成为蓄电池的主要器材。因此本文以锂离子航空蓄电池作为研究对象验证所提方法，实验数据采为NASA的4组锂离子蓄电池数据（前三组数据作为历史数据，第四组作为实时数据），电池额定容量为  $2\mathrm{A}\cdot \mathrm{h}$ ，实验温度为  $25\%$ ，实验数据如图4所示。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "航空蓄电池"
+    },
+    {
+      "type": "系统/部件",
+      "text": "锂离子航空蓄电池"
+    }
+  ],
+  "relations": [
+    {
+      "type": "作为...的典型代表",
+      "head": "锂离子航空蓄电池",
+      "tail": "航空电子产品"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[1] 吕克洪，程先哲，李华康，等.电子设备故障预测与健康管理技术发展新动态Ⅲ.航空学报，2019，40（11）：13- 24. [2] 文佳.基于多信号模型的综合化航电系统综合诊断算法设计Ⅲ.电讯技术，2014，54（3）：361- 367. [3] 陈华坤，章卫国，史静平，等.航空电子设备故障预测特征参数提取方法研究Ⅲ.西北工业大学学报，2017，35（3）：364- 373. [4] 申海东，解江，吴雪珂，等.考虑热效应的IGBT热网络模型建模方法Ⅲ.半导体技术，2018（12）：898- 904. [5] TANG S, YU G, WANG X, et al. Remaining useful life prediction of lithium- ion batteries based on the wiener process with measurement error [Ⅲ]. Energies, 2014, 7（2）：520- 547. [6] GEOFFREY E H. Training products of experts by minimizing contrastive divergence [Ⅲ]. Neural Computation, 2002,14（8）：1771- 1800. [7] 邢广华，朱宁文.运输类飞机锂离子电池系统专用条件研究Ⅲ.科技展望，2016，26（21）：171. [8] NASA Prognostics Center of Excellence. Battery prognostics [EB/OL]. [2020- 02] :15]. http://ti.arc.nasa.gov/tech/dash/pcoe/battery prognostics/references/2007. [9] YONG P, SUN J. Fast online approximation for hard support vector regression and its application to analytical redundancy for aeroengines [Ⅲ]. Chinese Journal of Aeronautics,2010,22（2）：145- 152.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "研究问题",
+      "text": "航空电子设备故障预测"
+    },
+    {
+      "type": "实验对象",
+      "text": "锂离子电池"
+    }
+  ]
+}
+```

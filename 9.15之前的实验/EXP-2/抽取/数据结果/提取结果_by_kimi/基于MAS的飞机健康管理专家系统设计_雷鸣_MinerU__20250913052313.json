@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机健康管理专家系统"
+    },
+    {
+      "type": "技术",
+      "text": "MAS(Multi- Agent System)"
+    },
+    {
+      "type": "技术",
+      "text": "案例推理"
+    },
+    {
+      "type": "技术",
+      "text": "不确定性推理"
+    },
+    {
+      "type": "系统/部件",
+      "text": "JADE(Java Agent Development Framework)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "Tomcat"
+    },
+    {
+      "type": "系统/部件",
+      "text": "SQLServer2000"
+    },
+    {
+      "type": "技术",
+      "text": "数据挖掘"
+    },
+    {
+      "type": "技术",
+      "text": "基于规则的推理"
+    },
+    {
+      "type": "技术",
+      "text": "基于案例的推理"
+    },
+    {
+      "type": "系统/部件",
+      "text": "案例管理 Agent"
+    },
+    {
+      "type": "系统/部件",
+      "text": "案例检索 Agent"
+    },
+    {
+      "type": "系统/部件",
+      "text": "预警与决策 Agent"
+    },
+    {
+      "type": "系统/部件",
+      "text": "控制与反馈 Agent"
+    },
+    {
+      "type": "技术",
+      "text": "JessAgent"
+    },
+    {
+      "type": "技术",
+      "text": "Jess(The Expert System Shell for the Java Platform)"
+    },
+    {
+      "type": "技术",
+      "text": "最近邻搜索策略"
+    },
+    {
+      "type": "技术",
+      "text": "层次分析法"
+    },
+    {
+      "type": "技术",
+      "text": "模糊综合评判法"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康指数(HI)"
+    },
+    {
+      "type": "技术",
+      "text": "GTNetS"
+    },
+    {
+      "type": "技术",
+      "text": "分布式蠕虫蜜罐部署策略"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "飞机健康管理专家系统",
+      "tail": "MAS"
+    },
+    {
+      "type": "引入了",
+      "head": "飞机健康管理专家系统",
+      "tail": "案例推理"
+    },
+    {
+      "type": "引入了",
+      "head": "飞机健康管理专家系统",
+      "tail": "不确定性推理"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "JADE"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "Tomcat"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "SQLServer2000"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "数据挖掘"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理专家系统",
+      "tail": "基于规则的推理"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理专家系统",
+      "tail": "基于案例的推理"
+    },
+    {
+      "type": "构成",
+      "head": "基于案例的推理",
+      "tail": "案例管理 Agent"
+    },
+    {
+      "type": "构成",
+      "head": "基于案例的推理",
+      "tail": "案例检索 Agent"
+    },
+    {
+      "type": "负责",
+      "head": "预警与决策 Agent",
+      "tail": "综合分析"
+    },
+    {
+      "type": "负责",
+      "head": "控制与反馈 Agent",
+      "tail": "反馈监督"
+    },
+    {
+      "type": "扩展",
+      "head": "各专业对应 Agent",
+      "tail": "JessAgent"
+    },
+    {
+      "type": "提供",
+      "head": "JessAgent",
+      "tail": "Jess"
+    },
+    {
+      "type": "采用",
+      "head": "案例的检索方法",
+      "tail": "最近邻搜索策略"
+    },
+    {
+      "type": "结合",
+      "head": "案例的检索方法",
+      "tail": "层次分析法"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "模糊综合评判法"
+    },
+    {
+      "type": "表示",
+      "head": "健康指数(HI)",
+      "tail": "系统健康状态"
+    },
+    {
+      "type": "改进",
+      "head": "GTNetS",
+      "tail": "路由策略"
+    },
+    {
+      "type": "提出",
+      "head": "本文作者",
+      "tail": "分布式蠕虫蜜罐部署策略"
+    }
+  ]
+}

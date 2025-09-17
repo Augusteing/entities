@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "云环境下的民航发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理云端数据中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "JT9D-7R4发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色故障识别方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色关联分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "云计算技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "支持向量机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "灰色关联度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "精确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "气路性能故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "云环境下的发动机健康管理系统可以有效地进行航空发动机故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "灰色故障识别方法可以得到较好的故障诊断结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相同故障模式之间的灰色关联度总体上明显较大",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "云环境下的民航发动机健康管理系统",
+      "tail": "云计算技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "灰色故障识别方法",
+      "tail": "灰色关联分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "灰色关联分析",
+      "tail": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "灰色故障识别方法",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证对象",
+      "head": "灰色故障识别方法",
+      "tail": "JT9D-7R4发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "灰色故障识别方法",
+      "tail": "灰色关联度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协同分析",
+      "head": "灰色故障识别方法",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标是",
+      "head": "协同分析",
+      "tail": "提高发动机故障诊断的精确度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "灰色关联分析",
+      "tail": "相同故障模式之间的灰色关联度总体上明显较大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文研究",
+      "tail": "云环境下的发动机健康管理系统可以有效地进行航空发动机故障诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文研究",
+      "tail": "灰色故障识别方法可以得到较好的故障诊断结果",
+      "evaluation": "错误"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM-WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.12%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "结合",
+      "head": "最小二乘支持向量机",
+      "tail": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构建",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "小波神经网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测",
+      "head": "LSSVM预测模型",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "WNN预测模型",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "0.12%",
+      "evaluation": "正确"
+    }
+  ]
+}

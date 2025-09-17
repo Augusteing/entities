@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "FMECA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "解析计算公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "LRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可用度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "稳态可用度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MTBF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "PHM系统预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障修复时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "保障资源准备时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障诊断时机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响因素",
+      "text": "设计影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "使用影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "模块的可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "漏报",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "误报",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "装备的可靠性MTBF是影响基本作战单元可用度的主要因素之一",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "基于PHM的航空装备可用度影响因素分析方法",
+      "tail": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "PHM",
+      "tail": "航空装备可用度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分类为",
+      "head": "基于PHM的航空装备可用度影响因素",
+      "tail": "设计影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分类为",
+      "head": "基于PHM的航空装备可用度影响因素",
+      "tail": "使用影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "设计影响因素",
+      "tail": "模块的可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "设计影响因素",
+      "tail": "故障诊断时机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "设计影响因素",
+      "tail": "PHM系统预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "设计影响因素",
+      "tail": "故障修复时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "设计影响因素",
+      "tail": "保障资源准备时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "度量",
+      "head": "模块的可靠性",
+      "tail": "MTBF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可以提高",
+      "head": "PHM",
+      "tail": "装备的使用可用度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "可以减少",
+      "head": "PHM",
+      "tail": "装备停机时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "漏报",
+      "tail": "随机故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "误报",
+      "tail": "降低装备的可用度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "输出是",
+      "head": "仿真模型",
+      "tail": "稳态可用度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "单变量仿真",
+      "tail": "装备的可靠性MTBF是影响基本作战单元可用度的主要因素之一",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证",
+      "head": "实例",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "错误"
+    }
+  ]
+}

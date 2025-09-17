@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "基于MAS的飞机健康管理专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MAS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "案例推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "不确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "3层Browser/Server体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "JADE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Jess",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "SQLServer2000",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "导航Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "无线电Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "雷达Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "案例管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "案例检索Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "预警与决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "控制与反馈Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "健康指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "最近邻搜索策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊综合评判法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "不确定性推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "减少地面维护时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "增加飞机使用寿命",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "MAS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "3层Browser/Server体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "案例推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "不确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "JADE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "SQLServer2000",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构成",
+      "head": "导航Agent",
+      "tail": "基于规则的推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "无线电Agent",
+      "tail": "基于规则的推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "雷达Agent",
+      "tail": "基于规则的推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "案例管理Agent",
+      "tail": "基于案例的推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "案例检索Agent",
+      "tail": "基于案例的推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "基于案例的推理",
+      "tail": "最近邻搜索策略",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "不确定性推理",
+      "tail": "不确定性推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "不确定性推理",
+      "tail": "Jess",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设置",
+      "head": "预警与决策Agent",
+      "tail": "健康指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "预警与决策Agent",
+      "tail": "模糊综合评判法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "达到",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "减少地面维护时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "达到",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "增加飞机使用寿命",
+      "evaluation": "正确"
+    }
+  ]
+}

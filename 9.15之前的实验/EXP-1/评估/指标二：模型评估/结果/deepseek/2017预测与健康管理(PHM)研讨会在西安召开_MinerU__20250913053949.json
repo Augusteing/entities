@@ -1,0 +1,377 @@
+{
+  "entities": [
+    {
+      "type": "会议",
+      "text": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "空军工程大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "浙江大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "南京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国电子学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国仪器仪表学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "空军工程大学航空航天工程学院PHM实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国科学院自动化所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国飞行试验研究院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国航空无线电电子研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中航工业南京机电液压工程研究中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "景博教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "李学仁院长",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "黄志尧教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "彭宇教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "于劲松教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王莉教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王健教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "何宇廷教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "张联禾主任",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "池程芝主任",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "徐红专部长",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "军用飞机PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "无人系统PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机电源PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验室",
+      "text": "飞行器使用可靠性、安全性与故障诊断实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "状态检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "精确维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "系统可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "军民融合",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "主办",
+      "head": "中国电子学会电子测量与仪器分会",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主办",
+      "head": "中国仪器仪表学会电子测量与仪器分会",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办",
+      "head": "空军工程大学航空航天工程学院PHM实验室",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "《仪器仪表学报》",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "《电子测量与仪器学报》",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "INSTRUMENTATION",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "《电子测量技术》",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "《国外电子测量技术》",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "中国仪器与测量网",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主持",
+      "head": "景博教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致辞",
+      "head": "李学仁院长",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致辞",
+      "head": "黄志尧教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "彭宇教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "于劲松教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "王莉教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "王健教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "何宇廷教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "张联禾主任",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "池程芝主任",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "徐红专部长",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "景博教授",
+      "tail": "2017预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参观",
+      "head": "与会代表",
+      "tail": "空军工程大学航空航天工程学院PHM实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参观",
+      "head": "与会代表",
+      "tail": "飞行器使用可靠性、安全性与故障诊断实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM技术",
+      "tail": "状态检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM技术",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM技术",
+      "tail": "精确维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "PHM技术",
+      "tail": "系统可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "PHM技术",
+      "tail": "安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "促进",
+      "head": "2017预测与健康管理（PHM）研讨会",
+      "tail": "合作",
+      "evaluation": "正确"
+    },
+    {
+      "type": "加强",
+      "head": "2017预测与健康管理（PHM）研讨会",
+      "tail": "军民融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推动",
+      "head": "2017预测与健康管理（PHM）研讨会",
+      "tail": "PHM技术的成熟与发展",
+      "evaluation": "正确"
+    }
+  ]
+}

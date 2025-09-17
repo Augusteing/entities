@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "T-S模糊神经网络学习算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "幂法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "T-S模糊神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "T-S模糊模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "T-S型模糊神经网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机健康状态实时评估模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "6-12-1模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "隶属度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "训练误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "测试误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "训练误差百分比小于5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "测试误差百分比小于5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关系数为0.997193",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "方差为0.002244",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "均方差为0.047373",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "T-S型模糊神经网络模型",
+      "tail": "T-S模糊模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "T-S模糊神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "T-S模糊神经网络",
+      "tail": "训练误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "T-S模糊神经网络",
+      "tail": "测试误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "均方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "T-S模糊神经网络",
+      "tail": "训练误差百分比小于5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "T-S模糊神经网络",
+      "tail": "测试误差百分比小于5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "相关系数为0.997193",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "方差为0.002244",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "飞机健康状态实时评估模型",
+      "tail": "均方差为0.047373",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于LSSVM与WNN的燃气轮机状态趋势预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM-WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "标准SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "RBF核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Morlet函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均相对误差为0.44%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均相对误差为0.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "燃气轮机状态趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "Stykens和Vandewalle",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "ZhangQinghua等人",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组合了",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组合了",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "改进自",
+      "head": "最小二乘支持向量机",
+      "tail": "标准SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出者是",
+      "head": "最小二乘支持向量机",
+      "tail": "Stykens和Vandewalle",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出者是",
+      "head": "小波神经网络",
+      "tail": "ZhangQinghua等人",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "LSSVM预测模型",
+      "tail": "RBF核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "WNN预测模型",
+      "tail": "Morlet函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "Morlet函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LSSVM预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "WNN预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM预测模型",
+      "tail": "平均相对误差为0.44%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "WNN预测模型",
+      "tail": "平均相对误差为0.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "平均相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "燃气轮机状态趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象是",
+      "head": "燃气轮机状态趋势预测",
+      "tail": "燃气轮机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测参数是",
+      "head": "燃气轮机状态趋势预测",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    }
+  ]
+}

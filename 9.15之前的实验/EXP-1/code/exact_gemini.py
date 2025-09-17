@@ -32,6 +32,45 @@ MODEL_NAME = "gemini-2.5-pro"
 PROVIDER_NAME = "gemini"
 
 # ------------------------------
+# 速度/鲁棒性参数（可通过环境变量覆盖）
+# ------------------------------
+# 每篇结束后等待秒数（默认 1.0；置 0 可更快，但更易触发限流）
+SLEEP_SECS = float(os.getenv("EXTRACT_SLEEP_SECS", "1"))
+# 最大重试次数（默认 3；可通过 EXTRACT_MAX_RETRIES 调整）
+try:
+    MAX_RETRIES = int(os.getenv("EXTRACT_MAX_RETRIES", "3"))
+except Exception:
+    MAX_RETRIES = 3
+# 跳过 /models 预检（默认否；设 EXTRACT_SKIP_PREFLIGHT=1 可跳过，减少启动耗时）
+SKIP_PREFLIGHT = os.getenv("EXTRACT_SKIP_PREFLIGHT", "0") in {"1", "true", "TRUE"}
+
+# ------------------------------
+# 进度条（tqdm 优先，缺失则用简易控制台进度）
+# ------------------------------
+try:
+    from tqdm.auto import tqdm  # type: ignore
+    HAVE_TQDM = True
+except Exception:
+    tqdm = None  # type: ignore
+    HAVE_TQDM = False
+
+def _iter_with_progress(items, desc: str):
+    total = len(items)
+    if HAVE_TQDM:
+        return tqdm(items, total=total, desc=desc, unit="篇")
+
+    # 简易进度（每 1%/末尾刷新）
+    def _gen():
+        step = max(1, total // 100)
+        for i, x in enumerate(items, 1):
+            if (i % step == 0) or (i == total):
+                pct = int(i * 100 / total)
+                print(f"\r{desc}: {i}/{total} ({pct}%)", end="", flush=True)
+            yield x
+        print()
+    return _gen()
+
+# ------------------------------
 # 工具函数
 # ------------------------------
 def strip_code_fences(s: str) -> str:
@@ -147,24 +186,25 @@ if "hiapi.online" in (BASE_URL or "") and not api_key.lower().startswith("sk-"):
 client = OpenAI(api_key=api_key, base_url=BASE_URL)
 
 # 启动预检：尝试 /models 以提前发现 401 或 URL 配置问题
-try:
-    models_res = client.models.list()
-    models_cnt = len(getattr(models_res, "data", []) or [])
-    print(
-        f"预检通过：已连接 {BASE_URL}（模型数≈{models_cnt}）。Key 来源={api_key_source}，Key 掩码={_mask_key(api_key)}"
-    )
-except Exception as _e:
-    _msg = str(_e)
-    if "401" in _msg or "unauthorized" in _msg.lower() or "invalid" in _msg.lower():
-        raise RuntimeError(
-            "预检失败：鉴权未通过(401)。请确认：\n"
-            f"- base_url 是否为 {BASE_URL}\n"
-            f"- 当前会话是否已加载 {api_key_source}（Key 掩码：{_mask_key(api_key)}）\n"
-            "- Key 是否为 hiapi 后台颁发、且未被撤销/未超额\n"
-            "- 如刚设置环境变量，请重开 PowerShell 或在同一会话中重新设置 `$env:HIAPI_API_KEY` 后重试"
+if not SKIP_PREFLIGHT:
+    try:
+        models_res = client.models.list()
+        models_cnt = len(getattr(models_res, "data", []) or [])
+        print(
+            f"预检通过：已连接 {BASE_URL}（模型数≈{models_cnt}）。Key 来源={api_key_source}，Key 掩码={_mask_key(api_key)}"
         )
-    else:
-        print("预检警告：/models 接口不可用或返回非 401 错误，将继续执行。详情：" + _msg)
+    except Exception as _e:
+        _msg = str(_e)
+        if "401" in _msg or "unauthorized" in _msg.lower() or "invalid" in _msg.lower():
+            raise RuntimeError(
+                "预检失败：鉴权未通过(401)。请确认：\n"
+                f"- base_url 是否为 {BASE_URL}\n"
+                f"- 当前会话是否已加载 {api_key_source}（Key 掩码：{_mask_key(api_key)}）\n"
+                "- Key 是否为 hiapi 后台颁发、且未被撤销/未超额\n"
+                "- 如刚设置环境变量，请重开 PowerShell 或在同一会话中重新设置 `$env:HIAPI_API_KEY` 后重试"
+            )
+        else:
+            print("预检警告：/models 接口不可用或返回非 401 错误，将继续执行。详情：" + _msg)
 
 # ------------------------------
 # 获取所有论文文件
@@ -178,7 +218,10 @@ print(f"找到 {len(papers)} 篇论文：{papers}")
 success, failed = 0, 0
 aborted_for_balance = False
 
-for paper_file in papers:
+# 包装带进度的迭代器
+paper_iter = _iter_with_progress(papers, desc="Gemini抽取")
+
+for paper_file in paper_iter:
     # 输出文件路径（支持断点续跑）
     output_file = os.path.join(EXTRACT_RESULT_DIR, paper_file.replace(".md", ".json"))
     if os.path.exists(output_file):
@@ -200,6 +243,10 @@ for paper_file in papers:
             "attempts": 0,
             "output": output_file
         })
+        # 进度更新
+        if HAVE_TQDM:
+            if hasattr(paper_iter, "set_postfix"):
+                paper_iter.set_postfix(success=success, failed=failed, skipped=True)
         continue
 
     paper_path = os.path.join(PAPERS_DIR, paper_file)
@@ -221,7 +268,7 @@ for paper_file in papers:
     attempts = 0
 
     # 轻量重试
-    max_retries = 3
+    max_retries = MAX_RETRIES
     for attempt in range(max_retries):
         attempts += 1
         try:
@@ -280,6 +327,8 @@ for paper_file in papers:
 
             print(f"结果已保存到 {output_file}")
             success += 1
+            if HAVE_TQDM and hasattr(paper_iter, "set_postfix"):
+                paper_iter.set_postfix(success=success, failed=failed)
             break  # 成功则跳出重试
         except Exception as e:
             msg = str(e)
@@ -330,14 +379,20 @@ for paper_file in papers:
                     "fail_flag": fail_flag
                 })
                 failed += 1
+                if HAVE_TQDM and hasattr(paper_iter, "set_postfix"):
+                    paper_iter.set_postfix(success=success, failed=failed)
             else:
                 # 指数退避
                 time.sleep(2 ** attempt)
 
     if aborted_for_balance:
+        # 若使用 tqdm，主动关闭
+        if HAVE_TQDM and hasattr(paper_iter, "close"):
+            paper_iter.close()
         break
 
     # 轻限速（可按需调整或移除）
-    time.sleep(1)
+    if SLEEP_SECS > 0:
+        time.sleep(SLEEP_SECS)
 
-print(f"批量提交完成。成功: {success}，失败: {failed}，{'因余额不足提前终止' if aborted_for_balance else '全部处理完成'}。")
+print(f"\n批量提交完成。成功: {success}，失败: {failed}，{'因余额不足提前终止' if aborted_for_balance else '全部处理完成'}。")

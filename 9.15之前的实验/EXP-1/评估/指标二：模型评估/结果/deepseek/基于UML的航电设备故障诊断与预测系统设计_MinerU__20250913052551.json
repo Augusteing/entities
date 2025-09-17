@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "type": "语言",
+      "text": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "UML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "面向对象技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航电设备故障诊断与预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子设备故障诊断与预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "UML模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LS-SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障树推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "+5V输出电压数据序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "状态趋势预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障模式判别",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研究结果",
+      "text": "系统有效性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "面向对象技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "系统",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "系统",
+      "tail": "K-均值聚类算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "系统",
+      "tail": "故障树推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "最小二乘支持向量机",
+      "tail": "状态趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "K-均值聚类算法",
+      "tail": "故障模式判别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "测试",
+      "head": "系统",
+      "tail": "+5V输出电压数据序列",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "测试",
+      "tail": "系统有效性",
+      "evaluation": "错误"
+    }
+  ]
+}

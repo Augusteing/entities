@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "改进GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "A320飞机空调系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "水分离器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "水分离器出口温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "3点均值法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "背景值构造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "96.15%的精度",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "改进了",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "A320飞机空调系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测了",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "水分离器出口温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "3点均值法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "背景值构造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "改进GM(1,1)预测模型",
+      "tail": "96.15%的精度",
+      "evaluation": "正确"
+    }
+  ]
+}

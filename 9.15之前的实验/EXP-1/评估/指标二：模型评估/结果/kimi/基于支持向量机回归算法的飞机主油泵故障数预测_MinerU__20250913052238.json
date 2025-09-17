@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "支持向量机回归算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "统计学习理论",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小学习误差试验",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "二次多项式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "核函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "径向基核函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "惩罚因子C",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "ε不敏感值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "核参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差平均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "最大预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "支持向量机回归算法对飞机部件故障数预测具有较好的借鉴和应用价值",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "支持向量机回归算法",
+      "tail": "统计学习理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量机回归算法",
+      "tail": "模式识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量机回归算法",
+      "tail": "回归预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量机回归算法",
+      "tail": "概率密度函数估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "支持向量机回归算法",
+      "tail": "最小二乘拟合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "支持向量机回归算法",
+      "tail": "最小学习误差试验",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "非线性回归问题",
+      "tail": "核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "支持向量机回归拟合",
+      "tail": "径向基核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定",
+      "head": "支持向量机",
+      "tail": "惩罚因子C",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定",
+      "head": "支持向量机",
+      "tail": "ε不敏感值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定",
+      "head": "支持向量机",
+      "tail": "核参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "支持向量机回归算法",
+      "tail": "最小二乘回归预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "支持向量机回归算法对飞机部件故障数预测具有较好的借鉴和应用价值",
+      "evaluation": "正确"
+    }
+  ]
+}

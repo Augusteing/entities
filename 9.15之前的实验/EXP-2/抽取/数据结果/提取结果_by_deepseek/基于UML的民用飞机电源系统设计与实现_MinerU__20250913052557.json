@@ -1,0 +1,333 @@
+{
+  "entities": [
+    {
+      "type": "语言",
+      "text": "统一建模语言"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象设计方法"
+    },
+    {
+      "type": "方法",
+      "text": "分层插件设计方法"
+    },
+    {
+      "type": "系统",
+      "text": "民用飞机电源系统"
+    },
+    {
+      "type": "软件",
+      "text": "嵌入式软件"
+    },
+    {
+      "type": "硬件",
+      "text": "硬件平台"
+    },
+    {
+      "type": "需求",
+      "text": "系统需求"
+    },
+    {
+      "type": "模型",
+      "text": "用例图"
+    },
+    {
+      "type": "模型",
+      "text": "静态结构模型"
+    },
+    {
+      "type": "模型",
+      "text": "动态行为模型"
+    },
+    {
+      "type": "功能",
+      "text": "健康监控"
+    },
+    {
+      "type": "功能",
+      "text": "配电管理"
+    },
+    {
+      "type": "功能",
+      "text": "构型管理"
+    },
+    {
+      "type": "功能",
+      "text": "维护测试"
+    },
+    {
+      "type": "层",
+      "text": "硬件层"
+    },
+    {
+      "type": "层",
+      "text": "驱动层"
+    },
+    {
+      "type": "层",
+      "text": "API层"
+    },
+    {
+      "type": "层",
+      "text": "应用层"
+    },
+    {
+      "type": "类",
+      "text": "Init"
+    },
+    {
+      "type": "类",
+      "text": "UART"
+    },
+    {
+      "type": "类",
+      "text": "NVRAM"
+    },
+    {
+      "type": "类",
+      "text": "Test_Item"
+    },
+    {
+      "type": "类",
+      "text": "PBIT"
+    },
+    {
+      "type": "类",
+      "text": "CBIT"
+    },
+    {
+      "type": "类",
+      "text": "PowerCtrl"
+    },
+    {
+      "type": "类",
+      "text": "API"
+    },
+    {
+      "type": "测试项",
+      "text": "处理器测试"
+    },
+    {
+      "type": "测试项",
+      "text": "NVRAM测试"
+    },
+    {
+      "type": "测试项",
+      "text": "Flash测试"
+    },
+    {
+      "type": "测试项",
+      "text": "RTC测试"
+    },
+    {
+      "type": "测试项",
+      "text": "RS232测试"
+    },
+    {
+      "type": "测试项",
+      "text": "电压测试"
+    },
+    {
+      "type": "测试项",
+      "text": "电流测试"
+    },
+    {
+      "type": "测试项",
+      "text": "温度测试"
+    },
+    {
+      "type": "芯片",
+      "text": "TMS320F28335"
+    },
+    {
+      "type": "总线",
+      "text": "RS232"
+    },
+    {
+      "type": "结果",
+      "text": "可移植性"
+    },
+    {
+      "type": "结果",
+      "text": "可扩展性"
+    },
+    {
+      "type": "结果",
+      "text": "缩短开发周期"
+    },
+    {
+      "type": "结果",
+      "text": "降低成本"
+    },
+    {
+      "type": "结果",
+      "text": "实现健康管理"
+    },
+    {
+      "type": "指标",
+      "text": "经济性"
+    },
+    {
+      "type": "指标",
+      "text": "安全性"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "统一建模语言",
+      "tail": "面向对象设计方法"
+    },
+    {
+      "type": "采用",
+      "head": "分层插件设计方法",
+      "tail": "缩短开发周期"
+    },
+    {
+      "type": "采用",
+      "head": "分层插件设计方法",
+      "tail": "降低成本"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "用例图"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "静态结构模型"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "动态行为模型"
+    },
+    {
+      "type": "实现",
+      "head": "健康监控",
+      "tail": "配电管理"
+    },
+    {
+      "type": "包含",
+      "head": "配电管理",
+      "tail": "健康监控"
+    },
+    {
+      "type": "包含",
+      "head": "健康监控",
+      "tail": "构型管理"
+    },
+    {
+      "type": "提供",
+      "head": "驱动层",
+      "tail": "Init"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "UART"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "NVRAM"
+    },
+    {
+      "type": "提供",
+      "head": "API层",
+      "tail": "Test_Item"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "PBIT"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "CBIT"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "PowerCtrl"
+    },
+    {
+      "type": "提供",
+      "head": "应用层",
+      "tail": "API"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "处理器测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "NVRAM测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "Flash测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "RTC测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "RS232测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "电压测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "电流测试"
+    },
+    {
+      "type": "测试",
+      "head": "Test_Item",
+      "tail": "温度测试"
+    },
+    {
+      "type": "运行于",
+      "head": "电源系统",
+      "tail": "TMS320F28335"
+    },
+    {
+      "type": "通过",
+      "head": "电源系统",
+      "tail": "RS232"
+    },
+    {
+      "type": "具有",
+      "head": "嵌入式软件",
+      "tail": "可移植性"
+    },
+    {
+      "type": "具有",
+      "head": "嵌入式软件",
+      "tail": "可扩展性"
+    },
+    {
+      "type": "提高",
+      "head": "系统设计",
+      "tail": "经济性"
+    },
+    {
+      "type": "提高",
+      "head": "系统设计",
+      "tail": "安全性"
+    }
+  ]
+}

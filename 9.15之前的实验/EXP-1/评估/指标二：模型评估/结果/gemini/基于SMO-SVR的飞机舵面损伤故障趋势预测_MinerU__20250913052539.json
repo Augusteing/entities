@@ -1,0 +1,212 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "支持向量回归 (SVR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "序贯最小优化支持向量回归 (SMO-SVR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进的SMO-SVR预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "C-C方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进C-C平均方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SMO算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进的SMO算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "区间自适应粒子群算法 (IAPSO)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "加权SVR预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SMO-SVR预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "径向基函数神经网络 (RBFNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差 (e_MAPE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差 (e_RMSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "m*=5, τd*=1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "最优参数C=52.3299, γ=0.01",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "SMO-SVR单步预测eMAPE-r为0.5861",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RBFNN单步预测eMAPE-r为0.6775",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "SMO-SVR单步预测eRMSE-r为0.00063",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "SMO-SVR两步预测eMAPE-r为0.7738",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "SMO-SVR方法优于RBFNN方法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "C-C方法",
+      "tail": "改进C-C平均方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "SMO算法",
+      "tail": "改进的SMO算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "支持向量回归 (SVR)",
+      "tail": "加权SVR预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "改进的SMO-SVR预测方法",
+      "tail": "改进C-C平均方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "改进的SMO-SVR预测方法",
+      "tail": "改进的SMO算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "改进的SMO-SVR预测方法",
+      "tail": "区间自适应粒子群算法 (IAPSO)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "加权SVR预测模型",
+      "tail": "径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "SMO-SVR预测模型",
+      "tail": "平均绝对百分比误差 (e_MAPE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "SMO-SVR预测模型",
+      "tail": "均方根误差 (e_RMSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "径向基函数神经网络 (RBFNN)",
+      "tail": "平均绝对百分比误差 (e_MAPE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "径向基函数神经网络 (RBFNN)",
+      "tail": "均方根误差 (e_RMSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "改进C-C平均方法",
+      "tail": "m*=5, τd*=1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "区间自适应粒子群算法 (IAPSO)",
+      "tail": "最优参数C=52.3299, γ=0.01",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "SMO-SVR预测模型",
+      "tail": "SMO-SVR单步预测eMAPE-r为0.5861",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "径向基函数神经网络 (RBFNN)",
+      "tail": "RBFNN单步预测eMAPE-r为0.6775",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "SMO-SVR预测模型",
+      "tail": "SMO-SVR方法优于RBFNN方法",
+      "evaluation": "正确"
+    }
+  ]
+}

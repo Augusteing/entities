@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "马氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空装备故障预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "某型飞机火控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "98.48%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "97.77%的准确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障预测模型",
+      "tail": "马氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "故障预测模型",
+      "tail": "航空装备故障预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "故障预测模型",
+      "tail": "某型飞机火控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测模型",
+      "tail": "故障预测准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "故障预测模型",
+      "tail": "98.48%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "故障预测模型",
+      "tail": "97.77%的准确率",
+      "evaluation": "正确"
+    }
+  ]
+}

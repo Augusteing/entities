@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机群PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "单机PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "分布式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "集散式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "混合增强智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "空地一体的PHM通信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机群协同维修决策建模与优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层",
+      "text": "感知层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层",
+      "text": "意识层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层",
+      "text": "决策层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层",
+      "text": "动作层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理器",
+      "text": "机群PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理器",
+      "text": "飞机级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理器",
+      "text": "区域级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理器",
+      "text": "成员级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据流",
+      "text": "横向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据流",
+      "text": "纵向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据流",
+      "text": "反馈数据流",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "故障预测与健康管理(PHM)",
+      "tail": "机群PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "机群PHM系统",
+      "tail": "分布式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分布式体系架构",
+      "tail": "感知层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分布式体系架构",
+      "tail": "意识层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分布式体系架构",
+      "tail": "决策层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分布式体系架构",
+      "tail": "动作层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "机群PHM系统",
+      "tail": "集散式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "集散式体系架构",
+      "tail": "机群PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "集散式体系架构",
+      "tail": "飞机级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "集散式体系架构",
+      "tail": "区域级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "集散式体系架构",
+      "tail": "成员级PHM管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "机群PHM系统",
+      "tail": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "机群PHM系统",
+      "tail": "横向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "机群PHM系统",
+      "tail": "纵向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "机群PHM系统",
+      "tail": "反馈数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断技术",
+      "tail": "混合增强智能",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "通信网络",
+      "tail": "空地一体的PHM通信网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "维修决策",
+      "tail": "机群协同维修决策建模与优化",
+      "evaluation": "错误"
+    }
+  ]
+}

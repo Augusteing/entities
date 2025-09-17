@@ -1,0 +1,495 @@
+{
+  "entities": [
+    {
+      "type": "飞机类型",
+      "text": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机类型",
+      "text": "传统飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-22",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "C919",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电力系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "配电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "用电设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "起动发电一体化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电力作动",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电环控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "固态配电",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "高压直流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "变频交流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "宽禁带半导体器件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "模块化多电平技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "软开关技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电滑行",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合热管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "能量优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "SSPC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "EHA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "EBHA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "EMA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "ATRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "RAT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "APU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "铜鸟试验台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "MEA计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "MADMEL计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "J/IST计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "MOET计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "Clean Sky项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "POA计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "绿色航空",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "全电化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智能化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "集成化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "高压化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "直流化",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "传统飞机",
+      "tail": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "A380",
+      "tail": "变频交流供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "B787",
+      "tail": "变频交流供电体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "F-35",
+      "tail": "高压直流电力系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "F-22",
+      "tail": "高压直流供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "C919",
+      "tail": "变频交流架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多电飞机",
+      "tail": "电力系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电力系统",
+      "tail": "电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电力系统",
+      "tail": "配电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电力系统",
+      "tail": "用电设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "起动发电一体化",
+      "tail": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "电力作动",
+      "tail": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "电环控",
+      "tail": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "固态配电",
+      "tail": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "高压直流",
+      "tail": "未来发展方向",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "变频交流",
+      "tail": "供电体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "数字孪生技术",
+      "tail": "电力系统分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "故障预测与健康管理",
+      "tail": "提高可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "宽禁带半导体器件",
+      "tail": "高效功率变换",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "模块化多电平技术",
+      "tail": "高压变换器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "软开关技术",
+      "tail": "减少开关损耗",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "电滑行",
+      "tail": "绿色滑行技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "综合热管理",
+      "tail": "优化热量分配",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "能量优化",
+      "tail": "提高效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "SSPC",
+      "tail": "固态配电关键部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "EHA",
+      "tail": "电力作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "EBHA",
+      "tail": "电力作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "EMA",
+      "tail": "电力作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "ATRU",
+      "tail": "自耦变压整流器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "RAT",
+      "tail": "应急电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "APU",
+      "tail": "辅助动力装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "铜鸟试验台",
+      "tail": "地面测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "美国",
+      "tail": "MEA计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "美国",
+      "tail": "MADMEL计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "美国",
+      "tail": "J/IST计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "欧洲",
+      "tail": "MOET计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "欧洲",
+      "tail": "Clean Sky项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "欧盟",
+      "tail": "POA计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "绿色航空",
+      "tail": "多电飞机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "全电化",
+      "tail": "发展方向",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "智能化",
+      "tail": "发展方向",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "集成化",
+      "tail": "发展方向",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "高压化",
+      "tail": "发展方向",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "直流化",
+      "tail": "发展方向",
+      "evaluation": "正确"
+    }
+  ]
+}

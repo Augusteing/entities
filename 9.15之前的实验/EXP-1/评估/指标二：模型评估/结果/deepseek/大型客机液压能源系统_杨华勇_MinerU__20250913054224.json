@@ -1,0 +1,268 @@
+{
+  "entities": [
+    {
+      "type": "飞机型号",
+      "text": "A320",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B737",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "液压能源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "高压化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "分布式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断及健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自增压油箱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能泵源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "EDP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "EMP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "PTU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "RAT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "EHA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "EBHA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "LEHGS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "压力等级",
+      "text": "21MPa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "压力等级",
+      "text": "35MPa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "压力等级",
+      "text": "28MPa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方案",
+      "text": "3H方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方案",
+      "text": "2H/1E方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术",
+      "text": "高可靠性液压系统设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术",
+      "text": "压力脉动抑制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术",
+      "text": "油温控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术",
+      "text": "油液污染度控制",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "采用",
+      "head": "A380",
+      "tail": "35MPa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "B787",
+      "tail": "35MPa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "方案一",
+      "tail": "21MPa",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "方案二",
+      "tail": "28MPa",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "EDP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "EMP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "PTU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "RAT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "EHA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "EBHA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "液压能源系统",
+      "tail": "LEHGS",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "商用客机液压系统",
+      "tail": "高压化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "商用客机液压系统",
+      "tail": "分布式",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "商用客机液压系统",
+      "tail": "故障诊断及健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "商用客机液压系统",
+      "tail": "自增压油箱",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "商用客机液压系统",
+      "tail": "智能泵源系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "研究",
+      "tail": "3H方案",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "研究",
+      "tail": "2H/1E方案",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要解决",
+      "head": "发展飞机液压系统",
+      "tail": "高可靠性液压系统设计",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要解决",
+      "head": "发展飞机液压系统",
+      "tail": "压力脉动抑制",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要解决",
+      "head": "发展飞机液压系统",
+      "tail": "油温控制",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要解决",
+      "head": "发展飞机液压系统",
+      "tail": "油液污染度控制",
+      "evaluation": "错误"
+    }
+  ]
+}

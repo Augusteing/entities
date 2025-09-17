@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "序列最小最优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "二阶锥规划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非线性支持向量机模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传统SVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "高斯核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "标准误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "海拔高度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "大气温度",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "支持向量机",
+      "tail": "飞机性能参数预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理",
+      "head": "非线性支持向量机模型",
+      "tail": "不确定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "非线性支持向量机模型",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "非线性支持向量机模型",
+      "tail": "序列最小最优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "替代",
+      "head": "序列最小最优化算法",
+      "tail": "二阶锥规划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测模型",
+      "tail": "标准误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测模型",
+      "tail": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "非线性支持向量机模型",
+      "tail": "预测精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "非线性支持向量机模型",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "非线性支持向量机模型",
+      "tail": "排气温度裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "海拔高度",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "大气温度",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    }
+  ]
+}

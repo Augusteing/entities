@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "特征参数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "预警电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "累积损伤模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "综合法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "寿命消耗监测法（LCM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色理论预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "累积损伤模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理失效模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔可夫模型（HMM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "焊点故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机内测试（BIT)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "内建自测试（BIST）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "纹波电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "阴极电流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "电子系统故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "雷达发射机高压电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "雷达发射机多注速调管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "JSF飞机电源开关模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究人员",
+      "text": "许丽佳等",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究机构",
+      "text": "美国马里兰大学",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "head": "电子系统故障预测",
+      "tail": "特征参数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "电子系统故障预测",
+      "tail": "预警电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "电子系统故障预测",
+      "tail": "累积损伤模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "美国马里兰大学",
+      "tail": "寿命消耗监测法（LCM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "累积损伤模型",
+      "tail": "物理失效模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "焊点故障预测技术",
+      "tail": "隐马尔可夫模型（HMM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用了",
+      "head": "许丽佳等",
+      "tail": "灰色理论预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "寿命消耗监测法（LCM）",
+      "tail": "JSF飞机电源开关模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测指标是",
+      "head": "雷达发射机高压电源",
+      "tail": "纹波电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测指标是",
+      "head": "雷达发射机多注速调管",
+      "tail": "阴极电流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "延伸为",
+      "head": "机内测试（BIT）",
+      "tail": "内建自测试（BIST）",
+      "evaluation": "正确"
+    }
+  ]
+}

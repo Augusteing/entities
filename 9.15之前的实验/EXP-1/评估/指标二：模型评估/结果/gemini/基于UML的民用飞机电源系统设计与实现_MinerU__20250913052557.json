@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "民用飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "嵌入式软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象设计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "分层插件设计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "用例图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "静态结构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "动态行为模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "配电管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可移植性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可扩展性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "测试方法",
+      "text": "加电自测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "测试方法",
+      "text": "周期自测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "TMS320F28335芯片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "软件开发周期长、成本高",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "面向对象设计方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "分层插件设计方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "面向对象设计方法",
+      "tail": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "要求",
+      "head": "民用飞机电源系统嵌入式软件",
+      "tail": "可移植性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "要求",
+      "head": "民用飞机电源系统嵌入式软件",
+      "tail": "可扩展性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "解决",
+      "head": "分层插件设计方法",
+      "tail": "软件开发周期长、成本高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "用例图",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "静态结构模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "UML设计",
+      "tail": "动态行为模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "系统设计",
+      "tail": "健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "完成",
+      "head": "电源系统",
+      "tail": "配电管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "执行",
+      "head": "电源系统",
+      "tail": "加电自测试",
+      "evaluation": "错误"
+    },
+    {
+      "type": "执行",
+      "head": "电源系统",
+      "tail": "周期自测试",
+      "evaluation": "错误"
+    },
+    {
+      "type": "运行于",
+      "head": "电源系统",
+      "tail": "TMS320F28335芯片",
+      "evaluation": "错误"
+    },
+    {
+      "type": "具有",
+      "head": "嵌入式软件",
+      "tail": "良好的可移植性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "具有",
+      "head": "嵌入式软件",
+      "tail": "良好的扩展性",
+      "evaluation": "错误"
+    }
+  ]
+}

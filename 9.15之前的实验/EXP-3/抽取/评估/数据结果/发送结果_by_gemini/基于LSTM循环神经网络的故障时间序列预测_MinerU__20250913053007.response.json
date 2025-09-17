@@ -1,0 +1,335 @@
+[
+  {
+    "entities": [
+      {
+        "type": "方法",
+        "text": "基于LSTM循环神经网络的故障时间序列预测方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "故障时间序列预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "长短期记忆(LSTM)循环神经网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "基于多层网格搜索的LSTM预测模型参数优选算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "目标",
+        "text": "预测误差最小",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "LSTM预测模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "准确性",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "基于故障机理（Physics- of- Failure，PoF）的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "数据驱动（Data- Driven，DD）的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "融合的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "自回归移动平均（Autoregressive Integrated Moving Average，ARIMA）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "奇异谱分析（Singular Spectrum Analysis，SSA）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "支持向量回归（Support Vector machines Regression，SVR）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "网络",
+        "text": "人工神经网络（Artificial Neural Network，ANN）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据",
+        "text": "系统级故障数据",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "基于SSA和SVR的混合方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "深度学习",
+        "evaluation": "正确"
+      },
+      {
+        "type": "网络",
+        "text": "循环神经网络（Recurrent Neural Network，RNN）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "梯度消失",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "梯度爆炸",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "长期记忆能力不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "基于时间的反向传播（Back Propagation Through Time，BPTT）算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "适应性动量估计（Adaptive moment estimation，Adam）算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "门限循环单元（Gated Recurrent Unit，GRU）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "分割窗口长度 L",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "状态向量大小 S_state",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "学习率 η",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据集",
+        "text": "波音737飞机月度故障时间序列数据",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "Holt-Winters模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "多元线性回归（MultipleLinearRegression，MLR)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "均方根误差（RootMeanSquareError，RMSE）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "过拟合",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "欠拟合",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "计算耗时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "拟合精度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "预测精度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究者",
+        "text": "王鑫，吴际，刘超等",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实验结果",
+        "text": "优选后LSTM模型在B飞机测试点12上的预测精度(RMSE)达到0.864",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实验结果",
+        "text": "文献[8]中混合模型最优RMSE值为1.879",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "提出",
+        "head": "王鑫，吴际，刘超等",
+        "tail": "基于LSTM循环神经网络的故障时间序列预测方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提出",
+        "head": "王鑫，吴际，刘超等",
+        "tail": "基于多层网格搜索的LSTM预测模型参数优选算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于",
+        "head": "基于LSTM循环神经网络的故障时间序列预测方法",
+        "tail": "故障时间序列预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "优选参数",
+        "head": "基于多层网格搜索的LSTM预测模型参数优选算法",
+        "tail": "LSTM预测模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "弥补问题",
+        "head": "长短期记忆(LSTM)循环神经网络",
+        "tail": "梯度消失",
+        "evaluation": "正确"
+      },
+      {
+        "type": "弥补问题",
+        "head": "长短期记忆(LSTM)循环神经网络",
+        "tail": "梯度爆炸",
+        "evaluation": "正确"
+      },
+      {
+        "type": "弥补问题",
+        "head": "长短期记忆(LSTM)循环神经网络",
+        "tail": "长期记忆能力不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是简化版本",
+        "head": "门限循环单元（Gated Recurrent Unit，GRU）",
+        "tail": "长短期记忆(LSTM)循环神经网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "Holt-Winters模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "自回归移动平均（Autoregressive Integrated Moving Average，ARIMA）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "奇异谱分析（Singular Spectrum Analysis，SSA）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "多元线性回归（MultipleLinearRegression，MLR)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "支持向量回归（Support Vector machines Regression，SVR）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "循环神经网络（Recurrent Neural Network，RNN）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行对比",
+        "head": "LSTM预测模型",
+        "tail": "门限循环单元（Gated Recurrent Unit，GRU）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "精度高于",
+        "head": "LSTM预测模型",
+        "tail": "循环神经网络（Recurrent Neural Network，RNN）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "精度高于",
+        "head": "LSTM预测模型",
+        "tail": "门限循环单元（Gated Recurrent Unit，GRU）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "效果显著",
+        "head": "基于多层网格搜索的LSTM预测模型参数优选算法",
+        "tail": "LSTM预测模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用数据集",
+        "head": "实验验证",
+        "tail": "波音737飞机月度故障时间序列数据",
+        "evaluation": "错误"
+      },
+      {
+        "type": "影响性能",
+        "head": "学习率 η",
+        "tail": "LSTM预测模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "导致",
+        "head": "过高或过低的学习率",
+        "tail": "欠拟合或过拟合问题",
+        "evaluation": "错误"
+      },
+      {
+        "type": "优于",
+        "head": "优选后LSTM模型在B飞机测试点12上的预测精度(RMSE)达到0.864",
+        "tail": "文献[8]中混合模型最优RMSE值为1.879",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

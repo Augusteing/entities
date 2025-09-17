@@ -1,0 +1,319 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "航空发动机健康管理系统"
+    },
+    {
+      "type": "概念",
+      "text": "MagicGrid方法论"
+    },
+    {
+      "type": "概念",
+      "text": "场景-需求-功能-逻辑-物理五层协同建模框架"
+    },
+    {
+      "type": "概念",
+      "text": "基于模型的系统工程"
+    },
+    {
+      "type": "概念",
+      "text": "系统建模语言"
+    },
+    {
+      "type": "概念",
+      "text": "内部块图"
+    },
+    {
+      "type": "概念",
+      "text": "需求图"
+    },
+    {
+      "type": "概念",
+      "text": "用例图"
+    },
+    {
+      "type": "概念",
+      "text": "活动图"
+    },
+    {
+      "type": "概念",
+      "text": "块定义图"
+    },
+    {
+      "type": "概念",
+      "text": "FMECA"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理技术"
+    },
+    {
+      "type": "概念",
+      "text": "气路故障诊断"
+    },
+    {
+      "type": "概念",
+      "text": "振动诊断"
+    },
+    {
+      "type": "概念",
+      "text": "健康状态评估"
+    },
+    {
+      "type": "概念",
+      "text": "SAE"
+    },
+    {
+      "type": "概念",
+      "text": "GE Global"
+    },
+    {
+      "type": "概念",
+      "text": "Impact公司"
+    },
+    {
+      "type": "概念",
+      "text": "洛克希德马丁公司"
+    },
+    {
+      "type": "概念",
+      "text": "Honeywell公司"
+    },
+    {
+      "type": "概念",
+      "text": "Integrated System Health Management"
+    },
+    {
+      "type": "概念",
+      "text": "eXtensible Markup Language"
+    },
+    {
+      "type": "概念",
+      "text": "XML"
+    },
+    {
+      "type": "概念",
+      "text": "NASA"
+    },
+    {
+      "type": "概念",
+      "text": "空客公司"
+    },
+    {
+      "type": "概念",
+      "text": "洛克希德-马丁公司"
+    },
+    {
+      "type": "概念",
+      "text": "罗罗公司"
+    },
+    {
+      "type": "概念",
+      "text": "UltraFan"
+    },
+    {
+      "type": "概念",
+      "text": "波音公司"
+    },
+    {
+      "type": "概念",
+      "text": "B777"
+    },
+    {
+      "type": "概念",
+      "text": "OOSEM"
+    },
+    {
+      "type": "概念",
+      "text": "Harmony-SE"
+    },
+    {
+      "type": "概念",
+      "text": "Object- Oriented Systems Engineering Method"
+    },
+    {
+      "type": "概念",
+      "text": "INCOSE"
+    },
+    {
+      "type": "概念",
+      "text": "SysML"
+    },
+    {
+      "type": "概念",
+      "text": "需求完整性"
+    },
+    {
+      "type": "概念",
+      "text": "架构优化"
+    },
+    {
+      "type": "概念",
+      "text": "状态变化影响"
+    },
+    {
+      "type": "概念",
+      "text": "技术状态变化影响敏捷评估"
+    },
+    {
+      "type": "概念",
+      "text": "数字孪生技术"
+    },
+    {
+      "type": "概念",
+      "text": "服务化架构"
+    },
+    {
+      "type": "概念",
+      "text": "感知-分析-决策-验证"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "source": "场景-需求-功能-逻辑-物理五层协同建模框架",
+      "target": "MagicGrid方法论"
+    },
+    {
+      "type": "实现",
+      "source": "基于模型的系统工程",
+      "target": "系统建模语言"
+    },
+    {
+      "type": "包含",
+      "source": "系统建模语言",
+      "target": "内部块图"
+    },
+    {
+      "type": "包含",
+      "source": "系统建模语言",
+      "target": "需求图"
+    },
+    {
+      "type": "包含",
+      "source": "系统建模语言",
+      "target": "用例图"
+    },
+    {
+      "type": "包含",
+      "source": "系统建模语言",
+      "target": "活动图"
+    },
+    {
+      "type": "包含",
+      "source": "系统建模语言",
+      "target": "块定义图"
+    },
+    {
+      "type": "提出",
+      "source": "SAE",
+      "target": "基于信息流处理的架构"
+    },
+    {
+      "type": "提出",
+      "source": "GE Global",
+      "target": "粗略判定、健康状况评估与定位故障的架构"
+    },
+    {
+      "type": "提出",
+      "source": "洛克希德马丁公司",
+      "target": "基于区域管理器体系架构"
+    },
+    {
+      "type": "提出",
+      "source": "Honeywell公司",
+      "target": "Integrated System Health Management架构"
+    },
+    {
+      "type": "应用",
+      "source": "NASA",
+      "target": "基于模型的系统工程"
+    },
+    {
+      "type": "应用",
+      "source": "空客公司",
+      "target": "基于模型的系统工程"
+    },
+    {
+      "type": "应用",
+      "source": "洛克希德-马丁公司",
+      "target": "基于模型的系统工程"
+    },
+    {
+      "type": "依据",
+      "source": "罗罗公司",
+      "target": "INCOSE系统工程手册"
+    },
+    {
+      "type": "构建",
+      "source": "波音公司",
+      "target": "基于任务和需求定义的MBSE过程"
+    },
+    {
+      "type": "定义",
+      "source": "OOSEM",
+      "target": "面向对象的系统工程方法"
+    },
+    {
+      "type": "定义",
+      "source": "Harmony-SE",
+      "target": "服务请求驱动建模方法"
+    },
+    {
+      "type": "实现",
+      "source": "MagicGrid",
+      "target": "需求一功能一逻辑一物理设计步骤的综合"
+    },
+    {
+      "type": "支持",
+      "source": "基于模型的系统工程",
+      "target": "需求、设计、分析、检验和验证活动"
+    },
+    {
+      "type": "减少",
+      "source": "基于模型的系统工程",
+      "target": "开发时间"
+    },
+    {
+      "type": "提升",
+      "source": "基于模型的系统工程",
+      "target": "设计开发能力"
+    },
+    {
+      "type": "提升",
+      "source": "基于模型的系统工程",
+      "target": "产品质量"
+    },
+    {
+      "type": "降低",
+      "source": "改进架构",
+      "target": "数据处理时间"
+    },
+    {
+      "type": "提升",
+      "source": "改进架构",
+      "target": "处理效率"
+    },
+    {
+      "type": "影响",
+      "source": "空气系统状态变更",
+      "target": "健康管理系统"
+    },
+    {
+      "type": "提升",
+      "source": "功能逻辑模型",
+      "target": "技术状态变化影响敏捷评估"
+    },
+    {
+      "type": "提升",
+      "source": "功能逻辑模型",
+      "target": "架构设计与优化"
+    },
+    {
+      "type": "明确",
+      "source": "功能逻辑模型",
+      "target": "系统需求与功能边界"
+    }
+  ]
+}

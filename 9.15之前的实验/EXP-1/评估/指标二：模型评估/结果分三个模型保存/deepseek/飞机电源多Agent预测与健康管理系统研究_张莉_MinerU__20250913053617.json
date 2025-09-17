@@ -1,0 +1,325 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "AEPHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AUML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "FFT分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "时域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "频域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粗糙集理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "KQML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "多Agent系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BDI Agent理论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "状态监测多Agent子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "诊断多Agent子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "状态监测Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "健康评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "用户接口Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "数据仓库管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "服务Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "态势分析与评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "预诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "仿真Agent",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "AEPHM",
+      "tail": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "AEPHM",
+      "tail": "AUML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "FFT分析Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "时域分析Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "频域分析Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "小波分析Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "诊断多Agent子系统",
+      "tail": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断元Agent",
+      "tail": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断元Agent",
+      "tail": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断元Agent",
+      "tail": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "诊断元Agent",
+      "tail": "模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "粗糙集理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "Agent",
+      "tail": "BDI Agent理论模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "Agent",
+      "tail": "KQML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "Agent",
+      "tail": "XML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "协作",
+      "head": "状态监测Agent",
+      "tail": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协作",
+      "head": "故障诊断Agent",
+      "tail": "健康评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协作",
+      "head": "健康评估Agent",
+      "tail": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理",
+      "head": "管理Agent",
+      "tail": "其他Agent",
+      "evaluation": "错误"
+    }
+  ]
+}

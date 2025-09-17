@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据挖掘技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于事例的推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "规则归纳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "决策树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "聚集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信息提取技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Java编程语言",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "规则归纳算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "异常检测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "聚集算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "Oracle数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "FIM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "AMM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "AMTAC维护记录",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "CFD报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞行安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机运行和维护费用",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "数据挖掘技术",
+      "tail": "飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "基于事例的推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "规则归纳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "决策树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机健康管理系统",
+      "tail": "聚集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机维护技术文档",
+      "tail": "FIM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "飞机维护技术文档",
+      "tail": "AMM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "飞机维护技术文档",
+      "tail": "AMTAC维护记录",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "信息提取技术",
+      "tail": "构建CBR数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Java编程语言",
+      "tail": "生成实时维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "规则归纳算法",
+      "tail": "关联规则",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "异常检测算法",
+      "tail": "计算异常因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "聚集算法",
+      "tail": "将维护方案分为不同的聚集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "Oracle数据库",
+      "tail": "CBR数据库结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "飞机健康管理系统",
+      "tail": "飞机利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "飞机健康管理系统",
+      "tail": "飞行安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "飞机健康管理系统",
+      "tail": "维修效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "飞机健康管理系统",
+      "tail": "飞机运行和维护费用",
+      "evaluation": "正确"
+    }
+  ]
+}

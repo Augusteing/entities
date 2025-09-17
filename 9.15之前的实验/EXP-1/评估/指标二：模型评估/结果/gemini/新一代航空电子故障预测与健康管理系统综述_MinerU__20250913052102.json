@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM (故障预测与健康管理)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "APHM (航空电子故障预测及健康管理)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "BIT (机内测试)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "累积损伤预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障征兆监测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障预警监测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "APHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康与使用监测系统 (HUMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理 (AHM) 系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机状态监测系统 (ACMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主式保障系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "7层OSA一CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "通用系统管理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "失效物理 (PoF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "MIMOSA标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ISO-13374标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命 (RUL)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障不能复现 (CND) 率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "出动架次率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "CND率减少82%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "出动架次率提高25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "维护人员减少20%~40%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "后勤规模减少50%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "Michael G. Pecht教授",
+      "evaluation": "错误"
+    },
+    {
+      "type": "组织",
+      "text": "Boeing公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "ASAAC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "PHM概念",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "层次化分布式体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "温度应力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "工作电流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "联合攻击机（JSF）开发计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计",
+      "text": "APHM系统设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计",
+      "text": "APHM系统功能划分",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "BIT (机内测试)",
+      "tail": "PHM (故障预测与健康管理)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "状态监测技术",
+      "tail": "PHM (故障预测与健康管理)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "联合攻击机（JSF）开发计划",
+      "tail": "PHM概念",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定义了",
+      "head": "Michael G. Pecht教授",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定义了",
+      "head": "Michael G. Pecht教授",
+      "tail": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "累积损伤预测法",
+      "tail": "失效物理 (PoF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "APHM系统功能划分",
+      "tail": "7层OSA一CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "APHM系统设计",
+      "tail": "层次化分布式体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测参数是",
+      "head": "APHM系统",
+      "tail": "工作电流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测参数是",
+      "head": "APHM系统",
+      "tail": "温度应力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "自主式保障系统",
+      "tail": "CND率减少82%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "自主式保障系统",
+      "tail": "出动架次率提高25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "Boeing公司",
+      "tail": "飞机健康管理 (AHM) 系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推荐了",
+      "head": "ASAAC",
+      "tail": "通用系统管理模型",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "type": "架构",
+      "text": "SOA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SOA-based architectural model",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "SOA-based system integration method",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "数据库访问服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "权限验证服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "文档管理服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "特征提取服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "常用算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "总线",
+      "text": "业务服务总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "状态监测子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "模糊故障诊断专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "健康评估服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "子系统",
+      "text": "维修调度算法组件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "数据源",
+      "text": "PDM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "CAD系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "CAM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "CAPP系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "EAM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "OA系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协议",
+      "text": "HTTP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协议",
+      "text": "SOAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协议",
+      "text": "FTP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协议",
+      "text": "JMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "SOAP2.0工具包",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "系统扩展性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "系统伸缩性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "缩短开发时间",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统",
+      "tail": "SOA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "SOA",
+      "tail": "SOA-based architectural model",
+      "evaluation": "错误"
+    },
+    {
+      "type": "设计了",
+      "head": "SOA",
+      "tail": "SOA-based system integration method",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "基础业务服务层",
+      "tail": "数据库访问服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "基础业务服务层",
+      "tail": "权限验证服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "基础业务服务层",
+      "tail": "文档管理服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "基础业务服务层",
+      "tail": "特征提取服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "基础业务服务层",
+      "tail": "常用算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "整合",
+      "head": "业务服务总线",
+      "tail": "基础业务服务层",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "系统功能集成",
+      "tail": "HTTP",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "系统功能集成",
+      "tail": "SOAP",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "系统功能集成",
+      "tail": "FTP",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "系统功能集成",
+      "tail": "JMS",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "SOA-based system integration method",
+      "tail": "缩短开发时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "SOA",
+      "tail": "系统扩展性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "SOA",
+      "tail": "系统伸缩性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "状态监测子系统",
+      "tail": "健康状态数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "调用",
+      "head": "模糊故障诊断专家系统",
+      "tail": "SOA数据存取统一服务层",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "健康评估服务",
+      "tail": "健康评估模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "调用",
+      "head": "维修调度算法组件",
+      "tail": "维修调度算法",
+      "evaluation": "错误"
+    }
+  ]
+}

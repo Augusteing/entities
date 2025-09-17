@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空电子设备"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障预测"
+    },
+    {
+      "type": "手段/工具",
+      "text": "多深度置信网络（Multi- deep Belief Network，DBN）模型"
+    },
+    {
+      "type": "手段/工具",
+      "text": "改进遗传算法"
+    },
+    {
+      "type": "研究结果",
+      "text": "均方根误差为0.008"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差均值为0.9%"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关度为0.9647"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习"
+    },
+    {
+      "type": "技术",
+      "text": "无监督深度学习模型"
+    },
+    {
+      "type": "技术",
+      "text": "受限玻尔兹曼机（Restricted Boltzmann Machine，RBM）"
+    },
+    {
+      "type": "技术",
+      "text": "迁移学习"
+    },
+    {
+      "type": "技术",
+      "text": "Dropout机制"
+    },
+    {
+      "type": "技术",
+      "text": "跨域迁移训练"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量回归（Support Vector Regression，SVR）"
+    },
+    {
+      "type": "数据集",
+      "text": "美国航空航天局的4组锂离子电池数据"
+    },
+    {
+      "type": "研究结果",
+      "text": "电源模块剩余寿命为32循环周期"
+    },
+    {
+      "type": "研究结果",
+      "text": "真实剩余寿命为31循环周期"
+    },
+    {
+      "type": "研究结果",
+      "text": "设备剩余寿命预测误差为3.23%"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型",
+      "tail": "航空电子设备故障预测"
+    },
+    {
+      "type": "提高了",
+      "head": "改进遗传算法",
+      "tail": "故障预测精准度"
+    },
+    {
+      "type": "得出",
+      "head": "所提方法",
+      "tail": "均方根误差为0.008"
+    },
+    {
+      "type": "得出",
+      "head": "所提方法",
+      "tail": "相对误差均值为0.9%"
+    },
+    {
+      "type": "得出",
+      "head": "所提方法",
+      "tail": "相关度为0.9647"
+    },
+    {
+      "type": "基于",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）",
+      "tail": "无监督深度学习模型"
+    },
+    {
+      "type": "包含",
+      "head": "深度置信网络",
+      "tail": "受限玻尔兹曼机（Restricted Boltzmann Machine，RBM）"
+    },
+    {
+      "type": "结合",
+      "head": "DBN模型",
+      "tail": "迁移学习"
+    },
+    {
+      "type": "引入",
+      "head": "DBN构造",
+      "tail": "Dropout机制"
+    },
+    {
+      "type": "包括",
+      "head": "跨域迁移训练",
+      "tail": "Dropout策略的全局精调"
+    },
+    {
+      "type": "对比",
+      "head": "所提方法",
+      "tail": "支持向量回归（Support Vector Regression，SVR）"
+    },
+    {
+      "type": "验证了",
+      "head": "实验",
+      "tail": "美国航空航天局的4组锂离子电池数据"
+    },
+    {
+      "type": "得出",
+      "head": "本文方法",
+      "tail": "电源模块剩余寿命为32循环周期"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "真实剩余寿命为31循环周期"
+    },
+    {
+      "type": "得出",
+      "head": "本文方法",
+      "tail": "设备剩余寿命预测误差为3.23%"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于多深度置信网络模型融合的故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多深度置信网络(DBN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "受限玻尔兹曼机(RBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "单一DBN模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量回归(SVR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "对比散度算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "反向传播算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相关度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "设备剩余寿命预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "均方根误差为0.008",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均相对误差为0.90%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关度为0.9647",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "设备剩余寿命预测误差为3.23%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "均方根误差为0.034",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "均方根误差为0.055",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于多深度置信网络模型融合的故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "多深度置信网络(DBN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "改进遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多深度置信网络(DBN)",
+      "tail": "受限玻尔兹曼机(RBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "支持向量回归(SVR)",
+      "tail": "径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "相关度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "均方根误差为0.008",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "平均相对误差为0.90%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "相关度为0.9647",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于多深度置信网络模型融合的故障预测方法",
+      "tail": "设备剩余寿命预测误差为3.23%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "单一DBN模型",
+      "tail": "均方根误差为0.034",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "支持向量回归(SVR)",
+      "tail": "均方根误差为0.055",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机预测与健康管理(EPHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "有限监视系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "扩展监视系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "智能维护系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "EPHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "F119发动机DHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "F-35/F135的PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "概率统计模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "专家系统方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "故障隔离",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "预测能力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "费效比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "单点故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障隔离率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测的精确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "单点故障检测率目标要求是100%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "有限监视系统",
+      "tail": "扩展监视系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "扩展监视系统",
+      "tail": "智能维护系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "智能维护系统",
+      "tail": "EPHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "F119发动机DHM系统",
+      "tail": "F-35/F135的PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用了",
+      "head": "扩展监视系统",
+      "tail": "概率统计模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "专家系统方法",
+      "tail": "概率统计模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "EPHM系统",
+      "tail": "费效比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断",
+      "tail": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断",
+      "tail": "单点故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断",
+      "tail": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障隔离",
+      "tail": "故障隔离率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测能力",
+      "tail": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测能力",
+      "tail": "预测的精确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "故障诊断",
+      "tail": "单点故障检测率目标要求是100%",
+      "evaluation": "错误"
+    }
+  ]
+}

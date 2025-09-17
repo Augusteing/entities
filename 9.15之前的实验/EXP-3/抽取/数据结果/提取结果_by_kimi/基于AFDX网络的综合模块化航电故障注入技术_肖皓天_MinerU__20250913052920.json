@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "综合模块化航空电子系统"
+    },
+    {
+      "type": "技术",
+      "text": "航空电子全双工交换式以太网"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理和故障预测"
+    },
+    {
+      "type": "技术",
+      "text": "故障注入技术"
+    },
+    {
+      "type": "技术",
+      "text": "非法数据输入"
+    },
+    {
+      "type": "技术",
+      "text": "特殊信令输入"
+    },
+    {
+      "type": "技术",
+      "text": "AFDX网络"
+    },
+    {
+      "type": "技术",
+      "text": "AFDX端系统卡"
+    },
+    {
+      "type": "技术",
+      "text": "故障注入软件"
+    },
+    {
+      "type": "技术",
+      "text": "数据传输策略"
+    },
+    {
+      "type": "技术",
+      "text": "SQLite数据库"
+    },
+    {
+      "type": "技术",
+      "text": "多媒体定时器"
+    },
+    {
+      "type": "技术",
+      "text": "定时发送策略"
+    },
+    {
+      "type": "技术",
+      "text": "Copilot软件"
+    },
+    {
+      "type": "技术",
+      "text": "机载激光通信系统"
+    },
+    {
+      "type": "技术",
+      "text": "空间激光通信技术"
+    },
+    {
+      "type": "技术",
+      "text": "自适应光学"
+    },
+    {
+      "type": "技术",
+      "text": "相干通信体制"
+    },
+    {
+      "type": "技术",
+      "text": "射频通信"
+    },
+    {
+      "type": "技术",
+      "text": "FSO混合通信"
+    },
+    {
+      "type": "技术",
+      "text": "Avionics Full-Duplex Switched Ethernet (AFDX) network"
+    },
+    {
+      "type": "技术",
+      "text": "Windows高精度定时"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "综合模块化航空电子系统",
+      "tail": "健康管理和故障预测"
+    },
+    {
+      "type": "基于",
+      "head": "故障注入技术",
+      "tail": "航空电子全双工交换式以太网"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入技术",
+      "tail": "非法数据输入"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入技术",
+      "tail": "特殊信令输入"
+    },
+    {
+      "type": "开发",
+      "head": "故障注入软件",
+      "tail": "AFDX端系统卡"
+    },
+    {
+      "type": "解决",
+      "head": "故障注入软件",
+      "tail": "主机数据更新间隔、发送间隔与AFDX端系统定时器周期不匹配的问题"
+    },
+    {
+      "type": "使用",
+      "head": "故障数据配置和管理",
+      "tail": "SQLite数据库"
+    },
+    {
+      "type": "使用",
+      "head": "故障注入平台",
+      "tail": "多媒体定时器"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "定时发送策略"
+    },
+    {
+      "type": "监控",
+      "head": "Copilot软件",
+      "tail": "消息帧"
+    },
+    {
+      "type": "结合",
+      "head": "机载激光通信系统",
+      "tail": "机载平台特点"
+    },
+    {
+      "type": "改进",
+      "head": "自适应光学",
+      "tail": "机载激光通信系统"
+    },
+    {
+      "type": "改进",
+      "head": "相干通信体制",
+      "tail": "机载激光通信系统"
+    },
+    {
+      "type": "配合",
+      "head": "机载激光通信系统",
+      "tail": "射频通信"
+    },
+    {
+      "type": "发展",
+      "head": "FSO混合通信",
+      "tail": "美军"
+    },
+    {
+      "type": "规定",
+      "head": "Avionics Full-Duplex Switched Ethernet (AFDX) network",
+      "tail": "ARINC"
+    },
+    {
+      "type": "实现",
+      "head": "Windows高精度定时",
+      "tail": "Windows下高精度定时的实现"
+    }
+  ]
+}

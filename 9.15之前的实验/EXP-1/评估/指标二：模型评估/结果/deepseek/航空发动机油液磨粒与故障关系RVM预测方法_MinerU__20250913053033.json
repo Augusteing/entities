@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "反向传播神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Gauss核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Linear核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Polynomial核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Sigmoid核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均平方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均误差绝对值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "训练时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "检测时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RVM拥有计算量较少、预测时间较短、精度较高等优势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RVM比LSSVM和BP-NN具有更强的可推广性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "相关向量机",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较了",
+      "head": "相关向量机",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较了",
+      "head": "相关向量机",
+      "tail": "反向传播神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "RVM预测模型",
+      "tail": "Gauss核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "RVM预测模型",
+      "tail": "平均平方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "RVM预测模型",
+      "tail": "平均误差绝对值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "RVM预测模型",
+      "tail": "训练时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "RVM预测模型",
+      "tail": "检测时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "RVM预测模型",
+      "tail": "RVM拥有计算量较少、预测时间较短、精度较高等优势",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "RVM预测模型",
+      "tail": "RVM比LSSVM和BP-NN具有更强的可推广性",
+      "evaluation": "错误"
+    }
+  ]
+}

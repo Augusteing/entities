@@ -1,0 +1,346 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "强度设计/分析/验证技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "规范",
+      "text": "面向新一代战斗机强度设计与验证的规范架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于多维包线的结构载荷筛选技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于统一模型的全机内力分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "复合材料整体化结构分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "高精度快速细节应力分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "原理",
+      "text": "内埋武器舱预紧舱门原理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计",
+      "text": "内埋武器舱预紧舱门强度设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "双曲面加筋壁板快速建模及声疲劳分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "结构故障预测与健康管理系统 (SPHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "大纲",
+      "text": "飞机结构完整性大纲 (ASIP)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "组合包线法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少载荷设计工况90%以上",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "统一有限元模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "结构主承力框",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "复合材料整体化结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工艺",
+      "text": "RTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工艺",
+      "text": "RFI",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "界面单元法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "Cohesive Zone理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Global-Local法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于力边界的Global-Local方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "GetLoad",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AutoMPC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "text": "双曲面结构声振耦合动响应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "有限元/边界元方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "text": "声疲劳寿命预计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "Miner线性累积损伤理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "在线系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "离线系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "获取结构使用载荷的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "直接法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "间接法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机体载荷测量系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "应变电桥测量法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "SPHM传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "电阻应变片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤光栅传感器",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包括",
+      "head": "先进战斗机强度设计技术发展与实践",
+      "tail": "基于多维包线的结构载荷筛选技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "先进战斗机强度设计技术发展与实践",
+      "tail": "基于统一模型的全机内力分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "先进战斗机强度设计技术发展与实践",
+      "tail": "复合材料整体化结构分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "先进战斗机强度设计技术发展与实践",
+      "tail": "高精度快速细节应力分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "先进战斗机强度设计技术发展与实践",
+      "tail": "结构故障预测与健康管理系统 (SPHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于多维包线的结构载荷筛选技术",
+      "tail": "组合包线法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于多维包线的结构载荷筛选技术",
+      "tail": "减少载荷设计工况90%以上",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于统一模型的全机内力分析技术",
+      "tail": "统一有限元模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "基于统一模型的全机内力分析技术",
+      "tail": "结构主承力框",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "复合材料整体化结构",
+      "tail": "RTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "复合材料整体化结构",
+      "tail": "RFI",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "界面单元法",
+      "tail": "Cohesive Zone理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "高精度快速细节应力分析技术",
+      "tail": "Global-Local法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "Global-Local法",
+      "tail": "基于力边界的Global-Local方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于力边界的Global-Local方法",
+      "tail": "GetLoad",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于力边界的Global-Local方法",
+      "tail": "AutoMPC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "求解方法是",
+      "head": "双曲面结构声振耦合动响应",
+      "tail": "有限元/边界元方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "声疲劳寿命预计",
+      "tail": "Miner线性累积损伤理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "SPHM系统",
+      "tail": "在线系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "SPHM系统",
+      "tail": "离线系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "获取结构使用载荷的方法",
+      "tail": "直接法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "获取结构使用载荷的方法",
+      "tail": "间接法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机体载荷测量系统",
+      "tail": "应变电桥测量法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "SPHM传感器",
+      "tail": "电阻应变片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "SPHM传感器",
+      "tail": "光纤光栅传感器",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "entities": [
+    {
+      "type": "设备",
+      "text": "二线测试设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "可测试性设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "MATE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "IFTE系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "CASS系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "TETS系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "PMA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "LM-STAR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "BIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "单元",
+      "text": "LRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "单元",
+      "text": "SRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "NxTest",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "VXI总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "PXI工控机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "单片机架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "纵向集成测试策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "二级维修体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "三级维修体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "四级维修体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "剩余寿命预计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "性能降级趋势跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "辅助决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "资源管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "综合化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "通用性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "管用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "好用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "耐用",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "二级维修体制",
+      "tail": "可测试性设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "二级维修体制",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "PHM技术",
+      "tail": "视情维修的基础",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM技术",
+      "tail": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理",
+      "tail": "剩余寿命预计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理",
+      "tail": "性能降级趋势跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理",
+      "tail": "辅助决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理",
+      "tail": "资源管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "二线测试设备",
+      "tail": "故障定位",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "二线测试设备",
+      "tail": "离位测试",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "二线测试设备",
+      "tail": "定检",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "二线测试设备",
+      "tail": "排故修理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "MATE",
+      "tail": "模块化自动测试设备",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "IFTE系统",
+      "tail": "综合测试设备系列",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "CASS系统",
+      "tail": "联合自动化支持系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "TETS系统",
+      "tail": "第三梯队测试系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "PMA",
+      "tail": "便携式辅助维修设备",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "LM-STAR",
+      "tail": "自动测试系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "BIT",
+      "tail": "故障隔离",
+      "evaluation": "错误"
+    },
+    {
+      "type": "隔离到",
+      "head": "二线测试设备",
+      "tail": "LRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隔离到",
+      "head": "二线测试设备",
+      "tail": "SRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "NxTest",
+      "tail": "下一代自动测试系统计划",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "二线测试设备",
+      "tail": "VXI总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "二线测试设备",
+      "tail": "PXI工控机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "二线测试设备",
+      "tail": "单片机架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "纵向集成测试策略",
+      "tail": "工业标准开放体系结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "二线测试设备",
+      "tail": "综合化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "二线测试设备",
+      "tail": "通用性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "二线测试设备",
+      "tail": "管用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "二线测试设备",
+      "tail": "好用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展趋势是",
+      "head": "二线测试设备",
+      "tail": "耐用",
+      "evaluation": "正确"
+    }
+  ]
+}

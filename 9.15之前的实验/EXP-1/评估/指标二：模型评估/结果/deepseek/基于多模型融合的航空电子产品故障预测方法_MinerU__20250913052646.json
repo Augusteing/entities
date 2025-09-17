@@ -1,0 +1,248 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Adaboosting算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AGA-BP模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "改进LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM基模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "经典LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "集成学习框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多模型融合预测框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机制",
+      "text": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机制",
+      "text": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机制",
+      "text": "注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "趋势拟合度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "更高的趋势拟合度和预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA锂电池退化数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "航空电子产品",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "航空蓄电池",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "锂离子航空蓄电池",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "BIT手段",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于失效物理模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多模型融合的故障预测方法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "改进为",
+      "head": "RNN",
+      "tail": "LSTM神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "LSTM神经网络",
+      "tail": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "改进LSTM模型",
+      "tail": "集成学习框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "多模型融合预测框架",
+      "tail": "Adaboosting算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测方法",
+      "tail": "数据驱动",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证",
+      "head": "NASA锂电池退化数据集",
+      "tail": "预测精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "优于",
+      "head": "本文方法",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "本文方法",
+      "tail": "经典LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "本文方法",
+      "tail": "LSTM基模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "LSTM神经网络",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "Dropout机制",
+      "tail": "过拟合问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "Adaboosting算法",
+      "tail": "性能差异问题",
+      "evaluation": "正确"
+    }
+  ]
+}

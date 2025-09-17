@@ -1,0 +1,29 @@
+{
+  "time": "2025-09-15T13:10:11.474610+00:00",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "submit_root": "e:\\知识图谱构建\\9.15之前的实验\\EXP-1\\评估\\指标二：模型评估\\提交文件",
+  "result_root": "e:\\知识图谱构建\\9.15之前的实验\\EXP-1\\评估\\指标二：模型评估\\结果分三个模型保存",
+  "total_files": 50,
+  "total_tasks": 150,
+  "success": 150,
+  "failed": 0,
+  "per_model": {
+    "deepseek": {
+      "inputs": 50,
+      "success": 50,
+      "failed": 0
+    },
+    "gemini": {
+      "inputs": 50,
+      "success": 50,
+      "failed": 0
+    },
+    "kimi": {
+      "inputs": 50,
+      "success": 50,
+      "failed": 0
+    }
+  },
+  "aborted": false
+}

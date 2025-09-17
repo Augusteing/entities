@@ -1,0 +1,293 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机内测试设备(BITE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "中央维修计算机（CMC）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ARINC604",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "ARINC公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音747-400",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于逻辑方程的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ARINC624",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "波音",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "霍尼韦尔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障覆盖百分率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障隔离准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "中央维修系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音777",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "霍尼韦尔公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "中央维修系统软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "中央维修计算功能（CMCF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "飞机状态监控功能（ACMF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型的专利诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "可加载诊断信息（LDI）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "地面诊断模型开发工具（DMDT）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PrimusEpic机载维修系统（OMS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机状态监控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "E170/190",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "PrimusEpic模块化航电装置（MAU）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机组人员信息系统／维修系统（CIS- MS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "飞机健康管理功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "RTCA/DO- 178B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "维修系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ARINC661",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "演变为",
+      "head": "机内测试设备(BITE)",
+      "tail": "中央维修计算机（CMC）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研发了",
+      "head": "ARINC公司",
+      "tail": "ARINC604",
+      "evaluation": "正确"
+    },
+    {
+      "type": "带有",
+      "head": "波音747-400",
+      "tail": "中央维修计算机（CMC）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "中央维修计算机（CMC）",
+      "tail": "基于逻辑方程的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同制定了",
+      "head": "波音",
+      "tail": "ARINC624",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同制定了",
+      "head": "霍尼韦尔",
+      "tail": "ARINC624",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "霍尼韦尔公司",
+      "tail": "中央维修系统软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "中央维修系统",
+      "tail": "波音777",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "中央维修系统软件",
+      "tail": "中央维修计算功能（CMCF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "中央维修系统软件",
+      "tail": "飞机状态监控功能（ACMF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "中央维修计算功能（CMCF）",
+      "tail": "基于模型的专利诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研制了",
+      "head": "霍尼韦尔公司",
+      "tail": "地面诊断模型开发工具（DMDT）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...开发",
+      "head": "波音公司",
+      "tail": "可加载诊断信息（LDI）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "PrimusEpic机载维修系统（OMS）",
+      "tail": "中央维修计算机（CMC）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "PrimusEpic机载维修系统（OMS）",
+      "tail": "飞机状态监控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "PrimusEpic机载维修系统（OMS）",
+      "tail": "E170/190",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "中央维修计算机（CMC）",
+      "tail": "PrimusEpic模块化航电装置（MAU）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "波音787",
+      "tail": "中央维修计算功能（CMCF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "波音787",
+      "tail": "飞机状态监控功能（ACMF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "飞机健康管理功能",
+      "tail": "机组人员信息系统／维修系统（CIS- MS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "机组人员信息系统／维修系统（CIS- MS）",
+      "tail": "RTCA/DO- 178B",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作为...的备份",
+      "head": "ARINC661",
+      "tail": "维修系统",
+      "evaluation": "错误"
+    }
+  ]
+}

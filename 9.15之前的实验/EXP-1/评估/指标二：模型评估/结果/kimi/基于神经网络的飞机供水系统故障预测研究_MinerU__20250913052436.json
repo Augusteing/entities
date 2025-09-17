@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "基于数据驱动的故障预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机供水系统仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "神经网络故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理技术（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "主成分分析法（PCA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "神经网络",
+      "text": "径向基神经网络（RBF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "100%的故障预测正确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "建立在",
+      "head": "健康管理",
+      "tail": "状态数据采集、信息融合和特征提取",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用在",
+      "head": "PHM技术",
+      "tail": "大、中型民用和军用飞机领域",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分为",
+      "head": "故障预测方法",
+      "tail": "基于失效物理模型、基于数据驱动和基于可靠性理论三类",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "飞机供水系统故障预测研究",
+      "tail": "AMESim软件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "神经网络故障预测方法",
+      "tail": "飞机供水系统仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "主成分分析法（PCA）",
+      "tail": "特征提取",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "故障预测",
+      "tail": "径向基神经网络（RBF）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "确定",
+      "head": "RBF网络",
+      "tail": "中心向量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "RBF网络",
+      "tail": "K均值聚类算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "达到",
+      "head": "RBF网络故障预测",
+      "tail": "100%的故障预测正确率",
+      "evaluation": "错误"
+    }
+  ]
+}

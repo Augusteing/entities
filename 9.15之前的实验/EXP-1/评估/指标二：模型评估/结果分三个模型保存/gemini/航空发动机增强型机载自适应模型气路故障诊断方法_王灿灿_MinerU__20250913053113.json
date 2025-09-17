@@ -1,0 +1,223 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于增强型机载自适应模型的气路故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "卡尔曼滤波器估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RBF神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "气路故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "在线机载模型（STORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载自适应模型（ESTORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络补偿模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载自适应模型气路诊断架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障检测与隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "梯度下降法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "高斯聚类模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "压气机叶片结垢",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "压气机叶片腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "动力涡轮叶片机械损伤",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "诊断正确率均超过90%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "均值为98.83%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于增强型机载自适应模型的气路故障诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "气路故障诊断方法",
+      "tail": "增强型机载自适应模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路诊断架构",
+      "tail": "增强型机载自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路诊断架构",
+      "tail": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路诊断架构",
+      "tail": "故障检测与隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "加入",
+      "head": "机载模型",
+      "tail": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "神经网络补偿算法",
+      "tail": "在线修正机载模型的输出误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高",
+      "head": "神经网络补偿算法",
+      "tail": "卡尔曼滤波器估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "升级为",
+      "head": "在线机载模型（STORM）",
+      "tail": "增强型机载自适应模型（ESTORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "增强型机载自适应模型",
+      "tail": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "卡尔曼滤波器",
+      "tail": "跟踪发动机性能退化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "故障模式诊断",
+      "tail": "RBF神经网络算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "RBF神经网络",
+      "tail": "K-均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "RBF神经网络",
+      "tail": "梯度下降法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障模式评估",
+      "tail": "诊断正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真验证",
+      "tail": "诊断正确率均超过90%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真验证",
+      "tail": "均值为98.83%",
+      "evaluation": "错误"
+    }
+  ]
+}

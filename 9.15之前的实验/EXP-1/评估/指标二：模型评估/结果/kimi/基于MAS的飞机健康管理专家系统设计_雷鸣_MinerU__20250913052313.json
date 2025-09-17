@@ -1,0 +1,263 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "MAS技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "3层Browser/Server体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于案例推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于规则的不确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "JADE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "Tomcat",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "SQLServer2000",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "导航Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "无线电Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "雷达Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "案例管理 Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "案例检索 Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "预警与决策 Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "控制与反馈 Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "最近邻搜索策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "不确定性推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Jess",
+      "evaluation": "正确"
+    },
+    {
+      "type": "类",
+      "text": "CausationBean",
+      "evaluation": "正确"
+    },
+    {
+      "type": "类",
+      "text": "ConclusionBean",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机健康管理研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "人工智能领域",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "案例推理和基于规则的不确定性推理的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "效益",
+      "text": "项目经济效益约1500万元",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "飞机健康管理专家系统",
+      "tail": "MAS技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "飞机健康管理专家系统",
+      "tail": "3层Browser/Server体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "飞机健康管理专家系统",
+      "tail": "基于案例推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "飞机健康管理专家系统",
+      "tail": "基于规则的不确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "JADE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "Tomcat",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理专家系统",
+      "tail": "SQLServer2000",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构成",
+      "head": "基于规则的推理",
+      "tail": "导航Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "基于规则的推理",
+      "tail": "无线电Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "基于规则的推理",
+      "tail": "雷达Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "基于案例的推理",
+      "tail": "案例管理 Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构成",
+      "head": "基于案例的推理",
+      "tail": "案例检索 Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "负责",
+      "head": "预警与决策 Agent",
+      "tail": "综合分析",
+      "evaluation": "错误"
+    },
+    {
+      "type": "负责",
+      "head": "控制与反馈 Agent",
+      "tail": "反馈监督",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "案例的检索方法",
+      "tail": "最近邻搜索策略",
+      "evaluation": "错误"
+    },
+    {
+      "type": "描述",
+      "head": "不确定性推理",
+      "tail": "不确定性推理模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "不确定性推理",
+      "tail": "Jess",
+      "evaluation": "错误"
+    },
+    {
+      "type": "封装",
+      "head": "JessAgent",
+      "tail": "CausationBean",
+      "evaluation": "错误"
+    },
+    {
+      "type": "封装",
+      "head": "JessAgent",
+      "tail": "ConclusionBean",
+      "evaluation": "错误"
+    },
+    {
+      "type": "反映",
+      "head": "健康指数",
+      "tail": "系统健康状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "减少",
+      "head": "方法",
+      "tail": "地面维护时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "产生",
+      "head": "项目",
+      "tail": "项目经济效益约1500万元",
+      "evaluation": "错误"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "扩展式FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊综合评判模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机原有的总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可靠性、故障诊断及容错能力、测试性及维护的高效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "供电系统PHM技术继续研究奠定了基础，明确了方向",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "诊断预测模型",
+      "tail": "扩展式FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "诊断预测模型",
+      "tail": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融入到",
+      "head": "分布一集中式PHM系统",
+      "tail": "飞机原有的总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "供电系统",
+      "tail": "新型战机整体作战效能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "本文",
+      "tail": "供电系统PHM技术继续研究奠定了基础，明确了方向",
+      "evaluation": "正确"
+    }
+  ]
+}

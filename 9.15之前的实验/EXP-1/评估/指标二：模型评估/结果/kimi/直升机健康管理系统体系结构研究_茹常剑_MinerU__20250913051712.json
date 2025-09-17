@@ -1,0 +1,215 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "直升机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "HUMS系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机综合数据系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机数据获取系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "状态与使用监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "状态与使用管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理器",
+      "text": "AT91RM9200处理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理器",
+      "text": "ARM920T内核",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "RITA协会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "Oracle数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "分布式信息处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "远程故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "无线传感器网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "无线数据传输",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "卫星通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "北斗导航卫星",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "电子装备网络化测试诊断",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "组成",
+      "head": "直升机健康管理系统",
+      "tail": "HUMS系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "状态与使用监测系统",
+      "tail": "状态与使用管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "开放式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "分布式体系架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "无线数据传输通信系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "通信系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "分布式信息处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "远程故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "无线传感器网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "HUMS系统",
+      "tail": "电子装备网络化测试诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "HUMS处理单元",
+      "tail": "AT91RM9200处理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推荐",
+      "head": "RITA协会",
+      "tail": "开放式接口标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障诊断专家系统",
+      "tail": "Oracle数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "通信系统",
+      "tail": "卫星通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "通信系统",
+      "tail": "北斗导航卫星",
+      "evaluation": "正确"
+    }
+  ]
+}

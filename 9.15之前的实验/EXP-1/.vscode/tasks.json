@@ -1,0 +1,207 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run evaluate_with_gemini (per-doc outputs)",
+			"type": "shell",
+			"command": "python .\\code\\evaluate_with_gemini.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Build per-doc inputs",
+			"type": "shell",
+			"command": "python .\\code\\build_evaluation_inputs.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Eval only per-doc outputs",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"$env:EVAL_WRITE_GLOBAL='0'; python .\\code\\evaluate_with_gemini.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Summarize accuracy by model and paper",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\summarize_accuracy_by_model_and_paper.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Plot accuracy charts",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_accuracy_charts.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Plot accuracy charts (EN+Times)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_accuracy_charts.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Plot accuracy charts with labels",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_accuracy_charts.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Plot accuracy charts (clean)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_accuracy_charts.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Replot with legend outside",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_accuracy_charts.py"
+			],
+			"problemMatcher": [
+				"$python"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Count relations by model and paper",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\count_relations_by_model_and_paper.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Aggregate relations stats",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\aggregate_relations_stats.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Plot total relations chart",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_total_relations.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Plot top3 relation types chart",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_top3_relation_types.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Replot total relations chart",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_total_relations.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Replot top3 relation types chart",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_top3_relation_types.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Replot total relations chart (Times)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_total_relations.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Replot top3 relation types chart (EN Times)",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\plot_top3_relation_types.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Aggregate unique entity types by model",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				".\\评估\\指标二：模型评估\\code\\aggregate_entity_type_unique_counts.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

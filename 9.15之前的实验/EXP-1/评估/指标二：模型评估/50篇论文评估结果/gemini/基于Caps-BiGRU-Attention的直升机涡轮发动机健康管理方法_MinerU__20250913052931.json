@@ -1,0 +1,288 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "Caps-BiGRU-Attention",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "胶囊网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BiGRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SE注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SHAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Random Forest",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU-Attention",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiLstm",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "混合高斯密度模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "动态路由算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群优化方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "贝塔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "交叉熵损失函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "SHAP值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "p值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "AIC值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障诊断准确率超过99.7%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均绝对误差降低至0.027",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "最佳分布为贝塔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "直升机涡轮发动机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "故障模式识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "扭矩裕度预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "特征分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "概率分布拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "扭矩裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "外部空气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "平均气体温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "净功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "指示空速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "故障模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "张振良，毕俊喜，何荣荣，崔哲，周相志",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "张振良，毕俊喜，何荣荣，崔哲，周相志",
+      "tail": "Caps-BiGRU-Attention",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "故障模式识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "扭矩裕度预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "胶囊层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "BiGRU层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "SE注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断",
+      "tail": "故障诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "扭矩裕度预测",
+      "tail": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "故障诊断准确率超过99.7%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "平均绝对误差降低至0.027",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "SHAP",
+      "tail": "特征分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "故障模式",
+      "tail": "扭矩裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "净功率",
+      "tail": "扭矩裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "指示空速",
+      "tail": "扭矩裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定",
+      "head": "概率分布拟合",
+      "tail": "最佳分布为贝塔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "Random Forest",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiGRU-Attention",
+      "evaluation": "正确"
+    }
+  ]
+}

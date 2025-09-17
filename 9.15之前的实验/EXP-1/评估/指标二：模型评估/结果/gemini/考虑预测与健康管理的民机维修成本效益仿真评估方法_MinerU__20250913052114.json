@@ -1,0 +1,243 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "考虑预测与健康管理的民机维修成本效益仿真评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "计划维修优化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非计划维修可控模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "PHM错误影响分析模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "计算机仿真技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修工时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "非计划维修事件数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "预防性维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "空调系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少56%的维修工时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "节约60%的维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "避免了88%的非计划维修事件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "PHM维修模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多目标遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "视情维修(CBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "状态检修模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "贝叶斯更新过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "漏警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少了大约400人工小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "节约9000Φ维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少了78起非计划维修事件",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "考虑预测与健康管理的民机维修成本效益仿真评估方法",
+      "tail": "PHM维修模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "PHM维修模式",
+      "tail": "计划维修优化模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "PHM维修模式",
+      "tail": "非计划维修可控模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "PHM维修模式",
+      "tail": "PHM错误影响分析模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "PHM维修模式",
+      "tail": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "考虑预测与健康管理的民机维修成本效益仿真评估方法",
+      "tail": "计算机仿真技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "视情维修(CBM)",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "预防性维修",
+      "tail": "视情维修(CBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "视情维修(CBM)",
+      "tail": "PHM维修模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "PHM维修模式",
+      "tail": "维修工时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "PHM维修模式",
+      "tail": "维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "PHM维修模式",
+      "tail": "非计划维修事件数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测与健康管理(PHM)",
+      "tail": "覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测与健康管理(PHM)",
+      "tail": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "PHM维修模式",
+      "tail": "减少56%的维修工时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "PHM维修模式",
+      "tail": "节约60%的维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "PHM维修模式",
+      "tail": "避免了88%的非计划维修事件",
+      "evaluation": "正确"
+    }
+  ]
+}

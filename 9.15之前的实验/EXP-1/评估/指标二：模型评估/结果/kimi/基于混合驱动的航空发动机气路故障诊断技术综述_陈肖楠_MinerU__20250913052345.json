@@ -1,0 +1,345 @@
+{
+  "entities": [
+    {
+      "type": "论文",
+      "text": "基于混合驱动的航空发动机气路故障诊断技术综述",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "陈肖楠，王奕首，卿新林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "日期",
+      "text": "2024- 04- 24",
+      "evaluation": "正确"
+    },
+    {
+      "type": "期刊",
+      "text": "系统工程与电子技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于气路的航空发动机健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "发动机健康管理（engine health management，EHM）技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "气路分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于混合驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "加权最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "粒子滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "无痕卡尔曼滤（unscented Kalman filter，UKF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于人工神经网络的气路故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "超椭圆卡尔曼滤波器组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "2D小波变换和生成对抗网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多变量故障信号重构方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于统计分析的发动机气路预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于性能的航空发动机预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "粒子滤波法和人工神经网络法结合的发动机性能预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Markov过程和灰色事件分析的灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "发动机数据融合诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "传感器的集成化、微型化和智能化发展",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "航空发动机多故障模式诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "航空发动机气路动态性能诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "数据模型的迁移应用",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发表于",
+      "head": "基于混合驱动的航空发动机气路故障诊断技术综述",
+      "tail": "系统工程与电子技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写于",
+      "head": "陈肖楠，王奕首，卿新林",
+      "tail": "2024- 04- 24",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高",
+      "head": "基于气路的航空发动机健康管理技术",
+      "tail": "发动机安全",
+      "evaluation": "正确"
+    },
+    {
+      "type": "降低",
+      "head": "基于气路的航空发动机健康管理技术",
+      "tail": "维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "航空发动机气路部件",
+      "tail": "进气道、压气机、涡轮、燃烧室和尾喷管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "航空发动机气路故障诊断",
+      "tail": "基于模型的发动机气路故障诊断方法、基于数据驱动的发动机气路故障诊断方法和基于混合驱动的发动机故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于模型驱动的方法",
+      "tail": "故障影响系数矩阵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "加权最小二乘法",
+      "tail": "参数模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "卡尔曼滤波器",
+      "tail": "高斯白噪声环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "NASA、普惠和IAC",
+      "tail": "加强型机载实时自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "基于人工神经网络的气路故障诊断方法",
+      "tail": "神经网络的模式识别能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "适合于",
+      "head": "支持向量机",
+      "tail": "小样本情况的故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "允许",
+      "head": "专家系统",
+      "tail": "经验和语言形式的知识参与到故障诊断中",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示为",
+      "head": "模糊逻辑系统",
+      "tail": "模糊基函数的线性组合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "基于混合驱动的气路故障诊断",
+      "tail": "模型驱动和数据驱动的优势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "遗传算法",
+      "tail": "发动机故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "迁移学习",
+      "tail": "一个领域或任务上学到的知识",
+      "evaluation": "正确"
+    },
+    {
+      "type": "逐渐应用",
+      "head": "数字孪生技术",
+      "tail": "航空发动机传感器故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提取",
+      "head": "2D小波变换和生成对抗网络",
+      "tail": "多时间序列图像的故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "多变量故障信号重构方法",
+      "tail": "空间和时间信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于统计分析的发动机气路预测方法",
+      "tail": "统计学分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "基于性能的航空发动机预测方法",
+      "tail": "不同的数学方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "粒子滤波法和人工神经网络法结合的发动机性能预测方法",
+      "tail": "粒子滤波法和人工神经网络法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "Markov过程和灰色事件分析的灰色预测模型",
+      "tail": "航空发动机压气机积垢案例",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "发动机数据融合诊断技术",
+      "tail": "当前的研究热点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "传感器的集成化、微型化和智能化发展",
+      "tail": "发动机传感器设计和安装的要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "航空发动机多故障模式诊断",
+      "tail": "更精确故障定位",
+      "evaluation": "正确"
+    },
+    {
+      "type": "增强",
+      "head": "航空发动机气路动态性能诊断",
+      "tail": "发动机气路诊断系统在发动机瞬态时的诊断精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "有助于",
+      "head": "数据模型的迁移应用",
+      "tail": "数据模型在发动机健康管理中的工程应用",
+      "evaluation": "正确"
+    }
+  ]
+}

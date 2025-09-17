@@ -1,0 +1,230 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "综合运载器健康管理(IVHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自动测试标记语言(ATML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "可扩展标记语言(XML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机电源故障诊断与预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "IVHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自动测试系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "状态检测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "信号处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "航空机载设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "变速恒频飞机电源实验台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ATML标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "XMLSchema",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理活动生命周期模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "IVHM参考体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "数据交换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息集成",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "互操作性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "ATML",
+      "tail": "IVHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "ATML",
+      "tail": "XML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于描述",
+      "head": "ATML",
+      "tail": "航空机载设备",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "IVHM系统",
+      "tail": "分布式信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "状态检测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "IVHM系统",
+      "tail": "信号处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是实例",
+      "head": "飞机电源故障诊断与预测系统",
+      "tail": "IVHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "飞机电源故障诊断与预测系统",
+      "tail": "ATML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "飞机电源故障诊断与预测系统",
+      "tail": "IVHM参考体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定义",
+      "head": "ATML标准",
+      "tail": "测试信息数据模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "ATML标准",
+      "tail": "XMLSchema",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "ATML",
+      "tail": "数据交换速度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "减少",
+      "head": "ATML",
+      "tail": "信息冗余",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "ATML",
+      "tail": "信息共享",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "ATML",
+      "tail": "系统集成",
+      "evaluation": "错误"
+    }
+  ]
+}

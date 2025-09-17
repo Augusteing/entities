@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "粒子群粗糙集约简",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障诊断模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "惯性权重函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高了故障诊断的准确性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "粒子群粗糙集约简",
+      "tail": "故障诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断方法",
+      "tail": "粒子群粗糙集约简",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断方法",
+      "tail": "诊断准确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "故障诊断方法",
+      "tail": "提高了故障诊断的准确性",
+      "evaluation": "错误"
+    }
+  ]
+}

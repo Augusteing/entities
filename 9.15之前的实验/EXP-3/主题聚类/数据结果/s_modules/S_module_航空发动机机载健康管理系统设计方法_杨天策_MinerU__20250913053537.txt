@@ -1,0 +1,48 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+nautic Standardization & Quality,2013(3):5- 8. (in Chinese)[8]祝青钰，蒋觉义.飞机健康管理标准研究综述[J].航空标准化与质量，2021(6):9- 12. ZHU Qingyu,JIANG Jueyi.Review of research on aircraft health management standards[J]. Standardization Research,2021 (6) : 9- 12. (in Chinese).[9] Tikka J,Salonen T.Practical experience of neural network based fatigue life monitoring[8].8th ICAF Symposium: Helsinki; ICAF, 2015:16- 21. [10] Denney G.F16 jet engine trending and diagnostics with neural networks[J].Application of Neural Networks [V,1965,3:419- 422. [11] Garcia W, Bair R.F- 22 force management: overcoming challenges to maintain a robust usage tracking program[C]//2006 USAF ASIP Conference.San Antonio: USAF,2006:1- 10. [12] Budrow.B.System analysis and integration of diagnostics and health management for the F119- PW- 100[R].AIAA- 98- 3535. [13] Horl F, Richter K.Monitoring the EJ200 engine[C]//Submitted for the proceedings of the 18th symposium, Aircraft Integrated Monitoring Systems. Berlin:Journal of engines,1995:168- 170. [14]尉海楷，杨立，刘芳，等.航空发动机预测与健康管理[M].北京：国防工业出版社，2014：27- 37,29- 33. WEI Xunkai, YANG Li, LIU Fang, et al.Aeroengine prognostics and health management[M]. Beijing: National Defence Industry Press,2014:27- 37,29- 33. (in Chinese).[15] Honor P, Ari N.Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM[C]//IEEE Aerospace Conference Proceeding 2006. New York:IEEE Press,2016:155- 161. [16] Volponi A.Data fusion for enhanced aircraft engine prognostics and health management[R].NASA- CR- 2005:214055. [17]鲁峰，黄金泉.基于ESVR信息融合的航空发动机故障诊断研究[J].应用基础与工程科学学报，2010，18（6）：982- 989. LU Feng, HUANG Jinquan.Fault diagnosis for aero- engine based on ESVR information fusion[J].Journal of Basic Science and Engineering,2010,18(6):982- 989. (in Chinese)[18]鲁峰.航空发动机故障诊断的融合技术研究[D].南京：南京航空航天大学，2009. LU Feng.Aeroengine fault diagnostics based on fusion technique[D]. Nanjing: Nanjing University of aeronautics and Asonautics, 2009. (in Chinese)[19]张丽基于数据的航空发动机气路故障诊断研究[D].北京：清华大学2014. ZHANG Li. Fault diagnosis of aero- engine based on data- driven technology[D].Bei Jing:Tsinghua University,2014. (in Chinese)[20]李一波，张光明，蒋丽英.航空发动机气路故障诊断技术研究现状[J].燃气轮机技术，2009，22（3）：10- 15. LI Yibo,ZHANG Guangming,JIANG Liying.Research status of aeroengine gas path fault diagnosis technology[J]. Gas Turbine Technology,2009,22(3):10- 15. (in Chinese)[21]Tikka J, Salonen T. Practical experience of neural network based
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "组织",
+      "text": "NASA"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[1] TORHORST S, HLZEL N B, GOLLNICK V. Identification and evaluation of the potentials of prognostics and health management in future civil aircraft[C]// PHM Society European Conference. [S.1. : s.n.], 2014: 1- 5. [2] 张卫方，何晶靖，阳劲松，等. 面向飞行器结构的健康监控技术研究现状[J]. 航空制造技术，2017(19): 38- 47. ZHANG Weifang, HE Jingjing, YANG Jinsong, et al. Research status on structural health monitoring technology for aircraft structures[J]. Aeronautical Manufacturing Technology, 2017(19): 38- 47. (in Chinese)[3] Ministry of Defense. Design and airworthiness requirements for service aircraft. Def Stan 00- 970[S]. UK: Ministry of Defense, 2006. [4] EZHILARASU C M, SKAF Z, JENNIONS I K. The application of reasoning to aerospace integrated vehicle health management (IVHM): challenges and opportunities[J]. Progress in Aerospace Sciences, 2019, 105: 60- 73. [5] 张立新，钟顺录，刘小兵，等. 先进战斗机强度设计技术发展与实践[J]. 航空学报，2020，41(6): 523480. ZHANG Lixin, ZHONG Shunlu, LIU Xiaodong, et al. Development and application of strength design technology of high performance fighter[J]. Acta Aeronautica et Astronautica Sinica, 2020, 41(6): 523480. (in Chinese)[6] ALEXIX F, JEAN P K, ALAIN S. The A400M usage monitoring function[C]// 28th ICAF Symposium. Helsinki: [s.n.], 2015: 681- 693. [7] 李玉海，王成波，陈亮，等. 先进战斗机寿命设计与延寿技术发展综述[J]. 航空学报，2021，42(8): 525791. LI Yuhai, WANG Chengbo, CHEN Liang, et al. Overview on development of advanced fighter life design and extension technology[J]. Acta Aeronautica et Astronautica Sinica, 2021, 42(8): 525791. (in Chinese)
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "A400M"
+    }
+  ]
+}
+```
+
+示例3 段落：
+陈肖楠（1996- ），男，博士研究生，主要研究方向为航空发动机气路故障诊断。王奕首（1978- ），男，教授，博士，主要研究方向为结构健康监测、发动机健康管理技术。卿新林（1967- ），男，教授，博士，主要研究方向为飞行器健康管理技术、结构健康监测技术。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "问题",
+      "text": "航空发动机气路故障诊断"
+    }
+  ]
+}
+```

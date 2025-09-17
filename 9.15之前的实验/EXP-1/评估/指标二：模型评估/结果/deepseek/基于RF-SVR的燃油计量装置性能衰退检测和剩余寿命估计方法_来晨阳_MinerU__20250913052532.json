@@ -1,0 +1,436 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "RF-SVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "马氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "蒙特卡洛仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "随机森林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "燃油系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机械液压模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AMESim-Matlab联合仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "燃油计量装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电液执行机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "计量活门",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "电液伺服阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "压差控制组件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "漏报率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RUL估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "敏感性指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "特异性指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "方均根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "虚警率低于2%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "漏报率低于2%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RUL估计误差低于3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均绝对百分比误差低于3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "方均根误差低于1.8",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "敏感性指标高于97%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "特异性指标低于3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "燃油温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "等效质量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "伺服阀固有频率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "计量活门直径",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "摩擦因数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "电流-速度增益曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "X1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "Y1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "X2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "Y2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "Xv0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "S1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "S2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "S3",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "内泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "外泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "静摩擦增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "动摩擦增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "零偏增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能衰退模式",
+      "text": "零偏减小",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "来晨阳等",
+      "tail": "基于RF-SVR的燃油计量装置性能衰退检测和剩余寿命估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "性能衰退检测",
+      "tail": "马氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "剩余寿命估计",
+      "tail": "RF-SVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "随机森林",
+      "tail": "特征选择",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量回归",
+      "tail": "剩余寿命估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "蒙特卡洛仿真",
+      "tail": "模型不确定性仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "AMESim-Matlab联合仿真",
+      "tail": "获取电流-速度数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "燃油计量装置",
+      "tail": "航空发动机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "燃油计量装置",
+      "tail": "计量活门",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "燃油计量装置",
+      "tail": "电液伺服阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "燃油计量装置",
+      "tail": "压差控制组件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "计量活门",
+      "tail": "内泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "计量活门",
+      "tail": "外泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "计量活门",
+      "tail": "静摩擦增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "计量活门",
+      "tail": "动摩擦增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "电液伺服阀",
+      "tail": "零偏增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "电液伺服阀",
+      "tail": "零偏减小",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康指标",
+      "tail": "电流-速度数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能衰退检测",
+      "tail": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能衰退检测",
+      "tail": "漏报率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "剩余寿命估计",
+      "tail": "RUL估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "剩余寿命估计",
+      "tail": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "剩余寿命估计",
+      "tail": "方均根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "方法",
+      "tail": "虚警率低于2%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "方法",
+      "tail": "漏报率低于2%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "方法",
+      "tail": "RUL估计误差低于3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "方法",
+      "tail": "平均绝对百分比误差低于3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "方法",
+      "tail": "方均根误差低于1.8",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "随机森林模型",
+      "tail": "敏感性指标高于97%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "随机森林模型",
+      "tail": "特异性指标低于3%",
+      "evaluation": "正确"
+    }
+  ]
+}

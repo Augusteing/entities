@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "Copula相似性"
+    },
+    {
+      "type": "方法",
+      "text": "K-means聚类"
+    },
+    {
+      "type": "模型",
+      "text": "退化模型"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空发动机"
+    },
+    {
+      "type": "技术",
+      "text": "RUL预测"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理"
+    },
+    {
+      "type": "技术",
+      "text": "特征退化"
+    },
+    {
+      "type": "技术",
+      "text": "剩余使用寿命"
+    },
+    {
+      "type": "技术",
+      "text": "非线性"
+    },
+    {
+      "type": "方法",
+      "text": "Copula函数"
+    },
+    {
+      "type": "方法",
+      "text": "线性退化模型"
+    },
+    {
+      "type": "方法",
+      "text": "Kendall秩相关系数"
+    },
+    {
+      "type": "方法",
+      "text": "Akaike信息准则"
+    },
+    {
+      "type": "方法",
+      "text": "两阶段极大似然估计"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA C-MAPSS航空发动机仿真模型数据"
+    },
+    {
+      "type": "传感器",
+      "text": "Ps30"
+    },
+    {
+      "type": "传感器",
+      "text": "T50"
+    },
+    {
+      "type": "传感器",
+      "text": "BPR"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差减少13.053%"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差减少31.328%"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差减少74.602%"
+    },
+    {
+      "type": "方法",
+      "text": "Frank Copula"
+    },
+    {
+      "type": "方法",
+      "text": "Clayton Copula"
+    },
+    {
+      "type": "方法",
+      "text": "Gumbel Copula"
+    },
+    {
+      "type": "方法",
+      "text": "Joe Copula"
+    },
+    {
+      "type": "研究人员",
+      "text": "许先鑫"
+    },
+    {
+      "type": "研究人员",
+      "text": "李娟"
+    },
+    {
+      "type": "研究人员",
+      "text": "孙秀慧"
+    },
+    {
+      "type": "研究人员",
+      "text": "戴洪德"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "from": "Copula相似性",
+      "to": "航空发动机RUL预测"
+    },
+    {
+      "type": "应用于",
+      "from": "K-means聚类",
+      "to": "航空发动机工作状态分类"
+    },
+    {
+      "type": "基于",
+      "from": "Copula函数",
+      "to": "相关性建模分析"
+    },
+    {
+      "type": "构建了",
+      "from": "Copula函数",
+      "to": "Copula结构"
+    },
+    {
+      "type": "实现了",
+      "from": "Copula相似性",
+      "to": "剩余寿命预测"
+    },
+    {
+      "type": "优于",
+      "from": "基于Copula相似性的方法",
+      "to": "传统方法"
+    },
+    {
+      "type": "减少了",
+      "from": "基于Copula相似性的方法",
+      "to": "预测误差"
+    },
+    {
+      "type": "提高了",
+      "from": "基于Copula相似性的方法",
+      "to": "预测精度"
+    },
+    {
+      "type": "选取了",
+      "from": "退化模型",
+      "to": "退化趋势最明显的3组传感器"
+    },
+    {
+      "type": "描述了",
+      "from": "Copula函数",
+      "to": "非线性相关关系"
+    },
+    {
+      "type": "来源于",
+      "from": "实验数据",
+      "to": "NASA C-MAPSS航空发动机仿真模型数据"
+    },
+    {
+      "type": "验证了",
+      "from": "实验分析",
+      "to": "基于Copula相似性的RUL预测方法"
+    },
+    {
+      "type": "比较了",
+      "from": "基于Copula相似性的方法",
+      "to": "传统方法"
+    },
+    {
+      "type": "使用了",
+      "from": "方法",
+      "to": "Kendall秩相关系数作为相似性度量"
+    },
+    {
+      "type": "基于",
+      "from": "秩相关系数",
+      "to": "寿命预测"
+    }
+  ]
+}

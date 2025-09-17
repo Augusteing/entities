@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机载燃油测量系统PHM测试床",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障注入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "数据源匮乏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "NI虚拟仪器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "PXI总线模块仪器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "先进诊断和预测测试床",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机电作动器飞行测试台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "美国国家航空航天局(NASA)埃姆斯研究中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "验证评估平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "故障注入模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "软件故障注入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "硬件故障注入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "边界扫描技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PXI总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "LabVIEW",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Matlab",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "传感器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "开路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "短路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "噪声过大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载燃油测量系统",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "研究对象是",
+      "head": "本文",
+      "tail": "机载燃油测量系统PHM测试床",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机载燃油测量系统PHM测试床",
+      "tail": "NI虚拟仪器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机载燃油测量系统PHM测试床",
+      "tail": "PXI总线模块仪器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "机载燃油测量系统PHM测试床",
+      "tail": "故障注入功能",
+      "evaluation": "错误"
+    },
+    {
+      "type": "解决",
+      "head": "故障注入功能",
+      "tail": "数据源匮乏",
+      "evaluation": "错误"
+    },
+    {
+      "type": "设计了",
+      "head": "美国国家航空航天局(NASA)埃姆斯研究中心",
+      "tail": "先进诊断和预测测试床",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "美国国家航空航天局(NASA)埃姆斯研究中心",
+      "tail": "机电作动器飞行测试台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "机载燃油测量系统PHM测试床",
+      "tail": "验证评估平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "验证评估平台",
+      "tail": "故障注入模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入方法",
+      "tail": "软件故障注入",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入方法",
+      "tail": "硬件故障注入",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入方法",
+      "tail": "边界扫描故障注入",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模拟",
+      "head": "软件故障注入",
+      "tail": "传感器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "软件系统",
+      "tail": "LabVIEW",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "软件系统",
+      "tail": "Matlab",
+      "evaluation": "错误"
+    },
+    {
+      "type": "注入了",
+      "head": "故障注入实验",
+      "tail": "开路",
+      "evaluation": "错误"
+    },
+    {
+      "type": "注入了",
+      "head": "故障注入实验",
+      "tail": "短路",
+      "evaluation": "错误"
+    },
+    {
+      "type": "注入了",
+      "head": "故障注入实验",
+      "tail": "噪声过大",
+      "evaluation": "错误"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "发动机预测与健康管理(EPHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "全权限数字电子控制系统(FADEC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "推进控制与健康管理(PCHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "诊断与健康管理(DHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能维护系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监控和故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测和健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "气路分析和性能趋势跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "滑油和碎屑监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "振动监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "使用和寿命监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "吞咽式监测系统(IDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "发动机损伤监测系统(EDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式后勤信息系统(ALIS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "先进寿命算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "部件状况监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "F117发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "F119发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "F-35/F135发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "C17-T1型飞机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "F-22战斗机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "JSF武器系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "F-35联合攻击机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "SAE ARP 1587B",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统中的费效模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统评估与验证指标体系",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "定期维修方式",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "EPHM系统",
+      "tail": "先进传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "EPHM技术",
+      "tail": "航空发动机维修方式",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "F117发动机EPHM系统",
+      "tail": "推进控制与健康管理(PCHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "F119发动机DHM系统",
+      "tail": "控制系统电子设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "F-35/F135的PHM系统",
+      "tail": "机载和地面部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EPHM系统",
+      "tail": "气路分析和性能趋势跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EPHM系统",
+      "tail": "滑油和碎屑监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EPHM系统",
+      "tail": "振动监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EPHM系统",
+      "tail": "使用和寿命监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "F135发动机的PHM系统",
+      "tail": "寿命预测功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "依据",
+      "head": "EPHM系统",
+      "tail": "SAE ARP 1587B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "依据",
+      "head": "PHM系统中的费效模型",
+      "tail": "PHM系统费效比模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "依据",
+      "head": "EPHM系统评估与验证指标体系",
+      "tail": "EPHM技术",
+      "evaluation": "错误"
+    }
+  ]
+}

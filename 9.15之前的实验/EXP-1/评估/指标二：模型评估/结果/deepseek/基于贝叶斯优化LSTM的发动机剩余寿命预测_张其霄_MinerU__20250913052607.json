@@ -1,0 +1,287 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "贝叶斯优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "长短期记忆网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多层感知机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卷积神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BiLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BHSLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "深度置信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "高斯过程回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯优化LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BiLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BHSLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "深度置信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "提升概率函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Matern协方差函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Z-score",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "评分函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "15.188的RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA涡扇发动机退化数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "剩余使用寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "RUL预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "初始学习率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "隐藏层数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "miniBatchSize",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "maxEpochs",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "优化器sgdm",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM网络",
+      "tail": "循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优化",
+      "head": "贝叶斯优化",
+      "tail": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "LSTM网络",
+      "tail": "时间序列预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "航空发动机剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "贝叶斯优化",
+      "tail": "高斯过程回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "贝叶斯优化",
+      "tail": "提升概率函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "航空发动机剩余寿命预测",
+      "tail": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "15.188的RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "MLP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "SVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "CNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "BiLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "BHSLSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证于",
+      "head": "贝叶斯优化LSTM模型",
+      "tail": "NASA涡扇发动机退化数据集",
+      "evaluation": "正确"
+    }
+  ]
+}

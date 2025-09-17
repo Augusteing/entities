@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "ConceptualIdealforPLM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "美国国家航空航天局（NASA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究人员",
+      "text": "Grieves",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "Gartner",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "洛克希德·马丁公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "GE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "Siemens",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台/系统",
+      "text": "Predix平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台/系统",
+      "text": "Simcenter3D",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "航空航天",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "汽车制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "飞机故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "管道设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "调度优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "管道设备运行维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "几何模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "行为模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "规则模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "结构数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "计算流体力学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "规划/战略",
+      "text": "十大战略科技趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "阿波罗项目",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "美国国家航空航天局（NASA）",
+      "tail": "孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "Grieves",
+      "tail": "ConceptualIdealforPLM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "孪生体",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定义了",
+      "head": "美国国家航空航天局（NASA）",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发布了",
+      "head": "Gartner",
+      "tail": "十大战略科技趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "GE",
+      "tail": "Predix平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "Siemens",
+      "tail": "Simcenter3D",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "航空航天",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "汽车制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "飞机故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "管道设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生体",
+      "tail": "几何模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生体",
+      "tail": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生体",
+      "tail": "行为模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生体",
+      "tail": "规则模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成了",
+      "head": "结构数字孪生体",
+      "tail": "计算流体力学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "调度优化",
+      "tail": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "调度优化",
+      "tail": "人工神经网络",
+      "evaluation": "正确"
+    }
+  ]
+}

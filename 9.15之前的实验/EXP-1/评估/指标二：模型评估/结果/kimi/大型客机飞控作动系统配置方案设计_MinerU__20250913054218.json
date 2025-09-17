@@ -1,0 +1,223 @@
+{
+  "entities": [
+    {
+      "type": "飞机型号",
+      "text": "A320",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B737",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作动器类型",
+      "text": "伺服液压作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作动器类型",
+      "text": "电动静液作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作动器类型",
+      "text": "电备份式液压作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作动器类型",
+      "text": "机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术方案",
+      "text": "3H + E方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "功率电传技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信号光传技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电液伺服作动器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "功率电传作动器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "光传操纵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电传操纵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "高度集成化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "液压高压化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "北京控制工程研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "空中客车公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文件",
+      "text": "国家中长期科学和技术发展规划纲要（2006- 2020年）",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "A320",
+      "tail": "空中客车公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "B737",
+      "tail": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "A380",
+      "tail": "空中客车公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "B787",
+      "tail": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "A320",
+      "tail": "伺服液压作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "A380",
+      "tail": "电动静液作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "A380",
+      "tail": "电备份式液压作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "B787",
+      "tail": "机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "我国大型客机发展目标",
+      "tail": "3H + E方案",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "功率电传技术",
+      "tail": "飞机减重",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "信号光传技术",
+      "tail": "减轻机载设备重量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "高度集成化",
+      "tail": "系统重量减轻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "智能化",
+      "tail": "提高安全性和可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "液压高压化",
+      "tail": "减轻飞机液压系统重量和缩小体积",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "北京航空航天大学",
+      "tail": "飞控作动系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "北京控制工程研究所",
+      "tail": "飞控作动系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指导",
+      "head": "国家中长期科学和技术发展规划纲要（2006- 2020年）",
+      "tail": "大型飞机研制",
+      "evaluation": "正确"
+    }
+  ]
+}

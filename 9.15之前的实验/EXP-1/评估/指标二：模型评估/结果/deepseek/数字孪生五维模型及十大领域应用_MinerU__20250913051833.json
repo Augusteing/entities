@@ -1,0 +1,291 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "数字孪生五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "卫星/空间通信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "发电厂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "复杂机电装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "医疗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "制造车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "物理实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "虚拟实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "孪生数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "连接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "沈阳飞机设计研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京必可测科技股份有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智能制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "结构优化设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "智能管控",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "北航数字孪生技术研究团队",
+      "tail": "数字孪生五维模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "卫星/空间通信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "发电厂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "复杂机电装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "医疗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "制造车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "物理实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "虚拟实体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "孪生数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "连接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "数字孪生",
+      "tail": "智能制造",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "数字孪生",
+      "tail": "工业4.0",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "数字孪生",
+      "tail": "工业互联网",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "数字孪生",
+      "tail": "智慧城市",
+      "evaluation": "错误"
+    },
+    {
+      "type": "开发了",
+      "head": "北京必可测科技股份有限公司",
+      "tail": "电厂智能管控系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "合作",
+      "head": "北航团队",
+      "tail": "沈阳飞机工业集团",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "数字孪生",
+      "tail": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "数字孪生",
+      "tail": "结构优化设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "数字孪生",
+      "tail": "智能管控",
+      "evaluation": "正确"
+    }
+  ]
+}

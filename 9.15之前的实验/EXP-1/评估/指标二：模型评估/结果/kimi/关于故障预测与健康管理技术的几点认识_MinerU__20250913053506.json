@@ -1,0 +1,383 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康状态管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "维修保障策划与自动生成技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合信息自主保障系统技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "大数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能BIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "嵌入式测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "F-35战斗机PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主后勤信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "联合分布式信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "民用飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "直升机健康与使用监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航天飞行器综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "舰船综合状态评估系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "车辆健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "年夫顺",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国电子科技集团有限公司第四十一研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "电子测试技术重点实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "西安交通大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "事后维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "定期维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "基于状态的维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "自主保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "机内测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "机外测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障检修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障隐患预判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "可靠性工作时间预估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "数据交换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息流动",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "故障预测与健康管理技术",
+      "tail": "PHM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "健康状态管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "维修保障策划与自动生成技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM",
+      "tail": "综合信息自主保障系统技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "PHM",
+      "tail": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "PHM",
+      "tail": "大数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "智能BIT",
+      "tail": "故障覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "降低",
+      "head": "智能BIT",
+      "tail": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "F-35战斗机PHM系统",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "F-35战斗机PHM系统",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "F-35战斗机PHM系统",
+      "tail": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "连接",
+      "head": "自主后勤信息系统",
+      "tail": "联合分布式信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "民用飞机健康管理系统",
+      "tail": "民用航空器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "直升机健康与使用监测系统",
+      "tail": "直升机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "航天飞行器综合健康管理",
+      "tail": "航天飞行器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "舰船综合状态评估系统",
+      "tail": "舰船",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "车辆健康管理系统",
+      "tail": "车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工作于",
+      "head": "年夫顺",
+      "tail": "中国电子科技集团有限公司第四十一研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工作于",
+      "head": "年夫顺",
+      "tail": "电子测试技术重点实验室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "毕业于",
+      "head": "年夫顺",
+      "tail": "西安交通大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "替代",
+      "head": "视情维修",
+      "tail": "事后维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "替代",
+      "head": "基于状态的维修",
+      "tail": "定期维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "机内测试",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "补充",
+      "head": "机外测试",
+      "tail": "机内测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目的",
+      "head": "故障隔离",
+      "tail": "故障检修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目的",
+      "head": "故障隐患预判",
+      "tail": "维修决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目的",
+      "head": "可靠性工作时间预估",
+      "tail": "维修决策",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心",
+      "head": "综合信息自主保障系统技术",
+      "tail": "数据交换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心",
+      "head": "综合信息自主保障系统技术",
+      "tail": "信息流动",
+      "evaluation": "正确"
+    }
+  ]
+}

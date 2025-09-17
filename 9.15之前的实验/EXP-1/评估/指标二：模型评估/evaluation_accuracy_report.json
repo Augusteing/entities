@@ -1,0 +1,1309 @@
+{
+  "timestamp": "2025-09-15T21:18:31.020027",
+  "analysis_scope": "50 papers",
+  "models_analyzed": [
+    "deepseek",
+    "gemini",
+    "kimi"
+  ],
+  "detailed_results": {
+    "deepseek": {
+      "papers": {
+        "GJB289A总线网络电气特性仿真及故障分析_郑敬杭_MinerU__20250913054015": {
+          "entities": {
+            "total": 23,
+            "correct": 23,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 41,
+            "correct": 41,
+            "rate": 1.0
+          }
+        },
+        "PHM技术在航空结构疲劳寿命预测中的应用_MinerU__20250913054023": {
+          "entities": {
+            "total": 19,
+            "correct": 19,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 13,
+            "rate": 0.7647058823529411
+          },
+          "overall": {
+            "total": 36,
+            "correct": 32,
+            "rate": 0.8888888888888888
+          }
+        },
+        "后人工智能背景下装备测试研讨会在成都召开_MinerU__20250913053147": {
+          "entities": {
+            "total": 32,
+            "correct": 31,
+            "rate": 0.96875
+          },
+          "relations": {
+            "total": 26,
+            "correct": 25,
+            "rate": 0.9615384615384616
+          },
+          "overall": {
+            "total": 58,
+            "correct": 56,
+            "rate": 0.9655172413793104
+          }
+        },
+        "基于AFDX网络的综合模块化航电故障注入技术_肖皓天_MinerU__20250913052920": {
+          "entities": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 14,
+            "correct": 6,
+            "rate": 0.42857142857142855
+          },
+          "overall": {
+            "total": 32,
+            "correct": 24,
+            "rate": 0.75
+          }
+        },
+        "基于ARIMA模型的民用航空发动机低压转子振动故障分析_MinerU__20250913052923": {
+          "entities": {
+            "total": 65,
+            "correct": 62,
+            "rate": 0.9538461538461539
+          },
+          "relations": {
+            "total": 32,
+            "correct": 12,
+            "rate": 0.375
+          },
+          "overall": {
+            "total": 97,
+            "correct": 74,
+            "rate": 0.7628865979381443
+          }
+        },
+        "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法_MinerU__20250913052931": {
+          "entities": {
+            "total": 22,
+            "correct": 22,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 22,
+            "correct": 7,
+            "rate": 0.3181818181818182
+          },
+          "overall": {
+            "total": 44,
+            "correct": 29,
+            "rate": 0.6590909090909091
+          }
+        },
+        "基于Copula相似性的航空发动机RUL预测_许先鑫_MinerU__20250913052935": {
+          "entities": {
+            "total": 49,
+            "correct": 49,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 16,
+            "correct": 16,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 65,
+            "correct": 65,
+            "rate": 1.0
+          }
+        },
+        "基于EMD和RVM-AR的航空发动机磨损故障预测模型_MinerU__20250913052941": {
+          "entities": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 14,
+            "correct": 11,
+            "rate": 0.7857142857142857
+          },
+          "overall": {
+            "total": 32,
+            "correct": 29,
+            "rate": 0.90625
+          }
+        },
+        "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法_游雅倩_MinerU__20250913052944": {
+          "entities": {
+            "total": 63,
+            "correct": 61,
+            "rate": 0.9682539682539683
+          },
+          "relations": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 81,
+            "correct": 79,
+            "rate": 0.9753086419753086
+          }
+        },
+        "基于KPCA和DBN的航空发动机排气温度基线模型_王奕首_MinerU__20250913052950": {
+          "entities": {
+            "total": 20,
+            "correct": 15,
+            "rate": 0.75
+          },
+          "relations": {
+            "total": 12,
+            "correct": 10,
+            "rate": 0.8333333333333334
+          },
+          "overall": {
+            "total": 32,
+            "correct": 25,
+            "rate": 0.78125
+          }
+        },
+        "基于LSSVM与WNN的燃气轮机状态趋势预测_MinerU__20250913052956": {
+          "entities": {
+            "total": 15,
+            "correct": 15,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 12,
+            "correct": 12,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 27,
+            "correct": 27,
+            "rate": 1.0
+          }
+        },
+        "基于LSTM循环神经网络的故障时间序列预测_MinerU__20250913053007": {
+          "entities": {
+            "total": 28,
+            "correct": 28,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 18,
+            "correct": 14,
+            "rate": 0.7777777777777778
+          },
+          "overall": {
+            "total": 46,
+            "correct": 42,
+            "rate": 0.9130434782608695
+          }
+        },
+        "基于PHM的军机备件配置机制_毛德耀_MinerU__20250913052446": {
+          "entities": {
+            "total": 14,
+            "correct": 13,
+            "rate": 0.9285714285714286
+          },
+          "relations": {
+            "total": 13,
+            "correct": 3,
+            "rate": 0.23076923076923078
+          },
+          "overall": {
+            "total": 27,
+            "correct": 16,
+            "rate": 0.5925925925925926
+          }
+        },
+        "基于PHM的航空装备可用度影响因素分析方法_刘瑞_MinerU__20250913052443": {
+          "entities": {
+            "total": 37,
+            "correct": 34,
+            "rate": 0.918918918918919
+          },
+          "relations": {
+            "total": 22,
+            "correct": 17,
+            "rate": 0.7727272727272727
+          },
+          "overall": {
+            "total": 59,
+            "correct": 51,
+            "rate": 0.864406779661017
+          }
+        },
+        "基于QAR数据的飞行控制系统故障研究综述_MinerU__20250913052449": {
+          "entities": {
+            "total": 85,
+            "correct": 76,
+            "rate": 0.8941176470588236
+          },
+          "relations": {
+            "total": 27,
+            "correct": 16,
+            "rate": 0.5925925925925926
+          },
+          "overall": {
+            "total": 112,
+            "correct": 92,
+            "rate": 0.8214285714285714
+          }
+        },
+        "基于SVM方法的APU故障预测方法_MinerU__20250913052546": {
+          "entities": {
+            "total": 36,
+            "correct": 36,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 34,
+            "correct": 28,
+            "rate": 0.8235294117647058
+          },
+          "overall": {
+            "total": 70,
+            "correct": 64,
+            "rate": 0.9142857142857143
+          }
+        },
+        "机载航电系统射频信道健康表征及影响评估_黄鹤_MinerU__20250913052708": {
+          "entities": {
+            "total": 16,
+            "correct": 16,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 12,
+            "correct": 7,
+            "rate": 0.5833333333333334
+          },
+          "overall": {
+            "total": 28,
+            "correct": 23,
+            "rate": 0.8214285714285714
+          }
+        },
+        "机载预测与健康管理(PHM)系统的体系结构_张亮_MinerU__20250913052915": {
+          "entities": {
+            "total": 30,
+            "correct": 30,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 28,
+            "correct": 28,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 58,
+            "correct": 58,
+            "rate": 1.0
+          }
+        },
+        "航天飞机考虑意外损伤时防热系统的健康管理研究_宣建林_MinerU__20250913053141": {
+          "entities": {
+            "total": 6,
+            "correct": 6,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 6,
+            "correct": 4,
+            "rate": 0.6666666666666666
+          },
+          "overall": {
+            "total": 12,
+            "correct": 10,
+            "rate": 0.8333333333333334
+          }
+        },
+        "航空发动机PHM中的数据挖掘机遇与挑战_MinerU__20250913053529": {
+          "entities": {
+            "total": 43,
+            "correct": 42,
+            "rate": 0.9767441860465116
+          },
+          "relations": {
+            "total": 38,
+            "correct": 9,
+            "rate": 0.23684210526315788
+          },
+          "overall": {
+            "total": 81,
+            "correct": 51,
+            "rate": 0.6296296296296297
+          }
+        },
+        "航空发动机健康参数的卡尔曼滤波估计方法分析_杨振兴_MinerU__20250913053017": {
+          "entities": {
+            "total": 10,
+            "correct": 10,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 8,
+            "correct": 7,
+            "rate": 0.875
+          },
+          "overall": {
+            "total": 18,
+            "correct": 17,
+            "rate": 0.9444444444444444
+          }
+        },
+        "航空发动机健康管理系统功能架构分析与研究_詹轲倚_MinerU__20250913053021": {
+          "entities": {
+            "total": 52,
+            "correct": 51,
+            "rate": 0.9807692307692307
+          },
+          "relations": {
+            "total": 38,
+            "correct": 35,
+            "rate": 0.9210526315789473
+          },
+          "overall": {
+            "total": 90,
+            "correct": 86,
+            "rate": 0.9555555555555556
+          }
+        },
+        "航空发动机增强型机载自适应模型气路故障诊断方法_王灿灿_MinerU__20250913053113": {
+          "entities": {
+            "total": 20,
+            "correct": 18,
+            "rate": 0.9
+          },
+          "relations": {
+            "total": 11,
+            "correct": 11,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 31,
+            "correct": 29,
+            "rate": 0.9354838709677419
+          }
+        },
+        "航空发动机机载健康管理系统设计方法_杨天策_MinerU__20250913053537": {
+          "entities": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 20,
+            "correct": 20,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 45,
+            "correct": 45,
+            "rate": 1.0
+          }
+        }
+      },
+      "summary": {
+        "processed_papers": 24,
+        "total_entities": 746,
+        "correct_entities": 718,
+        "total_relations": 476,
+        "correct_relations": 347,
+        "entity_accuracy": 0.9624664879356568,
+        "relation_accuracy": 0.7289915966386554,
+        "overall_accuracy": 0.8715220949263502
+      }
+    },
+    "gemini": {
+      "papers": {
+        "GJB289A总线网络电气特性仿真及故障分析_郑敬杭_MinerU__20250913054015": {
+          "entities": {
+            "total": 23,
+            "correct": 23,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 12,
+            "correct": 5,
+            "rate": 0.4166666666666667
+          },
+          "overall": {
+            "total": 35,
+            "correct": 28,
+            "rate": 0.8
+          }
+        },
+        "PHM技术在航空结构疲劳寿命预测中的应用_MinerU__20250913054023": {
+          "entities": {
+            "total": 33,
+            "correct": 33,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 51,
+            "correct": 51,
+            "rate": 1.0
+          }
+        },
+        "后人工智能背景下装备测试研讨会在成都召开_MinerU__20250913053147": {
+          "entities": {
+            "total": 29,
+            "correct": 28,
+            "rate": 0.9655172413793104
+          },
+          "relations": {
+            "total": 19,
+            "correct": 19,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 48,
+            "correct": 47,
+            "rate": 0.9791666666666666
+          }
+        },
+        "基于AFDX网络的综合模块化航电故障注入技术_肖皓天_MinerU__20250913052920": {
+          "entities": {
+            "total": 20,
+            "correct": 18,
+            "rate": 0.9
+          },
+          "relations": {
+            "total": 14,
+            "correct": 6,
+            "rate": 0.42857142857142855
+          },
+          "overall": {
+            "total": 34,
+            "correct": 24,
+            "rate": 0.7058823529411765
+          }
+        },
+        "基于ARIMA模型的民用航空发动机低压转子振动故障分析_MinerU__20250913052923": {
+          "entities": {
+            "total": 32,
+            "correct": 32,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 16,
+            "correct": 16,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 48,
+            "correct": 48,
+            "rate": 1.0
+          }
+        },
+        "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法_MinerU__20250913052931": {
+          "entities": {
+            "total": 36,
+            "correct": 36,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 17,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 53,
+            "correct": 53,
+            "rate": 1.0
+          }
+        },
+        "基于Copula相似性的航空发动机RUL预测_许先鑫_MinerU__20250913052935": {
+          "entities": {
+            "total": 23,
+            "correct": 21,
+            "rate": 0.9130434782608695
+          },
+          "relations": {
+            "total": 10,
+            "correct": 9,
+            "rate": 0.9
+          },
+          "overall": {
+            "total": 33,
+            "correct": 30,
+            "rate": 0.9090909090909091
+          }
+        },
+        "基于EMD和RVM-AR的航空发动机磨损故障预测模型_MinerU__20250913052941": {
+          "entities": {
+            "total": 21,
+            "correct": 19,
+            "rate": 0.9047619047619048
+          },
+          "relations": {
+            "total": 14,
+            "correct": 7,
+            "rate": 0.5
+          },
+          "overall": {
+            "total": 35,
+            "correct": 26,
+            "rate": 0.7428571428571429
+          }
+        },
+        "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法_游雅倩_MinerU__20250913052944": {
+          "entities": {
+            "total": 22,
+            "correct": 19,
+            "rate": 0.8636363636363636
+          },
+          "relations": {
+            "total": 9,
+            "correct": 8,
+            "rate": 0.8888888888888888
+          },
+          "overall": {
+            "total": 31,
+            "correct": 27,
+            "rate": 0.8709677419354839
+          }
+        },
+        "基于KPCA和DBN的航空发动机排气温度基线模型_王奕首_MinerU__20250913052950": {
+          "entities": {
+            "total": 26,
+            "correct": 26,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 14,
+            "correct": 11,
+            "rate": 0.7857142857142857
+          },
+          "overall": {
+            "total": 40,
+            "correct": 37,
+            "rate": 0.925
+          }
+        },
+        "基于LSSVM与WNN的燃气轮机状态趋势预测_MinerU__20250913052956": {
+          "entities": {
+            "total": 20,
+            "correct": 20,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 19,
+            "correct": 17,
+            "rate": 0.8947368421052632
+          },
+          "overall": {
+            "total": 39,
+            "correct": 37,
+            "rate": 0.9487179487179487
+          }
+        },
+        "基于LSTM循环神经网络的故障时间序列预测_MinerU__20250913053007": {
+          "entities": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 8,
+            "correct": 7,
+            "rate": 0.875
+          },
+          "overall": {
+            "total": 33,
+            "correct": 32,
+            "rate": 0.9696969696969697
+          }
+        },
+        "基于PHM的军机备件配置机制_毛德耀_MinerU__20250913052446": {
+          "entities": {
+            "total": 27,
+            "correct": 27,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 14,
+            "rate": 0.8235294117647058
+          },
+          "overall": {
+            "total": 44,
+            "correct": 41,
+            "rate": 0.9318181818181818
+          }
+        },
+        "基于PHM的航空装备可用度影响因素分析方法_刘瑞_MinerU__20250913052443": {
+          "entities": {
+            "total": 21,
+            "correct": 20,
+            "rate": 0.9523809523809523
+          },
+          "relations": {
+            "total": 18,
+            "correct": 7,
+            "rate": 0.3888888888888889
+          },
+          "overall": {
+            "total": 39,
+            "correct": 27,
+            "rate": 0.6923076923076923
+          }
+        },
+        "基于QAR数据的飞行控制系统故障研究综述_MinerU__20250913052449": {
+          "entities": {
+            "total": 64,
+            "correct": 60,
+            "rate": 0.9375
+          },
+          "relations": {
+            "total": 31,
+            "correct": 27,
+            "rate": 0.8709677419354839
+          },
+          "overall": {
+            "total": 95,
+            "correct": 87,
+            "rate": 0.9157894736842105
+          }
+        },
+        "基于SVM方法的APU故障预测方法_MinerU__20250913052546": {
+          "entities": {
+            "total": 24,
+            "correct": 24,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 19,
+            "correct": 19,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 43,
+            "correct": 43,
+            "rate": 1.0
+          }
+        },
+        "机载航电系统射频信道健康表征及影响评估_黄鹤_MinerU__20250913052708": {
+          "entities": {
+            "total": 22,
+            "correct": 22,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 19,
+            "correct": 15,
+            "rate": 0.7894736842105263
+          },
+          "overall": {
+            "total": 41,
+            "correct": 37,
+            "rate": 0.9024390243902439
+          }
+        },
+        "机载预测与健康管理(PHM)系统的体系结构_张亮_MinerU__20250913052915": {
+          "entities": {
+            "total": 30,
+            "correct": 30,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 18,
+            "correct": 12,
+            "rate": 0.6666666666666666
+          },
+          "overall": {
+            "total": 48,
+            "correct": 42,
+            "rate": 0.875
+          }
+        },
+        "航天飞机考虑意外损伤时防热系统的健康管理研究_宣建林_MinerU__20250913053141": {
+          "entities": {
+            "total": 23,
+            "correct": 23,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 18,
+            "correct": 6,
+            "rate": 0.3333333333333333
+          },
+          "overall": {
+            "total": 41,
+            "correct": 29,
+            "rate": 0.7073170731707317
+          }
+        },
+        "航空发动机PHM中的数据挖掘机遇与挑战_MinerU__20250913053529": {
+          "entities": {
+            "total": 35,
+            "correct": 29,
+            "rate": 0.8285714285714286
+          },
+          "relations": {
+            "total": 20,
+            "correct": 11,
+            "rate": 0.55
+          },
+          "overall": {
+            "total": 55,
+            "correct": 40,
+            "rate": 0.7272727272727273
+          }
+        },
+        "航空发动机健康参数的卡尔曼滤波估计方法分析_杨振兴_MinerU__20250913053017": {
+          "entities": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 4,
+            "rate": 0.23529411764705882
+          },
+          "overall": {
+            "total": 42,
+            "correct": 29,
+            "rate": 0.6904761904761905
+          }
+        },
+        "航空发动机健康管理系统功能架构分析与研究_詹轲倚_MinerU__20250913053021": {
+          "entities": {
+            "total": 45,
+            "correct": 45,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 20,
+            "correct": 20,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 65,
+            "correct": 65,
+            "rate": 1.0
+          }
+        },
+        "航空发动机增强型机载自适应模型气路故障诊断方法_王灿灿_MinerU__20250913053113": {
+          "entities": {
+            "total": 23,
+            "correct": 23,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 9,
+            "rate": 0.5294117647058824
+          },
+          "overall": {
+            "total": 40,
+            "correct": 32,
+            "rate": 0.8
+          }
+        },
+        "航空发动机机载健康管理系统设计方法_杨天策_MinerU__20250913053537": {
+          "entities": {
+            "total": 45,
+            "correct": 45,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 32,
+            "correct": 9,
+            "rate": 0.28125
+          },
+          "overall": {
+            "total": 77,
+            "correct": 54,
+            "rate": 0.7012987012987013
+          }
+        }
+      },
+      "summary": {
+        "processed_papers": 24,
+        "total_entities": 694,
+        "correct_entities": 673,
+        "total_relations": 416,
+        "correct_relations": 293,
+        "entity_accuracy": 0.9697406340057637,
+        "relation_accuracy": 0.7043269230769231,
+        "overall_accuracy": 0.8702702702702703
+      }
+    },
+    "kimi": {
+      "papers": {
+        "GJB289A总线网络电气特性仿真及故障分析_郑敬杭_MinerU__20250913054015": {
+          "entities": {
+            "total": 19,
+            "correct": 19,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 14,
+            "rate": 0.8235294117647058
+          },
+          "overall": {
+            "total": 36,
+            "correct": 33,
+            "rate": 0.9166666666666666
+          }
+        },
+        "PHM技术在航空结构疲劳寿命预测中的应用_MinerU__20250913054023": {
+          "entities": {
+            "total": 21,
+            "correct": 21,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 17,
+            "correct": 6,
+            "rate": 0.35294117647058826
+          },
+          "overall": {
+            "total": 38,
+            "correct": 27,
+            "rate": 0.7105263157894737
+          }
+        },
+        "后人工智能背景下装备测试研讨会在成都召开_MinerU__20250913053147": {
+          "entities": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 50,
+            "correct": 50,
+            "rate": 1.0
+          }
+        },
+        "基于AFDX网络的综合模块化航电故障注入技术_肖皓天_MinerU__20250913052920": {
+          "entities": {
+            "total": 21,
+            "correct": 21,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 14,
+            "correct": 13,
+            "rate": 0.9285714285714286
+          },
+          "overall": {
+            "total": 35,
+            "correct": 34,
+            "rate": 0.9714285714285714
+          }
+        },
+        "基于ARIMA模型的民用航空发动机低压转子振动故障分析_MinerU__20250913052923": {
+          "entities": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 14,
+            "correct": 2,
+            "rate": 0.14285714285714285
+          },
+          "overall": {
+            "total": 32,
+            "correct": 20,
+            "rate": 0.625
+          }
+        },
+        "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法_MinerU__20250913052931": {
+          "entities": {
+            "total": 17,
+            "correct": 17,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 10,
+            "correct": 9,
+            "rate": 0.9
+          },
+          "overall": {
+            "total": 27,
+            "correct": 26,
+            "rate": 0.9629629629629629
+          }
+        },
+        "基于Copula相似性的航空发动机RUL预测_许先鑫_MinerU__20250913052935": {
+          "entities": {
+            "total": 12,
+            "correct": 11,
+            "rate": 0.9166666666666666
+          },
+          "relations": {
+            "total": 10,
+            "correct": 5,
+            "rate": 0.5
+          },
+          "overall": {
+            "total": 22,
+            "correct": 16,
+            "rate": 0.7272727272727273
+          }
+        },
+        "基于EMD和RVM-AR的航空发动机磨损故障预测模型_MinerU__20250913052941": {
+          "entities": {
+            "total": 15,
+            "correct": 15,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 12,
+            "correct": 12,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 27,
+            "correct": 27,
+            "rate": 1.0
+          }
+        },
+        "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法_游雅倩_MinerU__20250913052944": {
+          "entities": {
+            "total": 9,
+            "correct": 9,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 6,
+            "correct": 6,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 15,
+            "correct": 15,
+            "rate": 1.0
+          }
+        },
+        "基于KPCA和DBN的航空发动机排气温度基线模型_王奕首_MinerU__20250913052950": {
+          "entities": {
+            "total": 10,
+            "correct": 9,
+            "rate": 0.9
+          },
+          "relations": {
+            "total": 10,
+            "correct": 6,
+            "rate": 0.6
+          },
+          "overall": {
+            "total": 20,
+            "correct": 15,
+            "rate": 0.75
+          }
+        },
+        "基于LSSVM与WNN的燃气轮机状态趋势预测_MinerU__20250913052956": {
+          "entities": {
+            "total": 8,
+            "correct": 8,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 7,
+            "correct": 7,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 15,
+            "correct": 15,
+            "rate": 1.0
+          }
+        },
+        "基于LSTM循环神经网络的故障时间序列预测_MinerU__20250913053007": {
+          "entities": {
+            "total": 22,
+            "correct": 22,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 26,
+            "correct": 10,
+            "rate": 0.38461538461538464
+          },
+          "overall": {
+            "total": 48,
+            "correct": 32,
+            "rate": 0.6666666666666666
+          }
+        },
+        "基于PHM的军机备件配置机制_毛德耀_MinerU__20250913052446": {
+          "entities": {
+            "total": 14,
+            "correct": 14,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 10,
+            "correct": 7,
+            "rate": 0.7
+          },
+          "overall": {
+            "total": 24,
+            "correct": 21,
+            "rate": 0.875
+          }
+        },
+        "基于PHM的航空装备可用度影响因素分析方法_刘瑞_MinerU__20250913052443": {
+          "entities": {
+            "total": 14,
+            "correct": 14,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 11,
+            "correct": 11,
+            "rate": 1.0
+          },
+          "overall": {
+            "total": 25,
+            "correct": 25,
+            "rate": 1.0
+          }
+        },
+        "基于QAR数据的飞行控制系统故障研究综述_MinerU__20250913052449": {
+          "entities": {
+            "total": 31,
+            "correct": 29,
+            "rate": 0.9354838709677419
+          },
+          "relations": {
+            "total": 27,
+            "correct": 24,
+            "rate": 0.8888888888888888
+          },
+          "overall": {
+            "total": 58,
+            "correct": 53,
+            "rate": 0.9137931034482759
+          }
+        },
+        "基于SVM方法的APU故障预测方法_MinerU__20250913052546": {
+          "entities": {
+            "total": 38,
+            "correct": 35,
+            "rate": 0.9210526315789473
+          },
+          "relations": {
+            "total": 21,
+            "correct": 14,
+            "rate": 0.6666666666666666
+          },
+          "overall": {
+            "total": 59,
+            "correct": 49,
+            "rate": 0.8305084745762712
+          }
+        },
+        "机载航电系统射频信道健康表征及影响评估_黄鹤_MinerU__20250913052708": {
+          "entities": {
+            "total": 8,
+            "correct": 8,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 7,
+            "correct": 6,
+            "rate": 0.8571428571428571
+          },
+          "overall": {
+            "total": 15,
+            "correct": 14,
+            "rate": 0.9333333333333333
+          }
+        },
+        "机载预测与健康管理(PHM)系统的体系结构_张亮_MinerU__20250913052915": {
+          "entities": {
+            "total": 32,
+            "correct": 31,
+            "rate": 0.96875
+          },
+          "relations": {
+            "total": 31,
+            "correct": 25,
+            "rate": 0.8064516129032258
+          },
+          "overall": {
+            "total": 63,
+            "correct": 56,
+            "rate": 0.8888888888888888
+          }
+        },
+        "航天飞机考虑意外损伤时防热系统的健康管理研究_宣建林_MinerU__20250913053141": {
+          "entities": {
+            "total": 10,
+            "correct": 5,
+            "rate": 0.5
+          },
+          "relations": {
+            "total": 9,
+            "correct": 6,
+            "rate": 0.6666666666666666
+          },
+          "overall": {
+            "total": 19,
+            "correct": 11,
+            "rate": 0.5789473684210527
+          }
+        },
+        "航空发动机PHM中的数据挖掘机遇与挑战_MinerU__20250913053529": {
+          "entities": {
+            "total": 18,
+            "correct": 18,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 13,
+            "correct": 5,
+            "rate": 0.38461538461538464
+          },
+          "overall": {
+            "total": 31,
+            "correct": 23,
+            "rate": 0.7419354838709677
+          }
+        },
+        "航空发动机健康参数的卡尔曼滤波估计方法分析_杨振兴_MinerU__20250913053017": {
+          "entities": {
+            "total": 9,
+            "correct": 9,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 8,
+            "correct": 3,
+            "rate": 0.375
+          },
+          "overall": {
+            "total": 17,
+            "correct": 12,
+            "rate": 0.7058823529411765
+          }
+        },
+        "航空发动机健康管理系统功能架构分析与研究_詹轲倚_MinerU__20250913053021": {
+          "entities": {
+            "total": 23,
+            "correct": 22,
+            "rate": 0.9565217391304348
+          },
+          "relations": {
+            "total": 21,
+            "correct": 14,
+            "rate": 0.6666666666666666
+          },
+          "overall": {
+            "total": 44,
+            "correct": 36,
+            "rate": 0.8181818181818182
+          }
+        },
+        "航空发动机增强型机载自适应模型气路故障诊断方法_王灿灿_MinerU__20250913053113": {
+          "entities": {
+            "total": 7,
+            "correct": 7,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 6,
+            "correct": 1,
+            "rate": 0.16666666666666666
+          },
+          "overall": {
+            "total": 13,
+            "correct": 8,
+            "rate": 0.6153846153846154
+          }
+        },
+        "航空发动机机载健康管理系统设计方法_杨天策_MinerU__20250913053537": {
+          "entities": {
+            "total": 13,
+            "correct": 13,
+            "rate": 1.0
+          },
+          "relations": {
+            "total": 9,
+            "correct": 1,
+            "rate": 0.1111111111111111
+          },
+          "overall": {
+            "total": 22,
+            "correct": 14,
+            "rate": 0.6363636363636364
+          }
+        }
+      },
+      "summary": {
+        "processed_papers": 24,
+        "total_entities": 414,
+        "correct_entities": 400,
+        "total_relations": 341,
+        "correct_relations": 232,
+        "entity_accuracy": 0.966183574879227,
+        "relation_accuracy": 0.6803519061583577,
+        "overall_accuracy": 0.8370860927152318
+      }
+    }
+  },
+  "summary": {
+    "deepseek": {
+      "processed_papers": 24,
+      "total_entities": 746,
+      "correct_entities": 718,
+      "total_relations": 476,
+      "correct_relations": 347,
+      "entity_accuracy": 0.9624664879356568,
+      "relation_accuracy": 0.7289915966386554,
+      "overall_accuracy": 0.8715220949263502
+    },
+    "gemini": {
+      "processed_papers": 24,
+      "total_entities": 694,
+      "correct_entities": 673,
+      "total_relations": 416,
+      "correct_relations": 293,
+      "entity_accuracy": 0.9697406340057637,
+      "relation_accuracy": 0.7043269230769231,
+      "overall_accuracy": 0.8702702702702703
+    },
+    "kimi": {
+      "processed_papers": 24,
+      "total_entities": 414,
+      "correct_entities": 400,
+      "total_relations": 341,
+      "correct_relations": 232,
+      "entity_accuracy": 0.966183574879227,
+      "relation_accuracy": 0.6803519061583577,
+      "overall_accuracy": 0.8370860927152318
+    }
+  }
+}

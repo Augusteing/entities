@@ -1,0 +1,5215 @@
+{
+  "generated_at": "2025-09-14T21:34:02.350209",
+  "min_frequency": 2,
+  "high_frequency": 4,
+  "patterns": [
+    {
+      "template": "方法 → 解决 → 问题",
+      "subject_type": "方法",
+      "relation": "解决",
+      "object_type": "问题",
+      "frequency": 26,
+      "confidence": "high",
+      "examples": [
+        "\"基于CNN和LSTM的剩余寿命预估方法\" → \"航空发动机剩余寿命预估问题\"",
+        "\"MFOP参数分解方法\" → \"MFOP指标无法分解和落实的问题\"",
+        "\"基于Copula相似性的RUL预测方法\" → \"性能退化特征众多问题\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 应用领域",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "应用领域",
+      "frequency": 15,
+      "confidence": "high",
+      "examples": [
+        "\"故障诊断技术\" → \"船舶\"",
+        "\"综合诊断、预测与健康管理(PHM)技术\" → \"军事领域\"",
+        "\"综合诊断、预测与健康管理(PHM)技术\" → \"民用领域\""
+      ]
+    },
+    {
+      "template": "技术 → 提高 → Performance Metric",
+      "subject_type": "技术",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 13,
+      "confidence": "high",
+      "examples": [
+        "\"综合运载器健康管理(IVHM)技术\" → \"可靠性\"",
+        "\"故障预测与管理技术(PHM)\" → \"任务成功率\"",
+        "\"综合运载器健康管理(IVHM)技术\" → \"可维护性\""
+      ]
+    },
+    {
+      "template": "方法 → 提高 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 12,
+      "confidence": "high",
+      "examples": [
+        "\"基于EMD和RVM-AR的预测方法\" → \"Si元素的预测精度\"",
+        "\"基于静电互相关灵敏度加权的气路碎片监测方法\" → \"PHM系统的稳定性\"",
+        "\"基于KPCA和DBN的建模方法\" → \"模型精度\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → Model",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "Model",
+      "frequency": 12,
+      "confidence": "high",
+      "examples": [
+        "\"疲劳寿命预测方法\" → \"失效物理模型\"",
+        "\"故障分析方法\" → \"ARIMA模型\"",
+        "\"故障时间序列预测方法\" → \"LSTM循环神经网络\""
+      ]
+    },
+    {
+      "template": "Model → 应用于 → 应用领域",
+      "subject_type": "Model",
+      "relation": "应用于",
+      "object_type": "应用领域",
+      "frequency": 12,
+      "confidence": "high",
+      "examples": [
+        "\"数字孪生五维模型\" → \"医疗\"",
+        "\"LSTM预测模型\" → \"故障时间序列分析\"",
+        "\"粗糙神经网络\" → \"航空电子设备的维护保障\""
+      ]
+    },
+    {
+      "template": "技术 → 降低 → 成本",
+      "subject_type": "技术",
+      "relation": "降低",
+      "object_type": "成本",
+      "frequency": 11,
+      "confidence": "high",
+      "examples": [
+        "\"综合运载器健康管理(IVHM)技术\" → \"成本\"",
+        "\"PHM技术\" → \"使用和保障费用\"",
+        "\"气路故障诊断技术\" → \"视情维修成本\""
+      ]
+    },
+    {
+      "template": "技术领域 → 包括 → 技术",
+      "subject_type": "技术领域",
+      "relation": "包括",
+      "object_type": "技术",
+      "frequency": 11,
+      "confidence": "high",
+      "examples": [
+        "\"强度设计技术\" → \"结构故障预测与健康管理系统设计\"",
+        "\"强度设计技术\" → \"全机内力分析技术\"",
+        "\"强度设计技术\" → \"复合材料整体化结构分析技术\""
+      ]
+    },
+    {
+      "template": "系统 → 发展趋势为 → 技术趋势",
+      "subject_type": "系统",
+      "relation": "发展趋势为",
+      "object_type": "技术趋势",
+      "frequency": 10,
+      "confidence": "high",
+      "examples": [
+        "\"大型客机飞控作动系统\" → \"液压高压化\"",
+        "\"商用客机液压系统\" → \"分布式\"",
+        "\"商用客机液压系统\" → \"故障诊断及健康管理\""
+      ]
+    },
+    {
+      "template": "方法 → 建立 → Model",
+      "subject_type": "方法",
+      "relation": "建立",
+      "object_type": "Model",
+      "frequency": 10,
+      "confidence": "high",
+      "examples": [
+        "\"民机维修成本效益仿真评估方法\" → \"非计划维修可控模型\"",
+        "\"基于实时报文数据的APU故障预测方法\" → \"多参数故障预测模型\"",
+        "\"UML设计\" → \"用例图\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 领域",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "领域",
+      "frequency": 10,
+      "confidence": "high",
+      "examples": [
+        "\"智能技术\" → \"生产制造优化\"",
+        "\"智能技术\" → \"管理效率提升\"",
+        "\"智能技术\" → \"个性服务定制\""
+      ]
+    },
+    {
+      "template": "Model → 用于 → 任务",
+      "subject_type": "Model",
+      "relation": "用于",
+      "object_type": "任务",
+      "frequency": 10,
+      "confidence": "high",
+      "examples": [
+        "\"遗传算法-小波神经网络模型\" → \"飞机引气系统故障预测\"",
+        "\"Caps-BiGRU-Attention模型\" → \"故障模式识别\"",
+        "\"Caps-BiGRU-Attention模型\" → \"扭矩裕度预测\""
+      ]
+    },
+    {
+      "template": "系统 → 具有 → 属性",
+      "subject_type": "系统",
+      "relation": "具有",
+      "object_type": "属性",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"下一代大型客机航电系统\" → \"研究方向\"",
+        "\"飞机电源系统\" → \"故障特点\"",
+        "\"飞机电源健康管理系统\" → \"设计架构\""
+      ]
+    },
+    {
+      "template": "装备类别 → 包含 → 装备",
+      "subject_type": "装备类别",
+      "relation": "包含",
+      "object_type": "装备",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"关键技术装备\" → \"汽车\"",
+        "\"关键技术装备\" → \"工程机械\"",
+        "\"关键技术装备\" → \"国防武器装备\""
+      ]
+    },
+    {
+      "template": "方法 → 包含 → 方法",
+      "subject_type": "方法",
+      "relation": "包含",
+      "object_type": "方法",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"风险预测方法\" → \"风险因子计算方法\"",
+        "\"风险预测方法\" → \"飞行风险计算方法\"",
+        "\"飞机金属结构疲劳分析方法\" → \"唯象疲劳分析方法\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 技术",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "技术",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"灰色故障识别方法\" → \"灰色关联分析\"",
+        "\"系统集成方法\" → \"面向服务的架构(SOA)\"",
+        "\"基于时序分解的组合预测方法\" → \"时间序列分解\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 关键技术",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "关键技术",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"APHM\" → \"故障预测\"",
+        "\"APHM\" → \"健康评估\"",
+        "\"APHM\" → \"系统维护\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 应用",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "应用",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"数字孪生体\" → \"管道全生命周期管理\"",
+        "\"数字孪生体\" → \"产品设计\"",
+        "\"数字孪生体\" → \"飞机故障预测\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 技术领域",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "技术领域",
+      "frequency": 9,
+      "confidence": "high",
+      "examples": [
+        "\"大型客机航电系统\" → \"综合监视\"",
+        "\"大型客机航电系统\" → \"机载数据链\"",
+        "\"大型客机航电系统\" → \"航电系统综合集成\""
+      ]
+    },
+    {
+      "template": "技术 → 包含 → 方法",
+      "subject_type": "技术",
+      "relation": "包含",
+      "object_type": "方法",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"数据挖掘技术\" → \"证据理论\"",
+        "\"数据挖掘技术\" → \"时间序列分析\"",
+        "\"数据挖掘技术\" → \"遗传算法\""
+      ]
+    },
+    {
+      "template": "方法 → 优于 → 方法",
+      "subject_type": "方法",
+      "relation": "优于",
+      "object_type": "方法",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"基于CNN和LSTM的剩余寿命预估方法\" → \"此前提出的方法\"",
+        "\"基于Copula相似性的RUL预测方法\" → \"传统方法\"",
+        "\"基于KPCA和DBN的建模方法\" → \"传统神经网络建模方法\""
+      ]
+    },
+    {
+      "template": "技术 → 具有 → 属性",
+      "subject_type": "技术",
+      "relation": "具有",
+      "object_type": "属性",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"使用寿命监视\" → \"功能结构\"",
+        "\"使用寿命监视\" → \"发展现状\"",
+        "\"使用寿命监视\" → \"未来趋势\""
+      ]
+    },
+    {
+      "template": "技术 → 解决 → 问题",
+      "subject_type": "技术",
+      "relation": "解决",
+      "object_type": "问题",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测技术\" → \"全寿命周期费用\"",
+        "\"故障预测技术\" → \"经济可承受性\"",
+        "\"Dropout机制\" → \"过拟合问题\""
+      ]
+    },
+    {
+      "template": "流程 → 包含 → 环节",
+      "subject_type": "流程",
+      "relation": "包含",
+      "object_type": "环节",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"寿命预计流程\" → \"控制点选择\"",
+        "\"寿命预计流程\" → \"飞行参数筛选\"",
+        "\"寿命预计流程\" → \"载荷/应变方程构建\""
+      ]
+    },
+    {
+      "template": "方法 → 用于 → 任务",
+      "subject_type": "方法",
+      "relation": "用于",
+      "object_type": "任务",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"双向长短期记忆(LSTM)神经网络\" → \"航空发动机故障预测\"",
+        "\"基于Copula相似性的RUL预测方法\" → \"航空发动机剩余寿命预测\"",
+        "\"蒙特卡罗仿真方法\" → \"对比仿真验证\""
+      ]
+    },
+    {
+      "template": "保障系统 → 存在缺陷 → 缺陷",
+      "subject_type": "保障系统",
+      "relation": "存在缺陷",
+      "object_type": "缺陷",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"F-35自主式保障系统\" → \"备件管理混乱\"",
+        "\"F-35自主式保障系统\" → \"信息系统自动化程度有限\"",
+        "\"F-35自主式保障系统\" → \"所需数据不完整或错误\""
+      ]
+    },
+    {
+      "template": "方法 → 存在问题 → 问题",
+      "subject_type": "方法",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 8,
+      "confidence": "high",
+      "examples": [
+        "\"深度学习\" → \"模型可解释性差\"",
+        "\"深度学习\" → \"理论基础薄弱\"",
+        "\"传统离线校准方法\" → \"反复拆装耗时长\""
+      ]
+    },
+    {
+      "template": "Model → 提高 → Performance Metric",
+      "subject_type": "Model",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"遗传算法-小波神经网络模型\" → \"预测精度\"",
+        "\"Caps-BiGRU-Attention模型\" → \"故障诊断准确率\"",
+        "\"多参数故障预测模型\" → \"预测正确率\""
+      ]
+    },
+    {
+      "template": "技术 → 实现 → 功能",
+      "subject_type": "技术",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测与管理技术(PHM)\" → \"状态评估\"",
+        "\"故障预测与管理技术(PHM)\" → \"诊断\"",
+        "\"故障预测与管理技术(PHM)\" → \"预测\""
+      ]
+    },
+    {
+      "template": "系统 → 实现 → 目标",
+      "subject_type": "系统",
+      "relation": "实现",
+      "object_type": "目标",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"机载设备维护管理系统\" → \"机载设备全生命周期的高效维护和管理\"",
+        "\"基于SOA的航空发动机健康管理系统\" → \"资源共享\"",
+        "\"基于SOA的航空发动机健康管理系统\" → \"航空发动机全生命周期的健康管理\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 方法",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "方法",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"故障分析方法\" → \"回归分析\"",
+        "\"面向对象设计方法\" → \"统一建模语言(UML)\"",
+        "\"飞机液压泵故障预测方法\" → \"模糊综合评判\""
+      ]
+    },
+    {
+      "template": "方法 → 实现 → 任务",
+      "subject_type": "方法",
+      "relation": "实现",
+      "object_type": "任务",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"基于RF-SVR的估计方法\" → \"性能衰退检测\"",
+        "\"基于RF-SVR的估计方法\" → \"剩余使用寿命估计\"",
+        "\"贝叶斯网络\" → \"故障诊断与故障部件定位\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 系统",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "系统",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"PHM技术\" → \"任务系统\"",
+        "\"PHM技术\" → \"航空电子系统\"",
+        "\"故障预测和健康管理技术\" → \"武器装备系统\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 行业",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "行业",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"数字孪生体\" → \"汽车制造\"",
+        "\"数字孪生体\" → \"军事\"",
+        "\"数字孪生体\" → \"能源\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 设备",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "设备",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测与健康管理技术(PHM)\" → \"车辆\"",
+        "\"故障预测与健康管理技术(PHM)\" → \"航天飞行器\"",
+        "\"故障预测与健康管理技术(PHM)\" → \"飞机发动机\""
+      ]
+    },
+    {
+      "template": "核心系统 → 需要 → 关键技术",
+      "subject_type": "核心系统",
+      "relation": "需要",
+      "object_type": "关键技术",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"航空发动机\" → \"推力矢量\"",
+        "\"航空发动机\" → \"综合控温\"",
+        "\"航空发动机\" → \"转子结构系统稳健性\""
+      ]
+    },
+    {
+      "template": "研究机构 → 研究方向为 → 研究方向",
+      "subject_type": "研究机构",
+      "relation": "研究方向为",
+      "object_type": "研究方向",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"可靠性工程四川省重点实验室\" → \"复杂装备维修性分析及维护决策\"",
+        "\"可靠性工程四川省重点实验室\" → \"大型复杂装备的可靠性建模、分析与评估\"",
+        "\"可靠性工程四川省重点实验室\" → \"复杂装备的可靠性设计\""
+      ]
+    },
+    {
+      "template": "技术体系 → 包含 → 关键技术",
+      "subject_type": "技术体系",
+      "relation": "包含",
+      "object_type": "关键技术",
+      "frequency": 7,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测与健康管理技术体系架构\" → \"维修决策\"",
+        "\"故障预测与健康管理技术体系架构\" → \"故障模型\"",
+        "\"故障预测与健康管理技术体系架构\" → \"综合诊断\""
+      ]
+    },
+    {
+      "template": "系统 → 存在 → 问题",
+      "subject_type": "系统",
+      "relation": "存在",
+      "object_type": "问题",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"军用飞机PHM系统\" → \"准确率低\"",
+        "\"军用飞机PHM系统\" → \"设计标准缺失\"",
+        "\"飞机高升力系统\" → \"技术问题\""
+      ]
+    },
+    {
+      "template": "Model → 优于 → Model",
+      "subject_type": "Model",
+      "relation": "优于",
+      "object_type": "Model",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"双向LSTM故障预测模型\" → \"GRU\"",
+        "\"双向LSTM故障预测模型\" → \"LSTM时间序列模型\"",
+        "\"免疫神经网络\" → \"BP网络\""
+      ]
+    },
+    {
+      "template": "系统 → 预报 → 事件",
+      "subject_type": "系统",
+      "relation": "预报",
+      "object_type": "事件",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"飞机健康管理系统\" → \"故障\""
+      ]
+    },
+    {
+      "template": "系统 → 依赖 → 关键技术",
+      "subject_type": "系统",
+      "relation": "依赖",
+      "object_type": "关键技术",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"健康管理系统\" → \"地面实时监控技术\"",
+        "\"健康管理系统\" → \"趋势分析及预测方法\"",
+        "\"健康管理系统\" → \"剩余寿命预测方法\""
+      ]
+    },
+    {
+      "template": "核心技术 → 包含 → 关键技术",
+      "subject_type": "核心技术",
+      "relation": "包含",
+      "object_type": "关键技术",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"海量数据挖掘\" → \"关联\"",
+        "\"海量数据挖掘\" → \"数据预处理\"",
+        "\"海量数据挖掘\" → \"集成管理\""
+      ]
+    },
+    {
+      "template": "系统 → 提升 → Performance Metric",
+      "subject_type": "系统",
+      "relation": "提升",
+      "object_type": "Performance Metric",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"航空发动机健康管理系统\" → \"可靠性\"",
+        "\"电力系统\" → \"飞机综合性能\"",
+        "\"大型客机航电系统\" → \"大型客机安全性\""
+      ]
+    },
+    {
+      "template": "技术 → 包含方法 → 方法",
+      "subject_type": "技术",
+      "relation": "包含方法",
+      "object_type": "方法",
+      "frequency": 6,
+      "confidence": "high",
+      "examples": [
+        "\"发动机气路故障诊断\" → \"基于信息融合的诊断方法\"",
+        "\"气路故障诊断\" → \"基于数学模型的方法\"",
+        "\"气路故障诊断\" → \"数据驱动的方法\""
+      ]
+    },
+    {
+      "template": "系统 → 确保 → Performance Metric",
+      "subject_type": "系统",
+      "relation": "确保",
+      "object_type": "Performance Metric",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"PHM系统\" → \"高安全性\"",
+        "\"PHM系统\" → \"高维修保障性\"",
+        "\"直升机旋翼系统\" → \"直升机可靠性\""
+      ]
+    },
+    {
+      "template": "概念 → 应用于 → 生命周期阶段",
+      "subject_type": "概念",
+      "relation": "应用于",
+      "object_type": "生命周期阶段",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"数字孪生卫星\" → \"网络运维管理\"",
+        "\"数字孪生卫星\" → \"卫星总体设计\"",
+        "\"数字孪生卫星\" → \"详细设计\""
+      ]
+    },
+    {
+      "template": "方法 → 分配 → 功能",
+      "subject_type": "方法",
+      "relation": "分配",
+      "object_type": "功能",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"功能分配方法\" → \"趋势分析功能\"",
+        "\"功能分配方法\" → \"寿命管理功能\""
+      ]
+    },
+    {
+      "template": "系统/技术 → 应用于 → 飞机型号",
+      "subject_type": "系统/技术",
+      "relation": "应用于",
+      "object_type": "飞机型号",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"数字式系统\" → \"波音767\"",
+        "\"数字式系统\" → \"A320飞机\"",
+        "\"数字式系统\" → \"波音737\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 系统",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "系统",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测算法\" → \"飞机水/废水系统\"",
+        "\"粒子群粗糙集约简的故障诊断方法\" → \"飞机发动机\"",
+        "\"基于数据的建模方法\" → \"液压泵PHM系统\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 应用领域",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "应用领域",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"PHM验证和确认方法\" → \"机电/动力PHM\"",
+        "\"PHM方法\" → \"导弹维修保障\"",
+        "\"蒙特卡罗模拟方法\" → \"航空发动机故障风险预测\""
+      ]
+    },
+    {
+      "template": "算法 → 包含 → 算法层",
+      "subject_type": "算法",
+      "relation": "包含",
+      "object_type": "算法层",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"人工蜂群故障预测算法\" → \"自注意力层\"",
+        "\"人工蜂群故障预测算法\" → \"输出层\""
+      ]
+    },
+    {
+      "template": "数据 → 包括 → 参数",
+      "subject_type": "数据",
+      "relation": "包括",
+      "object_type": "参数",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"QAR数据项\" → \"飞机性能\"",
+        "\"QAR数据项\" → \"左右襟翼角度\"",
+        "\"QAR数据项\" → \"襟翼位置\""
+      ]
+    },
+    {
+      "template": "方法 → 实现 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "实现",
+      "object_type": "Performance Metric",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"LSSVM与WNN组合预测方法\" → \"0.12%相对误差\"",
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"均方根误差为0.008\"",
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"相对误差均值为0.9%\""
+      ]
+    },
+    {
+      "template": "测试设备 → 发展趋势为 → 特性",
+      "subject_type": "测试设备",
+      "relation": "发展趋势为",
+      "object_type": "特性",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"二线测试设备\" → \"耐用\"",
+        "\"二线测试设备\" → \"综合化高\"",
+        "\"二线测试设备\" → \"通用性强\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 子系统",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "子系统",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"飞行控制系统\" → \"襟翼\"",
+        "\"飞行控制系统\" → \"方向舵\"",
+        "\"飞机液压泵源预测与健康管理系统\" → \"机载液压泵源健康监测系统\""
+      ]
+    },
+    {
+      "template": "算法 → 估计 → 参数",
+      "subject_type": "算法",
+      "relation": "估计",
+      "object_type": "参数",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"无味卡尔曼滤波\" → \"健康参数\"",
+        "\"卡尔曼滤波器\" → \"健康参数\"",
+        "\"扩展卡尔曼滤波器\" → \"健康参数\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 飞机型号",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "飞机型号",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"智能材料和标签\" → \"波音787\""
+      ]
+    },
+    {
+      "template": "机构 → 参加 → 会议",
+      "subject_type": "机构",
+      "relation": "参加",
+      "object_type": "会议",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"哈尔滨工业大学\" → \"2017预测与健康管理(PHM)研讨会\"",
+        "\"浙江大学\" → \"2017预测与健康管理(PHM)研讨会\"",
+        "\"北京航空航天大学\" → \"2017预测与健康管理(PHM)研讨会\""
+      ]
+    },
+    {
+      "template": "技术 → 具有 → 概念",
+      "subject_type": "技术",
+      "relation": "具有",
+      "object_type": "概念",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测与健康管理技术(PHM)\" → \"基本概念与内涵\"",
+        "\"航空发动机气路故障诊断技术\" → \"发展趋势\"",
+        "\"航空大数据技术\" → \"发展趋势\""
+      ]
+    },
+    {
+      "template": "问题 → 体现在 → 瓶颈问题领域",
+      "subject_type": "问题",
+      "relation": "体现在",
+      "object_type": "瓶颈问题领域",
+      "frequency": 5,
+      "confidence": "high",
+      "examples": [
+        "\"瓶颈问题\" → \"装备测试性设计与验证\"",
+        "\"瓶颈问题\" → \"多源故障信息交互与管理\"",
+        "\"瓶颈问题\" → \"寿命预测与维修支持\""
+      ]
+    },
+    {
+      "template": "Model → 结合 → 理论",
+      "subject_type": "Model",
+      "relation": "结合",
+      "object_type": "理论",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"混沌神经网络模型\" → \"混沌序列的相空间重构理论\"",
+        "\"混沌神经网络模型\" → \"BP神经网络预测理论\"",
+        "\"多参数快速故障诊断模型\" → \"粗糙集\""
+      ]
+    },
+    {
+      "template": "方法 → 存在 → 问题",
+      "subject_type": "方法",
+      "relation": "存在",
+      "object_type": "问题",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"基于裂纹的监测方法\" → \"应用限制因素\"",
+        "\"传统健康管理方式\" → \"知识不完备\"",
+        "\"传统健康管理方式\" → \"数据不平衡\""
+      ]
+    },
+    {
+      "template": "方法 → 用于 → 技术",
+      "subject_type": "方法",
+      "relation": "用于",
+      "object_type": "技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"改进C-C平均方法\" → \"相空间重构\"",
+        "\"小波变换\" → \"故障特征提取\"",
+        "\"傅里叶变换\" → \"故障特征提取\""
+      ]
+    },
+    {
+      "template": "方法 → 具有 → 优点",
+      "subject_type": "方法",
+      "relation": "具有",
+      "object_type": "优点",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"梯次推理获益原则的产生式规则知识表示方法\" → \"较高的执行效率\"",
+        "\"梯次推理获益原则的产生式规则知识表示方法\" → \"较好的推理效果\"",
+        "\"神经网络方法\" → \"非线性逼近能力强\""
+      ]
+    },
+    {
+      "template": "研究领域 → 分为 → 研究阶段",
+      "subject_type": "研究领域",
+      "relation": "分为",
+      "object_type": "研究阶段",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"故障研究\" → \"故障预测\""
+      ]
+    },
+    {
+      "template": "模型输入 → 包含 → 数据",
+      "subject_type": "模型输入",
+      "relation": "包含",
+      "object_type": "数据",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"输入向量\" → \"密封有效期间的起落次数\"",
+        "\"输入向量\" → \"总起落次数\"",
+        "\"输入向量\" → \"运行环境影响因子\""
+      ]
+    },
+    {
+      "template": "算法 → 提高 → Performance Metric",
+      "subject_type": "算法",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"SDQ算法\" → \"故障隔离平均正确率\"",
+        "\"SDQ算法\" → \"传感器信号平均信噪比\"",
+        "\"改进GRU的自注意力优化算法\" → \"预测精度\""
+      ]
+    },
+    {
+      "template": "系统 → 提高 → Performance Metric",
+      "subject_type": "系统",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"机内自测试(BIT)系统\" → \"航空电子系统可靠性\"",
+        "\"机内自测试(BIT)系统\" → \"航空电子系统可测试性\"",
+        "\"修正系统\" → \"性能估计的准确度\""
+      ]
+    },
+    {
+      "template": "高校 → 参加 → 会议",
+      "subject_type": "高校",
+      "relation": "参加",
+      "object_type": "会议",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"电子科技大学\" → \"2020预测与健康管理(PHM)研讨会\"",
+        "\"四川大学\" → \"2020预测与健康管理(PHM)研讨会\"",
+        "\"北京航空航天大学\" → \"2020预测与健康管理(PHM)研讨会\""
+      ]
+    },
+    {
+      "template": "Model → 基于 → 方法",
+      "subject_type": "Model",
+      "relation": "基于",
+      "object_type": "方法",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测模型\" → \"双向长短期记忆(LSTM)神经网络\"",
+        "\"混沌神经网络模型\" → \"时间序列预测\"",
+        "\"硬件损伤发展模型\" → \"线性退化轨道\""
+      ]
+    },
+    {
+      "template": "影响因素 → 影响 → Performance Metric",
+      "subject_type": "影响因素",
+      "relation": "影响",
+      "object_type": "Performance Metric",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"系统重构\" → \"无维修工作期\"",
+        "\"基本可靠性\" → \"无维修工作期\"",
+        "\"冗余设计\" → \"无维修工作期\""
+      ]
+    },
+    {
+      "template": "任务 → 使用 → 计算方法",
+      "subject_type": "任务",
+      "relation": "使用",
+      "object_type": "计算方法",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"故障分析\" → \"逻辑推理\"",
+        "\"故障分析\" → \"多变量统计\"",
+        "\"故障分析\" → \"机器学习\""
+      ]
+    },
+    {
+      "template": "技术 → 用于 → 应用",
+      "subject_type": "技术",
+      "relation": "用于",
+      "object_type": "应用",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"PHM技术\" → \"疲劳寿命预测\"",
+        "\"飞机结构健康监测技术\" → \"结构健康状况预判\"",
+        "\"飞机结构健康监测技术\" → \"辅助维修与维护决策\""
+      ]
+    },
+    {
+      "template": "问题 → 原因为 → 原因",
+      "subject_type": "问题",
+      "relation": "原因为",
+      "object_type": "原因",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"F-35自主式保障系统缺陷\" → \"保障管理方面的政策法规不完备\"",
+        "\"F-35自主式保障系统缺陷\" → \"全球供应链建设方面的困难估计不足\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 组件",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "组件",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"云环境下的发动机健康管理系统\" → \"发动机健康管理云端数据中心\"",
+        "\"直升机健康管理系统\" → \"HUMS处理单元\"",
+        "\"直升机健康管理系统\" → \"地面站\""
+      ]
+    },
+    {
+      "template": "飞机型号 → 采用 → 系统/技术",
+      "subject_type": "飞机型号",
+      "relation": "采用",
+      "object_type": "系统/技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"DC-9\" → \"机械和模拟系统\"",
+        "\"经典型波音737\" → \"机械和模拟系统\"",
+        "\"MD-80\" → \"机械和模拟系统\""
+      ]
+    },
+    {
+      "template": "技术领域 → 未来发展方向 → 研究方向",
+      "subject_type": "技术领域",
+      "relation": "未来发展方向",
+      "object_type": "研究方向",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"气路故障诊断\" → \"信息融合\"",
+        "\"气路故障诊断\" → \"过渡态气路故障诊断\""
+      ]
+    },
+    {
+      "template": "任务 → 包含方法 → 方法",
+      "subject_type": "任务",
+      "relation": "包含方法",
+      "object_type": "方法",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"电子系统故障预测\" → \"特征参数法\"",
+        "\"电子系统故障预测\" → \"预警电路\"",
+        "\"电子系统故障预测\" → \"累积损伤模型法\""
+      ]
+    },
+    {
+      "template": "维修模式 → 包含 → 关键技术",
+      "subject_type": "维修模式",
+      "relation": "包含",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"航空预测性维修\" → \"航空健康监测\"",
+        "\"航空预测性维修\" → \"故障诊断\"",
+        "\"航空预测性维修\" → \"失效预测\""
+      ]
+    },
+    {
+      "template": "类别 → 包括 → 数据",
+      "subject_type": "类别",
+      "relation": "包括",
+      "object_type": "数据",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"数据源类型\" → \"机载设备数据\""
+      ]
+    },
+    {
+      "template": "体系结构 → 具有 → 特征",
+      "subject_type": "体系结构",
+      "relation": "具有",
+      "object_type": "特征",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"典型PHM体系结构\" → \"共性特征\"",
+        "\"面向服务的装甲装备PHM体系结构\" → \"分布式特点\"",
+        "\"面向服务的装甲装备PHM体系结构\" → \"层次化特点\""
+      ]
+    },
+    {
+      "template": "体系结构 → 满足 → 要求",
+      "subject_type": "体系结构",
+      "relation": "满足",
+      "object_type": "要求",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"PHM体系结构\" → \"可进化要求\"",
+        "\"PHM体系结构\" → \"标准化要求\"",
+        "\"PHM体系结构\" → \"开放性要求\""
+      ]
+    },
+    {
+      "template": "方案 → 包含 → 方法",
+      "subject_type": "方案",
+      "relation": "包含",
+      "object_type": "方法",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"系统解决方案\" → \"部件级故障模式分析\"",
+        "\"系统解决方案\" → \"模糊神经网络故障诊断方法\"",
+        "\"系统解决方案\" → \"系统级故障预测\""
+      ]
+    },
+    {
+      "template": "Model → 包含 → 子系统模型",
+      "subject_type": "Model",
+      "relation": "包含",
+      "object_type": "子系统模型",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"滑油系统仿真模型\" → \"回油子系统模型\""
+      ]
+    },
+    {
+      "template": "技术 → 践行 → 理念",
+      "subject_type": "技术",
+      "relation": "践行",
+      "object_type": "理念",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"数字孪生\" → \"工业互联网\"",
+        "\"数字孪生\" → \"工业4.0\"",
+        "\"数字孪生\" → \"智慧城市\""
+      ]
+    },
+    {
+      "template": "领域 → 包含关键技术 → 关键技术",
+      "subject_type": "领域",
+      "relation": "包含关键技术",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"PHM\" → \"智能故障诊断算法\"",
+        "\"PHM\" → \"机载健康管理传感器网络\"",
+        "\"PHM\" → \"故障预测算法\""
+      ]
+    },
+    {
+      "template": "活动 → 提高 → Performance Metric",
+      "subject_type": "活动",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"实时运行监控\" → \"航班正点率\"",
+        "\"实时运行监控\" → \"飞机利用率\"",
+        "\"健康管理\" → \"飞机可靠性\""
+      ]
+    },
+    {
+      "template": "装备 → 要求 → Performance Metric",
+      "subject_type": "装备",
+      "relation": "要求",
+      "object_type": "Performance Metric",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"新一代先进战斗机\" → \"多功能\"",
+        "\"新一代先进战斗机\" → \"高承载\""
+      ]
+    },
+    {
+      "template": "装备 → 要求 → 性能要求",
+      "subject_type": "装备",
+      "relation": "要求",
+      "object_type": "性能要求",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"先进战机\" → \"长寿命\"",
+        "\"先进战机\" → \"良好维护性\""
+      ]
+    },
+    {
+      "template": "技术领域 → 需要研究 → 关键技术",
+      "subject_type": "技术领域",
+      "relation": "需要研究",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"军用飞机PHM技术\" → \"测试性试验技术\"",
+        "\"军用飞机PHM技术\" → \"智能信息处理与融合技术\"",
+        "\"军用飞机PHM技术\" → \"航空装备与信息标准化管理技术\""
+      ]
+    },
+    {
+      "template": "技术领域 → 包含 → 技术组成",
+      "subject_type": "技术领域",
+      "relation": "包含",
+      "object_type": "技术组成",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"故障预测与健康管理(PHM)技术\" → \"验证评估\"",
+        "\"故障预测与健康管理(PHM)技术\" → \"数据采集与运用\"",
+        "\"故障预测与健康管理(PHM)技术\" → \"系统状态监测与故障预测\""
+      ]
+    },
+    {
+      "template": "设计 → 满足 → 要求",
+      "subject_type": "设计",
+      "relation": "满足",
+      "object_type": "要求",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"体系结构\" → \"层次化\"",
+        "\"体系结构\" → \"模块化\"",
+        "\"体系结构\" → \"开放性\""
+      ]
+    },
+    {
+      "template": "软件 → 具有 → 需求",
+      "subject_type": "软件",
+      "relation": "具有",
+      "object_type": "需求",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"综合化航空电子系统软件\" → \"完整性需求\"",
+        "\"综合化航空电子系统软件\" → \"安全性需求\"",
+        "\"综合化航空电子系统软件\" → \"实时性需求\""
+      ]
+    },
+    {
+      "template": "技术 → 包含 → 管理方法",
+      "subject_type": "技术",
+      "relation": "包含",
+      "object_type": "管理方法",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"系统管理技术\" → \"安全管理\"",
+        "\"系统管理技术\" → \"故障管理\"",
+        "\"系统管理技术\" → \"配置管理\""
+      ]
+    },
+    {
+      "template": "动力系统 → 采用 → 关键技术",
+      "subject_type": "动力系统",
+      "relation": "采用",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"第四代发动机\" → \"热管理技术\"",
+        "\"第四代发动机\" → \"高推重比技术\"",
+        "\"第四代发动机\" → \"隐身技术\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 组成部分",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "组成部分",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"PHM系统\" → \"功能要素\"",
+        "\"PHM系统\" → \"基础资源要素\"",
+        "\"PHM系统\" → \"状态策略\""
+      ]
+    },
+    {
+      "template": "研究活动 → 包含维度 → 维度",
+      "subject_type": "研究活动",
+      "relation": "包含维度",
+      "object_type": "维度",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"分析研究工作\" → \"飞机层级\"",
+        "\"分析研究工作\" → \"系统层级\"",
+        "\"分析研究工作\" → \"关键部件技术\""
+      ]
+    },
+    {
+      "template": "体系结构 → 包含 → 层级",
+      "subject_type": "体系结构",
+      "relation": "包含",
+      "object_type": "层级",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"层次化体系结构\" → \"平台级PHM\""
+      ]
+    },
+    {
+      "template": "技术 → 包含 → 关键技术",
+      "subject_type": "技术",
+      "relation": "包含",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"航空电子预测与健康管理(PHM)\" → \"应力损伤评估\"",
+        "\"航空电子预测与健康管理(PHM)\" → \"故障先兆\"",
+        "\"航空电子预测与健康管理(PHM)\" → \"预警电路(canary)\""
+      ]
+    },
+    {
+      "template": "技术 → 包含 → 功能",
+      "subject_type": "技术",
+      "relation": "包含",
+      "object_type": "功能",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"PHM\" → \"故障预测\"",
+        "\"PHM\" → \"综合化系统检测\"",
+        "\"PHM\" → \"健康管理\""
+      ]
+    },
+    {
+      "template": "组件 → 存在问题 → 问题",
+      "subject_type": "组件",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"航空柱塞泵\" → \"预测准确率低\"",
+        "\"航空柱塞泵\" → \"故障频率高\"",
+        "\"航空柱塞泵\" → \"故障溯源难度大\""
+      ]
+    },
+    {
+      "template": "技术 → 运用 → 技术",
+      "subject_type": "技术",
+      "relation": "运用",
+      "object_type": "技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"设计制造服务一体化技术\" → \"云计算\"",
+        "\"设计制造服务一体化技术\" → \"传感技术\"",
+        "\"设计制造服务一体化技术\" → \"大数据分析\""
+      ]
+    },
+    {
+      "template": "技术 → 面临 → 问题",
+      "subject_type": "技术",
+      "relation": "面临",
+      "object_type": "问题",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"航空发动机气路故障诊断技术\" → \"挑战\"",
+        "\"航空发动机PHM技术\" → \"关键数据挖掘问题\"",
+        "\"轻型飞机PHM技术\" → \"关键技术难题\""
+      ]
+    },
+    {
+      "template": "系统 → 需解决 → 关键技术",
+      "subject_type": "系统",
+      "relation": "需解决",
+      "object_type": "关键技术",
+      "frequency": 4,
+      "confidence": "high",
+      "examples": [
+        "\"飞机液压能源系统\" → \"高可靠性液压系统设计\"",
+        "\"飞机液压能源系统\" → \"压力脉动抑制\"",
+        "\"飞机液压能源系统\" → \"油温控制\""
+      ]
+    },
+    {
+      "template": "流程 → 包含 → 阶段",
+      "subject_type": "流程",
+      "relation": "包含",
+      "object_type": "阶段",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"验证流程\" → \"需求分析阶段\"",
+        "\"验证流程\" → \"设计研制阶段\"",
+        "\"验证流程\" → \"使用与维护阶段\""
+      ]
+    },
+    {
+      "template": "研究课题 → 提出 → 方法",
+      "subject_type": "研究课题",
+      "relation": "提出",
+      "object_type": "方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空装备故障风险分析与趋势预测方法\" → \"基于可拓学的飞行试验故障后果定量分析方法\"",
+        "\"航空装备故障风险分析与趋势预测方法\" → \"飞行试验故障可能性评定方法\"",
+        "\"航空装备故障风险分析与趋势预测方法\" → \"基于灰色波形的故障风险综合预警信号预测方法\""
+      ]
+    },
+    {
+      "template": "技术 → 需要考虑 → 发展方向",
+      "subject_type": "技术",
+      "relation": "需要考虑",
+      "object_type": "发展方向",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"电子系统PHM技术\" → \"可测性\"",
+        "\"电子系统PHM技术\" → \"PHM的标准化\"",
+        "\"电子系统PHM技术\" → \"评价指标\""
+      ]
+    },
+    {
+      "template": "度量方法 → 度量 → 性能",
+      "subject_type": "度量方法",
+      "relation": "度量",
+      "object_type": "性能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"欧几里得距离\" → \"生成参数与原始参数的一致性\"",
+        "\"皮尔森相关系数\" → \"生成参数与原始参数的一致性\"",
+        "\"KL散度\" → \"生成参数与原始参数的一致性\""
+      ]
+    },
+    {
+      "template": "研究对象 → 具有 → 特征",
+      "subject_type": "研究对象",
+      "relation": "具有",
+      "object_type": "特征",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"新一代飞机\" → \"复杂的系统结构\"",
+        "\"新一代飞机\" → \"复杂的失效机理\"",
+        "\"新一代飞机\" → \"多样的失效模式\""
+      ]
+    },
+    {
+      "template": "评估方法 → 包含 → 研究内容",
+      "subject_type": "评估方法",
+      "relation": "包含",
+      "object_type": "研究内容",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"健康评估方法\" → \"面向任务的能力分析\"",
+        "\"健康评估方法\" → \"基于故障劣化的功能分析\"",
+        "\"健康评估方法\" → \"参数化的健康评估\""
+      ]
+    },
+    {
+      "template": "系统 → 考虑 → 影响因素",
+      "subject_type": "系统",
+      "relation": "考虑",
+      "object_type": "影响因素",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"民航发动机拆发日期预测系统\" → \"故障\"",
+        "\"民航发动机拆发日期预测系统\" → \"时限\""
+      ]
+    },
+    {
+      "template": "技术 → 包含 → 组成部分",
+      "subject_type": "技术",
+      "relation": "包含",
+      "object_type": "组成部分",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机结构健康监测与管理技术\" → \"基本内涵\"",
+        "\"飞机结构健康监测与管理技术\" → \"任务\"",
+        "\"飞机结构健康监测与管理技术\" → \"实施方法\""
+      ]
+    },
+    {
+      "template": "方案 → 提高 → 系统属性",
+      "subject_type": "方案",
+      "relation": "提高",
+      "object_type": "系统属性",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"系统解决方案\" → \"飞机电源系统维护性\"",
+        "\"系统解决方案\" → \"飞机电源系统可靠性\""
+      ]
+    },
+    {
+      "template": "状态 → 保障 → 目标",
+      "subject_type": "状态",
+      "relation": "保障",
+      "object_type": "目标",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"健康状态\" → \"成员安全\"",
+        "\"健康状态\" → \"飞机正常飞行\""
+      ]
+    },
+    {
+      "template": "Model → 借鉴 → 思想",
+      "subject_type": "Model",
+      "relation": "借鉴",
+      "object_type": "思想",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"多参数预测模型\" → \"信息融合\"",
+        "\"多参数预测模型\" → \"灰色预测建模\"",
+        "\"多参数预测模型\" → \"信息融合\""
+      ]
+    },
+    {
+      "template": "维修模式 → 整合 → 要素",
+      "subject_type": "维修模式",
+      "relation": "整合",
+      "object_type": "要素",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"预测性维修\" → \"过程\"",
+        "\"预测性维修\" → \"能力\""
+      ]
+    },
+    {
+      "template": "结构 → 包含 → 测试层级",
+      "subject_type": "结构",
+      "relation": "包含",
+      "object_type": "测试层级",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"3层测试结构\" → \"分系统级测试\"",
+        "\"3层测试结构\" → \"模块级测试\""
+      ]
+    },
+    {
+      "template": "Model → 预测 → 故障",
+      "subject_type": "Model",
+      "relation": "预测",
+      "object_type": "故障",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"ARIMA模型\" → \"发动机振动故障\"",
+        "\"LVQ神经网络故障预测模型\" → \"油液泄漏故障\"",
+        "\"混沌神经网络模型\" → \"飞机舵面卡死故障\""
+      ]
+    },
+    {
+      "template": "Model → 包含 → 步骤",
+      "subject_type": "Model",
+      "relation": "包含",
+      "object_type": "步骤",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"故障预测模型\" → \"数据预处理\"",
+        "\"故障预测模型\" → \"网络模型设计\"",
+        "\"故障预测模型\" → \"训练与测试\""
+      ]
+    },
+    {
+      "template": "学科 → 是 → 学科类别",
+      "subject_type": "学科",
+      "relation": "是",
+      "object_type": "学科类别",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"导航、制导与控制学科\" → \"首批国防特色学科\""
+      ]
+    },
+    {
+      "template": "方法体系 → 包括 → 度量方法",
+      "subject_type": "方法体系",
+      "relation": "包括",
+      "object_type": "度量方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM系统性能度量方法体系\" → \"预测性能度量\"",
+        "\"PHM系统性能度量方法体系\" → \"综合度量\""
+      ]
+    },
+    {
+      "template": "设计架构 → 包含 → 技术方案",
+      "subject_type": "设计架构",
+      "relation": "包含",
+      "object_type": "技术方案",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"三化一体设计架构\" → \"基于软硬件协同加速的健康管理实时化\"",
+        "\"三化一体设计架构\" → \"基于知识图谱的知识逻辑可视化\"",
+        "\"三化一体设计架构\" → \"基于MBSE的PHM系统模型化\""
+      ]
+    },
+    {
+      "template": "管理方法 → 综合应用 → 技术",
+      "subject_type": "管理方法",
+      "relation": "综合应用",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"复杂系统健康管理\" → \"测试技术\"",
+        "\"复杂系统健康管理\" → \"人工智能\"",
+        "\"复杂系统健康管理\" → \"信息技术\""
+      ]
+    },
+    {
+      "template": "系统 → 基于 → 技术",
+      "subject_type": "系统",
+      "relation": "基于",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机健康管理专家系统\" → \"MAS\"",
+        "\"基于SOA的航空发动机健康管理系统\" → \"面向服务的架构(SOA)\"",
+        "\"容错控制系统\" → \"模态切换\""
+      ]
+    },
+    {
+      "template": "算法 → 用于 → 任务",
+      "subject_type": "算法",
+      "relation": "用于",
+      "object_type": "任务",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"LVQ神经网络\" → \"故障预测\"",
+        "\"自训练权重融合算法\" → \"特征筛选\"",
+        "\"拉普拉斯算法\" → \"故障趋势预测\""
+      ]
+    },
+    {
+      "template": "方法 → 包括 → 组成部分",
+      "subject_type": "方法",
+      "relation": "包括",
+      "object_type": "组成部分",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"故障时间序列预测方法\" → \"网络结构设计\"",
+        "\"故障时间序列预测方法\" → \"网络训练\"",
+        "\"故障时间序列预测方法\" → \"预测过程实现算法\""
+      ]
+    },
+    {
+      "template": "Model → 优于 → 方法",
+      "subject_type": "Model",
+      "relation": "优于",
+      "object_type": "方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"基于LSTM分类器的预测性维护模型\" → \"已有分类方法\"",
+        "\"多因子高阶模糊变动预测模型\" → \"传统模糊时间序列预测方法\"",
+        "\"神经网络预测模型\" → \"ARMA方法\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 设备",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "设备",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"LSSVM与WNN组合预测方法\" → \"某型燃气轮机\"",
+        "\"航空发动机双余度控制规律设计方法\" → \"高性能涡扇发动机\"",
+        "\"航空发动机双余度控制规律设计方法\" → \"各类发动机\""
+      ]
+    },
+    {
+      "template": "方法 → 用于 → 过程",
+      "subject_type": "方法",
+      "relation": "用于",
+      "object_type": "过程",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"核主成分分析\" → \"降维处理\"",
+        "\"方差-协方差法\" → \"为隶属度值赋权\"",
+        "\"灰色关联法\" → \"客户需求重要度排序\""
+      ]
+    },
+    {
+      "template": "方法 → 实现 → 功能",
+      "subject_type": "方法",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机传感器数据预处理方法\" → \"数据鉴定\"",
+        "\"航空发动机传感器数据预处理方法\" → \"故障诊断\"",
+        "\"飞机机电系统部件健康状态在线估计\" → \"健康状态在线估计\""
+      ]
+    },
+    {
+      "template": "技术 → 具有 → 能力",
+      "subject_type": "技术",
+      "relation": "具有",
+      "object_type": "能力",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"Elman网络\" → \"非线性逼近能力\"",
+        "\"Elman网络\" → \"容错能力\"",
+        "\"Elman网络\" → \"泛化能力\""
+      ]
+    },
+    {
+      "template": "Model → 包含 → 模型组件",
+      "subject_type": "Model",
+      "relation": "包含",
+      "object_type": "模型组件",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"Caps-BiGRU-Attention模型\" → \"胶囊层\"",
+        "\"Caps-BiGRU-Attention模型\" → \"BiGRU层\"",
+        "\"Caps-BiGRU-Attention模型\" → \"SE注意力机制\""
+      ]
+    },
+    {
+      "template": "会议 → 得到...支持 → 期刊",
+      "subject_type": "会议",
+      "relation": "得到...支持",
+      "object_type": "期刊",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"2017预测与健康管理(PHM)研讨会\" → \"《仪器仪表学报》\"",
+        "\"2017预测与健康管理(PHM)研讨会\" → \"《电子测量与仪器学报》\"",
+        "\"2017预测与健康管理(PHM)研讨会\" → \"INSTRUMENTATION\""
+      ]
+    },
+    {
+      "template": "方法 → 验证 → Model",
+      "subject_type": "方法",
+      "relation": "验证",
+      "object_type": "Model",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"理论推导\" → \"两端口GJB289A总线网络模型\"",
+        "\"实验室实测\" → \"两端口GJB289A总线网络模型\"",
+        "\"仿真实验\" → \"混沌神经网络模型\""
+      ]
+    },
+    {
+      "template": "Model → 提高 → 指标",
+      "subject_type": "Model",
+      "relation": "提高",
+      "object_type": "指标",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"改进的GM(1,1)预测模型\" → \"预测精度\"",
+        "\"双向LSTM故障预测模型\" → \"预测精度\"",
+        "\"多参数预测模型\" → \"预测的准确性\""
+      ]
+    },
+    {
+      "template": "Model → 进行 → 任务",
+      "subject_type": "Model",
+      "relation": "进行",
+      "object_type": "任务",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"长短期记忆神经网络\" → \"时间序列预测\"",
+        "\"长短记忆神经网络模型\" → \"数据变化趋势预测\"",
+        "\"改进神经网络\" → \"趋势预测\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 数据",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "数据",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"发动机风险预测\" → \"故障统计数据\"",
+        "\"基于实时报文数据的APU故障预测方法\" → \"实时报文数据\"",
+        "\"失效模型建立新方法\" → \"系统失效数据\""
+      ]
+    },
+    {
+      "template": "趋势 → 带来 → 影响",
+      "subject_type": "趋势",
+      "relation": "带来",
+      "object_type": "影响",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"发展趋势\" → \"飞机设计理念的改变\"",
+        "\"发展趋势\" → \"全行业价值的变化\"",
+        "\"发展趋势\" → \"竞争优势的变化\""
+      ]
+    },
+    {
+      "template": "Model → 实现 → 功能",
+      "subject_type": "Model",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"两端口GJB289A总线网络模型\" → \"电气故障快速判断\"",
+        "\"GA-AANN神经网络\" → \"解析冗余检验\"",
+        "\"孪生模型\" → \"数字映射\""
+      ]
+    },
+    {
+      "template": "系统 → 具有 → 故障类型",
+      "subject_type": "系统",
+      "relation": "具有",
+      "object_type": "故障类型",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞行控制系统\" → \"方向舵液压泄漏\"",
+        "\"飞行控制系统\" → \"升降舵指示不一致\"",
+        "\"飞行控制系统\" → \"襟翼动作耗时\""
+      ]
+    },
+    {
+      "template": "任务 → 评价指标 → Performance Metric",
+      "subject_type": "任务",
+      "relation": "评价指标",
+      "object_type": "Performance Metric",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"性能衰退检测\" → \"虚警率\"",
+        "\"性能衰退检测\" → \"漏报率\"",
+        "\"RUL估计\" → \"估计误差\""
+      ]
+    },
+    {
+      "template": "系统 → 应用 → 技术",
+      "subject_type": "系统",
+      "relation": "应用",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"机载设备维护管理系统\" → \"RFID技术\"",
+        "\"航空电子系统\" → \"PHM技术\"",
+        "\"航空电子设备在线测试系统\" → \"新算法\""
+      ]
+    },
+    {
+      "template": "领域 → 面临 → 挑战",
+      "subject_type": "领域",
+      "relation": "面临",
+      "object_type": "挑战",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"机载软件开发\" → \"安全性\"",
+        "\"机载软件开发\" → \"成本\""
+      ]
+    },
+    {
+      "template": "验证方法 → 验证 → 产出物",
+      "subject_type": "验证方法",
+      "relation": "验证",
+      "object_type": "产出物",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"模型覆盖率分析\" → \"开发结果\"",
+        "\"软件硬件集成测试\" → \"开发结果\""
+      ]
+    },
+    {
+      "template": "设计 → 实现 → 功能",
+      "subject_type": "设计",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"系统设计\" → \"实时健康监控\"",
+        "\"系统设计\" → \"配电管理\"",
+        "\"系统设计\" → \"自身健康管理\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 过程",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "过程",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机结构健康监测技术\" → \"飞行\"",
+        "\"飞机结构健康监测技术\" → \"维护过程\""
+      ]
+    },
+    {
+      "template": "任务 → 保障 → 目标",
+      "subject_type": "任务",
+      "relation": "保障",
+      "object_type": "目标",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"故障检测\" → \"飞行安全\"",
+        "\"状态变化趋势预测\" → \"飞行安全\"",
+        "\"飞机操纵面故障的准确预测\" → \"飞机安全可靠工作\""
+      ]
+    },
+    {
+      "template": "数据 → 具有 → 数据特点",
+      "subject_type": "数据",
+      "relation": "具有",
+      "object_type": "数据特点",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"发动机数据\" → \"高维度\"",
+        "\"发动机数据\" → \"强滞后性\"",
+        "\"发动机数据\" → \"高复杂度\""
+      ]
+    },
+    {
+      "template": "任务 → 面临 → 问题",
+      "subject_type": "任务",
+      "relation": "面临",
+      "object_type": "问题",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子产品故障预测\" → \"退化趋势差异大\"",
+        "\"航空电子产品故障预测\" → \"训练数据样本量小\"",
+        "\"航空发动机振动类故障诊断\" → \"问题与挑战\""
+      ]
+    },
+    {
+      "template": "方法 → 结合 → 技术",
+      "subject_type": "方法",
+      "relation": "结合",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"基于多状态MOG-HMM和Viterbi的预测方法\" → \"多状态混合高斯隐马尔科夫模型\"",
+        "\"民用飞机维修间隔风险评估方法\" → \"部件故障预测\"",
+        "\"故障识别法\" → \"模式识别技术\""
+      ]
+    },
+    {
+      "template": "算法 → 用于 → 应用",
+      "subject_type": "算法",
+      "relation": "用于",
+      "object_type": "应用",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"支持向量机回归算法\" → \"飞机部件故障数预测\"",
+        "\"支持向量机回归算法\" → \"可靠性评估\"",
+        "\"支持向量机回归算法\" → \"备件需求预测\""
+      ]
+    },
+    {
+      "template": "方法 → 可应用于 → 应用领域",
+      "subject_type": "方法",
+      "relation": "可应用于",
+      "object_type": "应用领域",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"梯次推理获益原则的产生式规则知识表示方法\" → \"实际工程的故障诊断和预测\"",
+        "\"相关向量机\" → \"发动机油液磨粒分析\"",
+        "\"相关向量机\" → \"故障预测\""
+      ]
+    },
+    {
+      "template": "方法 → 可分类为 → 方法分类",
+      "subject_type": "方法",
+      "relation": "可分类为",
+      "object_type": "方法分类",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"气路故障诊断方法\" → \"模型驱动方法\"",
+        "\"气路故障诊断方法\" → \"数据驱动方法\"",
+        "\"气路故障诊断方法\" → \"混合驱动方法\""
+      ]
+    },
+    {
+      "template": "技术 → 用于 → 任务",
+      "subject_type": "技术",
+      "relation": "用于",
+      "object_type": "任务",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"神经网络技术\" → \"故障预测\"",
+        "\"数据挖掘技术\" → \"故障预测\"",
+        "\"数据挖掘技术\" → \"健康管理\""
+      ]
+    },
+    {
+      "template": "技术 → 目的在于 → 目标",
+      "subject_type": "技术",
+      "relation": "目的在于",
+      "object_type": "目标",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子设备故障预测技术\" → \"降低装备全寿命周期费用\"",
+        "\"航空电子设备故障预测技术\" → \"提高经济可承受性\"",
+        "\"航空电子设备故障预测技术\" → \"预防灾难性事故\""
+      ]
+    },
+    {
+      "template": "研究领域 → 亟待解决 → 关键科学问题",
+      "subject_type": "研究领域",
+      "relation": "亟待解决",
+      "object_type": "关键科学问题",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"大数据背景下的剩余寿命预测\" → \"深度学习与随机退化建模交互联动\"",
+        "\"大数据背景下的剩余寿命预测\" → \"监测大数据与剩余寿命及其预测不确定性映射机制\"",
+        "\"大数据背景下的剩余寿命预测\" → \"非理想大数据下的剩余寿命预测\""
+      ]
+    },
+    {
+      "template": "技术领域 → 包含 → 技术",
+      "subject_type": "技术领域",
+      "relation": "包含",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"剩余寿命预测技术\" → \"统计数据驱动的剩余寿命预测技术\""
+      ]
+    },
+    {
+      "template": "体系结构 → 具有 → 规范",
+      "subject_type": "体系结构",
+      "relation": "具有",
+      "object_type": "规范",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"故障预测与健康管理空地结构\" → \"开放式规范\"",
+        "\"故障预测与健康管理空地结构\" → \"模块化规范\"",
+        "\"故障预测与健康管理空地结构\" → \"标准接口规范\""
+      ]
+    },
+    {
+      "template": "问题 → 导致 → 问题",
+      "subject_type": "问题",
+      "relation": "导致",
+      "object_type": "问题",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"故障难以复现\" → \"信息关联断裂\"",
+        "\"噪声\" → \"不确定性\"",
+        "\"维修次数超警戒\" → \"航空公司运营效率低下\""
+      ]
+    },
+    {
+      "template": "系统 → 发展需要解决 → 关键技术",
+      "subject_type": "系统",
+      "relation": "发展需要解决",
+      "object_type": "关键技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞控作动系统\" → \"体系架构\"",
+        "\"飞控作动系统\" → \"高可靠性作动器研制\"",
+        "\"飞控作动系统\" → \"故障预测与健康管理\""
+      ]
+    },
+    {
+      "template": "系统 → 划分为 → 功能模块",
+      "subject_type": "系统",
+      "relation": "划分为",
+      "object_type": "功能模块",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"C919大型客机健康管理系统\" → \"实时监控\"",
+        "\"C919大型客机健康管理系统\" → \"健康状况趋势分析和预测\"",
+        "\"C919大型客机健康管理系统\" → \"故障诊断与维修决策\""
+      ]
+    },
+    {
+      "template": "系统 → 发展趋势为 → 发展趋势",
+      "subject_type": "系统",
+      "relation": "发展趋势为",
+      "object_type": "发展趋势",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"电力系统\" → \"直流\"",
+        "\"电力系统\" → \"智能化\""
+      ]
+    },
+    {
+      "template": "飞机 → 提高 → Performance Metric",
+      "subject_type": "飞机",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"多电飞机\" → \"燃油经济性\"",
+        "\"多电飞机\" → \"可靠性\"",
+        "\"多电飞机\" → \"维护性\""
+      ]
+    },
+    {
+      "template": "系统 → 存在问题 → 问题",
+      "subject_type": "系统",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM系统\" → \"线性独立测量信息数较少\"",
+        "\"大型飞机发动机\" → \"故障\"",
+        "\"飞机空调冷却子系统\" → \"维修次数超警戒\""
+      ]
+    },
+    {
+      "template": "算法 → 基于 → 算法",
+      "subject_type": "算法",
+      "relation": "基于",
+      "object_type": "算法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"贝叶斯优化LSTM\" → \"LSTM\"",
+        "\"发动机气路故障诊断算法\" → \"非线性无迹卡尔曼滤波器 (UKF)\"",
+        "\"发动机气路故障诊断算法\" → \"深度学习神经网络\""
+      ]
+    },
+    {
+      "template": "算法 → 采用 → 技术",
+      "subject_type": "算法",
+      "relation": "采用",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"人工蜂群故障预测算法\" → \"注意力机制\"",
+        "\"智能故障诊断算法\" → \"分层聚类\"",
+        "\"智能故障诊断算法\" → \"交叉增强校核\""
+      ]
+    },
+    {
+      "template": "技术 → 提高 → 指标",
+      "subject_type": "技术",
+      "relation": "提高",
+      "object_type": "指标",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"设计制造服务一体化技术\" → \"航空产品技术水平\"",
+        "\"设计制造服务一体化技术\" → \"产品质量\"",
+        "\"设计制造服务一体化技术\" → \"服务水平\""
+      ]
+    },
+    {
+      "template": "技术 → 联系 → 环节",
+      "subject_type": "技术",
+      "relation": "联系",
+      "object_type": "环节",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"设计制造服务一体化技术\" → \"使用环节\""
+      ]
+    },
+    {
+      "template": "概念 → 划分为 → 环节",
+      "subject_type": "概念",
+      "relation": "划分为",
+      "object_type": "环节",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"产品生命周期\" → \"研发设计\"",
+        "\"产品生命周期\" → \"生产制造\"",
+        "\"产品生命周期\" → \"使用维护\""
+      ]
+    },
+    {
+      "template": "产品 → 具有特征 → 特征",
+      "subject_type": "产品",
+      "relation": "具有特征",
+      "object_type": "特征",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空产品\" → \"研制周期长\"",
+        "\"航空产品\" → \"结构复杂\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 功能",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "功能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"飞行器健康管理系统\" → \"故障预测\"",
+        "\"PHM系统\" → \"综合诊断\"",
+        "\"PHM系统\" → \"故障管理\""
+      ]
+    },
+    {
+      "template": "组织机构 → 推动 → 技术",
+      "subject_type": "组织机构",
+      "relation": "推动",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"中国计算机自动测量与控制技术协会\" → \"自动化测试\"",
+        "\"国防科技工业自动化测试技术研究应用中心\" → \"自动化测试\"",
+        "\"北京航天测控技术有限公司\" → \"自动化测试\""
+      ]
+    },
+    {
+      "template": "组成部分 → 包含 → 组成部分",
+      "subject_type": "组成部分",
+      "relation": "包含",
+      "object_type": "组成部分",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"数字孪生卫星核心要素\" → \"数据线程\"",
+        "\"数字孪生卫星核心要素\" → \"服务线程\""
+      ]
+    },
+    {
+      "template": "技术 → 应用 → 实现方法",
+      "subject_type": "技术",
+      "relation": "应用",
+      "object_type": "实现方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子预测与健康管理(PHM)\" → \"信息融合\"",
+        "\"航空电子预测与健康管理(PHM)\" → \"人工智能\"",
+        "\"航空电子预测与健康管理(PHM)\" → \"数据挖掘与预测\""
+      ]
+    },
+    {
+      "template": "理念 → 包含 → 技术",
+      "subject_type": "理念",
+      "relation": "包含",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"智能推进\" → \"主动控制\"",
+        "\"智能推进\" → \"基于模型的控制和健康管理\"",
+        "\"智能推进\" → \"分布式控制\""
+      ]
+    },
+    {
+      "template": "活动 → 采用 → 统计方法",
+      "subject_type": "活动",
+      "relation": "采用",
+      "object_type": "统计方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"研究\" → \"t检验\"",
+        "\"研究\" → \"Wilcoxon秩和检验\"",
+        "\"研究\" → \"χ2检验\""
+      ]
+    },
+    {
+      "template": "人群 → 主要健康威胁 → 疾病",
+      "subject_type": "人群",
+      "relation": "主要健康威胁",
+      "object_type": "疾病",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"空勤人员\" → \"高尿酸血症\"",
+        "\"空勤人员\" → \"脂肪肝\"",
+        "\"空勤人员\" → \"超重\""
+      ]
+    },
+    {
+      "template": "疾病 → 患病率为 → 比率",
+      "subject_type": "疾病",
+      "relation": "患病率为",
+      "object_type": "比率",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"高尿酸血症\" → \"29.2%\"",
+        "\"脂肪肝\" → \"28.9%\"",
+        "\"超重\" → \"18.2%\""
+      ]
+    },
+    {
+      "template": "职业 → 患病率较高 → 疾病",
+      "subject_type": "职业",
+      "relation": "患病率较高",
+      "object_type": "疾病",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"驾驶员\" → \"高尿酸血症\"",
+        "\"驾驶员\" → \"高脂血症\"",
+        "\"驾驶员\" → \"脂肪肝\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 功能模块",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "功能模块",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"发动机健康管理 (EHM)\" → \"FADEC系统故障诊断\"",
+        "\"发动机健康管理 (EHM)\" → \"气路性能退化诊断和预测\""
+      ]
+    },
+    {
+      "template": "技术领域 → 包含 → 功能模块",
+      "subject_type": "技术领域",
+      "relation": "包含",
+      "object_type": "功能模块",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"民用航空发动机健康管理\" → \"地面综合诊断\"",
+        "\"民用航空发动机健康管理\" → \"寿命管理\"",
+        "\"民用航空发动机健康管理\" → \"智能视情维护维修决策\""
+      ]
+    },
+    {
+      "template": "功能模块 → 具有 → 技术",
+      "subject_type": "功能模块",
+      "relation": "具有",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"地面综合诊断\" → \"热点技术\"",
+        "\"寿命管理\" → \"热点技术\"",
+        "\"智能视情维护维修决策\" → \"热点技术\""
+      ]
+    },
+    {
+      "template": "过程 → 引入 → 问题",
+      "subject_type": "过程",
+      "relation": "引入",
+      "object_type": "问题",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"状态监测\" → \"不确定性\"",
+        "\"信号检测与处理\" → \"不确定性\"",
+        "\"阈值确定\" → \"不确定性\""
+      ]
+    },
+    {
+      "template": "组织 → 协办 → 会议",
+      "subject_type": "组织",
+      "relation": "协办",
+      "object_type": "会议",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"北京航天测控技术有限公司\" → \"第二十一届测试与故障诊断技术研讨会\"",
+        "\"安捷伦科技公司\" → \"第二十一届测试与故障诊断技术研讨会\"",
+        "\"《计算机测量与控制》杂志社\" → \"第二十一届测试与故障诊断技术研讨会\""
+      ]
+    },
+    {
+      "template": "系统 → 要求 → 属性",
+      "subject_type": "系统",
+      "relation": "要求",
+      "object_type": "属性",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子系统\" → \"确定性\"",
+        "\"航空电子系统\" → \"可预测性\"",
+        "\"航空电子系统\" → \"可控性\""
+      ]
+    },
+    {
+      "template": "技术架构 → 包括 → 技术架构",
+      "subject_type": "技术架构",
+      "relation": "包括",
+      "object_type": "技术架构",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子产品故障预测结构\" → \"基于模型结构\"",
+        "\"航空电子产品故障预测结构\" → \"数据驱动结构\"",
+        "\"航空电子产品故障预测结构\" → \"综合预测结构\""
+      ]
+    },
+    {
+      "template": "系统 → 分为 → 组成部分",
+      "subject_type": "系统",
+      "relation": "分为",
+      "object_type": "组成部分",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"综合飞行器管理系统\" → \"决策层\"",
+        "\"综合飞行器管理系统\" → \"执行层\""
+      ]
+    },
+    {
+      "template": "技术 → 实现 → 属性",
+      "subject_type": "技术",
+      "relation": "实现",
+      "object_type": "属性",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"综合诊断\" → \"维修性\"",
+        "\"综合诊断\" → \"保障性\""
+      ]
+    },
+    {
+      "template": "技术 → 实现 → 任务",
+      "subject_type": "技术",
+      "relation": "实现",
+      "object_type": "任务",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"数据挖掘\" → \"发动机健康状态评估\"",
+        "\"数据挖掘\" → \"诊断\"",
+        "\"数据挖掘\" → \"剩余寿命预测\""
+      ]
+    },
+    {
+      "template": "诊断结构 → 用于 → 功能",
+      "subject_type": "诊断结构",
+      "relation": "用于",
+      "object_type": "功能",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"在线综合诊断结构\" → \"气路故障检测和隔离\"",
+        "\"在线综合诊断结构\" → \"健康监测\"",
+        "\"在线综合诊断结构\" → \"参数估计\""
+      ]
+    },
+    {
+      "template": "Model → 估计 → 参数",
+      "subject_type": "Model",
+      "relation": "估计",
+      "object_type": "参数",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"机载自适应模型\" → \"不可测参数\"",
+        "\"机载自适应模型\" → \"发动机健康参数\""
+      ]
+    },
+    {
+      "template": "技术 → 包括 → 方法",
+      "subject_type": "技术",
+      "relation": "包括",
+      "object_type": "方法",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机振动类故障诊断技术\" → \"信号处理\"",
+        "\"航空发动机振动类故障诊断技术\" → \"深度学习\""
+      ]
+    },
+    {
+      "template": "方法 → 包含 → 设计内容",
+      "subject_type": "方法",
+      "relation": "包含",
+      "object_type": "设计内容",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"图形化设计方法\" → \"功能描述\"",
+        "\"图形化设计方法\" → \"模块定义\""
+      ]
+    },
+    {
+      "template": "方法 → 预测 → 数据",
+      "subject_type": "方法",
+      "relation": "预测",
+      "object_type": "数据",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"相关向量机\" → \"发动机工作状态\"",
+        "\"最小二乘支持向量机\" → \"发动机工作状态\"",
+        "\"反向传播神经网络\" → \"发动机工作状态\""
+      ]
+    },
+    {
+      "template": "方法 → 具有 → 优势",
+      "subject_type": "方法",
+      "relation": "具有",
+      "object_type": "优势",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"相关向量机\" → \"计算量较少\"",
+        "\"相关向量机\" → \"预测时间较短\"",
+        "\"相关向量机\" → \"精度较高\""
+      ]
+    },
+    {
+      "template": "Model → 用于 → 健康管理任务",
+      "subject_type": "Model",
+      "relation": "用于",
+      "object_type": "健康管理任务",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"滑油系统仿真模型\" → \"滑油监测\"",
+        "\"滑油系统仿真模型\" → \"诊断\"",
+        "\"滑油系统仿真模型\" → \"预测\""
+      ]
+    },
+    {
+      "template": "系统 → 具有 → 概念",
+      "subject_type": "系统",
+      "relation": "具有",
+      "object_type": "概念",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机预测健康管理系统 (EPHM)\" → \"定义\"",
+        "\"航空发动机预测健康管理系统 (EPHM)\" → \"设计目标\"",
+        "\"航空发动机预测健康管理系统 (EPHM)\" → \"功能\""
+      ]
+    },
+    {
+      "template": "技术 → 具有应用价值 → 应用领域",
+      "subject_type": "技术",
+      "relation": "具有应用价值",
+      "object_type": "应用领域",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"大数据技术\" → \"飞行器设计\"",
+        "\"大数据技术\" → \"系统级故障预测\"",
+        "\"大数据技术\" → \"航空装备维修与保障\""
+      ]
+    },
+    {
+      "template": "方法 → 针对 → 组件",
+      "subject_type": "方法",
+      "relation": "针对",
+      "object_type": "组件",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"数学建模方法\" → \"控制器\"",
+        "\"数学建模方法\" → \"齿轮减速器\""
+      ]
+    },
+    {
+      "template": "关键技术 → 提高 → Performance Metric",
+      "subject_type": "关键技术",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机健康管理\" → \"可靠性\"",
+        "\"航空发动机健康管理\" → \"经济可承受性\""
+      ]
+    },
+    {
+      "template": "设备 → 基于 → 技术",
+      "subject_type": "设备",
+      "relation": "基于",
+      "object_type": "技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"新型航空状态监测传感器\" → \"光纤\"",
+        "\"新型航空状态监测传感器\" → \"无线传感网络\""
+      ]
+    },
+    {
+      "template": "专家系统 → 涉及 → 关键技术",
+      "subject_type": "专家系统",
+      "relation": "涉及",
+      "object_type": "关键技术",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子系统健康管理专家系统\" → \"健康状态的管理模式\"",
+        "\"航空电子系统健康管理专家系统\" → \"推理机的模型设计\"",
+        "\"航空电子系统健康管理专家系统\" → \"故障修复策略\""
+      ]
+    },
+    {
+      "template": "技术 → 面临挑战 → 挑战",
+      "subject_type": "技术",
+      "relation": "面临挑战",
+      "object_type": "挑战",
+      "frequency": 3,
+      "confidence": "medium",
+      "examples": [
+        "\"电子系统PHM技术\" → \"特征参数获取\"",
+        "\"电子系统PHM技术\" → \"物理损伤模型\"",
+        "\"电子系统PHM技术\" → \"电子元器件质量\""
+      ]
+    },
+    {
+      "template": "维修模式 → 面临 → 挑战",
+      "subject_type": "维修模式",
+      "relation": "面临",
+      "object_type": "挑战",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空预测性维修\" → \"技术挑战\"",
+        "\"航空预测性维修\" → \"应用挑战\""
+      ]
+    },
+    {
+      "template": "实践 → 涉及 → 实践",
+      "subject_type": "实践",
+      "relation": "涉及",
+      "object_type": "实践",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"预测性维修实践\" → \"用户实践\""
+      ]
+    },
+    {
+      "template": "技术 → 保证 → 目标",
+      "subject_type": "技术",
+      "relation": "保证",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康管理与预测(PHM)技术\" → \"飞行安全\"",
+        "\"飞机结构健康监测与管理技术\" → \"结构安全性\""
+      ]
+    },
+    {
+      "template": "产品 → 面临挑战 → 属性",
+      "subject_type": "产品",
+      "relation": "面临挑战",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"轻型飞机\" → \"可靠性\"",
+        "\"轻型飞机\" → \"可用性\""
+      ]
+    },
+    {
+      "template": "技术 → 融合 → 技术",
+      "subject_type": "技术",
+      "relation": "融合",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"时序回归预测技术\" → \"模糊信息粒化\"",
+        "\"时序回归预测技术\" → \"支持向量机\""
+      ]
+    },
+    {
+      "template": "评估方法 → 利用 → 评估指标",
+      "subject_type": "评估方法",
+      "relation": "利用",
+      "object_type": "评估指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康评估方法\" → \"严酷度\""
+      ]
+    },
+    {
+      "template": "评估方法 → 具有 → 属性",
+      "subject_type": "评估方法",
+      "relation": "具有",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康评估方法\" → \"高可信度\"",
+        "\"健康评估方法\" → \"高工程实用价值\""
+      ]
+    },
+    {
+      "template": "系统 → 识别 → 问题",
+      "subject_type": "系统",
+      "relation": "识别",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空电子设备在线测试系统\" → \"复杂异常\""
+      ]
+    },
+    {
+      "template": "平台 → 具有 → 组成部分",
+      "subject_type": "平台",
+      "relation": "具有",
+      "object_type": "组成部分",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机PHM海量数据挖掘平台\" → \"总体框架\"",
+        "\"飞机PHM海量数据挖掘平台\" → \"软硬件结构\""
+      ]
+    },
+    {
+      "template": "评价指标 → 表征 → Performance Metric",
+      "subject_type": "评价指标",
+      "relation": "表征",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"平均绝对误差\" → \"预测结果准确性\"",
+        "\"均方根误差\" → \"预测结果准确性\""
+      ]
+    },
+    {
+      "template": "指标 → 是 → 参数类型",
+      "subject_type": "指标",
+      "relation": "是",
+      "object_type": "参数类型",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障检测率\" → \"典型测试性参数\"",
+        "\"故障隔离率\" → \"典型测试性参数\""
+      ]
+    },
+    {
+      "template": "系统 → 是 → 系统",
+      "subject_type": "系统",
+      "relation": "是",
+      "object_type": "系统",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康监测与预测系统\" → \"先进维护管理系统\"",
+        "\"健康监测与预测系统\" → \"全面的故障检测、预测与状态管理系统\""
+      ]
+    },
+    {
+      "template": "信号 → 反映 → 故障",
+      "subject_type": "信号",
+      "relation": "反映",
+      "object_type": "故障",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"特征信号\" → \"飞机发动机故障\"",
+        "\"特征信号\" → \"不同的故障\""
+      ]
+    },
+    {
+      "template": "参数 → 用于 → 应用",
+      "subject_type": "参数",
+      "relation": "用于",
+      "object_type": "应用",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机性能参数\" → \"故障预报\"",
+        "\"飞机性能参数\" → \"状态监控\""
+      ]
+    },
+    {
+      "template": "技术 → 提供支持 → 活动",
+      "subject_type": "技术",
+      "relation": "提供支持",
+      "object_type": "活动",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障预测与健康管理\" → \"装备采购\"",
+        "\"故障预测与健康管理\" → \"全寿命支持\""
+      ]
+    },
+    {
+      "template": "体系结构 → 包含 → 组成部分",
+      "subject_type": "体系结构",
+      "relation": "包含",
+      "object_type": "组成部分",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM体系结构\" → \"体系结构设计\"",
+        "\"PHM体系结构\" → \"技术实现\""
+      ]
+    },
+    {
+      "template": "会议 → 由...主办 → 机构",
+      "subject_type": "会议",
+      "relation": "由...主办",
+      "object_type": "机构",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"2017预测与健康管理(PHM)研讨会\" → \"中国电子学会电子测量与仪器分会\"",
+        "\"2017预测与健康管理(PHM)研讨会\" → \"中国仪器仪表学会电子测量与仪器分会\""
+      ]
+    },
+    {
+      "template": "参数 → 具有 → 特性",
+      "subject_type": "参数",
+      "relation": "具有",
+      "object_type": "特性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"A320飞机空调系统参数\" → \"波动性\"",
+        "\"飞机性能参数\" → \"非线性\""
+      ]
+    },
+    {
+      "template": "系统 → 具有 → 特性",
+      "subject_type": "系统",
+      "relation": "具有",
+      "object_type": "特性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"IVHM系统\" → \"高互操作性\"",
+        "\"IVHM系统\" → \"复杂数据交换特点\""
+      ]
+    },
+    {
+      "template": "标准/语言 → 实现 → 目标",
+      "subject_type": "标准/语言",
+      "relation": "实现",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"自动测试标记语言(ATML)\" → \"系统的高度集成\"",
+        "\"自动测试标记语言(ATML)\" → \"可扩展性\""
+      ]
+    },
+    {
+      "template": "方法 → 验证 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "验证",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"MATLAB仿真\" → \"故障预测模型的准确性\"",
+        "\"理论计算与实际维修资料对比\" → \"模型准确性\""
+      ]
+    },
+    {
+      "template": "Model → 提供技术支撑 → 应用",
+      "subject_type": "Model",
+      "relation": "提供技术支撑",
+      "object_type": "应用",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"两端口GJB289A总线网络模型\" → \"总线网络状态健康管理\""
+      ]
+    },
+    {
+      "template": "方法 → 求解 → 参数",
+      "subject_type": "方法",
+      "relation": "求解",
+      "object_type": "参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"疲劳寿命预测方法\" → \"应力严重系数\"",
+        "\"疲劳寿命预测方法\" → \"疲劳缺口系数\""
+      ]
+    },
+    {
+      "template": "任务 → 基于 → 数据",
+      "subject_type": "任务",
+      "relation": "基于",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"风险预测\" → \"历史故障数据\"",
+        "\"飞行控制系统故障分析\" → \"QAR数据\""
+      ]
+    },
+    {
+      "template": "方法 → 使用 → Model",
+      "subject_type": "方法",
+      "relation": "使用",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于CNN和LSTM的剩余寿命预估方法\" → \"卷积神经网络\"",
+        "\"基于CNN和LSTM的剩余寿命预估方法\" → \"长短期记忆神经网络\""
+      ]
+    },
+    {
+      "template": "方法 → 提高 → 目标",
+      "subject_type": "方法",
+      "relation": "提高",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于CNN和LSTM的剩余寿命预估方法\" → \"飞行的安全性\"",
+        "\"非线性支持向量机\" → \"飞机安全性\""
+      ]
+    },
+    {
+      "template": "公司 → 组成 → 团队",
+      "subject_type": "公司",
+      "relation": "组成",
+      "object_type": "团队",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航天科工集团一院测控公司\" → \"联合攻关团队\"",
+        "\"中国商飞上海飞机客户服务有限公司\" → \"联合攻关团队\""
+      ]
+    },
+    {
+      "template": "组织 → 应储备 → 技术",
+      "subject_type": "组织",
+      "relation": "应储备",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"我国民机主制造商\" → \"新型智能技术\""
+      ]
+    },
+    {
+      "template": "问题 → 影响 → 属性",
+      "subject_type": "问题",
+      "relation": "影响",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"疲劳失效\" → \"安全性\"",
+        "\"疲劳失效\" → \"使用寿命\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 属性",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"唯象疲劳分析方法\" → \"结构疲劳品质\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 理论",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "理论",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"以断裂力学为基础的分析方法\" → \"断裂力学\"",
+        "\"基于灰色理论的故障预测方法\" → \"灰色理论\""
+      ]
+    },
+    {
+      "template": "管理方法 → 实现 → 功能",
+      "subject_type": "管理方法",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"复杂系统健康管理\" → \"系统自主重构\"",
+        "\"复杂系统健康管理\" → \"系统资源重组\""
+      ]
+    },
+    {
+      "template": "管理方法 → 减少 → 成本",
+      "subject_type": "管理方法",
+      "relation": "减少",
+      "object_type": "成本",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"复杂系统健康管理\" → \"维修人力\"",
+        "\"复杂系统健康管理\" → \"保障费用\""
+      ]
+    },
+    {
+      "template": "技术领域 → 面临 → 问题",
+      "subject_type": "技术领域",
+      "relation": "面临",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"军用飞机PHM技术\" → \"瓶颈问题\"",
+        "\"民用航空发动机健康管理\" → \"挑战\""
+      ]
+    },
+    {
+      "template": "设计架构 → 实现 → Performance Metric",
+      "subject_type": "设计架构",
+      "relation": "实现",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"三化一体设计架构\" → \"5.63倍的加速计算效果\"",
+        "\"三化一体设计架构\" → \"82.7%的计算功耗缩减\""
+      ]
+    },
+    {
+      "template": "测试设备 → 基于 → 技术",
+      "subject_type": "测试设备",
+      "relation": "基于",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"二线测试设备\" → \"飞机可测试性设计\"",
+        "\"二线测试设备\" → \"PHM技术\""
+      ]
+    },
+    {
+      "template": "指导 → 用于 → 任务",
+      "subject_type": "指导",
+      "relation": "用于",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"理论指导\" → \"MFOP指标分析论证\"",
+        "\"理论指导\" → \"飞机可靠性设计\""
+      ]
+    },
+    {
+      "template": "方法体系 → 为...奠定基础 → 任务",
+      "subject_type": "方法体系",
+      "relation": "为...奠定基础",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM系统性能度量方法体系\" → \"PHM系统算法设计\"",
+        "\"PHM系统性能度量方法体系\" → \"系统能力验证\""
+      ]
+    },
+    {
+      "template": "研究中心 → 建有 → 科研基地",
+      "subject_type": "研究中心",
+      "relation": "建有",
+      "object_type": "科研基地",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"南京航空航天大学导航研究中心\" → \"飞行器自主控制技术教育部工程中心\"",
+        "\"南京航空航天大学导航研究中心\" → \"先进飞行器导航、控制与健康管理工信部重点实验室\""
+      ]
+    },
+    {
+      "template": "设备 → 具有 → 需求",
+      "subject_type": "设备",
+      "relation": "具有",
+      "object_type": "需求",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"机载设备\" → \"在线监测\"",
+        "\"机载设备\" → \"大容量存储发动机工作数据\""
+      ]
+    },
+    {
+      "template": "策略 → 包含 → 技术",
+      "subject_type": "策略",
+      "relation": "包含",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"应用策略\" → \"多任务管理\"",
+        "\"应用策略\" → \"存储管理\""
+      ]
+    },
+    {
+      "template": "技术领域 → 提高 → Performance Metric",
+      "subject_type": "技术领域",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机故障预测与健康管理\" → \"航空发动机安全性\"",
+        "\"航空发动机故障预测与健康管理\" → \"航空发动机可靠性\""
+      ]
+    },
+    {
+      "template": "网络模型 → 应用于 → 任务",
+      "subject_type": "网络模型",
+      "relation": "应用于",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"可解释性智能监测诊断网络\" → \"异常检测\"",
+        "\"可解释性智能监测诊断网络\" → \"中介轴承故障诊断\""
+      ]
+    },
+    {
+      "template": "网络模块 → 基于 → 技术框架",
+      "subject_type": "网络模块",
+      "relation": "基于",
+      "object_type": "技术框架",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"可解释性异常检测子网络\" → \"对抗训练框架\"",
+        "\"可解释性故障诊断子网络\" → \"特征提取框架\""
+      ]
+    },
+    {
+      "template": "会议 → 举办于 → 地点",
+      "subject_type": "会议",
+      "relation": "举办于",
+      "object_type": "地点",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"2020预测与健康管理(PHM)研讨会\" → \"成都\"",
+        "\"第二十一届测试与故障诊断技术研讨会\" → \"南昌市\""
+      ]
+    },
+    {
+      "template": "技术 → 改善 → 资源",
+      "subject_type": "技术",
+      "relation": "改善",
+      "object_type": "资源",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"AHM技术\" → \"备件\"",
+        "\"AHM技术\" → \"人员配置\""
+      ]
+    },
+    {
+      "template": "技术 → 处理 → 故障",
+      "subject_type": "技术",
+      "relation": "处理",
+      "object_type": "故障",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"AHM技术\" → \"异常\"",
+        "\"AHM技术\" → \"失效\""
+      ]
+    },
+    {
+      "template": "技术 → 确保 → 目标",
+      "subject_type": "技术",
+      "relation": "确保",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"AHM技术\" → \"飞机的安全运行\"",
+        "\"预测与健康管理(PHM)\" → \"飞行安全\""
+      ]
+    },
+    {
+      "template": "技术 → 是 → 技术定位",
+      "subject_type": "技术",
+      "relation": "是",
+      "object_type": "技术定位",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"综合诊断、预测与健康管理(PHM)技术\" → \"关键使能技术\"",
+        "\"故障预测与管理技术(PHM)\" → \"新型自主式后勤保障的关键技术\""
+      ]
+    },
+    {
+      "template": "系统 → 执行 → 功能",
+      "subject_type": "系统",
+      "relation": "执行",
+      "object_type": "功能",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"机内自测试(BIT)系统\" → \"故障检测\"",
+        "\"机内自测试(BIT)系统\" → \"故障隔离\""
+      ]
+    },
+    {
+      "template": "系统 → 结合 → 管理",
+      "subject_type": "系统",
+      "relation": "结合",
+      "object_type": "管理",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"机内自测试(BIT)系统\" → \"健康管理\"",
+        "\"机内自测试(BIT)系统\" → \"故障管理\""
+      ]
+    },
+    {
+      "template": "研究对象 → 存在问题 → 问题",
+      "subject_type": "研究对象",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"直升机涡轮发动机\" → \"故障难以识别\"",
+        "\"直升机涡轮发动机\" → \"健康状况难以量化\""
+      ]
+    },
+    {
+      "template": "方法 → 构建 → Model",
+      "subject_type": "方法",
+      "relation": "构建",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于Copula相似性的RUL预测方法\" → \"Copula结构\"",
+        "\"基于KPCA和DBN的建模方法\" → \"航空发动机排气温度基线模型\""
+      ]
+    },
+    {
+      "template": "方法 → 提高 → 指标",
+      "subject_type": "方法",
+      "relation": "提高",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于Copula相似性的RUL预测方法\" → \"预测精度\"",
+        "\"非线性支持向量机\" → \"预测精度\""
+      ]
+    },
+    {
+      "template": "算法 → 分离 → 数据成分",
+      "subject_type": "算法",
+      "relation": "分离",
+      "object_type": "数据成分",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"EMD算法\" → \"趋势项\"",
+        "\"EMD算法\" → \"随机项\""
+      ]
+    },
+    {
+      "template": "算法 → 生成 → 数据分量",
+      "subject_type": "算法",
+      "relation": "生成",
+      "object_type": "数据分量",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"EMD算法\" → \"固有模态函数(IMF)\"",
+        "\"EMD算法\" → \"残余函数(RF)\""
+      ]
+    },
+    {
+      "template": "Model → 建模 → 数据分量",
+      "subject_type": "Model",
+      "relation": "建模",
+      "object_type": "数据分量",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"AR模型\" → \"IMF分量\"",
+        "\"RVM模型\" → \"RF分量\""
+      ]
+    },
+    {
+      "template": "优化算法 → 搜索 → 模型参数",
+      "subject_type": "优化算法",
+      "relation": "搜索",
+      "object_type": "模型参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"量子粒子群优化算法\" → \"RVM的最优核参数\"",
+        "\"量子粒子群优化算法\" → \"RVM的嵌入维数\""
+      ]
+    },
+    {
+      "template": "方法 → 优于 → 对比方法",
+      "subject_type": "方法",
+      "relation": "优于",
+      "object_type": "对比方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于EMD和RVM-AR的预测方法\" → \"AR方法\"",
+        "\"基于EMD和RVM-AR的预测方法\" → \"SVM方法\""
+      ]
+    },
+    {
+      "template": "Model → 利用 → 数据",
+      "subject_type": "Model",
+      "relation": "利用",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"EnsembleBRB模型\" → \"多源不确定数据\"",
+        "\"遗传神经网络\" → \"装备特征参数数据\""
+      ]
+    },
+    {
+      "template": "关键参数 → 决定 → 状态",
+      "subject_type": "关键参数",
+      "relation": "决定",
+      "object_type": "状态",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"低压涡轮机冷却液泄漏量\" → \"发动机健康状态\"",
+        "\"风扇转速\" → \"发动机健康状态\""
+      ]
+    },
+    {
+      "template": "Model → 包含 → 模块",
+      "subject_type": "Model",
+      "relation": "包含",
+      "object_type": "模块",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"SDQ算法模型\" → \"合理性检验模块\"",
+        "\"SDQ算法模型\" → \"解析冗余检验模块\""
+      ]
+    },
+    {
+      "template": "算法 → 隔离 → 故障类型",
+      "subject_type": "算法",
+      "relation": "隔离",
+      "object_type": "故障类型",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"SDQ算法\" → \"漂移故障\""
+      ]
+    },
+    {
+      "template": "方法 → 结合 → 方法",
+      "subject_type": "方法",
+      "relation": "结合",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"LASSO变量选取方法\" → \"相似性寿命预测方法\"",
+        "\"故障识别法\" → \"时间序列分析方法\""
+      ]
+    },
+    {
+      "template": "方法 → 选取 → 数据",
+      "subject_type": "方法",
+      "relation": "选取",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"LASSO方法\" → \"最优传感器变量\"",
+        "\"传统方法\" → \"性能退化趋势明显的变量\""
+      ]
+    },
+    {
+      "template": "研究 → 对比 → 方法",
+      "subject_type": "研究",
+      "relation": "对比",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"本文研究\" → \"LASSO变量选取方法\""
+      ]
+    },
+    {
+      "template": "方法 → 组合 → 算法",
+      "subject_type": "方法",
+      "relation": "组合",
+      "object_type": "算法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"LSSVM与WNN组合预测方法\" → \"最小二乘支持向量机\"",
+        "\"LSSVM与WNN组合预测方法\" → \"小波神经网络\""
+      ]
+    },
+    {
+      "template": "数据 → 计算自 → 数据",
+      "subject_type": "数据",
+      "relation": "计算自",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"残差\" → \"实际参数数据\"",
+        "\"残差\" → \"LSSVM预测结果\""
+      ]
+    },
+    {
+      "template": "Model → 预测 → 指标",
+      "subject_type": "Model",
+      "relation": "预测",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"LSTM分类器\" → \"失效概率\"",
+        "\"遗传神经网络\" → \"装备特征参数的退化趋势\""
+      ]
+    },
+    {
+      "template": "任务 → 指导 → 活动",
+      "subject_type": "任务",
+      "relation": "指导",
+      "object_type": "活动",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障数据预测\" → \"可靠性计划\"",
+        "\"故障数据预测\" → \"可靠性维护活动\""
+      ]
+    },
+    {
+      "template": "数据 → 用于训练 → Model",
+      "subject_type": "数据",
+      "relation": "用于训练",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"历史维修信息\" → \"LVQ神经网络故障预测模型\"",
+        "\"特征向量\" → \"航空柱塞泵故障预测模型\""
+      ]
+    },
+    {
+      "template": "系统 → 引入 → 方法",
+      "subject_type": "系统",
+      "relation": "引入",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机健康管理专家系统\" → \"基于规则的不确定性推理的预测方法\""
+      ]
+    },
+    {
+      "template": "理论 → 用于构建 → 机制框架",
+      "subject_type": "理论",
+      "relation": "用于构建",
+      "object_type": "机制框架",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"虚拟库存理论\" → \"后方基地备件配置机制框架\"",
+        "\"信息共享理论\" → \"联合共享备件配置机制框架\""
+      ]
+    },
+    {
+      "template": "技术 → 应用于 → 装备",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object_type": "装备",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM技术\" → \"军机\"",
+        "\"预测与健康管理(PHM)\" → \"先进航空发动机\""
+      ]
+    },
+    {
+      "template": "概念 → 分为 → 因素",
+      "subject_type": "概念",
+      "relation": "分为",
+      "object_type": "因素",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空装备可用度影响因素\" → \"使用影响因素\"",
+        "\"航空装备可用度影响因素\" → \"设计影响因素\""
+      ]
+    },
+    {
+      "template": "结果 → 验证 → 方法",
+      "subject_type": "结果",
+      "relation": "验证",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"仿真结果\" → \"基于PHM的航空装备可用度影响因素分析方法\"",
+        "\"实验结果\" → \"基于静电互相关灵敏度加权的气路碎片监测方法\""
+      ]
+    },
+    {
+      "template": "方法 → 包含 → 分析",
+      "subject_type": "方法",
+      "relation": "包含",
+      "object_type": "分析",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于PHM的航空装备可用度影响因素分析方法\" → \"单因素分析\"",
+        "\"基于PHM的航空装备可用度影响因素分析方法\" → \"多因素耦合分析\""
+      ]
+    },
+    {
+      "template": "任务 → 需要 → 处理步骤",
+      "subject_type": "任务",
+      "relation": "需要",
+      "object_type": "处理步骤",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"QAR数据分析\" → \"数据预处理\"",
+        "\"QAR数据分析\" → \"特征提取\""
+      ]
+    },
+    {
+      "template": "方法 → 采用 → Model",
+      "subject_type": "方法",
+      "relation": "采用",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"剩余使用寿命(RUL)估计方法\" → \"随机森林-支持向量回归(RFSVR)\"",
+        "\"时间序列分析方法\" → \"自回归模型\""
+      ]
+    },
+    {
+      "template": "方法 → 通过...验证 → 数据",
+      "subject_type": "方法",
+      "relation": "通过...验证",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于RF-SVR的估计方法\" → \"涡扇发动机机械液压模型仿真数据\"",
+        "\"数模联动解决思路\" → \"航空发动机多源监测数据\""
+      ]
+    },
+    {
+      "template": "技术 → 未推广应用 → 领域",
+      "subject_type": "技术",
+      "relation": "未推广应用",
+      "object_type": "领域",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"RFID技术\" → \"民用航空制造领域\"",
+        "\"RFID技术\" → \"飞机运营维护领域\""
+      ]
+    },
+    {
+      "template": "流程 → 联合 → 开发工具",
+      "subject_type": "流程",
+      "relation": "联合",
+      "object_type": "开发工具",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于模型开发流程\" → \"SCADE\"",
+        "\"基于模型开发流程\" → \"Simulink\""
+      ]
+    },
+    {
+      "template": "技术 → 确定 → 参数",
+      "subject_type": "技术",
+      "relation": "确定",
+      "object_type": "参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"相空间重构\" → \"最优嵌入维数m\"",
+        "\"相空间重构\" → \"延迟时间τd\""
+      ]
+    },
+    {
+      "template": "技术 → 具有 → 价值",
+      "subject_type": "技术",
+      "relation": "具有",
+      "object_type": "价值",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"面向服务的架构(SOA)\" → \"重要价值\"",
+        "\"马氏距离\" → \"应用和推广价值\""
+      ]
+    },
+    {
+      "template": "Model → 基于 → 算法",
+      "subject_type": "Model",
+      "relation": "基于",
+      "object_type": "算法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多参数故障预测模型\" → \"支持向量机\"",
+        "\"资源分配模型\" → \"粒子群算法\""
+      ]
+    },
+    {
+      "template": "方法 → 缩短 → 指标",
+      "subject_type": "方法",
+      "relation": "缩短",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"分层插件设计方法\" → \"软件开发周期\"",
+        "\"软硬件独立设计\" → \"系统开发周期\""
+      ]
+    },
+    {
+      "template": "方法 → 降低 → 指标",
+      "subject_type": "方法",
+      "relation": "降低",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"分层插件设计方法\" → \"成本\"",
+        "\"基于灰色理论的故障预测方法\" → \"故障率\""
+      ]
+    },
+    {
+      "template": "软件 → 具有 → 属性",
+      "subject_type": "软件",
+      "relation": "具有",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"嵌入式软件\" → \"可移植性\"",
+        "\"嵌入式软件\" → \"可扩展性\""
+      ]
+    },
+    {
+      "template": "系统 → 建立 → Model",
+      "subject_type": "系统",
+      "relation": "建立",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航电设备故障诊断与预测系统\" → \"UML模型\"",
+        "\"民航发动机拆发日期预测系统\" → \"硬件损伤发展模型\""
+      ]
+    },
+    {
+      "template": "方法 → 验证 → 属性",
+      "subject_type": "方法",
+      "relation": "验证",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"状态趋势预测\" → \"系统有效性\"",
+        "\"与其他网络算法的比较\" → \"LSTM模型有效性\""
+      ]
+    },
+    {
+      "template": "方法 → 分析 → 数据",
+      "subject_type": "方法",
+      "relation": "分析",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"状态趋势预测\" → \"+5V输出电压数据\"",
+        "\"极大似然法\" → \"高维数据集\""
+      ]
+    },
+    {
+      "template": "体系架构 → 解决 → 问题",
+      "subject_type": "体系架构",
+      "relation": "解决",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于云计算的PHM体系架构\" → \"飞机维修资源利用率低问题\"",
+        "\"基于云计算的PHM体系架构\" → \"资源优化问题\""
+      ]
+    },
+    {
+      "template": "体系架构 → 提高 → Performance Metric",
+      "subject_type": "体系架构",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于云计算的PHM体系架构\" → \"PHM系统通用性\"",
+        "\"基于云计算的PHM体系架构\" → \"知识利用率\""
+      ]
+    },
+    {
+      "template": "飞机型号 → 是 → 案例",
+      "subject_type": "飞机型号",
+      "relation": "是",
+      "object_type": "案例",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"F-35\" → \"结构健康监测工程案例\"",
+        "\"A400M\" → \"结构健康监测工程案例\""
+      ]
+    },
+    {
+      "template": "算法 → 构建 → Model",
+      "subject_type": "算法",
+      "relation": "构建",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"免疫算法\" → \"免疫神经网络\"",
+        "\"改进遗传算法\" → \"遗传神经网络\""
+      ]
+    },
+    {
+      "template": "Model → 实现 → 任务",
+      "subject_type": "Model",
+      "relation": "实现",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"免疫神经网络\" → \"故障预测\"",
+        "\"遗传神经网络\" → \"故障预测\""
+      ]
+    },
+    {
+      "template": "任务 → 存在问题 → 问题",
+      "subject_type": "任务",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机轴承故障诊断\" → \"预测精度不足\"",
+        "\"航空发动机轴承故障诊断\" → \"过拟合\""
+      ]
+    },
+    {
+      "template": "方法 → 迁移 → 数据",
+      "subject_type": "方法",
+      "relation": "迁移",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"极限学习机(TELM)\" → \"高相似度样本\"",
+        "\"支持向量机(TSVM)\" → \"高相似度样本\""
+      ]
+    },
+    {
+      "template": "方法 → 提升 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "提升",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于半监督迁移学习的轴承故障诊断方法\" → \"迁移精度\"",
+        "\"性能参数扩增方法\" → \"APU剩余寿命预测的准确性\""
+      ]
+    },
+    {
+      "template": "方法 → 利用 → 数据",
+      "subject_type": "方法",
+      "relation": "利用",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于多因子高阶模糊变动的方法\" → \"多元时间序列的变动值\"",
+        "\"PHM诊断能力外场评估和验证方法\" → \"外场数据\""
+      ]
+    },
+    {
+      "template": "Model → 判别 → 指标",
+      "subject_type": "Model",
+      "relation": "判别",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障映射模型\" → \"故障程度\""
+      ]
+    },
+    {
+      "template": "Model → 提升 → 评价指标",
+      "subject_type": "Model",
+      "relation": "提升",
+      "object_type": "评价指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多尺度注意力双向长短期记忆神经网络模型\" → \"准确率\"",
+        "\"多尺度注意力双向长短期记忆神经网络模型\" → \"均方根误差\""
+      ]
+    },
+    {
+      "template": "方法 → 结合 → Model",
+      "subject_type": "方法",
+      "relation": "结合",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多模型融合故障预测方法\" → \"改进LSTM神经网络模型\"",
+        "\"民用飞机维修间隔风险评估方法\" → \"机队风险评估模型\""
+      ]
+    },
+    {
+      "template": "方法 → 满足 → 需求",
+      "subject_type": "方法",
+      "relation": "满足",
+      "object_type": "需求",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多模型融合故障预测方法\" → \"自主维护保障\"",
+        "\"PHM诊断能力外场评估和验证方法\" → \"小样本条件下外场评估的工程实际需要\""
+      ]
+    },
+    {
+      "template": "方法 → 采用 → 算法",
+      "subject_type": "方法",
+      "relation": "采用",
+      "object_type": "算法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多模型融合故障预测方法\" → \"Adaboosting算法\"",
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"改进遗传算法\""
+      ]
+    },
+    {
+      "template": "方法 → 优于 → Model",
+      "subject_type": "方法",
+      "relation": "优于",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多模型融合故障预测方法\" → \"BP神经网络\"",
+        "\"多模型融合故障预测方法\" → \"经典LSTM\""
+      ]
+    },
+    {
+      "template": "技术 → 提升 → Performance Metric",
+      "subject_type": "技术",
+      "relation": "提升",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"DBN模型组融合\" → \"故障预测的精准度\"",
+        "\"关键技术\" → \"飞机综合性能\""
+      ]
+    },
+    {
+      "template": "方法 → 预测精度高于 → 基线模型",
+      "subject_type": "方法",
+      "relation": "预测精度高于",
+      "object_type": "基线模型",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"单一DBN模型\"",
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"支持向量机\""
+      ]
+    },
+    {
+      "template": "方法 → 具有 → 评价",
+      "subject_type": "方法",
+      "relation": "具有",
+      "object_type": "评价",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于多深度置信网络模型融合的故障预测方法\" → \"应用价值\"",
+        "\"飞机液压泵故障预测方法\" → \"应用前景\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 研究对象",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "研究对象",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于多状态MOG-HMM和Viterbi的预测方法\" → \"航空发动机\"",
+        "\"组合预测方法\" → \"航空设备\""
+      ]
+    },
+    {
+      "template": "Model → 确定 → 模型参数",
+      "subject_type": "Model",
+      "relation": "确定",
+      "object_type": "模型参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多状态MOG-HMM模型\" → \"状态转移矩阵\"",
+        "\"多状态MOG-HMM模型\" → \"观察值概率分布\""
+      ]
+    },
+    {
+      "template": "算法 → 处理 → 数据",
+      "subject_type": "算法",
+      "relation": "处理",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"Viterbi算法\" → \"新采集的观测数据\"",
+        "\"LSTM\" → \"航空发动机的传感器数据\""
+      ]
+    },
+    {
+      "template": "算法 → 分析 → 数据特征",
+      "subject_type": "算法",
+      "relation": "分析",
+      "object_type": "数据特征",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"改进GRU的自注意力优化算法\" → \"数据源域行梯度\"",
+        "\"改进GRU的自注意力优化算法\" → \"列间相关性\""
+      ]
+    },
+    {
+      "template": "算法 → 降低 → Performance Metric",
+      "subject_type": "算法",
+      "relation": "降低",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"改进GRU的自注意力优化算法\" → \"寿命方均根误差（RMSE）\"",
+        "\"改进GRU的自注意力优化算法\" → \"超前预测分值（score）\""
+      ]
+    },
+    {
+      "template": "解决方案 → 用于 → 应用领域",
+      "subject_type": "解决方案",
+      "relation": "用于",
+      "object_type": "应用领域",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"有效解决方案\" → \"发动机寿命预测\"",
+        "\"有效解决方案\" → \"超前维护\""
+      ]
+    },
+    {
+      "template": "方法 → 使用 → 数据",
+      "subject_type": "方法",
+      "relation": "使用",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"仿真实验\" → \"飞机舵面卡死故障数据\"",
+        "\"贝叶斯网络\" → \"QAR数据\""
+      ]
+    },
+    {
+      "template": "框架 → 实现 → 功能",
+      "subject_type": "框架",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"数字孪生健康管理框架\" → \"故障诊断\"",
+        "\"数字孪生健康管理框架\" → \"故障预测\""
+      ]
+    },
+    {
+      "template": "Model → 反映 → 状态",
+      "subject_type": "Model",
+      "relation": "反映",
+      "object_type": "状态",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"孪生模型\" → \"实体健康状态\""
+      ]
+    },
+    {
+      "template": "技术 → 设计 → 方案",
+      "subject_type": "技术",
+      "relation": "设计",
+      "object_type": "方案",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"数字孪生健康管理技术\" → \"基于事件的故障诊断方案\"",
+        "\"数字孪生健康管理技术\" → \"基于粒子滤波的故障预测方案\""
+      ]
+    },
+    {
+      "template": "算法 → 分解出 → 数据成分",
+      "subject_type": "算法",
+      "relation": "分解出",
+      "object_type": "数据成分",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"STL方法\" → \"长期趋势项\"",
+        "\"STL方法\" → \"季节变动项\""
+      ]
+    },
+    {
+      "template": "预测模型 → 预测 → 数据成分",
+      "subject_type": "预测模型",
+      "relation": "预测",
+      "object_type": "数据成分",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"灰色模型\" → \"长期趋势项\"",
+        "\"BP神经网络和支持向量机回归组合模型\" → \"季节变动项\""
+      ]
+    },
+    {
+      "template": "方法 → 提高 → 性能",
+      "subject_type": "方法",
+      "relation": "提高",
+      "object_type": "性能",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于时序分解的组合预测方法\" → \"预测精度\"",
+        "\"基于灰色理论的故障预测方法\" → \"设备可靠性\""
+      ]
+    },
+    {
+      "template": "技术 → 存在问题 → 问题",
+      "subject_type": "技术",
+      "relation": "存在问题",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"产生式规则推理\" → \"效率低下\"",
+        "\"异构信息融合\" → \"知识元权重分配困难\""
+      ]
+    },
+    {
+      "template": "Application → 使用 → 信息源",
+      "subject_type": "Application",
+      "relation": "使用",
+      "object_type": "信息源",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"发动机故障实例\" → \"飞行数据\"",
+        "\"发动机故障实例\" → \"同步座舱音频\""
+      ]
+    },
+    {
+      "template": "故障 → 破坏 → 状态",
+      "subject_type": "故障",
+      "relation": "破坏",
+      "object_type": "状态",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"深喘\" → \"发动机运行稳定\"",
+        "\"深喘\" → \"飞机安全\""
+      ]
+    },
+    {
+      "template": "系统 → 综合 → 方法",
+      "subject_type": "系统",
+      "relation": "综合",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"容错控制系统\" → \"航空发动机控制\"",
+        "\"容错控制系统\" → \"故障诊断方法\""
+      ]
+    },
+    {
+      "template": "系统模式 → 应对 → 故障",
+      "subject_type": "系统模式",
+      "relation": "应对",
+      "object_type": "故障",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"任务级模式\" → \"发动机部件故障\"",
+        "\"发动机级模式\" → \"控制回路失效\""
+      ]
+    },
+    {
+      "template": "方法 → 得到 → 分析结果",
+      "subject_type": "方法",
+      "relation": "得到",
+      "object_type": "分析结果",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机液压泵故障预测方法\" → \"故障因素集\""
+      ]
+    },
+    {
+      "template": "技术 → 关联 → 方法",
+      "subject_type": "技术",
+      "relation": "关联",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机气路故障诊断技术\" → \"航空发动机传感器故障诊断方法\""
+      ]
+    },
+    {
+      "template": "Model → 使用 → 数据",
+      "subject_type": "Model",
+      "relation": "使用",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"神经网络故障预测模型\" → \"风洞实验数据\"",
+        "\"NNARX模型\" → \"涡扇发动机实际飞行试验数据\""
+      ]
+    },
+    {
+      "template": "软件 → 用于建立 → Model",
+      "subject_type": "软件",
+      "relation": "用于建立",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"AMESim软件\" → \"系统仿真模型\"",
+        "\"AMESim软件\" → \"仿真模型\""
+      ]
+    },
+    {
+      "template": "方法 → 用于获取 → 数据",
+      "subject_type": "方法",
+      "relation": "用于获取",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障注入\" → \"故障数据\"",
+        "\"气路故障模拟方法\" → \"故障样本\""
+      ]
+    },
+    {
+      "template": "方法 → 预测 → 指标",
+      "subject_type": "方法",
+      "relation": "预测",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"神经网络故障预测方法\" → \"性能衰退趋势\"",
+        "\"神经网络故障预测方法\" → \"产品剩余寿命\""
+      ]
+    },
+    {
+      "template": "方法 → 保证 → 属性",
+      "subject_type": "方法",
+      "relation": "保证",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"神经网络故障预测方法\" → \"系统安全性\""
+      ]
+    },
+    {
+      "template": "验证方法 → 验证 → 方法",
+      "subject_type": "验证方法",
+      "relation": "验证",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"仿真验证\" → \"神经网络预测模型故障检测方法\"",
+        "\"计算机仿真\" → \"故障诊断方法\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 应用对象",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "应用对象",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"神经网络预测模型故障检测方法\" → \"某型歼击机\"",
+        "\"基于马氏距离的故障预测方法\" → \"某型飞机火控系统\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 部件",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "部件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障诊断方法\" → \"飞机作动器\"",
+        "\"扩展Weibull分步建模\" → \"热交换器\""
+      ]
+    },
+    {
+      "template": "方法 → 用于产生 → 数据",
+      "subject_type": "方法",
+      "relation": "用于产生",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"乘同余组合发生器\" → \"随机数\"",
+        "\"反变换法\" → \"随机数\""
+      ]
+    },
+    {
+      "template": "设备 → 具有 → 特性",
+      "subject_type": "设备",
+      "relation": "具有",
+      "object_type": "特性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机\" → \"复杂结构\"",
+        "\"航空发动机\" → \"多样故障模式\""
+      ]
+    },
+    {
+      "template": "算法 → 解决 → 问题",
+      "subject_type": "算法",
+      "relation": "解决",
+      "object_type": "问题",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"贝叶斯优化LSTM\" → \"深度学习算法参数优化效率低\"",
+        "\"贝叶斯优化LSTM\" → \"预测准确率差\""
+      ]
+    },
+    {
+      "template": "估计器 → 估计 → 参数",
+      "subject_type": "估计器",
+      "relation": "估计",
+      "object_type": "参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"理想估计器\" → \"气路健康参数\"",
+        "\"状态估计器\" → \"性能退化系数\""
+      ]
+    },
+    {
+      "template": "系统 → 减小 → 影响",
+      "subject_type": "系统",
+      "relation": "减小",
+      "object_type": "影响",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"修正系统\" → \"测量噪声的影响\"",
+        "\"修正系统\" → \"系统噪声的影响\""
+      ]
+    },
+    {
+      "template": "系统 → 减小 → 风险",
+      "subject_type": "系统",
+      "relation": "减小",
+      "object_type": "风险",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"修正系统\" → \"误判的概率\"",
+        "\"修正系统\" → \"误诊的概率\""
+      ]
+    },
+    {
+      "template": "方法 → 缩小 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "缩小",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"离线修正\" → \"估计值的相对误差最大值\"",
+        "\"在线修正\" → \"估计值的相对误差最大值\""
+      ]
+    },
+    {
+      "template": "算法 → 采用 → 参数",
+      "subject_type": "算法",
+      "relation": "采用",
+      "object_type": "参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"遗传算法\" → \"自适应的变异率\""
+      ]
+    },
+    {
+      "template": "任务 → 应用于 → 研究对象",
+      "subject_type": "任务",
+      "relation": "应用于",
+      "object_type": "研究对象",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障预测\" → \"航空装备\"",
+        "\"剩余寿命预测\" → \"随机退化设备\""
+      ]
+    },
+    {
+      "template": "实验 → 平均相关系数为 → 数值",
+      "subject_type": "实验",
+      "relation": "平均相关系数为",
+      "object_type": "数值",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"单颗粒监测\" → \"0.668\"",
+        "\"多颗粒监测\" → \"0.652\""
+      ]
+    },
+    {
+      "template": "方法 → 达到 → Performance Metric",
+      "subject_type": "方法",
+      "relation": "达到",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"基于马氏距离的故障预测方法\" → \"98.48%的在线平均故障预测准确度\"",
+        "\"基于马氏距离的故障预测方法\" → \"97.77%的离线平均故障预测准确度\""
+      ]
+    },
+    {
+      "template": "架构 → 划分出 → 系统",
+      "subject_type": "架构",
+      "relation": "划分出",
+      "object_type": "系统",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机PHM系统体系结构\" → \"机载PHM系统\"",
+        "\"飞机PHM系统体系结构\" → \"地面PHM系统\""
+      ]
+    },
+    {
+      "template": "飞机型号 → 属于 → 飞机类别",
+      "subject_type": "飞机型号",
+      "relation": "属于",
+      "object_type": "飞机类别",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"A320\" → \"主流客机\"",
+        "\"B737\" → \"主流客机\""
+      ]
+    },
+    {
+      "template": "公司 → 研发 → 飞机型号",
+      "subject_type": "公司",
+      "relation": "研发",
+      "object_type": "飞机型号",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"空客公司\" → \"A320\"",
+        "\"波音公司\" → \"B737\""
+      ]
+    },
+    {
+      "template": "活动 → 降低 → Performance Metric",
+      "subject_type": "活动",
+      "relation": "降低",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"实时运行监控\" → \"排故时间\"",
+        "\"健康管理\" → \"维修成本\""
+      ]
+    },
+    {
+      "template": "活动 → 实现 → 维修策略",
+      "subject_type": "活动",
+      "relation": "实现",
+      "object_type": "维修策略",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康管理\" → \"预防性维护\"",
+        "\"健康管理\" → \"视情维修\""
+      ]
+    },
+    {
+      "template": "方法 → 包含 → 步骤",
+      "subject_type": "方法",
+      "relation": "包含",
+      "object_type": "步骤",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"粒子群粗糙集约简的故障诊断方法\" → \"故障知识获取\"",
+        "\"粒子群粗糙集约简的故障诊断方法\" → \"规则优化\""
+      ]
+    },
+    {
+      "template": "算法 → 结合 → 方法",
+      "subject_type": "算法",
+      "relation": "结合",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障预测算法\" → \"数据驱动方法\"",
+        "\"故障预测算法\" → \"失效物理方法\""
+      ]
+    },
+    {
+      "template": "Model → 具有 → Performance Metric",
+      "subject_type": "Model",
+      "relation": "具有",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"改进的FBPNN\" → \"更好的预测效果\"",
+        "\"辨识模型\" → \"5%以内最大相对误差\""
+      ]
+    },
+    {
+      "template": "Model → 预测精度高于 → 方法",
+      "subject_type": "Model",
+      "relation": "预测精度高于",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"剪样训练后的DSVMR\" → \"RBF神经网络预测方法\""
+      ]
+    },
+    {
+      "template": "功能 → 连接 → 系统",
+      "subject_type": "功能",
+      "relation": "连接",
+      "object_type": "系统",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"信息交互及融合\" → \"虚拟管道系统\""
+      ]
+    },
+    {
+      "template": "研究 → 提出 → 方法",
+      "subject_type": "研究",
+      "relation": "提出",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"本研究\" → \"可变权限自主的结构和实现方法\"",
+        "\"本研究\" → \"预测维修模式实施方法\""
+      ]
+    },
+    {
+      "template": "理念 → 对抗 → 影响因素",
+      "subject_type": "理念",
+      "relation": "对抗",
+      "object_type": "影响因素",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"智能推进\" → \"恶劣工况\"",
+        "\"智能推进\" → \"部件老化\""
+      ]
+    },
+    {
+      "template": "理念 → 提高 → Performance Metric",
+      "subject_type": "理念",
+      "relation": "提高",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"智能推进\" → \"安全性\"",
+        "\"智能推进\" → \"可靠性\""
+      ]
+    },
+    {
+      "template": "技术 → 处于 → 阶段",
+      "subject_type": "技术",
+      "relation": "处于",
+      "object_type": "阶段",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"主动控制\" → \"概念设计和实验室研究阶段\"",
+        "\"分布式控制\" → \"概念设计和实验室研究阶段\""
+      ]
+    },
+    {
+      "template": "技术 → 预计技术成熟度达到 → 等级",
+      "subject_type": "技术",
+      "relation": "预计技术成熟度达到",
+      "object_type": "等级",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"主动控制\" → \"6级\"",
+        "\"分布式控制\" → \"6级\""
+      ]
+    },
+    {
+      "template": "方法 → 用于 → 分析",
+      "subject_type": "方法",
+      "relation": "用于",
+      "object_type": "分析",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"系统工程方法\" → \"场景分析\"",
+        "\"系统用例图与活动图建模\" → \"系统需求分析\""
+      ]
+    },
+    {
+      "template": "架构 → 包含 → 设计",
+      "subject_type": "架构",
+      "relation": "包含",
+      "object_type": "设计",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM系统顶层架构\" → \"逻辑体系架构设计\""
+      ]
+    },
+    {
+      "template": "技术 → 响应 → 需求",
+      "subject_type": "技术",
+      "relation": "响应",
+      "object_type": "需求",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"机载无线传感网络技术\" → \"实际需求\"",
+        "\"PHM技术\" → \"军事需求\""
+      ]
+    },
+    {
+      "template": "平台 → 采用 → 组件",
+      "subject_type": "平台",
+      "relation": "采用",
+      "object_type": "组件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM测试床\" → \"NI虚拟仪器\"",
+        "\"PHM测试床\" → \"PXI总线模块仪器\""
+      ]
+    },
+    {
+      "template": "方法 → 基于 → 分析方法",
+      "subject_type": "方法",
+      "relation": "基于",
+      "object_type": "分析方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康表征参数选取原则和方法\" → \"失效模式影响及危害性分析\"",
+        "\"健康表征参数选取原则和方法\" → \"故障树分析\""
+      ]
+    },
+    {
+      "template": "研究 → 提供依据 → 措施",
+      "subject_type": "研究",
+      "relation": "提供依据",
+      "object_type": "措施",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"某地区民航空勤人员健康状况分析\" → \"飞行人员健康管理\"",
+        "\"某地区民航空勤人员健康状况分析\" → \"常见病防治\""
+      ]
+    },
+    {
+      "template": "维修模式 → 带来 → 效益",
+      "subject_type": "维修模式",
+      "relation": "带来",
+      "object_type": "效益",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"PHM维修\" → \"经济效益\"",
+        "\"PHM维修\" → \"安全效益\""
+      ]
+    },
+    {
+      "template": "管理方法 → 保证 → 目标",
+      "subject_type": "管理方法",
+      "relation": "保证",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机健康管理\" → \"飞行安全\"",
+        "\"飞机健康管理\" → \"经济\""
+      ]
+    },
+    {
+      "template": "方法 → 得出 → 指标",
+      "subject_type": "方法",
+      "relation": "得出",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"民用飞机维修间隔风险评估方法\" → \"风险因子\"",
+        "\"民用飞机维修间隔风险评估方法\" → \"飞行事故率\""
+      ]
+    },
+    {
+      "template": "方案 → 具有 → 指标",
+      "subject_type": "方案",
+      "relation": "具有",
+      "object_type": "指标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"维修间隔方案\" → \"风险因子\"",
+        "\"维修间隔方案\" → \"飞行事故率\""
+      ]
+    },
+    {
+      "template": "Model → 评估 → 状态",
+      "subject_type": "Model",
+      "relation": "评估",
+      "object_type": "状态",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"评估模型\" → \"飞机健康状态\"",
+        "\"增强型自适应模型\" → \"健康参数状态\""
+      ]
+    },
+    {
+      "template": "任务 → 需要 → 数据",
+      "subject_type": "任务",
+      "relation": "需要",
+      "object_type": "数据",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"民航飞机健康管理状态评估\" → \"传感器采集的基础数据\"",
+        "\"健康评估\" → \"故障特征\""
+      ]
+    },
+    {
+      "template": "过程 → 包含 → 技术",
+      "subject_type": "过程",
+      "relation": "包含",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"数据处理过程\" → \"健康状态特征参数提取\"",
+        "\"数据处理过程\" → \"故障预测技术\""
+      ]
+    },
+    {
+      "template": "状态 → 影响 → 信号",
+      "subject_type": "状态",
+      "relation": "影响",
+      "object_type": "信号",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"发动机健康状态\" → \"尾气静电监测信号\""
+      ]
+    },
+    {
+      "template": "基准 → 用于 → 应用",
+      "subject_type": "基准",
+      "relation": "用于",
+      "object_type": "应用",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康基线\" → \"气路状态监测\"",
+        "\"健康基线\" → \"故障识别\""
+      ]
+    },
+    {
+      "template": "方法 → 校准 → 组件",
+      "subject_type": "方法",
+      "relation": "校准",
+      "object_type": "组件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"整机在线校准方法\" → \"温度通道\""
+      ]
+    },
+    {
+      "template": "方法 → 应用于 → 任务",
+      "subject_type": "方法",
+      "relation": "应用于",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"时间序列分析方法\" → \"故障诊断\"",
+        "\"支持向量机\" → \"发动机油液磨粒与故障关系预测\""
+      ]
+    },
+    {
+      "template": "任务 → 针对 → 参数",
+      "subject_type": "任务",
+      "relation": "针对",
+      "object_type": "参数",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"趋势预测\" → \"监视参数\"",
+        "\"趋势预测\" → \"特征参数\""
+      ]
+    },
+    {
+      "template": "方法 → 使用 → 方法",
+      "subject_type": "方法",
+      "relation": "使用",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障识别法\" → \"判别函数\"",
+        "\"故障识别法\" → \"参数相关分析法\""
+      ]
+    },
+    {
+      "template": "系统 → 预测 → 事件",
+      "subject_type": "系统",
+      "relation": "预测",
+      "object_type": "事件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"直升机健康管理系统\" → \"故障\""
+      ]
+    },
+    {
+      "template": "功能 → 服务于 → 角色",
+      "subject_type": "功能",
+      "relation": "服务于",
+      "object_type": "角色",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"技术支撑\" → \"操作人员\"",
+        "\"技术支撑\" → \"维修人员\""
+      ]
+    },
+    {
+      "template": "组件 → 采用 → 架构",
+      "subject_type": "组件",
+      "relation": "采用",
+      "object_type": "架构",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"HUMS处理单元\" → \"开放式体系架构\"",
+        "\"地面站\" → \"分布式体系架构\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 部件",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "部件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"直升机旋翼系统\" → \"动部件\"",
+        "\"飞机机电系统\" → \"飞机机电系统部件\""
+      ]
+    },
+    {
+      "template": "方法 → 是 → 技术",
+      "subject_type": "方法",
+      "relation": "是",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"多信号增强诊断方法\" → \"关键技术\"",
+        "\"健康评估方法\" → \"关键技术\""
+      ]
+    },
+    {
+      "template": "技术 → 是 → 技术类别",
+      "subject_type": "技术",
+      "relation": "是",
+      "object_type": "技术类别",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"综合飞行器管理技术\" → \"关键技术\"",
+        "\"防热系统健康管理\" → \"关键技术\""
+      ]
+    },
+    {
+      "template": "技术 → 是 → 概念",
+      "subject_type": "技术",
+      "relation": "是",
+      "object_type": "概念",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"综合诊断\" → \"技术手段\"",
+        "\"综合诊断\" → \"发展方向\""
+      ]
+    },
+    {
+      "template": "学科 → 推动 → 技术",
+      "subject_type": "学科",
+      "relation": "推动",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"计算机学科\" → \"发动机PHM技术\"",
+        "\"航空宇航学科\" → \"发动机PHM技术\""
+      ]
+    },
+    {
+      "template": "方法 → 采用 → 方法",
+      "subject_type": "方法",
+      "relation": "采用",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"功能分配方法\" → \"逻辑决断图\"",
+        "\"功能分配方法\" → \"层次分析法\""
+      ]
+    },
+    {
+      "template": "方法 → 建立 → 方法",
+      "subject_type": "方法",
+      "relation": "建立",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机双余度控制规律设计方法\" → \"备份控制规律设计方法\"",
+        "\"航空发动机机载健康管理系统设计方法\" → \"图形化设计方法\""
+      ]
+    },
+    {
+      "template": "诊断系统 → 隔离 → 故障",
+      "subject_type": "诊断系统",
+      "relation": "隔离",
+      "object_type": "故障",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"气路故障诊断系统\" → \"气路故障\""
+      ]
+    },
+    {
+      "template": "技术 → 执行 → 任务",
+      "subject_type": "技术",
+      "relation": "执行",
+      "object_type": "任务",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"RBF神经网络\" → \"故障隔离\""
+      ]
+    },
+    {
+      "template": "技术 → 识别 → 故障",
+      "subject_type": "技术",
+      "relation": "识别",
+      "object_type": "故障",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机气路故障诊断\" → \"气路部件性能退化\"",
+        "\"航空发动机气路故障诊断\" → \"故障\""
+      ]
+    },
+    {
+      "template": "技术 → 提高 → 目标",
+      "subject_type": "技术",
+      "relation": "提高",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机气路故障诊断\" → \"飞行安全性\"",
+        "\"航空发动机气路故障诊断\" → \"可靠性\""
+      ]
+    },
+    {
+      "template": "技术 → 存在 → 挑战",
+      "subject_type": "技术",
+      "relation": "存在",
+      "object_type": "挑战",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"气路故障诊断技术\" → \"关键技术\"",
+        "\"气路故障诊断技术\" → \"难点\""
+      ]
+    },
+    {
+      "template": "优化算法 → 用于优化 → Model",
+      "subject_type": "优化算法",
+      "relation": "用于优化",
+      "object_type": "Model",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"粒子群算法\" → \"滑油系统仿真模型\"",
+        "\"遗传算法\" → \"滑油系统仿真模型\""
+      ]
+    },
+    {
+      "template": "理念 → 促进 → 技术",
+      "subject_type": "理念",
+      "relation": "促进",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"单元体设计\" → \"航空发动机限寿件使用寿命监视技术\"",
+        "\"基于状态维修\" → \"航空发动机限寿件使用寿命监视技术\""
+      ]
+    },
+    {
+      "template": "系统 → 包含实例 → 发动机型号",
+      "subject_type": "系统",
+      "relation": "包含实例",
+      "object_type": "发动机型号",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"第四代战斗机发动机健康管理系统\" → \"EJ200\"",
+        "\"第四代战斗机发动机健康管理系统\" → \"F119\""
+      ]
+    },
+    {
+      "template": "方案 → 连接 → 设备",
+      "subject_type": "方案",
+      "relation": "连接",
+      "object_type": "设备",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"交联方案\" → \"飞机\"",
+        "\"交联方案\" → \"发动机\""
+      ]
+    },
+    {
+      "template": "系统 → 包含 → 系统",
+      "subject_type": "系统",
+      "relation": "包含",
+      "object_type": "系统",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机预测健康管理系统 (EPHM)\" → \"在线机载EPHM系统\"",
+        "\"航空发动机预测健康管理系统 (EPHM)\" → \"离线EPHM系统\""
+      ]
+    },
+    {
+      "template": "系统 → 具有 → 设计",
+      "subject_type": "系统",
+      "relation": "具有",
+      "object_type": "设计",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"在线机载EPHM系统\" → \"基本结构设计\"",
+        "\"离线EPHM系统\" → \"基本结构设计\""
+      ]
+    },
+    {
+      "template": "系统 → 提出 → 方法",
+      "subject_type": "系统",
+      "relation": "提出",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空机电作动器健康管理验证系统\" → \"数学建模方法\"",
+        "\"航空机电作动器健康管理验证系统\" → \"故障注入方法\""
+      ]
+    },
+    {
+      "template": "流程 → 包括 → 方法",
+      "subject_type": "流程",
+      "relation": "包括",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机气路故障诊断的总体实施流程\" → \"基线模型的构建方法\""
+      ]
+    },
+    {
+      "template": "技术领域 → 包含 → 诊断方法",
+      "subject_type": "技术领域",
+      "relation": "包含",
+      "object_type": "诊断方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"航空发动机气路故障诊断\" → \"数据驱动的诊断方法\""
+      ]
+    },
+    {
+      "template": "体系 → 基于 → 诊断方法",
+      "subject_type": "体系",
+      "relation": "基于",
+      "object_type": "诊断方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"诊断方法体系\" → \"数据驱动的诊断方法\""
+      ]
+    },
+    {
+      "template": "问题 → 影响 → Performance Metric",
+      "subject_type": "问题",
+      "relation": "影响",
+      "object_type": "Performance Metric",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"故障特征数量大\" → \"故障预测精度\"",
+        "\"故障特征数量大\" → \"故障预测速度\""
+      ]
+    },
+    {
+      "template": "技术 → 验证 → 方法",
+      "subject_type": "技术",
+      "relation": "验证",
+      "object_type": "方法",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"健康评估\" → \"新方法\"",
+        "\"故障特征可视化\" → \"新方法\""
+      ]
+    },
+    {
+      "template": "方法 → 应用 → 技术",
+      "subject_type": "方法",
+      "relation": "应用",
+      "object_type": "技术",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞行试验故障可能性评定方法\" → \"蒙特卡洛抽样\"",
+        "\"飞行试验故障可能性评定方法\" → \"层次分析法\""
+      ]
+    },
+    {
+      "template": "指标 → 实现 → 功能",
+      "subject_type": "指标",
+      "relation": "实现",
+      "object_type": "功能",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"风险综合预警指数曲线\" → \"实时监控\"",
+        "\"风险综合预警指数曲线\" → \"短期趋势预测\""
+      ]
+    },
+    {
+      "template": "维修模式 → 涉及 → 规范/政策",
+      "subject_type": "维修模式",
+      "relation": "涉及",
+      "object_type": "规范/政策",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"预测性维修\" → \"管理政策\"",
+        "\"预测性维修\" → \"标准规范\""
+      ]
+    },
+    {
+      "template": "部件 → 包含 → 部件",
+      "subject_type": "部件",
+      "relation": "包含",
+      "object_type": "部件",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机机电系统部件\" → \"机电作动器\"",
+        "\"飞机机电系统部件\" → \"辅助动力装置\""
+      ]
+    },
+    {
+      "template": "系统 → 用于 → 应用",
+      "subject_type": "系统",
+      "relation": "用于",
+      "object_type": "应用",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机液压泵源预测与健康管理系统\" → \"典型液压泵源系统故障预测\"",
+        "\"飞机液压泵源预测与健康管理系统\" → \"后勤保障\""
+      ]
+    },
+    {
+      "template": "系统 → 影响 → 属性",
+      "subject_type": "系统",
+      "relation": "影响",
+      "object_type": "属性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机燃油系统\" → \"飞机安全性\"",
+        "\"起落架收放系统\" → \"飞行安全\""
+      ]
+    },
+    {
+      "template": "组件 → 影响 → 系统",
+      "subject_type": "组件",
+      "relation": "影响",
+      "object_type": "系统",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"电力电子器件\" → \"飞机电源系统\""
+      ]
+    },
+    {
+      "template": "结构 → 确保 → 目标",
+      "subject_type": "结构",
+      "relation": "确保",
+      "object_type": "目标",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机结构\" → \"飞机安全\"",
+        "\"飞机结构\" → \"长寿命使用\""
+      ]
+    },
+    {
+      "template": "技术 → 具有 → 特性",
+      "subject_type": "技术",
+      "relation": "具有",
+      "object_type": "特性",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"飞机结构健康监测与管理技术\" → \"实时性\"",
+        "\"飞机结构健康监测与管理技术\" → \"在线性\""
+      ]
+    },
+    {
+      "template": "生活习惯 → 影响 → 健康状态",
+      "subject_type": "生活习惯",
+      "relation": "影响",
+      "object_type": "健康状态",
+      "frequency": 2,
+      "confidence": "medium",
+      "examples": [
+        "\"抽烟\" → \"生理亚健康\"",
+        "\"饮酒\" → \"生理亚健康\""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "entities": [
+    {
+      "type": "问题",
+      "text": "航空发动机剩余寿命（RUL）预测"
+    },
+    {
+      "type": "技术领域",
+      "text": "设备故障预测与健康管理（PHM）"
+    },
+    {
+      "type": "问题",
+      "text": "发动机数据维度高、滞后性强和复杂度高"
+    },
+    {
+      "type": "模型",
+      "text": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型"
+    },
+    {
+      "type": "模型",
+      "text": "STW-MSABiLSTM"
+    },
+    {
+      "type": "网络",
+      "text": "双向长短期记忆神经网络(BiLSTM)"
+    },
+    {
+      "type": "特征",
+      "text": "多尺度特征"
+    },
+    {
+      "type": "算法",
+      "text": "基于自训练权重的融合算法"
+    },
+    {
+      "type": "技术",
+      "text": "注意力机制"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA的C-MAPSS数据集"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确率"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空发动机"
+    },
+    {
+      "type": "模型",
+      "text": "深度学习模型"
+    },
+    {
+      "type": "模型",
+      "text": "注意力双向长短期记忆神经网络(ABiLSTM)"
+    },
+    {
+      "type": "研究方法",
+      "text": "物理模型的预测方法"
+    },
+    {
+      "type": "研究方法",
+      "text": "机器学习方法"
+    },
+    {
+      "type": "研究方法",
+      "text": "数据驱动方法"
+    },
+    {
+      "type": "理论",
+      "text": "贝叶斯理论"
+    },
+    {
+      "type": "算法",
+      "text": "马尔科夫链蒙特卡洛方法"
+    },
+    {
+      "type": "算法",
+      "text": "核主元分析(KPCA)"
+    },
+    {
+      "type": "模型",
+      "text": "相关向量机(RVM)"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量机(SVM)"
+    },
+    {
+      "type": "网络",
+      "text": "深度置信网络(DBN)"
+    },
+    {
+      "type": "网络",
+      "text": "卷积神经网络(CNN)"
+    },
+    {
+      "type": "网络",
+      "text": "循环神经网络(RNN)"
+    },
+    {
+      "type": "网络",
+      "text": "长短时记忆神经网络(LSTM)"
+    },
+    {
+      "type": "模型",
+      "text": "CNN和RNN的混合模型"
+    },
+    {
+      "type": "问题",
+      "text": "梯度消失"
+    },
+    {
+      "type": "问题",
+      "text": "梯度爆炸"
+    },
+    {
+      "type": "模型",
+      "text": "基于BiLSTM和多尺度CNN的RUL预估方法"
+    },
+    {
+      "type": "模型",
+      "text": "基于BiLSTM的自适应故障诊断模型"
+    },
+    {
+      "type": "算法",
+      "text": "自训练权重(STW)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "输入层"
+    },
+    {
+      "type": "系统/部件",
+      "text": "多尺度特征提取层"
+    },
+    {
+      "type": "系统/部件",
+      "text": "参数自训练融合层"
+    },
+    {
+      "type": "系统/部件",
+      "text": "注意力层"
+    },
+    {
+      "type": "系统/部件",
+      "text": "池化层"
+    },
+    {
+      "type": "系统/部件",
+      "text": "输出层"
+    },
+    {
+      "type": "函数",
+      "text": "均方差(MSE)损失函数"
+    },
+    {
+      "type": "模型",
+      "text": "多层感知机(MLP)"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量回归(SVR)"
+    },
+    {
+      "type": "模型",
+      "text": "单层LSTM"
+    },
+    {
+      "type": "模型",
+      "text": "卷积自编码(CAE)LSTM"
+    },
+    {
+      "type": "模型",
+      "text": "三尺度ABiLSTM"
+    },
+    {
+      "type": "模型",
+      "text": "四尺度ABiLSTM"
+    },
+    {
+      "type": "技术",
+      "text": "Transformer"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的核心问题",
+      "head": "航空发动机剩余寿命（RUL）预测",
+      "tail": "设备故障预测与健康管理（PHM）"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型"
+    },
+    {
+      "type": "别名为",
+      "head": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型",
+      "tail": "STW-MSABiLSTM"
+    },
+    {
+      "type": "解决",
+      "head": "STW-MSABiLSTM",
+      "tail": "发动机数据维度高、滞后性强和复杂度高"
+    },
+    {
+      "type": "提取",
+      "head": "双向长短期记忆神经网络(BiLSTM)",
+      "tail": "多尺度特征"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于自训练权重的融合算法"
+    },
+    {
+      "type": "引入",
+      "head": "基于自训练权重的融合算法",
+      "tail": "注意力机制"
+    },
+    {
+      "type": "进行",
+      "head": "注意力机制",
+      "tail": "不同尺度的特征筛选"
+    },
+    {
+      "type": "提高",
+      "head": "基于自训练权重的融合算法",
+      "tail": "预测精度"
+    },
+    {
+      "type": "在...上进行实验对比",
+      "head": "STW-MSABiLSTM",
+      "tail": "NASA的C-MAPSS数据集"
+    },
+    {
+      "type": "提升了",
+      "head": "STW-MSABiLSTM",
+      "tail": "准确率"
+    },
+    {
+      "type": "提升了",
+      "head": "STW-MSABiLSTM",
+      "tail": "均方根误差"
+    },
+    {
+      "type": "改进自",
+      "head": "长短时记忆神经网络(LSTM)",
+      "tail": "循环神经网络(RNN)"
+    },
+    {
+      "type": "面临挑战",
+      "head": "循环神经网络(RNN)",
+      "tail": "梯度消失"
+    },
+    {
+      "type": "面临挑战",
+      "head": "循环神经网络(RNN)",
+      "tail": "梯度爆炸"
+    },
+    {
+      "type": "结合",
+      "head": "数据驱动方法",
+      "tail": "贝叶斯理论"
+    },
+    {
+      "type": "优于",
+      "head": "相关向量机(RVM)",
+      "tail": "支持向量机(SVM)"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "输入层"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "多尺度特征提取层"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "参数自训练融合层"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "注意力层"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "池化层"
+    },
+    {
+      "type": "组成",
+      "head": "STW-MSABiLSTM",
+      "tail": "输出层"
+    },
+    {
+      "type": "包含",
+      "head": "多尺度特征提取层",
+      "tail": "不同尺度的BiLSTM网络"
+    },
+    {
+      "type": "采用",
+      "head": "参数自训练融合层",
+      "tail": "自训练权重(STW)"
+    },
+    {
+      "type": "采用",
+      "head": "STW-MSABiLSTM",
+      "tail": "均方差(MSE)损失函数"
+    },
+    {
+      "type": "区别于",
+      "head": "自训练权重(STW)",
+      "tail": "注意力机制"
+    },
+    {
+      "type": "在RMSE指标上优于1.73%",
+      "head": "三尺度ABiLSTM",
+      "tail": "四尺度ABiLSTM"
+    },
+    {
+      "type": "在准确率上优于1.32%",
+      "head": "基于注意力机制的三尺度BiLSTM模型",
+      "tail": "三尺度BiLSTM模型"
+    },
+    {
+      "type": "在RMSE上优于12.87%",
+      "head": "基于注意力机制的三尺度BiLSTM模型",
+      "tail": "三尺度BiLSTM模型"
+    },
+    {
+      "type": "在准确率上优于1.61%",
+      "head": "基于自训练权重的三尺度BiLSTM模型",
+      "tail": "三尺度BiLSTM模型"
+    },
+    {
+      "type": "在RMSE上优于4.72%",
+      "head": "基于自训练权重的三尺度BiLSTM模型",
+      "tail": "三尺度BiLSTM模型"
+    },
+    {
+      "type": "在RMSE指标上优于",
+      "head": "深度学习方法",
+      "tail": "机器学习方法"
+    },
+    {
+      "type": "在RMSE指标上优于50.88%",
+      "head": "卷积神经网络(CNN)",
+      "tail": "多层感知机(MLP)"
+    },
+    {
+      "type": "在RMSE指标上优于11.98%",
+      "head": "卷积神经网络(CNN)",
+      "tail": "支持向量回归(SVR)"
+    },
+    {
+      "type": "在RMSE上降低了20.87%",
+      "head": "单层LSTM",
+      "tail": "卷积神经网络(CNN)"
+    },
+    {
+      "type": "在准确率上优于1.96%",
+      "head": "三尺度ABiLSTM",
+      "tail": "卷积自编码(CAE)LSTM"
+    },
+    {
+      "type": "在RMSE上优于31.92%",
+      "head": "三尺度ABiLSTM",
+      "tail": "卷积自编码(CAE)LSTM"
+    },
+    {
+      "type": "在准确率上优于1.86%",
+      "head": "STW-MSABiLSTM",
+      "tail": "三尺度ABiLSTM"
+    },
+    {
+      "type": "在RMSE上优于1.49%",
+      "head": "STW-MSABiLSTM",
+      "tail": "三尺度ABiLSTM"
+    },
+    {
+      "type": "在准确率上优于3.82%",
+      "head": "STW-MSABiLSTM",
+      "tail": "卷积自编码(CAE)LSTM"
+    },
+    {
+      "type": "在RMSE上优于32.93%",
+      "head": "STW-MSABiLSTM",
+      "tail": "卷积自编码(CAE)LSTM"
+    },
+    {
+      "type": "后续研究考虑引入",
+      "head": "本文",
+      "tail": "Transformer"
+    }
+  ]
+}

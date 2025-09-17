@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与管理技术（Prognostics and Health Management，PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "领域",
+      "text": "航空航天、国防军事以及工业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国航空信息中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "国防科技大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于失效物理的数据处理和故障诊断单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型仿真的测试平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统硬件验证平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与状态管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM体系结构、故障特征提取、故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据融合技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "BIT技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于粗糙概率Petri网的故障检测推理机制",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "故障预测与管理技术（Prognostics and Health Management，PHM）",
+      "tail": "现代武器装备",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用在",
+      "head": "PHM技术",
+      "tail": "航空航天、国防军事以及工业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "视情维修",
+      "tail": "故障预测与健康管理（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "位于",
+      "head": "北京航空航天大学",
+      "tail": "北京",
+      "evaluation": "正确"
+    },
+    {
+      "type": "位于",
+      "head": "中国航空信息中心",
+      "tail": "北京",
+      "evaluation": "正确"
+    },
+    {
+      "type": "位于",
+      "head": "哈尔滨工业大学",
+      "tail": "哈尔滨",
+      "evaluation": "正确"
+    },
+    {
+      "type": "位于",
+      "head": "国防科技大学",
+      "tail": "中国",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "基于失效物理的数据处理和故障诊断单元",
+      "tail": "实时地分析健康状态对于采集到的异常信号进行初步的故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建",
+      "head": "基于模型仿真的测试平台",
+      "tail": "太空飞机的推进系统进行故障诊断和健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "设计",
+      "head": "北京航空航天大学",
+      "tail": "PHM系统硬件验证平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "取得成果",
+      "head": "中航一集团634研究所",
+      "tail": "航空系统PHM体系结构、故障特征提取、故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "故障检测、故障隔离、增强的诊断、性能检测、故障预测、健康管理及部件寿命追踪等能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "数据融合技术",
+      "tail": "BIT诊断与预测的精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生",
+      "head": "BIT技术",
+      "tail": "故障错误警告",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "基于粗糙概率Petri网的故障检测推理机制",
+      "tail": "在轨服务的目标航天器故障检测",
+      "evaluation": "正确"
+    }
+  ]
+}

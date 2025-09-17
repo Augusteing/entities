@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机全权限数字电子控制系统"
+    },
+    {
+      "type": "系统",
+      "text": "FADEC系统"
+    },
+    {
+      "type": "软件",
+      "text": "FADEC软件"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型开发"
+    },
+    {
+      "type": "方法",
+      "text": "自动代码生成"
+    },
+    {
+      "type": "工具",
+      "text": "SCADE"
+    },
+    {
+      "type": "工具",
+      "text": "KCG"
+    },
+    {
+      "type": "工具",
+      "text": "Qualified Reporter"
+    },
+    {
+      "type": "工具",
+      "text": "SCADE RM Gateway"
+    },
+    {
+      "type": "工具",
+      "text": "QTE"
+    },
+    {
+      "type": "工具",
+      "text": "TEE"
+    },
+    {
+      "type": "工具",
+      "text": "MTC"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Gateway"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Translator"
+    },
+    {
+      "type": "工具",
+      "text": "Stateflow Importer"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Wrapper"
+    },
+    {
+      "type": "标准",
+      "text": "DO-178C"
+    },
+    {
+      "type": "标准",
+      "text": "DO-331"
+    },
+    {
+      "type": "模型",
+      "text": "FADEC模型库"
+    },
+    {
+      "type": "模型",
+      "text": "LibCounter"
+    },
+    {
+      "type": "模型",
+      "text": "Lib_FaultConfirm"
+    },
+    {
+      "type": "数据类型",
+      "text": "Sensors"
+    },
+    {
+      "type": "模块",
+      "text": "健康管理模块"
+    },
+    {
+      "type": "模块",
+      "text": "推力矢量模块"
+    },
+    {
+      "type": "模型",
+      "text": "SCM_INP"
+    },
+    {
+      "type": "模型",
+      "text": "SCM_EXE"
+    },
+    {
+      "type": "指标",
+      "text": "模型覆盖率"
+    },
+    {
+      "type": "指标",
+      "text": "MC/DC覆盖准则"
+    },
+    {
+      "type": "数值",
+      "text": "100%"
+    },
+    {
+      "type": "数值",
+      "text": "651个"
+    },
+    {
+      "type": "数值",
+      "text": "605个"
+    },
+    {
+      "type": "数值",
+      "text": "46个"
+    },
+    {
+      "type": "流程",
+      "text": "SCADE和Simulink联合MBD流程"
+    },
+    {
+      "type": "问题",
+      "text": "不支持单精度浮点型"
+    },
+    {
+      "type": "问题",
+      "text": "不支持位域"
+    },
+    {
+      "type": "问题",
+      "text": "不支持位运算"
+    },
+    {
+      "type": "问题",
+      "text": "手动定义可调整参数"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "基于模型开发",
+      "tail": "FADEC软件开发"
+    },
+    {
+      "type": "应用于",
+      "head": "自动代码生成",
+      "tail": "FADEC软件开发"
+    },
+    {
+      "type": "基于",
+      "head": "FADEC软件开发",
+      "tail": "SCADE"
+    },
+    {
+      "type": "生成",
+      "head": "KCG",
+      "tail": "代码"
+    },
+    {
+      "type": "验证",
+      "head": "QTE",
+      "tail": "模型"
+    },
+    {
+      "type": "分析",
+      "head": "MTC",
+      "tail": "模型覆盖率"
+    },
+    {
+      "type": "转换",
+      "head": "Simulink Translator",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "集成",
+      "head": "Simulink Wrapper",
+      "tail": "Simulink模型"
+    },
+    {
+      "type": "开发",
+      "head": "SCADE",
+      "tail": "FADEC模型库"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC模型库",
+      "tail": "LibCounter"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC模型库",
+      "tail": "Lib_FaultConfirm"
+    },
+    {
+      "type": "使用",
+      "head": "模型设计",
+      "tail": "Sensors"
+    },
+    {
+      "type": "覆盖",
+      "head": "模型测试",
+      "tail": "100%"
+    },
+    {
+      "type": "基于",
+      "head": "模型验证",
+      "tail": "MC/DC覆盖准则"
+    },
+    {
+      "type": "转换",
+      "head": "Simulink Gateway",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "SCADE和Simulink联合MBD流程"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "单精度浮点型"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "位域"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "位运算"
+    },
+    {
+      "type": "需要",
+      "head": "SCADE",
+      "tail": "手动定义可调整参数"
+    }
+  ]
+}

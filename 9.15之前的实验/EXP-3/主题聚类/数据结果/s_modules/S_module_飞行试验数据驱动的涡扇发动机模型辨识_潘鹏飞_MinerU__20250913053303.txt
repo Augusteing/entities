@@ -1,0 +1,60 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1]李少尘，陈敏，胡金涛，等.航空燃气涡轮发动机气路故障诊断进展综述[J].航空发动机，2022，48（2）：33- 49. LI Shaochen, CHEN Min, HU Jintao, et al. A review of research progress on aircraft gas turbine engines gas path fault diagnosis [J]. Aeroengine,2022,48(2):33- 49. (in Chinese) [2]尉询楷，冯悦，刘芳，等.军用航空发动机PHM发展策略及关键技术[J].航空动力学报，2011，26（9）：2107- 2115. WEI Xunkai, FENG Yue, LIU Fang, et al. Development strategy and key prognostics health management technologies for military aeroengine in China[J]. Journal of Aerospace Power,2011,26（9）：2107-
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "功能",
+      "text": "故障诊断"
+    }
+  ]
+}
+```
+
+示例2 段落：
+发动机传感器数据预处理[J].推进技术,2018,39(5):1142- 1150. LYU Sheng, GUO Yingqing, SUN Hao. Aeroengine sensor data preprocessing based on SDQ algorithm of GA- AANN neural network [J]. Journal of Propulsion Technology, 2018, 39(5): 1142- 1150. (in Chinese)[16]林兆福,范作民,发动机基线方程的建立和应用[J].中国民航学院学报,1992,10(4):20- 32. LIN Zhaou, PAN Zuomin. Development and application of engine baseline equations [J]. Journal of Civil Aviation Institute of China, 1992,10(4):20- 32. (in Chinese)[17]钟诗胜,周志波,张永,等.基于三次回归分析的试车台基线库的建立[J].计算机集成制造系统,2005,11(2):270- 274. ZHONG Shisheng, ZHOU Zhibo, ZHAIG Yong, et al. Construction of test cell baselines based on thrice regression analysis [J]. Computer Integrated Manufacturing Systems, 2005, 11(2): 270- 274. (in Chinese)[18]钟诗胜,崔智全,付旭云. Rolls- Royce 发动机基线挖掘方法[J].计算机集成制造系统,2010,16(10):2261- 2270. ZHONG Shisheng, CUI Zhiquan, FU Xuyun. Baseline mining method of RR's engine [J]. Computer Integrated Manufacturing Systems, 2010, 16(10): 2265- 2270. (in Chinese)[19]付金华,闫锋.航空发动机排气温度基线建模方法[J].航空计算技术,2014,44(6):49- 54. FU Jinhua, YAN Feng. A method of modeling exhaust gas temperature baseline of aeroengine [J]. Aeronautical Computing Technique, 44(6): 49- 54. (in Chinese)[20]王奕首,余映红,卿新林,等.基于KPCA和DBN的航空发动机排气温度基线模型[J].航空发动机,2020,46(1):54- 60. WANG Yishou, YU Yinghong, QING Xinlin, et al. Exhaust gas temperature baseline model of aeroengine based on KPCA and DBN [J]. Aeroengine, 2020, 46(1): 54- 60. (in Chinese)[21]黄曦,卿新林,王奕首,等.基于SDAR的航空发动机燃油流量基线模型构建[J].航空发动机,2019,45(2):29- 33. HUANG Xi, QING Xinlin, WANG Yishou, et al. Construction of aeroengine fuel flow baseline model based on packed denoising auto- encoders [J]. Aeroengine, 2019, 45(2): 29- 33. (in Chinese)[22]刘渊,余映红,田彦云等.航空发动机排气温度基线建模新方法研究[J].北京:推进技术,2021,1- 35[2021- 11- 25].https://china.cenq/ 10.13675/j.cnki.tjjs.200511. LIU Yuan, YU Yinghong, TIAN Yanyun, et al. Investigation on New Method for Baseline Modelling of Aeroengine Exhaust Gas Temperature [J/OL]. Beijing: Journal of Propulsion Technology, 2021: 1- 35[2021- 11- 25]. https://doi.org/10.13675/j.cnki.tjjs.200511. (in Chinese)[23] Stamatis A, Mathioudakis K, Papailiou K D. Adaptive simulation of gas turbine performance [J]. Journal of Engineering for Gas Turbines and Power, 1990, 112(2): 168- 175. [24] Li Y G, Marinai L, Gatto E L, et al. Multiple- point adaptive perfor
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "基线模型"
+    },
+    {
+      "type": "研究人员",
+      "text": "Stamatis"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[85] BORGUET S, DEWALLEF P, LEONARD O. A way to deal with model- plant mismatch for a reliable diagnosis in transient operation[C]//Proceedings of the ASME Turbo Expo 2006. [S.l.]: [s.n.], 2006. [86] DEWALLEF P, LEONARD O. On- line performance monitoring and engine diagnostic using robust Kalman filtering techniques[C]//Proceedings of the ASME Turbo Expo 2003. [S.l.]: [s.n.], 2003. [87] 张鹏, 黄金泉. 航空发动机气路故障诊断的平方根 UKF 方法研究[J]. 航空动力学报, 2008, 23(1): 169- 173. ZHANG Peng, HUANG Jinquan. SRUKF research on aeroengines for gas path component fault diagnostics[J]. Journal of Aerospace Power, 2008, 23(1): 169- 173. [88] 黄金泉, 冯敏, 鲁峰. 基于自适应粒子滤波的涡扇发动机故障诊断[J]. 航空动力学报, 2014, 29(6): 1498- 1504. HUANG Jinquan, FENG Min, LU Feng. Turbo- fan engine fault diagnosis based on adaptive particle filtering[J]. Journal of Aerospace Power, 2014, 29(6): 1498- 1504. [89] 黄金泉, 陈煜, 周浩文, 等. 基于QPSO粒子滤波的航空发动机突变故障诊断[J]. 南京航空航天大学学报, 2014, 46(4): 494- 500. HUANG Jinquan, CHEN Yu, ZHOU Haowen, et al. QPSO particle filter based abrupt fault diagnostics for gas turbine engine[J]. Journal of Nanjing University of Aeronautics & Astronautics, 2014, 46(4): 494- 500. [90] WANG Q, HUANG J, LU F. An improved particle filtering algorithm for aircraft engine gas- path fault diagnosis[J]. Advances in Mechanical Engineering, 2016, 8(7): 1- 13. [91] 许梦阳, 黄金泉, 鲁峰. 航空发动机气路故障诊断的SANNWA- PF算法[J]. 航空动力学报, 2017(10): 2516- 2525. XU Mengyang, HUANG Jinquan, LU Feng. SAN- NWA- PF algorithm of aero- engine gas path fault diagnosis[J]. Journal of Aerospace Power, 2017(10): 2516- 2525. [92] ZHOU H, HUANG J, LU F. Reduced kernel recursive least squares algorithm for aero- engine degradation prediction[J]. Mechanical Systems and Signal Processing, 2017, 95: 446- 467. [93] ZHOU H, HUANG J, LU F. Echo state kernel recursive least squares algorithm for machine condition prediction[J]. Mechanical Systems and Signal Processing, 2018, 111: 68- 86.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "航空发动机气路故障诊断"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空发动机"
+    },
+    {
+      "type": "故障",
+      "text": "发动机气路故障"
+    },
+    {
+      "type": "研究机构",
+      "text": "南京航空航天大学"
+    }
+  ]
+}
+```

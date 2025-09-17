@@ -1,0 +1,267 @@
+{
+  "entities": [
+    {
+      "type": "飞机型号",
+      "text": "F-35飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主式保障系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "美国政府问责局",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主式保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "洛马公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "全球供应链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "备件短缺",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "备件不匹配",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "备件运输困难",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "紧缺备件分配优先级难以确定",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "备件管理混乱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "自动化程度有限",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "数据不完整或错误",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "可部署性较弱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "信息交流不畅",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "美国空军",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "海军",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "海军陆战队",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "国际合作伙伴",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "外国用户",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "F-35计划办公室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "F-35计划执行指导委员会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "国防部长办公室",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "联合参谋部",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文件",
+      "text": "《防卫计划大纲》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文件",
+      "text": "《2019—2023中期防卫力量整备计划》",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "head": "F-35飞机",
+      "tail": "自主式保障系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "自主式保障系统",
+      "tail": "故障预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "自主式保障系统",
+      "tail": "自主式保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "自主式保障系统",
+      "tail": "全球供应链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "全球供应链",
+      "tail": "备件短缺",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "全球供应链",
+      "tail": "备件不匹配",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "全球供应链",
+      "tail": "备件运输困难",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "全球供应链",
+      "tail": "紧缺备件分配优先级难以确定",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "全球供应链",
+      "tail": "备件管理混乱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "自主式保障信息系统",
+      "tail": "自动化程度有限",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "自主式保障信息系统",
+      "tail": "数据不完整或错误",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "自主式保障信息系统",
+      "tail": "可部署性较弱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在",
+      "head": "自主式保障信息系统",
+      "tail": "信息交流不畅",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监管",
+      "head": "美国政府问责局",
+      "tail": "F-35飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理",
+      "head": "洛马公司",
+      "tail": "全球供应链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监管",
+      "head": "F-35计划办公室",
+      "tail": "F-35备件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监管",
+      "head": "F-35计划执行指导委员会",
+      "tail": "全球备件池",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监管",
+      "head": "国防部长办公室",
+      "tail": "备件分配优先级",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监管",
+      "head": "联合参谋部",
+      "tail": "备件分配优先级",
+      "evaluation": "错误"
+    },
+    {
+      "type": "依据",
+      "head": "2020财年防务预算概要",
+      "tail": "《防卫计划大纲》",
+      "evaluation": "错误"
+    },
+    {
+      "type": "依据",
+      "head": "2020财年防务预算概要",
+      "tail": "《2019—2023中期防卫力量整备计划》",
+      "evaluation": "错误"
+    }
+  ]
+}

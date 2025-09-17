@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面自主保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "综合智能故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "维修任务预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机上PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机下PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞行器综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康与使用管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "集成飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F/A-18",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "C-17",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音737",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "区域管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "飞机管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "案例匹配法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CRIS数据模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多机种自主式保障一体化数据存储设计",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机载PHM系统",
+      "tail": "分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "宿驻在",
+      "head": "地面PHM系统",
+      "tail": "地面自主保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "F-35",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "机上PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "机下PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "机下PHM",
+      "tail": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发",
+      "head": "飞行器综合健康管理",
+      "tail": "NASA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "开发",
+      "head": "集成飞机健康管理",
+      "tail": "波音公司",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证于",
+      "head": "集成飞机健康管理",
+      "tail": "F/A-18",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证于",
+      "head": "集成飞机健康管理",
+      "tail": "C-17",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证于",
+      "head": "集成飞机健康管理",
+      "tail": "波音737",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分层智能推理机构",
+      "tail": "区域管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "分层智能推理机构",
+      "tail": "飞机管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "综合智能故障诊断方法",
+      "tail": "案例匹配法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障预测",
+      "tail": "贝叶斯评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定制和增强",
+      "head": "多机种自主式保障一体化数据存储设计",
+      "tail": "CRIS数据模型",
+      "evaluation": "正确"
+    }
+  ]
+}

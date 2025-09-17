@@ -1,0 +1,363 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理技术(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自动测试标记语言(ATML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "测试优化问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "测试标准化问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "边界扫描技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PXIe平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AXIe平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多通道相参接收机系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "以太网技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "现场总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "工业以太网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "激光雷达原理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "ATML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "IVI-MSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航天器综合测试系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "舰舶综合状态评估与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "箭地一体数字化测发控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电子装备测试性验证与评估系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自动测试系统平台软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王学奇",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "支超有",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "杨廷梧",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "孙波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "熊龙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "余力凡",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "李洋",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "董斌",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "黄雅琳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "任磊",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "刘才学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "张西山",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "陈晓明",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王超杰",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "中国计算机自动测量与控制技术协会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "北京航天测控技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "安捷伦科技公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "IEEE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "事件",
+      "text": "第二十一届测试与故障诊断技术研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "地点",
+      "text": "南昌市",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "主办",
+      "head": "中国计算机自动测量与控制技术协会",
+      "tail": "第二十一届测试与故障诊断技术研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协办",
+      "head": "北京航天测控技术有限公司",
+      "tail": "第二十一届测试与故障诊断技术研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协办",
+      "head": "安捷伦科技公司",
+      "tail": "第二十一届测试与故障诊断技术研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "王学奇",
+      "tail": "2011年国际自动测试年会热点追踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "支超有",
+      "tail": "现代新型飞机集成试验与测试技术综述",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "杨廷梧",
+      "tail": "新型飞行试验网络机载测试架构研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "孙波",
+      "tail": "航天器综合测试系统体系结构设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "熊龙",
+      "tail": "特种车辆健康状态管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "余力凡",
+      "tail": "箭地一体数字化测发控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "李洋",
+      "tail": "边界扫描技术及其应用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "董斌",
+      "tail": "尖端测量技术结合模块化方案为国防电子提供崭新的测试测量手段",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "黄雅琳",
+      "tail": "舰舶综合状态评估与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "任磊",
+      "tail": "会议报道",
+      "evaluation": "错误"
+    },
+    {
+      "type": "报告",
+      "head": "刘才学",
+      "tail": "核动力系统故障诊断方法研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "张西山",
+      "tail": "复杂电子装备测试性验证关键技术分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "陈晓明",
+      "tail": "自动测试系统平台软件及其研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "报告",
+      "head": "王超杰",
+      "tail": "动态实时在线测量大气密度的研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多通道相参接收机系统",
+      "tail": "PXIe平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "高性能大量通道采集系统",
+      "tail": "AXIe平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "武器装备",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "航天器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "特种车辆",
+      "evaluation": "错误"
+    },
+    {
+      "type": "替代",
+      "head": "工业以太网",
+      "tail": "现场总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "张西山",
+      "tail": "测试性建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "张西山",
+      "tail": "故障注入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "陈晓明",
+      "tail": "ATML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出",
+      "head": "陈晓明",
+      "tail": "IVI-MSS",
+      "evaluation": "错误"
+    }
+  ]
+}

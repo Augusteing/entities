@@ -1,0 +1,372 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "改进门控循环单元的自注意力优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "CNN-GRU-自注意力机制模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "Wiener过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自回归与支持向量机结合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卷积循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "残差嵌套式长短期记忆和注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RNN Auto-Encoder",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Multi-Head CNN-LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "TCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-GRU-自注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "本文模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "分段线性函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "FD001",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "FD002",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "FD003",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "FD004",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "方均根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "超前预测分值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "score",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE落在区间[10.52,18.91]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "超前预测分值落在区间[48.69,204.98]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "模型收敛加速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "泛化性改善",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "剩余使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "RUL",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "主成分分析",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实体",
+      "text": "PCA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实体",
+      "text": "NASA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实体",
+      "text": "QAR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "涡扇发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "中国民航大学",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "郭晓静等",
+      "tail": "改进GRU的自注意力优化算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合了",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "CNN",
+      "evaluation": "错误"
+    },
+    {
+      "type": "融合了",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合了",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "航空发动机寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用了",
+      "head": "实验",
+      "tail": "C-MAPSS数据集",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "C-MAPSS数据集",
+      "tail": "FD001",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "C-MAPSS数据集",
+      "tail": "FD002",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "C-MAPSS数据集",
+      "tail": "FD003",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "C-MAPSS数据集",
+      "tail": "FD004",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "寿命预测模型",
+      "tail": "RMSE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "寿命预测模型",
+      "tail": "超前预测分值",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "RMSE落在区间[10.52,18.91]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "超前预测分值落在区间[48.69,204.98]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "传统方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "CNN-GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "RNN Auto-Encoder",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "Multi-Head CNN-LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进GRU的自注意力优化算法",
+      "tail": "TCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "标识列增维",
+      "tail": "预测精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "加速了",
+      "head": "自注意力机制",
+      "tail": "模型收敛",
+      "evaluation": "错误"
+    },
+    {
+      "type": "改善了",
+      "head": "合并训练",
+      "tail": "泛化性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "剩余寿命预测",
+      "tail": "预测与健康管理",
+      "evaluation": "错误"
+    }
+  ]
+}

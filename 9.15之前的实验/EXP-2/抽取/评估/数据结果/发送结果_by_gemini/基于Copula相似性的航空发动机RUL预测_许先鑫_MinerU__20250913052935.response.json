@@ -1,0 +1,378 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于Copula相似性的航空发动机RUL预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "航空发动机RUL（remaining useful life）预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "航空发动机性能退化特征众多",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "特征相互影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "非线性相关关系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "工作状态分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "相关性建模分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "Copula结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Copula相似性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "传统方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "预测与健康管理（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于经验的模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数据驱动模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "统计模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工智能模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔可夫模型(HMM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于历史样本退化特征相似性的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Copula相关性建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定理",
+      "text": "Sklar定理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Clayton Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Gumbel Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Frank Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "两阶段极大似然估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "准则",
+      "text": "Akaike信息准则（AIC）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "Kendall秩相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA的C-MAPSS航空发动机仿真模型数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "Ps30",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "T50",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "BPR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "拟合HI来寻找相似性历史样本方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "欧式距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "相似性度量",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于Copula相似性的航空发动机RUL预测方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "针对",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "航空发动机性能退化特征众多",
+      "evaluation": "正确"
+    },
+    {
+      "type": "针对",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "特征相互影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "考虑了",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "非线性相关关系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "K-means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "K-means聚类",
+      "tail": "工作状态分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "Copula函数",
+      "tail": "相关性建模分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建",
+      "head": "Copula函数",
+      "tail": "Copula结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机RUL（remaining useful life）预测",
+      "tail": "Copula相似性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "相较于",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "传统方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在50%运行周期减少",
+      "head": "预测误差",
+      "tail": "13.053%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "在70%运行周期减少",
+      "head": "预测误差",
+      "tail": "31.328%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "在90%运行周期减少",
+      "head": "预测误差",
+      "tail": "74.602%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是一种",
+      "head": "Copula函数",
+      "tail": "建立随机变量间相关性的一种有效而灵活的方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "连接",
+      "head": "Copula函数",
+      "tail": "联合分布函数与边缘分布函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "Akaike信息准则（AIC）",
+      "tail": "量化拟合效果",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "本文方法",
+      "tail": "线性退化模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选定",
+      "head": "退化模型",
+      "tail": "Ps30",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选定",
+      "head": "退化模型",
+      "tail": "T50",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选定",
+      "head": "退化模型",
+      "tail": "BPR",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作为",
+      "head": "Kendall秩相关系数",
+      "tail": "相似性度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为",
+      "head": "欧式距离",
+      "tail": "相似性计算依据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "进行了验证",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "NASA的C-MAPSS航空发动机仿真模型数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "拟合HI来寻找相似性历史样本方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "忽略了",
+      "head": "以往相似性模型",
+      "tail": "非线性相关关系",
+      "evaluation": "错误"
+    }
+  ]
+}

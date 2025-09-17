@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "type": "架构模型",
+      "text": "面向服务的架构（SOA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构模型",
+      "text": "基于SOA的航空发动机健康管理系统的架构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "企业级系统集成模式框架",
+      "text": "SOA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "网络化实时在线监测诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "离线监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "专家诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康评估系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "决策支持系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "企业资产管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PDM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "CAD系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "CAM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "CAPP系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "SOA数据存取统一服务层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "模糊故障诊断专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "健康评估模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "维修调度算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国安全生产科学研究院安全生产检测技术中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ISO/IEC：17025",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "引入",
+      "head": "航空发动机健康管理领域",
+      "tail": "面向服务的架构（SOA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于SOA的航空发动机健康管理系统的架构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "允许",
+      "head": "SOA",
+      "tail": "开发人员集成异构系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "基于SOA的航空发动机健康管理系统",
+      "tail": "不同软件平台的资源共享",
+      "evaluation": "错误"
+    },
+    {
+      "type": "降低",
+      "head": "基于SOA的航空发动机健康管理系统",
+      "tail": "系统间的耦合性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "增加",
+      "head": "基于SOA的航空发动机健康管理系统",
+      "tail": "系统的扩展性和伸缩性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "缩短",
+      "head": "基于SOA的航空发动机健康管理系统",
+      "tail": "开发时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "网络化实时在线监测诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "离线监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "专家诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "健康评估系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "决策支持系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "企业服务总线",
+      "tail": "企业资产管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "PDM、CAD、CAM、CAPP等系统",
+      "tail": "设计知识生成维护知识",
+      "evaluation": "错误"
+    },
+    {
+      "type": "组成",
+      "head": "模糊故障诊断专家系统",
+      "tail": "人机交互界面",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "模糊故障诊断专家系统",
+      "tail": "推理机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "模糊故障诊断专家系统",
+      "tail": "知识库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "根据",
+      "head": "健康评估的结果",
+      "tail": "维修调度算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提供",
+      "head": "中国安全生产科学研究院安全生产检测技术中心",
+      "tail": "劳动防护用品检测检验、职业卫生检测与评价的技术服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "通过",
+      "head": "中国安全生产科学研究院安全生产检测技术中心",
+      "tail": "国家计量认证和实验室认可",
+      "evaluation": "正确"
+    },
+    {
+      "type": "依据",
+      "head": "中国安全生产科学研究院安全生产检测技术中心",
+      "tail": "ISO/IEC：17025",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "自适应多小波网络预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自适应多小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "等价空间法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "DOG小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Haar小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "飞机作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "过拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "局部最优点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "舵卡死",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "增益故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "恒定偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关系数为0.965",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关系数为1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相关系数为0.976",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "循环83步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "循环150步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "循环100步",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "自适应多小波网络预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "自适应多小波网络",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合为",
+      "head": "小波分析",
+      "tail": "小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合为",
+      "head": "人工神经网络",
+      "tail": "小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组合为",
+      "head": "小波网络",
+      "tail": "多小波网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "自适应多小波网络",
+      "tail": "DOG小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "自适应多小波网络",
+      "tail": "Haar小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "人工神经网络",
+      "tail": "过拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "人工神经网络",
+      "tail": "局部最优点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "多小波网络",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "多小波网络",
+      "tail": "循环83步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "BP神经网络",
+      "tail": "循环150步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "小波网络",
+      "tail": "循环100步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "自适应多小波网络",
+      "tail": "相关系数为0.965",
+      "evaluation": "正确"
+    }
+  ]
+}

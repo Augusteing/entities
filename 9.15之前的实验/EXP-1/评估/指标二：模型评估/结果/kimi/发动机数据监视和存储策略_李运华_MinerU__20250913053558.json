@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "优先级抢占机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "VxWorks操作系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "HRFS文件系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "数据存储的可靠性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研究结果",
+      "text": "发动机数据存储监控",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "采用",
+      "head": "多任务管理和存储管理的应用策略",
+      "tail": "优先级抢占机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "该设计策略",
+      "tail": "VxWorks操作系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "该设计策略",
+      "tail": "HRFS文件系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模拟",
+      "head": "应用实例",
+      "tail": "发动机数学模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "保证",
+      "head": "采用二级缓存队列和特定的存储格式",
+      "tail": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "采用二级缓存队列和特定的存储格式",
+      "tail": "数据存储的可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "发动机数据存储监控",
+      "tail": "发动机状态监测和故障分析",
+      "evaluation": "正确"
+    }
+  ]
+}

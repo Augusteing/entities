@@ -1,0 +1,290 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "状态检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "预测推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "异常推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理HA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "预测评估PA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "建议生成AG",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "OSA-CBM规范",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "富文本编辑器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Ext-JS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "HTMLEditor",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "SmartUpload",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息集成使用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "主动维修保障活动",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "自主保障事件链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "单机控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "动态资源调度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "解析算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "数据传输",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息交互",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "污水处理信息化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "水务数据共享",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "机载PHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "组成",
+      "head": "PHM系统",
+      "tail": "地面PHM系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "地面PHM系统",
+      "tail": "诊断推理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "地面PHM系统",
+      "tail": "预测推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "地面PHM系统",
+      "tail": "异常推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "PHM信息集成使用",
+      "tail": "PHM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "PHM信息集成使用",
+      "tail": "保障信息系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "PHM系统",
+      "tail": "健康管理HA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "PHM系统",
+      "tail": "预测评估PA",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "PHM系统",
+      "tail": "建议生成AG",
+      "evaluation": "错误"
+    },
+    {
+      "type": "定义",
+      "head": "OSA-CBM规范",
+      "tail": "通信类型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "扩展",
+      "head": "Ext-JS",
+      "tail": "富文本编辑器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "扩展",
+      "head": "Ext-JS",
+      "tail": "HTMLEditor",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "文件上传",
+      "tail": "SmartUpload",
+      "evaluation": "错误"
+    },
+    {
+      "type": "促进",
+      "head": "PHM信息集成使用",
+      "tail": "维修保障模式转变",
+      "evaluation": "错误"
+    },
+    {
+      "type": "触发",
+      "head": "机载PHM系统",
+      "tail": "主动维修保障活动",
+      "evaluation": "错误"
+    },
+    {
+      "type": "确保",
+      "head": "主动维修保障活动",
+      "tail": "自主保障事件链",
+      "evaluation": "正确"
+    },
+    {
+      "type": "生成",
+      "head": "保障信息系统",
+      "tail": "保障计划",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "保障信息系统",
+      "tail": "动态资源调度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "动态资源调度",
+      "tail": "解析算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统与保障信息系统",
+      "tail": "数据传输",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统与保障信息系统",
+      "tail": "信息交互",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提升",
+      "head": "信息管理",
+      "tail": "Web界面品质和开发效率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "污水处理信息化",
+      "tail": "水务数据共享",
+      "evaluation": "正确"
+    }
+  ]
+}

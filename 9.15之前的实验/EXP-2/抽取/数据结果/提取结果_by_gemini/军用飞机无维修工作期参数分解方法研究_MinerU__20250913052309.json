@@ -1,0 +1,460 @@
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "军用飞机无维修工作期参数分解方法"
+    },
+    {
+      "type": "问题",
+      "text": "MFOP指标无法分解和落实的问题"
+    },
+    {
+      "type": "概念",
+      "text": "无维修工作期(Maintenance- free Operating Periods, MFOP)"
+    },
+    {
+      "type": "影响因素",
+      "text": "基本可靠性"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "技术",
+      "text": "系统重构"
+    },
+    {
+      "type": "设计方法",
+      "text": "冗余设计"
+    },
+    {
+      "type": "研究方法",
+      "text": "数理建模"
+    },
+    {
+      "type": "参数类型",
+      "text": "使用参数"
+    },
+    {
+      "type": "参数类型",
+      "text": "合同参数"
+    },
+    {
+      "type": "设计要求",
+      "text": "设计要求"
+    },
+    {
+      "type": "研究工作",
+      "text": "MFOP指标分析论证"
+    },
+    {
+      "type": "设计工作",
+      "text": "基于MFOP的飞机可靠性设计"
+    },
+    {
+      "type": "概念",
+      "text": "可靠性"
+    },
+    {
+      "type": "维修类型",
+      "text": "非计划性维修"
+    },
+    {
+      "type": "性能指标",
+      "text": "可用性"
+    },
+    {
+      "type": "成本指标",
+      "text": "非计划维修成本"
+    },
+    {
+      "type": "成本指标",
+      "text": "计划维修成本"
+    },
+    {
+      "type": "组织",
+      "text": "空中客车公司"
+    },
+    {
+      "type": "应用领域",
+      "text": "商用飞机"
+    },
+    {
+      "type": "产品型号",
+      "text": "A400M"
+    },
+    {
+      "type": "产品型号",
+      "text": "F-22"
+    },
+    {
+      "type": "参数类型",
+      "text": "顶层使用参数"
+    },
+    {
+      "type": "性能指标",
+      "text": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)"
+    },
+    {
+      "type": "性能指标",
+      "text": "置信度"
+    },
+    {
+      "type": "概率指标",
+      "text": "无需进行任何非计划性维修的概率"
+    },
+    {
+      "type": "维修类型",
+      "text": "预防性维修"
+    },
+    {
+      "type": "维修类型",
+      "text": "修复性维修"
+    },
+    {
+      "type": "实现思路",
+      "text": "避免故障"
+    },
+    {
+      "type": "实现思路",
+      "text": "预测故障"
+    },
+    {
+      "type": "实现思路",
+      "text": "容纳故障"
+    },
+    {
+      "type": "技术",
+      "text": "预测技术"
+    },
+    {
+      "type": "技术",
+      "text": "诊断技术"
+    },
+    {
+      "type": "技术",
+      "text": "重构技术"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测能力"
+    },
+    {
+      "type": "设计方法",
+      "text": "重构设计"
+    },
+    {
+      "type": "模型",
+      "text": "基本可靠性和预防性维修策略与MFOP参数的关系模型"
+    },
+    {
+      "type": "系统模型",
+      "text": "串联系统"
+    },
+    {
+      "type": "性能指标",
+      "text": "可靠度"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测与健康管理(Prognostic and Health Management, PHM)系统"
+    },
+    {
+      "type": "系统",
+      "text": "中央维护系统(Central Maintenance System, CMS)"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测成功概率(P_HS)"
+    },
+    {
+      "type": "统计模型",
+      "text": "威布尔分布"
+    },
+    {
+      "type": "技术",
+      "text": "故障检测"
+    },
+    {
+      "type": "技术",
+      "text": "故障隔离"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测率(K_x)"
+    },
+    {
+      "type": "性能指标",
+      "text": "隔离成功率(K_s)"
+    },
+    {
+      "type": "性能指标",
+      "text": "重构成功率(K_ch)"
+    },
+    {
+      "type": "性能指标",
+      "text": "任务可靠度(R_ch)"
+    },
+    {
+      "type": "性能指标",
+      "text": "系统最大重构次数(N_ch,max)"
+    },
+    {
+      "type": "冗余类型",
+      "text": "热储备"
+    },
+    {
+      "type": "冗余类型",
+      "text": "冷储备"
+    },
+    {
+      "type": "流程",
+      "text": "MFOP参数分解过程"
+    },
+    {
+      "type": "分析方法",
+      "text": "经济性评估"
+    },
+    {
+      "type": "分析方法",
+      "text": "全寿命周期费用分析"
+    },
+    {
+      "type": "约束条件",
+      "text": "经济约束"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "军用飞机无维修工作期参数分解方法"
+    },
+    {
+      "type": "解决",
+      "head": "军用飞机无维修工作期参数分解方法",
+      "tail": "MFOP指标无法分解和落实的问题"
+    },
+    {
+      "type": "基于",
+      "head": "军用飞机无维修工作期参数分解方法",
+      "tail": "数理建模"
+    },
+    {
+      "type": "为...提供方法基础",
+      "head": "军用飞机无维修工作期参数分解方法",
+      "tail": "MFOP由使用参数向合同参数的分解"
+    },
+    {
+      "type": "为...提供理论指导",
+      "head": "军用飞机无维修工作期参数分解方法",
+      "tail": "基于MFOP的飞机可靠性设计"
+    },
+    {
+      "type": "提出",
+      "head": "空中客车公司",
+      "tail": "无维修工作期(Maintenance- free Operating Periods, MFOP)"
+    },
+    {
+      "type": "应用于",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "商用飞机"
+    },
+    {
+      "type": "应用于",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "A400M"
+    },
+    {
+      "type": "应用于",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "F-22"
+    },
+    {
+      "type": "降低",
+      "head": "非计划性维修",
+      "tail": "可用性"
+    },
+    {
+      "type": "远高于",
+      "head": "非计划维修成本",
+      "tail": "计划维修成本"
+    },
+    {
+      "type": "是",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "顶层使用参数"
+    },
+    {
+      "type": "需要转换为",
+      "head": "使用参数",
+      "tail": "合同参数"
+    },
+    {
+      "type": "衡量",
+      "head": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)",
+      "tail": "置信度"
+    },
+    {
+      "type": "定义为",
+      "head": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)",
+      "tail": "无需进行任何非计划性维修的概率"
+    },
+    {
+      "type": "影响因素包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "基本可靠性"
+    },
+    {
+      "type": "影响因素包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "故障预测能力"
+    },
+    {
+      "type": "影响因素包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "预防性维修"
+    },
+    {
+      "type": "影响因素包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "系统冗余设计"
+    },
+    {
+      "type": "影响因素包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "重构设计"
+    },
+    {
+      "type": "实现思路包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "避免故障"
+    },
+    {
+      "type": "实现思路包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "预测故障"
+    },
+    {
+      "type": "实现思路包括",
+      "head": "无维修工作期(Maintenance- free Operating Periods, MFOP)",
+      "tail": "容纳故障"
+    },
+    {
+      "type": "通过...实现",
+      "head": "避免故障",
+      "tail": "基本可靠性"
+    },
+    {
+      "type": "通过...实现",
+      "head": "预测故障",
+      "tail": "预测技术"
+    },
+    {
+      "type": "通过...实现",
+      "head": "容纳故障",
+      "tail": "冗余设计"
+    },
+    {
+      "type": "通过...实现",
+      "head": "容纳故障",
+      "tail": "重构技术"
+    },
+    {
+      "type": "建立",
+      "head": "文献[7]和文献[8]",
+      "tail": "基本可靠性和预防性维修策略与MFOP参数的关系模型"
+    },
+    {
+      "type": "与...有关",
+      "head": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)",
+      "tail": "可靠度"
+    },
+    {
+      "type": "依靠...实现",
+      "head": "故障预测能力",
+      "tail": "故障预测与健康管理(Prognostic and Health Management, PHM)系统"
+    },
+    {
+      "type": "依靠...实现",
+      "head": "故障预测能力",
+      "tail": "中央维护系统(Central Maintenance System, CMS)"
+    },
+    {
+      "type": "度量是",
+      "head": "故障预测",
+      "tail": "预测成功概率(P_HS)"
+    },
+    {
+      "type": "提高",
+      "head": "预测成功概率(P_HS)",
+      "tail": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)"
+    },
+    {
+      "type": "是...的关键技术",
+      "head": "系统重构",
+      "tail": "无维修工作期(Maintenance- free Operating Periods, MFOP)"
+    },
+    {
+      "type": "组成部分",
+      "head": "系统重构",
+      "tail": "故障检测"
+    },
+    {
+      "type": "组成部分",
+      "head": "系统重构",
+      "tail": "故障隔离"
+    },
+    {
+      "type": "组成部分",
+      "head": "冗余设计",
+      "tail": "热储备"
+    },
+    {
+      "type": "组成部分",
+      "head": "冗余设计",
+      "tail": "冷储备"
+    },
+    {
+      "type": "分解到",
+      "head": "MFOP参数分解过程",
+      "tail": "基本可靠性"
+    },
+    {
+      "type": "分解到",
+      "head": "MFOP参数分解过程",
+      "tail": "故障预测能力"
+    },
+    {
+      "type": "分解到",
+      "head": "MFOP参数分解过程",
+      "tail": "系统重构"
+    },
+    {
+      "type": "分解到",
+      "head": "MFOP参数分解过程",
+      "tail": "冗余设计"
+    },
+    {
+      "type": "分解到",
+      "head": "MFOP参数分解过程",
+      "tail": "预防性维修"
+    },
+    {
+      "type": "需要考虑",
+      "head": "预防性维修",
+      "tail": "经济性评估"
+    },
+    {
+      "type": "用于",
+      "head": "经济性评估",
+      "tail": "全寿命周期费用分析"
+    },
+    {
+      "type": "受...约束",
+      "head": "无维修工作期生存度(Maintenance- free Operating Period Survivability, MFOPS)",
+      "tail": "经济约束"
+    }
+  ]
+}

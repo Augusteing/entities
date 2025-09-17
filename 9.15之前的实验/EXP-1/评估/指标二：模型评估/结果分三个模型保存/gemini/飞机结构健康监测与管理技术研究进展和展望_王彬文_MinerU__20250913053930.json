@@ -1,0 +1,329 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测与管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "结构完整性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "损伤容限设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "断裂力学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "参数回归分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-22飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "航空工业强度所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于应变的载荷监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差在10%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "空客公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "压电智能夹层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A350飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国飞机强度研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "主被动一体的损伤监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "南京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "比较真空度裂纹监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "西安交通大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "智能涂层传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "斯坦福大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "涡流传感薄膜",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞行器综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "X-33",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康与使用管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B-2轰炸机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机维护分析管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Paris裂纹扩展公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "裂纹严重指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Miner准则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "疲劳损伤指数",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "head": "飞机结构健康监测与管理技术",
+      "tail": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机结构健康监测与管理技术",
+      "tail": "结构健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "结构健康管理",
+      "tail": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "损伤容限设计",
+      "tail": "断裂力学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "参数回归分析法",
+      "tail": "F-22飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究了",
+      "head": "航空工业强度所",
+      "tail": "基于应变的载荷监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于应变的载荷监测技术研究",
+      "tail": "误差在10%以内",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用在",
+      "head": "压电智能夹层",
+      "tail": "A350飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研发了",
+      "head": "中国飞机强度研究所",
+      "tail": "主被动一体的损伤监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研发了",
+      "head": "南京航空航天大学",
+      "tail": "压电智能夹层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "比较真空度裂纹监测技术",
+      "tail": "A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研制了",
+      "head": "西安交通大学",
+      "tail": "智能涂层传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "斯坦福大学",
+      "tail": "涡流传感薄膜",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "PHM系统",
+      "tail": "F-35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研发了",
+      "head": "NASA",
+      "tail": "飞行器综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "飞行器综合健康管理",
+      "tail": "X-33",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用在",
+      "head": "健康与使用管理系统",
+      "tail": "B-2轰炸机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "波音公司",
+      "tail": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "空客公司",
+      "tail": "飞机维护分析管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "选用了",
+      "head": "损伤计算方法",
+      "tail": "Paris裂纹扩展公式",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "损伤计算",
+      "tail": "裂纹严重指数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "损伤计算公式",
+      "tail": "Miner准则",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "疲劳损伤计算",
+      "tail": "疲劳损伤指数",
+      "evaluation": "错误"
+    }
+  ]
+}

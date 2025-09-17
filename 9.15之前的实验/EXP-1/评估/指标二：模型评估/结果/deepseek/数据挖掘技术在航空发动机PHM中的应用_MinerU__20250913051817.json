@@ -1,0 +1,381 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "时间序列分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RBF网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "PNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自组织映照模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "波克斯-詹金斯方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "隶属度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "FADEC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "JSF PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据挖掘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "KDD",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "EHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "气路传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "滑油/燃油系统传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "振动传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "结构评估传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "气路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "液体火箭发动机泄漏故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "齿轮箱故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "压气机故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "风扇故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "高压涡轮不正常",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "高压转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发动机压比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "燃油流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压气机压比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压气机程比",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "参数",
+      "text": "涡轮落压比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "涡轮落温比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "性能综合指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "数据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "决策支持",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "相似搜索",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "证据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "遗传算法优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量机预测",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "神经网络",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "时间序列分析",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "模糊逻辑",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "遗传算法",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "证据理论",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量机",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "模糊逻辑",
+      "tail": "隶属度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "AR模型",
+      "tail": "滑油监控",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "波克斯-詹金斯方法",
+      "tail": "滑油光谱分析",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "支持向量机",
+      "tail": "滑油金属含量预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "支持向量回归模型",
+      "tail": "性能趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "航空发动机PHM",
+      "tail": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "航空发动机PHM",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采集自",
+      "head": "数据",
+      "tail": "气路传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采集自",
+      "head": "数据",
+      "tail": "滑油/燃油系统传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采集自",
+      "head": "数据",
+      "tail": "振动传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采集自",
+      "head": "数据",
+      "tail": "结构评估传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "证据理论",
+      "tail": "JSF PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "遗传算法",
+      "tail": "发动机拆换期望值预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "支持向量机",
+      "tail": "发动机性能趋势预测",
+      "evaluation": "错误"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "自回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘MARPLE算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "线性最小方差预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模式向量法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "残差偏移距离",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "相关分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "时间序列模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归(AR)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "监视参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "残差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "自回归系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "模型参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "残差方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "格林函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "燃油流量偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "低、高压转子转速偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "振动监视值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "自回归模型系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "模式向量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "权矩阵",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "参考模式向量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "待检模式向量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "样本离差阵",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "相关矩阵",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "低压转子转速百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "高压转子转速百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "机载振动值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "发动机状态监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "发动机振动典型故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研究结果",
+      "text": "发动机状态监视参数趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "时间序列分析法与模式识别技术结合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研究结果",
+      "text": "多参数相关分析法用于故障识别",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "趋势预测",
+      "tail": "自回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障识别",
+      "tail": "模式向量法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "发动机状态监视",
+      "tail": "时间序列模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断",
+      "tail": "残差偏移距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "发动机振动典型故障",
+      "tail": "相关分析法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "发动机状态监视参数趋势预测",
+      "tail": "时间序列分析法与模式识别技术结合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "多参数相关分析法用于故障识别",
+      "tail": "航空发动机故障识别",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "模型参数",
+      "tail": "自回归系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "模式向量",
+      "tail": "均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "模式向量",
+      "tail": "方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "模式向量",
+      "tail": "自回归模型系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "残差方差",
+      "tail": "预测置信区间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "格林函数",
+      "tail": "预测置信区间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "排气温度偏差",
+      "tail": "发动机状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "燃油流量偏差",
+      "tail": "发动机状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "低、高压转子转速偏差",
+      "tail": "发动机状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "振动监视值",
+      "tail": "发动机状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "计算",
+      "head": "样本离差阵",
+      "tail": "相关矩阵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "相关矩阵",
+      "tail": "相关系数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "关联",
+      "head": "低压转子转速百分比",
+      "tail": "机载振动值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "高压转子转速百分比",
+      "tail": "机载振动值",
+      "evaluation": "正确"
+    }
+  ]
+}

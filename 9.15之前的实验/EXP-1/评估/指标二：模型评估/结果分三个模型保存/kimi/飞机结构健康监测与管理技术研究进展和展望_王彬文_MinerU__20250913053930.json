@@ -1,0 +1,274 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测与管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "载荷监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "传感器技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "导波的损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "比较真空度裂纹监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能涂层裂纹监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于涡流薄膜的裂纹监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构完整性大纲任务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "载荷/环境谱测量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "单机监控程序",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "耐久性设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "损伤容限设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构载荷监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构损伤监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测与管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构完整性大纲",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机维护分析管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康与使用管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞行器综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "联合先进的预测与状态管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机状态分析与管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "集成飞机健康管理",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "涉及",
+      "head": "飞机结构健康监测与管理技术",
+      "tail": "载荷监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "飞机结构健康监测与管理技术",
+      "tail": "损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "飞机结构健康监测与管理技术",
+      "tail": "传感器技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机结构健康管理",
+      "tail": "结构健康监测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机结构健康管理",
+      "tail": "健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "导波的损伤监测",
+      "tail": "导波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "比较真空度裂纹监测技术",
+      "tail": "真空度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "智能涂层裂纹监测技术",
+      "tail": "智能涂层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于涡流薄膜的裂纹监测技术",
+      "tail": "涡流薄膜",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "飞机结构健康管理技术",
+      "tail": "飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "飞机维护分析管理系统",
+      "tail": "健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "健康与使用管理系统",
+      "tail": "健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "预测与健康管理",
+      "tail": "F-35等平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "飞行器综合健康管理",
+      "tail": "NASA开发用于第2代可重用运载器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "联合先进的预测与状态管理系统",
+      "tail": "美AH-64阿帕奇、UH-60黑鹰和CH-47直升机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发",
+      "head": "美国ARINC公司与NASA兰利研究中心",
+      "tail": "飞机状态分析与管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "牵头",
+      "head": "波音公司",
+      "tail": "集成飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "集成飞机健康管理",
+      "tail": "F/A-18、C-17和波音737平台",
+      "evaluation": "正确"
+    }
+  ]
+}

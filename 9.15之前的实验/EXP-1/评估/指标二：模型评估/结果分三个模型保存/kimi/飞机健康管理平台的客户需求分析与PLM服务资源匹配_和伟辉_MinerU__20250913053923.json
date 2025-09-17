@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "灰色关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "ARIMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "质量屋",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "KANO模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "QFD模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "客户满意度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "服务资源匹配度",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "PHM平台功能",
+      "tail": "模糊理论",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "用于",
+      "head": "灰色关联法",
+      "tail": "客户需求重要度排序",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "ARIMA模型",
+      "tail": "客户需求动态特征分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "QFD模型",
+      "tail": "灰色关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "QFD模型",
+      "tail": "ARIMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "服务资源匹配度",
+      "tail": "客户满意度",
+      "evaluation": "错误"
+    }
+  ]
+}

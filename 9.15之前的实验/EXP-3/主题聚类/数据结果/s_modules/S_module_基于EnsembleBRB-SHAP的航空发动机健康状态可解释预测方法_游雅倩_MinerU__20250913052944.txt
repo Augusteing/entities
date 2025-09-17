@@ -1,0 +1,48 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of the art and development [J]. CAAI Transactions on Intelligent Systems, 2016, 11(6):728- 742. (in Chinese.)[2] 张俊林. 大数据日知录[M]. 北京: 电子工业出版社, 2014. [3] SAFRAN. Diagnostics and management [EB/OL]. [2017- 04- 10]. https://www.safran- aircraft- engines.com/services/single- aisle- commercial- jet- engines/engineering- and- consulting- services.[4] 张建业，张鹏. 飞行数据的时间序列分析方法及其应用[M]. 北京: 国防工业出版社, 2013. [5] NGRAIN. Battle damage assessment and repair for the F- 35 and F- 22 [EB/OL]. [2017- 04- 10]. http://www.ngrain.com/lockheed- martin.[6] National Aeronautics and Space Administration. Results and Discussions [EB/OL]. [2017- 04- 10]. https://ti.arc.nasa.gov/tech/dash/pcoe/data- driven- prognostics/results.[7] REDDY K K. Applying deep learning for prognostic health monitoring of aerospace and building systems [EB/OL]. (2016- 11- 07) [2017- 04- 10]. http://videolectures.net/kdd2016_reddy_ deep_learning.[8] BABCOCK C. GE plans software platform for creating 'Digital Twins' [EB/OL]. (2016- 07- 21) [2017- 04- 10]. http://www.eetimes.com/document.asp? doc_id=1330173.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "大数据"
+    }
+  ]
+}
+```
+
+示例2 段落：
+参考文献：[1] 马世龙，乌尼日其其格，李小平.大数据与深度学习综述[1].智能系统学报，2016，11（6）：728- 742.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "大数据"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[11] 邱凌, 张安思, 张羽, 等. 面向无人机故障诊断的知识图谱构建应用方法 [J]. 计算机工程与应用, 2023, 59(9): 280- 288. QIU L, ZHANG A S, ZHANG Y, et al. Application method of building Knowledge graph for UAV fault diagnosis [J]. Computer Engineering and Applications, 2023, 59(9): 280- 288. [12] 马玉凤, 豆亚杰, 徐向前, 等. 知识图谱辅助的复杂装备需求感知开发研究 [J]. 系统工程学报, 2023, 38(2): 186- 194. MA Y F, DOU Y J, XU X Q, et al. Knowledge graph- aided requirements- aware development of complex equipment [J]. Journal of Systems Engineering, 2023, 38(2): 186- 194.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "知识图谱"
+    }
+  ]
+}
+```

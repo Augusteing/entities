@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "蒙特卡罗仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机队风险评估模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "总温探头",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分布",
+      "text": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "风险因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞行事故率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "余芬等",
+      "tail": "蒙特卡罗仿真方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "风险评估方法",
+      "tail": "蒙特卡罗仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "蒙特卡罗仿真",
+      "tail": "总温探头故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计算",
+      "head": "风险因子",
+      "tail": "飞行事故率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估",
+      "head": "维修间隔",
+      "tail": "风险水平",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ]
+}

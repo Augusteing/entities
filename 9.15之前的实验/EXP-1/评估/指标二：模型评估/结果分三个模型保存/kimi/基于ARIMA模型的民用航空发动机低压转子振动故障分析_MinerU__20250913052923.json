@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "ARIMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "回归分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "三次指数平滑法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "时间序列分析预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "指数模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "一元线性回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "二次多项式回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三次多项式回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归积分移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可决系数R^2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差MAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "最大绝对误差MaxAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "ARIMA模型能够较好地描述发动机振动-转速拟合系数变化趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "ARIMA模型能够有效地预测发动机振动故障",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障分析方法",
+      "tail": "ARIMA模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "故障分析方法",
+      "tail": "回归分析法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "回归分析法",
+      "tail": "拟合发动机振动值和转速之间的关系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "ARIMA模型",
+      "tail": "预测发动机是否有振动故障征兆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "时间序列分析预测方法",
+      "tail": "自回归模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "时间序列分析预测方法",
+      "tail": "移动平均模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "时间序列分析预测方法",
+      "tail": "自回归移动平均模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "时间序列分析预测方法",
+      "tail": "自回归积分移动平均模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型拟合效果",
+      "tail": "可决系数R^2",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型拟合效果",
+      "tail": "均方根误差RMSE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型拟合效果",
+      "tail": "平均绝对误差MAE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型拟合效果",
+      "tail": "最大绝对误差MaxAE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "表明",
+      "head": "研究结果",
+      "tail": "ARIMA模型对航空公司制定发动机维护方案提供重要依据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "表明",
+      "head": "研究结果",
+      "tail": "ARIMA模型具有一定的实际工程应用价值",
+      "evaluation": "错误"
+    }
+  ]
+}

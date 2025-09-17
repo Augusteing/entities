@@ -1,0 +1,560 @@
+[
+  {
+    "entities": [
+      {
+        "type": "问题",
+        "text": "复杂系统需求边界模糊与架构动态优化难题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法论",
+        "text": "MagicGrid方法论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "框架",
+        "text": "“场景-需求-功能-逻辑-物理”五层协同建模框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "语言",
+        "text": "系统建模语言",
+        "evaluation": "正确"
+      },
+      {
+        "type": "平台",
+        "text": "MagicDraw平台",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "基于模型的系统工程实践",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "航空发动机健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "图",
+        "text": "内部块图",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "利益相关方交互关系拓扑",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "场景驱动的系统边界定义",
+        "evaluation": "正确"
+      },
+      {
+        "type": "图",
+        "text": "需求图",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "可追溯性矩阵",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "场景验证与需求完整性分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "用例图-活动图动态组合建模",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "模块化分解",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "技术独立的逻辑架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "图",
+        "text": "块定义图",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "物理模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "接口标准化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "逻辑组件与物理实体的解耦设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "功能重叠率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "预测效率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "虚警率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "范式",
+        "text": "全生命周期建模范式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "机制",
+        "text": "多视图协同建模机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "本文方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "航空发动机健康管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "航空设备",
+        "text": "F119发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "航空设备",
+        "text": "EJ200发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "航空设备",
+        "text": "F135发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "SAE提出的基于信息流处理的架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "GE Global提出的架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "Impact公司采用应用故障等级推理机的架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "洛克希德马丁公司提出的基于区域管理器体系架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "集成健康管理系统(ISHM)架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "基于模型的系统工程(MBSE)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "语言",
+        "text": "SysML",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法论",
+        "text": "OOSEM",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法论",
+        "text": "Harmony-SE",
+        "evaluation": "正确"
+      },
+      {
+        "type": "思路",
+        "text": "\"S-R-F-L-P\"思路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "场景模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "需求模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "功能模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "逻辑模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "图",
+        "text": "用例图",
+        "evaluation": "正确"
+      },
+      {
+        "type": "图",
+        "text": "活动图",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "机载部分",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "地面部分",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "机载EMU",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方案",
+        "text": "与控制系统集成方案",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方案",
+        "text": "独立式方案",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "控制系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能",
+        "text": "系统趋势分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "分层边缘计算架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "处理效率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "Paramagic工具",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "Simulink",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "ANSYS TwinBuilder",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "空气系统数字孪生体",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "ModelCenter",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "Matlab/Simulink算法模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "蒙特卡洛仿真",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "算法优化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "数字孪生技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "架构",
+        "text": "服务化架构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "范式",
+        "text": "“感知-分析-决策-验证”的敏捷高效闭环",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "source": "本文方法",
+        "target": "“场景-需求-功能-逻辑-物理”五层协同建模框架",
+        "type": "提出了",
+        "evaluation": "正确"
+      },
+      {
+        "source": "“场景-需求-功能-逻辑-物理”五层协同建模框架",
+        "target": "MagicGrid方法论",
+        "type": "融合了",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "复杂系统需求边界模糊与架构动态优化难题",
+        "type": "针对",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "MagicDraw平台",
+        "type": "在...平台实施",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "系统建模语言",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "航空发动机健康管理系统",
+        "type": "应用于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "功能重叠率",
+        "type": "降低",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "预测效率",
+        "type": "提升",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "虚警率",
+        "type": "降低",
+        "evaluation": "正确"
+      },
+      {
+        "source": "本文方法",
+        "target": "全生命周期建模范式",
+        "type": "构建了",
+        "evaluation": "正确"
+      },
+      {
+        "source": "航空发动机健康管理系统",
+        "target": "机载部分",
+        "type": "由...组成",
+        "evaluation": "正确"
+      },
+      {
+        "source": "航空发动机健康管理系统",
+        "target": "地面部分",
+        "type": "由...组成",
+        "evaluation": "正确"
+      },
+      {
+        "source": "MagicGrid方法论",
+        "target": "OOSEM",
+        "type": "对比",
+        "evaluation": "正确"
+      },
+      {
+        "source": "MagicGrid方法论",
+        "target": "Harmony-SE",
+        "type": "对比",
+        "evaluation": "正确"
+      },
+      {
+        "source": "\"S-R-F-L-P\"思路",
+        "target": "场景模型",
+        "type": "包含",
+        "evaluation": "正确"
+      },
+      {
+        "source": "\"S-R-F-L-P\"思路",
+        "target": "需求模型",
+        "type": "包含",
+        "evaluation": "正确"
+      },
+      {
+        "source": "\"S-R-F-L-P\"思路",
+        "target": "功能模型",
+        "type": "包含",
+        "evaluation": "正确"
+      },
+      {
+        "source": "\"S-R-F-L-P\"思路",
+        "target": "逻辑模型",
+        "type": "包含",
+        "evaluation": "正确"
+      },
+      {
+        "source": "\"S-R-F-L-P\"思路",
+        "target": "物理模型",
+        "type": "包含",
+        "evaluation": "正确"
+      },
+      {
+        "source": "场景模型",
+        "target": "内部块图",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "需求模型",
+        "target": "需求图",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "功能模型",
+        "target": "用例图",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "功能模型",
+        "target": "活动图",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "物理模型",
+        "target": "块定义图",
+        "type": "采用",
+        "evaluation": "正确"
+      },
+      {
+        "source": "与控制系统集成方案",
+        "target": "EJ200发动机",
+        "type": "以...为代表",
+        "evaluation": "正确"
+      },
+      {
+        "source": "独立式方案",
+        "target": "F119发动机",
+        "type": "以...为代表",
+        "evaluation": "正确"
+      },
+      {
+        "source": "独立式方案",
+        "target": "F135发动机",
+        "type": "以...为代表",
+        "evaluation": "正确"
+      },
+      {
+        "source": "航空发动机健康管理系统",
+        "target": "控制系统",
+        "type": "需理清功能边界",
+        "evaluation": "正确"
+      },
+      {
+        "source": "分层边缘计算架构",
+        "target": "处理效率",
+        "type": "提升了76.8%",
+        "evaluation": "正确"
+      },
+      {
+        "source": "Paramagic工具",
+        "target": "Simulink",
+        "type": "转换SysML参数约束为...输入",
+        "evaluation": "正确"
+      },
+      {
+        "source": "ANSYS TwinBuilder",
+        "target": "空气系统数字孪生体",
+        "type": "构建",
+        "evaluation": "正确"
+      },
+      {
+        "source": "ModelCenter",
+        "target": "Matlab/Simulink算法模型",
+        "type": "集成",
+        "evaluation": "正确"
+      },
+      {
+        "source": "ModelCenter",
+        "target": "蒙特卡洛仿真",
+        "type": "用于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "算法优化",
+        "target": "虚警率",
+        "type": "从12.7%降至0.32%",
+        "evaluation": "正确"
+      },
+      {
+        "source": "未来研究",
+        "target": "数字孪生技术",
+        "type": "关注",
+        "evaluation": "错误"
+      },
+      {
+        "source": "未来研究",
+        "target": "服务化架构",
+        "type": "关注",
+        "evaluation": "错误"
+      },
+      {
+        "source": "未来研究",
+        "target": "“感知-分析-决策-验证”的敏捷高效闭环",
+        "type": "旨在形成",
+        "evaluation": "错误"
+      }
+    ]
+  }
+]

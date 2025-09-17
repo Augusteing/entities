@@ -1,0 +1,71 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] SAHIN Ferat, YAVUZ M Cetin, ARNAVUT ZIYA, el at. Fault diagnosis for airplane engines using bayesian networks and distributed particle swarm optimization [J. Parallel Computing, 2007, 33(2): 124- 143[2] SKLIROS Christos, ALI Fakhre, JENNIONS Ian. Fault simulations and diagnostics for a Boeing 747 Auxiliary Power Unit [J. Expert Systems with Applications, 2021, 184: 115504[3] WHITE Alejandro, KARIMODDINI Ali. Event- based diagnosis of flight maneuvers of a fixed- wing aircraft [J. Reliability Engineering & System Safety, 2020, 193: 106609[4] LI Liao. Research on comparison of different algorithms in diagnosing faults of aircraft engines [J. Journal of Aerospace Technology and Management, 2021, 13: e981[5] WALIGORSKI Marek, BATURA Karolina, KUCAL Karolina, et al. Research on airplanes engines dynamic processes with modern acoustic methods for fast and accurate diagnostics and safety improvement [J. Measurement, 2020, 154: 107460[6] 石健，王少萍，罗雪松. 基于不确定传感器状态的机载系统多层故障诊断方法 [J. 航空学报, 2021, 42(6): 624376SHI Jian, WANG Shaoping, LUO Xuesong. Multi- layer fault diagnosis of airborne system based on sensor uncertainty [J. Acta Aeronautica et Astronautica Sinica, 2021, 42(6): 624376 (in Chinese)[7] 邵怡韦，陈嘉宇，林翠颖，等. 小训练样本下齿轮箱故障诊断：一种基于改进深震森林的方法 [J. 航空学报, 2021, 42: 25429SHAO Yiwei, CHEN Jiayu, LIN Cuiying, et al. Gearbox fault diagnosis under small training samples: an improved deep forest based method [J. Acta Aeronautica et Astronautica Sinica, 2021, 42: 25429 (in Chinese)[8] 何启志，章卫国，刘小雄，等. 基于ATSUKF的飞行器惯性测量单元的故障诊断 [J. 西北工业大学学报, 2020, 38(4): 806- 813HE Qizhi, ZHANG Weiguo, LIU Xiaoxiong, et al. Aircraft inertial measurement unit fault diagnosis based on adaptive two- stage UKF [J. Journal of Northwestern Polytechnical University, 2020, 38(4): 806- 813 (in Chinese)[9] 梁少军，张世荣，郑幸，等. 基于DKPCA的固定翼无人机多工况在线故障诊断 [J. 西北工业大学学报, 2020, 38(3): 619- 626LIANG Shaojun, ZHANG Shirong, ZHENG Xing, et al. Online fault detection of fixed- wing UAV based on DKPCA algorithm with multiple operation conditions considered [J. Journal of Northwestern Polytechnical University, 2020, 38(4): 619- 626 (in Chinese)[10] MARTIN Osvaldo, KUMAR Rawin, LAO Junpeng. Bayesian modeling and computation in python [M. New York: A Chapman & Hall Book, 2021: 1- 65[11] COWELL R G. Conditions under which conditional independence and scoring methods lead to identical selection of Bayesian network models [J. //Proceedings of the 17th Conference in Uncertainty in Artificial Intelligence, 2001[12] JENSEN F V. Bayesian networks [J. Wiley Interdisciplinary Reviews: Computational Statistics, 2009, 1(3): 307- 315[13] 李享. 基于动态贝叶斯网络的无线通信系统可靠性分析与故障诊断 [J. 成都: 电子科技大学, 2021LI Xiang. Reliability analysis and fault diagnosis of wireless communication system using dynamic bayesian network [J. Cheng- du: University of Electronic Science and Technology of China, 2021 (in Chinese)[14] CAI B, HUANG L, XIE M. Bayesian networks in fault diagnosis [J. IEEE Trans on Industrial Informatics, 2017, 13(5): 2227- 2240
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "贝叶斯网络"
+    },
+    {
+      "type": "研究问题",
+      "text": "齿轮箱故障诊断"
+    },
+    {
+      "type": "研究问题",
+      "text": "飞行器惯性测量单元的故障诊断"
+    },
+    {
+      "type": "研究问题",
+      "text": "故障诊断"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[44]任茹菲.燃气轮机预测与健康管理关键技术研究[D].西安：西安电子科技大学，2019. REN Rufei. Research on key technologies of gas turbine prognostics and health management[D]. Xi'an: Xidian University, 2019. (in Chinese) [45]刘同明，夏祖勋，谢洪成.数据融合技术及其应用[M].北京：国防工业出版社，1998,10- 37. LIU Tongming, XIA Ezuan, ME. Hongcheng. Data fusion technology and its application[M]. Beijing: National Defense Industry Press, 1998,10- 37. (in Chinese) [46]鲁峰，黄金泉.基于ESVR信息融合的航空发动机故障诊断研究[J].应用基础与工程科学学报，2010,18(6):982- 989. LU Feng, HUANG Jinquan. Fault diagnosis for aero- engine based on ESVR information fusion[J]. Journal of Basic Science and Engineering, 2010,18(6):982- 989. (in Chinese) [47]温迪.基于D- S证据理论的航空发动机气路故障信息融合与FMECA分析[D].成都：电子科技大学，2014. WEN Di. Gas path fault information fusion of aero- engine based on D- S evidence theory and FMECA[D]. Chengdu: University of Electronic Science and Technology of China, 2014. (in Chinese) [48] Lu F, Jiang C, Huang J, et al. A novel data hierarchical fusion method for gas turbine engine performance fault diagnosis[J]. Energies, 2016,9 (10):928. [49] William J S, Kimberly A C, Geoffrey A G. Joint strike fighter prognostics & health management[R]. AIAA- 98- 35476. [50] Ramesh R, Bruce C W, Matthew S. Evolution of propulsion controls and health monitoring at Pratt and Whitney[R]. AIAA- 2003- 2645. [51] Engel S, Gilmartin B, Bongort K, et al. Prognostics, the real issues associated with predicting life remaining[C]//. IEEE Conference. New York: IEEE Press, 2000: 1528- 1533. [52]李大为，王军，王晨，等.大数据技术在航空发动机研发领域的应用探索[J].航空发动机，2021,47(2):33- 37. LI Dawei, WANG Jun, WANG Chen, et al. Application exploration of big data technology in aeroengine research and development[J]. Aeroengine, 2021,47(2):33- 37. (in Chinese) [53]鲁峰.航空发动机故障诊断的融合技术研究[D]. 南京：南京航空航天大学，2009. LI Feng. Aeroengine fault diagnostics based on fusion technique[D]. Nanjing: Nanjing University of aeronautics and Astronautics, 2009. (in Chinese) [54]赵姝帆，李本威，宋汉强，等.基于K- 均值聚类与粒子群核极限学习机的推力估计器设计[J].推进技术，2019,40(2):259- 266. ZHAO Shufan, LI Benwei, SONG Hanqiang, et al. Thrust estimator design based on K- means clustering and particle swarm optimization kernel extreme learning machine[J]. Journal of Propulsion Technology, 2019,40(2):259- 266. (in Chinese) [55]王奕首，余映红，卿新琳，等.基于KPCA和DBN的航空发动机排气温度基线模型[J].航空发动机，2020,46(1):54- 60.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "信息融合"
+    },
+    {
+      "type": "融合方式",
+      "text": "数据融合"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包括",
+      "head": "信息融合",
+      "tail": "数据融合"
+    }
+  ]
+}
+```
+
+示例3 段落：
+tion Validation of Fault Diagnosis System for Aircraft Engine [J]. Journal of Propulsion Technology, 2013, 34 (8):1121- 1127. [4] Maul W A, Melcher K J, Chicatelli A K, et al. Sensor Data Qualification for Autonomous Operation of Space Systems[R]. AIAA FS- 06- 07. [5] Melcher K J, Fulton C E, Maul W A, et al. Development and Application of a Portable Health Algorithms Test System[R]. NASA/TM 2007- 214840. [6] Hines J, Uhrig R. Use of Autoassociative Neural Networks for Signal Validation[J]. Journal of Intelligent & Robotic Systems, 1998, 21(2):143- 154. [7] 崔文斌, 叶志锋, 彭利方. 基于信息融合遗传算法的航空发动机气路故障诊断[J]. 航空动力学报, 2015, 30(5):1275- 1280. [8] Wong E, Fulton C E, Maul W A, et al. Sensor Data Qualification System (SDQS) Implementation Study [R]. NASA/TM 2009- 215442. [9] Guo- Jian H, Gui- Xiong L, Geng- Xin C, et al. Self- Recovery Method Based on Auto- Associative Neural Network for Intelligent Sensors[C]. Jinan: 8th World Congress on Intelligent Control and Automation (WCI- C4), 2010. [10] Reyes J, Vellasco M, Tanscheit R. Measurement Correction for Multiple Sensors Using Modified Autoassociative Neural Networks[J]. Neural Computing & Applications, 2013, 24(7- 8).
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "遗传算法"
+    },
+    {
+      "type": "任务",
+      "text": "故障诊断"
+    }
+  ]
+}
+```

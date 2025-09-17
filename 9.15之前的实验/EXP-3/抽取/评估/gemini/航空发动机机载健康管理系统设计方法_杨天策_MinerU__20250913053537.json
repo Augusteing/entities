@@ -1,0 +1,359 @@
+[
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "航空发动机健康管理系统正向设计基本流程",
+      "type": "设计流程"
+    },
+    "relation": "研究了"
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "航空发动机健康管理正向设计流程平台",
+      "type": "平台"
+    },
+    "relation": "开发了"
+  },
+  {
+    "source": {
+      "text": "航空发动机健康管理正向设计流程平台",
+      "type": "平台"
+    },
+    "target": {
+      "text": "机载功能架构",
+      "type": "架构"
+    },
+    "relation": "实现了...的设计"
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "基于模型的系统工程",
+      "type": "思想"
+    },
+    "relation": "引入"
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "面向对象的工程设计思路",
+      "type": "思路"
+    },
+    "relation": "采用"
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "图形化设计方法",
+      "type": "方法"
+    },
+    "relation": "建立"
+  },
+  {
+    "source": {
+      "text": "传统设计方法",
+      "type": "传统方法"
+    },
+    "target": {
+      "text": "EHM系统",
+      "type": "系统"
+    },
+    "relation": "难以进行充分设计验证"
+  },
+  {
+    "source": {
+      "text": "复杂系统",
+      "type": "研究对象"
+    },
+    "target": {
+      "text": "基于模型的系统工程",
+      "type": "方法"
+    },
+    "relation": "向...转变"
+  },
+  {
+    "source": {
+      "text": "赵良玉等",
+      "type": "研究者"
+    },
+    "target": {
+      "text": "SysML模型",
+      "type": "模型"
+    },
+    "relation": "与...进行联合仿真",
+    "object": {
+      "text": "Simulink模型",
+      "type": "模型"
+    }
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "基于MBSE面向对象的设计",
+      "type": "方法"
+    },
+    "relation": "应用"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "数据采集层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "数据操作层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "状态检测层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "健康评估层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "预测评估层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "OSA-CBM",
+      "type": "架构体系"
+    },
+    "target": {
+      "text": "建议生成层",
+      "type": "架构层"
+    },
+    "relation": "包含"
+  },
+  {
+    "source": {
+      "text": "SAE AIR1587B EHM架构体系",
+      "type": "架构"
+    },
+    "target": {
+      "text": "征兆",
+      "type": "功能模块"
+    },
+    "relation": "由...组成"
+  },
+  {
+    "source": {
+      "text": "SAE AIR1587B EHM架构体系",
+      "type": "架构"
+    },
+    "target": {
+      "text": "诊断",
+      "type": "功能模块"
+    },
+    "relation": "由...组成"
+  },
+  {
+    "source": {
+      "text": "SAE AIR1587B EHM架构体系",
+      "type": "架构"
+    },
+    "target": {
+      "text": "预测",
+      "type": "功能模块"
+    },
+    "relation": "由...组成"
+  },
+  {
+    "source": {
+      "text": "SAE AIR1587B EHM架构体系",
+      "type": "架构"
+    },
+    "target": {
+      "text": "操作",
+      "type": "功能模块"
+    },
+    "relation": "由...组成"
+  },
+  {
+    "source": {
+      "text": "GE、波音、Honeywell和洛马等公司",
+      "type": "组织"
+    },
+    "target": {
+      "text": "各自的EHM功能架构",
+      "type": "功能架构"
+    },
+    "relation": "在...基础上提出",
+    "object": {
+      "text": "SAE AIR1587B",
+      "type": "标准"
+    }
+  },
+  {
+    "source": {
+      "text": "分布式架构体系",
+      "type": "架构"
+    },
+    "target": {
+      "text": "EHM系统",
+      "type": "系统"
+    },
+    "relation": "从...向...逐步递进",
+    "object": {
+      "text": "FADEC",
+      "type": "系统"
+    }
+  },
+  {
+    "source": {
+      "text": "机载EHM系统",
+      "type": "系统"
+    },
+    "target": {
+      "text": "FADEC",
+      "type": "系统"
+    },
+    "relation": "以...为基础数据源"
+  },
+  {
+    "source": {
+      "text": "难以确定待分配功能",
+      "type": "问题"
+    },
+    "target": {
+      "text": "逻辑决断法",
+      "type": "方法"
+    },
+    "relation": "采用...进行功能分配"
+  },
+  {
+    "source": {
+      "text": "难以确定待分配功能",
+      "type": "问题"
+    },
+    "target": {
+      "text": "模糊层次分析法",
+      "type": "方法"
+    },
+    "relation": "采用...进行功能分配"
+  },
+  {
+    "source": {
+      "text": "寿命管理",
+      "type": "功能"
+    },
+    "target": {
+      "text": "地面EHM系统",
+      "type": "系统"
+    },
+    "relation": "在...中完成"
+  },
+  {
+    "source": {
+      "text": "OOSEM",
+      "type": "方法"
+    },
+    "target": {
+      "text": "SysML语言",
+      "type": "语言"
+    },
+    "relation": "利用"
+  },
+  {
+    "source": {
+      "text": "OOSEM",
+      "type": "方法"
+    },
+    "target": {
+      "text": "结构化分析概念",
+      "type": "概念"
+    },
+    "relation": "与...集成",
+    "object": {
+      "text": "面向对象概念",
+      "type": "概念"
+    }
+  },
+  {
+    "source": {
+      "text": "硬件基本架构",
+      "type": "架构"
+    },
+    "target": {
+      "text": "飞机状态监控系统 (ACMS)",
+      "type": "系统"
+    },
+    "relation": "参考"
+  },
+  {
+    "source": {
+      "text": "Rhapsody软件",
+      "type": "软件"
+    },
+    "target": {
+      "text": "Modelica",
+      "type": "模型"
+    },
+    "relation": "支持...的集成"
+  },
+  {
+    "source": {
+      "text": "本文",
+      "type": "研究工作"
+    },
+    "target": {
+      "text": "航空发动机机载健康管理系统设计",
+      "type": "研究问题"
+    },
+    "relation": "提供参考"
+  }
+]

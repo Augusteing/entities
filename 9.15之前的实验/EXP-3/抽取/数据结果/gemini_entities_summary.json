@@ -1,0 +1,87 @@
+{
+  "articles_count": 50,
+  "total_entities": 2504,
+  "unique_types_total": 349,
+  "top_types": [
+    {
+      "type": "方法",
+      "count": 210
+    },
+    {
+      "type": "模型",
+      "count": 188
+    },
+    {
+      "type": "技术",
+      "count": 152
+    },
+    {
+      "type": "指标",
+      "count": 95
+    },
+    {
+      "type": "算法",
+      "count": 87
+    },
+    {
+      "type": "系统",
+      "count": 78
+    },
+    {
+      "type": "飞机型号",
+      "count": 68
+    },
+    {
+      "type": "系统/部件",
+      "count": 56
+    },
+    {
+      "type": "概念",
+      "count": 54
+    },
+    {
+      "type": "研究对象",
+      "count": 53
+    },
+    {
+      "type": "故障",
+      "count": 49
+    },
+    {
+      "type": "问题",
+      "count": 48
+    },
+    {
+      "type": "性能指标",
+      "count": 39
+    },
+    {
+      "type": "机构",
+      "count": 34
+    },
+    {
+      "type": "理论",
+      "count": 33
+    },
+    {
+      "type": "数据",
+      "count": 32
+    },
+    {
+      "type": "参数",
+      "count": 27
+    },
+    {
+      "type": "任务",
+      "count": 26
+    },
+    {
+      "type": "研究问题",
+      "count": 26
+    },
+    {
+      "type": "功能",
+      "count": 24
+    }
+  ]
+}

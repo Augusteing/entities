@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "飞机操纵面故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测准确性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "多参数预测模型",
+      "tail": "飞机操纵面故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "多参数预测模型",
+      "tail": "预测准确性",
+      "evaluation": "正确"
+    }
+  ]
+}

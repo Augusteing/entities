@@ -1,0 +1,305 @@
+[
+  {
+    "entities": [
+      {
+        "type": "研究对象",
+        "text": "GJB289A总线网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究方法",
+        "text": "电气特性仿真",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究方法",
+        "text": "故障分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障",
+        "text": "典型电气故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "有损耦合传输线模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "软件",
+        "text": "ADS软件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "两端口GJB289A总线网络模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组件",
+        "text": "耦合变压器",
+        "evaluation": "不确定"
+      },
+      {
+        "type": "验证方法",
+        "text": "理论推导",
+        "evaluation": "正确"
+      },
+      {
+        "type": "验证方法",
+        "text": "实验室实测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究结果",
+        "text": "特征波形",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究结果",
+        "text": "特征参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "目标",
+        "text": "典型电气故障的快速判断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用目标",
+        "text": "总线检测设备的优化设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用目标",
+        "text": "总线网络状态健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "分布参数模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组件",
+        "text": "总线连接组件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组件",
+        "text": "屏蔽双绞电缆",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组件",
+        "text": "耦合器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组件",
+        "text": "终端电阻",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "CLINP模型",
+        "evaluation": "不确定"
+      },
+      {
+        "type": "故障类型",
+        "text": "终端电阻超差故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障类型",
+        "text": "耦合器故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障类型",
+        "text": "电缆故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体故障",
+        "text": "终端一端开路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体故障",
+        "text": "终端两端开路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体故障",
+        "text": "LO与屏蔽层短路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体故障",
+        "text": "Hi与屏蔽层短路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体故障",
+        "text": "Hi与Lo错接",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障特征",
+        "text": "spike尖峰脉冲信号",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障特征",
+        "text": "反相",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究成果",
+        "text": "典型电气故障特征参数检查表",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究方法",
+        "text": "基于分布参数的仿真方法",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "研究",
+        "head": "电气特性仿真",
+        "tail": "GJB289A总线网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究",
+        "head": "故障分析",
+        "tail": "GJB289A总线网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...中构建",
+        "head": "两端口GJB289A总线网络模型",
+        "tail": "ADS软件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "基于",
+        "head": "两端口GJB289A总线网络模型",
+        "tail": "有损耦合传输线模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "通过...验证有效性",
+        "head": "两端口GJB289A总线网络模型",
+        "tail": "理论推导",
+        "evaluation": "正确"
+      },
+      {
+        "type": "通过...验证有效性",
+        "head": "两端口GJB289A总线网络模型",
+        "tail": "实验室实测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "依托",
+        "head": "典型电气故障研究",
+        "tail": "两端口网络分布参数模型",
+        "evaluation": "错误"
+      },
+      {
+        "type": "为...提供技术支撑",
+        "head": "基于分布参数的仿真方法",
+        "tail": "总线检测设备的优化设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "为...提供技术支撑",
+        "head": "基于分布参数的仿真方法",
+        "tail": "总线网络状态健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组成",
+        "head": "GJB289A总线网络",
+        "tail": "总线连接组件",
+        "evaluation": "错误"
+      },
+      {
+        "type": "包括",
+        "head": "总线连接组件",
+        "tail": "屏蔽双绞电缆",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "总线连接组件",
+        "tail": "耦合器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "总线连接组件",
+        "tail": "终端电阻",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征为",
+        "head": "终端一端开路",
+        "tail": "幅值增加",
+        "evaluation": "错误"
+      },
+      {
+        "type": "特征为",
+        "head": "终端两端开路",
+        "tail": "幅值大幅增加",
+        "evaluation": "错误"
+      },
+      {
+        "type": "特征为",
+        "head": "耦合器故障",
+        "tail": "过冲尖锐",
+        "evaluation": "错误"
+      },
+      {
+        "type": "特征为",
+        "head": "LO与屏蔽层短路",
+        "tail": "接收波形的幅值约为正常情况下的1/2",
+        "evaluation": "错误"
+      },
+      {
+        "type": "特征为",
+        "head": "Hi与屏蔽层短路",
+        "tail": "spike尖峰脉冲信号",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征为",
+        "head": "Hi与Lo错接",
+        "tail": "反相",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可实现",
+        "head": "典型电气故障特征参数检查表",
+        "tail": "典型电气故障的唯一性判断",
+        "evaluation": "错误"
+      },
+      {
+        "type": "可仿真获取",
+        "head": "基于分布参数的仿真方法",
+        "tail": "特征波形",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可仿真获取",
+        "head": "基于分布参数的仿真方法",
+        "tail": "特征参数",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

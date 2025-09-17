@@ -1,0 +1,52 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+ogy Industry, 2016(7): 48- 51 (in Chinese). [2] JIANG Z N, HU M H, FENG K, et al. Weak fault feature extraction scheme for inershaft bearings based on linear prediction and order tracking in the rotation speed difference domain[J]. Applied Sciences, 2017, 7(9): 937. [3] 新浪军事.歼10B坠毁原因疑似曝光：低空遇发动机停车老毛病[EB/OL].(2014- 01- 15)[2024- 01- 19]. https://mil.news.sina.com.cn/2014- 11- 15/1620810946. html. Sina Military. Reason for J100 crash suspected to be exposed: low altitude encounter engine stopping old problems[EB/OL].(2014- 01- 15)[2024- 01- 19]. https://mil.news.sina.com.cn/2014- 11- 15/1620810946. html (in Chinese). [4] 曾声奎，Michael G Pecht，吴际.故障预测与健康管理（PHM）技术的现状与发展[J].航空学报，2005，26（5）：626- 632. ZENG S K, MICHAEL G P, WU J. Status and perspectives of prognostics and health management technologies [J]. Acta Aeronautica et Astronautica Sinica, 2005, 26 (5): 626- 632 (in Chinese). [5] HESS A, CALVELLO G, DAINNY T. PHM a key enabler for the JSF autonomic logistics support concept [C] //2004 IEEE Aerospace Conference Proceedings. Piscataway: IEEE Press, 2004: 3543- 3550. [6] VOLPONI A J. Gas turbine engine health management: Past, present, and future trends[J]. Journal of Engineering for Gas Turbines and Power, 2014, 136(5): 051201. [7] SHIN J. The NASA aviation safety program: Overview [C] //Proceedings of ASME Turbo Expo 2000: Power for Land, Sea, and Air.New York:ASME, 2014. [8] 张宝诚，刘孝安.航空发动机可靠性和经济性[M].北京：国防工业出版社，1998. ZHANG B C, LIU X A. Reliability and economy of aero- engine [M]. Beijing: National Defense Industry Press, 1998 (in Chinese). [9] BEALE J K, HESS A. Experiences with A- 7E and the AV- 8B engine monitoring systems: The good and the ugly[C]//2000 IEEE Aerospace Conference Proceedings (Cat. No.00TH8484). Piscataway: IEEE Press, 2002: 221- 227. [10] HALL C L, LEARY S, LAPIERRE L, et al. F/A- 18E/F F414 advanced inflight engine condition monitoring system (IECMS)[C]//2001 IEEE Aerospace Conference Proceedings (Cat. No.01TH8542). Piscataway: IEEE Press, 2001: 3069- 3083. [11] 王偉生，肖金彪.航空发动机健康管理系统及其标准分析[J].航空动力，2019（1）：68- 70. WANG W S, XIAO J B. Analysis of aero engine health management & its standards[J]. Aerospace Power, 2019
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理（PHM）技术"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[1] 會声奎，Pecht Michael G，吴际.故障预测与健康管理（PHM）技术的现状与发展[J].航空学报，2005，26(5):626- 632. ZENG Shengkui，Pecht Michael G，WU Ji. Status and Perspectives of Prognostics and Health Management Technologies[J]. Acta Aeronautica ET Astro- nautica Sinica，2005，26(5):426- 632. (in Chinese)[2] Esperon- miguez M，Johnb P，Jennionsa I. A Review of Integrated Vehicle Health Management Tools for Legacy platforms: Challenges and Opportunities[J]. Progress in Aerospace Sciences,2013,56:19- 34. [3] MELITA L，GUMRAH F. Studies on Transport of Vanadium（V）and Nickel（II）from Wastewater Using Activated Composite Membranes[J]. Waste and Biomass Valorization，2010，1(4):461- 465[4] WILLIAM Inckley. Cost- Effectiveness of Helicopter vs Ground EMS[J]. Air Medical Journal，2014，33(1):13- 14. [5] LEE Kalmar C L，XUE B. Contribution of Proline to the Pre- structuring Tendency of Transient Hlical Secondary Structure Elements in Intrinsically Disordered Proteins[J]. Biochimica et Biophysica Acta (BBA)/ General Subjects，2014，1840(1):993- 1003. [6] QI S，B，HUTT D. Conventional and Microwave- assisted Processing of Cr- loaded ICAs for Electronic Interconnect Applications[J]. Journal of Materials Science，2013，48(20):7204- 7214. [7] MICHAEL Kalmanash H. Status of Development of LCOS Projection Displays for F- 22A，F/A- 18E/F，and JSF Cockpits[C]// Cockpit Displays VIII：Dis- plays for Defense Applications，USA，2001. [8] LIU Guangjun，YANG Shuming，QIU Jing，et al. ANovel Testability Model for Health Management of Heading Attitude System[J]. Chinese Journal of Aeronautics，2013，26(1):201- 238. [9] FAN Z，LIU G，SI X，et al. Degradation Data- driven Approach for Remaining Useful Life Estimation[J].
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[1] Hess A, Fila L. The joint strike fighter (JSF) PHM concept: potential impact on aging aircraft problems [A]. Aerospace Conference Proceedings [C]. 2002:3021 - 3026. [2] Malley M E. A methodology for simulating the joint strike fighter's (JSF) prognostics and health management system [D]. Air Force Institute of Technology, 2001. [3] Bolkcom C. F- 25 joint strike fighter (JSF) program: background, Foreign Affairs, Status, and Issues [R]. Defense, and Trade Division, 2007. [4] Smith G. Schroeder J B. Navarro S, etc. Development of a prognostics and health management capability for the joint strike fighter [A]. IEEE Autotestcon Proceedings [C]. 1997. [5] 苗学问，杨云. 预测与健康管理技术的应用与发展 [J]. 装备论证，2010，（1）：25- 29. [6] Vachtsevanos G, Lewis F L, Roemer M, et al. Intelligent fault diagnosis and prognosis for engineering systems [M]. Hoboken: John Wiley&Sons, 2006. [7] 梁旭，李行善，张磊，等. 支持视情维修的故障预测技术研究 [J]. 测控技术，2007，26（6）：5- 8. [8] Hong J, Miao X W, Han L, et al. Prognostics model for predicting aero- engine bearing grade- life [A]. Proceedings of ASME Turbo Exro 2009: Power for Land, Sea and Air [C]. 2009- 06.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "功能",
+      "text": "预测"
+    },
+    {
+      "type": "功能",
+      "text": "健康管理"
+    }
+  ]
+}
+```

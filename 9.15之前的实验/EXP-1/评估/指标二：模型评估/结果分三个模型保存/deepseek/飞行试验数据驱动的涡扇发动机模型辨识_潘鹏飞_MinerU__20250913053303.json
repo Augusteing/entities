@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "LM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "NNARX模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三层前向人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "双曲正切函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "纯线性函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MSE性能函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "归一化均方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "回归系数R",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "最大相对误差在5%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "NNARX模型",
+      "tail": "三层前向人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "神经网络训练",
+      "tail": "LM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "选用",
+      "head": "隐含层",
+      "tail": "双曲正切函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "选用",
+      "head": "输出层",
+      "tail": "纯线性函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型精度",
+      "tail": "MSE性能函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型精度",
+      "tail": "归一化均方差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型精度",
+      "tail": "回归系数R",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "辨识模型",
+      "tail": "最大相对误差在5%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "辨识模型",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ]
+}

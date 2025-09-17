@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "EHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "MBSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象的系统工程方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "OOSEM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "SAE AIR1587B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "报文加载",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "寿命管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "Rhapsody",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "DOORS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "健康管理系统专用传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "数据采集处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "状态监测及故障报文生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "通信传输模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "EGT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "流程",
+      "text": "正向设计流程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "正向流程平台",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统",
+      "tail": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "航空发动机健康管理系统",
+      "tail": "面向对象的系统工程方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参考",
+      "head": "航空发动机健康管理系统",
+      "tail": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参考",
+      "head": "航空发动机健康管理系统",
+      "tail": "SAE AIR1587B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "报文加载",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "寿命管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "正向设计流程",
+      "tail": "正向流程平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "MBSE",
+      "tail": "Rhapsody",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "MBSE",
+      "tail": "DOORS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "健康管理系统专用传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "数据采集处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "状态监测及故障报文生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "通信传输模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监控",
+      "head": "状态监控",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监控",
+      "head": "状态监控",
+      "tail": "EGT",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "以往的航空电子故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "机内测试",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "区域推理机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机上PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "综合航电PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "本文提出的模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "开放式结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "分层的管理体系结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "开放性、分布式、模块化的系统结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "健康管理专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "缺陷探测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "软件运行覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "排除错误时错误引入率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "该体系结构可满足航空电子系统标准化、层次化、模块化、开放性的要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "证明了本文提出模型的优良性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "达到更好的拟合效果",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "演化为",
+      "head": "以往的航空电子故障诊断技术",
+      "tail": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "开放式结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "机上PHM系统",
+      "tail": "分层的管理体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "综合航电PHM系统",
+      "tail": "开放性、分布式、模块化的系统结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文提出的模型",
+      "tail": "缺陷探测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文提出的模型",
+      "tail": "软件运行覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文提出的模型",
+      "tail": "排除错误时错误引入率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "综合航电PHM系统",
+      "tail": "该体系结构可满足航空电子系统标准化、层次化、模块化、开放性的要求",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文提出的模型",
+      "tail": "证明了本文提出模型的优良性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文提出的模型",
+      "tail": "达到更好的拟合效果",
+      "evaluation": "错误"
+    }
+  ]
+}

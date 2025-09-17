@@ -1,0 +1,68 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] 王红，凌云，何超．对172R型飞机前起落架减震支柱渗油故障诊断及解决方法的研究[J]．机床与液压，2016，44(4):142- 144. [2] 郑永安，史忠科．飞机起落架防滑刹车系统鲁棒故障诊断方法[J]．飞行力学，2008，2（2）：16- 19. [3] 陈新霞，刘煜原，黄加阳，等．基于贝叶斯网络推理的起落架系统故障诊断技术研究[J]．计算机测量与控制，2016，24(10):24- 27. [4] 常浩，金大玮，邢国平，等．某型飞机起落架故障诊断专家系统设计研究[J]．飞机设计，2009，29(5):24- 28. [5] Lo C S, Wang C M. Support vector machine for breast MR image classification[J]．Computers and Mathematics with Applications,2012,64(5):1153- 1162. [6] Li Boyan, Wang Qiangwei, Hu Jinglu. Fast SVM training using edge detection on very large datasets[J]．IEEJ Transactions on Electrical and Electronic Engineering,2013,8(3):229- 237. [7] Maldonado S, Weber R, Basak J. Simultaneous feature selection and classification using kernel penalized support vector machines[J]. Information Sciences,2011,181(1):115- 128. [8] 朱旻辰，宦飞.基于加权SVM与信息粒化的时序波动范围预测[J].信息安全与通信保密，2014(5):76- 81. [9] 孔平，陈亮，马晶.基于模糊信息粒化支持向量机的短期电力负荷预测[J].电力信息与通信技术，2016，14(1):11- 14. [10] 彭勇，陈俞强.基于信息粒化的SVM时序回归预测[J].计算机系统应用，2013，22(5):163- 167. [11] 王国胤，张清华，胡军.粒计算研究综述[J].智能系统学报，2007,2(6):8- 20. [12] Guo X C, Yang J H, Wu C G. A Novel LS- SVM Hyper- parameter selection based on particle Swarm Optimization[J]. Neuro computing,2008,71(32):3211- 3215. [13] 龙江，周斌，庞杰．飞机系统[M]．成都：西南交通大学出版社，2017. [14] 丰世林.B737NG航线维护故障模式影响及危害性分析[J].中国民航飞行学院学报，2011，22（5）：19- 21. [15] 王小川，史峰，郁磊，等．MATLAB神经网络43个案例分析[M].北京：北京航空航天大学出版社，2013. [16] 胡良谋，曹克强，徐浩民，等.支持向量机故障诊断及控制技术[M].北京：国防工业出版社，2011. （编辑 李秀敏）
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "模糊信息粒化"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量机"
+    },
+    {
+      "type": "方法",
+      "text": "鲁棒故障诊断方法"
+    },
+    {
+      "type": "系统",
+      "text": "故障诊断专家系统"
+    },
+    {
+      "type": "步骤",
+      "text": "故障诊断"
+    },
+    {
+      "type": "工具",
+      "text": "MATLAB"
+    }
+  ]
+}
+```
+
+示例2 段落：
+178. [3] 朱新宇，马丽璇，王威风.基于CLIPS飞机液压系统故障诊断专家系统的实现[J].中国民航飞行学院学报，2015,27(2):58-62. ZHU X Y, MA L X, WANG W F. Diagnostic Expert System for Hydraulic System of Aircraft Based on CLIPS [J]. Journal of Civil Aviation Flight University of China, 2015,27(2):58-62. [4] 陶来发，樊焕贞，吕琛，等.机电系统故障预测技术的现状与分析[J].控制工程，2011，18（4）：636-639. TAO L F, FAN H Z, LV C, et al. A Review on Electromechanical Systems Prognostics [J]. Control Engineering of China,2011,18(4):636-639. [5] 梁艳艳，张博.大型机械装备智能维护系统的特性分析[J].科技经济市场，2016（4）：140-140. [6] 杨成刚，赵静一.便携式有源液压测试仪及测试方法：ZL200910148231.6 [P].2011-06-15. [7] 任可，苟江，任毅.西门诸尔飞机起落架液压收放系统故障分析[J].航空维修与工程，2010（3）：40-42. REN K, GOU J, HEN Y. Hydraulic Retraction Defaults of Seminole Aircraft Landing Gear System [J]. Aviation Maintenance & Engineering,2010（3）:40-42. [8] GARIMELLA P, YAO B. Model Based Fault Detection of an Electro-Hydraulic Cylinder [C].77 Proceedings of American Control Conference. IEEE,2005.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "工具",
+      "text": "有源液压测试仪"
+    }
+  ]
+}
+```
+
+示例3 段落：
+nostics[R].AIAA2001- 3763. [6] 尉询楷，李应红，王剑影，等.基于支持向量机的航空发动机辨识模型[J].航空动力学报，2004，19（5）：684- 688. [7] 王海寿，谢寿生，武卫，等.基于稀疏最小二乘支持向量机的航空发动机动态过程辨识[J].航空动力学报，2010，25(9):2139- 2147. [8] 王文栋.基于SVR的控制系统辨识建模研究[J].航空试验与研究，2009，22(3):33- 36. [9] 刘建勋，王剑影，李应红，等.某型发动机启动模型的支持向量机辨识及应用[J].推进技术，2004，25(5):401- 408. （LIU Jian- xun，WANG Jian- ying，LI Ying- hong，et al. An Identification Model of Aero Engine Starting Based on Support Vector Machine and Its Application[J]. Journal of Propulsion Technology，2004，25(5):401- 404.）[10] 张益波.基于支持向量机的变结构控制方法研究[D].浙江：浙江大学，2006. [11] Zhang Yibo，Ren Jia. A Kind of Robust Variable Structure Control Scheme Based on Support Vector Machine.[C]. CHN: Proceedings of the 26th Chinese Control Conference，2007. [12] Avidan S. Support Vector Tracking[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence，2004，26(8):1064- 1072. [13] 蔡开龙，谢寿生.航空发动机多变量模糊滑模变结构模型跟踪控制[J].推进技术，2008，29(6):737- 742. （CAI Kai- long，XIE Shou- sheng. Multiple Variable Fuzzy Sliding Mode Variable Structure Model Tracking Control for Aero Engine[J]. Journal of Propulsion Technology，2008，29(6):737- 742.）[14] 周欣然，滕召胜.基于LSVM的MIMO系统快速在线辨识方法[J].计算机应用，2009，29(8):2281- 2284. [15] 张浩然，汪晓东.回归最小二乘支持向量机的增量和在线式学习算法[J].计算机学报，2006，29(3):400- 406.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "航空发动机"
+    },
+    {
+      "type": "技术",
+      "text": "变结构控制"
+    }
+  ]
+}
+```

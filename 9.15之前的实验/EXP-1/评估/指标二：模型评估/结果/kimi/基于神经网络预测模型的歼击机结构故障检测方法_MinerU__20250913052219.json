@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "预测神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多步直接预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "径向基函数网络（RBF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非线性动力学系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "前馈神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "代价函数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "阈值THRES.F.D.为1.5",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "预测神经网络",
+      "tail": "歼击机结构故障检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "径向基函数网络（RBF）",
+      "tail": "BP网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "神经网络预测模型",
+      "tail": "非线性系统辨识方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "非线性动力学系统模型",
+      "tail": "线性动力学系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "表示",
+      "head": "前馈神经网络",
+      "tail": "非线性系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "代价函数法",
+      "tail": "阈值选取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "预测精度",
+      "tail": "神经网络训练",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文研究",
+      "tail": "阈值THRES.F.D.为1.5",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文研究",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ]
+}

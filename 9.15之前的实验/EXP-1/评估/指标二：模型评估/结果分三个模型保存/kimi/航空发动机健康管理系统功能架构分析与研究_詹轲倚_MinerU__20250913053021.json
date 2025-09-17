@@ -1,0 +1,247 @@
+{
+  "entities": [
+    {
+      "type": "论文",
+      "text": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "詹柯倩，黄维娜，淳道勇，桂咏涛，张椿林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "日期",
+      "text": "2024-11-01",
+      "evaluation": "正确"
+    },
+    {
+      "type": "日期",
+      "text": "2025-04-29",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网址",
+      "text": "https://link.cnki.net/urlid/10.1034. t.20250428.1802.004",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "场景-需求-功能-逻辑-物理五层协同建模框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件平台",
+      "text": "MagicDraw",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法论",
+      "text": "MagicGrid方法论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统工程实践",
+      "text": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统建模语言",
+      "text": "Systems Modeling Language",
+      "evaluation": "正确"
+    },
+    {
+      "type": "成果",
+      "text": "航空发动机健康管理系统的全生命周期建模范式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "健康管理系统架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统(Engine Health Management，EHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法论",
+      "text": "OOSEM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法论",
+      "text": "Harmony-SE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法论",
+      "text": "MagicGrid",
+      "evaluation": "错误"
+    },
+    {
+      "type": "标准",
+      "text": "SAE AIR6217",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "Paramagic",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "ANSYSTwinBuilder",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "ModelCenter",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蒙特卡洛仿真",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发表于",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "《图学学报》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "詹柯倩，黄维娜，淳道勇，桂咏涛，张椿林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "收稿日期",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "2024-11-01",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络首发日期",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "2025-04-29",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引用格式",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "https://link.cnki.net/urlid/10.1034. t.20250428.1802.004",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "场景-需求-功能-逻辑-物理五层协同建模框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统的全生命周期建模范式",
+      "tail": "MagicGrid方法论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统的全生命周期建模范式",
+      "tail": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统的全生命周期建模范式",
+      "tail": "Systems Modeling Language",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提升",
+      "head": "航空发动机健康管理技术",
+      "tail": "航空发动机安全性、可靠性、维护性与经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理系统架构",
+      "tail": "基于信息流处理，由征兆、诊断、预测组成的架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "定义",
+      "head": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "tail": "基于数字模型来执行需求、分析、设计、验证与确认过程的系统工程实践框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "航空发动机健康管理系统(Engine Health Management，EHM)",
+      "tail": "航空发动机气路、滑油、振动、寿命等方面的实时或近实时信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "MBSE建模方法",
+      "tail": "OOSEM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "MBSE建模方法",
+      "tail": "Harmony-SE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "MBSE建模方法",
+      "tail": "MagicGrid",
+      "evaluation": "错误"
+    },
+    {
+      "type": "遵循",
+      "head": "系统趋势分析",
+      "tail": "SAE AIR6217",
+      "evaluation": "错误"
+    },
+    {
+      "type": "转换为",
+      "head": "SysML参数约束",
+      "tail": "Simulink仿真输入",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构建",
+      "head": "ANSYSTwinBuilder",
+      "tail": "空气系统数字李生体",
+      "evaluation": "错误"
+    },
+    {
+      "type": "集成",
+      "head": "ModelCenter",
+      "tail": "Matlab/Simulink算法模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "蒙特卡洛仿真",
+      "tail": "评估原监测算法在新型传感器下的虚警率",
+      "evaluation": "正确"
+    }
+  ]
+}

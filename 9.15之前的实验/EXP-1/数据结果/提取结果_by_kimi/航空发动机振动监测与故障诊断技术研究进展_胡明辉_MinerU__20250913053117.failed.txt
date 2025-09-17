@@ -1,2 +1,2 @@
-失败时间: 2025-09-14T09:27:12.584050+00:00
-异常: Error code: 429 - {'error': {'message': 'Your account org-cec156cb17fa4d66a05be7c5b1995387<ak-f54jfwhubqs111g7q1o1> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+失败时间: 2025-09-14T14:11:59.758376+00:00
+异常: Error code: 429 - {'error': {'message': 'Your account org-cec156cb17fa4d66a05be7c5b1995387 / proj-70bd6a9339004dcda2f124ef82898846 <ak-f54jfwhubqs111g7q1o1> request reached organization TPM rate limit, current: 36693, limit: 32000, see https://platform.moonshot.cn/docs/pricing/limits', 'type': 'rate_limit_reached_error'}}

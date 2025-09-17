@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "LSTM循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多层网格搜索算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Adam优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BPTT算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "ARIMA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SSA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Holt-Winters",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "MLR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RNN模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "民航飞机故障数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "波音737飞机故障记录",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "复杂系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "轴承故障诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障机理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "融合方法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "LSTM循环神经网络",
+      "tail": "故障时间序列预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "LSTM循环神经网络",
+      "tail": "多层网格搜索算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "Adam优化算法",
+      "tail": "LSTM模型训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "BPTT算法",
+      "tail": "LSTM模型训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "ARIMA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "SSA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "SVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "Holt-Winters",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "MLR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "RNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "RNN",
+      "tail": "LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "LSTM",
+      "tail": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM模型",
+      "tail": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "LSTM模型",
+      "tail": "故障时间序列预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "实验",
+      "tail": "民航飞机故障数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障时间序列预测",
+      "tail": "RMSE",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "LSTM模型",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    }
+  ]
+}

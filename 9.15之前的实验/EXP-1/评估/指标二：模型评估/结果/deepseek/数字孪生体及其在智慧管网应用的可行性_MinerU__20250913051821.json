@@ -1,0 +1,281 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "行业",
+      "text": "航空航天",
+      "evaluation": "正确"
+    },
+    {
+      "type": "行业",
+      "text": "汽车制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "行业",
+      "text": "军事",
+      "evaluation": "正确"
+    },
+    {
+      "type": "行业",
+      "text": "能源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "行业",
+      "text": "管道行业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "洛克希德·马丁公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "Gartner",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "GE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "Siemens",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "Dassault",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞行载荷与环境数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "结构数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "管道数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "管体数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "设备数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "控制系统数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "生产工艺数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "群体智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "产品设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "飞机故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "汽车制造",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "text": "电厂发电机组智能健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "复杂产品装配",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "管道设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "调度优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "管道设备运行维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "管道全生命周期管理",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "航空航天",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "汽车制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "军事",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "能源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生体",
+      "tail": "管道行业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展了",
+      "head": "Grieves",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数字孪生体",
+      "tail": "飞行载荷与环境数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数字孪生体",
+      "tail": "结构数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "数字孪生体",
+      "tail": "管道数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "管道数字孪生体",
+      "tail": "管体数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "管道数字孪生体",
+      "tail": "设备数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "管道数字孪生体",
+      "tail": "控制系统数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "管道数字孪生体",
+      "tail": "生产工艺数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "遗传算法",
+      "tail": "调度优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "人工神经网络",
+      "tail": "调度优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "群体智能",
+      "tail": "调度优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "GE",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "Siemens",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "Dassault",
+      "tail": "数字孪生体",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "单机跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测和概率性单机跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "SPHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "相对损伤类比法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "损伤容限分析模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "应变寿命法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双参数威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F-35A",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F-35B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "A400M",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "结构健康监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "使用监测功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "定检维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "活动",
+      "text": "单机寿命消耗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "活动",
+      "text": "全尺寸静力/疲劳试验验证",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "单机疲劳寿命消耗指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "载荷预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "90%可延长到30日历年或8000f使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "载荷预测误差控制在10%以内",
+      "evaluation": "错误"
+    },
+    {
+      "type": "规范",
+      "text": "MIL-STD-1530D",
+      "evaluation": "正确"
+    },
+    {
+      "type": "规范",
+      "text": "GJB775A—2012",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "演化为",
+      "head": "故障预测与健康管理",
+      "tail": "飞机结构健康监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "单机跟踪",
+      "tail": "预测和概率性单机跟踪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "飞机结构健康监测",
+      "tail": "故障预测与健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "F-35A",
+      "tail": "损伤容限分析模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F-35B",
+      "tail": "应变寿命法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "A400M",
+      "tail": "使用监测功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "某型机的单机跟踪",
+      "tail": "相对损伤类比法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "疲劳试验寿命",
+      "tail": "双参数威布尔分布",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "结构健康监测系统",
+      "tail": "机载部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "结构健康监测系统",
+      "tail": "地面部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "定检维修",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展方向是",
+      "head": "飞机结构健康监测",
+      "tail": "数字孪生",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "SPHM技术",
+      "tail": "90%可延长到30日历年或8000f使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "单机寿命消耗",
+      "tail": "单机疲劳寿命消耗指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "要求",
+      "head": "全尺寸静力/疲劳试验验证",
+      "tail": "载荷预测误差控制在10%以内",
+      "evaluation": "错误"
+    }
+  ]
+}

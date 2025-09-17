@@ -1,0 +1,339 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "大型客机运行监控与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "C919大型客机的健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机内测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞行数据记录仪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机通信寻址和报告系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "综合系统健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "开放架构状态维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "复杂系统综合健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AIRMAN系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机远程诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CMCS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "ACMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障诊断专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "马尔可夫决策模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "半物理仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "系统验证",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工智能逻辑推理算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "维修决策方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "排故时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "航班正点率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障诊断准确程度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "降低排故时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高航班正点率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高飞机的利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "降低维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高飞机的可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高飞机的经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "为飞机的设计提供改善依据",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "机内测试",
+      "tail": "大型客机运行监控与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "开放架构状态维修",
+      "tail": "复杂系统综合健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "机内测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "维修决策方法",
+      "tail": "马尔可夫决策模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "结构健康监测",
+      "tail": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "结构健康监测",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断专家系统",
+      "tail": "人工智能逻辑推理算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "系统验证",
+      "tail": "半物理仿真",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "排故时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "航班正点率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "飞机利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断算法",
+      "tail": "故障诊断准确程度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断算法",
+      "tail": "维修效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "降低排故时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "提高航班正点率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "提高飞机的利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "降低维修成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "提高飞机的可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "提高飞机的经济性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "大型客机运行监控与健康管理系统",
+      "tail": "为飞机的设计提供改善依据",
+      "evaluation": "正确"
+    }
+  ]
+}

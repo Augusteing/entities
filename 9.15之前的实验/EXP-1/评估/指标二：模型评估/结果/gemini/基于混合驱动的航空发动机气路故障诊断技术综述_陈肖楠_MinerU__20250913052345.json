@@ -1,0 +1,262 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "气路分析（GPA）方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "非线性气路分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "加权最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模型驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "混合驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "扩展卡尔曼滤波（EKF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "无痕卡尔曼滤（UKF）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "线性卡尔曼滤波器（LKF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波技术（PF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法（GA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "加强型机载实时自适应模型（ESTORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "系统状态模型（SVM）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "深度玻尔兹曼机（DBMs）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "图卷积神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "生成对抗网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双向长短期记忆网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "计算量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "鲁棒性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "泛化性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "非线性模型的故障估计精度是线性模型的2.5~37倍",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "使用EKF和UKF的故障诊断精度要大于LKF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "使用UKF的故障诊断精度最好",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Urban",
+      "tail": "气路分析（GPA）方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "线性气路分析法",
+      "tail": "非线性气路分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "卡尔曼滤波",
+      "tail": "扩展卡尔曼滤波（EKF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "卡尔曼滤波",
+      "tail": "无痕卡尔曼滤（UKF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "加强型机载实时自适应模型（ESTORM）",
+      "tail": "发动机模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "加强型机载实时自适应模型（ESTORM）",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "神经网络-遗传算法的发动机性能诊断方法",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "神经网络-遗传算法的发动机性能诊断方法",
+      "tail": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于2D小波变换和生成对抗网络的发动机故障诊断方法",
+      "tail": "2D小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于2D小波变换和生成对抗网络的发动机故障诊断方法",
+      "tail": "生成对抗网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于迁移学习的极限学习机",
+      "tail": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断算法",
+      "tail": "诊断精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断算法",
+      "tail": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障诊断算法",
+      "tail": "鲁棒性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "双轴发动机上的故障诊断工作",
+      "tail": "非线性模型的故障估计精度是线性模型的2.5~37倍",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "非线性发动机系统估计效果对比研究",
+      "tail": "使用EKF和UKF的故障诊断精度要大于LKF",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "无维修工作期",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "Maintenance- free Operating Periods，MFOP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "因素",
+      "text": "基本可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "因素",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "因素",
+      "text": "系统重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "因素",
+      "text": "冗余设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机制",
+      "text": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "预测成功概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "隔离成功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "重构成功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "系统最大重构次数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "MFOPS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "军用飞机无维修工作期参数分解方法研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "基于MFOP的飞机可靠性设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "基于MFOP的可靠性维修方案研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机MFOP概念与应用研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "自修复飞控系统的可靠性估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电源模块冗余热备份对可靠性的影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "冷备系统可靠性评定的统计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "可靠性数学引论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "Age- related maintenance versus reliability centred maintenance: a case study on aero- engines",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "孙华荣",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "王礼沅",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "孙蛟",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "虞健飞",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "影响",
+      "head": "无维修工作期",
+      "tail": "军用飞机设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "基本可靠性",
+      "tail": "MFOP实现",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "故障预测",
+      "tail": "MFOP实现",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "系统重构",
+      "tail": "MFOP实现",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "冗余设计",
+      "tail": "MFOP实现",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "军用飞机无维修工作期参数分解方法研究",
+      "tail": "MFOP参数分解流程和方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "MFOP参数分解流程和方法",
+      "tail": "MFOP指标分析论证和基于MFOP的飞机可靠性设计工作",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "预测成功概率",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "故障检测率",
+      "tail": "系统重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "隔离成功率",
+      "tail": "系统重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "重构成功率",
+      "tail": "系统重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "系统最大重构次数",
+      "tail": "重构成功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "衡量",
+      "head": "MFOPS",
+      "tail": "无维修工作期生存度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "孙华荣",
+      "tail": "军用飞机无维修工作期参数分解方法研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "王礼沅",
+      "tail": "军用飞机无维修工作期参数分解方法研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "孙蛟",
+      "tail": "军用飞机无维修工作期参数分解方法研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "虞健飞",
+      "tail": "军用飞机无维修工作期参数分解方法研究",
+      "evaluation": "正确"
+    }
+  ]
+}

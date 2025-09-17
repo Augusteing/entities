@@ -1,0 +1,550 @@
+# 实体关系抽取Prompt
+
+## 任务描述
+你的角色是一位专业的学术文献实体关系抽取专家，专精于从航空航天领域科研文献中识别和抽取实体及其关系。你的任务是通读给定文本，抽取文本中出现的核心实体，及其对应的关系，并以JSON格式输出。
+
+## 实体定义
+文献中出现的核心概念、技术、方法、模型、系统、故障、指标或实验结果都可视为实体。实体可以是：
+- **手段/工具**：研究中使用的方法、技术、算法、模型
+- **研究对象**：系统、组件、问题、故障
+- **研究结果**：结论、数据、指标、观察结果
+
+实体代表文本中具有独立意义、可被识别和引用的核心信息单元。
+
+### 航空PHM领域特色实体（文献中常见）
+- **航空设备术语**：发动机、轴承、齿轮箱、叶片等（当文献涉及时）
+- **故障相关概念**：故障模式、失效机理、退化过程、健康状态
+- **监测诊断技术**：信号处理、特征提取、模式识别、智能诊断
+- **预测方法**：寿命预测、趋势预测、健康预测、风险评估
+- **PHM系统概念**：健康管理、状态监测、预测维护、决策支持
+
+### 实体抽取指导原则
+1. **最大化原则**：当不确定是否为实体时，倾向于抽取
+2. **语义独立性**：具有独立含义的词汇或短语都可作为实体
+3. **上下文敏感**：同一词汇在不同上下文中可能是不同类型的实体
+4. **层次包容**：既抽取上位概念也抽取下位概念（如：机器学习 + 深度学习）
+5. **组合概念**：复合概念可拆分为多个实体，也可作为整体实体
+6. **隐含实体**：文中隐含但语义明确的概念也应抽取
+7. **创新优先**：特别关注新提出的概念、方法、发现
+8. **无类型限制**：不预设实体类型，根据实际内容灵活分类
+9. **精细粒度**：优先抽取具体的技术名称、精确的数值、详细的组件名称
+10. **完整覆盖**：确保技术链条中每个关键环节都有对应实体
+11. **上下位词理论应用**：运用语言学上下位词关系进行精确分类
+    - **下位词优先原则**：当实体具有明确的专业术语特征时，使用最具体的下位词作为类型
+    - **词汇形态学指导**：利用词汇的构词特征判断类型（如：含"模型"→模型类型；含"算法"→算法类型；含"函数"→函数类型）
+    - **语义层次识别**：识别概念的语义层次，避免将具体概念泛化为上位概念
+    - **专业术语敏感性**：对学术领域的专业术语保持高敏感度，使用领域内的精确分类
+
+## 关系定义
+文献中的实体之间通常存在逻辑、功能或因果联系。关系类型包括但不限于：
+- **演进关系**：发展为、演化为、改进了、基于、衍生自
+- **创新关系**：提出了、引入了、创新了、突破了
+- **比较关系**：优于、劣于、相似于、区别于、对比
+- **依赖关系**：依据、建立在、借鉴了
+- **功能关系**：应用于、作用于、处理、解决
+- **因果关系**：导致、产生、引起、影响
+- **组成关系**：包含、包括、由...组成
+- **结合关系**：结合、融合、集成
+关系只需反映实体间实际存在的语义联系，具体类型无需严格限定，允许根据上下文灵活判断。
+
+## PHM领域特色关系
+### PHM技术演进关系
+- **算法发展**：传统方法→机器学习→深度学习、基于模型→数据驱动→混合方法
+- **监测技术进步**：接触式→非接触式、单参数→多参数→多传感器融合
+- **系统架构演化**：离线分析→在线监测→实时预警→智能决策
+
+### 故障机理关系
+- **因果链条**：载荷→应力→损伤→裂纹→失效、磨损→间隙增大→振动异常→故障
+- **故障传播**：局部故障→系统故障、单点失效→级联失效、初期故障→发展→严重故障
+- **退化过程**：正常→轻微退化→明显退化→严重退化→失效
+
+### 监测诊断关系
+- **信号-故障映射**：振动信号反映轴承状态、温度变化指示润滑问题、油液分析检测磨损
+- **特征-健康关系**：特征提取→健康评估、多特征融合→综合诊断
+- **传感器-监测对象**：加速度传感器监测振动、温度传感器监测热状态
+
+### 预测决策关系
+- **数据-模型-预测**：历史数据训练模型→模型预测RUL→决策维修时机
+- **健康状态-维修策略**：健康良好→正常运行、轻微退化→加强监测、严重退化→计划维修
+- **预测精度-决策可靠性**：高精度预测→可靠决策、预测不确定性→风险评估
+
+### 系统集成关系
+- **多传感器融合**：振动+温度+油液→综合健康评估
+- **多尺度集成**：部件级+系统级+机队级健康管理
+- **多学科协同**：机械+电子+材料+控制→综合PHM解决方案
+
+### 工程应用关系
+- **实验室-工程应用**：算法验证→工程化→产业化应用
+- **仿真-实际**：数值仿真→台架试验→实际飞行验证
+- **标准-实施**：标准规范→工程实践→效果评估
+
+### 性能评估关系
+- **算法性能比较**：准确率对比、计算复杂度比较、实时性评估
+- **系统效益评估**：成本效益分析、安全性提升、维修效率改进
+- **技术成熟度**：实验室阶段→工程样机→产品化→规模应用
+
+### 关系抽取指导原则
+1. **全面性**：不遗漏任何有意义的实体间联系
+2. **创新性**：特别关注学术文献中的创新关系和技术演进
+3. **灵活性**：关系类型不限于上述分类，可根据实际语义创建新关系
+4. **层次性**：既抽取直接关系也抽取间接关系
+5. **动态性**：关注时间维度上的变化和发展关系
+6. **隐含性**：挖掘文本中隐含但语义明确的关系
+
+## 关系发现策略
+
+### 策略1：动词挖掘法
+- 仔细识别文中所有动词和动词短语，将其作为潜在关系类型
+- 特别关注表示行为、过程、变化的动词
+- 例：文中出现"验证了"→关系类型"验证了"；"显著提升"→关系类型"显著提升"
+
+### 策略2：句式模式识别
+- 识别"A通过B实现C"→关系"通过...实现"
+- 识别"A在B基础上发展出C"→关系"在...基础上发展出"
+- 识别"A相比B提高了X%"→关系"相比...提高了X%"
+
+### 策略3：学术表达捕捉
+- 寻找学术论文特有的表达方式：首次、显著、有效、成功、创新性、突破性等修饰词
+- 将这些修饰词与基础关系结合形成更精确的关系类型
+
+### 策略4：上下文语义分析
+- 分析实体间在特定上下文中的确切关系
+- 避免使用过于宽泛的通用关系，追求语义的精确性
+
+
+
+
+## 领域知识完整性要求
+
+### 技术知识链条完整性
+确保抽取以下技术演进的完整链条，不遗漏关键环节：
+- **算法演进**：从传统方法到先进方法的完整发展路径
+- **系统架构**：从部件到子系统到整体系统的层次关系
+- **性能提升**：具体的性能改进数据和对比结果
+- **工程应用**：从理论到实践的转化过程
+
+### 关键实体覆盖检查
+必须抽取的核心实体类型：
+- **技术方法的具体名称**：包括算法名、模型名、方法名
+- **性能指标的具体数值**：准确率、误差率、提升幅度等
+- **系统组件的详细分类**：传感器、处理器、算法模块等
+- **故障模式的具体类型**：具体的故障名称和特征
+- **评估标准和数据集**：具体的标准名称和数据集名称
+
+### 隐含知识挖掘要求
+主动识别和抽取文中隐含但重要的知识：
+- **技术局限性**：每种方法的适用条件和限制
+- **性能权衡关系**：不同指标之间的平衡关系
+- **工程约束条件**：实际应用中的限制因素
+- **未来发展方向**：文中暗示的技术发展趋势
+
+## schema 定义
+{schema_placeholder}
+
+## 抽取指令
+### 步骤1：实体识别
+1. 仔细阅读给定文本
+2. 识别所有符合实体定义的核心概念
+3. 为每个实体标注类型
+
+### 步骤2：关系抽取
+1. 分析实体间的语义联系
+2. 匹配对应的关系，确保语义合理且符合逻辑
+
+### 步骤3：结果验证
+1. 检查抽取的关系是否符合常识和领域知识
+2. 确保实体边界准确，避免过度分割或合并
+
+## Few-Shot示例
+以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
+
+示例1 段落：
+音747的发动机振动指示大，达到  $1.7\mathrm{in / s}$ ，超过警报线，这时从气路诊断法分析不出振动大的原因。采用多参数相关分析方法计算出相关矩阵，其中  $AVM$  与  $N_{1}$  的相关系数为  $0.292 AVM$  与  $N_{2}$  的相关系数为0.712。图2给出了机载振动数据序列与转速数据序列之间的关系曲线。由图可见，  $AVM$  与  $N_{2}$  的关系斜率大于  $AVM$  与  $N_{1}$  的关系斜率。显然，若振动值随  $N_{2}$  转速的增加比随  $N_{1}$  转速的增加快，则振动主要与  $N_{2}$  转子有关。由数值计算及相关曲线都可得出高压转子振动大的结论。在高压转子重新平衡之后，振动值降低了。这也验证了用相关分析法判别故障是可行的。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "相关分析法"
+    },
+    {
+      "type": "部件",
+      "text": "高压转子"
+    },
+    {
+      "type": "结论",
+      "text": "高压转子振动大"
+    },
+    {
+      "type": "维修措施",
+      "text": "高压转子重新平衡"
+    },
+    {
+      "type": "指标",
+      "text": "振动值"
+    }
+  ],
+  "relations": [
+    {
+      "type": "得出结论",
+      "head": "相关分析法",
+      "tail": "高压转子振动大"
+    },
+    {
+      "type": "降低了",
+      "head": "高压转子重新平衡",
+      "tail": "振动值"
+    },
+    {
+      "type": "验证了",
+      "head": "高压转子重新平衡",
+      "tail": "相关分析法"
+    }
+  ]
+}
+```
+
+示例2 段落：
+航空发动机碰摩故障信号的处理方法也在不断的更新改进，以提高故障诊断的准确性。在碰摩信号处理方法方面。何田等[82]提出了基于奇异值分解（SVD）的故障特征提取方法以适用于碰摩特征提取，能够在强干扰背景下诊断，并能够精确的检测不同位置碰摩发生先后。刘洋等[83]认为基于傅里叶分解方法（FDM）的转子碰摩故障诊断方法，表现了出更高的可靠性和有效性。边杰等[84]提出一种参数自适应的变分模态分解方法（APVMD）对双转子航空发动机振动状
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "信号处理"
+    },
+    {
+      "type": "算法",
+      "text": "奇异值分解（SVD）"
+    },
+    {
+      "type": "方法",
+      "text": "傅里叶分解方法（FDM）"
+    },
+    {
+      "type": "方法",
+      "text": "参数自适应的变分模态分解方法（APVMD）"
+    },
+    {
+      "type": "算法",
+      "text": "变分模态分解"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "何田等",
+      "tail": "基于奇异值分解（SVD）的故障特征提取方法"
+    },
+    {
+      "type": "提出了",
+      "head": "边杰等",
+      "tail": "参数自适应的变分模态分解方法（APVMD）"
+    }
+  ]
+}
+```
+
+示例3 段落：
+目前的研究工作对航空发动机和燃气轮机转子结构特征及振型、转子工作温度环境等特性具体因素的考虑较少，使得目前裂纹转子的动力学模型及故障诊断方法无法满足航空发动机和燃气轮机非连续转子裂纹故障的诊断识别需求。未来的发动机转子裂纹故障诊断与预测重点研究方向是：
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "故障",
+      "text": "裂纹"
+    }
+  ]
+}
+```
+
+## 输出格式
+请严格按照以下JSON格式输出结果：
+
+
+**实体类型精确化要求**：
+- **下位词优先策略**：优先使用最具体、最精确的实体类型，避免过度泛化
+- **形态学分类法**：当实体名称包含"模型"、"算法"、"函数"、"网络"、"方法"等专业术语时，使用对应的具体类型而非泛化的"研究方法"
+- **语义层次感知**：运用上下位词关系，识别概念的精确语义层次（如："卡尔曼滤波"是"算法"的下位概念，而非泛化的"研究方法"）
+- **专业术语保真**：保持学术领域专业术语的精确性，使用领域内认可的分类体系
+
+**关系类型拓展指导**：
+以上示例展示了常见的优质关系类型，但请不要局限于此。在实际抽取时：
+
+- **强制创新要求**：主动寻找并创造文本中体现的独特语义关系，避免过度依赖示例关系
+- **精确语义捕捉**：直接使用文本中的动词、动词短语或完整的关系表述作为关系类型名称
+- **学术特色关系**：特别关注学术文献特有的关系，如：
+  - 量化比较关系：如"提升了X%"、"降低了Y倍"、"达到了Z水平"
+  - 时间演进关系：如"在X基础上发展出"、"逐步演化为"、"最终实现"
+  - 条件依赖关系：如"在X条件下适用于"、"当X时表现为"、"针对X问题使用"
+  - 创新程度关系：如"首次提出"、"显著改进"、"突破性解决"、"创新性实现"
+- **原文表述优先**：当文本中有明确的关系描述时，直接使用该表述而非泛化为通用关系
+- **语义精细化**：将宽泛关系细分为更具体的子关系，如将"应用于"细分为"首次应用于"、"成功应用于"、"广泛应用于"等
+
+
+## 注意事项
+
+1. **不受schema限制**：给定的schema和示例仅作参考，实体类型和关系类型均不仅限于此
+2. **语义理解优先**：基于文本实际语义内容进行抽取，而非机械匹配已知模式
+3. **重点关注创新关系**：特别关注学术文献中的：
+   - 技术演进关系（"基于"、"改进"、"发展"、"演化"）
+   - 模型/方法间的进展关系（如：循环神经网络 → 卷积神经网络）
+   - 比较关系（"优于"、"相似"、"区别"）
+   - 应用关系（"适用于"、"解决"、"处理"）
+4. **完整概念抽取**：选择最有意义的完整概念作为实体
+5. **保持输出格式一致性**
+
+## 输入数据 (INPUT DATA)
+现在，你将接收到用于处理的本次任务的全部输入数据。
+论文全文 (唯一事实来源):
+```markdown```
+引用格式：徐建新，姜春生，马超.基于ARIMA模型的民用航空发动机低压转子振动故障分析Ⅱ.科学技术与工程，2019，19（19）：362- 368Xu Jianxin, Jiang Chunsheng, Ma Chao. Vibration fault analysis of low pressure rotor of civil aero- engine based on ARIMA model . Science Technology and Engineering,2019,19(19) : 362- 368
+
+航空、航天
+
+# 基于ARIMA模型的民用航空发动机低压转子振动故障分析
+
+徐建新 姜春生 马超（中国民航大学航空工程学院，天津300300）
+
+摘要民用航空发动机运行数据是航空公司制定发动机维护方案的重要参考依据。针对某航空公司CFM56- 7B发动机的振动值变化趋势提出了一种基于回归分析和ARIMA（autoregressive integrated moving average）模型的故障分析方法。采用回归分析法对各航段发动机振动值和转速之间的关系进行回归拟合，针对指数拟合方程的指数项系数建立ARIMA分析模型，得到方程拟合系数预测值与真实值之间的对应关系并分析结果，从而预判发动机是否有振动故障征兆。结果表明，ARIMA模型能够较好地描述发动机振动- 转速拟合系数变化趋势，能够有效地预测发动机振动故障，可为航空公司制定发动机维护方案提供重要依据。
+
+关键词 民用航空发动机 故障预测 回归分析法 振动- 转速特性 ARIMA模型  中图法分类号 V263.6； 文献标志码 A
+
+安全是民用航空的首要要求，也是衡量航空公司运输质量的首要标志。然而近年来随着中国航空运输业的发展，发动机故障案例也随之增长，其中振动故障是重要的故障类型之一，而且振动故障对飞行安全造成较大影响。因振动超限引起的航班延误和旅客滞留给旅客出行造成严重不便的同时，也增加了航空器运营企业的运营成本。由此可见，航空发动机振动故障预测的研究对保障民用航空运输的可靠性有着重要的意义。
+
+目前，在航空发动机振动故障预测方面，已经有了很多研究，文献探讨了基于过程的神经网络在发动机振动预测方面的应用，但无法避免神经网络易出现的过拟合问题。文献提出了一种基于发动机模型的振动预测思路，取得了良好的振动趋势预测效果，但建模过程复杂，且无法克服实际工程中发动机数据工况不理想的困难，使其无法应用于实际飞行数据。文献用最小熵解卷积法去除发动机振动信号中的噪声成分，并采用随机森林法对发动机中介轴承故障信号分类，在振动故障诊断方面也取得了良好的效果，但在方法应用中需要对应发动机中介轴承的故障种类库，需要长期积累故障
+
+种类，无法短期内形成完整诊断方案。文献提出了一种基于小波变换的发动机振动时频分析方法，但无法解决小波变换中振动相位信息仅包含局部信息造成的物理意义无法解释的问题。因此，将理论更为成熟的ARIMA（autoregressive integrated moving average）模型应用于发动机振动故障预测，在故障征兆点预测方面取得了良好效果。
+
+# 1 问题背景分析
+
+为了读取、记录飞机运行状况，民用飞机运行过程中，快速存储记录器（quick access recorder，QAR）将记录诸如飞行马赫数、飞行高度、发动机高低压转子转速之类的飞行参数，用于监控发动机运行状态和航后数据分析与故障预测。本文数据来源于某航空公司一架波音737—800型飞机的实际故障案例，案例描述如表1所示。为取得良好的分析效果，ARIMA建模方法要求样本自由度大于30个，具体到本案例，样本量要求大于31个。调取该架飞机从2014年1月3日～2014年6月30日期间除去非运行日，每天一个航段共143个航段的飞机QAR数据作为分析样本，并从中筛选出该飞机左右发动机低压转子转速N1（N1转速）与发动机低压涡轮（low pressure turbine，LPT）振动单位值TN1VIB（振动值），研究低压压气机振动值的转速特性。
+
+# 表1 故障案例描述
+
+Table 1 Fault case description  
+
+<table><tr><td>日期</td><td>故障类型</td><td>描述</td><td>措施</td></tr><tr><td>2014.06.30</td><td>N1 振动高</td><td>2014 年 6 月 30 日 监控左发 LPT 振动 高，最大达 4.1</td><td>6 月 30 日前后进行风扇叶片配平后，振动测试最大值为 1.2，发生在 N1 为 91% 时；7 月 3 日 航后记录本反映左发振动值高，AVM(airborne vibration monitoring) 数据显示 0 和 1 航段 LPT 振动值达到 3.3 左右。再次配平风扇叶片，试车结果 VIB 最大为 0.8</td></tr></table>
+
+在143个航段中任选4个航段左发QAR振动和低压转速数据生成散点图，如图1所示。4张图片对应日期分别是1月4日、4月2日、5月2日和6月29日。图1中可以看出，低压涡轮振动- 左发N1转速回归特性明显，且随时间推移，变化明显。根据时间先后筛选出的航段可以看作时间序列，且用回归分析法描述低压振动- N1转速特性，即可以将该问题转化为时间序列分析预测问题，从而利用ARI- MA模型对振动- N1转速特性进行时间序列建模分析。
+
+# 2 模型建立原理
+
+# 2.1 回归分析法
+
+由以上给出的散点图可以看出振动与转速之间存在一定的非线性关系，选用一元回归分析法对这种关系特性进行描述  $\hat{b} = \hat{a}$  ，简要介绍如下。
+
+# 一元线性回归模型的基本形式为
+
+$$
+y_{t} = \hat{a} x_{t} + \hat{b} +e,\quad t = 1,2,\dots ,N \tag{1}
+$$
+
+二次多项式回归模型的基本形式为
+
+$$
+y_{t} = \hat{a} x_{t}^{2} + \hat{b} x_{t} + \hat{c} +e,\quad t = 1,2,\dots ,N \tag{2}
+$$
+
+三次多项式回归模型的基本形式为
+
+$$
+y_{t} = \hat{a} x_{t}^{3} + \hat{b} x_{t}^{2} + \hat{c} x_{t} + \hat{d} +e,\quad t = 1,2,\dots ,N \tag{3}
+$$
+
+指数模型的基本形式为
+
+$$
+y_{t} = \hat{a}\mathrm{e}^{\hat{b} x},\quad t = 1,2,\dots ,N \tag{4}
+$$
+
+式中：  $t$  为样本个数，  $\mathcal{X}$  为自变量；  $y$  为因变量；  $\hat{a},\hat{b}$ $\hat{c},\hat{d}$  为各模型回归系数；  $e$  为误差项。
+
+以上四种回归模型是实际测试能够对振动- N1转速数据进行回归拟合的模型，其余如傅里叶模型、高斯模型等不适用于此研究，故不在此赘述。
+
+应用上述模型对143个航段中的转速和振动数据进行拟合，获得各模型对应的143组拟合系数，对比四种模型，选用拟合效果最好的一种模型中变化
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/85cdb05f41b1826c00974aa148bf73e50d46d7b5d65de765a28ad6bd03df5742.jpg)  
+图1低压涡轮振动-N1转速散点图 Fig.1 Scatter diagram of vibration value of LPT and N1 rotary speed
+
+趋势最明显的一个系数进行ARIMA时间序列建模分析。评价拟合效果的标准为拟合优度，反映到数量上是用可决系数  $R^2$  表示：
+
+$$
+R^2 = \frac{SSR}{SST} = 1 - \frac{SSE}{SST} = 1 - \frac{\sum_{t = 1}^{N}(y_t - \hat{y_t})^2}{\sum_{t = 1}^{N}(y_t - \bar{y_t})^2} \tag{5}
+$$
+
+式（5）中：SSR为回归平方和；SST为总离差平方和；SSE为残差平方和；  $y_{t}$  是因变量的实际观测值；  $\hat{y}_t$  是因变量预测值；  $y_{t}$  是实际观测平均值。可决系数  $R^2$  取值范围是  $0\sim 1,R^2$  越大，拟合优度越好，拟合程度越高。
+
+# 2.2 基于ARIMA模型的时间序列预测方法
+
+针对所选的回归系数的变化特性，选取ARIMA模型进行时间序列建模分析  $\mathbb{E}^{\mathbb{H}}$  。ARIMA模型是由博克思（Box）和詹金斯（Jenkins）于20世纪70年代初提出的一类时间序列（time- series approach）预测方法。根据原时间序列的平稳性以及趋势性和周期性等，又可以将此模型分为4种：  $①$  移动平均模型  $\mathrm{[MA(q)]}$  ；  $(2)$  自回归模型  $\mathrm{[AR(p)]}$  ；  $(3)$  自回归移动平均模型  $\mathrm{[ARMA(p,q)]}$  ；  $(\widehat{\Delta})$  自回归积分移动平均模型  $\mathrm{[ARIMA(p,d,q)]}$  。前3种模型适用于平稳的时间序列；第  $(\widehat{\Delta})$  种模型适用于非平稳序列，适用于本文，其基本思想是将非平稳序列转化为平稳序列，然后通过对因变量的滞后项和随机误差项进行回归建立预测模型。模型中，  $p$  是偏自相关阶数，  $d$  是原时间序列转化为平稳序列所需的差分阶数，  $q$  是移动平均阶数。模型以发动机振动- N1转速拟合系数的历史数据为依据，考虑历史数据的趋势性，对短期内发动机振动具有较好的分析预测效果。应用ARIMA模型进行时间序列分析的流程如图2所示。
+
+其中，平稳性检验与变换是对序列进行平稳性分析，并对非平稳序列进行  $d$  阶差分转化为平稳序列；模型识别与定阶则是对差分后的序列进行自相关和偏相关检验，初步确认  $p$  和  $q$  的值；模型参数估计是变换  $p\sim d$  和  $q$  ，寻找模型最佳参数；适应性检验是诊断残差序列是否为白噪声；模型预测分析即用振动- N1转速回归系数的历史数据预测未来数据，此处可指广义上的未来数据；有效性检验即通过误差分析，检验模型对时间序列的拟合预测效果；最后将模型应用于振动故障预测。
+
+# 3 发动机低压振动-N1转速特性回归分析研究
+
+民用飞机的QAR数据经译码以后，从二进制数据转化为直观且有单位的工程数据。从该工程
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/396a572f2de3bc72e76cbb0d087f62b8797d4b02f9d4fc56aaff0ec8cf6297e1.jpg)  
+图2ARIMA模型时间序列分析流程图 Fig.2 Flow chart of time series analysis for ARIMA model
+
+数据中提取每天一个航班的低压涡轮振动参数与N1转速参数作为分析样本，对每个航段用线性模型、二次多项式模型，三次多项式模型和指数模型进行回归拟合，得到各模型的回归系数。统计143个航段数据的各拟合模型可决系数  $R^2$  ，结果如图3所示。结果显示三次多项式模型和指数模型对143个航段TN1VB和N1的拟合可决系数总体较高。而由于三次多项式在拟合初段容易产生单调递减区间，与实际情况有偏差，因此选用指数模型系数进行分析。
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/869ff36aa809ed603bf362da8a203442011b3417d24a63440490e15a0d95b978.jpg)  
+图3四种拟合模型  $R^2$  对比图 Fig.3  $R^2$  comparison of four fitting models
+
+通过分析指数模型拟合系数结果，自然常数e的指数系数  $b$  稳定在0.03左右，而  $a$  变化趋势较为明显，可以认为用于拟合本案例的指数模型中影响模型输出值的系数主要为系数  $a$  。因此选取
+
+指数模型系数  $a$  组成时间序列进行ARIMA模型建模分析。
+
+# 4 指数模型系数  $a$  序列的ARIMA模型建模分析
+
+# 4.1 平稳性检验与数据预处理
+
+对序列建立时间序列分析模型的前提是满足数据平稳性要求，观察图4中指数模型系数  $a$  的时间序列图，直观上判断  $a$  序列非平稳，运用ADF检验法对序列  $a$  做单位根检验[2,13]进一步判断序列平稳性，检验结果如表2所示。表中ADF检验统计量值为- 1.910979，落在  $10\%$  置信区间之外，概率为 $64.35\%$  ，可判定  $a$  序列非平稳。
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/39220656c275ec664f278253ba093f5e2359efeeca33e5c7f7bfcb95ff7d1d58.jpg)  
+图4 指数模型系数  $a$  机段序列图 Fig.4 Segment series diagram of coefficient  $a$  for exponential model
+
+# 表2系数  $a$  序列ADF检验表
+
+Table 2 ADF test of coefficient a sequence  
+
+<table><tr><td>置信区间/%</td><td>t-统计量</td><td>ADF检验统计量</td><td>概率/%</td></tr><tr><td>1</td><td>-4.025 426</td><td></td><td></td></tr><tr><td>5</td><td>-3.442 474</td><td>-1.910 979</td><td>64.35</td></tr><tr><td>10</td><td>-3.145 882</td><td></td><td></td></tr></table>
+
+采用差分法将非平稳时间序列转化为平稳序列，  $d$  阶差分方程为
+
+$$
+\nabla^d x_t = \nabla^{t - 1}x_t - \nabla^{t - 1}x_{t - 1} \tag{6}
+$$
+
+式（6）中：  $d$  是差分阶数；  $t$  是序列中数值编号。当 $d = 1$  时，等号右侧值为原序列值。差分次数以得到差分后序列平稳序列为准。
+
+对一阶差分后的序列作序列图，如图5。其数值在0上下波动，初步判定其为平稳序列。对其进行ADF检验，检验结果如表3所示。一阶差分序列ADF检验统计量为- 11.59378，落于  $1\%$  置信空间内，概率小于万分之一，判定一阶差分序列为平稳序列，  $d = 1$  。
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/54424da94221cb9de0f85877de5f11b1ea607d50aaff4a7bb9c2b0f81dc7ed21.jpg)  
+图5系数  $a$  一阶差分序列图 Fig.5 First difference sequence diagram of coefficient  $a$
+
+# 表3系数  $a$  一阶差分序列ADF检验表
+
+Table 3 ADF test for first difference sequence of coefficient a  
+
+<table><tr><td>置信区间/%</td><td>t-统计量</td><td>ADF检验统计量</td><td>概率/%</td></tr><tr><td>1</td><td>-2.581 705</td><td></td><td></td></tr><tr><td>5</td><td>-1.943 140</td><td>-11.593 78</td><td>0.00</td></tr><tr><td>10</td><td>-1.615 189</td><td></td><td></td></tr></table>
+
+# 4.2 模型定阶
+
+在4.1节中验证，  $t$  序列为非平稳时间序列，一阶差分后序列平稳，则判定适用ARIMA模型进行建模。作一阶差分序列的自相关图（ACF）与偏自相关图（PACF）如图6所示，可知ACF图呈1阶拖尾，PACF呈1阶拖尾，初步判定  $p = 1,q = 1$  ，序列模型为ARIMA(1,1,3)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/bc0ca5ea1941eece442d4f302f5cb3538f5db6fcc8bac2b32543c64a7edda004.jpg)  
+图6系数  $a$  一阶差分序列的ACF和PACF图 Fig.6 ACF and PACF diagram for first difference sequence of coefficient  $a$
+
+# 4.3 模型参数估计
+
+对模型初步定价以后，仍需要以  $p\sim q$  的初步判定值为基础，多次变换  $p\sim q$  值进行ARIMA模型建模，比较各模型对序列拟合的显著性水平Sig、可决系数  $R^2$  、贝叶斯信息准则值  $BIC$  ，选择最佳模型参数建模。计算结果如表4所示。
+
+表4各模型Sig.  $R^2$  、BIC值统计表
+
+Table 4 Statistics for Sig.，  $R^2$  ，BIC of each ARIMA model  
+
+<table><tr><td>模型</td><td>Sig.</td><td>R²</td><td>BIC</td></tr><tr><td>ARIMA(1,1,1)</td><td>0.048</td><td>0.905</td><td>-9.194</td></tr><tr><td>ARIMA(1,1,2)</td><td>0.036</td><td>0.907</td><td>-9.167</td></tr><tr><td>ARIMA(1,1,3)</td><td>0.394</td><td>0.894</td><td>-9.086</td></tr><tr><td>ARIMA(2,1,1)</td><td>0.220</td><td>0.900</td><td>-9.139</td></tr><tr><td>ARIMA(2,1,2)</td><td>0.338</td><td>0.885</td><td>-9.066</td></tr><tr><td>ARIMA(2,1,3)</td><td>0.565</td><td>0.917</td><td>-9.180</td></tr><tr><td>ARIMA(3,1,1)</td><td>0.211</td><td>0.900</td><td>-9.101</td></tr><tr><td>ARIMA(3,1,2)</td><td>0.228</td><td>0.893</td><td>-9.035</td></tr><tr><td>ARIMA(3,1,3)</td><td>0.101</td><td>0.892</td><td>-8.975</td></tr></table>
+
+表4表明，ARIMA（2，1，3）模型的Sig.值和  $R^2$  最高，信息准则值  $BIC$  较小，说明该模型对  $a$  序列拟合效果较好，解释程度较高，故将ARIMA模型参数估计为  $p = 2, d = 1, q = 3$  。另外，SPSS软件中的专家建模器能够根据数据特征自动使用差分运算和对序列的变换（平方根、自然对数等），使序列平稳，并将模型定价和参数估计整合在一起，将季节因素考虑在内，经验表明由专家建模器得出的结果在短期数据趋势变化方面也比较有参考意义，因此这里将专家建模器的结果也一起展示作辅助分析。由专家建模器得出的拟合模型为ARIMA（1，1，2），也能较好地拟合  $a$  序列的变化趋势。
+
+# 4.4 ARIMA模型适应性检验
+
+分别作ARIMA（2，1，3）和专家建模器所得ARIMA（1，1，2）模型残差序列的ACF图和PACF图如图7所示，可得两模型残差ACF图和PACF图均0阶拖尾，说明残差均相互独立，判定残差为白噪声，ARIMA（2，1，3）模型和专家建模器对描述TN1VIB与N1特性的指数模型中的系数  $a$  序列拟合均较为充分。
+
+# 4.5 基于ARIMA模型的发动机故障预测及有效性分析
+
+应用建立的ARIMA（2，1，3）模型，结合专家建模器对系数  $a$  序列进行时间序列预测分析，模型拟合结果如图8所示。另用传统的三次指数平滑法对本文中的数据进行拟合，作为对比分析，拟合结果如图9所示。以  $R^2$  、均方根误差RMSE、平均绝对误差MAE和最大绝对误差MaxAE来评判模型拟合效果，其统计量如表5所示。
+
+表5显示，ARIMA（2，1，3）模型和专家建模器建立的ARIMA（1，1，2）模型  $R^2$  分别为0.917和0.879，说明拟合优度较高，拟合效果较好；RMSE值分别为0.008和0.010，MAE值分别为0.006和0.007，MaxAE分别为0.036和0.028，三值均较小，说明两模型拟合误差均较小。两种ARIMA模型与
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/bef6832cc9a7c63d8d68afebec2492d1c6c4cefd2266d48ecbb536f8659aba5c.jpg)  
+图7系数  $a$  残差序列的ACF和PACF图 Fig.7 ACF and PACF diagram for residual sequence of coefficient  $a$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/3347b3c0e732ee498d882bf0c7721795979ae7fcbccdca820b7230eb46e3946c.jpg)  
+图8左发  $a$  序列ARIMA模型拟合结果 Fig.8 Left engine ARIMA model fitting results of sequence of coefficient  $a$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/3ed503cfaf373fcb62110e8fbd77fb609f6cbbea69c73ca49f417e0fffc45d9b.jpg)  
+图9 左发  $a$  序列三次指数平滑法拟合结果
+
+Fig.9 Left engine cubic exponential smoothing method fitting results of sequence of coefficient  $a$
+
+传统的三次指数平滑法拟合结果对比，上述四个评判量均优于三次指数平滑法。说明ARIMA模型相比传统三次指数平滑模型，具有较好的拟合效果。
+
+表5模型拟合统计量Table 5 Model fitting statistics  
+
+<table><tr><td>模型</td><td>R²</td><td>RMSE</td><td>MAE</td><td>MaxAE</td></tr><tr><td>ARIMA(2,1,3)</td><td>0.917</td><td>0.008</td><td>0.006</td><td>0.036</td></tr><tr><td>专家建模器ARIMA(1,1,2)</td><td>0.879</td><td>0.010</td><td>0.007</td><td>0.028</td></tr><tr><td>三次指数平滑法</td><td>0.797</td><td>0.015</td><td>0.008</td><td>0.050</td></tr></table>
+
+分析图8（a），可得用于描述低压振动值与N1转速特性的指数模型得到的系数  $a$  总体呈现上升趋势，结合专家建模器模型拟合结果图8（b）可知，序列在第106个日期和第128个日期分别发生两次阶跃。两次日期前后拟合系数值差距明显，通过查询，第106个日期为5月1日，第128个日期为6月15日，而在5月1日之前，系数  $a$  没有明显上升。该发动机于6月30日监测到LPT振动超限。由此可以推断，该发动机在监测到振动超限之前，就已经在拟合模型中显示出振动超限征兆。
+
+为形成对比，对同架飞机右发正常发动机同期数据也采用相同方法进行建模，验证残差序列为白噪声后，建模结果如图10所示，其中图10（a）为自选ARIMA模型，图10（b）为专家建模器生成模型。
+
+结合图10可得，右发用于描述TN1VIB与N1特性的指数模型得到的系数  $a$  总体呈现平稳趋势，无阶跃上升迹象。判定右发在未来短期内不会发生振动故障。
+
+# 5 结论
+
+综合统计学方法提出一种基于ARIMA模型的民用航空发动机低压转子振动故障预测方法，讨论了ARIMA模型对发动机振动故障预测的可行性。通过分析得出以下结论。
+
+（1）找到表征发动机低压涡轮振动变化趋势的
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-13/9179a9f6-ed3e-489c-9df6-8dbd47364b20/29a3f04ebcfb51210607878c359d95627c9c4ed121eae8f236cc36ddbf4b4a86.jpg)  
+图10 右发  $a$  序列ARIMA模型拟合结果 Fig.10 Right engine ARIMA model fitting results of sequence of coefficient  $a$
+
+时间序列是建立ARIMA振动故障预测模型的关键，将决定模型能否成功对发动机故障进行预测
+
+（2）分析证明，将拟合振动与N1转速的关系得到的系数组成时间序列，用于建立寻找发动机振动故障征兆点的ARIMA模型是可行的，能够实现对振动故障征兆点的监测从而对故障进行预报
+
+（3）基于ARIMA模型的低压转子振动故障预测方法对表征发动机低压涡轮振动变化趋势的时间序列数据拟合结果的平均绝对误差和均方根误差较小，拟合效果良好，说明该方法具有一定的实际工程应用价值。
+
+# 参考文献
+
+1 金向阳，林琳，钟诗胜，等.航空发动机振动趋势预测的过程神经网络法.振动- 测试与诊断，2011，31（3）：331- 334. Jin Xiangyang, Lin Lin, Zhong Shisheng, et al. Chattering reduction sliding mode control for electro- hydraulic position servo system. Journal of Vibration, Measurement and Diagnosis, 2011, 31 (3): 331- 334. 2 王俨剀，马进锐，廖明夫，等.发动机振动趋势预测模型研究.振动- 测试与诊断，2014（3）：516- 523. Wang Yankai, Ma Jinru, Liao Mingfu, et al. Research on trend prediction model of engine vibration. Journal of Vibration, Measurement and Diagnosis, 2014(3): 516- 523. 3 董欢.某型航空发动机中介轴承故障诊断技术研究.沈
+
+# 阳：沈阳航空航天大学，2017
+
+Dong Huan. Research on fault diagnosis technology of inteeshaft bearings in an aeroengine [1]. Shenyang: Shenyang Aerospace University, 2017
+
+4 Wang S, Chen X, Tong C, et al. Matching synchrosqueezing wavelet transform and application to aeroengine vibration monitoring [1]. IEEE Transactions on Instrumentation and Measurement, 2017, 66 (2): 360- 372
+
+# 5 刘炳文，王铁，李国兴，等.工况特征参数对客车燃油经济性的影响.科学技术与工程，2018，18（17）：181-186
+
+Liu Bingwen, Wang Tie, Li Guoxing, et al. Influence of operating condition characteristic parameters on fuel economy of the bus [1]. Science Technology and Engineering, 2018, 18(17): 181- 186
+
+# 6 田宏卫，林权，李洪军，等.一种基于相关性分析的故障风机损失发电量估计方法的研究.科学技术与工程，2016，16(11):185-188
+
+Tian Hongwei, Lin Quan, Li Hongjun, et al. Research on an estimation method of power generation loss of the fault wind turbine based on correlation analysis [1]. Science Technology and Engineering, 2016, 16(11): 185- 188
+
+# 7 程超.基于时间序列法和回归分析法的改进月售电量预测方法研究[1].重庆：重庆大学，2016
+
+Cheng Chao. Improvement of monthly electricity sales forecasting method based on time- series method and regression method [1]. Chongqing: Chongqing University, 2016
+
+8 Contreras J, Espinola F, Nogales F J, et al. ARIMA models to predict next- day electricity prices [1]. IEEE Power Engineering Review, 2002, 22(9): 57- 57
+
+# 9 董大勇，刘珂言.基于ARIMA模型的工业品出厂价格指数预测与分析.统计与决策，2016（1）：179-181
+
+Dong Dayong, Liu Keyan. Prediction and analysis of ex- factory price index of industrial products based on ARIMA models [1]. Statistics and Decision, 2016(1): 179- 181
+
+10 Khashei M, Bijari M. A novel hybridization of artificial neural networks and ARIMA models for time series forecasting [1]. Applied Soft Computing Journal, 2011, 11(2): 2664- 2675
+
+11 Box G E P, Jenkins G M, Reinsel G C, et al. Time series analysis: forecasting and control, 5th edition [1]. Journal of the Operational Research Society, 2015, 22(2): 199- 201
+
+# 12 欧阳敏华.STAR模型下退势单位根检验统计量的比较[1.统计与决策，2017（23）：19-22
+
+Ouyang Minhua. Comparative study on performance of de- trending unit root test in STAR models [1]. Statistics and Decision, 2017 (23): 19- 22
+
+# 13 于寄语.时间序列的结构变化和单位根检验[1].武汉：华中科技大学，2017
+
+Yu Jiyu. The structural changes of time series models and unit root test [D]. Wuhan: Huazhong University of Science and Technology, 2017
+
+# Vibration Fault Analysis of Low Pressure Rotor of Civil Aero-engine Based on ARIMA Model
+
+XU Jian- xin, JIANG Chun- sheng, MA Chao (College of Aeronautical Engineering, Civil Aviation University of China, Tianjin 300300, China)
+
+Abstract] The operation data of Civil Aero- engine is an important reference for airlines to make engine maintenance plans. A fault analysis method based on regressive analysis and ARIMA (autoregressive integrated moving average) model was proposed for the development trend of vibration value of an airline CFM56- 7B engine. The regression analysis method was used to fit the vibration value and rotational speed of the engine in each flight. The ARIMA analysis model was established for the exponential coefficient of the exponential fitting equation, then the corresponding relationship between the predicted value and the real value of the equation fitting coefficient was obtained and analyzed, and then whether the engine has vibration fault symptoms was predicted. The results show that ARIMA model can describe the trend of engine vibration- speed fitting coefficient well and predict engine vibration fault effectively, and the model provides an important basis for airlines to make engine maintenance plans.
+
+[Key words] civil aviation engine fault prediction regression analysis vibration- speed characteristics ARIMA model

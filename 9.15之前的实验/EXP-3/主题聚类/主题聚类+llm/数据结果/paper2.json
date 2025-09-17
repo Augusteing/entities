@@ -1,0 +1,192 @@
+{
+    "entities": [
+        {
+            "type": "作者",
+            "text": "辛昕谢川"
+        },
+        {
+            "type": "论文",
+            "text": "F-35飞机自主式保障系统缺陷及原因分析"
+        },
+        {
+            "type": "系统/部件",
+            "text": "F-35飞机"
+        },
+        {
+            "type": "模型",
+            "text": "故障预测和健康管理系统"
+        },
+        {
+            "type": "模型",
+            "text": "自主式保障信息系统"
+        },
+        {
+            "type": "系统/部件",
+            "text": "自主式保障系统"
+        },
+        {
+            "type": "研究问题",
+            "text": "信息系统自动化程度有限且所需数据不完整或错误"
+        },
+        {
+            "type": "研究问题",
+            "text": "可部署性较弱和信息交流不顺畅"
+        },
+        {
+            "type": "研究问题",
+            "text": "备件短缺和不匹配，备件运输困难，紧缺备件分配优先级难以确定，备件管理混乱"
+        },
+        {
+            "type": "研究问题",
+            "text": "装备成熟度与保障性之间的矛盾"
+        },
+        {
+            "type": "研究问题",
+            "text": "保障管理的组织架构有待完善"
+        },
+        {
+            "type": "研究问题",
+            "text": "对全球供应链建设方面的困难估计不足"
+        },
+        {
+            "type": "研究问题",
+            "text": "保障管理方面的政策法规不完备"
+        },
+        {
+            "type": "故障模式",
+            "text": "备件短缺"
+        },
+        {
+            "type": "故障模式",
+            "text": "备件不匹配"
+        },
+        {
+            "type": "故障模式",
+            "text": "备件运输困难"
+        },
+        {
+            "type": "故障模式",
+            "text": "紧缺备件分配优先级难以确定"
+        },
+        {
+            "type": "故障模式",
+            "text": "备件管理混乱"
+        },
+        {
+            "type": "研究结果",
+            "text": "F35机队无法完成多任务和足够的飞行架次，达不到作战要求"
+        },
+        {
+            "type": "研究展望",
+            "text": "需要不断总结经验和进行改进"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.F-35 aircraft sustainment: DoD face challenges insustaining a growing fleet. GAO-20-234T，2019-11-31"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.F-35 aircraft sustainment: DoD needs to addresssubstantial supply chain challenges.GAO-19-321，2019-04"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.F-35 sustainment: DoD needs a plan to addressrisksrelated to its centrallogistics system.GAO-6-439,2016-04"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.F-35 aircraft sustainment:DoD need to addresschallenges affecting readinessand cost transparency.GAO-18-75，2017-10-26"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.F-35 joint strike fighter:development is nearlycomplete，but deficiencies found in testingneedto be re-solved.GAO-8-321，2018-06-05"
+        },
+        {
+            "type": "引用文献",
+            "text": "GAO.Warfighter support:DoD needs to share F-35 oper-ational lessons across the military services.GAO-18-464R，Washington，D C，2018-04-25"
+        },
+        {
+            "type": "引用文献",
+            "text": "王萍，张宝珍．F-35 持续保障面临的挑战．2018 年军工装备技术专刊论文集，2018"
+        },
+        {
+            "type": "引用文献",
+            "text": "刘浩伟，谢长生，吴丹丽．基于系统辨识的框架控制系统设计．导航定位与授时，2018，5（5)"
+        },
+        {
+            "type": "引用文献",
+            "text": "刘阳．美国F-35战机海外部署面临三大调整．www.xinhuanet.c0m，2018-04-29/2019-03-22"
+        },
+        {
+            "type": "引用文献",
+            "text": "秦荀，李三军．F-35 战斗机的状态预测与健康管理系统．军机维修，2017（4)"
+        },
+        {
+            "type": "引用文献",
+            "text": "黄剑炜，叶清琳，朱赫.F35联合攻击机维修保障新模式探析.航空维修与工程，2015(6)"
+        },
+        {
+            "type": "引用文献",
+            "text": "王守权，李淑华，王炜斑．构建引进航空装备自主保障体系.首届航空保障设备发展论坛会议文集，2017"
+        },
+        {
+            "type": "引用文献",
+            "text": "周雄武，李向东，赵瑞贤．自主式保障模式下军用飞机地面保障设备发展．首届航空保障设备发展论坛会议文集，2017"
+        },
+        {
+            "type": "引用文献",
+            "text": "王萍．F-35飞机面临重大供应链挑战．2019航空装备服务保障与维修技术论坛暨中国航空工业技术装备工程协会年会论文集，2019"
+        }
+    ],
+    "relations": [
+        {
+            "type": "撰写",
+            "head": "辛昕谢川",
+            "tail": "F-35飞机自主式保障系统缺陷及原因分析"
+        },
+        {
+            "type": "应用于",
+            "head": "故障预测和健康管理系统",
+            "tail": "F-35飞机"
+        },
+        {
+            "type": "应用于",
+            "head": "自主式保障信息系统",
+            "tail": "自主式保障系统"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障预测和健康管理系统",
+            "tail": "备件短缺"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障预测和健康管理系统",
+            "tail": "备件不匹配"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障预测和健康管理系统",
+            "tail": "备件运输困难"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障预测和健康管理系统",
+            "tail": "紧缺备件分配优先级难以确定"
+        },
+        {
+            "type": "预测/诊断",
+            "head": "故障预测和健康管理系统",
+            "tail": "备件管理混乱"
+        },
+        {
+            "type": "得出",
+            "head": "故障预测和健康管理系统",
+            "tail": "F35机队无法完成多任务和足够的飞行架次，达不到作战要求"
+        },
+        {
+            "type": "建议",
+            "head": "F35机队无法完成多任务和足够的飞行架次，达不到作战要求",
+            "tail": "需要不断总结经验和进行改进"
+        }
+    ]
+}

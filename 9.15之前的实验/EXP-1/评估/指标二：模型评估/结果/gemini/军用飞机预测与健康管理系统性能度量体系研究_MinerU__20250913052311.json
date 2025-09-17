@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "故障诊断、预测与健康管理（PHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统性能度量方法体系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机内测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于状态的维修（CBM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "健康退化曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断性能度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测性能度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "综合度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "成功检测率（POD）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "误报率（POFA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "稳定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "工况敏感度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "噪声敏感度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "总体置信度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "接受者操作特性曲线（ROC curve）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障隔离率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测覆盖率（PCR）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测及时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测置信度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相似度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "灵敏度（SN）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "数据下载时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "数据存储容量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "数据处理精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均故障间隔飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "重量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "总体价值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究主体",
+      "text": "本文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "BIT设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "诊断算法的性能",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "本文",
+      "tail": "健康退化曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "PHM系统性能度量方法体系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "机内测试技术",
+      "tail": "故障诊断、预测与健康管理（PHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术基础是",
+      "head": "基于状态的维修（CBM）",
+      "tail": "故障诊断、预测与健康管理（PHM）系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统性能度量方法体系",
+      "tail": "诊断性能度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统性能度量方法体系",
+      "tail": "预测性能度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统性能度量方法体系",
+      "tail": "综合度量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "成功检测率（POD）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "误报率（POFA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "稳定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "工况敏感度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "噪声敏感度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断性能度量",
+      "tail": "总体置信度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "预测覆盖率（PCR）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "预测及时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "预测置信度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "相似度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "预测性能度量",
+      "tail": "灵敏度（SN）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "数据下载时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "数据存储容量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "数据处理精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "平均故障间隔飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "重量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "综合度量",
+      "tail": "总体价值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可使用",
+      "head": "诊断算法的性能",
+      "tail": "接受者操作特性曲线（ROC curve）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "BIT设计",
+      "tail": "故障检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "BIT设计",
+      "tail": "故障隔离率",
+      "evaluation": "正确"
+    }
+  ]
+}

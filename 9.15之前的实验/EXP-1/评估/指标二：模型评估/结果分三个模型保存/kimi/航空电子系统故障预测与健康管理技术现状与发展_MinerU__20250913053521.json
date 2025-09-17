@@ -1,0 +1,211 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "特征参数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "预警电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "累积损伤模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "综合法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "寿命消耗监测法（LCM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机内测试（BIT）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "内建自测试（BIST）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "特征参数不易获取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "物理损伤模型复杂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "电子元器件质量参差不齐",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电子系统PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电子系统PHM技术实现方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电子系统PHM的支撑技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电子系统PHM技术发展",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "故障预测与健康管理(PHM)",
+      "tail": "电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电子系统故障预测",
+      "tail": "特征参数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电子系统故障预测",
+      "tail": "预警电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电子系统故障预测",
+      "tail": "累积损伤模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电子系统故障预测",
+      "tail": "综合法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "寿命消耗监测法（LCM）",
+      "tail": "累积损伤模型法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高",
+      "head": "机内测试（BIT）",
+      "tail": "系统测试性和诊断能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "内建自测试（BIST）",
+      "tail": "故障定位精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康管理技术",
+      "tail": "诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康管理技术",
+      "tail": "缓解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康管理技术",
+      "tail": "修复",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康管理技术",
+      "tail": "检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "面临",
+      "head": "电子系统PHM技术",
+      "tail": "特征参数不易获取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "面临",
+      "head": "电子系统PHM技术",
+      "tail": "物理损伤模型复杂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "面临",
+      "head": "电子系统PHM技术",
+      "tail": "电子元器件质量参差不齐",
+      "evaluation": "正确"
+    },
+    {
+      "type": "讨论",
+      "head": "电子系统PHM技术现状和发展",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "讨论",
+      "head": "电子系统PHM技术现状和发展",
+      "tail": "电子系统PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "电子系统PHM技术发展",
+      "tail": "特征参数获取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "电子系统PHM技术发展",
+      "tail": "物理损伤模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "电子系统PHM技术发展",
+      "tail": "电子元器件质量",
+      "evaluation": "正确"
+    }
+  ]
+}

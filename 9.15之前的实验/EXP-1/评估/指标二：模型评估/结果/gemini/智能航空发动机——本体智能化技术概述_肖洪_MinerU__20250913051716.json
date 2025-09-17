@@ -1,0 +1,298 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "智能航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字工程模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "极速策略人工智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能芯片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能感知技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能决策技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能执行技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能维护技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能互联技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "Predix",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "EngineWise",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "GTlab",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "SIMATMOS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "eSTORM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "强化学习算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "智能数字控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字化试验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "GE公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "喜惠公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "罗·罗公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "德国航空航天中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "西北工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "BAE Systems公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "非稳态结果平均偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "1%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "动态误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "不大于2%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "响应时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "不长于1ms",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "核心技术是",
+      "head": "智能航空发动机",
+      "tail": "数字工程模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心技术是",
+      "head": "智能航空发动机",
+      "tail": "极速策略人工智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心技术是",
+      "head": "智能航空发动机",
+      "tail": "智能芯片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术是",
+      "head": "智能航空发动机",
+      "tail": "智能感知技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术是",
+      "head": "智能航空发动机",
+      "tail": "智能决策技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术是",
+      "head": "智能航空发动机",
+      "tail": "智能执行技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术是",
+      "head": "智能航空发动机",
+      "tail": "智能维护技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关键技术是",
+      "head": "智能航空发动机",
+      "tail": "智能互联技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推出了",
+      "head": "GE公司",
+      "tail": "Predix",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推出了",
+      "head": "喜惠公司",
+      "tail": "EngineWise",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "德国航空航天中心",
+      "tail": "GTlab",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "西北工业大学",
+      "tail": "智能芯片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "BAE Systems公司",
+      "tail": "智能数字控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "eSTORM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "智能决策技术",
+      "tail": "强化学习算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "智能维护技术",
+      "tail": "数字孪生模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "数字化试验",
+      "tail": "非稳态结果平均偏差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "数字化试验",
+      "tail": "1%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "智能芯片",
+      "tail": "动态误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "智能芯片",
+      "tail": "不大于2%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "智能芯片",
+      "tail": "响应时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "智能芯片",
+      "tail": "不长于1ms",
+      "evaluation": "正确"
+    }
+  ]
+}

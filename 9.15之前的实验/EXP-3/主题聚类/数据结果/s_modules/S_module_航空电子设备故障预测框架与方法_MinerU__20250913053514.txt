@@ -1,0 +1,55 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1]木志高，胡海峰，胡葛庆.武器装备故障预测及健康管理系统设计[J].兵工自动化，2006（3）：20- 21. [2]张宝珍，曾天翔.先进的故障预测与状态管理技术[J].测控技术，2003（11）：4- 6. [3]龙兵，孙振明，姜兴鼎.航天器集成健康管理系统研究[J].航天控制，2003（2）：56- 61. [4]韩国泰.航空电子的故障预测与健康管理技术[J].航空电子技术，2009（1）：30- 38. [5]时旺，孙宇锋，王自.J.PHM系统及其故障预测模型研究[J].火力与指挥控制，2009（10）：29- 32. [6]马宁，吕琛.飞机故障预测与健康管理框架研究[J].华中科技大学学报：自然科学版，2009（z1）：207- 209.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "任务",
+      "text": "故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[5] 孙博, 康锐, 谢劲松. 故障预测与健康管理系统研究和应用现状综述[J]. 系统工程与电子技术, 2007, 29(10): 1762- 1767. Sun Bo, Kang Rui, Xie Jinsong. Research and application of the prognostic and health management system [J]. System Engineering and Electronics, 2007, 29(10): 1762- 1767. (in Chinese)[6] Azam M, Ghoshal S, Bell J, et al. Prognostics and health management (PHM) of electromechanical actuation (EMA) systems for next- generation aircraft[J]. American Institute of Aeronautics and Astronautics, 2013(56): 478- 487. [7] 马飒飒, 陈国顺, 方兴桥, 等. 复杂装备故障预测与健康管理系统初探[J]. 计算机测量与控制, 2010, 18(1): 1- 4. Ma Sasa, Chen Guoshun, Fang Xingqiao, et al. Research on prognostic and health management system of complex equipment [J]. Computer Measurement & Control, 2010, 18(1): 1- 4. (in Chinese)[8] 唐有才, 孙立金, 陈新波. 飞机液压泵故障分析及预防[J]. 液压与气动, 2002, 3: 24- 26. Tang Youcai, Sun Lijin, Chen Xuhui. The analysis and prevent the faults of aircraft hydraulic pump[J]. Hydraulics & Pneumatics, 2002, 3: 24- 26. (in Chinese)[9] 赵四军, 王少萍, 尚耀星. 飞机液压泵源预测与健康管理系统[J]. 北京航空航天大学学报, 2010, 36(1): 14- 17. Zhao Sijun, Wang Shaoping, Shiang Yaoxing. Prognostics and health management system of hydraulic power supply[J]. Journal of Beijing University of Aeronautics and Astronautics, 2010, 36(1): 14- 17. (in Chinese)[10] 王海涛. 飞机液压元件与系统[M]. 北京: 国防工业出版社, 2012: 36- 62. [11] 李军. 飞机液压系统压力脉冲试验的机理分析与控制[D]. 西安: 西北工业大学, 2007. [12] 孙文胜, 毕玉泉, 祁功道, 等. 油液污染对某型飞机液压泵性能影响的分析[J]. 机床与液压, 2012, 40(7): 204- 206. Sun Wensheng, Bi Yuquan, Qi Gongdao, et al. The analysis of oil pollution for a type aircraft hydraulic pump performance influence[J]. Machine Tool & Hydraulics, 2012, 40(7): 204- 206. (in Chinese)[13] 陈玮. 基于灰色聚类与模糊综合评判的空气质量评价[D]. 上海: 华东师范大学, 2012. [14] 武朝, 胡军华, 黎申, 等. 基于二级模糊综合评判的液压系统故障诊断方法[J]. 液压与气动, 2013, 5: 130- 133.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机液压泵"
+    },
+    {
+      "type": "系统/部件",
+      "text": "液压系统"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的关键部件",
+      "head": "飞机液压泵",
+      "tail": "液压系统"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[8] 梁旭，李行善，等．支持现情维修的故障预测技术研究［J].测控技术，2007，（6）：5—8，14.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "预测"
+    }
+  ]
+}
+```

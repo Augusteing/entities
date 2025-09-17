@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "多状态混合高斯隐马尔科夫模型（MOG-HMM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Viterbi算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Baum-welch算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Dijkstra算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "MOG-HMM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "高斯混合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多维正态高斯分布模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "混合高斯分布模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "高斯概率密度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差（MSE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差（MAPE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "瞬时预测精度（RA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测结果符合标准预测指标要求",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "结合使用",
+      "head": "多状态混合高斯隐马尔科夫模型（MOG-HMM）",
+      "tail": "Viterbi算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Viterbi算法",
+      "tail": "新观测数据的当前状态解码",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Baum-welch算法",
+      "tail": "MOG-HMM模型参数训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Dijkstra算法",
+      "tail": "计算最短路径时间间隔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "MOG-HMM模型",
+      "tail": "高斯概率密度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "MOG-HMM模型",
+      "tail": "混合高斯分布模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "MOG-HMM模型",
+      "tail": "多维正态高斯分布模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "航空发动机突发故障预测方法",
+      "tail": "均方根误差（MSE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估",
+      "head": "航空发动机突发故障预测方法",
+      "tail": "平均绝对百分比误差（MAPE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "航空发动机突发故障预测方法",
+      "tail": "瞬时预测精度（RA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "仿真和实验结果",
+      "tail": "预测结果符合标准预测指标要求",
+      "evaluation": "正确"
+    }
+  ]
+}

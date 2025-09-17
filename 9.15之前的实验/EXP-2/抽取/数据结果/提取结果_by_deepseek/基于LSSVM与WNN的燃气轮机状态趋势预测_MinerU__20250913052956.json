@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机"
+    },
+    {
+      "type": "算法",
+      "text": "LSSVM"
+    },
+    {
+      "type": "网络",
+      "text": "小波神经网络"
+    },
+    {
+      "type": "网络",
+      "text": "WNN"
+    },
+    {
+      "type": "方法",
+      "text": "LSSVM-WNN预测模型"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机"
+    },
+    {
+      "type": "研究对象",
+      "text": "主泵"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测技术"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的预测"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的预测"
+    },
+    {
+      "type": "方法",
+      "text": "基于知识的预测"
+    },
+    {
+      "type": "函数",
+      "text": "RBF核函数"
+    },
+    {
+      "type": "函数",
+      "text": "Morlet小波函数"
+    },
+    {
+      "type": "技术",
+      "text": "小波去噪"
+    },
+    {
+      "type": "技术",
+      "text": "相空间重构"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.12%"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.44%"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.39%"
+    },
+    {
+      "type": "数据集",
+      "text": "70组数据"
+    },
+    {
+      "type": "数据集",
+      "text": "前60组样本数据"
+    },
+    {
+      "type": "数据集",
+      "text": "55×5矩阵"
+    },
+    {
+      "type": "数据集",
+      "text": "55×1矩阵"
+    },
+    {
+      "type": "系统",
+      "text": "燃气轮机状态趋势预测模型"
+    },
+    {
+      "type": "技术",
+      "text": "梯度修正法"
+    },
+    {
+      "type": "研究结果",
+      "text": "收敛速度更快"
+    },
+    {
+      "type": "研究结果",
+      "text": "精度更高"
+    },
+    {
+      "type": "研究结果",
+      "text": "逼近能力强"
+    },
+    {
+      "type": "研究结果",
+      "text": "泛化能力强"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "燃气轮机状态趋势预测"
+    },
+    {
+      "type": "基于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "LSSVM"
+    },
+    {
+      "type": "基于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "WNN"
+    },
+    {
+      "type": "应用于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "燃气轮机"
+    },
+    {
+      "type": "预测",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "排气温度"
+    },
+    {
+      "type": "优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "LSSVM预测模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "WNN预测模型"
+    },
+    {
+      "type": "计算",
+      "head": "LSSVM预测结果",
+      "tail": "残差"
+    },
+    {
+      "type": "预测",
+      "head": "WNN",
+      "tail": "残差"
+    },
+    {
+      "type": "合成",
+      "head": "预测残差",
+      "tail": "LSSVM预测结果"
+    },
+    {
+      "type": "使用",
+      "head": "LSSVM",
+      "tail": "RBF核函数"
+    },
+    {
+      "type": "使用",
+      "head": "WNN",
+      "tail": "Morlet小波函数"
+    },
+    {
+      "type": "训练",
+      "head": "LSSVM",
+      "tail": "前60组样本数据"
+    },
+    {
+      "type": "训练",
+      "head": "WNN",
+      "tail": "前20残差值"
+    },
+    {
+      "type": "验证",
+      "head": "试验",
+      "tail": "LSSVM-WNN预测模型"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "0.12%平均相对误差"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM预测模型",
+      "tail": "0.44%平均相对误差"
+    },
+    {
+      "type": "得出",
+      "head": "WNN预测模型",
+      "tail": "0.39%平均相对误差"
+    },
+    {
+      "type": "改进",
+      "head": "LSSVM",
+      "tail": "标准SVM"
+    },
+    {
+      "type": "简化",
+      "head": "LSSVM",
+      "tail": "计算"
+    },
+    {
+      "type": "提升",
+      "head": "LSSVM",
+      "tail": "训练速度"
+    },
+    {
+      "type": "结合",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "LSSVM和WNN优点"
+    },
+    {
+      "type": "实现",
+      "head": "故障预测技术",
+      "tail": "视情维修"
+    }
+  ]
+}

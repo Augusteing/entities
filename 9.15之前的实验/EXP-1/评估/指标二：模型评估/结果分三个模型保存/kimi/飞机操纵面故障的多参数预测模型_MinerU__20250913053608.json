@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "信息融合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM（1，1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色白化理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "新信息优先原理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "模型的有效性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "信息融合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "GM（1，1)模型",
+      "tail": "灰色预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "GM（1，1)模型",
+      "tail": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "GM（1，1)模型",
+      "tail": "灰色白化理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "GM（1，1)模型",
+      "tail": "新信息优先原理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高",
+      "head": "改进",
+      "tail": "预测精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证",
+      "head": "本文",
+      "tail": "模型的有效性",
+      "evaluation": "错误"
+    }
+  ]
+}

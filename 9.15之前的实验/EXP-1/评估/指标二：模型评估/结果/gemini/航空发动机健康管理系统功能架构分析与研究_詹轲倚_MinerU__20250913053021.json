@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "MagicGrid方法论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "\"场景- 需求- 功能- 逻辑- 物理\"五层协同建模框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "系统建模语言(Systems Modeling Language，SysML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "MagicDraw平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表类型",
+      "text": "内部块图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表类型",
+      "text": "需求图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表类型",
+      "text": "用例图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表类型",
+      "text": "活动图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表类型",
+      "text": "块定义图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "功能重叠率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F119发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "EJ200发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F135发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "SAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "GE Global",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "洛克希德马丁公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "Honeywell公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "集成健康管理系统(Integrated System Health Management，ISHM)架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "可扩展标记语言(eXtensible Markup Language，XML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "空客公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "A350系列飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "罗罗公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "UltraFan",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "B777",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "与控制系统集成方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "独立式方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "分层边缘计算架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "Paramagic工具",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "ANSYS TwinBuilder",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "ModelCenter",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蒙特卡洛仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "功能重叠模块占比 < 5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "效率提升76.8%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "虚警率降至0.32%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "功能逻辑模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "算法优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "\"场景- 需求- 功能- 逻辑- 物理\"五层协同建模框架",
+      "tail": "MagicGrid方法论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "tail": "系统建模语言(Systems Modeling Language，SysML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持",
+      "head": "MagicDraw平台",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "配备了",
+      "head": "F119发动机",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "配备了",
+      "head": "EJ200发动机",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "配备了",
+      "head": "F135发动机",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "Honeywell公司",
+      "tail": "集成健康管理系统(Integrated System Health Management，ISHM)架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "集成健康管理系统(Integrated System Health Management，ISHM)架构",
+      "tail": "可扩展标记语言(eXtensible Markup Language，XML)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用了",
+      "head": "NASA",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "空客公司",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "洛克希德马丁公司",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "罗罗公司",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "波音公司",
+      "tail": "基于模型的系统工程(Model Based System Engineering，MBSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "EJ200发动机",
+      "tail": "与控制系统集成方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "F119发动机",
+      "tail": "独立式方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "F135发动机",
+      "tail": "独立式方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "功能逻辑模型",
+      "tail": "功能重叠模块占比 < 5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "分层边缘计算架构",
+      "tail": "效率提升76.8%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "算法优化",
+      "tail": "虚警率降至0.32%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "ModelCenter",
+      "tail": "Matlab/Simulink算法模型",
+      "evaluation": "正确"
+    }
+  ]
+}

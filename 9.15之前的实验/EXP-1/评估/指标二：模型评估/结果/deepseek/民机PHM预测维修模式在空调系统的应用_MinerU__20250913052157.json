@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "空调系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "MSET",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多元状态估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "随机森林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "漏警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "40%的成本降低",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "PHM",
+      "tail": "空调系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "PHM模型",
+      "tail": "MSET",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "PHM模型",
+      "tail": "多元状态估计",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "PHM模型",
+      "tail": "随机森林",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "PHM模型",
+      "tail": "深度学习",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "PHM算法",
+      "tail": "虚警率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "PHM算法",
+      "tail": "漏警率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "PHM维修模式",
+      "tail": "40%的成本降低",
+      "evaluation": "错误"
+    }
+  ]
+}

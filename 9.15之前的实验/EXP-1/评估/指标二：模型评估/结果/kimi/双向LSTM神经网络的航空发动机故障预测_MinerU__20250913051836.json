@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双向LSTM神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GRU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "非对称评分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差下降33.58%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "非对称评分下降71.22%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度提高",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障预测方法",
+      "tail": "双向长短期记忆（LSTM）神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测模型",
+      "tail": "数据预处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测模型",
+      "tail": "网络模型设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测模型",
+      "tail": "训练与测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "双向LSTM故障预测模型",
+      "tail": "RNN、GRU、LSTM时间序列模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "误差下降33.58%",
+      "tail": "更高的预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "非对称评分下降71.22%",
+      "tail": "更好的适应性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "模型验证",
+      "tail": "C-MAPSS数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "故障预测模型性能",
+      "tail": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "故障预测模型性能",
+      "tail": "非对称评分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "双向LSTM模型",
+      "tail": "LSTM、GRU、RNN",
+      "evaluation": "正确"
+    }
+  ]
+}

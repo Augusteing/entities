@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "蒙特卡罗模拟",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "中位秩回归参数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "反变换法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "乘同余组合发生器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障概率模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "威布尔累积概率分布函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "反变换公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障风险水平",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "过热",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "叶片裂纹",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "油管裂纹",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "燃烧室裂纹",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机故障风险预测",
+      "tail": "蒙特卡罗模拟",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "故障概率模型",
+      "tail": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "估计",
+      "head": "中位秩回归参数法",
+      "tail": "威布尔分布参数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "产生",
+      "head": "乘同余组合发生器",
+      "tail": "均匀随机数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "乘同余组合发生器",
+      "tail": "反变换法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "生成",
+      "head": "反变换法",
+      "tail": "威布尔分布随机数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测",
+      "head": "蒙特卡罗模拟",
+      "tail": "故障风险水平",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "算法",
+      "tail": "有效性与可用性",
+      "evaluation": "错误"
+    }
+  ]
+}

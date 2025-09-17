@@ -1,0 +1,355 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "基于MAS的飞机健康管理专家系统"
+    },
+    {
+      "type": "技术",
+      "text": "MAS(Multi- Agent System, MAS)"
+    },
+    {
+      "type": "应用领域",
+      "text": "地面机务维护"
+    },
+    {
+      "type": "体系结构",
+      "text": "3层Browser/Server体系结构"
+    },
+    {
+      "type": "推理方法",
+      "text": "基于案例推理"
+    },
+    {
+      "type": "推理方法",
+      "text": "基于规则的不确定性推理"
+    },
+    {
+      "type": "性能指标",
+      "text": "地面维护时间"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机使用寿命"
+    },
+    {
+      "type": "研究领域",
+      "text": "飞机健康管理"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "功能",
+      "text": "决策"
+    },
+    {
+      "type": "体系结构",
+      "text": "分布式软件结构"
+    },
+    {
+      "type": "组件",
+      "text": "用户层"
+    },
+    {
+      "type": "开发框架",
+      "text": "JADE(Java Agent Development Framework)"
+    },
+    {
+      "type": "组件",
+      "text": "中间层"
+    },
+    {
+      "type": "Web服务器",
+      "text": "Tomcat"
+    },
+    {
+      "type": "技术",
+      "text": "JSP"
+    },
+    {
+      "type": "组件",
+      "text": "信息系统层"
+    },
+    {
+      "type": "数据库",
+      "text": "SQLServer2000"
+    },
+    {
+      "type": "数据",
+      "text": "历史飞行数据"
+    },
+    {
+      "type": "Agent",
+      "text": "导航Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "无线电Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "雷达Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "案例管理 Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "案例检索 Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "预警与决策 Agent"
+    },
+    {
+      "type": "算法",
+      "text": "模糊综合评判法"
+    },
+    {
+      "type": "Agent",
+      "text": "控制与反馈 Agent"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康指数(HI)"
+    },
+    {
+      "type": "Agent",
+      "text": "各专业对应 Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "JessAgent"
+    },
+    {
+      "type": "专家系统外壳",
+      "text": "Jess(The Expert System Shell for the Java Platform)"
+    },
+    {
+      "type": "组件",
+      "text": "推理引擎"
+    },
+    {
+      "type": "预测方法",
+      "text": "基于案例推理的故障预测方法"
+    },
+    {
+      "type": "数据存储",
+      "text": "案例库"
+    },
+    {
+      "type": "表示方法",
+      "text": "三元组"
+    },
+    {
+      "type": "算法",
+      "text": "最近邻搜索策略"
+    },
+    {
+      "type": "方法",
+      "text": "专家评价法"
+    },
+    {
+      "type": "方法",
+      "text": "层次分析法"
+    },
+    {
+      "type": "模型",
+      "text": "不确定性推理模型"
+    },
+    {
+      "type": "指标",
+      "text": "确定性因子"
+    },
+    {
+      "type": "技术",
+      "text": "JavaBean"
+    },
+    {
+      "type": "成本",
+      "text": "维护费用"
+    },
+    {
+      "type": "研究结果",
+      "text": "项目经济效益约1500万元"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "MAS(Multi- Agent System, MAS)"
+    },
+    {
+      "type": "采用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "3层Browser/Server体系结构"
+    },
+    {
+      "type": "引入",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "基于案例推理"
+    },
+    {
+      "type": "引入",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "基于规则的不确定性推理"
+    },
+    {
+      "type": "减少",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "地面维护时间"
+    },
+    {
+      "type": "增加",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "飞机使用寿命"
+    },
+    {
+      "type": "减少",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "维护费用"
+    },
+    {
+      "type": "产生",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "项目经济效益约1500万元"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理",
+      "tail": "状态监测"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理",
+      "tail": "故障预测"
+    },
+    {
+      "type": "包括",
+      "head": "飞机健康管理",
+      "tail": "决策"
+    },
+    {
+      "type": "包括",
+      "head": "3层Browser/Server体系结构",
+      "tail": "用户层"
+    },
+    {
+      "type": "包括",
+      "head": "3层Browser/Server体系结构",
+      "tail": "中间层"
+    },
+    {
+      "type": "包括",
+      "head": "3层Browser/Server体系结构",
+      "tail": "信息系统层"
+    },
+    {
+      "type": "使用",
+      "head": "中间层",
+      "tail": "Tomcat"
+    },
+    {
+      "type": "采用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "JADE(Java Agent Development Framework)"
+    },
+    {
+      "type": "与...通信",
+      "head": "JSP",
+      "tail": "JADE(Java Agent Development Framework)"
+    },
+    {
+      "type": "使用",
+      "head": "信息系统层",
+      "tail": "SQLServer2000"
+    },
+    {
+      "type": "构成",
+      "head": "导航Agent",
+      "tail": "基于规则的不确定性推理"
+    },
+    {
+      "type": "构成",
+      "head": "无线电Agent",
+      "tail": "基于规则的不确定性推理"
+    },
+    {
+      "type": "构成",
+      "head": "雷达Agent",
+      "tail": "基于规则的不确定性推理"
+    },
+    {
+      "type": "构成",
+      "head": "案例管理 Agent",
+      "tail": "基于案例推理"
+    },
+    {
+      "type": "构成",
+      "head": "案例检索 Agent",
+      "tail": "基于案例推理"
+    },
+    {
+      "type": "利用",
+      "head": "预警与决策 Agent",
+      "tail": "模糊综合评判法"
+    },
+    {
+      "type": "扩展",
+      "head": "各专业对应 Agent",
+      "tail": "JessAgent"
+    },
+    {
+      "type": "利用",
+      "head": "各专业对应 Agent",
+      "tail": "推理引擎"
+    },
+    {
+      "type": "实现",
+      "head": "各专业对应 Agent",
+      "tail": "基于规则的不确定性推理"
+    },
+    {
+      "type": "采用...描述",
+      "head": "飞机故障案例",
+      "tail": "三元组"
+    },
+    {
+      "type": "采用",
+      "head": "案例检索",
+      "tail": "最近邻搜索策略"
+    },
+    {
+      "type": "结合",
+      "head": "专家评价法",
+      "tail": "层次分析法"
+    },
+    {
+      "type": "使用",
+      "head": "不确定性推理模型",
+      "tail": "确定性因子"
+    },
+    {
+      "type": "在...中实现",
+      "head": "不确定性推理",
+      "tail": "JessAgent"
+    }
+  ]
+}

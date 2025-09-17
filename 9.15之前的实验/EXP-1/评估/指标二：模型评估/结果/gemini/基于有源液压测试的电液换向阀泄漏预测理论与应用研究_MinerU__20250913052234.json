@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "有源液压测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "飞机起落架电液换向阀内泄漏故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "截堵法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "飞机起落架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "有源液压测试仪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "4WEH16E电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机起落架液压系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "有源液压测试电液换向阀内泄漏模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "电液换向阀内泄漏方程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "电液换向阀内泄漏无法实施检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "电液换向阀内泄漏量无法预测的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "泄漏量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "配合间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "有源液压测试技术预测电液换向阀内泄漏的可行性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "电液换向阀新阀存在内泄漏量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "内泄漏量随使用时间的延长而加剧",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "本文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "实验",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "飞机起落架电液换向阀内泄漏故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机起落架电液换向阀内泄漏故障预测方法",
+      "tail": "有源液压测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立了",
+      "head": "本文",
+      "tail": "有源液压测试电液换向阀内泄漏模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证了",
+      "head": "实验",
+      "tail": "有源液压测试技术预测电液换向阀内泄漏的可行性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决了",
+      "head": "本文",
+      "tail": "电液换向阀内泄漏量无法预测的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素是",
+      "head": "泄漏量",
+      "tail": "配合间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象是",
+      "head": "实验",
+      "tail": "4WEH16E电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "电液换向阀新阀存在内泄漏量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "内泄漏量随使用时间的延长而加剧",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "有源液压测试技术",
+      "tail": "截堵法",
+      "evaluation": "正确"
+    }
+  ]
+}

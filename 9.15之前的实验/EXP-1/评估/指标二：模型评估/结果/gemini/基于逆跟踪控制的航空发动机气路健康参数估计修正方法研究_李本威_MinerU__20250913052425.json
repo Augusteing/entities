@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于逆跟踪控制的航空发动机气路健康参数估计修正方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "气路故障模拟方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量回归机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LSSVR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "逆模型在线辨识",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "变结构控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "滑模变结构控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "逆跟踪控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "增量式最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "递推式最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "传统的迭代寻优算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机非线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "气路健康参数的（理想）估计器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "修正系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "逆模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "逆跟踪修正系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "气路健康参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "测量噪声",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "系统噪声",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "误判和误诊的概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "离线修正后，估计值的相对误差最大值从69%缩小5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "在线修正后，估计值的相对误差最大值从69%缩小13%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "LSS-VR估计器的估计相对误差在3%以内",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "ΔMHC的估计相对误差达到了69%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "利用",
+      "head": "本文",
+      "tail": "发动机非线性模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "利用",
+      "head": "本文",
+      "tail": "气路故障模拟方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "目的",
+      "head": "利用发动机非线性模型和气路故障模拟方法",
+      "tail": "获取故障样本",
+      "evaluation": "错误"
+    },
+    {
+      "type": "运用",
+      "head": "本文",
+      "tail": "最小二乘支持向量回归机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "最小二乘支持向量回归机",
+      "tail": "气路健康参数的（理想）估计器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "修正系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "修正系统",
+      "tail": "逆模型在线辨识与变结构控制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目的",
+      "head": "修正系统",
+      "tail": "减小测量噪声与系统噪声对估计精度的影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "测量噪声",
+      "tail": "估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "系统噪声",
+      "tail": "估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "取代",
+      "head": "逆跟踪修正系统",
+      "tail": "传统的迭代寻优算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "修正系统",
+      "tail": "性能估计的准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "减小",
+      "head": "修正系统",
+      "tail": "误判和误诊的概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "离线修正",
+      "tail": "估计值的相对误差最大值从69%缩小5%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "在线修正",
+      "tail": "估计值的相对误差最大值从69%缩小13%",
+      "evaluation": "错误"
+    }
+  ]
+}

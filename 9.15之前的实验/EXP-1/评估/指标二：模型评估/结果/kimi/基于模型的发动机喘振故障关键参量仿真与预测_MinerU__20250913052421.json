@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "长短记忆神经网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SVM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "航空发动机整体仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "喘振故障仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "M-G模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "压缩机系统进行旋转失速或喘振的动态偏微分方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差（RMSE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差（MAE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差（MAPE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "LSTM网络预测喘振故障的压力参量的精度比BP网络和SVM网络模型预测的精度高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "LSTM网络预测喘振故障的温度参量的精度比BP网络和SVM网络模型预测的精度高",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "长短记忆神经网络模型",
+      "tail": "数据变化趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证了",
+      "head": "LSTM模型",
+      "tail": "喘振故障关键参量预测的有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较了",
+      "head": "LSTM模型",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较了",
+      "head": "LSTM模型",
+      "tail": "SVM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机整体仿真模型",
+      "tail": "气动热力机理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模拟了",
+      "head": "喘振故障仿真模型",
+      "tail": "喘振状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "Greitz-er",
+      "tail": "压缩机系统进行旋转失速或喘振的动态偏微分方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同提出了",
+      "head": "Moore和Greitzer",
+      "tail": "M-G模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估了",
+      "head": "LSTM网络",
+      "tail": "均方根误差（RMSE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估了",
+      "head": "LSTM网络",
+      "tail": "平均绝对误差（MAE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估了",
+      "head": "LSTM网络",
+      "tail": "平均相对误差（MAPE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "LSTM网络预测喘振故障的压力参量的精度比BP网络和SVM网络模型预测的精度高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "LSTM网络预测喘振故障的温度参量的精度比BP网络和SVM网络模型预测的精度高",
+      "evaluation": "正确"
+    }
+  ]
+}

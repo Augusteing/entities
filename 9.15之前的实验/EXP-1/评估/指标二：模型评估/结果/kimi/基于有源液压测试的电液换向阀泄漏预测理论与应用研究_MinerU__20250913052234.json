@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "type": "文献",
+      "text": "基于有源液压测试的电液换向阀泄漏预测理论与应用研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作者",
+      "text": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "唐山工业职业技术学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "燕山大学机械工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国民航大学航空工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "河北机车技师学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "飞机起落架液压系统电液换向阀内泄漏无法实施检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "有源液压测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "有源液压测试电液换向阀内泄漏模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "截堵法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "测试仪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "泄漏量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "配合间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "污染物",
+      "text": "液压油液中固体污染物",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "电液换向阀内泄漏故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "text": "电液换向阀内泄漏故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验",
+      "text": "电液换向阀泄漏量预测实验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "元件",
+      "text": "4WEH16E电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "油液",
+      "text": "抗磨液压油",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "污染度(NAS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "新旧电液换向阀三位泄漏量柱形对比图",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "研究",
+      "head": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "tail": "基于有源液压测试的电液换向阀泄漏预测理论与应用研究",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "tail": "唐山工业职业技术学院",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "tail": "燕山大学机械工程学院",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "tail": "中国民航大学航空工程学院",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "赵红美，杨成刚，唐杰，董玟，赵士明",
+      "tail": "河北机车技师学院",
+      "evaluation": "错误"
+    },
+    {
+      "type": "解决",
+      "head": "有源液压测试技术",
+      "tail": "飞机起落架液压系统电液换向阀内泄漏无法实施检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "有源液压测试技术",
+      "tail": "有源液压测试电液换向阀内泄漏模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "有源液压测试技术",
+      "tail": "截堵法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "泄漏量",
+      "tail": "电液换向阀",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "压力",
+      "tail": "电液换向阀",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "温度",
+      "tail": "电液换向阀",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "配合间隙",
+      "tail": "电液换向阀",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "液压油液中固体污染物",
+      "tail": "电液换向阀内泄漏故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "电液换向阀内泄漏故障预测",
+      "tail": "电液换向阀内泄漏故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "电液换向阀泄漏量预测实验",
+      "tail": "基于有源液压测试电液换向阀泄漏预测理论",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "电液换向阀泄漏量预测实验",
+      "tail": "4WEH16E电液换向阀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "电液换向阀泄漏量预测实验",
+      "tail": "抗磨液压油",
+      "evaluation": "正确"
+    },
+    {
+      "type": "等级",
+      "head": "污染度(NAS)",
+      "tail": "电液换向阀泄漏量预测实验",
+      "evaluation": "错误"
+    },
+    {
+      "type": "展示",
+      "head": "新旧电液换向阀三位泄漏量柱形对比图",
+      "tail": "电液换向阀泄漏量",
+      "evaluation": "错误"
+    }
+  ]
+}

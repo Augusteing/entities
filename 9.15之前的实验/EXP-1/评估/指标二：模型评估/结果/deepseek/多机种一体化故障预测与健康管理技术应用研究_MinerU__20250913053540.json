@@ -1,0 +1,324 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "综合智能故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "维修任务预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "分层智能推理机构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "数据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "贝叶斯评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测和统计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "案例匹配法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "IETM故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "计算机智能故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多机种一体化保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据转换技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据访问技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "剩余寿命预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "系统级健康评估算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "分层智能推理结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机PHM系统体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障不能复现率减少82%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修人力减少20%~40%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "后勤规模减小50%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "出动架次率提高25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "使用与保障费用减少50%以上",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "使用寿命达8000小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提出机载PHM系统采用分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提出地面PHM系统宿驻在地面自主保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "优化PHM系统工作过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提出实用性的综合智能故障诊断方法和维修任务预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提出飞机多机种自主式保障设计关键技术和研究方向",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包括",
+      "head": "PHM系统",
+      "tail": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统",
+      "tail": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机载PHM系统",
+      "tail": "分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "宿驻在",
+      "head": "地面PHM系统",
+      "tail": "自主保障信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统",
+      "tail": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "自主式保障",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "研究",
+      "tail": "综合智能故障诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出",
+      "head": "研究",
+      "tail": "维修任务预测算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "故障预测",
+      "tail": "贝叶斯评估方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "故障预测",
+      "tail": "预测和统计方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "故障预测",
+      "tail": "人工智能工具及方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "综合智能故障诊断方法",
+      "tail": "案例匹配法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "综合智能故障诊断方法",
+      "tail": "IETM故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "综合智能故障诊断方法",
+      "tail": "计算机智能故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "分层智能推理机构",
+      "tail": "故障诊断和预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "数据融合",
+      "tail": "PHM系统工作过程",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "人工智能算法",
+      "tail": "PHM系统工作过程",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种一体化保障",
+      "tail": "数据转换技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种一体化保障",
+      "tail": "数据访问技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种PHM一体化",
+      "tail": "故障诊断算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种PHM一体化",
+      "tail": "故障预测算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种PHM一体化",
+      "tail": "剩余寿命预测算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "多机种PHM一体化",
+      "tail": "系统级健康评估算法",
+      "evaluation": "错误"
+    }
+  ]
+}

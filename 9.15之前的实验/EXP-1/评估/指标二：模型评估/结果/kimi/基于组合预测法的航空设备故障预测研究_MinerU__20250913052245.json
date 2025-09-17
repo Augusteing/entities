@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "GM(1,1)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "指数平滑法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "组合预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三次指数平滑模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "拟合值均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高了预测性能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "适用于中短期预测",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "组合预测方法",
+      "tail": "GM(1,1)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "组合预测方法",
+      "tail": "指数平滑法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定",
+      "head": "组合预测方法",
+      "tail": "拟合值均方误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "组合预测方法",
+      "tail": "预测性能",
+      "evaluation": "错误"
+    },
+    {
+      "type": "适用于",
+      "head": "组合预测方法",
+      "tail": "中短期预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "飞行器健康管理系统",
+      "tail": "故障预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "弥补了",
+      "head": "组合预测方法",
+      "tail": "单一方法的不足",
+      "evaluation": "错误"
+    }
+  ]
+}

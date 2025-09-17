@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "遗传神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "粗糙神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "Pearson相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障预测实现",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "改进为",
+      "head": "遗传算法",
+      "tail": "改进遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "改进遗传算法",
+      "tail": "神经网络权重学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合为",
+      "head": "遗传算法",
+      "tail": "遗传神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合为",
+      "head": "神经网络",
+      "tail": "遗传神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "遗传神经网络",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "遗传神经网络",
+      "tail": "粗糙神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测",
+      "tail": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测",
+      "tail": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测",
+      "tail": "平均绝对误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测",
+      "tail": "均方误差百分比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测",
+      "tail": "Pearson相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "遗传神经网络",
+      "tail": "预测精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "遗传神经网络",
+      "tail": "故障预测实现",
+      "evaluation": "正确"
+    }
+  ]
+}

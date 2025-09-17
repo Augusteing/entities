@@ -1,0 +1,401 @@
+[
+  {
+    "entities": [
+      {
+        "text": "基于KPCA和DBN的航空发动机排气温度基线模型",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "核主成分分析",
+        "type": "算法",
+        "evaluation": "正确"
+      },
+      {
+        "text": "深度置信网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "航空发动机",
+        "type": "研究对象",
+        "evaluation": "正确"
+      },
+      {
+        "text": "排气温度",
+        "type": "指标",
+        "evaluation": "正确"
+      },
+      {
+        "text": "实时监控",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "健康管理",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "CFM56-7B发动机",
+        "type": "研究对象",
+        "evaluation": "正确"
+      },
+      {
+        "text": "快速存取数据",
+        "type": "数据",
+        "evaluation": "正确"
+      },
+      {
+        "text": "QAR数据",
+        "type": "数据",
+        "evaluation": "正确"
+      },
+      {
+        "text": "高斯函数",
+        "type": "函数",
+        "evaluation": "正确"
+      },
+      {
+        "text": "降维后的数据",
+        "type": "数据",
+        "evaluation": "正确"
+      },
+      {
+        "text": "航空发动机EGT基线模型",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "传统神经网络建模方法",
+        "type": "方法",
+        "evaluation": "正确"
+      },
+      {
+        "text": "网络结构的复杂度",
+        "type": "指标",
+        "evaluation": "正确"
+      },
+      {
+        "text": "模型的精度",
+        "type": "指标",
+        "evaluation": "正确"
+      },
+      {
+        "text": "航空发动机健康管理",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "气路监控",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "发动机工作状况",
+        "type": "研究对象",
+        "evaluation": "正确"
+      },
+      {
+        "text": "燃烧室",
+        "type": "航空设备术语",
+        "evaluation": "正确"
+      },
+      {
+        "text": "涡轮叶片",
+        "type": "航空设备术语",
+        "evaluation": "正确"
+      },
+      {
+        "text": "尾喷管",
+        "type": "航空设备术语",
+        "evaluation": "正确"
+      },
+      {
+        "text": "回归分析",
+        "type": "方法",
+        "evaluation": "正确"
+      },
+      {
+        "text": "神经网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "RBF神经网络算法",
+        "type": "算法",
+        "evaluation": "正确"
+      },
+      {
+        "text": "过程神经网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "遗传算法优化的反向传播(Back Propagation,BP)神经网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "深度学习",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "自编码器",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "卷积神经网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "循环神经网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "维度灾难问题",
+        "type": "问题",
+        "evaluation": "正确"
+      },
+      {
+        "text": "主成分分析法",
+        "type": "算法",
+        "evaluation": "正确"
+      },
+      {
+        "text": "核方法",
+        "type": "技术",
+        "evaluation": "正确"
+      },
+      {
+        "text": "非线性特征提取问题",
+        "type": "问题",
+        "evaluation": "正确"
+      },
+      {
+        "text": "受限玻尔兹曼机",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "反向传播网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "KPCA-DBN混合模型",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "平均绝对误差",
+        "type": "指标",
+        "evaluation": "正确"
+      },
+      {
+        "text": "GA-BP网络",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "单一的DBN网络模型",
+        "type": "模型",
+        "evaluation": "正确"
+      },
+      {
+        "text": "0.4349",
+        "type": "研究结果",
+        "evaluation": "正确"
+      },
+      {
+        "text": "0.9068",
+        "type": "研究结果",
+        "evaluation": "正确"
+      },
+      {
+        "text": "0.6076",
+        "type": "研究结果",
+        "evaluation": "正确"
+      },
+      {
+        "text": "KPCA-DBN模型",
+        "type": "模型",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "source": "基于KPCA和DBN的航空发动机排气温度基线模型",
+        "target": "健康管理",
+        "relation": "提供技术手段",
+        "evaluation": "正确"
+      },
+      {
+        "source": "基于KPCA和DBN的航空发动机排气温度基线模型",
+        "target": "实时监控",
+        "relation": "提供技术手段",
+        "evaluation": "正确"
+      },
+      {
+        "source": "基于KPCA和DBN的航空发动机排气温度基线模型",
+        "target": "核主成分分析",
+        "relation": "基于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "基于KPCA和DBN的航空发动机排气温度基线模型",
+        "target": "深度置信网络",
+        "relation": "基于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "核主成分分析",
+        "target": "快速存取数据",
+        "relation": "进行降维处理",
+        "evaluation": "正确"
+      },
+      {
+        "source": "高斯函数",
+        "target": "核主成分分析",
+        "relation": "作为核函数",
+        "evaluation": "正确"
+      },
+      {
+        "source": "降维后的数据",
+        "target": "深度置信网络",
+        "relation": "作为输入",
+        "evaluation": "正确"
+      },
+      {
+        "source": "深度置信网络",
+        "target": "航空发动机EGT基线模型",
+        "relation": "用于建立",
+        "evaluation": "正确"
+      },
+      {
+        "source": "QAR数据",
+        "target": "航空发动机EGT基线模型",
+        "relation": "用于验证",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "网络结构的复杂度",
+        "relation": "降低了",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "模型的精度",
+        "relation": "提高了",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "传统神经网络建模方法",
+        "relation": "优于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "气路监控",
+        "target": "航空发动机健康管理",
+        "relation": "是...的核心",
+        "evaluation": "正确"
+      },
+      {
+        "source": "排气温度",
+        "target": "发动机工作状况",
+        "relation": "反映",
+        "evaluation": "正确"
+      },
+      {
+        "source": "深度学习",
+        "target": "传统神经网络建模方法",
+        "relation": "克服缺点",
+        "evaluation": "正确"
+      },
+      {
+        "source": "核主成分分析",
+        "target": "主成分分析法",
+        "relation": "是...的改进",
+        "evaluation": "正确"
+      },
+      {
+        "source": "核主成分分析",
+        "target": "核方法",
+        "relation": "融合",
+        "evaluation": "正确"
+      },
+      {
+        "source": "核主成分分析",
+        "target": "非线性特征提取问题",
+        "relation": "解决",
+        "evaluation": "正确"
+      },
+      {
+        "source": "核主成分分析",
+        "target": "维度灾难问题",
+        "relation": "解决",
+        "evaluation": "正确"
+      },
+      {
+        "source": "深度置信网络",
+        "target": "受限玻尔兹曼机",
+        "relation": "由...组成",
+        "evaluation": "正确"
+      },
+      {
+        "source": "深度置信网络",
+        "target": "反向传播网络",
+        "relation": "由...组成",
+        "evaluation": "错误"
+      },
+      {
+        "source": "反向传播网络",
+        "target": "深度置信网络",
+        "relation": "用于微调",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "GA-BP网络",
+        "relation": "预测精度高于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "单一的DBN网络模型",
+        "relation": "预测精度高于",
+        "evaluation": "正确"
+      },
+      {
+        "source": "KPCA-DBN模型",
+        "target": "0.4349",
+        "relation": "的平均绝对误差为",
+        "evaluation": "正确"
+      },
+      {
+        "source": "GA-BP网络",
+        "target": "0.9068",
+        "relation": "的平均绝对误差为",
+        "evaluation": "正确"
+      },
+      {
+        "source": "单一的DBN网络模型",
+        "target": "0.6076",
+        "relation": "的平均绝对误差为",
+        "evaluation": "正确"
+      },
+      {
+        "source": "遗传算法优化的反向传播(Back Propagation,BP)神经网络",
+        "target": "遗传算法",
+        "relation": "使用...优化",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

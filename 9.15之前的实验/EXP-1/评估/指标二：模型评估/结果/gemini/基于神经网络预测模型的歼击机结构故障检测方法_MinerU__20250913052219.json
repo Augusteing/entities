@@ -1,0 +1,142 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多步直接预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "代价函数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "预测神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "径向基函数网络（RBF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "代价函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "高斯函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "非线性逼近能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "误检率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "能有效地检测出歼击机的各种结构故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "阈值为1.5",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "tail": "预测神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "tail": "多步直接预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "径向基函数网络（RBF）",
+      "tail": "高斯函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "径向基函数网络（RBF）",
+      "tail": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "代价函数法",
+      "tail": "代价函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "代价函数法",
+      "tail": "阈值为1.5",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "tail": "能有效地检测出歼击机的各种结构故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测神经网络",
+      "tail": "非线性逼近能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测神经网络",
+      "tail": "故障检测实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于神经网络预测模型的歼击机结构故障检测方法",
+      "tail": "误检率",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "稀疏表示模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "可解释性智能监测诊断网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "可解释性异常检测子网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "可解释性故障诊断子网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "算法展开",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "对抗训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "变分推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "特征可视化方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理对象",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理对象",
+      "text": "中介轴承",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理对象",
+      "text": "涡扇发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "航空发动机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论/概念",
+      "text": "事前可解释性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论/概念",
+      "text": "事后可解释性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "迭代软阈值算法(ISTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "可学习迭代软阈值算法(LISTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多层卷积稀疏编码模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "嵌套迭代软阈值算法(ML-ISTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "核心网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "生成器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "鉴别器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "变分自编码器(VAE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GANomaly",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "对抗自编码器(AAE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "长短期记忆递归神经网络(LSTM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "残差神经网络(ResNet)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SincNet",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "包络谱分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "检出率(TPR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率(FPR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确率(ACC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "ROC曲线下面积(AUC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "F1分数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "99.90%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "94.98%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.55%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.9999的诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "1.0000的诊断精度",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "可解释性智能监测诊断网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是一种",
+      "head": "算法展开",
+      "tail": "可解释性网络构造方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "迭代软阈值算法(ISTA)",
+      "tail": "可学习迭代软阈值算法(LISTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过...得到",
+      "head": "嵌套迭代软阈值算法(ML-ISTA)",
+      "tail": "核心网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "可解释性异常检测子网络",
+      "tail": "对抗训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "可解释性智能监测诊断网络",
+      "tail": "可解释性异常检测子网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "可解释性智能监测诊断网络",
+      "tail": "可解释性故障诊断子网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "可解释性异常检测子网络",
+      "tail": "核心网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "可解释性故障诊断子网络",
+      "tail": "核心网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于求解",
+      "head": "嵌套迭代软阈值算法(ML-ISTA)",
+      "tail": "多层卷积稀疏编码模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "可解释性智能监测诊断网络",
+      "tail": "中介轴承故障诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "可解释性智能监测诊断网络",
+      "tail": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性异常检测子网络",
+      "tail": "变分自编码器(VAE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性异常检测子网络",
+      "tail": "GANomaly",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性异常检测子网络",
+      "tail": "对抗自编码器(AAE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性故障诊断子网络",
+      "tail": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性故障诊断子网络",
+      "tail": "长短期记忆递归神经网络(LSTM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "可解释性故障诊断子网络",
+      "tail": "残差神经网络(ResNet)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "异常检测",
+      "tail": "检出率(TPR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "异常检测",
+      "tail": "虚警率(FPR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "异常检测",
+      "tail": "准确率(ACC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "可解释性异常检测子网络",
+      "tail": "99.90%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "可解释性故障诊断子网络",
+      "tail": "0.9999的诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "残差神经网络(ResNet)",
+      "tail": "1.0000的诊断精度",
+      "evaluation": "正确"
+    }
+  ]
+}

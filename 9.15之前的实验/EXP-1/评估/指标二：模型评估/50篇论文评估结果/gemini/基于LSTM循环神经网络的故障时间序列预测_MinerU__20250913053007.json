@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "LSTM循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Holt-Winters模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "ARIMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "奇异谱分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多元线性回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于SSA和SVR的混合方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "优选后的LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多层网格搜索算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Adam优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "基于时间的反向传播算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "随机搜索算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "高斯径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "sigmoid函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "tanh函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "损失函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE值0.864",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "最优RMSE值1.879",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "演化为",
+      "head": "循环神经网络",
+      "tail": "LSTM循环神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "LSTM循环神经网络",
+      "tail": "GRU模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM循环神经网络",
+      "tail": "Adam优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM循环神经网络",
+      "tail": "基于时间的反向传播算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "支持向量回归",
+      "tail": "高斯径向基函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LSTM循环神经网络",
+      "tail": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "优选后的LSTM模型",
+      "tail": "RMSE值0.864",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于SSA和SVR的混合方法",
+      "tail": "最优RMSE值1.879",
+      "evaluation": "正确"
+    }
+  ]
+}

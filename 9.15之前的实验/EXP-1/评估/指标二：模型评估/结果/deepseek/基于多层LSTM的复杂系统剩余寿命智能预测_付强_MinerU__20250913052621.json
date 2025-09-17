@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多层LSTM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RNN模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Dropout方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "误差得分函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-means方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "PCA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAPE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "Std.Dev",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAD",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MdAD",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均验证损失值0.023",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均预测误差12",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差得分5486.14",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "付强，王华伟",
+      "tail": "多层LSTM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多层LSTM预测模型",
+      "tail": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "改进为",
+      "head": "RNN模型",
+      "tail": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "多层LSTM预测模型",
+      "tail": "Dropout方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计",
+      "head": "多层LSTM预测模型",
+      "tail": "误差得分函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "K-means方法",
+      "tail": "航空发动机工况识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "PCA",
+      "tail": "健康因子构建",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAPE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "Std.Dev",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAD",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MdAD",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "平均验证损失值0.023",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "平均预测误差12",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "误差得分5486.14",
+      "evaluation": "错误"
+    }
+  ]
+}

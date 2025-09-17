@@ -1,0 +1,79 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] 黄志毅. 基于数据驱动的飞行控制系统健康管理技术研究[D]. 西北工业大学, 2014. [2] 李文娟. 飞机燃油系统建模及健康管理关键技术研究[D]. 西北工业大学, 2014. [3] 李向前. 复杂装备故障预测与健康管理关键技术研究[D]. 北京理工大学, 2014. [4] 陈文宝. 帕萨特电控发动机故障模拟系统的研究与试验分析[M]. 华南理工大学, 2018. [5] 李城梁. 数据驱动技术在故障诊断与预测中的应用研究[D]. 西北工业大学, 2014. [6] 李旻. 复杂电子系统综合诊断与故障预测关键技术研究[D]. 电子科技大学, 2014. [7] 范彬. 面向飞行器关键部件健康管理的故障预测方法研究[D]. 国防科技大学, 2015. [8] 郑亚飞. 电液伺服阀故障诊断及特性仿真研究[M]. 江苏大学, 2019. [9] 于琦. 飞行器结构系统虚拟故障注入与健康管理研究[D]. 西北工业大学, 2015. [10] 郑亚飞. 电液伺服阀故障诊断及特性仿真研究[D]. 江苏大学, 2019. [11] 靳小波. 航空液压泵故障模拟试验设计与实现[D]. 测控技术, 2018, 37（增刊）: 419- 424. [12] 王蒙. 往复压缩机气量无级调节工况下吸气阀故障模拟与诊断[D]. 流体机械, 2019, 47（4）: 39- 44. [13] 王强. 基于SimHydraulics的某飞机起落架液压系统建模与故障仿真[D]. 液压与气动, 2020, (4): 123- 129. [14] 李世杰. 基于AMPSim的液压马达内泄漏故障注入研究[D]. 中国科技信息, 2019, (7): 78- 80.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "故障注入"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "方法",
+      "text": "故障预测方法"
+    }
+  ],
+  "relations": [
+    {
+      "type": "以...为主要手段",
+      "head": "健康管理",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "以...为主要手段",
+      "head": "健康管理",
+      "tail": "故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
+国内最近在基于深度学习的健康管理和航空发动机应用方面的工作相比国外文章数量要更多
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "理论",
+      "text": "深度学习"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[5] 孙博, 康锐, 谢劲松. 故障预测与健康管理系统研究和应用现状综述[J]. 系统工程与电子技术, 2007, 29(10): 1762- 1767. Sun Bo, Kang Rui, Xie Jinsong. Research and application of the prognostic and health management system [J]. System Engineering and Electronics, 2007, 29(10): 1762- 1767. (in Chinese)[6] Azam M, Ghoshal S, Bell J, et al. Prognostics and health management (PHM) of electromechanical actuation (EMA) systems for next- generation aircraft[J]. American Institute of Aeronautics and Astronautics, 2013(56): 478- 487. [7] 马飒飒, 陈国顺, 方兴桥, 等. 复杂装备故障预测与健康管理系统初探[J]. 计算机测量与控制, 2010, 18(1): 1- 4. Ma Sasa, Chen Guoshun, Fang Xingqiao, et al. Research on prognostic and health management system of complex equipment [J]. Computer Measurement & Control, 2010, 18(1): 1- 4. (in Chinese)[8] 唐有才, 孙立金, 陈新波. 飞机液压泵故障分析及预防[J]. 液压与气动, 2002, 3: 24- 26. Tang Youcai, Sun Lijin, Chen Xuhui. The analysis and prevent the faults of aircraft hydraulic pump[J]. Hydraulics & Pneumatics, 2002, 3: 24- 26. (in Chinese)[9] 赵四军, 王少萍, 尚耀星. 飞机液压泵源预测与健康管理系统[J]. 北京航空航天大学学报, 2010, 36(1): 14- 17. Zhao Sijun, Wang Shaoping, Shiang Yaoxing. Prognostics and health management system of hydraulic power supply[J]. Journal of Beijing University of Aeronautics and Astronautics, 2010, 36(1): 14- 17. (in Chinese)[10] 王海涛. 飞机液压元件与系统[M]. 北京: 国防工业出版社, 2012: 36- 62. [11] 李军. 飞机液压系统压力脉冲试验的机理分析与控制[D]. 西安: 西北工业大学, 2007. [12] 孙文胜, 毕玉泉, 祁功道, 等. 油液污染对某型飞机液压泵性能影响的分析[J]. 机床与液压, 2012, 40(7): 204- 206. Sun Wensheng, Bi Yuquan, Qi Gongdao, et al. The analysis of oil pollution for a type aircraft hydraulic pump performance influence[J]. Machine Tool & Hydraulics, 2012, 40(7): 204- 206. (in Chinese)[13] 陈玮. 基于灰色聚类与模糊综合评判的空气质量评价[D]. 上海: 华东师范大学, 2012. [14] 武朝, 胡军华, 黎申, 等. 基于二级模糊综合评判的液压系统故障诊断方法[J]. 液压与气动, 2013, 5: 130- 133.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机液压泵"
+    },
+    {
+      "type": "系统/部件",
+      "text": "液压系统"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的关键部件",
+      "head": "飞机液压泵",
+      "tail": "液压系统"
+    }
+  ]
+}
+```

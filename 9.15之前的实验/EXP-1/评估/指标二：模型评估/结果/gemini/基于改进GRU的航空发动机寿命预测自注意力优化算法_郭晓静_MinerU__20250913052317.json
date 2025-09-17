@@ -1,0 +1,284 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "改进GRU的自注意力优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "主成分分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Min-Max数据标准化方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "基于Wiener过程的寿命预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RNN Auto-Encoder",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "Multi-Head CNN-LSTM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "TCAN",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-GRU-自注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "门控循环单元（GRU）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "卷积神经网络（CNN）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "长短期记忆网络(LSTM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-RNN融合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-GRU模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于残差嵌套式长短期记忆和注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归与支持向量机结合的模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "分段线性函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "sigmoid激活函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "双曲正切激活函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "softmax函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "方均根误差（RMSE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "超前预测分值(score)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "寿命方均根误差（RMSE）落在区间[10.52,18.91]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "超前预测分值(score）落在区间[48.69,204.98]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差为0.25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差为5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE最优取值为39.68",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE取值落在[16.89，30.96]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE取值落在[13.45,25.40]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE落在区间[11.94，20.99]",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "改进GRU的自注意力优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "CNN-GRU-自注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "黄亮等",
+      "tail": "基于Wiener过程的寿命预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "Zhang等",
+      "tail": "CNN-RNN融合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "陈保家等",
+      "tail": "基于残差嵌套式长短期记忆和注意力机制模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "卷积神经网络（CNN）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "门控循环单元（GRU）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "CNN-GRU-自注意力机制模型",
+      "tail": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "门控循环单元（GRU）",
+      "tail": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "注意力机制",
+      "tail": "自注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文模型",
+      "tail": "方均根误差（RMSE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文模型",
+      "tail": "超前预测分值(score)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文模型",
+      "tail": "寿命方均根误差（RMSE）落在区间[10.52,18.91]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文模型",
+      "tail": "超前预测分值(score）落在区间[48.69,204.98]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "黄亮等",
+      "tail": "相对误差为0.25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "Du等",
+      "tail": "相对误差为5%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "Ordonez等",
+      "tail": "RMSE最优取值为39.68",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "Zhang等",
+      "tail": "RMSE取值落在[16.89, 30.96]",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合模块化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机上PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面支持决策系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机下机上系统接口",
+      "evaluation": "错误"
+    },
+    {
+      "type": "系统",
+      "text": "模块/组件级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "分系统级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机系统级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康监控器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "配置管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "航空电子统一网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "UAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理器",
+      "text": "综合核心处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理器",
+      "text": "ICP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "接口",
+      "text": "座舱人机接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合射频系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合电光系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "通用功能模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "CFM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "SPM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "网络支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "module",
+      "text": "NSM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "数据处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "module",
+      "text": "DPM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "电源转换模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "module",
+      "text": "PPM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "大容量存储模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "module",
+      "text": "MMM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "图形处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "module",
+      "text": "GPM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机制",
+      "text": "故障检测机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "操作系统健康监控服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "服务",
+      "text": "通用系统管理健康监控器",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "航空电子系统",
+      "tail": "综合模块化航空电子系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "综合模块化航空电子系统",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "PHM系统",
+      "tail": "机上PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "PHM系统",
+      "tail": "地面支持决策系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "PHM系统",
+      "tail": "机下机上系统接口",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "机上PHM系统",
+      "tail": "模块/组件级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "机上PHM系统",
+      "tail": "分系统级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "机上PHM系统",
+      "tail": "飞机系统级管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "综合模块化航空电子系统",
+      "tail": "航空电子统一网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "综合模块化航空电子系统",
+      "tail": "综合核心处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "综合模块化航空电子系统",
+      "tail": "座舱人机接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "综合模块化航空电子系统",
+      "tail": "综合射频系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "综合模块化航空电子系统",
+      "tail": "综合电光系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "综合模块化航空电子系统",
+      "tail": "通用功能模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "网络支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "数据处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "电源转换模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "大容量存储模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "通用功能模块",
+      "tail": "图形处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康状态监控",
+      "tail": "故障检测机制",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "健康状态监控",
+      "tail": "操作系统健康监控服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "健康状态监控",
+      "tail": "通用系统管理健康监控器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "报告给",
+      "head": "健康监控器",
+      "tail": "故障管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理",
+      "head": "故障管理器",
+      "tail": "配置管理器",
+      "evaluation": "错误"
+    }
+  ]
+}

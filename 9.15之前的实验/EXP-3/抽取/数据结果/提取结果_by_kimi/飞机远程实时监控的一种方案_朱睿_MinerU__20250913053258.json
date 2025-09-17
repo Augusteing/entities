@@ -1,0 +1,173 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统"
+    },
+    {
+      "type": "技术文档",
+      "text": "飞机维护技术文档"
+    },
+    {
+      "type": "数据库",
+      "text": "相关数据库"
+    },
+    {
+      "type": "系统",
+      "text": "AHMS（Aircraft Health Management System）"
+    },
+    {
+      "type": "模块",
+      "text": "数据库构建模块"
+    },
+    {
+      "type": "模块",
+      "text": "维护方案生成模块"
+    },
+    {
+      "type": "模块",
+      "text": "数据源反馈模块"
+    },
+    {
+      "type": "技术文档",
+      "text": "FIM、AMM"
+    },
+    {
+      "type": "数据库",
+      "text": "手册数据库"
+    },
+    {
+      "type": "数据库",
+      "text": "排放经验数据库"
+    },
+    {
+      "type": "技术文档",
+      "text": "Fault Isolation Manual（FIM）"
+    },
+    {
+      "type": "技术文档",
+      "text": "Aircraft Maintenance Manual（AMM）"
+    },
+    {
+      "type": "数据库",
+      "text": "标准排故经验库"
+    },
+    {
+      "type": "数据库",
+      "text": "其他排故经验库"
+    },
+    {
+      "type": "系统",
+      "text": "CMCS(Central Maintenance Computing System）"
+    },
+    {
+      "type": "技术",
+      "text": "实时故障报文"
+    },
+    {
+      "type": "技术",
+      "text": "GPS"
+    },
+    {
+      "type": "技术",
+      "text": "雷达"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于...实现",
+      "head": "飞机健康管理系统",
+      "tail": "实时数据"
+    },
+    {
+      "type": "结合了",
+      "head": "飞机健康管理系统",
+      "tail": "飞机维护技术文档和历史维护经验"
+    },
+    {
+      "type": "设计并初步实现了",
+      "head": "本文",
+      "tail": "AHMS的一个主要部分"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS",
+      "tail": "数据库构建模块"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS",
+      "tail": "维护方案生成模块"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS",
+      "tail": "数据源反馈模块"
+    },
+    {
+      "type": "构建",
+      "head": "数据库构建模块",
+      "tail": "手册数据库"
+    },
+    {
+      "type": "构建",
+      "head": "数据库构建模块",
+      "tail": "排放经验数据库"
+    },
+    {
+      "type": "基于...构建",
+      "head": "数据库",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "基于...构建",
+      "head": "数据库",
+      "tail": "历史维护经验"
+    },
+    {
+      "type": "包含",
+      "head": "FIM数据库",
+      "tail": "故障代码"
+    },
+    {
+      "type": "包含",
+      "head": "AMM数据库",
+      "tail": "FIM任务号"
+    },
+    {
+      "type": "包含",
+      "head": "标准排故经验库",
+      "tail": "故障日期"
+    },
+    {
+      "type": "包含",
+      "head": "其他排故经验库",
+      "tail": "故障描述"
+    },
+    {
+      "type": "产生",
+      "head": "CMCS",
+      "tail": "实时故障报文"
+    },
+    {
+      "type": "包含",
+      "head": "实时故障报文",
+      "tail": "故障代码"
+    },
+    {
+      "type": "包含",
+      "head": "实时故障报文",
+      "tail": "维护信息"
+    },
+    {
+      "type": "用于",
+      "head": "GPS",
+      "tail": "校准和考核雷达的探测精度"
+    },
+    {
+      "type": "克服了",
+      "head": "GPS",
+      "tail": "传统检飞的困难"
+    }
+  ]
+}

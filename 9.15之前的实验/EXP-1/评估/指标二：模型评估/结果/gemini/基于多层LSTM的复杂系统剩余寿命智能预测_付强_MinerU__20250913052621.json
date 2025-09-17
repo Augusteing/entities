@@ -1,0 +1,290 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多层 LSTM 预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "长期短期记忆(LSTM)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "单层LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "幂函数模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "本文方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Dropout 方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-means方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "主层分分析(PCA)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "函数",
+      "text": "误差得分函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "过拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "梯度消失",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "复杂系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "多尺度时序数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均验证损失值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均误差MAE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "误差得分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "MSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均验证损失值为0.023",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均预测误差为12",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差得分为5486.14",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "MSE为503.90",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "3层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "时间步长为20",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "多层 LSTM 预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "多层 LSTM 预测模型",
+      "tail": "多尺度时序数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决了",
+      "head": "多层 LSTM 预测模型",
+      "tail": "梯度消失",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "多层 LSTM 预测模型",
+      "tail": "Dropout 方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决了",
+      "head": "Dropout 方法",
+      "tail": "过拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "误差得分函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "误差得分函数",
+      "tail": "评估超前与滞后预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "多层 LSTM 预测模型",
+      "tail": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "改进了",
+      "head": "长期短期记忆(LSTM)模型",
+      "tail": "循环神经网络(RNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "本文方法",
+      "tail": "K-means方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "K-means方法",
+      "tail": "识别运行工况",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用了",
+      "head": "本文方法",
+      "tail": "主层分分析(PCA)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "主层分分析(PCA)",
+      "tail": "多维数据融合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "数据来源是",
+      "head": "本文方法",
+      "tail": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比了",
+      "head": "本文方法",
+      "tail": "单层LSTM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比了",
+      "head": "本文方法",
+      "tail": "RNN模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM模型",
+      "tail": "平均验证损失值为0.023",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM模型",
+      "tail": "平均预测误差为12",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文方法",
+      "tail": "误差得分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文方法",
+      "tail": "MSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文方法",
+      "tail": "误差得分为5486.14",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "本文方法",
+      "tail": "MSE为503.90",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定了",
+      "head": "多层LSTM模型",
+      "tail": "3层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "确定了",
+      "head": "多层LSTM模型",
+      "tail": "时间步长为20",
+      "evaluation": "正确"
+    }
+  ]
+}

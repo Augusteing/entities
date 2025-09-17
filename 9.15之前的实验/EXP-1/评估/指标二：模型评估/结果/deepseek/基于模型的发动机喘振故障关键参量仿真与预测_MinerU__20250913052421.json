@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "type": "故障",
+      "text": "喘振故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机整体仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SVM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LSSVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "HMM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "M-G模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Greitzer模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压气机出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "燃烧室出口温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "LSTM网络预测精度高",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于预测",
+      "head": "LSTM网络",
+      "tail": "喘振故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "发动机整体仿真模型",
+      "tail": "气动热力机理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模拟",
+      "head": "发动机整体仿真模型",
+      "tail": "压气机出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模拟",
+      "head": "发动机整体仿真模型",
+      "tail": "燃烧室出口温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "LSTM网络",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "LSTM网络",
+      "tail": "SVM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测模型",
+      "tail": "均方根误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测模型",
+      "tail": "平均绝对误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "LSTM网络",
+      "tail": "LSTM网络预测精度高",
+      "evaluation": "错误"
+    }
+  ]
+}

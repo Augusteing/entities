@@ -1,0 +1,92 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run gemini stats",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\stats_gemini_entities.py"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run gemini relation stats",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\stats_gemini_relations.py"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run stats for three models",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\stats_relations_by_dir.py",
+				"--input-dir",
+				"抽取\\数据结果\\提取结果_by_gemini",
+				"--prefix",
+				"gemini"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run stats for kimi model",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\stats_relations_by_dir.py",
+				"--input-dir",
+				"抽取\\数据结果\\提取结果_by_kimi",
+				"--prefix",
+				"kimi"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run stats for deepseek model",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\stats_relations_by_dir.py",
+				"--input-dir",
+				"抽取\\数据结果\\提取结果_by_deepseek",
+				"--prefix",
+				"deepseek"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Calc pass rate for gemini eval",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\calc_eval_pass_rate_by_dir.py",
+				"--input-dir",
+				"抽取\\评估\\数据结果\\发送结果_by_gemini"
+			],
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Calc pass rate for gemini eval (split)",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\calc_eval_pass_rate_by_dir.py",
+				"--input-dir",
+				"抽取\\评估\\数据结果\\发送结果_by_gemini"
+			],
+			"group": "build"
+		}
+	]
+}

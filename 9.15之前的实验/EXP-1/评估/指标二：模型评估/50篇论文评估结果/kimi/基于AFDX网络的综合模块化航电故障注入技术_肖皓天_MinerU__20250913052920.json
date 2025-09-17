@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "综合模块化航空电子（IMA）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空电子全双工交换式以太网（AFDX）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理和故障预测（PHM）机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障注入技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "非法数据输入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "特殊信令输入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "功能数据集合（FDS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "接口控制文件（ICD）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "SQLite数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多媒体定时器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AFDX端系统卡",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "队列模式发送",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Copilot软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "激光通信系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "空间激光通信技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "相干通信体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自适应光学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "射频通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机载激光通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Avionics Full-Duplex Switched Ethernet (AFDX) network",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Windows下高精度定时",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "航空电子全双工交换式以太网（AFDX）",
+      "tail": "综合模块化航空电子体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "综合模块化航空电子体系结构",
+      "tail": "健康管理和故障预测（PHM）机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "故障注入技术",
+      "tail": "验证PHM本身的正确性和可信性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障注入技术",
+      "tail": "非法数据输入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障注入技术",
+      "tail": "特殊信令输入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "功能数据集合（FDS）",
+      "tail": "AFDX网络协议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "规范",
+      "head": "接口控制文件（ICD）",
+      "tail": "FDS字段的设置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "SQLite数据库",
+      "tail": "管理ICD记录",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "多媒体定时器",
+      "tail": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "发送策略",
+      "tail": "主机应用数据更新率与AFDX端系统定时器周期不匹配的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Copilot软件",
+      "tail": "监控错误帧信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "激光通信系统",
+      "tail": "提升战机的通信保障能力和体系对抗下各武器平台的作战效能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "Avionics Full-Duplex Switched Ethernet (AFDX) network",
+      "tail": "Aircraft data network",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "Windows下高精度定时",
+      "tail": "高精度定时",
+      "evaluation": "错误"
+    }
+  ]
+}

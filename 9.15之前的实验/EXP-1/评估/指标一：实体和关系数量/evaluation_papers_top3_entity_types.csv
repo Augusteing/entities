@@ -1,0 +1,10 @@
+model,rank,type,count
+gemini,1,模型,225
+gemini,2,算法,147
+gemini,3,性能指标,138
+deepseek,1,方法,143
+deepseek,2,模型,139
+deepseek,3,算法,127
+kimi,1,算法,175
+kimi,2,技术,141
+kimi,3,模型,112

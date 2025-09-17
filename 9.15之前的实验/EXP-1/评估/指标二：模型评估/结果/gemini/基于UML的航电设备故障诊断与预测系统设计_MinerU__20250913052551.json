@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航电设备故障诊断与预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "航电设备故障诊断与预测系统软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "面向过程的传统程序设计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "UML模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障模式判别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障树的确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障树的模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K一均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "+5V输出电压数据序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "有效性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "统一建模语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "面向对象技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立了",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "UML模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障诊断",
+      "tail": "故障树的确定性推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障诊断",
+      "tail": "故障树的模糊推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测",
+      "tail": "状态趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测",
+      "tail": "故障模式判别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "状态趋势预测",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障模式判别",
+      "tail": "K一均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于优化",
+      "head": "优化算法",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "测试用例是",
+      "head": "状态趋势预测",
+      "tail": "+5V输出电压数据序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "航电设备故障诊断与预测系统",
+      "tail": "有效性",
+      "evaluation": "正确"
+    }
+  ]
+}

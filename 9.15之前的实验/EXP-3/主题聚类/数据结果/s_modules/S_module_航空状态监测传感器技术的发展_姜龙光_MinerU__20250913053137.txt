@@ -1,0 +1,64 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] 梅晓川，陈亚莉．航空飞行器维修技术发展综述[J]航空发动机，2009（6）：52- 57. MEI Xiaochuan, CHEN Yali. Overview of aircraft maintenance technology development[J]. Aeroengine, 2009(6): 52- 57. (in Chinese)[2] 来云峰，张志谦．跻身民机国产机载设备履历本改进研究[J]. 航空维修与工程，2015(3): 62- 64. LAI Yunfeng, ZHANG Zhiqian. Research on airborne equipment logbook of MA60[J]. Aviation Maintenance & Engineering, 2015(3): 62- 64. (in Chinese)[3] 李兴旺，汪慧云，沈勇，等．飞机综合健康管理系统的应用与发展[J]. 计算机测量与控制，2015(4): 1069- 1079. LI Xingwang, WANG Huiyun, SHEN Yong, et al. Application and development of integrated vehicle health management system in aviation field[J]. Computer Measurement and Control, 2015(4): 1069- 1079. (in Chinese)[4] 曹全新，杨融，刘于尧．民用飞机健康管理技术研究[J]. 航空电子技术，2014, 45(4): 15- 19. CAO Quanxin, YANG Rong, LIU Ziyao. Prognostics and health management technical study for civil aircraft[J]. Avionics Technology, 2014, 45(4): 15- 19. (in Chinese)[5] 李春生，张磊，张雷．飞机健康实时监控技术现状[J]. 中国民用航空，2013(10): 65- 67. LI Chunsheng, ZHANG Lei, ZHANG Lei. Technology status of aircraft health realtime monitoring[J]. China Civil Aviation, 2013(10): 65- 67. (in Chinese)[6] 李长杰，谢小东，明新国．基于状态监测的民机机载设备寿命预测方法现状研究[J]. 机械制造，2013, 51(8): 42- 45. LI Changjie, XIE Xiaodong, MING Xinguo. Research on current status of civil aircraft airborne equipment life predic-
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "机载设备"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统"
+    },
+    {
+      "type": "工具",
+      "text": "机载设备履历本"
+    }
+  ]
+}
+```
+
+示例2 段落：
+作者简介：雷鸣（1985- ）男（畲族），江西人。空军工程大学工程学院，硕士，主要研究方向：飞机机载设备故障诊断、预测与健康管理.李学仁（1963- ）男，山西人，空军工程大学工程学院，教授，主要研究方向：飞机机载设备故障诊断、预测与健康管理：刘林刚（1976- ）男，山西人，空军工程大学工程学院，硕士，主要研究方向：飞机状态监控技术研究。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    }
+  ]
+}
+```
+
+示例3 段落：
+based prognostics and health management [J]. IEEE Transactions on Industrial Electronics, 2011, 58(7): 3077- 3089. [4] 张宝珍, 王萍, 尤晨宇. 国外飞机预测与健康管理技术发展计划综述 [J]. 计算机测量与控制, 2016, 24(6): 1- 7. ZHANG B ZH, WANG P, YOU CH Y. Overview of oversea prognostics and health management technologies development projects [J]. Computer Measurement & Control, 2016, 24(6): 1- 7. [5] 王少萍. 大型飞机机载系统预测与健康管理关键技术 [J]. 航空学报, 2014, 35(6): 1459- 1472. WANG SH P. Prognostics and health management key technology of aircraft airborne system [J]. Acta Aeronautica et Astronautica Sinica, 2014, 35(6): 1- 7. [6] 李兴旺, 汪慧云, 沈勇, 等. 飞机综合健康管理系统的应用与发展 [J]. 计算机测量与控制, 2015, 23(4): 1069- 1072. LI X W, WANG H Y, SHEN Y, et al. Application and development of integrated vehicle health management system in aviation field [J]. Computer Measurement & Control, 2015, 23(4): 1069- 1072. [7] 曹全新, 杨融, 刘子尧. 民用飞机健康管理技术研究 [J]. 航空电子技术, 2014, 45(4): 15- 19. CAO Q X, YANG R, LIU Z B. Prognostics and health management technical study for civil aircraft [J]. Avionics Technology, 2014, 45(4): 1069- 1072. [8] 孙贤明, 樊晓光, 丛伟. 综合航电系统故障处理机制研究 [J]. 测试技术, 2016, 35(10): 146- 149. SUN X M, FAN X G, CONG W. Research on fault disposal mechanism of integrated modular avionics [J]. Measurement & Control Technology, 2016, 35(10): 146- 149. [9] 李权, 周兴社. 基于测控数据挖掘的航天器故障诊断技术研究 [J]. 计算机测量与控制, 2011, 19(3): 500- 503. LI Q, ZHOU X SH. Spacecraft fault diagnosis technology based on measurement and control data mining [J]. Computer Measurement & Control, 2011, 19(3): 500- 503. [10] 程延伟, 吕强, 谢永成, 等. 装甲车辆电源系统智能故障诊断方法研究 [J]. 计算机测量与控制, 2011, 19(6): 1410- 1412, 1419. CHEN Y W, LV Q, XIE Y CH, et al. Research on
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "应用领域",
+      "text": "装甲车辆"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断技术"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理"
+    }
+  ]
+}
+```

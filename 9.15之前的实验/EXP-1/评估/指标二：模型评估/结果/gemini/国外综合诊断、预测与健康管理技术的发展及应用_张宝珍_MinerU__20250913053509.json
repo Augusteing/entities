@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "综合的故障诊断、预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机内测试(BIT)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于状态的维修(CBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康与使用监控系统(HUMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合系统健康管理(ISHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合系统健康工程和管理(ISHEM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "电子预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/产品",
+      "text": "F-35战斗机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/产品",
+      "text": "F-35 PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/产品",
+      "text": "自动化后勤信息系统(ALIS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/产品",
+      "text": "JAHUMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/产品",
+      "text": "飞机状态管理(AHM)系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法/模型",
+      "text": "基于模型的推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法/模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法/模型",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "美国国防部",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "美国国防工业协会NDIA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障不能复现(CND)率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修人力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "出动架次率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障不能复现(CND)率减少82%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "维修人力减少20% ~ 40%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "出动架次率提高25%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "使用与保障费用比过去的机种减少了50%以上",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "状态(健康)监控和故障诊断技术",
+      "tail": "PHM技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "综合诊断",
+      "tail": "预测与健康管理(PHM)系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "传统的事后维修或定期维修",
+      "tail": "基于状态的维修(CBM)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "美国国防工业协会NDIA",
+      "tail": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "综合系统健康工程和管理(ISHEM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F-35 PHM系统",
+      "tail": "基于模型的推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F-35 PHM系统",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F-35 PHM系统",
+      "tail": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "F-35战斗机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "健康与使用监控系统(HUMS)",
+      "tail": "直升机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "飞机状态管理(AHM)系统",
+      "tail": "B777",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "采用PHM技术和自主式保障系统",
+      "tail": "故障不能复现(CND)率减少82%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "采用PHM技术和自主式保障系统",
+      "tail": "维修人力减少20% ~ 40%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "采用PHM技术和自主式保障系统",
+      "tail": "出动架次率提高25%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "采用PHM技术和自主式保障系统",
+      "tail": "使用与保障费用比过去的机种减少了50%以上",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "F-35 PHM系统",
+      "tail": "自动化后勤信息系统(ALIS)",
+      "evaluation": "错误"
+    }
+  ]
+}

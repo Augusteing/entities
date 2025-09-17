@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "失效模式影响及危害性分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障树分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "隐马尔可夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "巴黎模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "任务完成率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "战备完好性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "射频信道健康表征的优先参量",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "健康表征参数选取原则和方法",
+      "tail": "失效模式影响及危害性分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征参数选取原则和方法",
+      "tail": "故障树分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征方法",
+      "tail": "隐马尔可夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征方法",
+      "tail": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "射频信道健康表征",
+      "tail": "任务完成率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "射频信道健康表征",
+      "tail": "战备完好性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "射频信道健康影响",
+      "tail": "研究结果",
+      "evaluation": "错误"
+    }
+  ]
+}

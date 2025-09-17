@@ -1,0 +1,201 @@
+{
+  "entities": [
+    {
+      "type": "疾病",
+      "text": "高尿酸血症",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "脂肪肝",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "超重",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "心电图异常",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "视力不良",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "高脂血症",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "听力异常",
+      "evaluation": "正确"
+    },
+    {
+      "type": "疾病",
+      "text": "高甘油三酯血症",
+      "evaluation": "正确"
+    },
+    {
+      "type": "职业",
+      "text": "驾驶员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "职业",
+      "text": "安全员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "t检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "Wilcoxon秩和检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "χ²检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "29.2%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "28.9%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "18.2%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "15.9%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "14.1%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "13.4%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "10.7%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "8.6%的患病率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "患病率最高",
+      "head": "高尿酸血症",
+      "tail": "29.2%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率次高",
+      "head": "脂肪肝",
+      "tail": "28.9%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率次高",
+      "head": "超重",
+      "tail": "18.2%的患病率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "患病率较高",
+      "head": "心电图异常",
+      "tail": "15.9%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率较高",
+      "head": "视力不良",
+      "tail": "14.1%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率较高",
+      "head": "高脂血症",
+      "tail": "13.4%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率较高",
+      "head": "听力异常",
+      "tail": "10.7%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率较高",
+      "head": "高甘油三酯血症",
+      "tail": "8.6%的患病率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较方法",
+      "head": "t检验",
+      "tail": "驾驶员和安全员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较方法",
+      "head": "Wilcoxon秩和检验",
+      "tail": "驾驶员和安全员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较方法",
+      "head": "χ²检验",
+      "tail": "驾驶员和安全员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率差异",
+      "head": "驾驶员",
+      "tail": "高尿酸血症",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率差异",
+      "head": "驾驶员",
+      "tail": "脂肪肝",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率差异",
+      "head": "驾驶员",
+      "tail": "心电图异常",
+      "evaluation": "正确"
+    },
+    {
+      "type": "患病率差异",
+      "head": "驾驶员",
+      "tail": "听力异常",
+      "evaluation": "正确"
+    }
+  ]
+}

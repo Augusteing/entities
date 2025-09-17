@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于测试性模型的多信号增强诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于马尔科夫和贝叶斯网络的健康评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于状态的维修（CBM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主保障（AL）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "马尔科夫模型（HMM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "混合训练的DHMM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "扩展FMECA方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "黄鹤",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "卢海涛",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "故障预测与健康管理（PHM）",
+      "tail": "综合化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "旨在",
+      "head": "故障预测与健康管理（PHM）",
+      "tail": "保障电子系统任务完成成功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统功能关系",
+      "tail": "基于测试性模型的多信号增强诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "PHM系统功能关系",
+      "tail": "基于马尔科夫和贝叶斯网络的健康评估方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "旨在",
+      "head": "基于状态的维修（CBM）",
+      "tail": "压缩维修保障费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "旨在",
+      "head": "自主保障（AL）",
+      "tail": "压缩维修保障费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "混合训练的DHMM",
+      "tail": "发射机状态检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "扩展FMECA方法",
+      "tail": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方向",
+      "head": "黄鹤",
+      "tail": "综合化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方向",
+      "head": "卢海涛",
+      "tail": "健康管理",
+      "evaluation": "正确"
+    }
+  ]
+}

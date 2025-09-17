@@ -1,0 +1,260 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "改进的仿真神经网络预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "PHM方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "噪声数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障检测的有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "前馈神经网络算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障分类的精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "试飞机载测试系统综合试验与验证平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "试飞机载测试系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "数据准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "通用射频电路模块自动测试设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "LXI总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "合成仪器技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "TCP/IP协议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "飞机管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主保障信息系统(ALIS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于状态的维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "传统的定期更换和检查",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断技术",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是一种",
+      "head": "改进的仿真神经网络预测方法",
+      "tail": "PHM方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "改进的仿真神经网络预测方法",
+      "tail": "噪声数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "改进的仿真神经网络预测方法",
+      "tail": "故障检测的有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证对象是",
+      "head": "试飞机载测试系统综合试验与验证平台",
+      "tail": "试飞机载测试系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "试飞机载测试系统综合试验与验证平台",
+      "tail": "数据准确性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "通用射频电路模块自动测试设备",
+      "tail": "LXI总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "通用射频电路模块自动测试设备",
+      "tail": "人工智能故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "通用射频电路模块自动测试设备",
+      "tail": "合成仪器技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "遵循",
+      "head": "LXI总线",
+      "tail": "TCP/IP协议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断技术",
+      "tail": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断技术",
+      "tail": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机PHM系统",
+      "tail": "机载PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机PHM系统",
+      "tail": "地面PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "机载PHM系统",
+      "tail": "分层智能推理机构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机管理器",
+      "tail": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机管理器",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机管理器",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "宿驻在",
+      "head": "地面PHM系统",
+      "tail": "自主保障信息系统(ALIS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "取代",
+      "head": "基于状态的维修",
+      "tail": "传统的定期更换和检查",
+      "evaluation": "正确"
+    }
+  ]
+}

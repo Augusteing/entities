@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "基于Copula相似性的航空发动机RUL预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K- means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "两阶段极大似然估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "Akaike信息准则 (AIC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "Kendall秩相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测误差分别减少 13.053% 、 31.328% 、 74.602%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度得到提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传统方法[25]",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Clayton Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Gumbel Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Frank Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Joe Copula",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔可夫模型 (HMM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工神经网络 (ANN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "深度神经网络 (DNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于Wiener过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于Gamma过程",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "许先鑫等",
+      "tail": "基于Copula相似性的航空发动机RUL预测方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "K- means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "线性退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "Copula函数",
+      "tail": "两阶段极大似然估计",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "Copula函数",
+      "tail": "Akaike信息准则 (AIC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "预测精度得到提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于Copula相似性的航空发动机RUL预测方法",
+      "tail": "预测误差分别减少 13.053% 、 31.328% 、 74.602%",
+      "evaluation": "正确"
+    }
+  ]
+}

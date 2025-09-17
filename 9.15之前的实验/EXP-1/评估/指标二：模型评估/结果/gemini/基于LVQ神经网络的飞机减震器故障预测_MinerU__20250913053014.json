@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "LVQ神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Kohonen竞争算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LVQ神经网络故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SOM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于LVQ神经网络的故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究者",
+      "text": "本文作者",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "输入向量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "输出向量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "总起落次数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "密封件使用时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "密封有效期间的起落次数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "运行环境影响因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "油液是否泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "油液泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "密封失效",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "总体预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "96.6667%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文作者",
+      "tail": "基于LVQ神经网络的故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化自",
+      "head": "LVQ神经网络",
+      "tail": "Kohonen竞争算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "LVQ神经网络",
+      "tail": "SOM网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "输入是",
+      "head": "LVQ神经网络故障预测模型",
+      "tail": "输入向量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "输出是",
+      "head": "LVQ神经网络故障预测模型",
+      "tail": "输出向量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "输入向量",
+      "tail": "总起落次数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "输入向量",
+      "tail": "密封件使用时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "输入向量",
+      "tail": "密封有效期间的起落次数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分是",
+      "head": "输入向量",
+      "tail": "运行环境影响因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "输出向量",
+      "tail": "油液是否泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "密封失效",
+      "tail": "油液泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LVQ神经网络故障预测模型",
+      "tail": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "LVQ神经网络故障预测模型",
+      "tail": "总体预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LVQ神经网络故障预测模型",
+      "tail": "96.6667%",
+      "evaluation": "正确"
+    }
+  ]
+}

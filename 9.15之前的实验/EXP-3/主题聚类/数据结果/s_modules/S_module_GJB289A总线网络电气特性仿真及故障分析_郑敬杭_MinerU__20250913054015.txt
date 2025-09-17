@@ -1,0 +1,108 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+刘才学研究员作的"核动力系统故障诊断方法研究"的报告,对核动力装置的故障诊断策略进行了探索,提出了设备及故障诊断确定故障源设备和具体设备的故障源诊断两步走策略,并根据设备具体情况和不同数学物理原理提出了系统的故障诊断方法,将故障诊断技术推广到核领域的实际应用做了大量的开拓性工作。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "核动力系统故障诊断方法"
+    },
+    {
+      "type": "应用领域",
+      "text": "核领域的实际应用"
+    },
+    {
+      "type": "策略",
+      "text": "两步走策略"
+    },
+    {
+      "type": "步骤",
+      "text": "设备及故障诊断确定故障源设备"
+    },
+    {
+      "type": "步骤",
+      "text": "具体设备的故障源诊断"
+    }
+  ],
+  "relations": [
+    {
+      "type": "推广到",
+      "head": "核动力系统故障诊断方法",
+      "tail": "核领域的实际应用"
+    },
+    {
+      "type": "包括",
+      "head": "两步走策略",
+      "tail": "设备及故障诊断确定故障源设备"
+    },
+    {
+      "type": "包括",
+      "head": "两步走策略",
+      "tail": "具体设备的故障源诊断"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[1] 王红，凌云，何超．对172R型飞机前起落架减震支柱渗油故障诊断及解决方法的研究[J]．机床与液压，2016，44(4):142- 144. [2] 郑永安，史忠科．飞机起落架防滑刹车系统鲁棒故障诊断方法[J]．飞行力学，2008，2（2）：16- 19. [3] 陈新霞，刘煜原，黄加阳，等．基于贝叶斯网络推理的起落架系统故障诊断技术研究[J]．计算机测量与控制，2016，24(10):24- 27. [4] 常浩，金大玮，邢国平，等．某型飞机起落架故障诊断专家系统设计研究[J]．飞机设计，2009，29(5):24- 28. [5] Lo C S, Wang C M. Support vector machine for breast MR image classification[J]．Computers and Mathematics with Applications,2012,64(5):1153- 1162. [6] Li Boyan, Wang Qiangwei, Hu Jinglu. Fast SVM training using edge detection on very large datasets[J]．IEEJ Transactions on Electrical and Electronic Engineering,2013,8(3):229- 237. [7] Maldonado S, Weber R, Basak J. Simultaneous feature selection and classification using kernel penalized support vector machines[J]. Information Sciences,2011,181(1):115- 128. [8] 朱旻辰，宦飞.基于加权SVM与信息粒化的时序波动范围预测[J].信息安全与通信保密，2014(5):76- 81. [9] 孔平，陈亮，马晶.基于模糊信息粒化支持向量机的短期电力负荷预测[J].电力信息与通信技术，2016，14(1):11- 14. [10] 彭勇，陈俞强.基于信息粒化的SVM时序回归预测[J].计算机系统应用，2013，22(5):163- 167. [11] 王国胤，张清华，胡军.粒计算研究综述[J].智能系统学报，2007,2(6):8- 20. [12] Guo X C, Yang J H, Wu C G. A Novel LS- SVM Hyper- parameter selection based on particle Swarm Optimization[J]. Neuro computing,2008,71(32):3211- 3215. [13] 龙江，周斌，庞杰．飞机系统[M]．成都：西南交通大学出版社，2017. [14] 丰世林.B737NG航线维护故障模式影响及危害性分析[J].中国民航飞行学院学报，2011，22（5）：19- 21. [15] 王小川，史峰，郁磊，等．MATLAB神经网络43个案例分析[M].北京：北京航空航天大学出版社，2013. [16] 胡良谋，曹克强，徐浩民，等.支持向量机故障诊断及控制技术[M].北京：国防工业出版社，2011. （编辑 李秀敏）
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "模糊信息粒化"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量机"
+    },
+    {
+      "type": "方法",
+      "text": "鲁棒故障诊断方法"
+    },
+    {
+      "type": "系统",
+      "text": "故障诊断专家系统"
+    },
+    {
+      "type": "步骤",
+      "text": "故障诊断"
+    },
+    {
+      "type": "工具",
+      "text": "MATLAB"
+    }
+  ]
+}
+```
+
+示例3 段落：
+DOI: 10.20079/j. issn.1001- 893x.220521001引用格式：文佳，梁天辰，陈擎宙，等.基于多模型融合的航空电子产品故障预测方法.电讯技术，2023，63（8）：1237- 1242. [WEN J,LIANG T C,CHEN Q Z,et al. An avionics fault prognostic method based on multi- model fusion . Telecommunication Engineering,2023,63(8) : 1237- 1242. ]
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "基于多模型融合的航空电子产品故障预测方法"
+    },
+    {
+      "type": "问题",
+      "text": "航空电子产品故障预测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出用于解决",
+      "head": "基于多模型融合的航空电子产品故障预测方法",
+      "tail": "航空电子产品故障预测"
+    }
+  ]
+}
+```

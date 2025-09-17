@@ -1,0 +1,80 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] 黄志毅. 基于数据驱动的飞行控制系统健康管理技术研究[D]. 西北工业大学, 2014. [2] 李文娟. 飞机燃油系统建模及健康管理关键技术研究[D]. 西北工业大学, 2014. [3] 李向前. 复杂装备故障预测与健康管理关键技术研究[D]. 北京理工大学, 2014. [4] 陈文宝. 帕萨特电控发动机故障模拟系统的研究与试验分析[M]. 华南理工大学, 2018. [5] 李城梁. 数据驱动技术在故障诊断与预测中的应用研究[D]. 西北工业大学, 2014. [6] 李旻. 复杂电子系统综合诊断与故障预测关键技术研究[D]. 电子科技大学, 2014. [7] 范彬. 面向飞行器关键部件健康管理的故障预测方法研究[D]. 国防科技大学, 2015. [8] 郑亚飞. 电液伺服阀故障诊断及特性仿真研究[M]. 江苏大学, 2019. [9] 于琦. 飞行器结构系统虚拟故障注入与健康管理研究[D]. 西北工业大学, 2015. [10] 郑亚飞. 电液伺服阀故障诊断及特性仿真研究[D]. 江苏大学, 2019. [11] 靳小波. 航空液压泵故障模拟试验设计与实现[D]. 测控技术, 2018, 37（增刊）: 419- 424. [12] 王蒙. 往复压缩机气量无级调节工况下吸气阀故障模拟与诊断[D]. 流体机械, 2019, 47（4）: 39- 44. [13] 王强. 基于SimHydraulics的某飞机起落架液压系统建模与故障仿真[D]. 液压与气动, 2020, (4): 123- 129. [14] 李世杰. 基于AMPSim的液压马达内泄漏故障注入研究[D]. 中国科技信息, 2019, (7): 78- 80.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "故障注入"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "方法",
+      "text": "故障预测方法"
+    }
+  ],
+  "relations": [
+    {
+      "type": "以...为主要手段",
+      "head": "健康管理",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "以...为主要手段",
+      "head": "健康管理",
+      "tail": "故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
+作者简介：雷鸣（1985- ）男（畲族），江西人。空军工程大学工程学院，硕士，主要研究方向：飞机机载设备故障诊断、预测与健康管理.李学仁（1963- ）男，山西人，空军工程大学工程学院，教授，主要研究方向：飞机机载设备故障诊断、预测与健康管理：刘林刚（1976- ）男，山西人，空军工程大学工程学院，硕士，主要研究方向：飞机状态监控技术研究。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    }
+  ]
+}
+```
+
+示例3 段落：
+based prognostics and health management [J]. IEEE Transactions on Industrial Electronics, 2011, 58(7): 3077- 3089. [4] 张宝珍, 王萍, 尤晨宇. 国外飞机预测与健康管理技术发展计划综述 [J]. 计算机测量与控制, 2016, 24(6): 1- 7. ZHANG B ZH, WANG P, YOU CH Y. Overview of oversea prognostics and health management technologies development projects [J]. Computer Measurement & Control, 2016, 24(6): 1- 7. [5] 王少萍. 大型飞机机载系统预测与健康管理关键技术 [J]. 航空学报, 2014, 35(6): 1459- 1472. WANG SH P. Prognostics and health management key technology of aircraft airborne system [J]. Acta Aeronautica et Astronautica Sinica, 2014, 35(6): 1- 7. [6] 李兴旺, 汪慧云, 沈勇, 等. 飞机综合健康管理系统的应用与发展 [J]. 计算机测量与控制, 2015, 23(4): 1069- 1072. LI X W, WANG H Y, SHEN Y, et al. Application and development of integrated vehicle health management system in aviation field [J]. Computer Measurement & Control, 2015, 23(4): 1069- 1072. [7] 曹全新, 杨融, 刘子尧. 民用飞机健康管理技术研究 [J]. 航空电子技术, 2014, 45(4): 15- 19. CAO Q X, YANG R, LIU Z B. Prognostics and health management technical study for civil aircraft [J]. Avionics Technology, 2014, 45(4): 1069- 1072. [8] 孙贤明, 樊晓光, 丛伟. 综合航电系统故障处理机制研究 [J]. 测试技术, 2016, 35(10): 146- 149. SUN X M, FAN X G, CONG W. Research on fault disposal mechanism of integrated modular avionics [J]. Measurement & Control Technology, 2016, 35(10): 146- 149. [9] 李权, 周兴社. 基于测控数据挖掘的航天器故障诊断技术研究 [J]. 计算机测量与控制, 2011, 19(3): 500- 503. LI Q, ZHOU X SH. Spacecraft fault diagnosis technology based on measurement and control data mining [J]. Computer Measurement & Control, 2011, 19(3): 500- 503. [10] 程延伟, 吕强, 谢永成, 等. 装甲车辆电源系统智能故障诊断方法研究 [J]. 计算机测量与控制, 2011, 19(6): 1410- 1412, 1419. CHEN Y W, LV Q, XIE Y CH, et al. Research on
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "应用领域",
+      "text": "装甲车辆"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断技术"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理"
+    }
+  ]
+}
+```

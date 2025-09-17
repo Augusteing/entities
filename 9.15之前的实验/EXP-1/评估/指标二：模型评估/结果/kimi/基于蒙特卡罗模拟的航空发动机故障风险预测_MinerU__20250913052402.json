@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "蒙特卡罗模拟算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "威布尔分布模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "中位秩回归参数估计法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "反变换法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "乘同余组合发生器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障风险水平",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测结果准确",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障概率模型",
+      "tail": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "中位秩回归参数估计法",
+      "tail": "估计威布尔分布参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "随机数生成",
+      "tail": "乘同余组合发生器与反变换法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "蒙特卡罗模拟算法",
+      "tail": "仿真估算机队发动机故障风险水平",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "发动机厂商",
+      "tail": "预测数据",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "验证了",
+      "head": "算法",
+      "tail": "预测结果准确",
+      "evaluation": "错误"
+    }
+  ]
+}

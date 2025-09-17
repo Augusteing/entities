@@ -1,0 +1,323 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K近邻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "偏最小二乘回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "独立成分分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "谱分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊差分方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障树分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "决策树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自回归滑动平均",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蒙特卡罗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "知识图谱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多变量统计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "逻辑推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机器学习",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "数据驱动",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "混合预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "失效物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "疲劳寿命模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "随机损伤模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "99.7%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "91.3%的准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "4.2%的均方根相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.7的可靠性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "卡尔曼滤波",
+      "tail": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "最小二乘",
+      "tail": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "K近邻",
+      "tail": "多变量统计算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "偏最小二乘回归",
+      "tail": "多变量统计算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "独立成分分析",
+      "tail": "多变量统计算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "小波变换",
+      "tail": "信号处理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "谱分析",
+      "tail": "信号处理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "傅里叶变换",
+      "tail": "信号处理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "模糊差分方法",
+      "tail": "逻辑推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "故障树分析方法",
+      "tail": "逻辑推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "支持向量机",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "决策树",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "神经网络",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "BPNN",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "自回归滑动平均",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "蒙特卡罗",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "知识图谱方法",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "物理模型方法",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "数据驱动的预测方法",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "混合预测方法",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "失效物理模型",
+      "tail": "物理模型方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "疲劳寿命模型",
+      "tail": "物理模型方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "随机损伤模型",
+      "tail": "物理模型方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估",
+      "head": "升降舵液压故障诊断模型",
+      "tail": "99.7%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "方向舵液压控制部分故障诊断模型",
+      "tail": "91.3%的准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "襟翼状态预测模型",
+      "tail": "4.2%的均方根相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "左右襟翼位置趋势预测模型",
+      "tail": "0.7的可靠性",
+      "evaluation": "正确"
+    }
+  ]
+}

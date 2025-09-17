@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康状态指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "增压泵出口流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "增压泵出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差为0.0011%至0.0017%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "飞机运营第583周，即11.2年，供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障时增压泵出口流量为0.001853566202883m³/s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障时增压泵出口压力为240575.8918002502Pa",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "性能退化模型",
+      "tail": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "增压泵故障预测",
+      "tail": "灰色预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "GM(1,1)模型",
+      "tail": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "GM(1,1)模型",
+      "tail": "相对误差为0.0011%至0.0017%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "GM(1,1)模型",
+      "tail": "飞机运营第583周，即11.2年，供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "性能退化模型",
+      "tail": "故障时增压泵出口流量为0.001853566202883m³/s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "性能退化模型",
+      "tail": "故障时增压泵出口压力为240575.8918002502Pa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能退化模型",
+      "tail": "增压泵出口流量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能退化模型",
+      "tail": "增压泵出口压力",
+      "evaluation": "错误"
+    }
+  ]
+}

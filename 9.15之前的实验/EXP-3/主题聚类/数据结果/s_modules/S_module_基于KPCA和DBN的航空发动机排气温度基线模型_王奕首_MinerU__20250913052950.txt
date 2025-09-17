@@ -1,0 +1,44 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
+
+示例1 段落：
+[1] Couch R P, Rossback D R, Burgess R W, et al. Sensing incipient engine failure with electrostatic probes. Instrumentation for Airbreathing Propulsion, Proceeding of the Symposium. 1972: 519- 529. [2] Cartwright R A, Fisher C. Marine gas turbine condition monitoring by gas path electrostatic detection techniques. International Gas Turbine and Aero- engine Congress and Exposition. 1991. [3] Powrie H E G, Mnicholas K. Gas path condition monitoring during accelerated mission testing of a demonstrator engine. AIAA- 1997- 2904, 1997. [4] Powrie H E G, Novis A. Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM. IEEE Aerospace Conference Proceedings. 2006. [5] Wen Z H, Zuo H F, Li Y H. Gas path debris electrostatic monitoring technology and experiment. Journal of Aerospace Power. 2008, 23(12): 2321- 2326. (in Chinese) 文振华，左洪福，李耀华. 气路颗粒静电监测技术及实验. 航空动力学报. 2008, 23(12): 2321- 2326. [6] Li Y H, Zuo H F, Wen Z H. Simulated experiment of aircraft engine gas path debris monitoring technology. Acta Aeronautica et Astronautica Sinica, 2009, 30(4): 604- 608. (in Chinese) 李耀华，左洪福，文振华. 航空发动机气路颗粒静电监测技术模拟实验. 航空学报. 2009, 30(4): 604- 608. [7] Li Y H, Zuo H F, Liu P P. Gas path electrostatic monitoring of turbo- shaft engine: an exploratory experiment. Acta Aeronautica et Astronautica Sinica, 2010, 31(11): 2174- 2181. (in Chinese) 李耀华，左洪福，刘鹏鹏. 某型航空涡轮轴发动机尾气静电监测探索性实验. 航空学报. 2010, 31(11): 2174- 2181. [8] Sorokin A, Arnold F. Electrically charged small soot particles in the exhaust of an air craft gas turbine engine combustor: comparison of model and experiment. Atmospheric Environment, 2004, 38(17): 2611- 2618. [9] Yan C J, Fan W. Combustion. Xi'an: Northwestern Polytechnical University Press, 2005. (in Chinese)
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "静电监测技术"
+    }
+  ]
+}
+```
+
+示例2 段落：
+[4] FU Y,ZUO H,WANG R,et al. A monitoring experiment for gas path electrostatic probe- type sensor on turbojet engine . In- formation Technology Journal,2013,12(2) :331- 337. [5] SUN J,ZUO H,LIU P,et al. Experimental study on engine gas- path component fault monitoring using exhaust gas electrostatic signal . Measurement Science and Technology,2013,24 (12):125107. [6]秦海勤，徐可君，欧建平.关于盲源分离技术的航空发动机振动信号分析 .北京航空航天大学学报，2010，36（11）：1307- 4310. QIN H Q,XU K J,OU J P. Analysis of aero- engine vibration signal based on blind source separation technology . Journal of Beijing University of Aeronautics and Astronautics,2010,36 (11):1307- 4310{ in Chinese} . [7] POWRIE H,FISHER C E. Engine health monitoring: Towards total prognostics [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press,1999,3:11- 20. [8] FISHER C E. Gas path debris monitoring- A 21st century PHM tool [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press,2000:441- 448. [9] FISHER C E. Data and information fusion for gas path debris monitoring [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press,2001:3017- 3022. [10] POWRIE H,WOOD R,HERVEY T,et al. Electrostatic charge generation associated with machinery component deterioration [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press,2002:2927- 2934. [11] NOVIS A,POWRIE H. PHM sensor implementation in the real world- A status report [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press,2006,3:1- 9. [12] POWRIE H,NOVIS A. Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM [J] // Proceedings of IEEE Aerospace Conference. Piscataway, NJ: IEEE Press, 2006,2:1- 8. [13] GREEN R G,RAHMAT M F,EVANS K,et al. Concentration profiles of dry powders in a gravity conveyor using an electrodynamic tomography system . Measurement Science and Technology,1997,8(2) :192. [14] RAHMAT M F,ISA M D,JUSUFF K,et al. Image reconstruction algorithm for electric charge tomography system [J] . American Journal of Applied Sciences,2010,7 (9): 1254- 1263. [15] THUKU I T,RAHMAT M F,WAHAB N A,et al. 2- D finite- element modeling of electrostatic sensor for tomography system . Sensor Review,2013,33(2) :104- 113. [16] MACHIDA M,KAMINOYAMA M. Sensor design for development of tribo- electrohomography system with increased number of sensors [J. Journal of Visualization,2008,11(4) :375- 385. [17] TANG X,HU Z,CHEN Z S,et al. Investigation into spatial sensitivity of probe- type electrostatic sensors for on- line condition monitoring of heat engines [J. Applied Mechanics & Materials,2013,437(10):817- 822. [18] TANG X,LI Y,CHEN Z S,et al. An exhaust debris monitoring method for gas turbine PHM by using a planar array of hemisphere- shaped electrostatic sensors [J] // Prognostics and Sys-
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空发动机"
+    }
+  ]
+}
+```
+
+示例3 段落：
+[1] Couch R P, Rossback D R, Burgess R W, et al. Sensing incipient engine failure with electrostatic probes. Instrumentation for Airbreathing Propulsion, Proceeding of the Symposium. 1972: 519- 529. [2] Cartwright R A, Fisher C. Marine gas turbine condition monitoring by gas path electrostatic detection techniques. International Gas Turbine and Aero- engine Congress and Exposition. 1991. [3] Powrie H E G, Mnicholas K. Gas path condition monitoring during accelerated mission testing of a demonstrator engine. AIAA- 1997- 2904, 1997. [4] Powrie H E G, Novis A. Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM. IEEE Aerospace Conference Proceedings. 2006. [5] Wen Z H, Zuo H F, Li Y H. Gas path debris electrostatic monitoring technology and experiment. Journal of Aerospace Power. 2008, 23(12): 2321- 2326. (in Chinese) 文振华，左洪福，李耀华. 气路颗粒静电监测技术及实验. 航空动力学报. 2008, 23(12): 2321- 2326. [6] Li Y H, Zuo H F, Wen Z H. Simulated experiment of aircraft engine gas path debris monitoring technology. Acta Aeronautica et Astronautica Sinica, 2009, 30(4): 604- 608. (in Chinese) 李耀华，左洪福，文振华. 航空发动机气路颗粒静电监测技术模拟实验. 航空学报. 2009, 30(4): 604- 608. [7] Li Y H, Zuo H F, Liu P P. Gas path electrostatic monitoring of turbo- shaft engine: an exploratory experiment. Acta Aeronautica et Astronautica Sinica, 2010, 31(11): 2174- 2181. (in Chinese) 李耀华，左洪福，刘鹏鹏. 某型航空涡轮轴发动机尾气静电监测探索性实验. 航空学报. 2010, 31(11): 2174- 2181. [8] Sorokin A, Arnold F. Electrically charged small soot particles in the exhaust of an air craft gas turbine engine combustor: comparison of model and experiment. Atmospheric Environment, 2004, 38(17): 2611- 2618. [9] Yan C J, Fan W. Combustion. Xi'an: Northwestern Polytechnical University Press, 2005. (in Chinese)
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "静电监测技术"
+    }
+  ]
+}
+```

@@ -1,0 +1,287 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空状态监测传感器"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统"
+    },
+    {
+      "type": "技术",
+      "text": "MEMS"
+    },
+    {
+      "type": "技术",
+      "text": "光纤传感技术"
+    },
+    {
+      "type": "技术",
+      "text": "无线传感网络"
+    },
+    {
+      "type": "技术",
+      "text": "静电感应技术"
+    },
+    {
+      "type": "技术",
+      "text": "光电传感技术"
+    },
+    {
+      "type": "技术",
+      "text": "微弱电磁传感技术"
+    },
+    {
+      "type": "研究对象",
+      "text": "智能材料"
+    },
+    {
+      "type": "研究对象",
+      "text": "形状记忆合金"
+    },
+    {
+      "type": "研究对象",
+      "text": "熔凝石英"
+    },
+    {
+      "type": "研究对象",
+      "text": "弹性合金"
+    },
+    {
+      "type": "研究对象",
+      "text": "纳米材料"
+    },
+    {
+      "type": "研究对象",
+      "text": "左手材料"
+    },
+    {
+      "type": "技术",
+      "text": "光学传感器"
+    },
+    {
+      "type": "技术",
+      "text": "光纤光栅传感器"
+    },
+    {
+      "type": "技术",
+      "text": "分布式光纤传感系统"
+    },
+    {
+      "type": "技术",
+      "text": "光子晶体光纤传感器"
+    },
+    {
+      "type": "技术",
+      "text": "蓝宝石FBG传感器"
+    },
+    {
+      "type": "技术",
+      "text": "塑料光纤传感器"
+    },
+    {
+      "type": "技术",
+      "text": "光纤光栅水听器"
+    },
+    {
+      "type": "技术",
+      "text": "光纤微弯传感器"
+    },
+    {
+      "type": "研究对象",
+      "text": "硅微陀螺"
+    },
+    {
+      "type": "研究对象",
+      "text": "硅加速度计"
+    },
+    {
+      "type": "研究对象",
+      "text": "微型惯性测量装置"
+    },
+    {
+      "type": "研究对象",
+      "text": "智能轮胎"
+    },
+    {
+      "type": "研究对象",
+      "text": "压力带"
+    },
+    {
+      "type": "研究对象",
+      "text": "多芯片模块"
+    },
+    {
+      "type": "研究对象",
+      "text": "压电传感器网络"
+    },
+    {
+      "type": "研究对象",
+      "text": "光纤传感器网络"
+    },
+    {
+      "type": "研究对象",
+      "text": "分布式传感器网络"
+    },
+    {
+      "type": "研究对象",
+      "text": "集成的无线网络传感器"
+    },
+    {
+      "type": "研究对象",
+      "text": "智能尘埃"
+    },
+    {
+      "type": "研究对象",
+      "text": "无线嵌入式系统"
+    },
+    {
+      "type": "研究对象",
+      "text": "嵌入式网络传感"
+    },
+    {
+      "type": "研究对象",
+      "text": "发动机气路颗粒物检测系统IDMS/EDMS"
+    },
+    {
+      "type": "研究对象",
+      "text": "油品传感器OCM"
+    },
+    {
+      "type": "研究对象",
+      "text": "全液流金属屑末在线监测传感器Metal-SCAN"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修停飞期缩短了50%"
+    },
+    {
+      "type": "性能指标",
+      "text": "减少故障30%"
+    },
+    {
+      "type": "性能指标",
+      "text": "每年节约维修费用约6000万美元"
+    },
+    {
+      "type": "性能指标",
+      "text": "提高安装效率5倍"
+    },
+    {
+      "type": "性能指标",
+      "text": "提高精度10倍"
+    },
+    {
+      "type": "性能指标",
+      "text": "在线检测出100μm的铁磁性和非铁磁性金属磨粒"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "航空状态监测传感器",
+      "to_entity": "飞机健康管理系统",
+      "relation": "是基础"
+    },
+    {
+      "from_entity": "MEMS",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "光纤传感技术",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "无线传感网络",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "静电感应技术",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "光电传感技术",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "微弱电磁传感技术",
+      "to_entity": "航空状态监测传感器",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "智能材料",
+      "to_entity": "传感器技术",
+      "relation": "支撑"
+    },
+    {
+      "from_entity": "光学传感器",
+      "to_entity": "传统传感机理",
+      "relation": "深度扩展"
+    },
+    {
+      "from_entity": "MEMS技术",
+      "to_entity": "智能轮胎",
+      "relation": "嵌入"
+    },
+    {
+      "from_entity": "MEMS技术",
+      "to_entity": "维修停飞期缩短了50%",
+      "relation": "导致"
+    },
+    {
+      "from_entity": "MEMS技术",
+      "to_entity": "减少故障30%",
+      "relation": "导致"
+    },
+    {
+      "from_entity": "MEMS技术",
+      "to_entity": "每年节约维修费用约6000万美元",
+      "relation": "导致"
+    },
+    {
+      "from_entity": "MEMS技术",
+      "to_entity": "机电系统的状态检测",
+      "relation": "设计为分布式结构"
+    },
+    {
+      "from_entity": "压力带",
+      "to_entity": "提高安装效率5倍",
+      "relation": "实现"
+    },
+    {
+      "from_entity": "压力带",
+      "to_entity": "提高精度10倍",
+      "relation": "实现"
+    },
+    {
+      "from_entity": "光纤光栅传感器",
+      "to_entity": "工程结构监测",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "无线传感网络",
+      "to_entity": "传统传感器布线问题",
+      "relation": "解决"
+    },
+    {
+      "from_entity": "静电传感器",
+      "to_entity": "油液状态测量",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "光电传感技术",
+      "to_entity": "油液品质检测",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "微弱电磁传感技术",
+      "to_entity": "在线检测出100μm的铁磁性和非铁磁性金属磨粒",
+      "relation": "实现"
+    }
+  ]
+}

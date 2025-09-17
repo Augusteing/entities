@@ -1,0 +1,431 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能装配技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能驾驶舱技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能飞控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能维护技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能材料",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "RFID标签",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电子飞行包",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "电子记录本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机状态监控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "GEnx发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测与健康管理技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "系统",
+      "text": "基于云计算的远程故障诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "概念",
+      "text": "多电飞机技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "基于模型定义",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智能物理信息系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "系统工程方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "模式识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "数据挖掘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "虚拟现实技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "概念",
+      "text": "计算机视觉技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "概念",
+      "text": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "波音787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "中国商用飞机有限责任公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "C919大型客机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "CR929宽体飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "北研中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "鬼怪工厂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "因斯特公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "扫描鹰无人机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "回声航行者",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "AlphaGo",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "Waston",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "Face++",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实体",
+      "text": "Google",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "Facebook",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "IBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "百度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "阿里巴巴",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "腾讯",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "滴滴出行",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "科大讯飞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "国务院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "新一代人工智能发展规划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "达特茅斯会议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "entity",
+      "text": "专家系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "entity",
+      "text": "电致变色玻璃",
+      "evaluation": "错误"
+    },
+    {
+      "type": "entity",
+      "text": "液晶材料",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "人工智能",
+      "tail": "波音787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "智能装配技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "智能驾驶舱技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "智能飞控系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "智能维护技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "智能材料",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能应用",
+      "tail": "RFID标签",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "电子飞行包",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "电子记录本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "飞机状态监控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "GEnx发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机健康管理系统",
+      "tail": "故障预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "研究人员",
+      "tail": "基于云计算的远程故障诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "多电飞机技术",
+      "tail": "电能",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "基于模型定义",
+      "tail": "智能制造",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能物理信息系统",
+      "tail": "物联网",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "智能物理信息系统",
+      "tail": "虚拟现实",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "模式识别",
+      "tail": "管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "数据挖掘",
+      "tail": "管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "虚拟现实技术",
+      "tail": "客舱",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "计算机视觉技术",
+      "tail": "客舱",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "AlphaGo",
+      "tail": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发",
+      "head": "Google",
+      "tail": "AlphaGo",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发",
+      "head": "IBM",
+      "tail": "Waston",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "中信银行",
+      "tail": "Face++",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出",
+      "head": "达特茅斯会议",
+      "tail": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "普及",
+      "head": "专家系统",
+      "tail": "AI产业化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "波音787",
+      "tail": "电致变色玻璃",
+      "evaluation": "正确"
+    },
+    {
+      "type": "制作",
+      "head": "电致变色玻璃",
+      "tail": "液晶材料",
+      "evaluation": "错误"
+    }
+  ]
+}

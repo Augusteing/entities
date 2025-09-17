@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "基于自训练权重的多尺度ABiLSTM模型"
+    },
+    {
+      "type": "算法",
+      "text": "双向长短期记忆神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "长短时记忆神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "循环神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "注意力机制"
+    },
+    {
+      "type": "算法",
+      "text": "自训练权重"
+    },
+    {
+      "type": "算法",
+      "text": "卷积神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "多层感知机"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归"
+    },
+    {
+      "type": "算法",
+      "text": "卷积自编码LSTM"
+    },
+    {
+      "type": "算法",
+      "text": "三尺度ABiLSTM"
+    },
+    {
+      "type": "算法",
+      "text": "四尺度ABiLSTM"
+    },
+    {
+      "type": "算法",
+      "text": "三尺度BiLSTM"
+    },
+    {
+      "type": "算法",
+      "text": "Transformer"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确率"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "96.33%准确率"
+    },
+    {
+      "type": "研究结果",
+      "text": "7.27 RMSE"
+    },
+    {
+      "type": "研究结果",
+      "text": "准确率和RMSE指标上优于三尺度ABiLSTM模型1.86%和1.49%"
+    },
+    {
+      "type": "研究结果",
+      "text": "RMSE指标上优于四尺度BiLSTM 1.73%"
+    },
+    {
+      "type": "研究结果",
+      "text": "准确率和RMSE指标上均优于CAE-LSTM模型1.96%和31.92%"
+    },
+    {
+      "type": "研究结果",
+      "text": "较CNN模型RMSE降低了20.87%"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA的C-MAPSS数据集"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于自训练权重的多尺度ABiLSTM模型"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "自训练权重"
+    },
+    {
+      "type": "发展为",
+      "head": "循环神经网络",
+      "tail": "长短时记忆神经网络"
+    },
+    {
+      "type": "基于",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "自训练权重"
+    },
+    {
+      "type": "基于",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "注意力机制"
+    },
+    {
+      "type": "基于",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "双向长短期记忆神经网络"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "准确率"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "均方根误差"
+    },
+    {
+      "type": "数据集是",
+      "head": "本文实验",
+      "tail": "NASA的C-MAPSS数据集"
+    },
+    {
+      "type": "得出",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "96.33%准确率"
+    },
+    {
+      "type": "得出",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "7.27 RMSE"
+    },
+    {
+      "type": "得出",
+      "head": "基于自训练权重的多尺度ABiLSTM模型",
+      "tail": "准确率和RMSE指标上优于三尺度ABiLSTM模型1.86%和1.49%"
+    },
+    {
+      "type": "得出",
+      "head": "三尺度BiLSTM",
+      "tail": "RMSE指标上优于四尺度BiLSTM 1.73%"
+    },
+    {
+      "type": "得出",
+      "head": "三尺度ABiLSTM",
+      "tail": "准确率和RMSE指标上均优于CAE-LSTM模型1.96%和31.92%"
+    },
+    {
+      "type": "得出",
+      "head": "长短时记忆神经网络",
+      "tail": "较CNN模型RMSE降低了20.87%"
+    },
+    {
+      "type": "后续研究",
+      "head": "本文",
+      "tail": "Transformer"
+    }
+  ]
+}

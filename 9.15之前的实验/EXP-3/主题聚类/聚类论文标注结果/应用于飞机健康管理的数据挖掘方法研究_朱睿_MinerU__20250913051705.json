@@ -1,0 +1,473 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "数据挖掘技术"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统"
+    },
+    {
+      "type": "目标",
+      "text": "优化飞机关键部件寿命"
+    },
+    {
+      "type": "目标",
+      "text": "减少飞机运行和维护的费用"
+    },
+    {
+      "type": "系统",
+      "text": "机载数据采集、管理系统"
+    },
+    {
+      "type": "系统",
+      "text": "空地数据通信系统"
+    },
+    {
+      "type": "数据源",
+      "text": "飞机运行和维护相关的数据资源"
+    },
+    {
+      "type": "系统",
+      "text": "CMCS(Central Maintenance Computing System)"
+    },
+    {
+      "type": "数据源",
+      "text": "实时报文"
+    },
+    {
+      "type": "数据源",
+      "text": "飞机维护技术文档"
+    },
+    {
+      "type": "数据源",
+      "text": "历史维护经验"
+    },
+    {
+      "type": "目标",
+      "text": "提高维修的效率"
+    },
+    {
+      "type": "目标",
+      "text": "提高飞机的利用率"
+    },
+    {
+      "type": "目标",
+      "text": "提高飞行安全性"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统AHMS"
+    },
+    {
+      "type": "技术手段",
+      "text": "数据清洗"
+    },
+    {
+      "type": "技术手段",
+      "text": "转换"
+    },
+    {
+      "type": "技术手段",
+      "text": "汇总"
+    },
+    {
+      "type": "技术手段",
+      "text": "抽取"
+    },
+    {
+      "type": "方法",
+      "text": "基于事例的推理方法(CBR- Case Based Reasoning)"
+    },
+    {
+      "type": "数据库",
+      "text": "CBR数据库"
+    },
+    {
+      "type": "数据源",
+      "text": "飞行实时数据"
+    },
+    {
+      "type": "数据结构",
+      "text": "维护方案矩阵"
+    },
+    {
+      "type": "数据库",
+      "text": "维护方案库"
+    },
+    {
+      "type": "知识",
+      "text": "潜在的知识和规律"
+    },
+    {
+      "type": "模块",
+      "text": "CBR模块"
+    },
+    {
+      "type": "模块",
+      "text": "维护方案模块"
+    },
+    {
+      "type": "模块",
+      "text": "KDD(Knowledge Discovery in Database)模块"
+    },
+    {
+      "type": "模块",
+      "text": "数据源反馈模块"
+    },
+    {
+      "type": "数据源",
+      "text": "Fault Isolation Manual,FIM"
+    },
+    {
+      "type": "数据源",
+      "text": "Aircraft Maintenance Manual,AMM"
+    },
+    {
+      "type": "数据源",
+      "text": "重复故障库"
+    },
+    {
+      "type": "数据源",
+      "text": "实时故障报文"
+    },
+    {
+      "type": "算法",
+      "text": "规则归纳"
+    },
+    {
+      "type": "算法",
+      "text": "异常检测"
+    },
+    {
+      "type": "算法",
+      "text": "聚集"
+    },
+    {
+      "type": "数据挖掘类别",
+      "text": "描述性数据挖掘"
+    },
+    {
+      "type": "数据挖掘类别",
+      "text": "预言性数据挖掘"
+    },
+    {
+      "type": "方法",
+      "text": "分类"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络算法"
+    },
+    {
+      "type": "算法",
+      "text": "决策树算法"
+    },
+    {
+      "type": "数据库",
+      "text": "范例库"
+    },
+    {
+      "type": "数据源",
+      "text": "AMTAC(Aircraft Maintenance Tracking And Control)维护记录"
+    },
+    {
+      "type": "技术",
+      "text": "信息提取技术IE(Information Extraction)"
+    },
+    {
+      "type": "数据库软件",
+      "text": "Oracle数据库"
+    },
+    {
+      "type": "数据",
+      "text": "CFD报文"
+    },
+    {
+      "type": "数据",
+      "text": "故障代码(CFD_CODE)"
+    },
+    {
+      "type": "数据",
+      "text": "故障信息(CFD_MESSAGE)"
+    },
+    {
+      "type": "编程语言",
+      "text": "Java编程语言"
+    },
+    {
+      "type": "产出",
+      "text": "实时维护方案"
+    },
+    {
+      "type": "性能指标",
+      "text": "精确性高"
+    },
+    {
+      "type": "性能指标",
+      "text": "可解释性好"
+    },
+    {
+      "type": "数据",
+      "text": "异常因子"
+    }
+  ],
+  "relations": [
+    {
+      "type": "旨在",
+      "head": "飞机健康管理系统",
+      "tail": "优化飞机关键部件寿命"
+    },
+    {
+      "type": "旨在",
+      "head": "飞机健康管理系统",
+      "tail": "减少飞机运行和维护的费用"
+    },
+    {
+      "type": "应用于",
+      "head": "数据挖掘技术",
+      "tail": "飞机健康管理系统"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "CBR模块"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "维护方案模块"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "KDD(Knowledge Discovery in Database)模块"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "数据源反馈模块"
+    },
+    {
+      "type": "以...为数据源",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "以...为数据源",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "历史维护经验"
+    },
+    {
+      "type": "使用",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "基于事例的推理方法(CBR- Case Based Reasoning)"
+    },
+    {
+      "type": "构建",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "CBR数据库"
+    },
+    {
+      "type": "调用",
+      "head": "飞行实时数据",
+      "tail": "CBR数据库"
+    },
+    {
+      "type": "补充",
+      "head": "实时维护方案",
+      "tail": "历史维护经验"
+    },
+    {
+      "type": "生成",
+      "head": "实时维护方案",
+      "tail": "维护方案矩阵"
+    },
+    {
+      "type": "挖掘",
+      "head": "数据挖掘技术",
+      "tail": "维护方案库"
+    },
+    {
+      "type": "完善",
+      "head": "数据挖掘技术",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "实现",
+      "head": "飞机健康管理系统AHMS",
+      "tail": "系统的自我升级"
+    },
+    {
+      "type": "任务是构建",
+      "head": "CBR模块",
+      "tail": "CBR数据库"
+    },
+    {
+      "type": "采用方法",
+      "head": "CBR模块",
+      "tail": "基于事例的推理方法(CBR- Case Based Reasoning)"
+    },
+    {
+      "type": "采用方法",
+      "head": "CBR模块",
+      "tail": "信息提取技术IE(Information Extraction)"
+    },
+    {
+      "type": "生成",
+      "head": "维护方案模块",
+      "tail": "维护方案库"
+    },
+    {
+      "type": "采用方法",
+      "head": "维护方案模块",
+      "tail": "规则归纳"
+    },
+    {
+      "type": "采用方法",
+      "head": "维护方案模块",
+      "tail": "决策树算法"
+    },
+    {
+      "type": "采用方法",
+      "head": "维护方案模块",
+      "tail": "神经网络算法"
+    },
+    {
+      "type": "挖掘",
+      "head": "KDD(Knowledge Discovery in Database)模块",
+      "tail": "潜在的知识和规律"
+    },
+    {
+      "type": "基于",
+      "head": "KDD(Knowledge Discovery in Database)模块",
+      "tail": "维护方案库"
+    },
+    {
+      "type": "采用方法",
+      "head": "KDD(Knowledge Discovery in Database)模块",
+      "tail": "规则归纳"
+    },
+    {
+      "type": "采用方法",
+      "head": "KDD(Knowledge Discovery in Database)模块",
+      "tail": "异常检测"
+    },
+    {
+      "type": "采用方法",
+      "head": "KDD(Knowledge Discovery in Database)模块",
+      "tail": "聚集"
+    },
+    {
+      "type": "功能是完善",
+      "head": "数据源反馈模块",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "分为",
+      "head": "数据挖掘技术",
+      "tail": "描述性数据挖掘"
+    },
+    {
+      "type": "分为",
+      "head": "数据挖掘技术",
+      "tail": "预言性数据挖掘"
+    },
+    {
+      "type": "包括",
+      "head": "描述性数据挖掘",
+      "tail": "异常检测"
+    },
+    {
+      "type": "包括",
+      "head": "描述性数据挖掘",
+      "tail": "聚集"
+    },
+    {
+      "type": "采用方法",
+      "head": "预言性数据挖掘",
+      "tail": "分类"
+    },
+    {
+      "type": "可采用",
+      "head": "分类",
+      "tail": "神经网络算法"
+    },
+    {
+      "type": "可采用",
+      "head": "分类",
+      "tail": "决策树算法"
+    },
+    {
+      "type": "基于...构建",
+      "head": "CBR数据库",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "借助...修正",
+      "head": "CBR数据库",
+      "tail": "历史维护经验"
+    },
+    {
+      "type": "使用",
+      "head": "范例库构建",
+      "tail": "信息提取技术IE(Information Extraction)"
+    },
+    {
+      "type": "建议使用",
+      "head": "CBR数据库",
+      "tail": "Oracle数据库"
+    },
+    {
+      "type": "提取",
+      "head": "维护方案模块",
+      "tail": "故障代码(CFD_CODE)"
+    },
+    {
+      "type": "提取",
+      "head": "维护方案模块",
+      "tail": "故障信息(CFD_MESSAGE)"
+    },
+    {
+      "type": "用于建立",
+      "head": "神经网络算法",
+      "tail": "预言模块"
+    },
+    {
+      "type": "具有",
+      "head": "神经网络算法",
+      "tail": "精确性高"
+    },
+    {
+      "type": "适用于",
+      "head": "决策树算法",
+      "tail": "维护方案的可视化"
+    },
+    {
+      "type": "具有",
+      "head": "决策树算法",
+      "tail": "可解释性好"
+    },
+    {
+      "type": "用于",
+      "head": "规则归纳算法",
+      "tail": "关联规则"
+    },
+    {
+      "type": "用于",
+      "head": "规则归纳算法",
+      "tail": "特征规则"
+    },
+    {
+      "type": "计算",
+      "head": "异常检测算法",
+      "tail": "异常因子"
+    },
+    {
+      "type": "用于",
+      "head": "聚集算法",
+      "tail": "将维护方案分为不同的聚集"
+    }
+  ]
+}

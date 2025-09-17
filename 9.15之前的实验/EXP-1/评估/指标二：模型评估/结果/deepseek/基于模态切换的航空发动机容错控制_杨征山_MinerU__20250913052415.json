@@ -1,0 +1,255 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "基于模态切换的航空发动机容错控制系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模式",
+      "text": "任务级模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模式",
+      "text": "发动机级模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Kalman滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "推力模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "推力估计器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "推力补偿器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "模糊控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "喘振裕度控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "压气机转速控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "风扇转速控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制器",
+      "text": "涡轮后温度控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "回路",
+      "text": "压气机转速控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "回路",
+      "text": "风扇转速控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "回路",
+      "text": "涡轮后温度控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "回路",
+      "text": "容错控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压气机转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "风扇转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "涡轮后温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发动机增压比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "主燃油流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "尾喷管面积",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "油门杆角度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "喘振裕度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "中间状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "慢车状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "节流状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "稳态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "加速过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "推力恢复",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "100%恢复发动机推力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "3s内平稳切换",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "设计了",
+      "head": "杨征山等",
+      "tail": "基于模态切换的航空发动机容错控制系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "基于模态切换的航空发动机容错控制系统",
+      "tail": "任务级模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "基于模态切换的航空发动机容错控制系统",
+      "tail": "发动机级模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "任务级模式",
+      "tail": "发动机部件故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "发动机级模式",
+      "tail": "传感器故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "推力估计器",
+      "tail": "Kalman滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "切换为",
+      "head": "压气机转速控制回路",
+      "tail": "风扇转速控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "切换为",
+      "head": "涡轮后温度控制回路",
+      "tail": "压气机转速控制回路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制",
+      "head": "压气机转速控制器",
+      "tail": "压气机转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制",
+      "head": "风扇转速控制器",
+      "tail": "风扇转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "控制",
+      "head": "涡轮后温度控制器",
+      "tail": "涡轮后温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "容错控制系统",
+      "tail": "推力恢复",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真结果",
+      "tail": "100%恢复发动机推力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真结果",
+      "tail": "3s内平稳切换",
+      "evaluation": "错误"
+    }
+  ]
+}

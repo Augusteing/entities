@@ -1,0 +1,764 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "健康监测与预测系统"
+    },
+    {
+      "type": "系统",
+      "text": "HUMS"
+    },
+    {
+      "type": "系统",
+      "text": "PHM"
+    },
+    {
+      "type": "系统",
+      "text": "CMS"
+    },
+    {
+      "type": "技术",
+      "text": "先进传感器技术"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断与健康评估技术"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测技术"
+    },
+    {
+      "type": "技术",
+      "text": "数据融合技术"
+    },
+    {
+      "type": "技术",
+      "text": "系统验证与评价技术"
+    },
+    {
+      "type": "方法",
+      "text": "状态监测"
+    },
+    {
+      "type": "方法",
+      "text": "健康评估"
+    },
+    {
+      "type": "方法",
+      "text": "故障诊断"
+    },
+    {
+      "type": "方法",
+      "text": "故障预测"
+    },
+    {
+      "type": "方法",
+      "text": "数据融合"
+    },
+    {
+      "type": "方法",
+      "text": "系统验证"
+    },
+    {
+      "type": "方法",
+      "text": "系统评价"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯推论"
+    },
+    {
+      "type": "算法",
+      "text": "D-S证据理论"
+    },
+    {
+      "type": "算法",
+      "text": "模糊逻辑推论"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络"
+    },
+    {
+      "type": "概念",
+      "text": "基于状态的维修"
+    },
+    {
+      "type": "概念",
+      "text": "CBM"
+    },
+    {
+      "type": "概念",
+      "text": "PHM技术"
+    },
+    {
+      "type": "概念",
+      "text": "综合诊断"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测与健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "状态监控"
+    },
+    {
+      "type": "概念",
+      "text": "故障检测"
+    },
+    {
+      "type": "概念",
+      "text": "预测维护"
+    },
+    {
+      "type": "概念",
+      "text": "决策支持"
+    },
+    {
+      "type": "概念",
+      "text": "智能诊断"
+    },
+    {
+      "type": "概念",
+      "text": "数据采集"
+    },
+    {
+      "type": "概念",
+      "text": "信号处理"
+    },
+    {
+      "type": "概念",
+      "text": "模式识别"
+    },
+    {
+      "type": "概念",
+      "text": "人工智能"
+    },
+    {
+      "type": "概念",
+      "text": "建模仿真技术"
+    },
+    {
+      "type": "概念",
+      "text": "软件技术"
+    },
+    {
+      "type": "概念",
+      "text": "先进传感器技术"
+    },
+    {
+      "type": "概念",
+      "text": "现代信息技术"
+    },
+    {
+      "type": "概念",
+      "text": "故障模式"
+    },
+    {
+      "type": "概念",
+      "text": "失效机理"
+    },
+    {
+      "type": "概念",
+      "text": "退化过程"
+    },
+    {
+      "type": "概念",
+      "text": "健康状态"
+    },
+    {
+      "type": "概念",
+      "text": "性能降级"
+    },
+    {
+      "type": "概念",
+      "text": "故障隔离"
+    },
+    {
+      "type": "概念",
+      "text": "失效时间预测"
+    },
+    {
+      "type": "概念",
+      "text": "维修决策"
+    },
+    {
+      "type": "概念",
+      "text": "置信区间"
+    },
+    {
+      "type": "概念",
+      "text": "不确定性"
+    },
+    {
+      "type": "概念",
+      "text": "风险-收益分析"
+    },
+    {
+      "type": "概念",
+      "text": "定量性能评价"
+    },
+    {
+      "type": "概念",
+      "text": "验证方法"
+    },
+    {
+      "type": "概念",
+      "text": "指标体系"
+    },
+    {
+      "type": "概念",
+      "text": "系统集成"
+    },
+    {
+      "type": "概念",
+      "text": "并行工程"
+    },
+    {
+      "type": "概念",
+      "text": "智能数据融合"
+    },
+    {
+      "type": "概念",
+      "text": "故障注入数据"
+    },
+    {
+      "type": "概念",
+      "text": "高信噪比"
+    },
+    {
+      "type": "概念",
+      "text": "传感器布局优化"
+    },
+    {
+      "type": "概念",
+      "text": "电子产品故障预测"
+    },
+    {
+      "type": "概念",
+      "text": "BIT能力"
+    },
+    {
+      "type": "概念",
+      "text": "CND"
+    },
+    {
+      "type": "概念",
+      "text": "虚警率"
+    },
+    {
+      "type": "概念",
+      "text": "寿命消耗监控"
+    },
+    {
+      "type": "概念",
+      "text": "LCM"
+    },
+    {
+      "type": "概念",
+      "text": "故障征兆技术"
+    },
+    {
+      "type": "概念",
+      "text": "precursor技术"
+    },
+    {
+      "type": "实体",
+      "text": "直升机"
+    },
+    {
+      "type": "实体",
+      "text": "固定翼飞机"
+    },
+    {
+      "type": "实体",
+      "text": "民用大型飞机"
+    },
+    {
+      "type": "实体",
+      "text": "发动机"
+    },
+    {
+      "type": "实体",
+      "text": "传动系统"
+    },
+    {
+      "type": "实体",
+      "text": "机体"
+    },
+    {
+      "type": "实体",
+      "text": "旋翼"
+    },
+    {
+      "type": "实体",
+      "text": "航空电子系统"
+    },
+    {
+      "type": "实体",
+      "text": "机电系统"
+    },
+    {
+      "type": "实体",
+      "text": "飞机结构"
+    },
+    {
+      "type": "实体",
+      "text": "传感器"
+    },
+    {
+      "type": "实体",
+      "text": "数据采集单元"
+    },
+    {
+      "type": "实体",
+      "text": "处理单元"
+    },
+    {
+      "type": "实体",
+      "text": "模块化系统"
+    },
+    {
+      "type": "实体",
+      "text": "GenHUMS"
+    },
+    {
+      "type": "entity",
+      "text": "UHUMS"
+    },
+    {
+      "type": "entity",
+      "text": "MHUMS"
+    },
+    {
+      "type": "entity",
+      "text": "EUROHUMS"
+    },
+    {
+      "type": "entity",
+      "text": "M'ARMS"
+    },
+    {
+      "type": "entity",
+      "text": "ACMS"
+    },
+    {
+      "type": "entity",
+      "text": "EMS"
+    },
+    {
+      "type": "entity",
+      "text": "IDPS"
+    },
+    {
+      "type": "entity",
+      "text": "ICAS"
+    },
+    {
+      "type": "entity",
+      "text": "IVHM"
+    },
+    {
+      "type": "entity",
+      "text": "ICA"
+    },
+    {
+      "type": "entity",
+      "text": "ADIP"
+    },
+    {
+      "type": "entity",
+      "text": "IMD-HUMS"
+    },
+    {
+      "type": "entity",
+      "text": "AHM"
+    },
+    {
+      "type": "entity",
+      "text": "ACAMS"
+    },
+    {
+      "type": "entity",
+      "text": "F-22A"
+    },
+    {
+      "type": "entity",
+      "text": "F-35"
+    },
+    {
+      "type": "entity",
+      "text": "EF-2000"
+    },
+    {
+      "type": "entity",
+      "text": "阵风战斗机"
+    },
+    {
+      "type": "entity",
+      "text": "B-2轰炸机"
+    },
+    {
+      "type": "entity",
+      "text": "全球鹰无人机"
+    },
+    {
+      "type": "entity",
+      "text": "鹰教练机"
+    },
+    {
+      "type": "entity",
+      "text": "C-130运输机"
+    },
+    {
+      "type": "entity",
+      "text": "P-8A飞机"
+    },
+    {
+      "type": "entity",
+      "text": "CH-53E"
+    },
+    {
+      "type": "entity",
+      "text": "MH-53E"
+    },
+    {
+      "type": "entity",
+      "text": "AH-64"
+    },
+    {
+      "type": "entity",
+      "text": "UH-60"
+    },
+    {
+      "type": "entity",
+      "text": "CH-47"
+    },
+    {
+      "type": "entity",
+      "text": "RQ-7A/B"
+    },
+    {
+      "type": "entity",
+      "text": "B777"
+    },
+    {
+      "type": "entity",
+      "text": "B747-400"
+    },
+    {
+      "type": "entity",
+      "text": "B757"
+    },
+    {
+      "type": "数值",
+      "text": "10%"
+    },
+    {
+      "type": "数值",
+      "text": "25%"
+    },
+    {
+      "type": "数值",
+      "text": "200万小时"
+    },
+    {
+      "type": "数值",
+      "text": "2000万美元"
+    },
+    {
+      "type": "数值",
+      "text": "180多架"
+    },
+    {
+      "type": "数值",
+      "text": "750架"
+    },
+    {
+      "type": "数值",
+      "text": "400套"
+    },
+    {
+      "type": "数值",
+      "text": "70架"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包括",
+      "head": "健康监测与预测系统",
+      "tail": "先进传感器技术"
+    },
+    {
+      "type": "包括",
+      "head": "健康监测与预测系统",
+      "tail": "故障诊断与健康评估技术"
+    },
+    {
+      "type": "包括",
+      "head": "健康监测与预测系统",
+      "tail": "故障预测技术"
+    },
+    {
+      "type": "包括",
+      "head": "健康监测与预测系统",
+      "tail": "数据融合技术"
+    },
+    {
+      "type": "包括",
+      "head": "健康监测与预测系统",
+      "tail": "系统验证与评价技术"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "直升机"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM",
+      "tail": "固定翼飞机"
+    },
+    {
+      "type": "应用于",
+      "head": "CMS",
+      "tail": "民用大型飞机"
+    },
+    {
+      "type": "发展自",
+      "head": "PHM",
+      "tail": "HUMS"
+    },
+    {
+      "type": "改进为",
+      "head": "HUMS",
+      "tail": "IHUMS"
+    },
+    {
+      "type": "演化为",
+      "head": "HUMS",
+      "tail": "GenHUMS"
+    },
+    {
+      "type": "演化为",
+      "head": "HUMS",
+      "tail": "UHUMS"
+    },
+    {
+      "type": "演化为",
+      "head": "HUMS",
+      "tail": "MHUMS"
+    },
+    {
+      "type": "演化为",
+      "head": "HUMS",
+      "tail": "EUROHUMS"
+    },
+    {
+      "type": "演化为",
+      "head": "EUROHUMS",
+      "tail": "M'ARMS"
+    },
+    {
+      "type": "提高了",
+      "head": "HUMS",
+      "tail": "10%"
+    },
+    {
+      "type": "节省了",
+      "head": "AHM",
+      "tail": "25%"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断与健康评估技术",
+      "tail": "状态监测"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断与健康评估技术",
+      "tail": "健康评估"
+    },
+    {
+      "type": "基于",
+      "head": "故障诊断与健康评估技术",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "用于",
+      "head": "数据融合技术",
+      "tail": "故障预测"
+    },
+    {
+      "type": "包括",
+      "head": "数据融合技术",
+      "tail": "贝叶斯推论"
+    },
+    {
+      "type": "包括",
+      "head": "数据融合技术",
+      "tail": "D-S证据理论"
+    },
+    {
+      "type": "包括",
+      "head": "数据融合技术",
+      "tail": "模糊逻辑推论"
+    },
+    {
+      "type": "包括",
+      "head": "数据融合技术",
+      "tail": "神经网络"
+    },
+    {
+      "type": "支持",
+      "head": "先进传感器技术",
+      "tail": "数据采集"
+    },
+    {
+      "type": "影响",
+      "head": "传感器",
+      "tail": "诊断算法可靠度"
+    },
+    {
+      "type": "涉及",
+      "head": "故障诊断与健康评估技术",
+      "tail": "信号处理"
+    },
+    {
+      "type": "涉及",
+      "head": "故障诊断与健康评估技术",
+      "tail": "模式识别"
+    },
+    {
+      "type": "涉及",
+      "head": "故障诊断与健康评估技术",
+      "tail": "人工智能"
+    },
+    {
+      "type": "用于",
+      "head": "系统验证与评价技术",
+      "tail": "验证方法"
+    },
+    {
+      "type": "用于",
+      "head": "系统验证与评价技术",
+      "tail": "指标体系"
+    },
+    {
+      "type": "目标是",
+      "head": "健康监测与预测系统",
+      "tail": "基于状态的维修"
+    },
+    {
+      "type": "目标是",
+      "head": "健康监测与预测系统",
+      "tail": "自主式保障"
+    },
+    {
+      "type": "挑战是",
+      "head": "故障预测技术",
+      "tail": "不确定性"
+    },
+    {
+      "type": "需要",
+      "head": "故障预测模型",
+      "tail": "故障演化规律"
+    },
+    {
+      "type": "需要",
+      "head": "故障预测模型",
+      "tail": "失效数据样本"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "F-35"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "F-22A"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "EF-2000"
+    },
+    {
+      "type": "应用于",
+      "head": "PHM技术",
+      "tail": "阵风战斗机"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "AH-64"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "UH-60"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "CH-47"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "CH-53E"
+    },
+    {
+      "type": "应用于",
+      "head": "HUMS",
+      "tail": "MH-53E"
+    },
+    {
+      "type": "应用于",
+      "head": "AHM",
+      "tail": "B777"
+    },
+    {
+      "type": "应用于",
+      "head": "AHM",
+      "tail": "B747-400"
+    },
+    {
+      "type": "应用于",
+      "head": "ACAMS",
+      "tail": "B757"
+    },
+    {
+      "type": "发展于",
+      "head": "健康监测与预测系统",
+      "tail": "20世纪70-80年代"
+    },
+    {
+      "type": "成熟于",
+      "head": "健康监测与预测技术",
+      "tail": "20世纪80年代后期至90年代"
+    },
+    {
+      "type": "趋势是",
+      "head": "健康监测与预测技术",
+      "tail": "系统集成应用"
+    },
+    {
+      "type": "趋势是",
+      "head": "健康监测与预测技术",
+      "tail": "提高诊断与预测精度"
+    },
+    {
+      "type": "趋势是",
+      "head": "健康监测与预测技术",
+      "tail": "扩展应用对象范围"
+    }
+  ]
+}

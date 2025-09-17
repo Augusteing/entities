@@ -1,0 +1,366 @@
+# 实体关系抽取Prompt
+
+## 任务描述
+你的角色是一位专业的学术文献实体关系抽取专家，专精于从航空航天领域科研文献中识别和抽取实体及其关系。你的任务是通读给定文本，抽取文本中出现的核心实体，及其对应的关系，并以JSON格式输出。
+
+## 实体定义
+文献中出现的核心概念、技术、方法、模型、系统、故障、指标或实验结果都可视为实体。实体可以是：
+- **手段/工具**：研究中使用的方法、技术、算法、模型
+- **研究对象**：系统、组件、问题、故障
+- **研究结果**：结论、数据、指标、观察结果
+
+实体代表文本中具有独立意义、可被识别和引用的核心信息单元。
+
+### 航空PHM领域特色实体（文献中常见）
+- **航空设备术语**：发动机、轴承、齿轮箱、叶片等（当文献涉及时）
+- **故障相关概念**：故障模式、失效机理、退化过程、健康状态
+- **监测诊断技术**：信号处理、特征提取、模式识别、智能诊断
+- **预测方法**：寿命预测、趋势预测、健康预测、风险评估
+- **PHM系统概念**：健康管理、状态监测、预测维护、决策支持
+
+### 实体抽取指导原则
+1. **最大化原则**：当不确定是否为实体时，倾向于抽取
+2. **语义独立性**：具有独立含义的词汇或短语都可作为实体
+3. **上下文敏感**：同一词汇在不同上下文中可能是不同类型的实体
+4. **层次包容**：既抽取上位概念也抽取下位概念（如：机器学习 + 深度学习）
+5. **组合概念**：复合概念可拆分为多个实体，也可作为整体实体
+6. **隐含实体**：文中隐含但语义明确的概念也应抽取
+7. **创新优先**：特别关注新提出的概念、方法、发现
+8. **无类型限制**：不预设实体类型，根据实际内容灵活分类
+9. **精细粒度**：优先抽取具体的技术名称、精确的数值、详细的组件名称
+10. **完整覆盖**：确保技术链条中每个关键环节都有对应实体
+11. **上下位词理论应用**：运用语言学上下位词关系进行精确分类
+    - **下位词优先原则**：当实体具有明确的专业术语特征时，使用最具体的下位词作为类型
+    - **词汇形态学指导**：利用词汇的构词特征判断类型（如：含"模型"→模型类型；含"算法"→算法类型；含"函数"→函数类型）
+    - **语义层次识别**：识别概念的语义层次，避免将具体概念泛化为上位概念
+    - **专业术语敏感性**：对学术领域的专业术语保持高敏感度，使用领域内的精确分类
+
+## 关系定义
+文献中的实体之间通常存在逻辑、功能或因果联系。关系类型包括但不限于：
+- **演进关系**：发展为、演化为、改进了、基于、衍生自
+- **创新关系**：提出了、引入了、创新了、突破了
+- **比较关系**：优于、劣于、相似于、区别于、对比
+- **依赖关系**：依据、建立在、借鉴了
+- **功能关系**：应用于、作用于、处理、解决
+- **因果关系**：导致、产生、引起、影响
+- **组成关系**：包含、包括、由...组成
+- **结合关系**：结合、融合、集成
+关系只需反映实体间实际存在的语义联系，具体类型无需严格限定，允许根据上下文灵活判断。
+
+## PHM领域特色关系
+### PHM技术演进关系
+- **算法发展**：传统方法→机器学习→深度学习、基于模型→数据驱动→混合方法
+- **监测技术进步**：接触式→非接触式、单参数→多参数→多传感器融合
+- **系统架构演化**：离线分析→在线监测→实时预警→智能决策
+
+### 故障机理关系
+- **因果链条**：载荷→应力→损伤→裂纹→失效、磨损→间隙增大→振动异常→故障
+- **故障传播**：局部故障→系统故障、单点失效→级联失效、初期故障→发展→严重故障
+- **退化过程**：正常→轻微退化→明显退化→严重退化→失效
+
+### 监测诊断关系
+- **信号-故障映射**：振动信号反映轴承状态、温度变化指示润滑问题、油液分析检测磨损
+- **特征-健康关系**：特征提取→健康评估、多特征融合→综合诊断
+- **传感器-监测对象**：加速度传感器监测振动、温度传感器监测热状态
+
+### 预测决策关系
+- **数据-模型-预测**：历史数据训练模型→模型预测RUL→决策维修时机
+- **健康状态-维修策略**：健康良好→正常运行、轻微退化→加强监测、严重退化→计划维修
+- **预测精度-决策可靠性**：高精度预测→可靠决策、预测不确定性→风险评估
+
+### 系统集成关系
+- **多传感器融合**：振动+温度+油液→综合健康评估
+- **多尺度集成**：部件级+系统级+机队级健康管理
+- **多学科协同**：机械+电子+材料+控制→综合PHM解决方案
+
+### 工程应用关系
+- **实验室-工程应用**：算法验证→工程化→产业化应用
+- **仿真-实际**：数值仿真→台架试验→实际飞行验证
+- **标准-实施**：标准规范→工程实践→效果评估
+
+### 性能评估关系
+- **算法性能比较**：准确率对比、计算复杂度比较、实时性评估
+- **系统效益评估**：成本效益分析、安全性提升、维修效率改进
+- **技术成熟度**：实验室阶段→工程样机→产品化→规模应用
+
+### 关系抽取指导原则
+1. **全面性**：不遗漏任何有意义的实体间联系
+2. **创新性**：特别关注学术文献中的创新关系和技术演进
+3. **灵活性**：关系类型不限于上述分类，可根据实际语义创建新关系
+4. **层次性**：既抽取直接关系也抽取间接关系
+5. **动态性**：关注时间维度上的变化和发展关系
+6. **隐含性**：挖掘文本中隐含但语义明确的关系
+
+## 关系发现策略
+
+### 策略1：动词挖掘法
+- 仔细识别文中所有动词和动词短语，将其作为潜在关系类型
+- 特别关注表示行为、过程、变化的动词
+- 例：文中出现"验证了"→关系类型"验证了"；"显著提升"→关系类型"显著提升"
+
+### 策略2：句式模式识别
+- 识别"A通过B实现C"→关系"通过...实现"
+- 识别"A在B基础上发展出C"→关系"在...基础上发展出"
+- 识别"A相比B提高了X%"→关系"相比...提高了X%"
+
+### 策略3：学术表达捕捉
+- 寻找学术论文特有的表达方式：首次、显著、有效、成功、创新性、突破性等修饰词
+- 将这些修饰词与基础关系结合形成更精确的关系类型
+
+### 策略4：上下文语义分析
+- 分析实体间在特定上下文中的确切关系
+- 避免使用过于宽泛的通用关系，追求语义的精确性
+
+
+
+
+## 领域知识完整性要求
+
+### 技术知识链条完整性
+确保抽取以下技术演进的完整链条，不遗漏关键环节：
+- **算法演进**：从传统方法到先进方法的完整发展路径
+- **系统架构**：从部件到子系统到整体系统的层次关系
+- **性能提升**：具体的性能改进数据和对比结果
+- **工程应用**：从理论到实践的转化过程
+
+### 关键实体覆盖检查
+必须抽取的核心实体类型：
+- **技术方法的具体名称**：包括算法名、模型名、方法名
+- **性能指标的具体数值**：准确率、误差率、提升幅度等
+- **系统组件的详细分类**：传感器、处理器、算法模块等
+- **故障模式的具体类型**：具体的故障名称和特征
+- **评估标准和数据集**：具体的标准名称和数据集名称
+
+### 隐含知识挖掘要求
+主动识别和抽取文中隐含但重要的知识：
+- **技术局限性**：每种方法的适用条件和限制
+- **性能权衡关系**：不同指标之间的平衡关系
+- **工程约束条件**：实际应用中的限制因素
+- **未来发展方向**：文中暗示的技术发展趋势
+
+## schema 定义
+{schema_placeholder}
+
+## 抽取指令
+### 步骤1：实体识别
+1. 仔细阅读给定文本
+2. 识别所有符合实体定义的核心概念
+3. 为每个实体标注类型
+
+### 步骤2：关系抽取
+1. 分析实体间的语义联系
+2. 匹配对应的关系，确保语义合理且符合逻辑
+
+### 步骤3：结果验证
+1. 检查抽取的关系是否符合常识和领域知识
+2. 确保实体边界准确，避免过度分割或合并
+
+## Few-Shot示例
+以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
+
+示例1 段落：
+在机载PHM系统设计中，根据机载系统的故障模式影响分析，布置关键特征信息检测的多传感器网络；多种传感器感知的信息通过信号处理进行特征提取，输入到区域管理器推理机中。推理机采用先进的推理和数据融合技术，监控健康状态、性能降级和故障状态、维修需求以及剩余寿命估计结果。其中故障检测采用鲁棒故障特征
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机载PHM系统"
+    },
+    {
+      "type": "系统/部件",
+      "text": "区域管理器"
+    }
+  ]
+}
+```
+
+示例2 段落：
+将从机身传感器中采集到的数据在数据处理层进行去噪、平滑等处理；将处理后的数据在状态监测层分析，得出部件、子系统、系统的状态；利用得到的状态在故障诊断层判断发生故障对象的故障位置，并分析其故障原因；在故障预测层预测部件或子系统未来状态及状态趋势，估计发生故障的时间；根据具体预测情况采取决策，在决策支持层准备人力、设备、航材等维修资源实现后勤保障；最后，将PHM系统与用户的交互界面作为表达层，设定想要查询的参数，直接操作PHM系统中其他功能层的信息。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "PHM系统"
+    },
+    {
+      "type": "功能层",
+      "text": "数据处理层"
+    },
+    {
+      "type": "功能层",
+      "text": "故障诊断层"
+    },
+    {
+      "type": "功能层",
+      "text": "故障预测层"
+    },
+    {
+      "type": "功能层",
+      "text": "决策支持层"
+    },
+    {
+      "type": "功能层",
+      "text": "表达层"
+    },
+    {
+      "type": "概念",
+      "text": "维修资源"
+    }
+  ]
+}
+```
+
+示例3 段落：
+近年来，随着技术的日新月异，航电系统不断向着综合化、复杂化、智能化的方向发展，航电系统故障诊断技术也不断进步，从单纯的航电设备机内监测和状态监控，发展演变为覆盖航电系统所有关键部件的机载PHM。PHM技术受到各国军方和工业界越来越多的关注，并在军事、民航等多个领域取得了令人瞩目的应用效果。
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机载PHM"
+    }
+  ]
+}
+```
+
+## 输出格式
+请严格按照以下JSON格式输出结果：
+
+
+**实体类型精确化要求**：
+- **下位词优先策略**：优先使用最具体、最精确的实体类型，避免过度泛化
+- **形态学分类法**：当实体名称包含"模型"、"算法"、"函数"、"网络"、"方法"等专业术语时，使用对应的具体类型而非泛化的"研究方法"
+- **语义层次感知**：运用上下位词关系，识别概念的精确语义层次（如："卡尔曼滤波"是"算法"的下位概念，而非泛化的"研究方法"）
+- **专业术语保真**：保持学术领域专业术语的精确性，使用领域内认可的分类体系
+
+**关系类型拓展指导**：
+以上示例展示了常见的优质关系类型，但请不要局限于此。在实际抽取时：
+
+- **强制创新要求**：主动寻找并创造文本中体现的独特语义关系，避免过度依赖示例关系
+- **精确语义捕捉**：直接使用文本中的动词、动词短语或完整的关系表述作为关系类型名称
+- **学术特色关系**：特别关注学术文献特有的关系，如：
+  - 量化比较关系：如"提升了X%"、"降低了Y倍"、"达到了Z水平"
+  - 时间演进关系：如"在X基础上发展出"、"逐步演化为"、"最终实现"
+  - 条件依赖关系：如"在X条件下适用于"、"当X时表现为"、"针对X问题使用"
+  - 创新程度关系：如"首次提出"、"显著改进"、"突破性解决"、"创新性实现"
+- **原文表述优先**：当文本中有明确的关系描述时，直接使用该表述而非泛化为通用关系
+- **语义精细化**：将宽泛关系细分为更具体的子关系，如将"应用于"细分为"首次应用于"、"成功应用于"、"广泛应用于"等
+
+
+## 注意事项
+
+1. **不受schema限制**：给定的schema和示例仅作参考，实体类型和关系类型均不仅限于此
+2. **语义理解优先**：基于文本实际语义内容进行抽取，而非机械匹配已知模式
+3. **重点关注创新关系**：特别关注学术文献中的：
+   - 技术演进关系（"基于"、"改进"、"发展"、"演化"）
+   - 模型/方法间的进展关系（如：循环神经网络 → 卷积神经网络）
+   - 比较关系（"优于"、"相似"、"区别"）
+   - 应用关系（"适用于"、"解决"、"处理"）
+4. **完整概念抽取**：选择最有意义的完整概念作为实体
+5. **保持输出格式一致性**
+
+## 输入数据 (INPUT DATA)
+现在，你将接收到用于处理的本次任务的全部输入数据。
+论文全文 (唯一事实来源):
+```markdown```
+# 飞机供电系统的改进型 PHM方案
+
+李宁，雷洪利，韩建定，朱喜华（空军工程大学工程学院，陕西西安 710038）
+
+摘要针对目前飞机供电系统中集中式PHM设计方案无法满足日趋复杂的供电系统要求这一问题，在对飞机供电系统进行扩展式FMEA分析及故障分类的基础上，为供电系统设计了分布一集中式PHM系统，并采用了基于扩展FMEA分析和模糊综合评判的诊断预测模型，最后将供电系统PHM很好地融入到飞机原有的总体PHM系统中，具有一定的实用价值，为后续供电系统PHM系统开发研究提供参考。
+
+关键词故障预测与健康管理；飞机供电系统；扩展FMEA；模糊综合评判DOI 10.3969/j- issn.1009- 3516.2011.01.005
+
+中图分类号V242.2 文献标识码A 文章编号1009—3516(2011)01—0020—04
+
+多、全电飞机概念的提出给飞机动力系统带来了革命性转变，已成为下一代先进战斗机的重要特征，也是一个国家综合技术水平的体现。而产生电能的供电系统在多、全电飞机中具有举足轻重的地位，其组成及结构形式越来越复杂，技术水平越来越高。如何保证供电系统的可靠性、故障诊断及容错能力、测试性及维护的高效性，将关系到新型战机整体作战效能的发挥[2]。
+
+显然，传统的依靠自身电路和程序完成故障诊断和隔离的机内测试技术已经无法胜任对新型战机供电系统性能监控的任务[1]，将PHM（Prognostics and Health Management PHM）技术引入到飞机供电系统的故障预测和健康管理将是必然的趋势。目前，国内外相关应用，是将供电系统作为飞机功能管理区域的一个分系统，无法满足现在结构日趋复杂的飞机供电系统的各项要求[1]。
+
+本文针对上述问题，设计了供电系统自己独立的分布一集中式PHM系统。
+
+# 1 PHM系统简述
+
+预测与健康管理是自主后勤系统的2大重要基础之一[1]，已广泛应用于直升机上，称为健康与使用监控系统（HUMS)。所谓预测，即预计部件的性能下降或临近故障情况；状态管理，就是根据预测到的状态信息、可用资源和使用需求对维修活动做出规划和决策的能力[2]。
+
+PHM代表了一种方法的转变，即从传统的基于传感器的诊断转向基于智能系统的预测，从反应性的通信转向在准确时间对准确的部位进行准确维修的主动积极的活动。PHM重点是利用各种传感器并借助各种算法和智能模型来预测、诊断、监控和管理飞机的状态[4]。
+
+PHM功能有[3]：  $①$  故障检测；  $②$  故障隔离；  $③$  故障诊断；  $④$  故障预测；  $⑤$  故障报告；  $⑥$  故障容错；  $⑦$  故障影响评估和性能降级趋势分析；  $⑧$  信息管理；  $⑨$  信息融合和推理；  $10$  部件寿命跟踪和余寿预测。
+
+# 2 先进飞机供电系统故障分析
+
+先进飞机供电系统种类繁多、性能各异，不同类型其组成部分各不相同，本文以图1供电系统为基础，对
+
+开关磁阻电源系统、远程终端、负载管理中心分别进行分析研究，深入到SRU模块，建立扩展式故障模式影响分析表(限于篇幅，完整表太大，本文省去)，直观、全面地反映了供电系统的故障情况，便于对供电系统的PHM进行研究。
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-11/f4fcc93d-6d0e-4b8c-a5ce-e23209314c9b/28e08ec47eb61274b8516b9843fe84193f93aa1554b531cc7764a63767f27fa8.jpg)  
+图1先进飞机供电系统结构图 Fig.1 The structure diagram of advanced airplane power system
+
+# 3飞机供电系统PHM技术
+
+# 3.1系统结构设计
+
+由于飞机供电系统日趋复杂的结构和多样化的功能，为了便于供电系统故障推理和数据高速传输、处理，本文设计了分布一集中式PHM系统，见图2。
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-11/f4fcc93d-6d0e-4b8c-a5ce-e23209314c9b/cb09e788d02d437debb0cfeb29d35d121361a8cc81c101a8fcf61a63f444669b.jpg)  
+图2飞机供电系统PHM结构图 Fig.2 The structure diagram of air planee PHM
+
+系统结构共3层：最底层是分布在供电系统各分系统中的硬件监测设备或BITE；中间层是PHM处理中心；顶层是飞机原有的PHM系统，包括功能管理系统PHM、飞机管理系统PHM，通信接口、联合分布式信息(C)1994- 2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net
+
+系统及地面支援系统。
+
+# 3.2 系统工作流程
+
+数据采集模块首先从供电系统各分系统BITE采集监测目标的实时状态信息，送至数据处理模块进行数据融合，特征信息提取后进入状态监测模块进行辨识，参考动态数据存储模块中的相关信息，对监测目标的健康状况评估，将评估结果送往诊断预测模块。诊断预测模块针对监测到的异常征兆，结合动态数据存储模块中的专家知识和诊断、预测推理模型，对故障进行识别、推理，判断其故障模式、原因和位置，并进行趋势分析，计算故障征兆的发展趋势、影响和估计剩余寿命等。最后，分析决策模块综合分析、评判，根据诊断和预测的结果，在本系统内进行必要的容错处理及维修活动，并经系统总线将维修数据和状态信息汇总到飞机功能管理区域PHM，再由飞机整机管理PHM收集飞机各个区域PHM信息对整个飞机健康状态做出分析评估，进行必要的维修，通过机载通信设备、空地数据链和维修接口板与联合分布式信息系统相连，极大地提高了维修效率，发挥了一体化维修保障体系的优势。
+
+# 4先进的数据采集系统及改进的诊断预测模型在PHM中的应用
+
+诊断预测模块是PHM系统的核心部分[5，近年来虽有大量文献对其进行分析研究，但是考虑到航空领域对部件可靠性、稳定性的特殊要求，本文将重点说明这个模块的具体实施方法。诊断预测模型采用扩展式FMEA与模糊综合评判相结合，算法简单，效果良好，可满足飞机对供电系统可靠性和稳定性的要求。
+
+PHM系统运行时，数据处理模块对传感器信息进行处理，若发现异常，诊断预测推理模块就以特征信息量为依据，首先对扩展式FMEA表格进行查询，以表格作为推理准则，激活所有与特征量相关的故障模式、影响规则，根据故障特征进行规则匹配并进行故障模式的识别与分类，然后确定故障模式对系统的影响。
+
+由于故障征兆、故障模式及影响之间具有多重的映射关系[7- 9]，通过扩展式FMEA的分析，故障具有很大的模糊性，所以本文又引用了模糊综合评判原理对扩展式FMEA进行修正。模糊综合评判就是对具有模糊多属性的事物，做出一个能合理综合这些因素的总体评价[10]。
+
+模型的建立，首先由扩展FMEA得到供电系统所有的故障影响因素集合  $\mathrm{e} = (\mathrm{e}_1,\mathrm{e}_2,\dots \mathrm{e}_n)$  ，故障点集合为  $\mathrm{f} = (\mathrm{f}_1,\mathrm{f}_2,\dots \mathrm{f}_n)$  ，则e之间的模糊隶属度矩阵为：
+
+$$
+\mathrm{P} = \mathrm{L}(\mathrm{e}\times \mathrm{f}) = \left[ \begin{array}{lll}\mathrm{p}_{11} & \dots & \mathrm{p}_{1n}\\ \vdots & & \vdots \\ \mathrm{p}_{h1} & \dots & \mathrm{p}_{h n} \end{array} \right] = (\mathrm{p}_{ij})_{e\times f} \tag{1}
+$$
+
+式中：P是e到的模糊关系，  $\mathrm{p_{ij}}$  为故障因素  $\Theta$  与故障点经过模糊推理得到的模糊隶属度，即第i个故障因素导致第j个故障点的置信度，定义向量  $\mathrm{G} =$ $\{\mathrm{g}_1,\mathrm{g}_2,\dots ,\mathrm{g}_n\}$  ，  $\mathrm{g_i}$  表示  $\Theta$  出现的程度，即  $\Theta$  的权重。由此得出故障预测的综合评判模型见图  $3。$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-09-11/f4fcc93d-6d0e-4b8c-a5ce-e23209314c9b/c74167e377d41787acae67e6d9ad9f86827640c107fe549b7f362bec79565ba5.jpg)  
+图3故障预测的综合评判模型 Fig.3 The evaluation of fault forecast
+
+根据权重因素G和隶属度矩阵P，由模糊合成运算，即可得到模糊预测评判结果：
+
+$$
+\mathrm{H} = \mathrm{G}\cdot \mathrm{P} = \mathrm{G}\times \mathrm{P}(\mathrm{g}_1,\mathrm{g}_2,\dots ,\mathrm{g}_n)\cdot \left[ \begin{array}{lll}\mathrm{p}_{11} & \dots & \mathrm{p}_{1n}\\ \vdots & & \vdots \\ \mathrm{p}_{h1} & \dots & \mathrm{p}_{h n} \end{array} \right] = (\mathrm{h}_1,\mathrm{h}_2,\dots ,\mathrm{h}_n) \tag{2}
+$$
+
+采用最大隶属度原则或加权平均法对评判结果H进行最后确定，得到的  $\mathfrak{h}_{\mathrm{j}}$  即表示故障将在j点发生。
+
+# 5结束语
+
+本文首先对供电系统进行了扩展式FMEA分析，在此基础上供电系统设计了集中一分布式PHM系统，并采用了基于扩展FMEA分析和模糊综合评判的诊断预测模型，最后将其很好地融入到飞机总体PHM系统中，为供电系统PHM技术继续研究奠定了基础，明确了方向。由于篇幅所限，后篇将以开关词组电源系统为对象建立模型，进行进一步相关仿真试验。
+
+(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net
+
+# 参考文献：
+
+[1] Naidu S R. Use of networks for sensor failure detection in a control system [J]. IEEE control system magazine 1990, 26(4): 51- 54.  [2] 郭阳明, 蔡小斌, 张宝珍, 等. 新一代装备的预测与健康状态管理技术 [J]. 计算机工程与应用, 2008, 44(13): 199- 201.  GUO Yangming CAIX iaobin, ZHANG Baozhen et al. Prognostics and health management technology for new generation weapon [J]. Computer engineering and applications, 2008, 44(13): 199- 202. (in Chinese)  [3] 张宝珍, 曾天翔. 实现 F- 35 经济可承受性目标的关键使能技术 [J]. 航空维修与工程, 2005, 50(6): 20- 23.  ZHANG Baozhen, ZENG Tianxiang, PHM: The key enabler to F- 35s affordability [J]. A ration maintenance & engineering, 2006, 50(6): 20- 23. (in Chinese)  [4] Johnson S B. Introduction to system health engineering and management in aerospace [C] //1st Intemational forum on integrated system health engineering and management in aerospace. California [s- n.]: 2005, 21- 25.  [5] Wilson A. Means based corrosion and stress sensors for non- destructive aircraft evaluation [C] //Structure health monitoring conference. New York: Springer Verlag, 2004, 209- 213.  [6] Kacprzynski G regory J. Roemer Michael J. Health management system design: Development in ulation and cost/benefit optimization [J]. IEEE, 2002, 11(6): 3065- 3072.  [7] 张亮, 张凤鸣, 李俊涛, 等. 机载预测与健康管理系统的体系结构 [J]. 空军工程大学学报: 自然科学版, 2008, 9(2): 6- 9.  ZHANG Liang ZHANG Fengming LI Juntao et al. Research on onboard prognostics and health management system architecture for operational aircraft [J]. Journal of air force engineering university: natural science edition, 2008, 9(2): 6- 9. (in Chinese)  [8] Gu Jie Michael Pecht- New methods to predict reliability of electronics [C] //Proceedings of the 7th international conference on reliability. Beijing, CQAF, 2007: 473- 477.  [9] Heng A wina, Tan Andy, Mathew Joseph. A set health prognosis incorporating reliability data and condition monitoring history [C] //Proceedings of the 7th world congress on engineering asset management and intelligent maintenance systems. Oliver, [s- n.]: 2008, 1555- 1559.  [10] Yan Jihong, Lee Jay. A hybrid method for online performance assessment and life prediction in drilling operations [J]. Proceedings of the IEEE logistics, 2007, 15(3): 328- 331.
+
+（编辑：田新华）
+
+# The Improved PHM Project Research on Power System of Aircraft
+
+LINing LEIHong- li HAN Jian- ding ZHU Xi- hua (Engineering Institute. Air force Engineering University. Xi'an 710038, China)
+
+Abstract The application of PHM can greatly help improve the dependability. the efficiency of maintenance the advance of fault diagnosis and the capacity of fault tolerance of power system of More- Electric Aircraft. Since the traditional use of PHM in power system of More- Electric Aircraft is the concentrated project in which the power system is looked as a segment system of aircraft function management area. the equipments have no PHM and the signals of the equipments are given to the PHM of function management district which can not fulfill the needs of complicated power system. Based on analyzing the augmented- FMEA and sorting the faults this paper designs a focus- distributing PHM system. adopts the augmented- FMEA and the prognosticating model of the fuzzy comprehensive evaluation and finally combines the power system PHM with the aircraft PHM properly. All the tasks done in this paper are of some practical value and thinking innovation which decide the direction for the research and development of power system PHM.
+
+Key words: PHM; power system; augmented- FMEA; fuzzy comprehensive evaluation

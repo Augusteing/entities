@@ -1,0 +1,326 @@
+{
+  "entities": [
+    {
+      "type": "标准",
+      "text": "ASAC标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "机内自测试(BIT)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "中国电子科技集团公司第三十二研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合模块化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "SATA存储通道",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "DMA控制模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "SMOS接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MLI接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PBIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "CBIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "IBIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "FPGA+IP核",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "IEEE1149.1边界扫描协议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "JTAG接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "A/D转换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "CAN总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MTP接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Flash Translation Layer",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Compact Flash Systems",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Serial ATA Specification Rev.2.5 Gold",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Virtex-5 RocketIO GTP Transceiver",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Virtex-5 FPGA Serial ATA Generation 2 Protocol Standard",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "ATA/ATAPI-6",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "测试覆盖率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "存储带宽",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "存储容量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高了航空电子系统可靠性、可测试性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "设计为",
+      "head": "BIT",
+      "tail": "航空电子系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "位于",
+      "head": "中国电子科技集团公司第三十二研究所",
+      "tail": "上海",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "BIT设计",
+      "tail": "ASAC标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "下一代航空电子系统",
+      "tail": "综合模块化设计理念",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "模块支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "操作系统层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "应用层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "模块支持层",
+      "tail": "与模块硬件直接通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "操作系统层",
+      "tail": "SMOS接口为通用系统管理提供服务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "应用层",
+      "tail": "应用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "应用层",
+      "tail": "应用管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "归结至",
+      "head": "BIT测试",
+      "tail": "GSM通用系统管理中",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "SATA存储通道",
+      "tail": "FPGA中建立",
+      "evaluation": "错误"
+    },
+    {
+      "type": "管理",
+      "head": "DMA控制模块",
+      "tail": "数据流的存储",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "SMOS接口",
+      "tail": "本地GSM调用StartCBit等测试函数接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "SMOS接口",
+      "tail": "getPBitResult等测试结果获取接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "BIT测试功能",
+      "tail": "PBIT",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "BIT测试功能",
+      "tail": "CBIT",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "BIT测试功能",
+      "tail": "IBIT",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现",
+      "head": "测试处理芯片",
+      "tail": "FPGA+IP核",
+      "evaluation": "错误"
+    },
+    {
+      "type": "负责",
+      "head": "数字测试电路",
+      "tail": "模块上数字电路的测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "模拟测试电路",
+      "tail": "模块上模拟电路的测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "Flash",
+      "tail": "存储测试结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "测试总线和协议转换芯片",
+      "tail": "实现模块间通信的MLI接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "MTP接口",
+      "tail": "与外部主机或ATE通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "占用",
+      "head": "单个SATA通道",
+      "tail": "1285个Slice资源和24个36KBBlockRAM资源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "例化实现",
+      "head": "XilinxV5-FX70T芯片",
+      "tail": "4个SATA通道",
+      "evaluation": "正确"
+    },
+    {
+      "type": "达到",
+      "head": "单个SATA存储通道",
+      "tail": "180MB/s的稳定的传输速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "本文提出的基于SATA的嵌入式直接存储系统的设计方法",
+      "tail": "存储速度和存储容量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "满足",
+      "head": "本文采用基于ASAAC标准BIT设计方法",
+      "tail": "BIT测试覆盖率等技术指标",
+      "evaluation": "正确"
+    }
+  ]
+}

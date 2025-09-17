@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于多模型融合的航空电子产品故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于失效物理模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "改进长短期记忆（Long Short- Term Memory，LSTM）神经网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "集成学习框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络（RecurrentNeuralNetwork，RNN）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "经典LSTM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM基模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "强学习模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Adaboosting算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "时间梯度下降算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "航空电子产品故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "退化趋势差异大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "训练数据样本量小",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "模型训练过拟合问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "梯度消失问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "趋势拟合度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差（Root Mean Squared Error，RMSE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差（Mean Absolute Error，MAE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差（Mean Absolute Percentage Error，MAPE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "更高的趋势拟合度和预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA公开的锂电池退化数据集",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于多模型融合的航空电子产品故障预测方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合了",
+      "head": "基于多模型融合的航空电子产品故障预测方法",
+      "tail": "改进长短期记忆（Long Short- Term Memory，LSTM）神经网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合了",
+      "head": "基于多模型融合的航空电子产品故障预测方法",
+      "tail": "集成学习框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入了",
+      "head": "改进长短期记忆（Long Short- Term Memory，LSTM）神经网络模型",
+      "tail": "Dropout机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决了",
+      "head": "基于多模型融合的航空电子产品故障预测方法",
+      "tail": "模型训练过拟合问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决了",
+      "head": "长短期记忆（LongShort- TermMemory，LSTM）",
+      "tail": "梯度消失问题",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "循环神经网络（RecurrentNeuralNetwork，RNN）",
+      "tail": "长短期记忆（LongShort- TermMemory，LSTM）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "多模型集成",
+      "tail": "Adaboosting算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "仿真验证",
+      "tail": "NASA公开的锂电池退化数据集",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文方法",
+      "tail": "均方根误差（Root Mean Squared Error，RMSE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文方法",
+      "tail": "平均绝对误差（Mean Absolute Error，MAE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "本文方法",
+      "tail": "平均绝对百分比误差（Mean Absolute Percentage Error，MAPE）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文方法",
+      "tail": "更高的趋势拟合度和预测精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "本文方法",
+      "tail": "BP神经网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "本文方法",
+      "tail": "经典LSTM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "本文方法",
+      "tail": "LSTM基模型",
+      "evaluation": "错误"
+    }
+  ]
+}

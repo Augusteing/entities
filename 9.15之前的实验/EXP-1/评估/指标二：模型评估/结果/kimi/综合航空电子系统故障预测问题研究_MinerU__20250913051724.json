@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "type": "研究领域",
+      "text": "综合航空电子系统故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征",
+      "text": "航空电子系统综合化特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "航空电子产品故障预测结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合航电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "数据驱动结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "综合结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "失效物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "PoF模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "技术",
+      "text": "预警装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "特征参数监测和处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "特征参数趋势预测和故障识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态评估与寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "综合航电系统故障预测面临的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "挑战",
+      "text": "综合航电系统故障预测结构和方法研究面临的挑战",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "硬实时偶发通信任务的端到端延迟保证路径分配方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "共轭网络演算方法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "属于",
+      "head": "综合航空电子系统故障预测",
+      "tail": "研究领域",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "航空电子产品故障预测结构",
+      "tail": "基于模型的结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "航空电子产品故障预测结构",
+      "tail": "数据驱动结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "航空电子产品故障预测结构",
+      "tail": "综合结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于模型的结构",
+      "tail": "数学方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "系统模型",
+      "tail": "系统模型结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "PoF模型",
+      "tail": "故障模式、机制及影响分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "PoF模型",
+      "tail": "特征提取和RUL估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "预警装置",
+      "tail": "特定故障机制导致的故障预警",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "特征参数监测和处理",
+      "tail": "传感器数据预处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "特征参数趋势预测和故障识别",
+      "tail": "ARMA时间序列、灰色预测等技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "状态评估与寿命预测",
+      "tail": "特征参数阈值、主元分析等方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "面临",
+      "head": "综合航电系统故障预测结构和方法研究",
+      "tail": "综合航电系统故障预测面临的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "硬实时偶发通信任务的端到端延迟保证路径分配方法",
+      "tail": "共轭网络演算方法",
+      "evaluation": "正确"
+    }
+  ]
+}

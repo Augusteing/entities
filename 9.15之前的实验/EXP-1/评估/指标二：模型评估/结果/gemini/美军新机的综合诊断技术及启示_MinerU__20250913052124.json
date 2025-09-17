@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自治后勤",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F-35多用途联合攻击机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "武器系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标",
+      "text": "寿命周期费用最少",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标",
+      "text": "增强飞机的安全性和任务可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "对故障机理的更好理解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "更好的数据融合方法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "综合诊断",
+      "tail": "系统工程",
+      "evaluation": "错误"
+    },
+    {
+      "type": "目标是",
+      "head": "综合诊断",
+      "tail": "寿命周期费用最少",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用了",
+      "head": "F-35多用途联合攻击机",
+      "tail": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "F-35多用途联合攻击机",
+      "tail": "故障预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标是",
+      "head": "故障预测和健康管理系统",
+      "tail": "增强飞机的安全性和任务可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键要素",
+      "head": "故障诊断技术",
+      "tail": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键技术",
+      "head": "预测技术",
+      "tail": "综合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用了",
+      "head": "武器系统",
+      "tail": "人工智能技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "人工智能技术",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "人工智能技术",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "需要解决",
+      "head": "综合诊断",
+      "tail": "对故障机理的更好理解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "需要解决",
+      "head": "综合诊断",
+      "tail": "更好的数据融合方法",
+      "evaluation": "正确"
+    }
+  ]
+}

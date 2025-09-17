@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "多因子高阶模糊变动预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自组织映射(SOM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊时间序列预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Lee等提出的双因子高阶模糊时间序列预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "六自由度闭环飞控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障映射模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "rootmeansquare,RMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差(MAPE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方差(MSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测结果表明，本文提出的改进方法相对于传统模糊时间序列方法预测效果更好",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "多因子高阶模糊变动预测模型",
+      "tail": "模糊时间序列预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "多因子高阶模糊变动预测模型",
+      "tail": "自组织映射(SOM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "扩展",
+      "head": "模糊时间序列预测模型",
+      "tail": "多因子高阶模糊变动预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "改进",
+      "head": "Lee等提出的双因子高阶模糊时间序列预测方法",
+      "tail": "多因子高阶模糊变动预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模拟",
+      "head": "六自由度闭环飞控系统",
+      "tail": "左副翼损伤故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "故障映射模型",
+      "tail": "故障类型和程度的判定",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "故障判别",
+      "tail": "rootmeansquare,RMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型",
+      "tail": "平均相对误差(MAPE)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型",
+      "tail": "均方差(MSE)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文提出的改进方法",
+      "tail": "预测结果表明，本文提出的改进方法相对于传统模糊时间序列方法预测效果更好",
+      "evaluation": "错误"
+    }
+  ]
+}

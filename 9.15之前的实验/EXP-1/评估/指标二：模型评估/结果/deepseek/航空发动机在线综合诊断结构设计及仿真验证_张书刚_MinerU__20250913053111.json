@@ -1,0 +1,142 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非线性实时模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机载自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "气路故障诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "在线综合诊断结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.5%的估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "传感器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "执行机构故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "部件故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "健康参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "可测参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "不可测参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "xPC Target仿真平台",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "机载自适应模型",
+      "tail": "非线性实时模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "机载自适应模型",
+      "tail": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "气路故障诊断系统",
+      "tail": "卡尔曼滤波器组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "在线综合诊断结构",
+      "tail": "气路故障检测和隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "在线综合诊断结构",
+      "tail": "性能健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "在线综合诊断结构",
+      "tail": "参数估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "xPC Target仿真平台",
+      "tail": "在线综合诊断结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "机载自适应模型",
+      "tail": "0.5%的估计误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检测",
+      "head": "气路故障诊断系统",
+      "tail": "传感器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检测",
+      "head": "气路故障诊断系统",
+      "tail": "执行机构故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检测",
+      "head": "气路故障诊断系统",
+      "tail": "部件故障",
+      "evaluation": "正确"
+    }
+  ]
+}

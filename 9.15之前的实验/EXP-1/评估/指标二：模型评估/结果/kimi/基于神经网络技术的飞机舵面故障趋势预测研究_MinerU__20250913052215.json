@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "ARMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三层BP网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "平均相对变动值(ARV)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.30%的平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.0029的ARV值",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "神经网络故障预测模型",
+      "tail": "飞机舵面故障趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "三层BP网络模型",
+      "tail": "神经网络故障预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "神经网络故障预测模型",
+      "tail": "平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "神经网络故障预测模型",
+      "tail": "ARV值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "神经网络故障预测模型",
+      "tail": "0.30%的平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "神经网络故障预测模型",
+      "tail": "0.0029的ARV值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "比较",
+      "head": "BP神经网络",
+      "tail": "ARMA方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "BP神经网络",
+      "tail": "ARMA方法",
+      "evaluation": "正确"
+    }
+  ]
+}

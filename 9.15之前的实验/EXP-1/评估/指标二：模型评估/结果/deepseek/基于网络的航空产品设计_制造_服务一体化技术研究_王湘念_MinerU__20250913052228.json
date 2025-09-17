@@ -1,0 +1,473 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "传感",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "云计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "大数据分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "企业集成与协同技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "制造服务技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "云制造技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "制造物联技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "微机电系统（MEMS）传感技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "增材制造技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "全球协同网络环境（GCE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "飞机健康管理（AHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "飞机维修分析（Airman）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "实时健康监控系统（AiRTHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "飞机通信寻址系统（ACARS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "全面呵护（TotalCare）计划",
+      "evaluation": "错误"
+    },
+    {
+      "type": "平台",
+      "text": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "基于网络的航空产品设计/制造/服务一体化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "数字化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "网络化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智能化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "服务型制造业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "中航工业",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "空客公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "罗·罗公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "GE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "国家制造创新网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "国家增材制造创新研究院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "国家数字化制造与设计创新研究院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王湘念",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "侯志霞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "航空产品",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "飞行器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "机载设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "波音787",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品",
+      "text": "空客A380",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "研发设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "生产制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "使用维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "概念设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "详细设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "仿真计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "工艺设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "工装设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "并行协同",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "虚拟化制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "网络化制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "过程监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "远程诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "大数据分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "产品优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "先进制造业伙伴计划（AMP）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "全面呵护（TotalCare）计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "出售发动机飞行小时",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空产品设计/制造/服务一体化",
+      "tail": "网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "运用",
+      "head": "航空产品设计/制造/服务一体化",
+      "tail": "通信",
+      "evaluation": "正确"
+    },
+    {
+      "type": "运用",
+      "head": "航空产品设计/制造/服务一体化",
+      "tail": "传感",
+      "evaluation": "正确"
+    },
+    {
+      "type": "运用",
+      "head": "航空产品设计/制造/服务一体化",
+      "tail": "云计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "运用",
+      "head": "航空产品设计/制造/服务一体化",
+      "tail": "大数据分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "航空产品",
+      "tail": "飞行器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "航空产品",
+      "tail": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "航空产品",
+      "tail": "机载设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "划分为",
+      "head": "航空产品生命周期",
+      "tail": "研发设计",
+      "evaluation": "错误"
+    },
+    {
+      "type": "划分为",
+      "head": "航空产品生命周期",
+      "tail": "生产制造",
+      "evaluation": "错误"
+    },
+    {
+      "type": "划分为",
+      "head": "航空产品生命周期",
+      "tail": "使用维护",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立了",
+      "head": "波音公司",
+      "tail": "全球协同网络环境（GCE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "波音公司",
+      "tail": "飞机健康管理（AHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "空客公司",
+      "tail": "飞机维修分析（Airman）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推出了",
+      "head": "空客公司",
+      "tail": "实时健康监控系统（AiRTHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "空客公司",
+      "tail": "飞机通信寻址系统（ACARS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推行",
+      "head": "罗·罗公司",
+      "tail": "全面呵护（TotalCare）计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "GE",
+      "tail": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "企业集成与协同技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "制造服务技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "云制造技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "制造物联技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "微机电系统（MEMS）传感技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "基于网络的设计/制造/服务一体化",
+      "tail": "增材制造技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "缩短了",
+      "head": "中航工业",
+      "tail": "研制周期",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "数字化技术",
+      "tail": "航空产品",
+      "evaluation": "错误"
+    },
+    {
+      "type": "转型为",
+      "head": "航空制造业",
+      "tail": "服务型制造业",
+      "evaluation": "错误"
+    }
+  ]
+}

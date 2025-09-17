@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "FBPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "改进的FBPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传统FBPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "方差-协方差法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "隶属度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机襟缝翼系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均相对误差4.0447%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "标准差0.05649",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "MATLAB",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "李耀华等",
+      "tail": "改进的FBPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "改进的FBPNN",
+      "tail": "方差-协方差法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "改进的FBPNN",
+      "tail": "飞机襟缝翼系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "改进的FBPNN",
+      "tail": "传统FBPNN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "改进的FBPNN",
+      "tail": "平均相对误差4.0447%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "改进的FBPNN",
+      "tail": "标准差0.05649",
+      "evaluation": "错误"
+    }
+  ]
+}

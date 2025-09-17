@@ -1,0 +1,229 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理技术（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机水/废水系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "数据驱动的故障预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "系统仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障注入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "空气压缩机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络故障预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于失效物理模型的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于可靠性理论的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "主成分分析法（PCA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "14种时域特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "径向基神经网络（RBF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RBF网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "高斯型函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "MATLAB",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "100%的正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "其他",
+      "text": "C语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络故障预测算法",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "研究",
+      "head": "本文",
+      "tail": "基于数据驱动的故障预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象是",
+      "head": "本文",
+      "tail": "飞机水/废水系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "系统仿真模型",
+      "tail": "AMESim软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "系统仿真模型",
+      "tail": "故障注入",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "故障注入",
+      "tail": "获取系统关键部位故障数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "神经网络故障预测方法",
+      "tail": "拟合系统性能衰退曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测方法",
+      "tail": "基于失效物理模型的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测方法",
+      "tail": "基于数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测方法",
+      "tail": "基于可靠性理论的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "神经网络方法",
+      "tail": "数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "主成分分析法（PCA）",
+      "tail": "特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提取",
+      "head": "主成分分析法（PCA）",
+      "tail": "14种时域特征",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "本文",
+      "tail": "径向基神经网络（RBF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "径向基神经网络（RBF）",
+      "tail": "K均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "径向基神经网络（RBF）",
+      "tail": "高斯型函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "RBF网络",
+      "tail": "故障预测正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "RBF网络",
+      "tail": "100%的正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "神经网络故障预测算法",
+      "tail": "C语言",
+      "evaluation": "正确"
+    }
+  ]
+}

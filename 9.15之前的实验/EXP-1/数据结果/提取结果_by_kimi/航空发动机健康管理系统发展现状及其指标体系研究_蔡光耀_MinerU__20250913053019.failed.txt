@@ -1,2 +1,0 @@
-失败时间: 2025-09-14T06:05:08.544933+00:00
-异常: JSON 解析失败: Unterminated string starting at: line 317 column 15 (char 4868). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-1\数据结果\提取结果_by_kimi\航空发动机健康管理系统发展现状及其指标体系研究_蔡光耀_MinerU__20250913053019.raw.txt

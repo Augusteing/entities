@@ -1,0 +1,402 @@
+[
+  {
+    "entities": [
+      {
+        "type": "研究问题",
+        "text": "直升机涡轮发动机健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究问题",
+        "text": "直升机涡轮发动机故障难以识别",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究问题",
+        "text": "健康状况难以量化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "Caps-BiGRU-Attention",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "涡轮发动机的故障模式识别",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "扭矩裕度预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型组件",
+        "text": "胶囊层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型组件",
+        "text": "BiGRU层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "SE注意力机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据集",
+        "text": "直升机涡轮发动机数据集",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "准确率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "平均绝对误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "特征分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "发动机健康状态",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "概率分布拟合",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "扭矩裕度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "严重失效",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "轻微失效",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "健康状态",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分布",
+        "text": "贝塔分布",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "胶囊网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "动态路由算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "双向门控循环单元",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "注意力机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiGRU-Attention",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiLstm",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiGRU",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "Random Forest",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "召回率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "精确率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "F1分数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "均方误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "平均绝对百分比误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "SHAP模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "外部空气温度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "平均气体温度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "测量扭矩",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "故障模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "指示空速",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "净功率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "评估方法",
+        "text": "K-S检验",
+        "evaluation": "正确"
+      },
+      {
+        "type": "评估方法",
+        "text": "Akaike信息准则值(AIC)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "混合高斯密度模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "衰减状态",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "提出用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "直升机涡轮发动机健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "胶囊层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "BiGRU层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "SE注意力机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能",
+        "head": "胶囊层",
+        "tail": "捕捉输入数据的内在关系",
+        "evaluation": "错误"
+      },
+      {
+        "type": "功能",
+        "head": "BiGRU层",
+        "tail": "提取时间序列特征",
+        "evaluation": "错误"
+      },
+      {
+        "type": "功能",
+        "head": "SE注意力机制",
+        "tail": "对特征加权以突出重要信息",
+        "evaluation": "错误"
+      },
+      {
+        "type": "应用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "涡轮发动机的故障模式识别",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "扭矩裕度预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...中准确率超过",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "99.7%",
+        "evaluation": "错误"
+      },
+      {
+        "type": "在...中平均绝对误差降低至",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "0.027",
+        "evaluation": "错误"
+      },
+      {
+        "type": "用于",
+        "head": "SHAP模型",
+        "tail": "特征分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "影响",
+        "head": "外部空气温度",
+        "tail": "故障模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "影响",
+        "head": "平均气体温度",
+        "tail": "故障模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "影响",
+        "head": "测量扭矩",
+        "tail": "故障模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的最重要影响特征",
+        "head": "故障模式",
+        "tail": "扭矩裕度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发现",
+        "head": "净功率",
+        "tail": "提升到接近100kW时最有利于其健康状态",
+        "evaluation": "错误"
+      },
+      {
+        "type": "发现",
+        "head": "指示空速",
+        "tail": "超过110km/h会损害发动机",
+        "evaluation": "错误"
+      },
+      {
+        "type": "进行",
+        "head": "本文",
+        "tail": "扭矩裕度概率密度分布拟合",
+        "evaluation": "错误"
+      },
+      {
+        "type": "确定...最佳分布为",
+        "head": "扭矩裕度",
+        "tail": "贝塔分布",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...状态下最优分布为",
+        "head": "扭矩裕度",
+        "tail": "贝塔分布",
+        "evaluation": "正确"
+      },
+      {
+        "type": "将...划分为",
+        "head": "发动机健康状态",
+        "tail": "严重失效",
+        "evaluation": "正确"
+      },
+      {
+        "type": "将...划分为",
+        "head": "发动机健康状态",
+        "tail": "轻微失效",
+        "evaluation": "正确"
+      },
+      {
+        "type": "将...划分为",
+        "head": "发动机健康状态",
+        "tail": "衰减状态",
+        "evaluation": "正确"
+      },
+      {
+        "type": "将...划分为",
+        "head": "发动机健康状态",
+        "tail": "健康状态",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU-Attention",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiLstm",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "Random Forest",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

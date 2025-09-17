@@ -1,0 +1,624 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "气路故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字式电子控制器技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "大数据技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "过渡态故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理(EHM)系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "状态监控系统(EUMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "全权限数字式发动机控制(FADEC)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合发动机诊断单元(CEDU)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "进气碎屑检测系统(IDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "排气碎屑检测系统(EDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "寿命状态监视诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "气路分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障影响系数矩阵诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数学模型的气路故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的气路故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于信息融合的气路故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "小偏差法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "变权重的最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "人工神经网络法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "机器学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "专家系统方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "极限学习法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "共轭梯度法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "比例共轭梯度法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "贝叶斯融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "DS证据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "智能融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "集成融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "扩展卡尔曼滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "增强的卡尔曼滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Sigma点卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "核主元分析算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蜕化参数模糊化的D-S",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "主成分分析(PCA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "KPCA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "DBN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "STORM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "ESTORM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "基于置信规则的发动机气路故障健康状态评估模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "排气温度基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Pythia软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "概率论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "推理网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "模糊理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "状态的维修(CBM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "SAE AIR5120A-2016",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ISO13374",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "MIL-E-5007E",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "电子控制单元(DECDU)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "液压机械装置(HMU)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "发动机诊断单元(EDU)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "T700",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F404-GE-400",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F100",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F119",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "EJ200",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "AL-41F1S",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F135",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F117",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F136",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "AL-31F",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "自适应变循环发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "Urban",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "GE公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "PW公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "汉胜公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "鲁峰",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "Cranfield大学Urban等",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "任茹菲",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织/人名",
+      "text": "尹晓静",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "故障数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "多源测试数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F119发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F119发动机气路故障诊断架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "F135发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "F135发动机的PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产品/发动机型号",
+      "text": "推力估计器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "K-均值聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群核极限学习机",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Urban",
+      "tail": "气路分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "气路分析法",
+      "tail": "故障影响系数矩阵诊断方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "Cranfield大学Urban等",
+      "tail": "Pythia软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "故障诊断算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "GE公司",
+      "tail": "智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "汉胜公司",
+      "tail": "进气碎屑检测系统(IDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "汉胜公司",
+      "tail": "排气碎屑检测系统(EDMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "任茹菲",
+      "tail": "核主元分析算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "尹晓静",
+      "tail": "基于置信规则的发动机气路故障健康状态评估模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "鲁峰",
+      "tail": "蜕化参数模糊化的D-S",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F119发动机气路故障诊断架构",
+      "tail": "STORM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "F135发动机的PHM系统",
+      "tail": "ESTORM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于数学模型的气路故障诊断",
+      "tail": "数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于数据驱动的气路故障诊断",
+      "tail": "故障数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于信息融合的气路故障诊断",
+      "tail": "多源测试数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "排气温度基线模型",
+      "tail": "KPCA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "排气温度基线模型",
+      "tail": "DBN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "推力估计器",
+      "tail": "K-均值聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "推力估计器",
+      "tail": "粒子群核极限学习机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "状态监控系统(EUMS)",
+      "tail": "寿命状态监视诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "AL-31F",
+      "tail": "AL-41F1S",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "STORM模型",
+      "tail": "ESTORM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "气路故障诊断技术",
+      "tail": "健康管理系统中的重要组成部分",
+      "evaluation": "错误"
+    }
+  ]
+}

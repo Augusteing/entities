@@ -1,0 +1,539 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "SDQ算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "GA-AANN神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "AANN神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "蒙特卡罗仿真方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "航空发动机模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传感器解析冗余网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AANN神经网络组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传感器网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "适应度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "信噪比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "1.7%的提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "19.1%的提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "12.5%的提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "33.8%的提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "8.27dB的提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "航空发动机传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "双通道传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "电磁式传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "液压式传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "XNIPC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "XNHPC",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "p25",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "p3",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "T3",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "T45",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "阶跃故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "漂移故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "间歇故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "硬故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "多传感器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "SDQ算法模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "合理性检验模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "解析冗余检验模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "持续性检验",
+      "evaluation": "错误"
+    },
+    {
+      "type": "系统",
+      "text": "数据确认及合并子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "范围检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "速率检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "冗余通道检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "解析网络检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "拉丁超立方方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "线性拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "分块处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "蒙特卡罗仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "稳态条件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "动态条件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "巡航状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "慢车状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "最大状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "过渡态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "起飞条件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "额定条件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机状态",
+      "text": "怠速条件",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "优化了",
+      "head": "遗传算法",
+      "tail": "AANN神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合了",
+      "head": "AANN神经网络",
+      "tail": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "SDQ算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "SDQ算法",
+      "tail": "GA-AANN神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "SDQ算法",
+      "tail": "传感器数据预处理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "SDQ算法",
+      "tail": "合理性检验模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "SDQ算法",
+      "tail": "解析冗余检验模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "SDQ算法",
+      "tail": "持续性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "SDQ算法",
+      "tail": "数据确认及合并子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断",
+      "head": "SDQ算法",
+      "tail": "传感器故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "隔离",
+      "head": "SDQ算法",
+      "tail": "故障传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "滤除",
+      "head": "SDQ算法",
+      "tail": "噪声",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "改进的SDQ算法",
+      "tail": "诊断准确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "改进的SDQ算法",
+      "tail": "平均正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "改进的SDQ算法",
+      "tail": "信噪比",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比了",
+      "head": "改进的SDQ算法",
+      "tail": "基于最小二乘法的SDQ算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "优于",
+      "head": "改进的SDQ算法",
+      "tail": "基于最小二乘法的SDQ算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "SDQ算法",
+      "tail": "航空涡扇发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "构建了",
+      "head": "AANN神经网络",
+      "tail": "传感器解析冗余网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "训练了",
+      "head": "AANN神经网络",
+      "tail": "传感器数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "优化了",
+      "head": "遗传算法",
+      "tail": "AANN神经网络初始权值和阈值",
+      "evaluation": "错误"
+    },
+    {
+      "type": "缩短了",
+      "head": "遗传算法",
+      "tail": "训练时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "遗传算法",
+      "tail": "网络精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "诊断",
+      "head": "合理性检验模块",
+      "tail": "硬故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断",
+      "head": "合理性检验模块",
+      "tail": "间歇故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检验",
+      "head": "解析冗余检验模块",
+      "tail": "传感器网络关系",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "解析冗余检验模块",
+      "tail": "冗余通道检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "解析冗余检验模块",
+      "tail": "解析网络检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "解析网络检验",
+      "tail": "AANN神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分组了",
+      "head": "AANN神经网络组",
+      "tail": "发动机不同工作状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对应",
+      "head": "AANNs0",
+      "tail": "起飞条件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对应",
+      "head": "AANNs1",
+      "tail": "额定条件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对应",
+      "head": "AANNs2",
+      "tail": "巡航条件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对应",
+      "head": "AANNs3",
+      "tail": "怠速条件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "处理了",
+      "head": "分块处理",
+      "tail": "动态过程",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证了",
+      "head": "蒙特卡罗仿真方法",
+      "tail": "算法性能",
+      "evaluation": "错误"
+    },
+    {
+      "type": "注入",
+      "head": "仿真实验",
+      "tail": "故障类型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "仿真结果",
+      "tail": "性能指标提高",
+      "evaluation": "错误"
+    }
+  ]
+}

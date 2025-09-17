@@ -1,0 +1,196 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LASSO",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "相似性寿命预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "传统方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "剩余寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "LARS算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "惩罚函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "L1范数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "CP准则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差的标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差的平均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "欧氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测误差的标准差在3种运行周期下分别减少了约1.84、3.46、4.23",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差均值为-4.6671",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "估算误差均值为-5.8944",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+      "tail": "LASSO",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+      "tail": "相似性寿命预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "工况识别",
+      "tail": "K-means聚类",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "健康因子构建",
+      "tail": "线性回归方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "相似性寿命预测方法",
+      "tail": "欧氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "线性回归模型",
+      "tail": "LASSO回归模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "LASSO回归模型",
+      "tail": "L1范数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "本文",
+      "tail": "LASSO方法与传统方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "相似性寿命预测方法",
+      "tail": "预测误差的标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于LASSO变量选择的航空发动机相似性剩余寿命预测",
+      "tail": "预测误差的标准差在3种运行周期下分别减少了约1.84、3.46、4.23",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于LASSO方法的寿命预测",
+      "tail": "误差均值为-4.6671",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "传统方法",
+      "tail": "估算误差均值为-5.8944",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "剩余寿命预测",
+      "tail": "预测与健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "实验验证",
+      "tail": "C-MAPSS",
+      "evaluation": "错误"
+    }
+  ]
+}

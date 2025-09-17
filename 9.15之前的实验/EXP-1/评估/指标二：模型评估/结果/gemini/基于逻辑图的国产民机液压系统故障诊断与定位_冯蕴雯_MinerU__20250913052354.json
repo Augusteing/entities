@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "逻辑图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "正向推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "反向推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "离散事件模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "随机森林",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "基于粒子群的神经网络方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "改进深度森林方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "自适应二步无迹卡尔曼滤波方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波去噪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "动态核主元分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "条件概率分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "液压系统故障诊断与定位",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研究结果",
+      "text": "准确实现故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "精准进行故障部件定位",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "对潜在可能故障部件给出发生的概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "正向推理有故障的概率值马上变成1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "1号系统低压发生概率由0上升至0.92",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "液压系统故障诊断与定位",
+      "tail": "逻辑图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "液压系统故障诊断与定位",
+      "tail": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "贝叶斯网络",
+      "tail": "逻辑图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "贝叶斯网络",
+      "tail": "条件概率分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "液压系统故障诊断与定位",
+      "tail": "正向推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "液压系统故障诊断与定位",
+      "tail": "反向推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "液压系统故障诊断与定位",
+      "tail": "准确实现故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "液压系统故障诊断与定位",
+      "tail": "精准进行故障部件定位",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "液压系统故障诊断与定位",
+      "tail": "对潜在可能故障部件给出发生的概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "液压系统故障诊断与定位",
+      "tail": "正向推理有故障的概率值马上变成1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "液压系统故障诊断与定位",
+      "tail": "1号系统低压发生概率由0上升至0.92",
+      "evaluation": "正确"
+    }
+  ]
+}

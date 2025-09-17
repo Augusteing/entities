@@ -1,0 +1,314 @@
+[
+  {
+    "entities": [
+      {
+        "type": "技术",
+        "text": "预测与健康管理（PHM，Prognostics and Health Management）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "机制",
+        "text": "军机备件配置机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "军机备件需求产生过程",
+        "evaluation": "正确"
+      },
+      {
+        "type": "机制",
+        "text": "现有军机备件预测配置机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "体系",
+        "text": "军机PHM体系",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模式",
+        "text": "PHM技术支持下的备件配置模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "框架",
+        "text": "基层级备件配置机制框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "后方基地自动化后勤信息系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "理论",
+        "text": "虚拟库存理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "框架",
+        "text": "后方基地备件配置机制框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "理论",
+        "text": "信息共享理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "框架",
+        "text": "联合共享备件配置机制框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "维修保障费用",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "维修需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "维修活动",
+        "text": "修复性维修活动",
+        "evaluation": "正确"
+      },
+      {
+        "type": "维修活动",
+        "text": "预防性维修活动",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需求类型",
+        "text": "随机性备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需求类型",
+        "text": "周期性备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "备件配置预测模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "工程经验法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "PHM系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组成",
+        "text": "机上PHM",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统组成",
+        "text": "机下（地面）PHM",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "自动化后勤信息系统（ALIS，Automatic Logistics Information System）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "理论",
+        "text": "供应链理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模式",
+        "text": "备件供应模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "自主后勤保障系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "配置流程",
+        "text": "外场备件配置",
+        "evaluation": "正确"
+      },
+      {
+        "type": "配置流程",
+        "text": "后方基地库存备件配置",
+        "evaluation": "正确"
+      },
+      {
+        "type": "库存类型",
+        "text": "实体库存备件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "库存类型",
+        "text": "虚拟库存备件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "角色",
+        "text": "承包商",
+        "evaluation": "正确"
+      },
+      {
+        "type": "配置流程",
+        "text": "联合共享备件配置",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模式",
+        "text": "集成式信息流运作模式",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是...的重要手段",
+        "head": "预测与健康管理（PHM，Prognostics and Health Management）",
+        "tail": "压缩维修保障费用",
+        "evaluation": "错误"
+      },
+      {
+        "type": "引起",
+        "head": "维修需求",
+        "tail": "备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "维修活动",
+        "tail": "修复性维修活动",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "维修活动",
+        "tail": "预防性维修活动",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "备件需求",
+        "tail": "随机性备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "备件需求",
+        "tail": "周期性备件需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有",
+        "head": "备件配置预测模型",
+        "tail": "模型法",
+        "evaluation": "错误"
+      },
+      {
+        "type": "有",
+        "head": "备件配置预测模型",
+        "tail": "工程经验法",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "PHM系统",
+        "tail": "机上PHM",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "PHM系统",
+        "tail": "机下（地面）PHM",
+        "evaluation": "正确"
+      },
+      {
+        "type": "宿驻在",
+        "head": "地面PHM系统",
+        "tail": "自动化后勤信息系统（ALIS，Automatic Logistics Information System）",
+        "evaluation": "错误"
+      },
+      {
+        "type": "决定了",
+        "head": "基于PHM的军机维修保障系统",
+        "tail": "备件供应模式",
+        "evaluation": "错误"
+      },
+      {
+        "type": "开始于",
+        "head": "自主式后勤保障链",
+        "tail": "机载、地面PHM系统的故障诊断和预测",
+        "evaluation": "错误"
+      },
+      {
+        "type": "运用...构建",
+        "head": "基层级备件配置机制框架",
+        "tail": "PHM系统的预测",
+        "evaluation": "错误"
+      },
+      {
+        "type": "运用...构建",
+        "head": "后方基地备件配置机制框架",
+        "tail": "后方基地自动化后勤信息系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "运用...构建",
+        "head": "后方基地备件配置机制框架",
+        "tail": "虚拟库存理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "运用...构建",
+        "head": "联合共享备件配置机制框架",
+        "tail": "信息共享理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "后方基地库存备件配置",
+        "tail": "实体库存备件",
+        "evaluation": "错误"
+      },
+      {
+        "type": "包括",
+        "head": "后方基地库存备件配置",
+        "tail": "虚拟库存备件",
+        "evaluation": "错误"
+      },
+      {
+        "type": "由...供应配置",
+        "head": "虚拟库存",
+        "tail": "承包商",
+        "evaluation": "错误"
+      },
+      {
+        "type": "借助于...实现",
+        "head": "联合共享备件配置",
+        "tail": "集成式信息流运作模式",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

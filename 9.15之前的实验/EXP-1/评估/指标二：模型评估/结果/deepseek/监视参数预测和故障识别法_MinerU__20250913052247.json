@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "最小二乘MARPLE算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "FPE准则函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "判别函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测置信区间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测值与实际值基本吻合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障诊断可行",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "采用",
+      "head": "时间序列分析方法",
+      "tail": "自回归模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "自回归模型",
+      "tail": "监视参数预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "自回归模型",
+      "tail": "最小二乘MARPLE算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "模式识别技术",
+      "tail": "判别函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "时间序列分析",
+      "tail": "模式识别技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "监视参数预测",
+      "tail": "预测值与实际值基本吻合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "故障识别",
+      "tail": "故障诊断可行",
+      "evaluation": "错误"
+    }
+  ]
+}

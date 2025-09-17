@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "灰色关联分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "云计算技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "灰色关联度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "云环境下的发动机健康管理系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "涡轮间隙控制系统关闭",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "高压涡轮模块性能衰退",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "高压压气机模块性能衰退",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "低压压气机模块性能衰退",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能参数",
+      "text": "△EGT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能参数",
+      "text": "△FF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能参数",
+      "text": "△N2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能参数",
+      "text": "△N1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发动机型号",
+      "text": "JT9D-7R4",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "云环境下的发动机健康管理系统",
+      "tail": "云计算技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "灰色关联分析",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "发动机健康管理系统",
+      "tail": "△EGT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "发动机健康管理系统",
+      "tail": "△FF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "发动机健康管理系统",
+      "tail": "△N2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "发动机健康管理系统",
+      "tail": "△N1",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证",
+      "head": "云环境下的灰色故障识别方法",
+      "tail": "JT9D-7R4发动机的典型气路性能故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "表示",
+      "head": "△EGT",
+      "tail": "排气温度变化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "△FF",
+      "tail": "燃油流量变化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "△N2",
+      "tail": "高压转子速度变化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "△N1",
+      "tail": "低压转子速度变化",
+      "evaluation": "正确"
+    }
+  ]
+}

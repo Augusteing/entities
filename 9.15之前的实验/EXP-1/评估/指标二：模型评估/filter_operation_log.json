@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-09-15T20:25:15.630984",
+  "operation": "filter_50_papers",
+  "evaluation_papers_count": 50,
+  "needed_files_count": 50,
+  "statistics": {
+    "total_moved": 435,
+    "total_kept": 150,
+    "per_model": {
+      "deepseek": {
+        "moved": 145,
+        "kept": 50,
+        "missing": []
+      },
+      "gemini": {
+        "moved": 145,
+        "kept": 50,
+        "missing": []
+      },
+      "kimi": {
+        "moved": 145,
+        "kept": 50,
+        "missing": []
+      }
+    }
+  },
+  "backup_location": "e:\\知识图谱构建\\9.15之前的实验\\EXP-1\\评估\\指标二：模型评估\\备份_原始提交文件"
+}

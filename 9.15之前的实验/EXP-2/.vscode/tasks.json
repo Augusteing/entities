@@ -1,0 +1,69 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run entity counting",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\count_entities_by_model_and_type.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run plotting",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\plot_entity_counts_and_top3.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Re-run plotting",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\plot_entity_counts_and_top3.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Re-run plotting (styled)",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\plot_entity_counts_and_top3.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run relation counting",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\count_relations_by_model_and_type.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run gemini experiments plotting",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe 抽取\\code\\plot_gemini_experiments_summary.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run calc pass rate",
+			"type": "shell",
+			"command": "e:\\conda\\envs\\prompt_exp\\python.exe",
+			"args": [
+				"抽取\\code\\calc_pass_rate.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

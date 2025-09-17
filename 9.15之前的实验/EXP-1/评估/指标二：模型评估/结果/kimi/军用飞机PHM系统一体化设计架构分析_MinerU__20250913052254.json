@@ -1,0 +1,191 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "PHM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SVM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "知识图谱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多领域模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机载设备物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "健康管理算法模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "三化一体设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "软硬件协同加速的实时化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "基于知识图谱的数据可视化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "基于MBSE的系统模型化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "加速效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "能耗缩减",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "5.63倍的加速效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "82.7%的能耗缩减",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "提高了数据搜索与维修决策的效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "缩短了系统迭代周期，降低了系统设计成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "促进军用飞机PHM系统设计标准化",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "PHM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "SVM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "PHM系统设计",
+      "tail": "知识图谱",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "多领域模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "机载设备物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "健康管理算法模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "三化一体设计架构",
+      "tail": "软硬件协同加速的实时化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "三化一体设计架构",
+      "tail": "基于知识图谱的数据可视化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "三化一体设计架构",
+      "tail": "基于MBSE的系统模型化设计架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "软硬件协同加速的实时化设计架构",
+      "tail": "5.63倍的加速效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "软硬件协同加速的实时化设计架构",
+      "tail": "82.7%的能耗缩减",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "基于知识图谱的数据可视化设计架构",
+      "tail": "提高了数据搜索与维修决策的效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "基于MBSE的系统模型化设计架构",
+      "tail": "缩短了系统迭代周期，降低了系统设计成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "三维多相设计准则",
+      "tail": "促进军用飞机PHM系统设计标准化",
+      "evaluation": "正确"
+    }
+  ]
+}

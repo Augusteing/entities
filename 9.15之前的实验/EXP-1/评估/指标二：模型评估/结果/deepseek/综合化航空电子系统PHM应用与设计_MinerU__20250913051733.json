@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多信号增强诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于马尔科夫模型的健康评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于贝叶斯网络的健康评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "相关性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "功能重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "剩余能力评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层次",
+      "text": "模块级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层次",
+      "text": "子系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "层次",
+      "text": "系统级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "增强诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "剩余能力评估技术",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "故障预测与健康管理",
+      "tail": "综合化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "功能重构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "剩余能力评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "增强诊断技术",
+      "tail": "相关性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "剩余能力评估技术",
+      "tail": "马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "剩余能力评估技术",
+      "tail": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "航空电子系统PHM",
+      "tail": "模块级",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分为",
+      "head": "航空电子系统PHM",
+      "tail": "子系统级",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分为",
+      "head": "航空电子系统PHM",
+      "tail": "系统级",
+      "evaluation": "错误"
+    }
+  ]
+}

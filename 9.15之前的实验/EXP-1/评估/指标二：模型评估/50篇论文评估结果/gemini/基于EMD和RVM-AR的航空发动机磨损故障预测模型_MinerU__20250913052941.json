@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "经验模态分解 (EMD)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "相关向量机一自回归模型 (RVM-AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "相关向量机 (RVM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归模型 (AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量机 (SVM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "量子粒子群优化算法 (QPSO)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "镜像延拓法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "固有模态函数 (IMF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "残余函数 (RF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "适应度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "最优核参数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "嵌入维数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "留一交叉验证误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Fe元素的平均相对预测误差分别提高了15%和6%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Si元素的平均相对预测误差分别提高了49%和23%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Si元素含量预测的平均相对误差仅为4.8%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "滑油光谱数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "端点效应",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "经验模态分解 (EMD)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "相关向量机一自回归模型 (RVM-AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "经验模态分解 (EMD)",
+      "tail": "固有模态函数 (IMF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "经验模态分解 (EMD)",
+      "tail": "残余函数 (RF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "量子粒子群优化算法 (QPSO)",
+      "tail": "进化搜索RVM的最优核参数和嵌入维数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用作",
+      "head": "留一交叉验证误差",
+      "tail": "适应度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "镜像延拓法",
+      "tail": "抑制EMD端点效应",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "平均相对预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "Si元素含量预测的平均相对误差仅为4.8%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对比",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "AR模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "对比",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "SVM模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合了",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "EMD多分辨的优势",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合了",
+      "head": "基于EMD和RVM一AR的航空发动机磨损故障预测模型",
+      "tail": "RVM强大地非线性处理能力",
+      "evaluation": "错误"
+    }
+  ]
+}

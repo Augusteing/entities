@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "飞机电源多Agent预测与健康管理系统"
+    },
+    {
+      "type": "模型",
+      "text": "OSA-CBM模型"
+    },
+    {
+      "type": "模型",
+      "text": "多Agent系统"
+    },
+    {
+      "type": "模型",
+      "text": "AEPHM"
+    },
+    {
+      "type": "模型",
+      "text": "BDI Agent理论模型"
+    },
+    {
+      "type": "模型",
+      "text": "AUML"
+    },
+    {
+      "type": "模型",
+      "text": "KQML"
+    },
+    {
+      "type": "模型",
+      "text": "ATML"
+    },
+    {
+      "type": "技术",
+      "text": "多Agent技术"
+    },
+    {
+      "type": "技术",
+      "text": "AUML技术"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合算法"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能技术"
+    },
+    {
+      "type": "算法",
+      "text": "DS证据理论"
+    },
+    {
+      "type": "算法",
+      "text": "粗糙集RS理论"
+    },
+    {
+      "type": "算法",
+      "text": "专家系统"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法"
+    },
+    {
+      "type": "算法",
+      "text": "模糊推理"
+    },
+    {
+      "type": "组件",
+      "text": "状态监测Agent"
+    },
+    {
+      "type": "组件",
+      "text": "故障诊断Agent"
+    },
+    {
+      "type": "组件",
+      "text": "健康评估Agent"
+    },
+    {
+      "type": "组件",
+      "text": "维修与后勤保障Agent"
+    },
+    {
+      "type": "组件",
+      "text": "管理Agent"
+    },
+    {
+      "type": "组件",
+      "text": "用户接口Agent"
+    },
+    {
+      "type": "组件",
+      "text": "服务Agent"
+    },
+    {
+      "type": "组件",
+      "text": "数据仓库管理Agent"
+    },
+    {
+      "type": "组件",
+      "text": "诊断元Agent"
+    },
+    {
+      "type": "组件",
+      "text": "故障仲裁和决策Agent"
+    },
+    {
+      "type": "组件",
+      "text": "信息采集Agent"
+    },
+    {
+      "type": "概念",
+      "text": "剩余有效工作时间RUL"
+    },
+    {
+      "type": "概念",
+      "text": "机内测试BIT"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型"
+    },
+    {
+      "type": "基于",
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "tail": "OSA-CBM模型"
+    },
+    {
+      "type": "采用",
+      "head": "AEPHM系统模型构建",
+      "tail": "AUML技术"
+    },
+    {
+      "type": "组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "状态监测Agent"
+    },
+    {
+      "type": "组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "故障诊断Agent"
+    },
+    {
+      "type": "组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "健康评估Agent"
+    },
+    {
+      "type": "组成",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断元Agent"
+    },
+    {
+      "type": "组成",
+      "head": "诊断多Agent子系统",
+      "tail": "故障仲裁和决策Agent"
+    },
+    {
+      "type": "采用",
+      "head": "诊断元Agent",
+      "tail": "专家系统"
+    },
+    {
+      "type": "采用",
+      "head": "诊断元Agent",
+      "tail": "人工神经网络"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "DS证据理论"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "粗糙集RS理论"
+    },
+    {
+      "type": "采用",
+      "head": "Agent间通信",
+      "tail": "KQML"
+    },
+    {
+      "type": "实现",
+      "head": "信息采集Agent",
+      "tail": "数据级融合"
+    },
+    {
+      "type": "实现",
+      "head": "故障仲裁和决策Agent",
+      "tail": "决策级融合"
+    },
+    {
+      "type": "功能是",
+      "head": "健康评估Agent",
+      "tail": "预测剩余有效工作时间RUL"
+    },
+    {
+      "type": "功能是",
+      "head": "诊断多Agent",
+      "tail": "实现机内测试BIT功能"
+    },
+    {
+      "type": "协作",
+      "head": "状态监测Agent",
+      "tail": "故障诊断Agent"
+    },
+    {
+      "type": "协作",
+      "head": "故障诊断Agent",
+      "tail": "管理Agent"
+    }
+  ]
+}

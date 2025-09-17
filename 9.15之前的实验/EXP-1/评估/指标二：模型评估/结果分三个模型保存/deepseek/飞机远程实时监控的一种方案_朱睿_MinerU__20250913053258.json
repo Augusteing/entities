@@ -1,0 +1,176 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "AHMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "数据库构建模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "维护方案生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "数据源反馈模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "手册数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "排故经验数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "FIM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "文档",
+      "text": "AMM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "实时故障报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "特定算法程序",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "GPS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "ACARS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "CMCS",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "AHMS",
+      "tail": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "AHMS",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "AHMS",
+      "tail": "数据库构建模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "AHMS",
+      "tail": "维护方案生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "AHMS",
+      "tail": "数据源反馈模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建",
+      "head": "数据库构建模块",
+      "tail": "手册数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建",
+      "head": "数据库构建模块",
+      "tail": "排故经验数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "维护方案生成模块",
+      "tail": "实时故障报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "维护方案生成模块",
+      "tail": "特定算法程序",
+      "evaluation": "正确"
+    },
+    {
+      "type": "调用",
+      "head": "维护方案生成模块",
+      "tail": "手册数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "调用",
+      "head": "维护方案生成模块",
+      "tail": "排故经验数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "补充",
+      "head": "数据源反馈模块",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传输",
+      "head": "ACARS",
+      "tail": "实时数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "产生",
+      "head": "CMCS",
+      "tail": "实时故障报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "GPS",
+      "tail": "雷达精度检飞",
+      "evaluation": "错误"
+    }
+  ]
+}

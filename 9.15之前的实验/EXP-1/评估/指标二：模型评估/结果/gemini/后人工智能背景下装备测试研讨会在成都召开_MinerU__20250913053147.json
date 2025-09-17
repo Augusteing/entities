@@ -1,0 +1,265 @@
+{
+  "entities": [
+    {
+      "type": "会议",
+      "text": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "时间",
+      "text": "2020年11月27日",
+      "evaluation": "正确"
+    },
+    {
+      "type": "地点",
+      "text": "成都",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国仪器仪表学会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "四川大学电气工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "四川大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京航天测控技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国运载火箭技术研究院空天业务部",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国核动力研究设计院设计所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "山东科技大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国航空工业集团公司成都飞机设计研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "华南理工大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "苗强",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "肖先勇",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "张莉",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "于功敬",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "代言",
+      "evaluation": "错误"
+    },
+    {
+      "type": "人物",
+      "text": "刘大同",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "何正熙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王友清",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "陈银超",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "李巍华",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "孙博",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "装备测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "航空航天领域智能健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "反应堆系统故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "先进战机预测与健康管理技术",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "举办时间",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "2020年11月27日",
+      "evaluation": "正确"
+    },
+    {
+      "type": "举办地点",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "成都",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主办方",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "中国仪器仪表学会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办方",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "四川大学电气工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主持",
+      "head": "苗强",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致辞",
+      "head": "肖先勇",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致辞",
+      "head": "张莉",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作报告",
+      "head": "于功敬",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作报告",
+      "head": "刘大同",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作报告",
+      "head": "何正熙",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "苗强",
+      "tail": "四川大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "于功敬",
+      "tail": "北京航天测控技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "刘大同",
+      "tail": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "何正熙",
+      "tail": "中国核动力研究设计院设计所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "孙博",
+      "tail": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "探讨",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "装备测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "航空航天领域智能健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "反应堆系统故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "先进战机预测与健康管理技术",
+      "evaluation": "正确"
+    }
+  ]
+}

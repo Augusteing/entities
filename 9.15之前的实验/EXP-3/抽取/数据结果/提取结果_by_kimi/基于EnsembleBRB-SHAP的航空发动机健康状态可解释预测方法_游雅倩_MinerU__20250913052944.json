@@ -1,0 +1,296 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "EnsembleBRB-SHAP模型"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机健康状态预测"
+    },
+    {
+      "type": "技术",
+      "text": "数据驱动法"
+    },
+    {
+      "type": "技术",
+      "text": "置信规则库（Belief Rule-Based，BRB）模型"
+    },
+    {
+      "type": "技术",
+      "text": "集成置信规则库（EnsembleBRB）模型"
+    },
+    {
+      "type": "技术",
+      "text": "沙普利加性解释（SHapley Additive exPlanations，SHAP）"
+    },
+    {
+      "type": "技术",
+      "text": "商用模块化航空推进系统仿真软件"
+    },
+    {
+      "type": "技术",
+      "text": "C-MAPSS"
+    },
+    {
+      "type": "概念",
+      "text": "可解释性"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "状态监测"
+    },
+    {
+      "type": "概念",
+      "text": "预测维护"
+    },
+    {
+      "type": "概念",
+      "text": "决策支持"
+    },
+    {
+      "type": "指标",
+      "text": "MSE"
+    },
+    {
+      "type": "参数",
+      "text": "低压涡轮机冷却液泄漏量"
+    },
+    {
+      "type": "参数",
+      "text": "风扇转速"
+    },
+    {
+      "type": "技术",
+      "text": "D-S证据理论"
+    },
+    {
+      "type": "技术",
+      "text": "模糊专家系统"
+    },
+    {
+      "type": "技术",
+      "text": "集成学习算法"
+    },
+    {
+      "type": "技术",
+      "text": "双向门控循环单元"
+    },
+    {
+      "type": "技术",
+      "text": "多门混合专家"
+    },
+    {
+      "type": "技术",
+      "text": "LSSVM"
+    },
+    {
+      "type": "技术",
+      "text": "HMM"
+    },
+    {
+      "type": "技术",
+      "text": "贝叶斯网络"
+    },
+    {
+      "type": "技术",
+      "text": "可视化分析"
+    },
+    {
+      "type": "技术",
+      "text": "Kernel SHAP"
+    },
+    {
+      "type": "技术",
+      "text": "Deep SHAP"
+    },
+    {
+      "type": "技术",
+      "text": "Tree SHAP"
+    },
+    {
+      "type": "技术",
+      "text": "力导向图"
+    },
+    {
+      "type": "技术",
+      "text": "瀑布图"
+    },
+    {
+      "type": "技术",
+      "text": "概括图"
+    },
+    {
+      "type": "技术",
+      "text": "依赖图"
+    },
+    {
+      "type": "技术",
+      "text": "热力图"
+    },
+    {
+      "type": "技术",
+      "text": "队列条形图"
+    },
+    {
+      "type": "技术",
+      "text": "特征聚类图"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "EnsembleBRB-SHAP模型",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "type": "采用",
+      "head": "EnsembleBRB-SHAP模型",
+      "tail": "数据驱动法"
+    },
+    {
+      "type": "基于",
+      "head": "EnsembleBRB模型",
+      "tail": "置信规则库（Belief Rule-Based，BRB）模型"
+    },
+    {
+      "type": "基于",
+      "head": "EnsembleBRB模型",
+      "tail": "集成置信规则库（EnsembleBRB）模型"
+    },
+    {
+      "type": "基于",
+      "head": "EnsembleBRB模型",
+      "tail": "沙普利加性解释（SHapley Additive exPlanations，SHAP）"
+    },
+    {
+      "type": "验证",
+      "head": "EnsembleBRB-SHAP模型",
+      "tail": "商用模块化航空推进系统仿真软件"
+    },
+    {
+      "type": "记录",
+      "head": "商用模块化航空推进系统仿真软件",
+      "tail": "C-MAPSS"
+    },
+    {
+      "type": "实现",
+      "head": "EnsembleBRB-SHAP模型",
+      "tail": "可解释性"
+    },
+    {
+      "type": "提供",
+      "head": "航空发动机健康状态预测",
+      "tail": "健康管理"
+    },
+    {
+      "type": "提供",
+      "head": "航空发动机健康状态预测",
+      "tail": "状态监测"
+    },
+    {
+      "type": "提供",
+      "head": "航空发动机健康状态预测",
+      "tail": "预测维护"
+    },
+    {
+      "type": "提供",
+      "head": "航空发动机健康状态预测",
+      "tail": "决策支持"
+    },
+    {
+      "type": "衡量",
+      "head": "MSE",
+      "tail": "航空发动机健康状态预测"
+    },
+    {
+      "type": "决定",
+      "head": "低压涡轮机冷却液泄漏量",
+      "tail": "航空发动机健康状态"
+    },
+    {
+      "type": "决定",
+      "head": "风扇转速",
+      "tail": "航空发动机健康状态"
+    },
+    {
+      "type": "引入",
+      "head": "D-S证据理论",
+      "tail": "模糊专家系统"
+    },
+    {
+      "type": "结合",
+      "head": "集成学习算法",
+      "tail": "多种机器学习算法"
+    },
+    {
+      "type": "提出",
+      "head": "双向门控循环单元",
+      "tail": "多门混合专家"
+    },
+    {
+      "type": "结合",
+      "head": "LSSVM",
+      "tail": "HMM"
+    },
+    {
+      "type": "基于",
+      "head": "贝叶斯网络",
+      "tail": "可视化分析"
+    },
+    {
+      "type": "近似",
+      "head": "SHAP值",
+      "tail": "Kernel SHAP"
+    },
+    {
+      "type": "近似",
+      "head": "SHAP值",
+      "tail": "Deep SHAP"
+    },
+    {
+      "type": "近似",
+      "head": "SHAP值",
+      "tail": "Tree SHAP"
+    },
+    {
+      "type": "采用",
+      "head": "局部可解释性分析",
+      "tail": "力导向图"
+    },
+    {
+      "type": "采用",
+      "head": "局部可解释性分析",
+      "tail": "瀑布图"
+    },
+    {
+      "type": "采用",
+      "head": "全局可解释性分析",
+      "tail": "概括图"
+    },
+    {
+      "type": "采用",
+      "head": "全局可解释性分析",
+      "tail": "依赖图"
+    },
+    {
+      "type": "采用",
+      "head": "全局可解释性分析",
+      "tail": "热力图"
+    },
+    {
+      "type": "采用",
+      "head": "全局可解释性分析",
+      "tail": "队列条形图"
+    },
+    {
+      "type": "采用",
+      "head": "全局可解释性分析",
+      "tail": "特征聚类图"
+    }
+  ]
+}

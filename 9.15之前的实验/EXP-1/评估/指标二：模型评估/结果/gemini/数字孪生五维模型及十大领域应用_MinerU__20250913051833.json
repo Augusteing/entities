@@ -1,0 +1,407 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "数字孪生",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "数字孪生五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "传统数字孪生三维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智能制造",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "工业4.0",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "工业互联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "Grieves教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究机构",
+      "text": "北航数字孪生技术研究团队",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "NewIT技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "物联网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "大数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "虚拟现实(VR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "增强现实(AR)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分",
+      "text": "物理实体(PE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分",
+      "text": "虚拟实体(VE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分",
+      "text": "服务(Ss)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分",
+      "text": "孪生数据(DD)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成部分",
+      "text": "连接(CN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "几何模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "行为模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "规则模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "卫星/空间通信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "发电厂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "复杂机电装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "医疗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "制造车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理(PHM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "基于数字孪生的PHM方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "数字孪生车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "数字孪生城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "起落架结构优化设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究目标",
+      "text": "减轻重量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究目标",
+      "text": "提高可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究目标",
+      "text": "提高设计效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究目标",
+      "text": "降低设计成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "使能技术",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Grieves教授",
+      "tail": "数字孪生",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "北航数字孪生技术研究团队",
+      "tail": "数字孪生五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "北航数字孪生技术研究团队",
+      "tail": "数字孪生车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "北航数字孪生技术研究团队",
+      "tail": "基于数字孪生的PHM方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展自",
+      "head": "数字孪生五维模型",
+      "tail": "传统数字孪生三维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种",
+      "head": "数字孪生",
+      "tail": "使能技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "物理实体(PE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "虚拟实体(VE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "服务(Ss)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "孪生数据(DD)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数字孪生五维模型",
+      "tail": "连接(CN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "虚拟实体(VE)",
+      "tail": "几何模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "虚拟实体(VE)",
+      "tail": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "虚拟实体(VE)",
+      "tail": "行为模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "虚拟实体(VE)",
+      "tail": "规则模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "数字孪生",
+      "tail": "NewIT技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "卫星/空间通信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "船舶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "车辆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "发电厂",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "复杂机电装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "立体仓库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "医疗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "制造车间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "数字孪生五维模型",
+      "tail": "智慧城市",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于数字孪生的PHM方法",
+      "tail": "数字孪生五维模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "起落架结构优化设计",
+      "tail": "减轻重量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "起落架结构优化设计",
+      "tail": "提高可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "起落架结构优化设计",
+      "tail": "提高设计效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "起落架结构优化设计",
+      "tail": "降低设计成本",
+      "evaluation": "正确"
+    }
+  ]
+}
