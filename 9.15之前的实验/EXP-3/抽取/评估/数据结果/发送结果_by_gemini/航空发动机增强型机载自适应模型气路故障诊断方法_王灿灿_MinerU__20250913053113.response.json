@@ -1,0 +1,451 @@
+{
+  "entities": [
+    {
+      "type": "问题",
+      "text": "气路健康状态的评估问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于增强型机载自适应模型的气路故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "卡尔曼滤波器估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "健康参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "现象",
+      "text": "正常性能降级趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息",
+      "text": "故障信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机性能仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "故障特征数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RBF神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障模式判定",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具/平台",
+      "text": "某型涡轴发动机气路故障诊断平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "气路健康状况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机气路故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "发动机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "视情维修策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "在线机载模型（SelfTuningOn- BoardReal- timeModel，STORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载自适应模型（Enhanced Self Tuning On- Board Real- Time Model，ESTORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "神经网络补偿模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "状态变量模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "自适应遗传算法的最小二乘支持向量回归机方法（英文全称，AGA- LSSVR）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于高斯加权聚类的机载自适应混合模型建立方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "增强型机载自适应模型气路故障诊断架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "常规控制逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "故障检测与隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "模型误差补偿数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "现象",
+      "text": "发动机性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "发动机状态变量机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "发动机建模误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "某型涡轴发动机气动热力学部件级模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "K-均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "梯度下降法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "高斯聚类模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "故障征兆量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "某型双转子涡轴发动机部件级模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具/平台",
+      "text": "Matlab/Stimulink仿真软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机气路故障诊断系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "现象",
+      "text": "气路部件性能渐变退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数值",
+      "text": "98.83%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "针对",
+      "head": "基于增强型机载自适应模型的气路故障诊断方法",
+      "tail": "气路健康状态的评估问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在...中加入",
+      "head": "基于增强型机载自适应模型的气路故障诊断方法",
+      "tail": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在线修正...输出误差",
+      "head": "神经网络补偿算法",
+      "tail": "机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "神经网络补偿算法",
+      "tail": "卡尔曼滤波器估计精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...建立",
+      "head": "增强型自适应模型",
+      "tail": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...建立",
+      "head": "性能基线模型",
+      "tail": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实时评估...状态",
+      "head": "增强型自适应模型",
+      "tail": "健康参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指导...跟踪...趋势",
+      "head": "增强型自适应模型",
+      "tail": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "剪裁...用于检测和诊断",
+      "head": "性能基线模型",
+      "tail": "故障信息",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于...模拟",
+      "head": "故障特征数据库",
+      "tail": "发动机性能仿真模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用...完成",
+      "head": "RBF神经网络",
+      "tail": "故障模式判定",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...完成",
+      "head": "RBF神经网络",
+      "tail": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过...进行仿真验证",
+      "head": "基于增强型机载自适应模型的气路故障诊断方法",
+      "tail": "某型涡轴发动机气路故障诊断平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为...基础技术",
+      "head": "航空发动机气路故障诊断",
+      "tail": "发动机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支撑",
+      "head": "航空发动机气路故障诊断",
+      "tail": "视情维修策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "升级为",
+      "head": "在线机载模型（SelfTuningOn- BoardReal- timeModel，STORM）",
+      "tail": "增强型机载自适应模型（Enhanced Self Tuning On- Board Real- Time Model，ESTORM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "加入",
+      "head": "增强型机载自适应模型（Enhanced Self Tuning On- Board Real- Time Model，ESTORM）",
+      "tail": "神经网络补偿模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路故障诊断架构",
+      "tail": "常规控制逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路故障诊断架构",
+      "tail": "增强型自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路故障诊断架构",
+      "tail": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型气路故障诊断架构",
+      "tail": "故障检测与隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "选用...作为基本结构",
+      "head": "增强型机载模型",
+      "tail": "线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...跟踪",
+      "head": "增强型机载自适应模型",
+      "tail": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型",
+      "tail": "增强型机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "增强型机载自适应模型",
+      "tail": "卡尔曼滤波器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在...基础上增加了",
+      "head": "增强型机载模型",
+      "tail": "神经网络补偿算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "增强型机载模型",
+      "tail": "发动机状态变量机载模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于弥补",
+      "head": "神经网络补偿算法",
+      "tail": "发动机建模误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...学习基函数中心和方差",
+      "head": "RBF神经网络",
+      "tail": "K-均值聚类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...确定隐含层与输出层之间的权值",
+      "head": "RBF神经网络",
+      "tail": "梯度下降法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供...基线标准",
+      "head": "性能基线模型",
+      "tail": "故障诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用...设计",
+      "head": "发动机气路故障诊断系统",
+      "tail": "Matlab/Stimulink仿真软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "显著提高",
+      "head": "神经网络补偿模块",
+      "tail": "卡尔曼滤波估计精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "实现对...的精准跟踪",
+      "head": "增强型机载自适应模型",
+      "tail": "气路部件性能渐变退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断正确率均值为",
+      "head": "某型涡轴发动机气路故障诊断平台",
+      "tail": "98.83%",
+      "evaluation": "正确"
+    }
+  ]
+}

@@ -159,6 +159,27 @@
 以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
 
 示例1 段落：
+(4): 297- 303. [20] 陈恬, 孙健国, 郝英. 基于神经网络和证据融合理论的航空发动机气路故障诊断[J]. 航空学报, 2006, 27(6): 1014- 1017. CHEN T, SUN J G, HAO Y. Neural network and demposter- shafter theory based fault diagnosis for aeroengine gas path[J]. Acta Aeronautica et Astronautica Sinica, 2006, 27(6): 1014- 1017 (in Chinese).[21] 蔡开龙, 谢寿生, 吴勇. 航空发动机的模糊故障诊断方法研究[J]. 航空动力学报, 2007, 22(5): 833- 837. CAI K L, XIE S S, WU Y. Study on fuzzy fault diagnosis of aero- engines[J]. Journal of Aerospace Power, 2007, 22(5): 833- 837 (in Chinese).[22] 鲁峰, 黄金泉, 仇小杰, 等. 基于信息熵融合提取特征的发动机气路分析[J]. 仪器仪表学报, 2012, 33(1): 13- 19. LU F, HUANG J Q, QIU X J, et al. Feature extraction based on information entropy fusion for turbo- shaft engine gas- path analysis[J]. Chinese Journal of Scientific Instrument, 2012, 33(1): 13- 19 (in Chinese).[23] 孙见忠, 左洪福. 基于多源诊断信息融合的发动机气路分析[J]. 航空动力学报, 2013, 28(6): 1885- 1896. SUN J Z, ZUO H F. Gas path analysis based on multi- sources diagnostics information fusion[J]. Journal of Aerospace Power, 2013, 28(8): 1885- 1896 (in Chinese).[24] 李业波, 李秋红, 黄向华, 等. 航空发动机气路部件故障融合诊断方法研究[J]. 航空学报, 2014, 35(6): 1612- 1622. LI Y B, LI Q H, HUANG X H, et al. Research on gas fault fusion diagnosis of aero- engine component[J]. Acta Aeronautica et Astronautica Sinica, 2014, 35(6): 1612- 1622 (in Chinese).[25] RENGASAMY D, MORVAN H P, FIGUEREDO G P. Deep learning approaches to aircraft maintenance, repair and overhaul: a review[C]//2018 21st International Conference on Intelligent Transportation Systems (ITSC). Piscataway: IEEE Press, 2018, 150- 156. [26] MEMARZADEH M, MATTHEWS B, TEMPLIN T. Multiclass anomaly detection in flight data using semi- supervised explainable deep learning model[J]. Journal of Aerospace Information Systems, 2021, 19(2): 83- 97. [27] BLEU- LAINE M H, PURANK T G, MAVRIS D N, et al. Predicting adverse events and their precursors in aviation using multi- class multiple- instance learning[C]//AIAA Scitech 2021 Forum. Reston: AIAA, 2021. [28] SINA TAYARANI- BATHAIE S, KHORASANI K. Fault detection and isolation of gas turbine engines using a bank of neural networks[J]. Journal of Process Control, 2015, 36: 22- 41. [29] AMOZEGAR M, KHORASANI K. An ensemble of dy-
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "网络",
+      "text": "神经网络"
+    }
+  ],
+  "relations": [
+    {
+      "type": "使用的数学工具有",
+      "head": "信息融合",
+      "tail": "神经网络"
+    }
+  ]
+}
+```
+
+示例2 段落：
 # [9] 虞兰. 航空发动机故障风险仿真评估方法[J]. 上海大学学报:自然科学版, 1997, 3(1):108-112.
 标注：
 ```json
@@ -176,7 +197,7 @@
 }
 ```
 
-示例2 段落：
+示例3 段落：
 [39] 彭军，郭晨阳，张勇，等．基于深度学习的航空发动机部件故障诊断[J]．系统仿真技术，2018，14(1)：20- 24. PENG J, GUO C Y, ZHANG Y, et al. Fault diagnosis of aero engine components based on deep learning method[J]. System Simulation Technology, 2018, 14(1): 20- 24 (in Chinese).[40] 蒋丽英，粟文龙，崔建国，等．基于PCA与DBN的航空发动机气路系统故障诊断[J]．沈阳航空航天大学学报，2019,36(1)：57- 62. JIANG L Y, LI W L, CUI J G, et al. Fault diagnosis of aero- engine gas path system based on PCA and DBN[J]. Journal of Shenyang Aerospace University, 2019, 36(1): 57- 62 (in Chinese).[41] 蒋丽英，彭昌毅，崔建国，等．基于Relief- PNN的发动机气路系统故障诊断[J]．沈阳航空航天大学学报，2018，35(4): 77- 84. JIANG L Y, PENG C Y, CUI J G, et al. Fault diagnosis of aero- engine air circuit system based on relief- PNN[J]. Journal of Shenyang Aerospace University, 2018, 35(4): 77- 84 (in Chinese).[42] FU X Y, LUO H, ZHONG S S, et al. Aircraft engine fault detection based on grouped convolutional denoising autoencoders[J]. Chinese Journal of Aeronautics, 2019, 32(2): 296- 307. [43] LIU J, LIU J F, YU D R, et al. Fault detection for gas turbine hot components based on a convolutional neural network[J]. Energies, 2018, 11(8): 2149. [44] ZHONG S S, FU S, LIN L. A novel gas turbine fault diagnosis method based on transfer learning with CNN[J]. Measurement, 2019, 137: 435- 453. [45] SHEN Z J, WAN X L, YE F, et al. Deep learning based framework for automatic damage detection in aircraft engine borescope inspection[C]//2019 International Conference on Computing, Networking and Communications (ICNC). Piscataway: IEEE Press, 2019: 1005- 1010. [46] CAO M, WANG K W, FUJI Y, et al. Development of a friction component model for automotive powertrain system analysis and shift controller design based on parallel- modulated neural networks[J]. Journal of Dynamic Systems, Measurement, and Control, 2005, 127(3): 382- 405. [47] CAO M, WANG K W, DEVRIES L, et al. Experimental characterization and gray- box modeling of spoof- type automotive variable- force- solenoid valves with circular flow ports and notches[J]. Journal of Dynamic Systems, Measurement, and Control, 2006, 128(3): 636- 654. [48] GRIEVES M. Origins of the digital twin concept[EB/OL]. (2016- 08)[2021- 03- 24]. https://www. researchgate. net/publication/307509787 _ Origins _ of _ the _ Digital _ Twin _ Concept.
 标注：
 ```json
@@ -189,20 +210,6 @@
     {
       "type": "网络",
       "text": "PNN"
-    }
-  ]
-}
-```
-
-示例3 段落：
-Aerospace Power, 2004, 19(1): 164- 168 (in Chinese).[178]薛薇, 郭迎清. 航空发动机控制系统多传感器软故障检测研究[J]. 计算机测量与控制, 2007, 15(5): 585- 586, 618. XUEW, GUO Y Q. Multiple sensors soft failure diagnosis for aircraft engine control system[J]. Computer Measurement & Control, 2007, 15(5): 585- 586, 618 (in Chinese).[179]黄向华. 基于模糊逻辑的航空发动机虚拟传感器[J]. 南京航空航天大学学报, 2005, 37(4): 447- 451. HUANG X H. Aeroenginevirtual sensor based on fuzzy logic[J]. Journal of Nanjing University of Aeronautics & Astronautics, 2005, 37(4): 447- 451 (in Chinese).[180]陈毅. 航空发动机控制系统传感器故障诊断研究[D]. 南京: 南京航空航天大学, 2007. CHEN Y. Research on sensors fault diagnostics of aeroengine control system[D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2007 (in Chinese).[181]张鹏, 黄金泉. 基于双重卡尔黎滤波器的发动机故障诊断[J]. 航空动力学报, 2008, 23(5): 952- 956. ZHANG P, HUANG J Q. Aeroengine fault diagnosis using dual Kalman filtering technique[J]. Journal of Aerospace Power, 2008, 23(5): 952- 956 (in Chinese).[182]张静, 柴林峰. 航空发动机传感器故障鲁棒检测方法[J]. 计算机仿真, 2012, 29(2): 32- 35. ZHANG J, GOU L F. Robust fault detection method of aircraft engine sensors[J]. Computer Simulation, 2012, 29(2): 32- 35 (in Chinese).[183]覃道亮, 何皑, 孔祥兴, 等. 基于UIO的航空发动机控制系统传感器故障诊断[J]. 航空动力学报, 2011, 26(6): 1396- 1404. QIN D L, HE K, KONG X X, et al. UIO- based sensor fault diagnosis for aero- engine control systems[J]. Journal of Aerospace Power, 2011, 26(6): 1396- 1404 (in Chinese).[184]黄治军. 基于小波分析的传感器故障诊断研究[D]. 西安: 西北工业大学, 2004. HUANG Z J. Research on sensor fault diagnosis based on wavelet analysis[D]. Xi'an: Northwestern Polytechnical University, 2004 (in Chinese).[185]李本威, 樊照远, 王永华, 等. 基于SVR的X型发动机传感器故障诊断研究[J]. 航空动力学报, 2007, 22(10): 1754- 1759. LI B W, FAN Z Y, WANG Y H, et al. Research on sensor fault diagnosis for a given turbofan engine based on SVR[J]. Journal of Aerospace Power, 2007, 22(10): 1754- 1759 (in Chinese).[186]蔡开龙, 谢寿生, 杨伟, 等. 基于改进LS- SVM的航空发动机传感器故障诊断与自适应重构控制[J]. 航空动力学报, 2008, 23(6): 1118- 1126.
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "方法",
-      "text": "小波分析"
     }
   ]
 }

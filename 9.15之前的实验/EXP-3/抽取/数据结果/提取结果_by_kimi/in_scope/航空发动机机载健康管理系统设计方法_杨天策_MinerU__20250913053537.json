@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空发动机机载健康管理系统"
+    },
+    {
+      "type": "问题",
+      "text": "正向设计流程不清晰、设计需求不明确、需求设计对应及追溯不规范"
+    },
+    {
+      "type": "手段/工具",
+      "text": "基于模型的系统工程思想"
+    },
+    {
+      "type": "手段/工具",
+      "text": "面向对象的工程设计思路"
+    },
+    {
+      "type": "问题",
+      "text": "健康管理功能架构体系"
+    },
+    {
+      "type": "研究结果",
+      "text": "航空发动机健康管理正向设计流程平台"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型的系统工程"
+    },
+    {
+      "type": "技术",
+      "text": "面向对象的设计"
+    },
+    {
+      "type": "技术",
+      "text": "机载EHM系统"
+    },
+    {
+      "type": "技术",
+      "text": "数据采集层、数据操作层、状态检测层、健康评估层、预测评估层、建议生成层"
+    },
+    {
+      "type": "技术",
+      "text": "OSA-CBM架构体系"
+    },
+    {
+      "type": "技术",
+      "text": "SAE1587B标准"
+    },
+    {
+      "type": "技术",
+      "text": "EHM系统"
+    },
+    {
+      "type": "技术",
+      "text": "征兆、诊断、预测、操作"
+    },
+    {
+      "type": "技术",
+      "text": "FADEC"
+    },
+    {
+      "type": "技术",
+      "text": "机载EHM系统功能"
+    },
+    {
+      "type": "技术",
+      "text": "发动机数据采集功能"
+    },
+    {
+      "type": "技术",
+      "text": "发动机数据处理功能"
+    },
+    {
+      "type": "技术",
+      "text": "发动机状态监控功能"
+    },
+    {
+      "type": "技术",
+      "text": "发动机报文加载功能"
+    },
+    {
+      "type": "技术",
+      "text": "OOSEM"
+    },
+    {
+      "type": "技术",
+      "text": "SysML语言"
+    },
+    {
+      "type": "技术",
+      "text": "Rhapsody软件"
+    },
+    {
+      "type": "技术",
+      "text": "Aircraft Condition Monitoring System, ACMS"
+    },
+    {
+      "type": "技术",
+      "text": "EGT传感器"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "source": "航空发动机健康管理正向设计流程平台",
+      "target": "基于模型的系统工程思想"
+    },
+    {
+      "type": "采用",
+      "source": "航空发动机健康管理正向设计流程平台",
+      "target": "面向对象的工程设计思路"
+    },
+    {
+      "type": "解决",
+      "source": "航空发动机健康管理正向设计流程平台",
+      "target": "正向设计流程不清晰、设计需求不明确、需求设计对应及追溯不规范"
+    },
+    {
+      "type": "基于",
+      "source": "EHM系统",
+      "target": "OSA-CBM架构体系"
+    },
+    {
+      "type": "遵循",
+      "source": "EHM系统",
+      "target": "SAE1587B标准"
+    },
+    {
+      "type": "包括",
+      "source": "EHM系统功能架构",
+      "target": "数据采集层、数据操作层、状态检测层、健康评估层、预测评估层、建议生成层"
+    },
+    {
+      "type": "基于",
+      "source": "机载EHM系统",
+      "target": "FADEC"
+    },
+    {
+      "type": "包括",
+      "source": "机载EHM系统功能",
+      "target": "发动机数据采集功能"
+    },
+    {
+      "type": "包括",
+      "source": "机载EHM系统功能",
+      "target": "发动机数据处理功能"
+    },
+    {
+      "type": "包括",
+      "source": "机载EHM系统功能",
+      "target": "发动机状态监控功能"
+    },
+    {
+      "type": "包括",
+      "source": "机载EHM系统功能",
+      "target": "发动机报文加载功能"
+    },
+    {
+      "type": "基于",
+      "source": "机载EHM系统硬件架构设计",
+      "target": "OOSEM"
+    },
+    {
+      "type": "使用",
+      "source": "机载EHM系统硬件架构设计",
+      "target": "SysML语言"
+    },
+    {
+      "type": "使用",
+      "source": "机载EHM系统硬件架构设计",
+      "target": "Rhapsody软件"
+    },
+    {
+      "type": "参考",
+      "source": "机载EHM系统硬件架构设计",
+      "target": "Aircraft Condition Monitoring System, ACMS"
+    },
+    {
+      "type": "包括",
+      "source": "EGT传感器",
+      "target": "自检（Built-inTest，BIT)功能"
+    }
+  ]
+}

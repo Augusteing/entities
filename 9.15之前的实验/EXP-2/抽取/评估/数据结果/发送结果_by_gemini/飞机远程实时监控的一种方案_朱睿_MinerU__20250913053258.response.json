@@ -1,0 +1,476 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "别名",
+      "text": "AHMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机远程实时监控技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "飞机运行时下载的数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载数据采集、管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "空地数据传输的通信系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "ACARS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "CMCS(Central Maintenance Computing System)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "实时报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术文档",
+      "text": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "飞机实时状态监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "非例行工作量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "维修的效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "成本",
+      "text": "飞机运行和维护的费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机的利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞行安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据清洗、转换、汇总、抽取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "手册数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "排故经验数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "实时维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "数据库构建模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "维护方案生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "数据源反馈模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术文档",
+      "text": "FIM (Fault Isolation Manual)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术文档",
+      "text": "AMM (Aircraft Maintenance Manual)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "重复故障库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Oracle编程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "FIM数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "AMM数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "标准排故经验库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "其他排故经验库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "实时故障报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "故障代码(CODE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "维护信息(MESSAGE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "特定的算法程序",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据/标准",
+      "text": "最小设备清单(MEL)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "GPS(全球定位系统)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "雷达精度检飞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "雷达的探测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "GPS检飞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "传统的方法进行测高精度检飞",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "飞机健康管理系统",
+      "tail": "AHMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "head": "飞机健康管理系统",
+      "tail": "察觉、分类并预报故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "飞机健康管理系统",
+      "tail": "飞机运行时下载的数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计结合",
+      "head": "飞机健康管理系统",
+      "tail": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计结合",
+      "head": "飞机健康管理系统",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统",
+      "tail": "数据库构建模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统",
+      "tail": "维护方案生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机健康管理系统",
+      "tail": "数据源反馈模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源是",
+      "head": "飞机健康管理系统",
+      "tail": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源是",
+      "head": "飞机健康管理系统",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "未来连接",
+      "head": "飞机健康管理系统",
+      "tail": "最小设备清单(MEL)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采集并传输",
+      "head": "ACARS",
+      "tail": "信息和数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生",
+      "head": "CMCS(Central Maintenance Computing System)",
+      "tail": "实时报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "健康管理",
+      "tail": "维修的效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "减少",
+      "head": "健康管理",
+      "tail": "飞机运行和维护的费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "健康管理",
+      "tail": "飞机的利用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "健康管理",
+      "tail": "飞行安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "减少",
+      "head": "健康管理",
+      "tail": "非例行工作量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务是构建",
+      "head": "数据库构建模块",
+      "tail": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理",
+      "head": "数据库构建模块",
+      "tail": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "处理",
+      "head": "数据库构建模块",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "格式化",
+      "head": "维护方案生成模块",
+      "tail": "实时故障报文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "调用",
+      "head": "维护方案生成模块",
+      "tail": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "生成",
+      "head": "维护方案生成模块",
+      "tail": "维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "补充和丰富",
+      "head": "数据源反馈模块",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "数据源反馈模块",
+      "tail": "维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于构建",
+      "head": "数据清洗、转换、汇总、抽取",
+      "tail": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "补充",
+      "head": "实时维护方案",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机维护技术文档",
+      "tail": "FIM (Fault Isolation Manual)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机维护技术文档",
+      "tail": "AMM (Aircraft Maintenance Manual)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要来源是",
+      "head": "历史维护经验",
+      "tail": "重复故障库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...构建",
+      "head": "手册数据库",
+      "tail": "飞机维护技术文档",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...构建",
+      "head": "排故经验数据库",
+      "tail": "历史维护经验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...建立",
+      "head": "相关数据库",
+      "tail": "Oracle编程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "生成",
+      "head": "特定的算法程序",
+      "tail": "实时维护方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "故障代码(CODE)",
+      "tail": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "关联",
+      "head": "维护信息(MESSAGE)",
+      "tail": "相关数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为标准设备",
+      "head": "GPS(全球定位系统)",
+      "tail": "雷达精度检飞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "校准和考核",
+      "head": "GPS(全球定位系统)",
+      "tail": "雷达的探测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "克服困难",
+      "head": "GPS检飞",
+      "tail": "传统的方法进行测高精度检飞",
+      "evaluation": "正确"
+    }
+  ]
+}

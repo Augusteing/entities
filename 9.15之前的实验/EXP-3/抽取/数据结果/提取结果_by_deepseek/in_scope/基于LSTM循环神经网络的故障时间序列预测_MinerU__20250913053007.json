@@ -1,0 +1,250 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "长短期记忆(LSTM)循环神经网络"
+    },
+    {
+      "type": "方法",
+      "text": "故障时间序列预测方法"
+    },
+    {
+      "type": "算法",
+      "text": "多层网格搜索"
+    },
+    {
+      "type": "算法",
+      "text": "Adam优化算法"
+    },
+    {
+      "type": "数据集",
+      "text": "民航飞机故障数据"
+    },
+    {
+      "type": "系统",
+      "text": "波音737飞机"
+    },
+    {
+      "type": "指标",
+      "text": "均方根误差(RMSE)"
+    },
+    {
+      "type": "模型",
+      "text": "Holt-Winters模型"
+    },
+    {
+      "type": "模型",
+      "text": "ARIMA模型"
+    },
+    {
+      "type": "模型",
+      "text": "奇异谱分析(SSA)"
+    },
+    {
+      "type": "模型",
+      "text": "多元线性回归(MLR)"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量回归(SVR)"
+    },
+    {
+      "type": "模型",
+      "text": "RNN模型"
+    },
+    {
+      "type": "模型",
+      "text": "GRU模型"
+    },
+    {
+      "type": "参数",
+      "text": "分割窗口长度L"
+    },
+    {
+      "type": "参数",
+      "text": "状态向量大小S_state"
+    },
+    {
+      "type": "参数",
+      "text": "学习率η"
+    },
+    {
+      "type": "问题",
+      "text": "梯度消失"
+    },
+    {
+      "type": "问题",
+      "text": "梯度爆炸"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习"
+    },
+    {
+      "type": "技术",
+      "text": "数据驱动方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于故障机理(PoF)方法"
+    },
+    {
+      "type": "技术",
+      "text": "融合方法"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度"
+    },
+    {
+      "type": "性能指标",
+      "text": "计算耗时"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子产品"
+    },
+    {
+      "type": "算法",
+      "text": "BPTT算法"
+    },
+    {
+      "type": "算法",
+      "text": "z-score标准化"
+    },
+    {
+      "type": "算法",
+      "text": "de_zscore反标准化"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM预测模型"
+    },
+    {
+      "type": "模型",
+      "text": "基于多尺度排列熵算法和LSTM的RUL预测模型"
+    },
+    {
+      "type": "模型",
+      "text": "集成神经网络模型"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA公开的锂电池退化数据集"
+    },
+    {
+      "type": "网络",
+      "text": "BP神经网络"
+    },
+    {
+      "type": "网络",
+      "text": "LSTM基模型"
+    },
+    {
+      "type": "性能指标",
+      "text": "趋势拟合度"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "王鑫等",
+      "tail": "基于LSTM循环神经网络的故障时间序列预测方法"
+    },
+    {
+      "type": "提出",
+      "head": "王鑫等",
+      "tail": "基于多层网格搜索的LSTM预测模型参数优选算法"
+    },
+    {
+      "type": "应用于",
+      "head": "LSTM模型",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "ARIMA模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "SSA模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "MLR模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "SVR模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "RNN模型"
+    },
+    {
+      "type": "优于",
+      "head": "LSTM模型",
+      "tail": "GRU模型"
+    },
+    {
+      "type": "解决",
+      "head": "LSTM模型",
+      "tail": "梯度消失问题"
+    },
+    {
+      "type": "解决",
+      "head": "LSTM模型",
+      "tail": "梯度爆炸问题"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM预测模型",
+      "tail": "Adam优化算法"
+    },
+    {
+      "type": "验证",
+      "head": "实验",
+      "tail": "LSTM模型在故障时间序列预测中的适用性和准确性"
+    },
+    {
+      "type": "使用",
+      "head": "研究",
+      "tail": "民航飞机故障数据"
+    },
+    {
+      "type": "比较",
+      "head": "LSTM模型",
+      "tail": "多种时间序列预测模型"
+    },
+    {
+      "type": "改进",
+      "head": "多层网格搜索算法",
+      "tail": "LSTM模型参数优化"
+    },
+    {
+      "type": "导致",
+      "head": "学习率过高",
+      "tail": "过拟合问题"
+    },
+    {
+      "type": "导致",
+      "head": "学习率过低",
+      "tail": "欠拟合问题"
+    },
+    {
+      "type": "应用于",
+      "head": "深度学习技术",
+      "tail": "可靠性预测领域"
+    }
+  ]
+}

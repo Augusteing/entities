@@ -1,0 +1,322 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "NNARX模型"
+    },
+    {
+      "type": "算法",
+      "text": "三层前向人工神经网络"
+    },
+    {
+      "type": "系统/部件",
+      "text": "涡扇发动机"
+    },
+    {
+      "type": "参数",
+      "text": "高压转子转速"
+    },
+    {
+      "type": "参数",
+      "text": "气压高度"
+    },
+    {
+      "type": "参数",
+      "text": "飞行马赫数"
+    },
+    {
+      "type": "参数",
+      "text": "大气总温"
+    },
+    {
+      "type": "参数",
+      "text": "发动机油门杆角度"
+    },
+    {
+      "type": "参数",
+      "text": "发动机作战/训练信号"
+    },
+    {
+      "type": "参数",
+      "text": "低压转子转速"
+    },
+    {
+      "type": "参数",
+      "text": "低压涡轮出口总温"
+    },
+    {
+      "type": "参数",
+      "text": "低压涡轮出口总压"
+    },
+    {
+      "type": "参数",
+      "text": "低压导向叶片角度"
+    },
+    {
+      "type": "参数",
+      "text": "高压导向叶片角度"
+    },
+    {
+      "type": "参数",
+      "text": "高压压气机出口压力"
+    },
+    {
+      "type": "参数",
+      "text": "主燃油总管压力"
+    },
+    {
+      "type": "参数",
+      "text": "尾喷管喉部直径"
+    },
+    {
+      "type": "参数",
+      "text": "滑油回油温度"
+    },
+    {
+      "type": "参数",
+      "text": "发动机振动值"
+    },
+    {
+      "type": "方法",
+      "text": "Euclidean距离筛选"
+    },
+    {
+      "type": "算法",
+      "text": "LM算法"
+    },
+    {
+      "type": "性能指标",
+      "text": "MSE性能函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "回归系数R"
+    },
+    {
+      "type": "性能指标",
+      "text": "归一化均方差NMSE"
+    },
+    {
+      "type": "数值",
+      "text": "5%"
+    },
+    {
+      "type": "数值",
+      "text": "70%"
+    },
+    {
+      "type": "数值",
+      "text": "15%"
+    },
+    {
+      "type": "数值",
+      "text": "0.0028"
+    },
+    {
+      "type": "数值",
+      "text": "0.9986"
+    },
+    {
+      "type": "数值",
+      "text": "2.4%"
+    },
+    {
+      "type": "数值",
+      "text": "4.6%"
+    },
+    {
+      "type": "数值",
+      "text": "3.4%"
+    },
+    {
+      "type": "数值",
+      "text": "0.5%"
+    },
+    {
+      "type": "数值",
+      "text": "1.0%"
+    },
+    {
+      "type": "数值",
+      "text": "1.7%"
+    },
+    {
+      "type": "数值",
+      "text": "0.2%"
+    },
+    {
+      "type": "数值",
+      "text": "1.2%"
+    },
+    {
+      "type": "时间",
+      "text": "729s"
+    },
+    {
+      "type": "时间",
+      "text": "2063s"
+    },
+    {
+      "type": "时间",
+      "text": "393s"
+    },
+    {
+      "type": "时间",
+      "text": "58s"
+    },
+    {
+      "type": "研究机构",
+      "text": "中国飞行试验研究院"
+    },
+    {
+      "type": "研究人员",
+      "text": "潘鹏飞"
+    },
+    {
+      "type": "研究人员",
+      "text": "马明明"
+    },
+    {
+      "type": "研究人员",
+      "text": "许艳芝"
+    },
+    {
+      "type": "应用",
+      "text": "试飞实时监控"
+    },
+    {
+      "type": "应用",
+      "text": "全包线自适应实时监控模型"
+    },
+    {
+      "type": "故障",
+      "text": "稳定性故障"
+    },
+    {
+      "type": "故障",
+      "text": "气路故障"
+    },
+    {
+      "type": "故障",
+      "text": "振动故障"
+    },
+    {
+      "type": "故障",
+      "text": "磨损故障"
+    },
+    {
+      "type": "方法",
+      "text": "系统辨识"
+    },
+    {
+      "type": "方法",
+      "text": "人工神经网络训练学习"
+    },
+    {
+      "type": "数据集",
+      "text": "飞行试验数据"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "三层前向人工神经网络",
+      "to_entity": "NNARX模型",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "涡扇发动机",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "试飞实时监控",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "飞行试验数据",
+      "to_entity": "NNARX模型",
+      "relation": "训练学习"
+    },
+    {
+      "from_entity": "Euclidean距离筛选",
+      "to_entity": "数据样本",
+      "relation": "用于筛选"
+    },
+    {
+      "from_entity": "LM算法",
+      "to_entity": "人工神经网络训练学习",
+      "relation": "采用"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "高压转子转速",
+      "relation": "预测"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "高压压气机出口压力",
+      "relation": "预测"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "低压涡轮出口总温",
+      "relation": "预测"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "滑油回油温度",
+      "relation": "预测"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "全包线自适应实时监控模型",
+      "relation": "提供参考"
+    },
+    {
+      "from_entity": "系统辨识",
+      "to_entity": "发动机模型",
+      "relation": "用于获取"
+    },
+    {
+      "from_entity": "人工神经网络",
+      "to_entity": "非线性函数逼近",
+      "relation": "能够以任意精度逼近"
+    },
+    {
+      "from_entity": "NNARX23",
+      "to_entity": "高压转子转速模型",
+      "relation": "精度最高"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "额外架次飞行数据",
+      "relation": "验证推广能力"
+    },
+    {
+      "from_entity": "NNARX模型",
+      "to_entity": "5%",
+      "relation": "最大相对误差在以内"
+    },
+    {
+      "from_entity": "潘鹏飞",
+      "to_entity": "NNARX模型",
+      "relation": "提出"
+    },
+    {
+      "from_entity": "马明明",
+      "to_entity": "NNARX模型",
+      "relation": "提出"
+    },
+    {
+      "from_entity": "许艳芝",
+      "to_entity": "NNARX模型",
+      "relation": "提出"
+    },
+    {
+      "from_entity": "中国飞行试验研究院",
+      "to_entity": "飞行试验数据",
+      "relation": "提供"
+    }
+  ]
+}

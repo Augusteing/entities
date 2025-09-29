@@ -1,923 +1,749 @@
-[
-  {
-    "entities": [
-      {
-        "id": 0,
-        "type": "技术",
-        "text": "飞机结构健康监测与管理技术"
-      },
-      {
-        "id": 1,
-        "type": "系统/部件",
-        "text": "飞机结构"
-      },
-      {
-        "id": 2,
-        "type": "系统/部件",
-        "text": "飞机平台"
-      },
-      {
-        "id": 3,
-        "type": "指标",
-        "text": "结构安全性"
-      },
-      {
-        "id": 4,
-        "type": "指标",
-        "text": "维护费用"
-      },
-      {
-        "id": 5,
-        "type": "大纲",
-        "text": "飞机结构完整性大纲"
-      },
-      {
-        "id": 6,
-        "type": "技术",
-        "text": "结构健康监测"
-      },
-      {
-        "id": 7,
-        "type": "技术",
-        "text": "结构健康管理"
-      },
-      {
-        "id": 8,
-        "type": "技术",
-        "text": "传感器"
-      },
-      {
-        "id": 9,
-        "type": "概念",
-        "text": "结构完整性"
-      },
-      {
-        "id": 10,
-        "type": "机构",
-        "text": "美国"
-      },
-      {
-        "id": 11,
-        "type": "概念",
-        "text": "结构健康监测与管理技术概念"
-      },
-      {
-        "id": 12,
-        "type": "机构",
-        "text": "美国空军研究室（AFRL）"
-      },
-      {
-        "id": 13,
-        "type": "机构",
-        "text": "波音公司"
-      },
-      {
-        "id": 14,
-        "type": "机构",
-        "text": "洛克德·马丁公司"
-      },
-      {
-        "id": 15,
-        "type": "系统",
-        "text": "健康管理系统"
-      },
-      {
-        "id": 16,
-        "type": "机构",
-        "text": "美国NASA"
-      },
-      {
-        "id": 17,
-        "type": "任务",
-        "text": "飞机结构完整性大纲任务"
-      },
-      {
-        "id": 18,
-        "type": "设计思想",
-        "text": "飞机结构设计"
-      },
-      {
-        "id": 19,
-        "type": "设计思想",
-        "text": "静强度"
-      },
-      {
-        "id": 20,
-        "type": "设计思想",
-        "text": "疲劳强度（安全寿命设计）"
-      },
-      {
-        "id": 21,
-        "type": "设计思想",
-        "text": "损伤容限（含破损安全）设计"
-      },
-      {
-        "id": 22,
-        "type": "设计理念",
-        "text": "结构破损安全"
-      },
-      {
-        "id": 23,
-        "type": "学科",
-        "text": "断裂力学"
-      },
-      {
-        "id": 24,
-        "type": "设计方法",
-        "text": "安全寿命设计方法"
-      },
-      {
-        "id": 25,
-        "type": "问题",
-        "text": "裂纹萌生问题"
-      },
-      {
-        "id": 26,
-        "type": "设计方法",
-        "text": "破损安全设计方法"
-      },
-      {
-        "id": 27,
-        "type": "问题",
-        "text": "广布微损伤融合问题"
-      },
-      {
-        "id": 28,
-        "type": "设计方法",
-        "text": "损伤容限设计方法"
-      },
-      {
-        "id": 29,
-        "type": "问题",
-        "text": "宏观裂纹扩展问题"
-      },
-      {
-        "id": 30,
-        "type": "设计体系",
-        "text": "飞机结构耐久性/损伤容限设计体系"
-      },
-      {
-        "id": 31,
-        "type": "理论基础",
-        "text": "飞机结构完整性的理论基础"
-      },
-      {
-        "id": 32,
-        "type": "故障",
-        "text": "结构损伤"
-      },
-      {
-        "id": 33,
-        "type": "大纲",
-        "text": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）"
-      },
-      {
-        "id": 34,
-        "type": "计划",
-        "text": "部队管理计划"
-      },
-      {
-        "id": 35,
-        "type": "计划",
-        "text": "部队结构维护计划（Force structural integrity program，FSIP）"
-      },
-      {
-        "id": 36,
-        "type": "程序",
-        "text": "载荷/环境谱测量（Loads/environment spectra survey，L/ESS）"
-      },
-      {
-        "id": 37,
-        "type": "程序",
-        "text": "单机监控程序（Individual aircraft tracking，IAT）"
-      },
-      {
-        "id": 38,
-        "type": "技术",
-        "text": "结构损伤监测技术"
-      },
-      {
-        "id": 39,
-        "type": "方法",
-        "text": "无损检测"
-      },
-      {
-        "id": 40,
-        "type": "技术",
-        "text": "飞机IAT技术"
-      },
-      {
-        "id": 41,
-        "type": "技术",
-        "text": "飞机结构健康监测技术"
-      },
-      {
-        "id": 42,
-        "type": "技术",
-        "text": "结构载荷监测"
-      },
-      {
-        "id": 43,
-        "type": "技术",
-        "text": "损伤监测"
-      },
-      {
-        "id": 44,
-        "type": "方法",
-        "text": "计算流体力学"
-      },
-      {
-        "id": 45,
-        "type": "方法",
-        "text": "有限元方法"
-      },
-      {
-        "id": 46,
-        "type": "方法",
-        "text": "参数解析法"
-      },
-      {
-        "id": 47,
-        "type": "方法",
-        "text": "参数回归分析法"
-      },
-      {
-        "id": 48,
-        "type": "方法",
-        "text": "直接测量法"
-      },
-      {
-        "id": 49,
-        "type": "设备",
-        "text": "疲劳计"
-      },
-      {
-        "id": 50,
-        "type": "系统",
-        "text": "电子式多参数记录系统（飞行参数记录系统）"
-      },
-      {
-        "id": 51,
-        "type": "飞机型号",
-        "text": "F-22飞机"
-      },
-      {
-        "id": 52,
-        "type": "飞机型号",
-        "text": "F-35飞机"
-      },
-      {
-        "id": 53,
-        "type": "传感器",
-        "text": "应变传感器"
-      },
-      {
-        "id": 54,
-        "type": "传感器",
-        "text": "光纤传感器"
-      },
-      {
-        "id": 55,
-        "type": "技术",
-        "text": "飞参/应变混合监测技术"
-      },
-      {
-        "id": 56,
-        "type": "系统",
-        "text": "光纤光栅监测系统"
-      },
-      {
-        "id": 57,
-        "type": "机构",
-        "text": "航空工业计量所"
-      },
-      {
-        "id": 58,
-        "type": "机构",
-        "text": "航空工业强度所"
-      },
-      {
-        "id": 59,
-        "type": "系统",
-        "text": "机载光纤光栅监测系统"
-      },
-      {
-        "id": 60,
-        "type": "技术",
-        "text": "基于导波的损伤监测"
-      },
-      {
-        "id": 61,
-        "type": "监测模式",
-        "text": "被动监测"
-      },
-      {
-        "id": 62,
-        "type": "监测模式",
-        "text": "主动监测"
-      },
-      {
-        "id": 63,
-        "type": "机构",
-        "text": "空客公司"
-      },
-      {
-        "id": 64,
-        "type": "技术",
-        "text": "被动式撞击监测技术"
-      },
-      {
-        "id": 65,
-        "type": "机构",
-        "text": "美国空军"
-      },
-      {
-        "id": 66,
-        "type": "飞机型号",
-        "text": "F-16"
-      },
-      {
-        "id": 67,
-        "type": "机构",
-        "text": "中国飞机强度研究所"
-      },
-      {
-        "id": 68,
-        "type": "机构",
-        "text": "南京航空航天大学"
-      },
-      {
-        "id": 69,
-        "type": "系统",
-        "text": "压电智能夹层"
-      },
-      {
-        "id": 70,
-        "type": "技术",
-        "text": "比较真空度裂纹监测（CVM）技术"
-      },
-      {
-        "id": 71,
-        "type": "国家",
-        "text": "澳大利亚"
-      },
-      {
-        "id": 72,
-        "type": "飞机型号",
-        "text": "A320"
-      },
-      {
-        "id": 73,
-        "type": "飞机型号",
-        "text": "A340-600"
-      },
-      {
-        "id": 74,
-        "type": "技术",
-        "text": "智能涂层裂纹监测技术"
-      },
-      {
-        "id": 75,
-        "type": "传感器",
-        "text": "智能涂层传感器"
-      },
-      {
-        "id": 76,
-        "type": "机构",
-        "text": "西安交通大学"
-      },
-      {
-        "id": 77,
-        "type": "技术",
-        "text": "涡流薄膜监测技术"
-      },
-      {
-        "id": 78,
-        "type": "传感器",
-        "text": "涡流薄膜传感器"
-      },
-      {
-        "id": 79,
-        "type": "技术",
-        "text": "飞机结构健康管理（Structuralprognostic and health management，SPHM）"
-      },
-      {
-        "id": 80,
-        "type": "技术",
-        "text": "单机寿命监控技术"
-      },
-      {
-        "id": 81,
-        "type": "体系",
-        "text": "基于网络的综合健康管理体系"
-      },
-      {
-        "id": 82,
-        "type": "设计思想",
-        "text": "安全寿命设计思想"
-      },
-      {
-        "id": 83,
-        "type": "设计思想",
-        "text": "损伤容限设计思想"
-      },
-      {
-        "id": 84,
-        "type": "机构",
-        "text": "英国空军"
-      },
-      {
-        "id": 85,
-        "type": "系统",
-        "text": "FACE系统"
-      },
-      {
-        "id": 86,
-        "type": "机构",
-        "text": "荷兰空军"
-      },
-      {
-        "id": 87,
-        "type": "飞机型号",
-        "text": "F-16飞机"
-      },
-      {
-        "id": 88,
-        "type": "机构",
-        "text": "美国国防部"
-      },
-      {
-        "id": 89,
-        "type": "技术",
-        "text": "健康技术"
-      },
-      {
-        "id": 90,
-        "type": "项目",
-        "text": "JSF项目（Joint strike fighter，JSF）"
-      },
-      {
-        "id": 91,
-        "type": "系统",
-        "text": "PHM系统"
-      },
-      {
-        "id": 92,
-        "type": "系统",
-        "text": "综合管理系统IVHM（Integrated vehicle health management）"
-      },
-      {
-        "id": 93,
-        "type": "飞机型号",
-        "text": "X-33"
-      },
-      {
-        "id": 94,
-        "type": "飞机型号",
-        "text": "X-37"
-      },
-      {
-        "id": 95,
-        "type": "系统",
-        "text": "机队和使用管理系统（Health and usage monitoring systems，HUMS）"
-      },
-      {
-        "id": 96,
-        "type": "机构",
-        "text": "史密斯航空"
-      },
-      {
-        "id": 97,
-        "type": "机构",
-        "text": "英国国防部"
-      },
-      {
-        "id": 98,
-        "type": "飞机型号",
-        "text": "阵风战斗机"
-      },
-      {
-        "id": 99,
-        "type": "飞机型号",
-        "text": "B-2轰炸机"
-      },
-      {
-        "id": 100,
-        "type": "飞机型号",
-        "text": "C-130运输机"
-      },
-      {
-        "id": 101,
-        "type": "飞机型号",
-        "text": "P-8A飞机"
-      },
-      {
-        "id": 102,
-        "type": "系统",
-        "text": "飞机健康管理（Airplane health management，AHM）系统"
-      },
-      {
-        "id": 103,
-        "type": "飞机型号",
-        "text": "波音777"
-      },
-      {
-        "id": 104,
-        "type": "飞机型号",
-        "text": "波音747-400"
-      },
-      {
-        "id": 105,
-        "type": "系统",
-        "text": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）"
-      },
-      {
-        "id": 106,
-        "type": "飞机型号",
-        "text": "A330"
-      },
-      {
-        "id": 107,
-        "type": "飞机型号",
-        "text": "A340"
-      },
-      {
-        "id": 108,
-        "type": "系统",
-        "text": "PHM"
-      },
-      {
-        "id": 109,
-        "type": "系统",
-        "text": "IVHM"
-      },
-      {
-        "id": 110,
-        "type": "系统",
-        "text": "HUMS"
-      },
-      {
-        "id": 111,
-        "type": "系统",
-        "text": "JAHUMS"
-      },
-      {
-        "id": 112,
-        "type": "系统",
-        "text": "ACAMS"
-      },
-      {
-        "id": 113,
-        "type": "系统",
-        "text": "IAHM"
-      }
-    ],
-    "relations": [
-      {
-        "source": 1,
-        "target": 2,
-        "relation": "是...的基础"
-      },
-      {
-        "source": 0,
-        "target": 3,
-        "relation": "保证"
-      },
-      {
-        "source": 0,
-        "target": 4,
-        "relation": "降低"
-      },
-      {
-        "source": 0,
-        "target": 6,
-        "relation": "包括"
-      },
-      {
-        "source": 0,
-        "target": 7,
-        "relation": "包括"
-      },
-      {
-        "source": 6,
-        "target": 7,
-        "relation": "是...的前提和基础"
-      },
-      {
-        "source": 7,
-        "target": 6,
-        "relation": "是...的重要应用"
-      },
-      {
-        "source": 10,
-        "target": 11,
-        "relation": "是...的发源地"
-      },
-      {
-        "source": 12,
-        "target": 0,
-        "relation": "推动了...的发展"
-      },
-      {
-        "source": 13,
-        "target": 0,
-        "relation": "推动了...的发展"
-      },
-      {
-        "source": 14,
-        "target": 0,
-        "relation": "推动了...的发展"
-      },
-      {
-        "source": 16,
-        "target": 15,
-        "relation": "研发了"
-      },
-      {
-        "source": 17,
-        "target": 0,
-        "relation": "是...发展的驱动力"
-      },
-      {
-        "source": 18,
-        "target": 19,
-        "relation": "经历了...思想转变"
-      },
-      {
-        "source": 18,
-        "target": 20,
-        "relation": "经历了...思想转变"
-      },
-      {
-        "source": 18,
-        "target": 21,
-        "relation": "经历了...思想转变"
-      },
-      {
-        "source": 23,
-        "target": 21,
-        "relation": "奠定了理论基础"
-      },
-      {
-        "source": 24,
-        "target": 25,
-        "relation": "关注"
-      },
-      {
-        "source": 26,
-        "target": 27,
-        "relation": "关注"
-      },
-      {
-        "source": 28,
-        "target": 29,
-        "relation": "关注"
-      },
-      {
-        "source": 30,
-        "target": 31,
-        "relation": "成为"
-      },
-      {
-        "source": 34,
-        "target": 35,
-        "relation": "包含"
-      },
-      {
-        "source": 34,
-        "target": 36,
-        "relation": "包含"
-      },
-      {
-        "source": 34,
-        "target": 37,
-        "relation": "包含"
-      },
-      {
-        "source": 38,
-        "target": 39,
-        "relation": "改变了...方法"
-      },
-      {
-        "source": 38,
-        "target": 40,
-        "relation": "为...提供了技术手段"
-      },
-      {
-        "source": 41,
-        "target": 42,
-        "relation": "是...最重要的技术内容和任务"
-      },
-      {
-        "source": 41,
-        "target": 43,
-        "relation": "是...最重要的技术内容和任务"
-      },
-      {
-        "source": 51,
-        "target": 47,
-        "relation": "采用...进行载荷计算"
-      },
-      {
-        "source": 52,
-        "target": 53,
-        "relation": "采用...直接测量应变"
-      },
-      {
-        "source": 54,
-        "target": 42,
-        "relation": "提供了新的技术手段"
-      },
-      {
-        "source": 57,
-        "target": 56,
-        "relation": "研发了"
-      },
-      {
-        "source": 58,
-        "target": 59,
-        "relation": "自主研发了"
-      },
-      {
-        "source": 60,
-        "target": 61,
-        "relation": "分为"
-      },
-      {
-        "source": 60,
-        "target": 62,
-        "relation": "分为"
-      },
-      {
-        "source": 63,
-        "target": 64,
-        "relation": "开展了...研究"
-      },
-      {
-        "source": 65,
-        "target": 60,
-        "relation": "在F-16上进行了飞行演示验证"
-      },
-      {
-        "source": 67,
-        "target": 60,
-        "relation": "开展了长期的研究"
-      },
-      {
-        "source": 68,
-        "target": 69,
-        "relation": "研发了"
-      },
-      {
-        "source": 70,
-        "target": 71,
-        "relation": "由...发明"
-      },
-      {
-        "source": 63,
-        "target": 70,
-        "relation": "在A320和A340-600上进行了耐久性试验"
-      },
-      {
-        "source": 76,
-        "target": 75,
-        "relation": "研制了"
-      },
-      {
-        "source": 63,
-        "target": 78,
-        "relation": "在A320客机上采用了"
-      },
-      {
-        "source": 79,
-        "target": 35,
-        "relation": "是...技术发展的延续"
-      },
-      {
-        "source": 79,
-        "target": 36,
-        "relation": "是...技术发展的延续"
-      },
-      {
-        "source": 79,
-        "target": 37,
-        "relation": "是...技术发展的延续"
-      },
-      {
-        "source": 65,
-        "target": 33,
-        "relation": "依靠...保证飞机结构的使用安全"
-      },
-      {
-        "source": 84,
-        "target": 49,
-        "relation": "使用...进行单机疲劳监控"
-      },
-      {
-        "source": 86,
-        "target": 87,
-        "relation": "使用"
-      },
-      {
-        "source": 87,
-        "target": 85,
-        "relation": "使用...监控系统"
-      },
-      {
-        "source": 88,
-        "target": 89,
-        "relation": "在JSF项目中提出了"
-      },
-      {
-        "source": 52,
-        "target": 7,
-        "relation": "作为...创新技术之一"
-      },
-      {
-        "source": 16,
-        "target": 92,
-        "relation": "为X-33、X-37研发了"
-      },
-      {
-        "source": 96,
-        "target": 95,
-        "relation": "联合开发了"
-      },
-      {
-        "source": 97,
-        "target": 95,
-        "relation": "联合开发了"
-      },
-      {
-        "source": 95,
-        "target": 98,
-        "relation": "在...上实现应用"
-      },
-      {
-        "source": 95,
-        "target": 99,
-        "relation": "在...上实现应用"
-      },
-      {
-        "source": 95,
-        "target": 100,
-        "relation": "在...上实现应用"
-      },
-      {
-        "source": 95,
-        "target": 101,
-        "relation": "在...上实现应用"
-      },
-      {
-        "source": 13,
-        "target": 102,
-        "relation": "开发了"
-      },
-      {
-        "source": 63,
-        "target": 105,
-        "relation": "开发了"
-      },
-      {
-        "source": 102,
-        "target": 103,
-        "relation": "提供实时监控和决策支持服务"
-      },
-      {
-        "source": 102,
-        "target": 104,
-        "relation": "提供实时监控和决策支持服务"
-      },
-      {
-        "source": 105,
-        "target": 72,
-        "relation": "在...上得到应用"
-      },
-      {
-        "source": 105,
-        "target": 106,
-        "relation": "在...上得到应用"
-      },
-      {
-        "source": 105,
-        "target": 107,
-        "relation": "在...上得到应用"
-      },
-      {
-        "source": 108,
-        "target": 52,
-        "relation": "应用于"
-      },
-      {
-        "source": 109,
-        "target": 93,
-        "relation": "应用于"
-      },
-      {
-        "source": 110,
-        "target": "大、中型直升机",
-        "relation": "应用于"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测与管理技术"
+    },
+    {
+      "type": "概念",
+      "text": "结构完整性"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康管理"
+    },
+    {
+      "type": "任务",
+      "text": "载荷监测"
+    },
+    {
+      "type": "任务",
+      "text": "损伤监测"
+    },
+    {
+      "type": "组件",
+      "text": "传感器"
+    },
+    {
+      "type": "机构",
+      "text": "美国空军研究室（AFRL）"
+    },
+    {
+      "type": "机构",
+      "text": "波音公司"
+    },
+    {
+      "type": "机构",
+      "text": "洛克德·马丁公司"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统"
+    },
+    {
+      "type": "任务",
+      "text": "飞机结构完整性大纲任务"
+    },
+    {
+      "type": "设计思想",
+      "text": "静强度"
+    },
+    {
+      "type": "设计思想",
+      "text": "疲劳强度（安全寿命设计）"
+    },
+    {
+      "type": "设计思想",
+      "text": "损伤容限（含破损安全）设计"
+    },
+    {
+      "type": "理论",
+      "text": "断裂力学"
+    },
+    {
+      "type": "设计体系",
+      "text": "飞机结构耐久性/损伤容限设计体系"
+    },
+    {
+      "type": "问题",
+      "text": "结构损伤"
+    },
+    {
+      "type": "损伤阶段",
+      "text": "裂纹萌生阶段"
+    },
+    {
+      "type": "损伤阶段",
+      "text": "小裂纹形成阶段"
+    },
+    {
+      "type": "损伤阶段",
+      "text": "宏观裂纹扩展阶段"
+    },
+    {
+      "type": "损伤阶段",
+      "text": "裂纹扩展阶段"
+    },
+    {
+      "type": "原理",
+      "text": "疲劳统计学原理"
+    },
+    {
+      "type": "理论",
+      "text": "小裂纹理论"
+    },
+    {
+      "type": "大纲",
+      "text": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）"
+    },
+    {
+      "type": "计划",
+      "text": "部队结构维护计划（Force structural integrity program，FSIP）"
+    },
+    {
+      "type": "测量程序",
+      "text": "载荷/环境谱测量（Loads/environment spectra survey，L/ESS）"
+    },
+    {
+      "type": "监控程序",
+      "text": "单机监控程序（Individual aircraft tracking，IAT）"
+    },
+    {
+      "type": "数据",
+      "text": "载荷谱"
+    },
+    {
+      "type": "任务",
+      "text": "损伤状态监测"
+    },
+    {
+      "type": "模型",
+      "text": "损伤演化模型"
+    },
+    {
+      "type": "技术",
+      "text": "结构损伤监测技术"
+    },
+    {
+      "type": "方法",
+      "text": "无损检测"
+    },
+    {
+      "type": "技术",
+      "text": "飞机IAT技术"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测技术"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构载荷监测技术"
+    },
+    {
+      "type": "设备",
+      "text": "速度- 法向加速度- 高度三参数记录器"
+    },
+    {
+      "type": "设备",
+      "text": "机械式加速度计数器"
+    },
+    {
+      "type": "设备",
+      "text": "疲劳计"
+    },
+    {
+      "type": "设备",
+      "text": "机械式的载荷监控设备"
+    },
+    {
+      "type": "系统",
+      "text": "电子式多参数记录系统（飞行参数记录系统）"
+    },
+    {
+      "type": "数据",
+      "text": "应变数据"
+    },
+    {
+      "type": "载荷计算方法",
+      "text": "参数解析法"
+    },
+    {
+      "type": "载荷计算方法",
+      "text": "参数回归分析法"
+    },
+    {
+      "type": "载荷计算方法",
+      "text": "直接测量法"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F- 22飞机"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F- 35飞机"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤传感器"
+    },
+    {
+      "type": "监测技术",
+      "text": "飞参/应变混合监测技术"
+    },
+    {
+      "type": "系统",
+      "text": "光纤光栅监测系统"
+    },
+    {
+      "type": "机构",
+      "text": "航空工业强度所"
+    },
+    {
+      "type": "机构",
+      "text": "航空工业成都所"
+    },
+    {
+      "type": "机构",
+      "text": "航空工业计量所"
+    },
+    {
+      "type": "监测技术",
+      "text": "基于导波的损伤监测"
+    },
+    {
+      "type": "监测模式",
+      "text": "被动监测"
+    },
+    {
+      "type": "监测模式",
+      "text": "主动监测"
+    },
+    {
+      "type": "机构",
+      "text": "空客公司"
+    },
+    {
+      "type": "项目",
+      "text": "飞机智能化（SARISTU—Smartintelligentaircraftstructures）项目"
+    },
+    {
+      "type": "机构",
+      "text": "美国空军"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F- 16"
+    },
+    {
+      "type": "机构",
+      "text": "美国诺斯罗普- 格鲁门公司"
+    },
+    {
+      "type": "传感器",
+      "text": "压电传感器"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F/A- 18"
+    },
+    {
+      "type": "机构",
+      "text": "美国Honeywell公司"
+    },
+    {
+      "type": "飞机型号",
+      "text": "UH- 60直升机"
+    },
+    {
+      "type": "系统",
+      "text": "结构损伤导波监测系统"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A340- 600"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A350飞机"
+    },
+    {
+      "type": "组件",
+      "text": "压电智能夹层"
+    },
+    {
+      "type": "机构",
+      "text": "中国飞机强度研究所"
+    },
+    {
+      "type": "机构",
+      "text": "南京航空航天大学"
+    },
+    {
+      "type": "系统",
+      "text": "主被动一体的损伤监测系统"
+    },
+    {
+      "type": "监测技术",
+      "text": "比较真空度裂纹监测（Comparative vacuum monitoring，CVM）技术"
+    },
+    {
+      "type": "机构",
+      "text": "美国Sandia实验室"
+    },
+    {
+      "type": "传感器",
+      "text": "CVM传感器"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A320"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A380"
+    },
+    {
+      "type": "监测技术",
+      "text": "智能涂层（Smartcoatings）监测技术"
+    },
+    {
+      "type": "传感器",
+      "text": "智能涂层传感器"
+    },
+    {
+      "type": "机构",
+      "text": "西安交通大学"
+    },
+    {
+      "type": "监测技术",
+      "text": "基于涡流薄膜的裂纹监测技术"
+    },
+    {
+      "type": "机构",
+      "text": "美国斯坦福大学"
+    },
+    {
+      "type": "传感器",
+      "text": "涡流传感薄膜"
+    },
+    {
+      "type": "机构",
+      "text": "空军工程大学"
+    },
+    {
+      "type": "传感器",
+      "text": "花萼状涡流传感器"
+    },
+    {
+      "type": "管理技术",
+      "text": "飞机结构健康管理（Structuralprognostic and health management，SPHM）"
+    },
+    {
+      "type": "监测技术",
+      "text": "单机寿命监控技术"
+    },
+    {
+      "type": "管理体系",
+      "text": "基于网络的综合健康管理体系"
+    },
+    {
+      "type": "飞机型号",
+      "text": "EF- 2000"
+    },
+    {
+      "type": "机构",
+      "text": "英国空军"
+    },
+    {
+      "type": "机构",
+      "text": "荷兰空军"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F- 16飞机"
+    },
+    {
+      "type": "系统",
+      "text": "FACE系统"
+    },
+    {
+      "type": "公式",
+      "text": "Paris裂纹扩展公式"
+    },
+    {
+      "type": "指数",
+      "text": "裂纹严重指数（CSI）"
+    },
+    {
+      "type": "准则",
+      "text": "Miner准则"
+    },
+    {
+      "type": "机构",
+      "text": "德国空军"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F- 4FPhantom"
+    },
+    {
+      "type": "飞机型号",
+      "text": "Tornado"
+    },
+    {
+      "type": "机构",
+      "text": "美国国防部"
+    },
+    {
+      "type": "项目",
+      "text": "JSF项目（Joint strike fighter，JSF）"
+    },
+    {
+      "type": "技术",
+      "text": "健康技术"
+    },
+    {
+      "type": "系统",
+      "text": "F- 35飞机PHM系统"
+    },
+    {
+      "type": "机构",
+      "text": "NASA"
+    },
+    {
+      "type": "飞机型号",
+      "text": "X- 33"
+    },
+    {
+      "type": "飞机型号",
+      "text": "X- 37"
+    },
+    {
+      "type": "系统",
+      "text": "综合管理系统IVHM（Integrated vehicle health management）"
+    },
+    {
+      "type": "机构",
+      "text": "史密斯航空"
+    },
+    {
+      "type": "机构",
+      "text": "英国国防部"
+    },
+    {
+      "type": "系统",
+      "text": "机队和使用管理系统（Health and usage monitoring systems，HUMS）"
+    },
+    {
+      "type": "计划",
+      "text": "直升机运行监控HOMP（Helicopter operation monitoring program）计划"
+    },
+    {
+      "type": "飞机型号",
+      "text": "阵风战斗机"
+    },
+    {
+      "type": "飞机型号",
+      "text": "B- 2轰炸机"
+    },
+    {
+      "type": "飞机型号",
+      "text": "C- 130运输机"
+    },
+    {
+      "type": "飞机型号",
+      "text": "P- 8A飞机"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康管理（Airplane health management，AHM）系统"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音777"
+    },
+    {
+      "type": "飞机型号",
+      "text": "波音747- 400"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A330"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A340"
+    },
+    {
+      "type": "系统",
+      "text": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）"
+    },
+    {
+      "type": "软件系统",
+      "text": "强度分析软件系统"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的前提和基础",
+      "head": "结构健康监测",
+      "tail": "结构健康管理"
+    },
+    {
+      "type": "是...的重要应用",
+      "head": "结构健康管理",
+      "tail": "结构健康监测"
+    },
+    {
+      "type": "研发了",
+      "head": "美国空军研究室（AFRL）",
+      "tail": "健康管理系统"
+    },
+    {
+      "type": "是...的驱动力",
+      "head": "飞机结构完整性大纲任务",
+      "tail": "结构健康监测与管理技术"
+    },
+    {
+      "type": "演进为",
+      "head": "静强度",
+      "tail": "疲劳强度（安全寿命设计）"
+    },
+    {
+      "type": "演进为",
+      "head": "疲劳强度（安全寿命设计）",
+      "tail": "损伤容限（含破损安全）设计"
+    },
+    {
+      "type": "奠定了理论基础",
+      "head": "断裂力学",
+      "tail": "损伤容限（含破损安全）设计"
+    },
+    {
+      "type": "关注",
+      "head": "安全寿命设计方法",
+      "tail": "裂纹萌生阶段"
+    },
+    {
+      "type": "关注",
+      "head": "损伤容限设计方法",
+      "tail": "宏观裂纹扩展阶段"
+    },
+    {
+      "type": "解决",
+      "head": "疲劳统计学原理",
+      "tail": "裂纹萌生阶段"
+    },
+    {
+      "type": "解决",
+      "head": "断裂力学",
+      "tail": "宏观裂纹扩展阶段"
+    },
+    {
+      "type": "解决",
+      "head": "小裂纹理论",
+      "tail": "小裂纹形成阶段"
+    },
+    {
+      "type": "包含了",
+      "head": "部队管理计划",
+      "tail": "部队结构维护计划（Force structural integrity program，FSIP）"
+    },
+    {
+      "type": "包含了",
+      "head": "部队管理计划",
+      "tail": "载荷/环境谱测量（Loads/environment spectra survey，L/ESS）"
+    },
+    {
+      "type": "包含了",
+      "head": "部队管理计划",
+      "tail": "单机监控程序（Individual aircraft tracking，IAT）"
+    },
+    {
+      "type": "改变了",
+      "head": "结构损伤监测技术",
+      "tail": "无损检测"
+    },
+    {
+      "type": "提供了技术手段",
+      "head": "结构损伤监测技术",
+      "tail": "飞机IAT技术"
+    },
+    {
+      "type": "包含",
+      "head": "飞机结构健康监测技术",
+      "tail": "结构载荷监测"
+    },
+    {
+      "type": "包含",
+      "head": "飞机结构健康监测技术",
+      "tail": "损伤监测"
+    },
+    {
+      "type": "演进为",
+      "head": "机械式的载荷监控设备",
+      "tail": "电子式多参数记录系统（飞行参数记录系统）"
+    },
+    {
+      "type": "演进为",
+      "head": "电子式多参数记录系统（飞行参数记录系统）",
+      "tail": "飞参/应变混合监测技术"
+    },
+    {
+      "type": "采用",
+      "head": "F- 22飞机",
+      "tail": "参数回归分析法"
+    },
+    {
+      "type": "提供了新的技术手段",
+      "head": "光纤传感器",
+      "tail": "飞机结构载荷监测技术"
+    },
+    {
+      "type": "研发了",
+      "head": "航空工业计量所",
+      "tail": "光纤光栅监测系统"
+    },
+    {
+      "type": "研发了",
+      "head": "航空工业强度所",
+      "tail": "机载光纤光栅监测系统"
+    },
+    {
+      "type": "分为",
+      "head": "基于导波的损伤监测",
+      "tail": "被动监测"
+    },
+    {
+      "type": "分为",
+      "head": "基于导波的损伤监测",
+      "tail": "主动监测"
+    },
+    {
+      "type": "用于",
+      "head": "被动监测",
+      "tail": "复合材料冲击监测"
+    },
+    {
+      "type": "开发了",
+      "head": "空客公司",
+      "tail": "结构损伤导波监测系统"
+    },
+    {
+      "type": "研发了",
+      "head": "中国飞机强度研究所",
+      "tail": "主被动一体的损伤监测系统"
+    },
+    {
+      "type": "研发了",
+      "head": "南京航空航天大学",
+      "tail": "压电智能夹层"
+    },
+    {
+      "type": "研发了",
+      "head": "美国Sandia实验室",
+      "tail": "CVM传感器"
+    },
+    {
+      "type": "研制了",
+      "head": "西安交通大学",
+      "tail": "智能涂层传感器"
+    },
+    {
+      "type": "提出了",
+      "head": "美国斯坦福大学",
+      "tail": "涡流传感薄膜"
+    },
+    {
+      "type": "开发了",
+      "head": "空军工程大学",
+      "tail": "花萼状涡流传感器"
+    },
+    {
+      "type": "是...的延续",
+      "head": "飞机结构健康管理（Structuralprognostic and health management，SPHM）",
+      "tail": "单机监控程序（Individual aircraft tracking，IAT）"
+    },
+    {
+      "type": "监控系统为",
+      "head": "F- 16飞机",
+      "tail": "FACE系统"
+    },
+    {
+      "type": "选用了",
+      "head": "损伤计算方法",
+      "tail": "Paris裂纹扩展公式"
+    },
+    {
+      "type": "采用",
+      "head": "损伤计算公式",
+      "tail": "Miner准则"
+    },
+    {
+      "type": "提出了",
+      "head": "美国国防部",
+      "tail": "健康技术"
+    },
+    {
+      "type": "研发了",
+      "head": "NASA",
+      "tail": "综合管理系统IVHM（Integrated vehicle health management）"
+    },
+    {
+      "type": "联合开发了",
+      "head": "史密斯航空",
+      "tail": "机队和使用管理系统（Health and usage monitoring systems，HUMS）"
+    },
+    {
+      "type": "联合开发了",
+      "head": "英国国防部",
+      "tail": "机队和使用管理系统（Health and usage monitoring systems，HUMS）"
+    },
+    {
+      "type": "开发了",
+      "head": "波音公司",
+      "tail": "飞机健康管理（Airplane health management，AHM）系统"
+    },
+    {
+      "type": "开发了",
+      "head": "空客公司",
+      "tail": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）"
+    },
+    {
+      "type": "应用于",
+      "head": "机队和使用管理系统（Health and usage monitoring systems，HUMS）",
+      "tail": "B- 2轰炸机"
+    },
+    {
+      "type": "应用于",
+      "head": "机队和使用管理系统（Health and usage monitoring systems，HUMS）",
+      "tail": "C- 130运输机"
+    },
+    {
+      "type": "应用于",
+      "head": "飞机健康管理（Airplane health management，AHM）系统",
+      "tail": "波音777"
+    },
+    {
+      "type": "应用于",
+      "head": "飞机健康管理（Airplane health management，AHM）系统",
+      "tail": "波音747- 400"
+    },
+    {
+      "type": "应用于",
+      "head": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）",
+      "tail": "A320"
+    },
+    {
+      "type": "是...的基础",
+      "head": "强度分析软件系统",
+      "tail": "飞机结构健康管理"
+    }
+  ]
+}

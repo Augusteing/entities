@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波"
+    },
+    {
+      "type": "算法",
+      "text": "扩展卡尔曼滤波"
+    },
+    {
+      "type": "算法",
+      "text": "无味卡尔曼滤波"
+    },
+    {
+      "type": "算法",
+      "text": "常增益扩展卡尔曼滤波"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空发动机"
+    },
+    {
+      "type": "故障",
+      "text": "气路故障"
+    },
+    {
+      "type": "参数",
+      "text": "健康参数"
+    },
+    {
+      "type": "模型",
+      "text": "非线性模型"
+    },
+    {
+      "type": "模型",
+      "text": "线性模型"
+    },
+    {
+      "type": "系统/部件",
+      "text": "高压压气机"
+    },
+    {
+      "type": "系统/部件",
+      "text": "高压涡轮"
+    },
+    {
+      "type": "参数",
+      "text": "效率蜕化"
+    },
+    {
+      "type": "参数",
+      "text": "流量蜕化"
+    },
+    {
+      "type": "指标",
+      "text": "估计误差"
+    },
+    {
+      "type": "指标",
+      "text": "仿真用时"
+    },
+    {
+      "type": "指标",
+      "text": "模型调用次数"
+    },
+    {
+      "type": "研究机构",
+      "text": "南京航空航天大学"
+    },
+    {
+      "type": "方法",
+      "text": "泰勒级数展开"
+    },
+    {
+      "type": "方法",
+      "text": "无味变换"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统"
+    },
+    {
+      "type": "技术",
+      "text": "视情维修"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型的诊断技术"
+    },
+    {
+      "type": "技术",
+      "text": "数据驱动的诊断技术"
+    },
+    {
+      "type": "技术",
+      "text": "基于知识的诊断技术"
+    },
+    {
+      "type": "参数",
+      "text": "卡尔曼增益"
+    },
+    {
+      "type": "参数",
+      "text": "误差协方差矩阵"
+    },
+    {
+      "type": "系统/部件",
+      "text": "涡扇发动机"
+    },
+    {
+      "type": "参数",
+      "text": "高压压气机效率下降4%"
+    },
+    {
+      "type": "参数",
+      "text": "高压涡轮效率下降2%"
+    },
+    {
+      "type": "指标",
+      "text": "0.0672"
+    },
+    {
+      "type": "指标",
+      "text": "0.0297"
+    },
+    {
+      "type": "指标",
+      "text": "0.0299"
+    },
+    {
+      "type": "指标",
+      "text": "0.0291"
+    },
+    {
+      "type": "指标",
+      "text": "0.0721s"
+    },
+    {
+      "type": "指标",
+      "text": "27.0212s"
+    },
+    {
+      "type": "指标",
+      "text": "4.7060s"
+    },
+    {
+      "type": "指标",
+      "text": "40.2916s"
+    },
+    {
+      "type": "指标",
+      "text": "0次"
+    },
+    {
+      "type": "指标",
+      "text": "9次"
+    },
+    {
+      "type": "指标",
+      "text": "1次"
+    },
+    {
+      "type": "指标",
+      "text": "16次"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "扩展卡尔曼滤波",
+      "to_entity": "卡尔曼滤波",
+      "relation_type": "基于"
+    },
+    {
+      "from_entity": "无味卡尔曼滤波",
+      "to_entity": "卡尔曼滤波",
+      "relation_type": "基于"
+    },
+    {
+      "from_entity": "常增益扩展卡尔曼滤波",
+      "to_entity": "扩展卡尔曼滤波",
+      "relation_type": "改进"
+    },
+    {
+      "from_entity": "扩展卡尔曼滤波",
+      "to_entity": "非线性模型",
+      "relation_type": "应用于"
+    },
+    {
+      "from_entity": "无味卡尔曼滤波",
+      "to_entity": "非线性模型",
+      "relation_type": "应用于"
+    },
+    {
+      "from_entity": "卡尔曼滤波",
+      "to_entity": "线性模型",
+      "relation_type": "应用于"
+    },
+    {
+      "from_entity": "扩展卡尔曼滤波",
+      "to_entity": "泰勒级数展开",
+      "relation_type": "使用"
+    },
+    {
+      "from_entity": "无味卡尔曼滤波",
+      "to_entity": "无味变换",
+      "relation_type": "使用"
+    },
+    {
+      "from_entity": "扩展卡尔曼滤波",
+      "to_entity": "健康参数",
+      "relation_type": "估计"
+    },
+    {
+      "from_entity": "无味卡尔曼滤波",
+      "to_entity": "健康参数",
+      "relation_type": "估计"
+    },
+    {
+      "from_entity": "卡尔曼滤波",
+      "to_entity": "健康参数",
+      "relation_type": "估计"
+    },
+    {
+      "from_entity": "常增益扩展卡尔曼滤波",
+      "to_entity": "健康参数",
+      "relation_type": "估计"
+    },
+    {
+      "from_entity": "高压压气机效率下降4%",
+      "to_entity": "效率蜕化",
+      "relation_type": "是"
+    },
+    {
+      "from_entity": "高压涡轮效率下降2%",
+      "to_entity": "效率蜕化",
+      "relation_type": "是"
+    },
+    {
+      "from_entity": "无味卡尔曼滤波",
+      "to_entity": "扩展卡尔曼滤波",
+      "relation_type": "优于"
+    },
+    {
+      "from_entity": "常增益扩展卡尔曼滤波",
+      "to_entity": "扩展卡尔曼滤波",
+      "relation_type": "计算量减少"
+    },
+    {
+      "from_entity": "卡尔曼滤波",
+      "to_entity": "扩展卡尔曼滤波",
+      "relation_type": "估计误差较大"
+    },
+    {
+      "from_entity": "扩展卡尔曼滤波",
+      "to_entity": "非线性参数估计",
+      "relation_type": "是"
+    },
+    {
+      "from_entity": "健康管理系统",
+      "to_entity": "视情维修",
+      "relation_type": "实现"
+    },
+    {
+      "from_entity": "基于模型的诊断技术",
+      "to_entity": "健康参数",
+      "relation_type": "估计"
+    }
+  ]
+}

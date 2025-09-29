@@ -1,0 +1,287 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "飞机操纵面故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "突发性操纵面故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "缺乏对各特征参数的统一考虑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "思想",
+      "text": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "思想",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验",
+      "text": "实例计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "自主式故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预报",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "容错故障的技术手段",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "飞机操纵面作动器卡死",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "多种故障特征信号",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "当前飞机突发性操纵面故障预测的主要方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "时间序列模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色系统理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "灰色预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "一次累加生成",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色白化理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "紧邻均值的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "对z^(1)(k)的改进",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "指数形式模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "原理",
+      "text": "新信息优先原理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "用第一个数据作为初始条件",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "多参数预测模型",
+      "tail": "缺乏对各特征参数的统一考虑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "增加了",
+      "head": "多参数预测模型",
+      "tail": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "多参数预测模型",
+      "tail": "飞机操纵面故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证了...的有效性",
+      "head": "实例计算",
+      "tail": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在不足",
+      "head": "当前飞机突发性操纵面故障预测的主要方法",
+      "tail": "缺乏对各特征参数的统一考虑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "当前飞机突发性操纵面故障预测的主要方法",
+      "tail": "时间序列模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "当前飞机突发性操纵面故障预测的主要方法",
+      "tail": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "当前飞机突发性操纵面故障预测的主要方法",
+      "tail": "灰色GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征出",
+      "head": "飞机操纵面作动器卡死",
+      "tail": "多种故障特征信号",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是应用最广的",
+      "head": "GM(1,1)模型",
+      "tail": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的基本模型",
+      "head": "GM(1,1)模型",
+      "tail": "灰色预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "GM(1,1)模型",
+      "tail": "灰色白化理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "GM(1,1)模型",
+      "tail": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生",
+      "head": "紧邻均值的方法",
+      "tail": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "对z^(1)(k)的改进",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "对z^(1)(k)的改进",
+      "tail": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在不足",
+      "head": "GM(1,1)模型",
+      "tail": "用第一个数据作为初始条件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "违背",
+      "head": "用第一个数据作为初始条件",
+      "tail": "新信息优先原理",
+      "evaluation": "正确"
+    }
+  ]
+}

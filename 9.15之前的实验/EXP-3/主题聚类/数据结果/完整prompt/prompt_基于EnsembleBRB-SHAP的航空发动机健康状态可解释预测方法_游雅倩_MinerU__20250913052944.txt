@@ -159,6 +159,48 @@
 以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
 
 示例1 段落：
+[51] 赵珣, 陈帅, 邱海洋. 基于改进双向循环神经网络的变压器故障诊断模型研究[J]. 辽宁石油化工大学学报, 2023, 43(5): 75- 83. ZHAO Xun, CHEN Shuai, QIU Haiyang. Research on transformer fault diagnosis model based on improved bidirectional recurrent neural network[J]. Journal of Liaoning Petrochemical University, 2023, 43(5): 75- 83. (in Chinese)[52] 李晓航, 周建江. 基于自适应记忆长度的多尺度模态融合网络[J]. 航空学报, 2023, 44(22): 34- 47. LI Xiaohang, ZHOU Jianjiang. Multi- scale modality fusion network based on adaptive memory length[J]. Acta Aeronautica et Astronautica Sinica, 2023, 44(22): 34- 47. (in Chinese)[53] 王晓琪, 陈颖聪, 谢敏敏, 等. 多传感器的 BPNN 和 SVM 多源异构数据融合算法[J]. 计算技术与自动化, 2024, 43(2): 70- 76. WANG Xiaoqi, CHEN Yingcong, XIE Minmin, et al. Multi sensor heterogeneous data fusion algorithm based on BPNN and SVM[J]. Computing Technology and Automation, 2024, 43(2): 70- 76. (in Chinese)[54] 刘达新, 王科, 刘振宇, 等. 基于数据融合与知识推理的机器人装配单元数字孪生建模方法研究[J]. 机械工程学报, 2024, 60(5): 36- 50. LIU Daxin, WANG Ke, LIU Zhenyu, et al. Research on digital twin modeling method for robotic assembly cell based on data fusion and knowledge reasoning[J]. Journal of Mechanical Engineering, 2024, 60(5): 36- 50. (in Chinese)[55] 郭丞皓, 于劲松, 宋悦, 等. 基于数字孪生的飞机起落架健康管理技术[J]. 航空学报, 2023, 44(11): 227629. GUO Chenghao, YU Jinsong, SONG Yue, et al. Application of digital twin- based aircraft landing gear health management technology[J]. Acta Aeronautica et Astronautica Sinica, 2023, 44(11): 227629. (in Chinese)[56] 胡杨, 吴和龙, 杨剑锋, 等. 无人机结构数字孪生体构建技术研究及应用验证[J]. 电子产品可靠性与环境试验, 2024, 42(1): 34- 39. HU Yang, WU Helong, YANG Jianfeng, et al. Research and application verification of digital twin construction technology for UAV structure[J]. Electronic Product Reliability and Environmental Testing, 2024, 42(1): 34- 39. (in Chinese)[57] 徐建新, 赵树杰, 马超, 等. 基于 EWT- 嫡值方法的发动机风扇叶片损伤监控[J]. 航空动力学报, 2023, 38(1): 23- 31. XU Jianxin, ZHAO Shujie, MA Chao, et al. Damage monitoring of engine fan blades based on EWT- entropy method[J]. Journal of Aerospace Power, 2023, 38(1): 23- 31. (in Chinese)
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "数据",
+      "text": "多源异构数据"
+    },
+    {
+      "type": "系统/部件",
+      "text": "飞机"
+    },
+    {
+      "type": "系统/部件",
+      "text": "发动机"
+    },
+    {
+      "type": "概念",
+      "text": "数据融合"
+    },
+    {
+      "type": "网络",
+      "text": "双向循环神经网络"
+    }
+  ],
+  "relations": [
+    {
+      "type": "产生",
+      "head": "飞机",
+      "tail": "多源异构数据"
+    },
+    {
+      "type": "分为四个阶段",
+      "head": "数据融合",
+      "tail": "数据融合"
+    }
+  ]
+}
+```
+
+示例2 段落：
 MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of the art and development [J]. CAAI Transactions on Intelligent Systems, 2016, 11(6):728- 742. (in Chinese.)[2] 张俊林. 大数据日知录[M]. 北京: 电子工业出版社, 2014. [3] SAFRAN. Diagnostics and management [EB/OL]. [2017- 04- 10]. https://www.safran- aircraft- engines.com/services/single- aisle- commercial- jet- engines/engineering- and- consulting- services.[4] 张建业，张鹏. 飞行数据的时间序列分析方法及其应用[M]. 北京: 国防工业出版社, 2013. [5] NGRAIN. Battle damage assessment and repair for the F- 35 and F- 22 [EB/OL]. [2017- 04- 10]. http://www.ngrain.com/lockheed- martin.[6] National Aeronautics and Space Administration. Results and Discussions [EB/OL]. [2017- 04- 10]. https://ti.arc.nasa.gov/tech/dash/pcoe/data- driven- prognostics/results.[7] REDDY K K. Applying deep learning for prognostic health monitoring of aerospace and building systems [EB/OL]. (2016- 11- 07) [2017- 04- 10]. http://videolectures.net/kdd2016_reddy_ deep_learning.[8] BABCOCK C. GE plans software platform for creating 'Digital Twins' [EB/OL]. (2016- 07- 21) [2017- 04- 10]. http://www.eetimes.com/document.asp? doc_id=1330173.
 标注：
 ```json
@@ -172,7 +214,7 @@ MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of th
 }
 ```
 
-示例2 段落：
+示例3 段落：
 参考文献：[1] 马世龙，乌尼日其其格，李小平.大数据与深度学习综述[1].智能系统学报，2016，11（6）：728- 742.
 标注：
 ```json
@@ -185,20 +227,6 @@ MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of th
     {
       "type": "技术",
       "text": "深度学习"
-    }
-  ]
-}
-```
-
-示例3 段落：
-[11] 邱凌, 张安思, 张羽, 等. 面向无人机故障诊断的知识图谱构建应用方法 [J]. 计算机工程与应用, 2023, 59(9): 280- 288. QIU L, ZHANG A S, ZHANG Y, et al. Application method of building Knowledge graph for UAV fault diagnosis [J]. Computer Engineering and Applications, 2023, 59(9): 280- 288. [12] 马玉凤, 豆亚杰, 徐向前, 等. 知识图谱辅助的复杂装备需求感知开发研究 [J]. 系统工程学报, 2023, 38(2): 186- 194. MA Y F, DOU Y J, XU X Q, et al. Knowledge graph- aided requirements- aware development of complex equipment [J]. Journal of Systems Engineering, 2023, 38(2): 186- 194.
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "技术",
-      "text": "知识图谱"
     }
   ]
 }

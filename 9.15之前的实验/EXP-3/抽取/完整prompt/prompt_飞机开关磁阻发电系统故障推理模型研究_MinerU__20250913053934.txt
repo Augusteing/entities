@@ -159,6 +159,31 @@
 以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
 
 示例1 段落：
+DOI: 10.20079/j. issn.1001- 893x.220521001引用格式：文佳，梁天辰，陈擎宙，等.基于多模型融合的航空电子产品故障预测方法.电讯技术，2023，63（8）：1237- 1242. [WEN J,LIANG T C,CHEN Q Z,et al. An avionics fault prognostic method based on multi- model fusion . Telecommunication Engineering,2023,63(8) : 1237- 1242. ]
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "基于多模型融合的航空电子产品故障预测方法"
+    },
+    {
+      "type": "问题",
+      "text": "航空电子产品故障预测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出用于解决",
+      "head": "基于多模型融合的航空电子产品故障预测方法",
+      "tail": "航空电子产品故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
 [1] GANDOMI A, HAIDER M. Beyond the hype: big data concepts, methods, and analytics[J]. International Journal of Information Management, 2015, 35(2): 137- 144. [2] 马小骏，左洪福，刘昕．大型客机运行监控与健康管理系统设计[J]. 交通运输工程学报，2011，11(6)：119- 126. MA Xiaojun, ZUC Hongfu, LIU Xin. System design of operation monitoring and health management for large passenger aircraft[J]. Journal of Traffic and Transportation Engineering, 2011, 11(6): 119- 126. (in Chinese) [3] 李国松，都基瑛，闫然，等．基于工业互联网的飞机发动机故障智慧诊断[J]. 航空维修与工程，2022(10): 21- 23. LI Guosong, DU Jying, YAN Ran, et al. Faults intelligent diagnosis of aero- engine based on industrial Internet[J]. Aviation Maintenance & Engineering, 2022(10): 21- 23. (in Chinese) [4] 马兴坤，邢凯铭，赵树杰，等．浅谈波音737NG飞机APU滑油系统一项监控指标在故障监控中的应用[J]. 航空维修与工程，2021(3): 50- 52. MA Xingkun, XING Kaiming, ZHAO Shujie, et al. Application of a monitoring index of APU oil system of B737NG in fault monitoring[J]. Aviation Maintenance & Engineering, 2021(3): 50- 52. (in Chinese) [5] 柴林峰，马静，郑华，等．航空发动机控制系统故障诊断[M]. 北京：科学出版社，2022：58.
 标注：
 ```json
@@ -176,7 +201,7 @@
 }
 ```
 
-示例2 段落：
+示例3 段落：
 王少萍 女, 博士, 教授, 博士生导师。主要研究方向: 故障诊断与可靠性, 机电控制与仿真。Tel: 010- 82338933E- mail: shaopingwang@vip.sina.com
 标注：
 ```json
@@ -185,20 +210,6 @@
     {
       "type": "性能指标",
       "text": "可靠性"
-    }
-  ]
-}
-```
-
-示例3 段落：
-[9] 赖思齐, 陈桂鹏, 颜佳佳, 等. 飞机电源系统故障诊断方法综述及发展趋势 [J]. 航空工程进展, 2024, 15(3): 27- 44. LAI Siqi, CHEN Guipeng, YAN Jiaja, et al. Review and development trend of fault diagnosis methods for aircraft power supply system [J]. Advances in Aeronautical Science and Engineering, 2024, 15(3): 27- 44. (in Chinese)
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "系统/部件",
-      "text": "飞机"
     }
   ]
 }

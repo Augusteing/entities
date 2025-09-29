@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "飞机性能参数"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障预测结果"
+    },
+    {
+      "type": "手段/工具",
+      "text": "非线性支持向量机"
+    },
+    {
+      "type": "问题",
+      "text": "噪声带来的不确定性问题"
+    },
+    {
+      "type": "算法",
+      "text": "序列最小最优化算法"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空发动机"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障率"
+    },
+    {
+      "type": "性能指标",
+      "text": "调整复杂性"
+    },
+    {
+      "type": "性能指标",
+      "text": "维护工作量"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理（Prognostics and Health Management，PHM）"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量机（Support Vector Machine，SVM）"
+    },
+    {
+      "type": "算法",
+      "text": "二阶锥规划（Second Order Cone Programming，SOCP）"
+    },
+    {
+      "type": "算法",
+      "text": "SMO算法"
+    },
+    {
+      "type": "技术",
+      "text": "高斯核函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "精度"
+    },
+    {
+      "type": "性能指标",
+      "text": "泛化能力"
+    },
+    {
+      "type": "性能指标",
+      "text": "噪声容限"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量回归"
+    },
+    {
+      "type": "性能参数",
+      "text": "排气温度（Exhaust Gas Temperature，EGT）"
+    },
+    {
+      "type": "性能参数",
+      "text": "排气温度裕度（Exhaust Gas Temperature Margin，EGTM）"
+    },
+    {
+      "type": "算法",
+      "text": "伪邻法"
+    },
+    {
+      "type": "技术",
+      "text": "SVM训练"
+    }
+  ],
+  "relations": [
+    {
+      "type": "导致",
+      "head": "飞机性能参数",
+      "tail": "故障预测结果"
+    },
+    {
+      "type": "解决",
+      "head": "非线性支持向量机",
+      "tail": "噪声带来的不确定性问题"
+    },
+    {
+      "type": "适用于",
+      "head": "序列最小最优化算法",
+      "tail": "大规模二次规划"
+    },
+    {
+      "type": "影响",
+      "head": "航空发动机",
+      "tail": "飞机的安全可靠运行"
+    },
+    {
+      "type": "导致",
+      "head": "设备结构日益复杂",
+      "tail": "发生故障的潜在可能性越来越大"
+    },
+    {
+      "type": "提出",
+      "head": "国外",
+      "tail": "故障预测与健康管理（Prognostics and Health Management，PHM）"
+    },
+    {
+      "type": "可以处理",
+      "head": "支持向量机（Support Vector Machine，SVM）",
+      "tail": "非线性数据"
+    },
+    {
+      "type": "缺点是",
+      "head": "二阶锥规划（Second Order Cone Programming，SOCP）",
+      "tail": "无法解决数据量比较大的问题"
+    },
+    {
+      "type": "利用",
+      "head": "SMO算法",
+      "tail": "模型求解"
+    },
+    {
+      "type": "利用",
+      "head": "高斯核函数",
+      "tail": "将非线性问题转化为特征空间的线性问题"
+    },
+    {
+      "type": "影响",
+      "head": "参数的选取",
+      "tail": "算法的精度"
+    },
+    {
+      "type": "表征",
+      "head": "排气温度（Exhaust Gas Temperature，EGT）",
+      "tail": "航空发动机工作性能"
+    },
+    {
+      "type": "用于",
+      "head": "伪邻法",
+      "tail": "计算嵌入维数"
+    },
+    {
+      "type": "用于",
+      "head": "SVM训练",
+      "tail": "预测模型"
+    }
+  ]
+}

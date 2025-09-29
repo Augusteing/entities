@@ -1,2 +1,0 @@
-失败时间: 2025-09-13T13:45:03.872241+00:00
-异常: JSON 解析失败: Unterminated string starting at: line 534 column 31 (char 21554)；疑似输出被长度截断（finish_reason=length），下一次将提高 max_tokens 重试. 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-1\数据结果\提取结果_by_deepseek\民用航空发动机故障诊断与健康管理现状、挑战与机遇Ⅰ：气路、机械和FADEC系统故障诊断与预测_MinerU__20250913052208.raw.txt

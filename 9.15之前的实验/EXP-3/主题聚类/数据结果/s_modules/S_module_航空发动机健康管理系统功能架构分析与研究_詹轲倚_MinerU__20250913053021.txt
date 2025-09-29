@@ -2,6 +2,31 @@
 以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
 
 示例1 段落：
+[1]张宝珍.预测与健康管理技术的发展及应用[J.测控技术，2008，27(2):5- 7. [2]孙博，康锐，张叔农.基于特征参数趋势进化的故障诊断和预测方法[J].航空学报，2008，29（2）：391- 398. [3]丁永生，任立红.人工免疫系统：理论与应用[J].现代识别与人工智能，2000.13（1）：52- 59. [4]焦孝成，杜海峰，刘芳，等.免疫优化- 计算、学习和识别[M].北京：科
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术领域",
+      "text": "人工免疫系统"
+    },
+    {
+      "type": "应用领域",
+      "text": "故障诊断"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用到",
+      "head": "人工免疫系统",
+      "tail": "故障诊断"
+    }
+  ]
+}
+```
+
+示例2 段落：
 MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of the art and development [J]. CAAI Transactions on Intelligent Systems, 2016, 11(6):728- 742. (in Chinese.)[2] 张俊林. 大数据日知录[M]. 北京: 电子工业出版社, 2014. [3] SAFRAN. Diagnostics and management [EB/OL]. [2017- 04- 10]. https://www.safran- aircraft- engines.com/services/single- aisle- commercial- jet- engines/engineering- and- consulting- services.[4] 张建业，张鹏. 飞行数据的时间序列分析方法及其应用[M]. 北京: 国防工业出版社, 2013. [5] NGRAIN. Battle damage assessment and repair for the F- 35 and F- 22 [EB/OL]. [2017- 04- 10]. http://www.ngrain.com/lockheed- martin.[6] National Aeronautics and Space Administration. Results and Discussions [EB/OL]. [2017- 04- 10]. https://ti.arc.nasa.gov/tech/dash/pcoe/data- driven- prognostics/results.[7] REDDY K K. Applying deep learning for prognostic health monitoring of aerospace and building systems [EB/OL]. (2016- 11- 07) [2017- 04- 10]. http://videolectures.net/kdd2016_reddy_ deep_learning.[8] BABCOCK C. GE plans software platform for creating 'Digital Twins' [EB/OL]. (2016- 07- 21) [2017- 04- 10]. http://www.eetimes.com/document.asp? doc_id=1330173.
 标注：
 ```json
@@ -15,7 +40,7 @@ MA Shilong, WUJIRI Qiqige, LI Xiaoping. Deep learning with big data: state of th
 }
 ```
 
-示例2 段落：
+示例3 段落：
 Under Vibration Conditions[J]. Chinese Journal of Electronics, 2016, 25(4): 779- 785. [9] 卢海涛，王自力. 综合航空电子系统故障诊断与健康管理技术发展[J]. 电光与控制，2015，22（8）：60- 65. LU H T, WANG Z L. Development Review of Integrated Avionics Prognostics and Health Management Technology[J]. Electronics Optics & Control, 2015, 22(8): 60- 65. (in Chinese)[10] TU J, SUN C, ZHANG X, et al. Maintenance Strategy Decision for Avionics System Based on Cognitive Uncertainty Information Processing[J]. Eksploatacja i Niezawodnosc- Maintenance and Reliability, 2015, 17(2): 297- 305. [11] 彭宇，庞景月，刘大同，等．大数据：内涵、技术体系与展望[J]. 电子测量与仪器学报，2015，29（4）：469- 482. PENG Y, PANG J Y, LIU D T, et al. Big Data: Connotation, Technical Framework and Its Development[J]. Journal of Electronic Measurement and Instrumentation, 2015, 29(4): 469- 482. (in Chinese)[12] 程学旗，靳小龙，王元卓，等．大数据系统和分析技术综述[J]. 软件学报，2014，25（9）：1889- 1908. CHENG X Q, JIN X L, WANG Y Z, et al. Survey on Big Data System and Analytic Technology[J]. Journal of Software, 2014, 25(9): 1889- 1908. (in Chinese)[13] 严英杰，盛戈峰，陈玉峰，等．基于时间序列分析的输变电设备状态大数据清洗方法[J]. 电力系统自动化，2015, 39(7): 138- 144. YAN Y J, SHENG G H, CHEN Y F, et al. Cleaning Method for Big Data of Power Transmission and Transformation Equipment State Based on Time Sequence Analysis[J]. Automation of Electric Power System, 2015, 39(7): 138- 144. (in Chinese)[14] WANG L, FU D, LI Q, et al. Modelling Method with Missing Values Based on Clustering and Support Vector Regression[J]. Journal of Systems Engineering and Electronics, 2010, 21(1): 142- 147. [15] GU P, LUO X, YANG R L, et al. Outlier Detection Algorithm Based on Derivative Clustering[J]. Journal of Donghua University, 2015, 32(4): 554- 558. [16] 朱倩雯，叶林，赵永宁，等．风电场输出功率异常数据识别与重构方法研究[J]. 电力系统保护与控制，2015, 43(3): 38- 45. ZHU Q W, YEL L, ZHAO Y N, et al. Methods for Elimination and Reconstruction of Abnormal Power Data in Wind Farms[J]. Power System Protection and Control, 2015, 43(2): 38- 45. (in Chinese)[17] WEI M, QIU B, JIANG Y, et al. Multi- Sensor Monitoring Based on- Line Diesel Engine Anomaly Detection with Baseline Deviation[C]//Prognostics and System Health Management Conference. Chengdu: IEEE, 2016: 1- 5. [18] LIU L, LIU D, ZHANG Y, et al. Effective Sensor
 标注：
 ```json
@@ -28,20 +53,6 @@ Under Vibration Conditions[J]. Chinese Journal of Electronics, 2016, 25(4): 779-
     {
       "type": "算法",
       "text": "基于时间序列分析"
-    }
-  ]
-}
-```
-
-示例3 段落：
-SHI Jun - you, JI Chao. Study on Enhanced FMECA Method Application []． Test and Control Technology, 2011,30(5):110- 114. （in Chinese)
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "方法",
-      "text": "FMECA"
     }
   ]
 }

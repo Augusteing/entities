@@ -1,0 +1,2 @@
+失败时间: 2025-09-24T11:14:40.364078+00:00
+异常: JSON 解析失败: Unterminated string starting at: line 352 column 7 (char 5130). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-2\抽取\数据结果\提取结果_by_kimi\综合化航空电子的系统管理技术_施刚_MinerU__20250913051729.raw.txt

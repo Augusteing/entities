@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "最小二乘支持向量机"
+    },
+    {
+      "type": "网络",
+      "text": "小波神经网络"
+    },
+    {
+      "type": "方法",
+      "text": "LSSVM-WNN预测模型"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差"
+    },
+    {
+      "type": "数值",
+      "text": "0.12%"
+    },
+    {
+      "type": "数值",
+      "text": "0.44%"
+    },
+    {
+      "type": "数值",
+      "text": "0.39%"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测"
+    },
+    {
+      "type": "技术",
+      "text": "状态趋势预测"
+    },
+    {
+      "type": "方法",
+      "text": "数据驱动"
+    },
+    {
+      "type": "方法",
+      "text": "小波去噪"
+    },
+    {
+      "type": "函数",
+      "text": "Morlet函数"
+    },
+    {
+      "type": "核函数",
+      "text": "RBF核函数"
+    },
+    {
+      "type": "组件",
+      "text": "主泵"
+    },
+    {
+      "type": "数据集",
+      "text": "70组数据"
+    },
+    {
+      "type": "方法",
+      "text": "相空间重构"
+    },
+    {
+      "type": "方法",
+      "text": "梯度修正法"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修"
+    },
+    {
+      "type": "概念",
+      "text": "事后维修"
+    },
+    {
+      "type": "概念",
+      "text": "计划维修"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "最小二乘支持向量机",
+      "to_entity": "小波神经网络",
+      "relation": "结合形成"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "最小二乘支持向量机",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "小波神经网络",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "燃气轮机",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "排气温度",
+      "relation": "预测"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "平均相对误差",
+      "relation": "达到"
+    },
+    {
+      "from_entity": "最小二乘支持向量机",
+      "to_entity": "小波神经网络",
+      "relation": "优于"
+    },
+    {
+      "from_entity": "小波神经网络",
+      "to_entity": "最小二乘支持向量机",
+      "relation": "优于"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "最小二乘支持向量机",
+      "relation": "优于"
+    },
+    {
+      "from_entity": "LSSVM-WNN预测模型",
+      "to_entity": "小波神经网络",
+      "relation": "优于"
+    },
+    {
+      "from_entity": "数据驱动",
+      "to_entity": "故障预测",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "小波去噪",
+      "to_entity": "数据集",
+      "relation": "处理"
+    },
+    {
+      "from_entity": "Morlet函数",
+      "to_entity": "小波神经网络",
+      "relation": "用作转移函数"
+    },
+    {
+      "from_entity": "RBF核函数",
+      "to_entity": "最小二乘支持向量机",
+      "relation": "选择为"
+    },
+    {
+      "from_entity": "主泵",
+      "to_entity": "燃气轮机",
+      "relation": "是组件"
+    },
+    {
+      "from_entity": "排气温度",
+      "to_entity": "燃气轮机",
+      "relation": "是参数"
+    },
+    {
+      "from_entity": "相空间重构",
+      "to_entity": "数据集",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "梯度修正法",
+      "to_entity": "小波神经网络",
+      "relation": "用于参数修正"
+    },
+    {
+      "from_entity": "视情维修",
+      "to_entity": "故障预测",
+      "relation": "依赖于"
+    }
+  ]
+}

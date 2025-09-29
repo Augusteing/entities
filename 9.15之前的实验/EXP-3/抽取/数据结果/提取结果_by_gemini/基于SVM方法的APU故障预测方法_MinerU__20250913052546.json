@@ -1,413 +1,233 @@
-[
-  {
-    "entities": [
-      {
-        "type": "方法",
-        "text": "基于SVM方法的APU故障预测方法"
-      },
-      {
-        "type": "问题",
-        "text": "QAR数据存在实时性欠缺或精度不足的问题"
-      },
-      {
-        "type": "数据",
-        "text": "实时报文数据"
-      },
-      {
-        "type": "系统/部件",
-        "text": "辅助动力装置（APU）"
-      },
-      {
-        "type": "数据",
-        "text": "快速存取记录器（QAR）数据"
-      },
-      {
-        "type": "方法",
-        "text": "相关性分析"
-      },
-      {
-        "type": "参数集合",
-        "text": "能够表征APU运行性能的参数"
-      },
-      {
-        "type": "算法",
-        "text": "特征选择算法"
-      },
-      {
-        "type": "问题",
-        "text": "较差解释性"
-      },
-      {
-        "type": "模型",
-        "text": "多参数故障预测模型"
-      },
-      {
-        "type": "算法",
-        "text": "支持向量机（Support vector machine，SVM）"
-      },
-      {
-        "type": "评估指标",
-        "text": "预测正确率"
-      },
-      {
-        "type": "策略",
-        "text": "APU视情维修策略"
-      },
-      {
-        "type": "事件",
-        "text": "APU的失效或故障"
-      },
-      {
-        "type": "结果",
-        "text": "飞机无法运行"
-      },
-      {
-        "type": "技术",
-        "text": "基于QAR译码数据的APU故障诊断技术"
-      },
-      {
-        "type": "故障模式",
-        "text": "APU启动电门故障"
-      },
-      {
-        "type": "故障模式",
-        "text": "启动时间异常"
-      },
-      {
-        "type": "系统/部件",
-        "text": "飞机通信寻址与报告系统（ACARS）"
-      },
-      {
-        "type": "功能",
-        "text": "报文的实时传输"
-      },
-      {
-        "type": "模型",
-        "text": "混合PSO-SVM的模型"
-      },
-      {
-        "type": "任务",
-        "text": "预测飞机发动机的剩余使用寿命"
-      },
-      {
-        "type": "任务",
-        "text": "识别发动机润滑系统的异常状态"
-      },
-      {
-        "type": "应用场景",
-        "text": "飞机整体结构损伤的评估系统"
-      },
-      {
-        "type": "算法",
-        "text": "神经网络算法"
-      },
-      {
-        "type": "方法",
-        "text": "新的特征提取思路"
-      },
-      {
-        "type": "数据",
-        "text": "报文"
-      },
-      {
-        "type": "数据",
-        "text": "传统QAR数据"
-      },
-      {
-        "type": "数据",
-        "text": "A13号报文"
-      },
-      {
-        "type": "步骤",
-        "text": "数据预处理"
-      },
-      {
-        "type": "步骤",
-        "text": "特征提取"
-      },
-      {
-        "type": "参数",
-        "text": "引气压力"
-      },
-      {
-        "type": "参数",
-        "text": "排气温度"
-      },
-      {
-        "type": "参数",
-        "text": "启动时间"
-      },
-      {
-        "type": "参数",
-        "text": "使用时间"
-      },
-      {
-        "type": "参数",
-        "text": "进口导向叶片角度"
-      },
-      {
-        "type": "参数",
-        "text": "滑油温度"
-      },
-      {
-        "type": "步骤",
-        "text": "设置标签"
-      },
-      {
-        "type": "依据",
-        "text": "APU序号（ASN）出现变化情况"
-      },
-      {
-        "type": "依据",
-        "text": "单个特征参数阈值"
-      },
-      {
-        "type": "依据",
-        "text": "APU的维修记录"
-      },
-      {
-        "type": "算法",
-        "text": "递归特征消除"
-      },
-      {
-        "type": "步骤",
-        "text": "模型优化"
-      },
-      {
-        "type": "超参数",
-        "text": "惩罚系数C"
-      },
-      {
-        "type": "超参数",
-        "text": "参数γ"
-      },
-      {
-        "type": "评估工具",
-        "text": "混淆矩阵"
-      },
-      {
-        "type": "算法",
-        "text": "K近邻(KNN)"
-      },
-      {
-        "type": "算法",
-        "text": "逻辑回归(Logistic regression)"
-      },
-      {
-        "type": "算法",
-        "text": "决策树(Decision tree)"
-      },
-      {
-        "type": "评估工具",
-        "text": "受试者工作特征曲线（ROC）"
-      },
-      {
-        "type": "评估指标",
-        "text": "ROC曲线下的面积（AUC）"
-      },
-      {
-        "type": "数值",
-        "text": "0.94"
-      },
-      {
-        "type": "功能",
-        "text": "故障的在线监测"
-      },
-      {
-        "type": "维修类型",
-        "text": "非计划维修"
-      },
-      {
-        "type": "维修类型",
-        "text": "APU的视情维修"
-      }
-    ],
-    "relations": [
-      {
-        "type": "解决了",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "QAR数据存在实时性欠缺或精度不足的问题"
-      },
-      {
-        "type": "基于",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "实时报文数据"
-      },
-      {
-        "type": "提出",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "新的特征提取思路"
-      },
-      {
-        "type": "解决了",
-        "head": "新的特征提取思路",
-        "tail": "较差解释性"
-      },
-      {
-        "type": "基于",
-        "head": "多参数故障预测模型",
-        "tail": "支持向量机（Support vector machine，SVM）"
-      },
-      {
-        "type": "提高了",
-        "head": "多参数故障预测模型",
-        "tail": "预测正确率"
-      },
-      {
-        "type": "为...提供参考",
-        "head": "多参数故障预测模型",
-        "tail": "APU视情维修策略"
-      },
-      {
-        "type": "导致",
-        "head": "APU的失效或故障",
-        "tail": "飞机无法运行"
-      },
-      {
-        "type": "用于检测",
-        "head": "基于QAR译码数据的APU故障诊断技术",
-        "tail": "APU启动电门故障"
-      },
-      {
-        "type": "用于检测",
-        "head": "基于QAR译码数据的APU故障诊断技术",
-        "tail": "启动时间异常"
-      },
-      {
-        "type": "实现",
-        "head": "飞机通信寻址与报告系统（ACARS）",
-        "tail": "报文的实时传输"
-      },
-      {
-        "type": "采用...预测",
-        "head": "混合PSO-SVM的模型",
-        "tail": "飞机发动机的剩余使用寿命"
-      },
-      {
-        "type": "采用...识别",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "识别发动机润滑系统的异常状态"
-      },
-      {
-        "type": "在...中优于",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "神经网络算法"
-      },
-      {
-        "type": "相比...具有实时性",
-        "head": "报文",
-        "tail": "传统QAR数据"
-      },
-      {
-        "type": "以...为研究对象",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "A13号报文"
-      },
-      {
-        "type": "通过...筛选出",
-        "head": "相关性分析",
-        "tail": "能够表征APU运行性能的参数"
-      },
-      {
-        "type": "包括",
-        "head": "能够表征APU运行性能的参数",
-        "tail": "引气压力"
-      },
-      {
-        "type": "包括",
-        "head": "能够表征APU运行性能的参数",
-        "tail": "排气温度"
-      },
-      {
-        "type": "包括",
-        "head": "能够表征APU运行性能的参数",
-        "tail": "启动时间"
-      },
-      {
-        "type": "包括",
-        "head": "能够表征APU运行性能的参数",
-        "tail": "使用时间"
-      },
-      {
-        "type": "依据",
-        "head": "设置标签",
-        "tail": "APU序号（ASN）出现变化情况"
-      },
-      {
-        "type": "依据",
-        "head": "设置标签",
-        "tail": "单个特征参数阈值"
-      },
-      {
-        "type": "依据",
-        "head": "设置标签",
-        "tail": "APU的维修记录"
-      },
-      {
-        "type": "验证了...的有效性",
-        "head": "递归特征消除",
-        "tail": "特征提取"
-      },
-      {
-        "type": "提高了",
-        "head": "特征提取",
-        "tail": "预测正确率"
-      },
-      {
-        "type": "通过调整...进行优化",
-        "head": "多参数故障预测模型",
-        "tail": "惩罚系数C"
-      },
-      {
-        "type": "通过调整...进行优化",
-        "head": "多参数故障预测模型",
-        "tail": "参数γ"
-      },
-      {
-        "type": "通过...进行比较",
-        "head": "多参数故障预测模型",
-        "tail": "混淆矩阵"
-      },
-      {
-        "type": "通过...进行比较",
-        "head": "多参数故障预测模型",
-        "tail": "受试者工作特征曲线（ROC）"
-      },
-      {
-        "type": "在预测效果上优于",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "K近邻(KNN)"
-      },
-      {
-        "type": "在预测效果上优于",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "逻辑回归(Logistic regression)"
-      },
-      {
-        "type": "在预测效果上优于",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "决策树(Decision tree)"
-      },
-      {
-        "type": "的AUC值为",
-        "head": "支持向量机（Support vector machine，SVM）",
-        "tail": "0.94"
-      },
-      {
-        "type": "能够实现",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "故障的在线监测"
-      },
-      {
-        "type": "有助于避免",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "非计划维修"
-      },
-      {
-        "type": "有助于实现",
-        "head": "基于SVM方法的APU故障预测方法",
-        "tail": "APU的视情维修"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "基于实时报文数据的APU故障预测方法"
+    },
+    {
+      "type": "问题",
+      "text": "仅基于快速存取记录器（Quick access recorder，QAR）数据存在实时性欠缺或精度不足的问题"
+    },
+    {
+      "type": "数据源",
+      "text": "实时报文数据"
+    },
+    {
+      "type": "数据源",
+      "text": "快速存取记录器（Quick access recorder，QAR）数据"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机（Support vector machine，SVM）"
+    },
+    {
+      "type": "模型",
+      "text": "多参数故障预测模型"
+    },
+    {
+      "type": "策略",
+      "text": "APU视情维修策略"
+    },
+    {
+      "type": "方法",
+      "text": "相关性分析"
+    },
+    {
+      "type": "问题",
+      "text": "特征选择算法具有较差解释性的缺点"
+    },
+    {
+      "type": "参数集合",
+      "text": "能够表征APU运行性能的参数"
+    },
+    {
+      "type": "指标",
+      "text": "预测正确率"
+    },
+    {
+      "type": "研究对象",
+      "text": "辅助动力装置（Auxiliary power unit，APU）"
+    },
+    {
+      "type": "任务",
+      "text": "APU故障预测"
+    },
+    {
+      "type": "数据源",
+      "text": "A13号报文"
+    },
+    {
+      "type": "方法",
+      "text": "数据预处理"
+    },
+    {
+      "type": "方法",
+      "text": "数据集进行标注"
+    },
+    {
+      "type": "参数",
+      "text": "引气压力"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度"
+    },
+    {
+      "type": "参数",
+      "text": "启动时间"
+    },
+    {
+      "type": "参数",
+      "text": "使用时间"
+    },
+    {
+      "type": "算法",
+      "text": "递归特征消除"
+    },
+    {
+      "type": "评估方法",
+      "text": "混淆矩阵"
+    },
+    {
+      "type": "评估方法",
+      "text": "受试者工作特征曲线（ROC）"
+    },
+    {
+      "type": "算法",
+      "text": "K近邻(KNN)"
+    },
+    {
+      "type": "算法",
+      "text": "逻辑回归(Logistic regression)"
+    },
+    {
+      "type": "算法",
+      "text": "决策树(Decision tree)"
+    },
+    {
+      "type": "指标",
+      "text": "ROC曲线下的面积（AUC）"
+    },
+    {
+      "type": "应用",
+      "text": "故障的在线监测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于实时报文数据的APU故障预测方法"
+    },
+    {
+      "type": "针对",
+      "head": "基于实时报文数据的APU故障预测方法",
+      "tail": "仅基于快速存取记录器（Quick access recorder，QAR）数据存在实时性欠缺或精度不足的问题"
+    },
+    {
+      "type": "基于",
+      "head": "基于实时报文数据的APU故障预测方法",
+      "tail": "实时报文数据"
+    },
+    {
+      "type": "建立",
+      "head": "本文",
+      "tail": "多参数故障预测模型"
+    },
+    {
+      "type": "基于",
+      "head": "多参数故障预测模型",
+      "tail": "支持向量机（Support vector machine，SVM）"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "相关性分析"
+    },
+    {
+      "type": "针对",
+      "head": "相关性分析",
+      "tail": "特征选择算法具有较差解释性的缺点"
+    },
+    {
+      "type": "选取",
+      "head": "相关性分析",
+      "tail": "能够表征APU运行性能的参数"
+    },
+    {
+      "type": "提高了",
+      "head": "多参数故障预测模型",
+      "tail": "预测正确率"
+    },
+    {
+      "type": "为...提供参考",
+      "head": "多参数故障预测模型",
+      "tail": "APU视情维修策略"
+    },
+    {
+      "type": "包含",
+      "head": "能够表征APU运行性能的参数",
+      "tail": "引气压力"
+    },
+    {
+      "type": "包含",
+      "head": "能够表征APU运行性能的参数",
+      "tail": "排气温度"
+    },
+    {
+      "type": "包含",
+      "head": "能够表征APU运行性能的参数",
+      "tail": "启动时间"
+    },
+    {
+      "type": "包含",
+      "head": "能够表征APU运行性能的参数",
+      "tail": "使用时间"
+    },
+    {
+      "type": "验证",
+      "head": "递归特征消除",
+      "tail": "能够表征APU运行性能的参数"
+    },
+    {
+      "type": "使用...进行案例验证",
+      "head": "多参数故障预测模型",
+      "tail": "混淆矩阵"
+    },
+    {
+      "type": "使用...进行模型评价",
+      "head": "多参数故障预测模型",
+      "tail": "受试者工作特征曲线（ROC）"
+    },
+    {
+      "type": "对比",
+      "head": "支持向量机（Support vector machine，SVM）",
+      "tail": "K近邻(KNN)"
+    },
+    {
+      "type": "对比",
+      "head": "支持向量机（Support vector machine，SVM）",
+      "tail": "逻辑回归(Logistic regression)"
+    },
+    {
+      "type": "对比",
+      "head": "支持向量机（Support vector machine，SVM）",
+      "tail": "决策树(Decision tree)"
+    },
+    {
+      "type": "优于",
+      "head": "支持向量机（Support vector machine，SVM）",
+      "tail": "其他分类算法"
+    },
+    {
+      "type": "计算得到",
+      "head": "支持向量机（Support vector machine，SVM）",
+      "tail": "ROC曲线下的面积（AUC）"
+    },
+    {
+      "type": "实现",
+      "head": "基于实时报文数据的APU故障预测方法",
+      "tail": "故障的在线监测"
+    }
+  ]
+}

@@ -2,6 +2,39 @@
 以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
 
 示例1 段落：
+[1] Johnson S B. Introduction to system health engineering and management in aerospace [R]. First International Forum on Integrated System Health Engineering and Management in Aerospace Napa California USA. 2005- 11. [2] Andrew Hess Leo Fila Prognostics from the need to reality from the fleet users and PHM system designer/developers perspectives [A]. IEEE Aerospace Conference Proceedings[C]. 2002. [3] Byington C S Roemer M & Galie T. Prognostic enhancements to diagnostic systems for improved condition- based maintenance [A]. IEEE Aerospace Conference[C]. 2002. [4] Hess A. The joint strike fighter (JSF) prognostics and health management[A]. NDIA 4th Annual Systems Engineering Conference[C]. 2001- 10. [5] Scheuren W. Safety & the military aircraft joint strike fighter prognostics & health management[R]. AIAA 98- 3710, 1998. [6] 曾声奎，等.故障预测与健康管理（PHM）技术的现状与发展[J]. 航空学报，2005, 26(5). [7] 张宝珍，曾天翔. PHM：实现F- 35经济承受性目标的关键使能技术[J]. 航空维修与工程，2005, (6).
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理（PHM）技术"
+    },
+    {
+      "type": "概念",
+      "text": "预测"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "经历了阶段",
+      "head": "预测与健康管理（PHM）技术",
+      "tail": "故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
 【关键词】空勤人员；健康状况；健康体检；航空医学中图分类号：R195文献标志码：A文章编号：1001- 0580(2018)08- 1174- 04DOI:10.11847/zgggws1119411
 标注：
 ```json
@@ -19,7 +52,7 @@
 }
 ```
 
-示例2 段落：
+示例3 段落：
 中国疗养医学，2012，21(05)：452- 453. [11] 沈四新，郑志雄，李海龙，等.某中心空勤人员疾病谱分析与评价[J].中华保健医学杂志，2011，13(06)：493- 494. [12] 徐卓佳，初荣，梁艳闯，等.民航男性飞行员高尿酸血症及其肾脏功能早期损伤的调查[J].环境与职业医学，2015，32(04)：343- 346. [13] 许燕，李银喜，刀丽梅.2004—2008年某航空公司飞行员高脂血症和脂肪肝的调查分析[J].西南国防医药，2011，21(12)：1419- 1420. [14] 郭华，周亚军，景百胜，等.某运输机部队飞行人员健康状况调查[J].航空军医，2004，32(02)：51- 53. [15] 傅卫红，张青，赵美红，等.飞行人员生命质量影响因素的研究[J].解放军医学院学报，2014，35(04)：319- 321. [16] 刘晶，王露今，付兆君，等.425例飞行人员高尿酸血症的患病调查及分析[J].华南国防医学杂志，2009，23(06)：18- 20. [17] 张卫兵.特勤疗养学[M].北京：人民军医出版社，2009. [18] Swinbum BA, Sacks G, Hall KD, et al. The global obesity pandemic: shaped by global drivers and local environments[J]. Lancet, 2011, 378(9793): 804- 814. [19] 刘爱兵，王丽珍，苍忠芳，等.飞行员脂肪负荷餐后高甘油三酯应答与动脉粥样硬化相关指标改变的关系[J].中华航空航天医学杂志，2003,14(03):35- 38.
 标注：
 ```json
@@ -44,24 +77,6 @@
     {
       "type": "概念",
       "text": "健康状况"
-    }
-  ]
-}
-```
-
-示例3 段落：
-nautic Standardization & Quality,2013(3):5- 8. (in Chinese)[8]祝青钰，蒋觉义.飞机健康管理标准研究综述[J].航空标准化与质量，2021(6):9- 12. ZHU Qingyu,JIANG Jueyi.Review of research on aircraft health management standards[J]. Standardization Research,2021 (6) : 9- 12. (in Chinese).[9] Tikka J,Salonen T.Practical experience of neural network based fatigue life monitoring[8].8th ICAF Symposium: Helsinki; ICAF, 2015:16- 21. [10] Denney G.F16 jet engine trending and diagnostics with neural networks[J].Application of Neural Networks [V,1965,3:419- 422. [11] Garcia W, Bair R.F- 22 force management: overcoming challenges to maintain a robust usage tracking program[C]//2006 USAF ASIP Conference.San Antonio: USAF,2006:1- 10. [12] Budrow.B.System analysis and integration of diagnostics and health management for the F119- PW- 100[R].AIAA- 98- 3535. [13] Horl F, Richter K.Monitoring the EJ200 engine[C]//Submitted for the proceedings of the 18th symposium, Aircraft Integrated Monitoring Systems. Berlin:Journal of engines,1995:168- 170. [14]尉海楷，杨立，刘芳，等.航空发动机预测与健康管理[M].北京：国防工业出版社，2014：27- 37,29- 33. WEI Xunkai, YANG Li, LIU Fang, et al.Aeroengine prognostics and health management[M]. Beijing: National Defence Industry Press,2014:27- 37,29- 33. (in Chinese).[15] Honor P, Ari N.Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM[C]//IEEE Aerospace Conference Proceeding 2006. New York:IEEE Press,2016:155- 161. [16] Volponi A.Data fusion for enhanced aircraft engine prognostics and health management[R].NASA- CR- 2005:214055. [17]鲁峰，黄金泉.基于ESVR信息融合的航空发动机故障诊断研究[J].应用基础与工程科学学报，2010，18（6）：982- 989. LU Feng, HUANG Jinquan.Fault diagnosis for aero- engine based on ESVR information fusion[J].Journal of Basic Science and Engineering,2010,18(6):982- 989. (in Chinese)[18]鲁峰.航空发动机故障诊断的融合技术研究[D].南京：南京航空航天大学，2009. LU Feng.Aeroengine fault diagnostics based on fusion technique[D]. Nanjing: Nanjing University of aeronautics and Asonautics, 2009. (in Chinese)[19]张丽基于数据的航空发动机气路故障诊断研究[D].北京：清华大学2014. ZHANG Li. Fault diagnosis of aero- engine based on data- driven technology[D].Bei Jing:Tsinghua University,2014. (in Chinese)[20]李一波，张光明，蒋丽英.航空发动机气路故障诊断技术研究现状[J].燃气轮机技术，2009，22（3）：10- 15. LI Yibo,ZHANG Guangming,JIANG Liying.Research status of aeroengine gas path fault diagnosis technology[J]. Gas Turbine Technology,2009,22(3):10- 15. (in Chinese)[21]Tikka J, Salonen T. Practical experience of neural network based
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "组织",
-      "text": "NASA"
-    },
-    {
-      "type": "技术",
-      "text": "信息融合"
     }
   ]
 }

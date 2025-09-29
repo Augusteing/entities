@@ -1,479 +1,241 @@
-[
-  {
-    "entities": [
-      {
-        "text": "飞机健康管理平台",
-        "type": "系统"
-      },
-      {
-        "text": "客户需求分析",
-        "type": "研究方法"
-      },
-      {
-        "text": "PLM服务资源匹配",
-        "type": "研究方法"
-      },
-      {
-        "text": "模糊理论",
-        "type": "理论"
-      },
-      {
-        "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
-        "type": "系统"
-      },
-      {
-        "text": "灰色关联法",
-        "type": "算法"
-      },
-      {
-        "text": "自回归求和移动平均（ARIMA）模型",
-        "type": "模型"
-      },
-      {
-        "text": "质量屋（House of Quality，HOQ）",
-        "type": "工具"
-      },
-      {
-        "text": "全生命周期管理（Product Lifecycle Management，PLM）",
-        "type": "管理方法"
-      },
-      {
-        "text": "客户需求",
-        "type": "研究对象"
-      },
-      {
-        "text": "服务资源",
-        "type": "研究对象"
-      },
-      {
-        "text": "AHM系统",
-        "type": "系统"
-      },
-      {
-        "text": "AIRMAN系统",
-        "type": "系统"
-      },
-      {
-        "text": "飞机综合诊断系统（IDS）",
-        "type": "系统"
-      },
-      {
-        "text": "KANO模型",
-        "type": "模型"
-      },
-      {
-        "text": "模糊质量功能配置（Quality Function Deployment，QFD）",
-        "type": "方法"
-      },
-      {
-        "text": "飞机PHM平台的客户需求获取与推理研究框架",
-        "type": "框架"
-      },
-      {
-        "text": "灰色系统理论",
-        "type": "理论"
-      },
-      {
-        "text": "模糊度量方法",
-        "type": "方法"
-      },
-      {
-        "text": "相关利益方",
-        "type": "概念"
-      },
-      {
-        "text": "机场",
-        "type": "相关利益方"
-      },
-      {
-        "text": "航空公司",
-        "type": "相关利益方"
-      },
-      {
-        "text": "飞机设计方",
-        "type": "相关利益方"
-      },
-      {
-        "text": "飞机制造商",
-        "type": "相关利益方"
-      },
-      {
-        "text": "飞行员",
-        "type": "相关利益方"
-      },
-      {
-        "text": "模糊相似矩阵",
-        "type": "数学工具"
-      },
-      {
-        "text": "传递闭包",
-        "type": "数学工具"
-      },
-      {
-        "text": "时间序列分析方法",
-        "type": "方法"
-      },
-      {
-        "text": "SPSS",
-        "type": "软件"
-      },
-      {
-        "text": "实时监控",
-        "type": "功能模块"
-      },
-      {
-        "text": "故障诊断",
-        "type": "功能模块"
-      },
-      {
-        "text": "维修决策",
-        "type": "功能模块"
-      },
-      {
-        "text": "健康评估",
-        "type": "功能模块"
-      },
-      {
-        "text": "FMECA/FTA",
-        "type": "分析方法"
-      },
-      {
-        "text": "故障隔离手册",
-        "type": "知识资源"
-      },
-      {
-        "text": "诊断规则知识库",
-        "type": "知识资源"
-      },
-      {
-        "text": "ARIMA(2,1,1)",
-        "type": "模型"
-      },
-      {
-        "text": "服务匹配度",
-        "type": "指标"
-      }
-    ],
-    "relations": [
-      {
-        "head": {
-          "text": "模糊理论",
-          "type": "理论"
-        },
-        "relation": "用于确立",
-        "tail": {
-          "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
-          "type": "系统"
-        }
-      },
-      {
-        "head": {
-          "text": "灰色关联法",
-          "type": "算法"
-        },
-        "relation": "用于排序",
-        "tail": {
-          "text": "客户需求",
-          "type": "研究对象"
-        }
-      },
-      {
-        "head": {
-          "text": "自回归求和移动平均（ARIMA）模型",
-          "type": "模型"
-        },
-        "relation": "用于求解",
-        "tail": {
-          "text": "客户需求",
-          "type": "研究对象"
-        }
-      },
-      {
-        "head": {
-          "text": "质量屋（House of Quality，HOQ）",
-          "type": "工具"
-        },
-        "relation": "用于衡量",
-        "tail": {
-          "text": "PLM服务资源匹配",
-          "type": "研究方法"
-        }
-      },
-      {
-        "head": {
-          "text": "AHM系统",
-          "type": "系统"
-        },
-        "relation": "是实例",
-        "tail": {
-          "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
-          "type": "系统"
-        }
-      },
-      {
-        "head": {
-          "text": "AIRMAN系统",
-          "type": "系统"
-        },
-        "relation": "是实例",
-        "tail": {
-          "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
-          "type": "系统"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机综合诊断系统（IDS）",
-          "type": "系统"
-        },
-        "relation": "是实例",
-        "tail": {
-          "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
-          "type": "系统"
-        }
-      },
-      {
-        "head": {
-          "text": "本文",
-          "type": "文献"
-        },
-        "relation": "提出",
-        "tail": {
-          "text": "飞机PHM平台的客户需求获取与推理研究框架",
-          "type": "框架"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM平台的客户需求获取与推理研究框架",
-          "type": "框架"
-        },
-        "relation": "结合",
-        "tail": {
-          "text": "灰色关联法",
-          "type": "算法"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM平台的客户需求获取与推理研究框架",
-          "type": "框架"
-        },
-        "relation": "结合",
-        "tail": {
-          "text": "自回归求和移动平均（ARIMA）模型",
-          "type": "模型"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM平台的客户需求获取与推理研究框架",
-          "type": "框架"
-        },
-        "relation": "结合",
-        "tail": {
-          "text": "质量屋（House of Quality，HOQ）",
-          "type": "工具"
-        }
-      },
-      {
-        "head": {
-          "text": "相关利益方",
-          "type": "概念"
-        },
-        "relation": "包括",
-        "tail": {
-          "text": "机场",
-          "type": "相关利益方"
-        }
-      },
-      {
-        "head": {
-          "text": "相关利益方",
-          "type": "概念"
-        },
-        "relation": "包括",
-        "tail": {
-          "text": "航空公司",
-          "type": "相关利益方"
-        }
-      },
-      {
-        "head": {
-          "text": "相关利益方",
-          "type": "概念"
-        },
-        "relation": "包括",
-        "tail": {
-          "text": "飞机设计方",
-          "type": "相关利益方"
-        }
-      },
-      {
-        "head": {
-          "text": "相关利益方",
-          "type": "概念"
-        },
-        "relation": "包括",
-        "tail": {
-          "text": "飞机制造商",
-          "type": "相关利益方"
-        }
-      },
-      {
-        "head": {
-          "text": "相关利益方",
-          "type": "概念"
-        },
-        "relation": "包括",
-        "tail": {
-          "text": "飞行员",
-          "type": "相关利益方"
-        }
-      },
-      {
-        "head": {
-          "text": "传递闭包",
-          "type": "数学工具"
-        },
-        "relation": "作为依据",
-        "tail": {
-          "text": "客户需求",
-          "type": "研究对象"
-        }
-      },
-      {
-        "head": {
-          "text": "SPSS",
-          "type": "软件"
-        },
-        "relation": "用于检验",
-        "tail": {
-          "text": "自回归求和移动平均（ARIMA）模型",
-          "type": "模型"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM系统",
-          "type": "系统"
-        },
-        "relation": "划分为",
-        "tail": {
-          "text": "实时监控",
-          "type": "功能模块"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM系统",
-          "type": "系统"
-        },
-        "relation": "划分为",
-        "tail": {
-          "text": "故障诊断",
-          "type": "功能模块"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM系统",
-          "type": "系统"
-        },
-        "relation": "划分为",
-        "tail": {
-          "text": "维修决策",
-          "type": "功能模块"
-        }
-      },
-      {
-        "head": {
-          "text": "飞机PHM系统",
-          "type": "系统"
-        },
-        "relation": "划分为",
-        "tail": {
-          "text": "健康评估",
-          "type": "功能模块"
-        }
-      },
-      {
-        "head": {
-          "text": "实时故障监控",
-          "type": "功能模块"
-        },
-        "relation": "重要度高于",
-        "tail": {
-          "text": "FMECA/FTA",
-          "type": "分析方法"
-        }
-      },
-      {
-        "head": {
-          "text": "FMECA/FTA",
-          "type": "分析方法"
-        },
-        "relation": "重要度高于",
-        "tail": {
-          "text": "故障隔离手册",
-          "type": "知识资源"
-        }
-      },
-      {
-        "head": {
-          "text": "故障隔离手册",
-          "type": "知识资源"
-        },
-        "relation": "重要度高于",
-        "tail": {
-          "text": "诊断规则知识库",
-          "type": "知识资源"
-        }
-      },
-      {
-        "head": {
-          "text": "ARIMA(2,1,1)",
-          "type": "模型"
-        },
-        "relation": "被选为",
-        "tail": {
-          "text": "最优的预测模型",
-          "type": "研究结果"
-        }
-      },
-      {
-        "head": {
-          "text": "ARIMA(2,1,1)",
-          "type": "模型"
-        },
-        "relation": "用于预测",
-        "tail": {
-          "text": "浏览量",
-          "type": "数据"
-        }
-      },
-      {
-        "head": {
-          "text": "质量屋（House of Quality，HOQ）",
-          "type": "工具"
-        },
-        "relation": "用于计算",
-        "tail": {
-          "text": "服务匹配度",
-          "type": "指标"
-        }
-      },
-      {
-        "head": {
-          "text": "本文",
-          "type": "文献"
-        },
-        "relation": "将QFD应用到",
-        "tail": {
-          "text": "客户需求和服务资源的映射",
-          "type": "研究方法"
-        }
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "type": "理论",
+      "text": "模糊理论"
+    },
+    {
+      "type": "系统",
+      "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台"
+    },
+    {
+      "type": "功能",
+      "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台的功能"
+    },
+    {
+      "type": "分析方法",
+      "text": "灰色关联法"
+    },
+    {
+      "type": "任务",
+      "text": "客户需求进行重要度排序"
+    },
+    {
+      "type": "预测模型",
+      "text": "自回归求和移动平均（ARIMA）模型"
+    },
+    {
+      "type": "概念",
+      "text": "客户需求的动态特征"
+    },
+    {
+      "type": "分析工具",
+      "text": "质量屋（House of Quality，HOQ）"
+    },
+    {
+      "type": "概念",
+      "text": "全生命周期管理（Product Lifecycle Management，PLM）的服务资源"
+    },
+    {
+      "type": "概念",
+      "text": "客户需求"
+    },
+    {
+      "type": "指标",
+      "text": "匹配度"
+    },
+    {
+      "type": "指标",
+      "text": "客户对航空系统各种服务资源的满意度"
+    },
+    {
+      "type": "分析方法",
+      "text": "KANO模型"
+    },
+    {
+      "type": "任务",
+      "text": "挖掘客户的兴奋型需求"
+    },
+    {
+      "type": "分析工具",
+      "text": "模糊质量功能配置（Quality Function Deployment，QFD）"
+    },
+    {
+      "type": "任务",
+      "text": "确定产品技术需求"
+    },
+    {
+      "type": "研究框架",
+      "text": "飞机PHM平台的客户需求获取与推理总体框架"
+    },
+    {
+      "type": "理论",
+      "text": "灰色系统理论"
+    },
+    {
+      "type": "任务",
+      "text": "需求种类进行重要度排序"
+    },
+    {
+      "type": "任务",
+      "text": "定量分析预测未来某时刻用户对平台的需求"
+    },
+    {
+      "type": "模型",
+      "text": "面向PLM的客户需求向服务资源映射的配置模型"
+    },
+    {
+      "type": "系统",
+      "text": "飞机PHM系统"
+    },
+    {
+      "type": "功能模块",
+      "text": "实时监控"
+    },
+    {
+      "type": "功能模块",
+      "text": "故障诊断"
+    },
+    {
+      "type": "功能模块",
+      "text": "维修决策"
+    },
+    {
+      "type": "功能模块",
+      "text": "健康评估"
+    },
+    {
+      "type": "指标",
+      "text": "服务资源匹配度"
+    },
+    {
+      "type": "指标",
+      "text": "客户需求的权重"
+    },
+    {
+      "type": "分析工具",
+      "text": "传统QFD"
+    },
+    {
+      "type": "任务",
+      "text": "客户需求和服务资源的映射"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于...确立",
+      "head": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台",
+      "tail": "模糊理论"
+    },
+    {
+      "type": "利用...进行",
+      "head": "客户需求进行重要度排序",
+      "tail": "灰色关联法"
+    },
+    {
+      "type": "基于...求解",
+      "head": "客户需求的动态特征",
+      "tail": "自回归求和移动平均（ARIMA）模型"
+    },
+    {
+      "type": "使用...衡量",
+      "head": "质量屋（House of Quality，HOQ）",
+      "tail": "匹配度"
+    },
+    {
+      "type": "定量反映",
+      "head": "质量屋（House of Quality，HOQ）",
+      "tail": "客户对航空系统各种服务资源的满意度"
+    },
+    {
+      "type": "用于",
+      "head": "KANO模型",
+      "tail": "挖掘客户的兴奋型需求"
+    },
+    {
+      "type": "通过...确定",
+      "head": "模糊质量功能配置（Quality Function Deployment，QFD）",
+      "tail": "产品技术需求"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "飞机PHM平台的客户需求获取与推理总体框架"
+    },
+    {
+      "type": "通过...进行",
+      "head": "需求种类进行重要度排序",
+      "tail": "灰色系统理论"
+    },
+    {
+      "type": "通过...预测",
+      "head": "自回归求和移动平均（ARIMA）模型",
+      "tail": "定量分析预测未来某时刻用户对平台的需求"
+    },
+    {
+      "type": "通过...构建",
+      "head": "模糊质量功能配置（Quality Function Deployment，QFD）",
+      "tail": "面向PLM的客户需求向服务资源映射的配置模型"
+    },
+    {
+      "type": "用于求解",
+      "head": "灰色关联法",
+      "tail": "需求重要度排序"
+    },
+    {
+      "type": "用于表征",
+      "head": "质量屋（House of Quality，HOQ）",
+      "tail": "客户需求与企业服务资源的匹配关系"
+    },
+    {
+      "type": "划分为",
+      "head": "飞机PHM系统",
+      "tail": "实时监控"
+    },
+    {
+      "type": "划分为",
+      "head": "飞机PHM系统",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "划分为",
+      "head": "飞机PHM系统",
+      "tail": "维修决策"
+    },
+    {
+      "type": "划分为",
+      "head": "飞机PHM系统",
+      "tail": "健康评估"
+    },
+    {
+      "type": "用于确定",
+      "head": "灰色关联法",
+      "tail": "客户需求的权重"
+    },
+    {
+      "type": "进行",
+      "head": "自回归求和移动平均（ARIMA）模型",
+      "tail": "动态预测"
+    },
+    {
+      "type": "计算",
+      "head": "公式（13）",
+      "tail": "服务资源匹配度"
+    },
+    {
+      "type": "应用于",
+      "head": "传统QFD",
+      "tail": "客户需求和服务资源的映射"
+    },
+    {
+      "type": "结合了",
+      "head": "本文提出的方法",
+      "tail": "灰色关联法"
+    },
+    {
+      "type": "结合了",
+      "head": "本文提出的方法",
+      "tail": "ARIMA预测"
+    }
+  ]
+}

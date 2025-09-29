@@ -1,2 +1,2 @@
-失败时间: 2025-09-15T11:35:58.146764+00:00
-异常: JSON 解析失败: Unterminated string starting at: line 291 column 7 (char 4900). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-3\抽取\数据结果\提取结果_by_kimi\2017预测与健康管理(PHM)研讨会在西安召开_MinerU__20250913053949.raw.txt
+失败时间: 2025-09-24T10:23:11.839404+00:00
+异常: JSON 解析失败: Unterminated string starting at: line 282 column 15 (char 4853). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-2\抽取\数据结果\提取结果_by_kimi\2017预测与健康管理(PHM)研讨会在西安召开_MinerU__20250913053949.raw.txt

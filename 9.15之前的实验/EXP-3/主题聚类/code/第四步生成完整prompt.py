@@ -1,14 +1,27 @@
 import os
 import json
 
-# ─── 配置 ─────────────────────────────────────────────────────
-PROMPT_TEMPLATE_PATH = "prompt/prompt/prompt.txt"
-S_MODULES_DIR        = "数据结果/s_modules"
-UNLABELED_DOCS_DIR   = "无标注原文"
-OUTPUT_DIR          = "数据结果/完整prompt"
+# ─── 路径配置（基于脚本所在的“主题聚类”目录） ─────────────────────────────
+# 本脚本位于 主题聚类/code 下，数据与模板位于其父级目录 主题聚类 下
+SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
+PROJECT_DIR = os.path.dirname(SCRIPT_DIR)  # 指向 “主题聚类” 目录
+
+# 用户提供的模板目录：E:\知识图谱构建\9.15之前的实验\EXP-3\主题聚类\prompt
+# 这里将模板路径设为 主题聚类/prompt/prompt.txt（与用户给出的目录一致）
+PROMPT_TEMPLATE_PATH = os.path.join(PROJECT_DIR, "prompt", "prompt.txt")
+
+# 其他目录均锚定在 “主题聚类” 目录下，避免受到运行位置影响
+S_MODULES_DIR      = os.path.join(PROJECT_DIR, "数据结果", "s_modules")
+UNLABELED_DOCS_DIR = os.path.join(PROJECT_DIR, "无标注原文")
+OUTPUT_DIR         = os.path.join(PROJECT_DIR, "数据结果", "完整prompt")
 
 def read_prompt_template():
     """读取prompt模板"""
+    if not os.path.exists(PROMPT_TEMPLATE_PATH):
+        raise FileNotFoundError(
+            f"未找到模板文件: {PROMPT_TEMPLATE_PATH}\n"
+            f"请确认模板路径应为 '主题聚类/prompt/prompt.txt'，或修改脚本中的 PROMPT_TEMPLATE_PATH。"
+        )
     with open(PROMPT_TEMPLATE_PATH, "r", encoding="utf-8") as f:
         return f.read()
 
@@ -76,6 +89,16 @@ def main():
     """主函数"""
     # 创建输出目录
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # 运行前的路径存在性检查（更友好地报错）
+    missing = []
+    if not os.path.isdir(UNLABELED_DOCS_DIR):
+        missing.append(f"未标注文档目录: {UNLABELED_DOCS_DIR}")
+    if not os.path.isdir(S_MODULES_DIR):
+        # S 模块缺失不会阻止运行，但提前提示
+        print(f"⚠️ 提示: 未找到 S 模块目录（可忽略）: {S_MODULES_DIR}")
+    if missing:
+        raise FileNotFoundError("\n".join(missing))
     
     # 读取prompt模板
     template = read_prompt_template()

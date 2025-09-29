@@ -1,0 +1,389 @@
+{
+  "entities": [
+    {
+      "type": "技术方案",
+      "text": "改进型 PHM方案",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "集中式PHM设计方案无法满足日趋复杂的供电系统要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析方法",
+      "text": "扩展式FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统架构",
+      "text": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "诊断预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评价方法",
+      "text": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机原有的总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "多、全电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传统技术",
+      "text": "机内测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主后勤系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康与使用监控系统（HUMS)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断方法",
+      "text": "基于传感器的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测方法",
+      "text": "基于智能系统的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "余寿预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "开关磁阻电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "远程终端",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "负载管理中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析方法",
+      "text": "扩展式故障模式影响分析表",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "硬件监测设备或BITE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "PHM处理中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "数据采集模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "数据处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "特征信息提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "状态监测模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "诊断预测模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "专家知识",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "诊断、预测推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障概念",
+      "text": "故障模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析功能",
+      "text": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测指标",
+      "text": "剩余寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模块",
+      "text": "分析决策模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "上层系统",
+      "text": "飞机功能管理区域PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "上层系统",
+      "text": "飞机整机管理PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "一体化维修保障体系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数学模型",
+      "text": "模糊隶属度矩阵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊合成运算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "决策方法",
+      "text": "最大隶属度原则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "决策方法",
+      "text": "加权平均法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "供电系统PHM",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "针对问题",
+      "head": "改进型 PHM方案",
+      "tail": "集中式PHM设计方案无法满足日趋复杂的供电系统要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "改进型 PHM方案",
+      "tail": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "改进型 PHM方案",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用了",
+      "head": "改进型 PHM方案",
+      "tail": "诊断预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "诊断预测模型",
+      "tail": "扩展式FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "诊断预测模型",
+      "tail": "模糊综合评判",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融入到",
+      "head": "供电系统PHM",
+      "tail": "飞机原有的总体PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种方法转变",
+      "head": "PHM",
+      "tail": "从传统的基于传感器的诊断转向基于智能系统的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的核心部分",
+      "head": "PHM",
+      "tail": "诊断预测模块",
+      "evaluation": "错误"
+    },
+    {
+      "type": "修正了",
+      "head": "模糊综合评判",
+      "tail": "扩展式FMEA分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "数据采集模块",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "数据处理模块",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "状态监测模块",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "诊断预测模块",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "分析决策模块",
+      "tail": "分布一集中式PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "执行",
+      "head": "数据处理模块",
+      "tail": "数据融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "执行",
+      "head": "数据处理模块",
+      "tail": "特征信息提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "诊断预测模块",
+      "tail": "专家知识",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "诊断预测模块",
+      "tail": "诊断、预测推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "诊断预测模块",
+      "tail": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "估计",
+      "head": "诊断预测模块",
+      "tail": "剩余寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "汇总信息到",
+      "head": "分析决策模块",
+      "tail": "飞机功能管理区域PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "收集信息自",
+      "head": "飞机整机管理PHM",
+      "tail": "飞机功能管理区域PHM",
+      "evaluation": "正确"
+    }
+  ]
+}

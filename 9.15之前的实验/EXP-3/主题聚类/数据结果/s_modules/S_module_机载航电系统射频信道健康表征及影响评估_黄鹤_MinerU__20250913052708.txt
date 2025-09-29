@@ -2,6 +2,27 @@
 以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
 
 示例1 段落：
+景博，黄以锋，张建业.航空电子系统故障预测与健康管理技术现状与发展Ⅲ.空军工程大学学报：自然科学版，2010，11（6）：1- 6. 赵宁社，翟正军，王国庆.新一代航空电子综合化及预测与健康管理技术Ⅲ.测控技术，2011，30（1）：1- 5，9. XU Jiuping, XU Lei. Health management based on fusion prognostics for avionics systems [J]. Journal of Systems Engineering and Electronics, 2011, 22(3):428- 436. 熊华钢，王中华.先进航空电子综合技术研究M.北京：国防工业出版社，2009：1- 2. NATO. STANAG 4626- 2005 modular and open avionics architecture (Part VI: System management) [S]. North Atlantic Treaty Organization, 2005: 25- 34. MOIR I, SEABRIDGE A. Military avionics systems [M]. Chichester: John Wiley & Sons, 2006: 120- 122. 霍曼，邓中卫.国外军用飞机航空电子系统发展趋势Ⅲ.航空电子技术，2004，35（4）：5- 10. NATO. STANAG 4626- 2005 modular and open avionics architecture (Part II. Architected) [J]. North Atlantic Treaty Organization, 2005: 18- 15. VACHTSEVANOS G, LEWIS F I, ROEMER M, et al. Intelligent fault diagnosis and prognosis for engineering systems [M]. New York: John Wiley & sons, Inc., 2006: 45- 51. LIU Jianbo, DJU R DJANOVIC D, MARKO K A, et al. A divide and conquer approach to anomaly detection, localization and diagnosis [I]. Mechanical Systems and Signal Processing, 2009, 23(8):2488- 2499. Time- dependent dielectric breakdown(TDDB) prognostic BIST cell [J]. Ridgetop Group Inc., 2006: 123- 136. SAHA B, GOEEL B, POLL S, et al. Prognostics methods for battery health monitoring using a Bayesian framework [J]. IEEE Transactions on Instrumentation and Measurement, 2009, 58(2):291- 296. MATHEW S, DAS D, OSTERMAN M, et al. Virtual remaining life assessment of electronic hardware subjected to shock and random vibration life cycle loads [J]. Journal of the IEST, 2007, 50(1):86- 97. KALGREW P W, BYINGTON C S, ROEMER M J. Defining PHM, a lexical evolution of maintenance and logistics [J]. //IEEE Autotestcon, 2006: 353- 358. CHANDOLA V, BANERJEE A, KUMAR V. Anomaly detection: A survey [J]. ACM Computing Surveys (CSUR), 2009, 41(3):34- 38.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "特征",
+      "text": "综合化"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展方向为",
+      "head": "航空电子系统",
+      "tail": "综合化"
+    }
+  ]
+}
+```
+
+示例2 段落：
 based prognostics and health management [J]. IEEE Transactions on Industrial Electronics, 2011, 58(7): 3077- 3089. [4] 张宝珍, 王萍, 尤晨宇. 国外飞机预测与健康管理技术发展计划综述 [J]. 计算机测量与控制, 2016, 24(6): 1- 7. ZHANG B ZH, WANG P, YOU CH Y. Overview of oversea prognostics and health management technologies development projects [J]. Computer Measurement & Control, 2016, 24(6): 1- 7. [5] 王少萍. 大型飞机机载系统预测与健康管理关键技术 [J]. 航空学报, 2014, 35(6): 1459- 1472. WANG SH P. Prognostics and health management key technology of aircraft airborne system [J]. Acta Aeronautica et Astronautica Sinica, 2014, 35(6): 1- 7. [6] 李兴旺, 汪慧云, 沈勇, 等. 飞机综合健康管理系统的应用与发展 [J]. 计算机测量与控制, 2015, 23(4): 1069- 1072. LI X W, WANG H Y, SHEN Y, et al. Application and development of integrated vehicle health management system in aviation field [J]. Computer Measurement & Control, 2015, 23(4): 1069- 1072. [7] 曹全新, 杨融, 刘子尧. 民用飞机健康管理技术研究 [J]. 航空电子技术, 2014, 45(4): 15- 19. CAO Q X, YANG R, LIU Z B. Prognostics and health management technical study for civil aircraft [J]. Avionics Technology, 2014, 45(4): 1069- 1072. [8] 孙贤明, 樊晓光, 丛伟. 综合航电系统故障处理机制研究 [J]. 测试技术, 2016, 35(10): 146- 149. SUN X M, FAN X G, CONG W. Research on fault disposal mechanism of integrated modular avionics [J]. Measurement & Control Technology, 2016, 35(10): 146- 149. [9] 李权, 周兴社. 基于测控数据挖掘的航天器故障诊断技术研究 [J]. 计算机测量与控制, 2011, 19(3): 500- 503. LI Q, ZHOU X SH. Spacecraft fault diagnosis technology based on measurement and control data mining [J]. Computer Measurement & Control, 2011, 19(3): 500- 503. [10] 程延伟, 吕强, 谢永成, 等. 装甲车辆电源系统智能故障诊断方法研究 [J]. 计算机测量与控制, 2011, 19(6): 1410- 1412, 1419. CHEN Y W, LV Q, XIE Y CH, et al. Research on
 标注：
 ```json
@@ -27,7 +48,7 @@ based prognostics and health management [J]. IEEE Transactions on Industrial Ele
 }
 ```
 
-示例2 段落：
+示例3 段落：
 作者简介：雷鸣（1985- ）男（畲族），江西人。空军工程大学工程学院，硕士，主要研究方向：飞机机载设备故障诊断、预测与健康管理.李学仁（1963- ）男，山西人，空军工程大学工程学院，教授，主要研究方向：飞机机载设备故障诊断、预测与健康管理：刘林刚（1976- ）男，山西人，空军工程大学工程学院，硕士，主要研究方向：飞机状态监控技术研究。
 标注：
 ```json
@@ -36,20 +57,6 @@ based prognostics and health management [J]. IEEE Transactions on Industrial Ele
     {
       "type": "技术",
       "text": "故障诊断"
-    }
-  ]
-}
-```
-
-示例3 段落：
-中航工业北京航空制造工程研究所副总工程师，主要研究方向为信息化、数字化制造。
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "组织",
-      "text": "中航工业"
     }
   ]
 }

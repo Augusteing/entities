@@ -2,6 +2,31 @@
 以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
 
 示例1 段落：
+参考文献：[1]李少尘，陈敏，胡金涛，等.航空燃气涡轮发动机气路故障诊断进展[J].航空发动机，2022，43(2)：33- 49. LI Shaochen, CHEN Min, HU Jintao, et al. A review of research progress on aircraft gas turbine engines gas path fault diagnosis[J].Aerogeneous,2022,48(2):33- 49. (in Chinese)[2]曹明，黄金泉，周健，等.民用航空发动机故障诊断与健康管理现状、挑战与机遇I：气路、机械和FADEC系统故障诊断与预测[J].航空学报，2022，43(9)：2,9- 41. CAO Ming, HUANG Jinquan, ZHOU Jian, et al. Current status, challenges and opportunities of civil aero- engine diagnostics & health management I : Diagnosis and prognosis of engine gas path, mechanical and FADEC[J]. Acta Aeronautica et Astonautica Sinica, 2022, 43(9): 2,9- 41. (in Chinese)[3]曹明，王鹏，左洪福，等.民用航空发动机故障诊断与健康管理现状、挑战与机遇Ⅱ：地面综合诊断、寿命管理和智能维护维修决策[J].航空学报，2022,43(9):42- 81. CAO Ming, WANG Peng, ZUO Hongfu, et al. Current status, challenges and opportunities of civil aero- engine diagnostics & health management II : Comprehensive off board diagnosis, life management and intelligent condition based MRO[J]. Acta Aeronautica et Astonautica Sinica,2022,43(9):42- 81. (in Chinese)[4]黄金泉，王启航，鲁峰.航空发动机气路故障诊断研究现状与展望[J].南京航空航天大学学报，2020，52(4)：507- 522. HUANG Jinquan, WANG Qihang, LU Feng. Research status and prospect of gas path fault diagnosis for aeroengine[J].Journal of Nanjing University of Aeronautics and Astonautics, 2020, 52(4) : 507- 522. (in Chinese)[5]尉询楷，李应红.航空发动机状态监控与诊断现状及发展趋势[J].控制工程，2007，14（增刊）：88- 91，100. WEI Xunkai, LI Yinghong. State and trends of aero- engine condition monitoring and fault diagnosis[J]. Control Engineering of China, 2007, 14(suppl.3) : 88- 91, 106. (in Chinese)[6] Cerri G, Chennaoui L, Giovannelli A, et al. Gas path analysis and gas turbine re- mapping[C]//ASME Turbo Expo: Turbine Technical Conference and Exposition.New York:ASME,2011:98- 106. [7]韩建军，张华，张瑞，等.航空发动机健康管理系统技术与标准发展综述[J].航空标准化与质量，2013(3)：5- 8. HAN Jianjun, ZHANG Hua, ZHANG Rui, et al. Development of aero engine health management system technology and standards[J]. Aero-
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统"
+    }
+  ],
+  "relations": [
+    {
+      "type": "成为...重要组成部分",
+      "head": "气路故障诊断",
+      "tail": "健康管理系统"
+    }
+  ]
+}
+```
+
+示例2 段落：
 [85] BORGUET S, DEWALLEF P, LEONARD O. A way to deal with model- plant mismatch for a reliable diagnosis in transient operation[C]//Proceedings of the ASME Turbo Expo 2006. [S.l.]: [s.n.], 2006. [86] DEWALLEF P, LEONARD O. On- line performance monitoring and engine diagnostic using robust Kalman filtering techniques[C]//Proceedings of the ASME Turbo Expo 2003. [S.l.]: [s.n.], 2003. [87] 张鹏, 黄金泉. 航空发动机气路故障诊断的平方根 UKF 方法研究[J]. 航空动力学报, 2008, 23(1): 169- 173. ZHANG Peng, HUANG Jinquan. SRUKF research on aeroengines for gas path component fault diagnostics[J]. Journal of Aerospace Power, 2008, 23(1): 169- 173. [88] 黄金泉, 冯敏, 鲁峰. 基于自适应粒子滤波的涡扇发动机故障诊断[J]. 航空动力学报, 2014, 29(6): 1498- 1504. HUANG Jinquan, FENG Min, LU Feng. Turbo- fan engine fault diagnosis based on adaptive particle filtering[J]. Journal of Aerospace Power, 2014, 29(6): 1498- 1504. [89] 黄金泉, 陈煜, 周浩文, 等. 基于QPSO粒子滤波的航空发动机突变故障诊断[J]. 南京航空航天大学学报, 2014, 46(4): 494- 500. HUANG Jinquan, CHEN Yu, ZHOU Haowen, et al. QPSO particle filter based abrupt fault diagnostics for gas turbine engine[J]. Journal of Nanjing University of Aeronautics & Astronautics, 2014, 46(4): 494- 500. [90] WANG Q, HUANG J, LU F. An improved particle filtering algorithm for aircraft engine gas- path fault diagnosis[J]. Advances in Mechanical Engineering, 2016, 8(7): 1- 13. [91] 许梦阳, 黄金泉, 鲁峰. 航空发动机气路故障诊断的SANNWA- PF算法[J]. 航空动力学报, 2017(10): 2516- 2525. XU Mengyang, HUANG Jinquan, LU Feng. SAN- NWA- PF algorithm of aero- engine gas path fault diagnosis[J]. Journal of Aerospace Power, 2017(10): 2516- 2525. [92] ZHOU H, HUANG J, LU F. Reduced kernel recursive least squares algorithm for aero- engine degradation prediction[J]. Mechanical Systems and Signal Processing, 2017, 95: 446- 467. [93] ZHOU H, HUANG J, LU F. Echo state kernel recursive least squares algorithm for machine condition prediction[J]. Mechanical Systems and Signal Processing, 2018, 111: 68- 86.
 标注：
 ```json
@@ -27,7 +52,7 @@
 }
 ```
 
-示例2 段落：
+示例3 段落：
 [8] 黄金泉, 王启航, 鲁峰. 航空发动机气路故障诊断研究现状与展望[J]. 南京航空航天大学学报, 2020, 52(4): 507- 522. HUANG J Q, WANG Q H, LU F. Research status and prospect of gas path fault diagnosis for aeroengine[J]. Journal of Nanjing University of Aeronautics & Astronautics, 2020, 52(4): 507- 522.
 标注：
 ```json
@@ -36,24 +61,6 @@
     {
       "type": "问题",
       "text": "航空发动机气路故障诊断"
-    }
-  ]
-}
-```
-
-示例3 段落：
-张书刚，郭迎清，陆军.基于混合卡尔曼滤波器组的航空发动机双通道传感器故障检测 [J].计算机测量与控制，2012,20(1):21- 24. [4] Kobayashi T, Simon D L. Hybrid Kalman filter approach for aircraft engine in- flight diagnostics: sensor fault detection case，NASA/TM- 2006214418 [R]. Cleveland，OH: NASA,2006. [5] Kobayashi T. Aircraft engine sensor/actuator/component fault diagnosis using a bank of Kalman filters, NASA/CR- 2003- 212298 [R]. Cleveland, OH: NASA, 2003. [6] Kobayashi T, Simon D L. Evaluation of an enhanced bank of Kalman filters for in- flight aircraft engine sensor fault diagnostics，NASA/TM- 2004- 213203 [R]. Cleveland，OH: NASA,2004. [7] Zhang S G, Guo Y Q, Lu J. Development of aircraft engine component- level models based on GasTurb/MATLAB [J]. Journal of Aerospace Power, 2012, 27(12): 2850- 2856. (in Chinese) 张书刚，郭迎清，陆军.基于GasTurb/MATLAB的航空发动机部件级模型研究与实现 [J].航空动力学报，2012，27(12):2850- 2856. [8] Kumar A, Viassoli D. Model- based fault tolerant control, NASA/CR- 2008- 215273 [R]. Cleveland，OH: NASA, 2008.
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "故障",
-      "text": "传感器故障"
-    },
-    {
-      "type": "算法",
-      "text": "卡尔曼滤波器"
     }
   ]
 }

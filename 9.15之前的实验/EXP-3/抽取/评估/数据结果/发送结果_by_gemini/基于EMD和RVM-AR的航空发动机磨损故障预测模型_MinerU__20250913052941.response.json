@@ -1,408 +1,305 @@
-[
-  {
-    "entities": [
-      {
-        "type": "预测方法",
-        "text": "基于EMD和RVM一AR的预测方法",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据特性",
-        "text": "滑油光谱数据的非线性非平稳特性",
-        "evaluation": "正确"
-      },
-      {
-        "type": "研究问题",
-        "text": "现有预测方法的不足",
-        "evaluation": "正确"
-      },
-      {
-        "type": "算法",
-        "text": "经验模态分解 (EMD)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型",
-        "text": "相关向量机 (RVM)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型",
-        "text": "自回归模型 (AR)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据",
-        "text": "滑油光谱数据",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据分量",
-        "text": "固有模态函数 (IMF)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据分量",
-        "text": "残余函数 (RF)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据分量",
-        "text": "趋势项",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据分量",
-        "text": "随机项",
-        "evaluation": "正确"
-      },
-      {
-        "type": "优化算法",
-        "text": "量子粒子群优化算法 (QPSO)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型参数",
-        "text": "RVM的最优核参数",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型参数",
-        "text": "RVM的嵌入维数",
-        "evaluation": "正确"
-      },
-      {
-        "type": "评价指标",
-        "text": "留一交叉验证误差",
-        "evaluation": "正确"
-      },
-      {
-        "type": "预测结果",
-        "text": "AR模型的预测值",
-        "evaluation": "正确"
-      },
-      {
-        "type": "预测结果",
-        "text": "RVM模型的预测值",
-        "evaluation": "正确"
-      },
-      {
-        "type": "预测结果",
-        "text": "最终预测值",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型",
-        "text": "支持向量机 (SVM)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "评价指标",
-        "text": "平均相对预测误差",
-        "evaluation": "正确"
-      },
-      {
-        "type": "性能提升",
-        "text": "15%",
-        "evaluation": "正确"
-      },
-      {
-        "type": "性能提升",
-        "text": "6%",
-        "evaluation": "正确"
-      },
-      {
-        "type": "监测对象",
-        "text": "Fe元素",
-        "evaluation": "正确"
-      },
-      {
-        "type": "性能提升",
-        "text": "49%",
-        "evaluation": "正确"
-      },
-      {
-        "type": "性能提升",
-        "text": "23%",
-        "evaluation": "正确"
-      },
-      {
-        "type": "监测对象",
-        "text": "Si元素",
-        "evaluation": "正确"
-      },
-      {
-        "type": "技术领域",
-        "text": "故障预测与健康管理 (PHM)",
-        "evaluation": "正确"
-      },
-      {
-        "type": "航空设备",
-        "text": "航空发动机",
-        "evaluation": "正确"
-      },
-      {
-        "type": "监测技术",
-        "text": "油液光谱分析技术",
-        "evaluation": "正确"
-      },
-      {
-        "type": "任务",
-        "text": "发动机磨损故障预测",
-        "evaluation": "正确"
-      },
-      {
-        "type": "状态指标",
-        "text": "金属元素含量值",
-        "evaluation": "正确"
-      },
-      {
-        "type": "数据类型",
-        "text": "非平稳时间序列",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型类别",
-        "text": "稀疏概率模型",
-        "evaluation": "正确"
-      },
-      {
-        "type": "理论方法",
-        "text": "Bayesian方法",
-        "evaluation": "正确"
-      },
-      {
-        "type": "方法",
-        "text": "镜像延拓法",
-        "evaluation": "正确"
-      },
-      {
-        "type": "技术问题",
-        "text": "EMD端点效应",
-        "evaluation": "正确"
-      },
-      {
-        "type": "准则",
-        "text": "最终预测误差(FPE)准则",
-        "evaluation": "正确"
-      },
-      {
-        "type": "模型参数",
-        "text": "AR模型参数",
-        "evaluation": "正确"
-      }
-    ],
-    "relations": [
-      {
-        "source": "本文",
-        "target": "基于EMD和RVM一AR的预测方法",
-        "relation": "提出",
-        "evaluation": "错误"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "滑油光谱数据的非线性非平稳特性",
-        "relation": "针对",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "现有预测方法的不足",
-        "relation": "针对",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "经验模态分解 (EMD)",
-        "relation": "基于",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "相关向量机 (RVM)",
-        "relation": "结合",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "自回归模型 (AR)",
-        "relation": "结合",
-        "evaluation": "正确"
-      },
-      {
-        "source": "经验模态分解 (EMD)",
-        "target": "滑油光谱数据",
-        "relation": "分解",
-        "evaluation": "正确"
-      },
-      {
-        "source": "滑油光谱数据",
-        "target": "固有模态函数 (IMF)",
-        "relation": "被分解为",
-        "evaluation": "正确"
-      },
-      {
-        "source": "滑油光谱数据",
-        "target": "残余函数 (RF)",
-        "relation": "被分解为",
-        "evaluation": "正确"
-      },
-      {
-        "source": "经验模态分解 (EMD)",
-        "target": "趋势项",
-        "relation": "分离",
-        "evaluation": "正确"
-      },
-      {
-        "source": "经验模态分解 (EMD)",
-        "target": "随机项",
-        "relation": "分离",
-        "evaluation": "正确"
-      },
-      {
-        "source": "自回归模型 (AR)",
-        "target": "固有模态函数 (IMF)",
-        "relation": "建立模型于",
-        "evaluation": "正确"
-      },
-      {
-        "source": "相关向量机 (RVM)",
-        "target": "残余函数 (RF)",
-        "relation": "建立模型于",
-        "evaluation": "正确"
-      },
-      {
-        "source": "量子粒子群优化算法 (QPSO)",
-        "target": "RVM的最优核参数",
-        "relation": "进化搜索",
-        "evaluation": "正确"
-      },
-      {
-        "source": "量子粒子群优化算法 (QPSO)",
-        "target": "RVM的嵌入维数",
-        "relation": "进化搜索",
-        "evaluation": "正确"
-      },
-      {
-        "source": "量子粒子群优化算法 (QPSO)",
-        "target": "留一交叉验证误差",
-        "relation": "以...为适应度函数",
-        "evaluation": "正确"
-      },
-      {
-        "source": "AR模型的预测值",
-        "target": "RVM模型的预测值",
-        "relation": "与...叠加",
-        "evaluation": "正确"
-      },
-      {
-        "source": "AR模型的预测值",
-        "target": "最终预测值",
-        "relation": "叠加后作为",
-        "evaluation": "错误"
-      },
-      {
-        "source": "RVM模型的预测值",
-        "target": "最终预测值",
-        "relation": "叠加后作为",
-        "evaluation": "错误"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "自回归模型 (AR)",
-        "relation": "相比...具有较高预测精度",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "支持向量机 (SVM)",
-        "relation": "相比...具有较高预测精度",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "15%",
-        "relation": "对Fe元素平均相对预测误差相比AR提高",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "6%",
-        "relation": "对Fe元素平均相对预测误差相比SVM提高",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "49%",
-        "relation": "对Si元素平均相对预测误差相比AR提高",
-        "evaluation": "正确"
-      },
-      {
-        "source": "基于EMD和RVM一AR的预测方法",
-        "target": "23%",
-        "relation": "对Si元素平均相对预测误差相比SVM提高",
-        "evaluation": "正确"
-      },
-      {
-        "source": "故障预测与健康管理 (PHM)",
-        "target": "航空发动机",
-        "relation": "是...的关键使能技术",
-        "evaluation": "正确"
-      },
-      {
-        "source": "油液光谱分析技术",
-        "target": "发动机磨损故障预测",
-        "relation": "是...的有效手段",
-        "evaluation": "正确"
-      },
-      {
-        "source": "金属元素含量值",
-        "target": "发动机的状态信息",
-        "relation": "反映",
-        "evaluation": "错误"
-      },
-      {
-        "source": "自回归模型 (AR)",
-        "target": "非平稳时间序列",
-        "relation": "处理...时会产生较大误差",
-        "evaluation": "正确"
-      },
-      {
-        "source": "支持向量机 (SVM)",
-        "target": "自回归模型 (AR)",
-        "relation": "预测精度高于",
-        "evaluation": "正确"
-      },
-      {
-        "source": "相关向量机 (RVM)",
-        "target": "稀疏概率模型",
-        "relation": "是",
-        "evaluation": "正确"
-      },
-      {
-        "source": "相关向量机 (RVM)",
-        "target": "Bayesian方法",
-        "relation": "利用",
-        "evaluation": "正确"
-      },
-      {
-        "source": "相关向量机 (RVM)",
-        "target": "支持向量机 (SVM)",
-        "relation": "相比...具备优势",
-        "evaluation": "正确"
-      },
-      {
-        "source": "镜像延拓法",
-        "target": "EMD端点效应",
-        "relation": "抑制",
-        "evaluation": "正确"
-      },
-      {
-        "source": "最终预测误差(FPE)准则",
-        "target": "AR模型参数",
-        "relation": "用于确定",
-        "evaluation": "正确"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "type": "研究人员",
+      "text": "范庚",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究人员",
+      "text": "马登武",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测方法",
+      "text": "基于经验模态分解（EMD）和相关向量机一自回归模型（RVM）的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "滑油光谱数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据特性",
+      "text": "非线性非平稳特性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "经验模态分解（EMD）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据成分",
+      "text": "固有模态函数（IMF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据成分",
+      "text": "残余函数（RF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据成分",
+      "text": "趋势项",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据成分",
+      "text": "随机项",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "留一交叉验证误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "适应度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优化算法",
+      "text": "量子粒子群优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型参数",
+      "text": "最优核参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型参数",
+      "text": "嵌入维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测值",
+      "text": "最终预测值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测对象",
+      "text": "Fe元素",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测对象",
+      "text": "Si元素",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "故障预测与健康管理（PHM）技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析技术",
+      "text": "油液光谱分析技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归（AR）模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "支持向量机（SVM）预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术问题",
+      "text": "EMD端点效应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决方法",
+      "text": "镜像延拓法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测方法",
+      "text": "EMD+RVM-AR",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "范庚",
+      "tail": "基于经验模态分解（EMD）和相关向量机一自回归模型（RVM）的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "马登武",
+      "tail": "基于经验模态分解（EMD）和相关向量机一自回归模型（RVM）的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "针对",
+      "head": "基于经验模态分解（EMD）和相关向量机一自回归模型（RVM）的预测方法",
+      "tail": "滑油光谱数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解",
+      "head": "经验模态分解（EMD）",
+      "tail": "滑油光谱数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "经验模态分解（EMD）",
+      "tail": "固有模态函数（IMF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "经验模态分解（EMD）",
+      "tail": "残余函数（RF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分离",
+      "head": "经验模态分解（EMD）",
+      "tail": "趋势项",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分离",
+      "head": "经验模态分解（EMD）",
+      "tail": "随机项",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立模型用于",
+      "head": "AR模型",
+      "tail": "IMF分量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立模型用于",
+      "head": "RVM模型",
+      "tail": "RF分量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作为",
+      "head": "留一交叉验证误差",
+      "tail": "适应度函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进化搜索",
+      "head": "量子粒子群优化算法",
+      "tail": "最优核参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进化搜索",
+      "head": "量子粒子群优化算法",
+      "tail": "嵌入维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...叠加",
+      "head": "最终预测值",
+      "tail": "各AR模型和RVM模型的预测值",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了15%的平均相对预测误差（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "AR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了6%的平均相对预测误差（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了49%的平均相对预测误差（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "AR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了23%的平均相对预测误差（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有优势",
+      "head": "RVM",
+      "tail": "SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "抑制",
+      "head": "镜像延拓法",
+      "tail": "EMD端点效应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "滑油光谱数据",
+      "tail": "非线性非平稳特性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测精度高于",
+      "head": "SVM模型",
+      "tail": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测性能显著提高（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测性能显著提高（相比）",
+      "head": "EMD+RVM-AR",
+      "tail": "SVM模型",
+      "evaluation": "正确"
+    }
+  ]
+}

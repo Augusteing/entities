@@ -1,455 +1,434 @@
-[
-  {
-    "entities": [
-      {
-        "type": "方法",
-        "text": "基于PHM的航空装备可用度影响因素分析方法"
-      },
-      {
-        "type": "技术",
-        "text": "PHM"
-      },
-      {
-        "type": "研究对象",
-        "text": "航空装备"
-      },
-      {
-        "type": "指标",
-        "text": "可用度"
-      },
-      {
-        "type": "概念",
-        "text": "影响因素"
-      },
-      {
-        "type": "方法",
-        "text": "可用度分析方法"
-      },
-      {
-        "type": "概念",
-        "text": "航空装备可用度影响因素"
-      },
-      {
-        "type": "技术",
-        "text": "PHM（PrognosticsandHealthManagement）技术"
-      },
-      {
-        "type": "概念",
-        "text": "使用影响因素"
-      },
-      {
-        "type": "概念",
-        "text": "设计影响因素"
-      },
-      {
-        "type": "概念",
-        "text": "仿真假设条件"
-      },
-      {
-        "type": "指标",
-        "text": "稳态可用度"
-      },
-      {
-        "type": "方法",
-        "text": "仿真"
-      },
-      {
-        "type": "方法",
-        "text": "解析计算公式"
-      },
-      {
-        "type": "方法",
-        "text": "仿真程序"
-      },
-      {
-        "type": "分析方法",
-        "text": "单因素分析"
-      },
-      {
-        "type": "分析方法",
-        "text": "多因素耦合分析"
-      },
-      {
-        "type": "指标",
-        "text": "可用性"
-      },
-      {
-        "type": "模型",
-        "text": "概率模型"
-      },
-      {
-        "type": "方法",
-        "text": "有色随机Petri网络的方法"
-      },
-      {
-        "type": "算法",
-        "text": "离散事件仿真算法"
-      },
-      {
-        "type": "指标",
-        "text": "装备停机时间"
-      },
-      {
-        "type": "指标",
-        "text": "使用可用度"
-      },
-      {
-        "type": "指标",
-        "text": "战备完好率"
-      },
-      {
-        "type": "方法",
-        "text": "剩余寿命预测"
-      },
-      {
-        "type": "方法",
-        "text": "FMECA"
-      },
-      {
-        "type": "方法",
-        "text": "基于状态维修（CBM,Condition Based Maintenance）"
-      },
-      {
-        "type": "概念",
-        "text": "航空装备的保障流程"
-      },
-      {
-        "type": "概念",
-        "text": "预防性维修"
-      },
-      {
-        "type": "系统",
-        "text": "机载PHM系统"
-      },
-      {
-        "type": "故障",
-        "text": "潜在的故障"
-      },
-      {
-        "type": "组件",
-        "text": "外场可更换单元（LRU,Line Replacement Unit）"
-      },
-      {
-        "type": "时间",
-        "text": "故障隔离时间"
-      },
-      {
-        "type": "故障",
-        "text": "随机故障"
-      },
-      {
-        "type": "时间",
-        "text": "保障延误时间"
-      },
-      {
-        "type": "问题",
-        "text": "漏报"
-      },
-      {
-        "type": "问题",
-        "text": "误报"
-      },
-      {
-        "type": "概念",
-        "text": "不必要的停机检查"
-      },
-      {
-        "type": "概念",
-        "text": "设计权衡分析"
-      },
-      {
-        "type": "输入",
-        "text": "仿真模型的输入"
-      },
-      {
-        "type": "因素",
-        "text": "模块的可靠性（modulereliability）"
-      },
-      {
-        "type": "指标",
-        "text": "MTBF（MeanTimeBetweenFailures）"
-      },
-      {
-        "type": "因素",
-        "text": "故障诊断时机（detectionleadtime）"
-      },
-      {
-        "type": "指标",
-        "text": "T_BF"
-      },
-      {
-        "type": "因素",
-        "text": "PHM系统预测准确率（prognosticaccuracy）"
-      },
-      {
-        "type": "指标",
-        "text": "r_PA"
-      },
-      {
-        "type": "因素",
-        "text": "故障修复时间（maintenancetime）"
-      },
-      {
-        "type": "指标",
-        "text": "t_m"
-      },
-      {
-        "type": "因素",
-        "text": "保障资源准备时间（resourcespreparationtime）"
-      },
-      {
-        "type": "指标",
-        "text": "t_rp"
-      },
-      {
-        "type": "输出",
-        "text": "仿真模型的输出"
-      },
-      {
-        "type": "模块",
-        "text": "参数输入模块"
-      },
-      {
-        "type": "模块",
-        "text": "过程数据存储模块"
-      },
-      {
-        "type": "模块",
-        "text": "数据处理模块"
-      },
-      {
-        "type": "模块",
-        "text": "结果输出模块"
-      },
-      {
-        "type": "指标",
-        "text": "装备的可靠性MTBF"
-      },
-      {
-        "type": "指标",
-        "text": "基本作战单元可用度"
-      },
-      {
-        "type": "指标",
-        "text": "修复性维修时间 t_m"
-      }
-    ],
-    "relations": [
-      {
-        "type": "综述了",
-        "head": "基于PHM的航空装备可用度影响因素分析方法",
-        "tail": "可用度分析方法"
-      },
-      {
-        "type": "分为",
-        "head": "航空装备可用度影响因素",
-        "tail": "三类"
-      },
-      {
-        "type": "通过...梳理",
-        "head": "航空装备可用度影响因素",
-        "tail": "PHM（PrognosticsandHealthManagement）技术"
-      },
-      {
-        "type": "分为",
-        "head": "航空装备可用度影响因素",
-        "tail": "使用影响因素"
-      },
-      {
-        "type": "分为",
-        "head": "航空装备可用度影响因素",
-        "tail": "设计影响因素"
-      },
-      {
-        "type": "分为",
-        "head": "设计影响因素",
-        "tail": "5种"
-      },
-      {
-        "type": "作为...输出",
-        "head": "稳态可用度",
-        "tail": "仿真"
-      },
-      {
-        "type": "验证了...可行性",
-        "head": "单因素分析",
-        "tail": "基于PHM的航空装备可用度影响因素分析方法"
-      },
-      {
-        "type": "验证了...可行性",
-        "head": "多因素耦合分析",
-        "tail": "基于PHM的航空装备可用度影响因素分析方法"
-      },
-      {
-        "type": "利用...进行建模和分析",
-        "head": "可用度",
-        "tail": "概率模型"
-      },
-      {
-        "type": "减少",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "装备停机时间"
-      },
-      {
-        "type": "提高",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "使用可用度"
-      },
-      {
-        "type": "提高",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "战备完好率"
-      },
-      {
-        "type": "利用...进行规划",
-        "head": "维修工作的规划",
-        "tail": "剩余寿命预测"
-      },
-      {
-        "type": "改变",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "航空装备的保障流程"
-      },
-      {
-        "type": "取消",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "预防性维修"
-      },
-      {
-        "type": "隔离...至",
-        "head": "机载PHM系统",
-        "tail": "外场可更换单元（LRU,Line Replacement Unit）"
-      },
-      {
-        "type": "减少",
-        "head": "机载PHM系统",
-        "tail": "故障隔离时间"
-      },
-      {
-        "type": "避免",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "随机故障"
-      },
-      {
-        "type": "缩短",
-        "head": "PHM（PrognosticsandHealthManagement）技术",
-        "tail": "保障延误时间"
-      },
-      {
-        "type": "导致",
-        "head": "漏报",
-        "tail": "随机故障"
-      },
-      {
-        "type": "导致",
-        "head": "误报",
-        "tail": "不必要的停机检查"
-      },
-      {
-        "type": "降低",
-        "head": "误报",
-        "tail": "可用度"
-      },
-      {
-        "type": "目的在于获取",
-        "head": "仿真",
-        "tail": "稳态可用度"
-      },
-      {
-        "type": "支持",
-        "head": "仿真",
-        "tail": "设计权衡分析"
-      },
-      {
-        "type": "由...决定",
-        "head": "仿真模型的输入",
-        "tail": "航空装备可用度影响因素"
-      },
-      {
-        "type": "包括",
-        "head": "设计影响因素",
-        "tail": "模块的可靠性（modulereliability）"
-      },
-      {
-        "type": "包括",
-        "head": "设计影响因素",
-        "tail": "故障诊断时机（detectionleadtime）"
-      },
-      {
-        "type": "包括",
-        "head": "设计影响因素",
-        "tail": "PHM系统预测准确率（prognosticaccuracy）"
-      },
-      {
-        "type": "包括",
-        "head": "设计影响因素",
-        "tail": "故障修复时间（maintenancetime）"
-      },
-      {
-        "type": "包括",
-        "head": "设计影响因素",
-        "tail": "保障资源准备时间（resourcespreparationtime）"
-      },
-      {
-        "type": "用...度量",
-        "head": "模块的可靠性（modulereliability）",
-        "tail": "MTBF（MeanTimeBetweenFailures）"
-      },
-      {
-        "type": "是",
-        "head": "仿真模型的输出",
-        "tail": "稳态可用度"
-      },
-      {
-        "type": "由...构成",
-        "head": "仿真程序",
-        "tail": "参数输入模块"
-      },
-      {
-        "type": "由...构成",
-        "head": "仿真程序",
-        "tail": "过程数据存储模块"
-      },
-      {
-        "type": "由...构成",
-        "head": "仿真程序",
-        "tail": "数据处理模块"
-      },
-      {
-        "type": "由...构成",
-        "head": "仿真程序",
-        "tail": "结果输出模块"
-      },
-      {
-        "type": "是...的主要因素之一",
-        "head": "装备的可靠性MTBF",
-        "tail": "基本作战单元可用度"
-      },
-      {
-        "type": "有很强的减益作用于",
-        "head": "修复性维修时间 t_m",
-        "tail": "基本作战单元可用度"
-      },
-      {
-        "type": "是...的主要因素",
-        "head": "装备的可靠性MTBF",
-        "tail": "基本作战单元可用度"
-      },
-      {
-        "type": "是...的主要因素",
-        "head": "PHM系统预测准确率（prognosticaccuracy）",
-        "tail": "基本作战单元可用度"
-      },
-      {
-        "type": "是...的主要因素",
-        "head": "修复性维修时间 t_m",
-        "tail": "基本作战单元可用度"
-      },
-      {
-        "type": "可以支持",
-        "head": "基于PHM的航空装备可用度影响因素分析方法",
-        "tail": "设计权衡分析"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "text": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "方法"
+    },
+    {
+      "text": "航空装备可用度分析方法",
+      "type": "方法"
+    },
+    {
+      "text": "航空装备可用度影响因素",
+      "type": "概念"
+    },
+    {
+      "text": "PHM（PrognosticsandHealthManagement）技术",
+      "type": "技术"
+    },
+    {
+      "text": "航空装备保障过程",
+      "type": "过程"
+    },
+    {
+      "text": "使用影响因素",
+      "type": "概念"
+    },
+    {
+      "text": "设计影响因素",
+      "type": "概念"
+    },
+    {
+      "text": "仿真假设条件",
+      "type": "概念"
+    },
+    {
+      "text": "稳态可用度",
+      "type": "指标"
+    },
+    {
+      "text": "解析计算公式",
+      "type": "方法"
+    },
+    {
+      "text": "仿真程序",
+      "type": "系统"
+    },
+    {
+      "text": "单因素分析",
+      "type": "方法"
+    },
+    {
+      "text": "多因素耦合分析",
+      "type": "方法"
+    },
+    {
+      "text": "可用性",
+      "type": "概念"
+    },
+    {
+      "text": "可靠性",
+      "type": "概念"
+    },
+    {
+      "text": "测试性",
+      "type": "概念"
+    },
+    {
+      "text": "维修性",
+      "type": "概念"
+    },
+    {
+      "text": "保障性",
+      "type": "概念"
+    },
+    {
+      "text": "可用度",
+      "type": "指标"
+    },
+    {
+      "text": "武器装备作战效能评价",
+      "type": "任务"
+    },
+    {
+      "text": "概率模型",
+      "type": "模型"
+    },
+    {
+      "text": "军用飞机使用可用度仿真",
+      "type": "方法"
+    },
+    {
+      "text": "装备群可用度仿真",
+      "type": "方法"
+    },
+    {
+      "text": "高可靠系统稳态使用可用度",
+      "type": "指标"
+    },
+    {
+      "text": "快速仿真方法",
+      "type": "方法"
+    },
+    {
+      "text": "有色随机Petri网络的方法",
+      "type": "方法"
+    },
+    {
+      "text": "离散事件仿真算法",
+      "type": "算法"
+    },
+    {
+      "text": "装备停机时间",
+      "type": "时间"
+    },
+    {
+      "text": "装备的使用可用度",
+      "type": "指标"
+    },
+    {
+      "text": "战备完好率",
+      "type": "指标"
+    },
+    {
+      "text": "剩余寿命预测",
+      "type": "技术"
+    },
+    {
+      "text": "喷气式发动机",
+      "type": "航空设备术语"
+    },
+    {
+      "text": "维修工作的规划",
+      "type": "任务"
+    },
+    {
+      "text": "产品故障模式、影响与危害性分析（FMECA，Failure Modes，Effect and Criticality Analysis）",
+      "type": "方法"
+    },
+    {
+      "text": "产品剩余寿命预测的准确度",
+      "type": "指标"
+    },
+    {
+      "text": "基于状态维修（CBM,Condition Based Maintenance）",
+      "type": "策略"
+    },
+    {
+      "text": "PHM条件下的基于状态维修（CBM）权衡的框架结构",
+      "type": "架构"
+    },
+    {
+      "text": "航空装备的保障流程",
+      "type": "过程"
+    },
+    {
+      "text": "预防性维修",
+      "type": "策略"
+    },
+    {
+      "text": "机载PHM系统",
+      "type": "系统"
+    },
+    {
+      "text": "外场可更换单元（LRU,Line Replacement Unit）",
+      "type": "航空设备术语"
+    },
+    {
+      "text": "修复性维修",
+      "type": "策略"
+    },
+    {
+      "text": "故障隔离时间",
+      "type": "时间"
+    },
+    {
+      "text": "随机故障",
+      "type": "故障相关概念"
+    },
+    {
+      "text": "保障延误时间",
+      "type": "时间"
+    },
+    {
+      "text": "误报",
+      "type": "故障相关概念"
+    },
+    {
+      "text": "漏报",
+      "type": "故障相关概念"
+    },
+    {
+      "text": "不必要的停机检查",
+      "type": "活动"
+    },
+    {
+      "text": "影响因素仿真",
+      "type": "方法"
+    },
+    {
+      "text": "装备及其保障系统的设计权衡分析",
+      "type": "任务"
+    },
+    {
+      "text": "模块的可靠性",
+      "type": "概念"
+    },
+    {
+      "text": "MTBF（MeanTimeBetweenFailures）",
+      "type": "指标"
+    },
+    {
+      "text": "故障诊断时机",
+      "type": "概念"
+    },
+    {
+      "text": "PHM系统预测准确率",
+      "type": "指标"
+    },
+    {
+      "text": "故障修复时间",
+      "type": "时间"
+    },
+    {
+      "text": "保障资源准备时间",
+      "type": "时间"
+    },
+    {
+      "text": "基本作战单元可用度",
+      "type": "指标"
+    }
+  ],
+  "relations": [
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "三类",
+      "type": "分为"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "航空装备保障过程",
+      "type": "影响"
+    },
+    {
+      "head": "基于PHM的航空装备可用度影响因素",
+      "tail": "使用影响因素",
+      "type": "分为"
+    },
+    {
+      "head": "基于PHM的航空装备可用度影响因素",
+      "tail": "设计影响因素",
+      "type": "分为"
+    },
+    {
+      "head": "本文",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "提出"
+    },
+    {
+      "head": "基于PHM的航空装备可用度影响因素分析方法",
+      "tail": "单因素分析",
+      "type": "通过...验证"
+    },
+    {
+      "head": "基于PHM的航空装备可用度影响因素分析方法",
+      "tail": "多因素耦合分析",
+      "type": "通过...验证"
+    },
+    {
+      "head": "可用性",
+      "tail": "可靠性",
+      "type": "是...的综合表征"
+    },
+    {
+      "head": "可用性",
+      "tail": "测试性",
+      "type": "是...的综合表征"
+    },
+    {
+      "head": "可用性",
+      "tail": "维修性",
+      "type": "是...的综合表征"
+    },
+    {
+      "head": "可用性",
+      "tail": "保障性",
+      "type": "是...的综合表征"
+    },
+    {
+      "head": "可用性",
+      "tail": "可用度",
+      "type": "用...度量"
+    },
+    {
+      "head": "可用度",
+      "tail": "武器装备作战效能评价",
+      "type": "是...的重要指标"
+    },
+    {
+      "head": "概率模型",
+      "tail": "可用度",
+      "type": "用于建模和分析"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "装备停机时间",
+      "type": "可以减少"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "装备的使用可用度",
+      "type": "提高"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "战备完好率",
+      "type": "从而提高了"
+    },
+    {
+      "head": "剩余寿命预测",
+      "tail": "维修工作的规划",
+      "type": "可以用来进行"
+    },
+    {
+      "head": "产品故障模式、影响与危害性分析（FMECA，Failure Modes，Effect and Criticality Analysis）",
+      "tail": "产品剩余寿命预测的准确度",
+      "type": "提高"
+    },
+    {
+      "head": "文献[5]",
+      "tail": "PHM条件下的基于状态维修（CBM）权衡的框架结构",
+      "type": "建立了"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "航空装备的保障流程",
+      "type": "改变"
+    },
+    {
+      "head": "预防性维修",
+      "tail": "装备的停机时间",
+      "type": "减少了"
+    },
+    {
+      "head": "机载PHM系统",
+      "tail": "外场可更换单元（LRU,Line Replacement Unit）",
+      "type": "将潜在的故障隔离至"
+    },
+    {
+      "head": "机载PHM系统",
+      "tail": "故障隔离时间",
+      "type": "减少了"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "随机故障",
+      "type": "将会避免"
+    },
+    {
+      "head": "PHM（PrognosticsandHealthManagement）技术",
+      "tail": "保障延误时间",
+      "type": "极大地缩短"
+    },
+    {
+      "head": "漏报",
+      "tail": "随机故障",
+      "type": "导致"
+    },
+    {
+      "head": "误报",
+      "tail": "不必要的停机检查",
+      "type": "导致"
+    },
+    {
+      "head": "影响因素仿真",
+      "tail": "稳态可用度",
+      "type": "目的在于获取"
+    },
+    {
+      "head": "稳态可用度",
+      "tail": "影响因素的分析",
+      "type": "用于"
+    },
+    {
+      "head": "影响因素的分析",
+      "tail": "装备及其保障系统的设计权衡分析",
+      "type": "支持"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "模块的可靠性",
+      "type": "包括"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "故障诊断时机",
+      "type": "包括"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "PHM系统预测准确率",
+      "type": "包括"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "故障修复时间",
+      "type": "包括"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "保障资源准备时间",
+      "type": "包括"
+    },
+    {
+      "head": "模块的可靠性",
+      "tail": "MTBF（MeanTimeBetweenFailures）",
+      "type": "用...来度量"
+    },
+    {
+      "head": "MTBF（MeanTimeBetweenFailures）",
+      "tail": "基本作战单元可用度",
+      "type": "是影响...的主要因素之一"
+    },
+    {
+      "head": "故障修复时间",
+      "tail": "基本作战单元可用度",
+      "type": "有很强的减益作用"
+    },
+    {
+      "head": "增加装备的可靠性",
+      "tail": "装备的可用度",
+      "type": "可以快速提升"
+    }
+  ]
+}

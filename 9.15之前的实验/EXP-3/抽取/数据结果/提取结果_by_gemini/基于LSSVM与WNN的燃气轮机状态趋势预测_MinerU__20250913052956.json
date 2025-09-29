@@ -6,23 +6,23 @@
     },
     {
       "type": "模型",
-      "text": "最小二乘支持向量机"
+      "text": "最小二乘支持向量机（LSSVM）"
     },
     {
-      "type": "模型",
-      "text": "小波神经网络"
+      "type": "网络",
+      "text": "小波神经网络（WNN）"
     },
     {
       "type": "任务",
       "text": "燃气轮机状态趋势预测"
     },
     {
-      "type": "概念",
-      "text": "残差"
-    },
-    {
       "type": "模型",
       "text": "LSSVM-WNN预测模型"
+    },
+    {
+      "type": "概念",
+      "text": "残差"
     },
     {
       "type": "研究对象",
@@ -30,10 +30,10 @@
     },
     {
       "type": "性能指标",
-      "text": "相对误差"
+      "text": "平均相对误差"
     },
     {
-      "type": "数值",
+      "type": "指标值",
       "text": "0.12%"
     },
     {
@@ -41,15 +41,15 @@
       "text": "排气温度"
     },
     {
-      "type": "维修策略",
+      "type": "策略",
       "text": "事后维修"
     },
     {
-      "type": "维修策略",
+      "type": "策略",
       "text": "计划维修"
     },
     {
-      "type": "维修策略",
+      "type": "策略",
       "text": "视情维修"
     },
     {
@@ -58,54 +58,34 @@
     },
     {
       "type": "方法",
-      "text": "基于数据驱动的预测"
+      "text": "基于数据驱动的故障预测方法"
     },
     {
       "type": "模型",
       "text": "标准SVM"
     },
     {
-      "type": "思想",
-      "text": "最小二乘的思想"
-    },
-    {
-      "type": "性能指标",
-      "text": "训练速度"
-    },
-    {
       "type": "函数",
       "text": "RBF核函数"
     },
     {
-      "type": "函数",
-      "text": "非线性小波基"
-    },
-    {
-      "type": "函数",
-      "text": "隐层的激励函数"
+      "type": "技术",
+      "text": "相空间重构"
     },
     {
       "type": "函数",
       "text": "morlet小波"
     },
     {
-      "type": "算法",
+      "type": "方法",
       "text": "梯度修正法"
     },
     {
-      "type": "航空设备术语",
+      "type": "组件",
       "text": "主泵"
     },
     {
-      "type": "故障相关概念",
-      "text": "性能衰退"
-    },
-    {
-      "type": "健康状态",
-      "text": "健康状态"
-    },
-    {
-      "type": "技术",
+      "type": "方法",
       "text": "小波去噪"
     },
     {
@@ -117,24 +97,12 @@
       "text": "WNN预测模型"
     },
     {
-      "type": "性能指标",
-      "text": "平均相对误差"
-    },
-    {
-      "type": "数值",
+      "type": "指标值",
       "text": "0.44%"
     },
     {
-      "type": "数值",
+      "type": "指标值",
       "text": "0.39%"
-    },
-    {
-      "type": "性能指标",
-      "text": "拟合效果"
-    },
-    {
-      "type": "性能指标",
-      "text": "预测性能"
     },
     {
       "type": "性能指标",
@@ -153,145 +121,128 @@
       "text": "泛化能力"
     },
     {
-      "type": "技术",
+      "type": "研究结果",
+      "text": "燃气轮机的健康状态"
+    },
+    {
+      "type": "研究结果",
+      "text": "性能衰退情况"
+    },
+    {
+      "type": "任务",
       "text": "监视和预测排气温度"
     }
   ],
   "relations": [
     {
-      "source": "基于LSSVM与WNN的燃气轮机状态趋势预测",
-      "target": "燃气轮机状态趋势预测",
-      "relation": "提出用于"
+      "type": "提出用于",
+      "head": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "tail": "燃气轮机状态趋势预测"
     },
     {
-      "source": "基于LSSVM与WNN的燃气轮机状态趋势预测",
-      "target": "最小二乘支持向量机",
-      "relation": "组合了"
+      "type": "结合",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "最小二乘支持向量机（LSSVM）"
     },
     {
-      "source": "基于LSSVM与WNN的燃气轮机状态趋势预测",
-      "target": "小波神经网络",
-      "relation": "组合了"
+      "type": "结合",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "小波神经网络（WNN）"
     },
     {
-      "source": "小波神经网络",
-      "target": "残差",
-      "relation": "用于预测"
+      "type": "用于预测",
+      "head": "小波神经网络（WNN）",
+      "tail": "残差"
     },
     {
-      "source": "故障预测技术",
-      "target": "视情维修",
-      "relation": "是实现...的基础"
+      "type": "改进了",
+      "head": "最小二乘支持向量机（LSSVM）",
+      "tail": "标准SVM"
     },
     {
-      "source": "基于LSSVM与WNN的燃气轮机状态趋势预测",
-      "target": "基于数据驱动的预测",
-      "relation": "属于"
+      "type": "应用于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "燃气轮机状态趋势预测"
     },
     {
-      "source": "最小二乘支持向量机",
-      "target": "标准SVM",
-      "relation": "改进了"
+      "type": "预测",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "排气温度"
     },
     {
-      "source": "最小二乘支持向量机",
-      "target": "最小二乘的思想",
-      "relation": "引入了"
+      "type": "是...的监控参数",
+      "head": "排气温度",
+      "tail": "燃气轮机"
     },
     {
-      "source": "小波神经网络",
-      "target": "非线性小波基",
-      "relation": "用...替代隐层的激励函数"
+      "type": "能够掌握",
+      "head": "监视和预测排气温度",
+      "tail": "燃气轮机的健康状态"
     },
     {
-      "source": "LSSVM预测模型",
-      "target": "RBF核函数",
-      "relation": "选用"
+      "type": "能够掌握",
+      "head": "监视和预测排气温度",
+      "tail": "性能衰退情况"
     },
     {
-      "source": "小波神经网络",
-      "target": "morlet小波",
-      "relation": "采用...作为转移函数"
+      "type": "是...的关键部件",
+      "head": "主泵",
+      "tail": "燃气轮机"
     },
     {
-      "source": "小波神经网络",
-      "target": "梯度修正法",
-      "relation": "采用...修正网络参数"
+      "type": "预测性能优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "LSSVM预测模型"
     },
     {
-      "source": "排气温度",
-      "target": "燃气轮机状态趋势预测",
-      "relation": "是...的参数"
+      "type": "预测性能优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "WNN预测模型"
     },
     {
-      "source": "排气温度",
-      "target": "主泵",
-      "relation": "是衡量...工作正常与否的重要参数"
+      "type": "平均相对误差为",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "0.12%"
     },
     {
-      "source": "监视和预测排气温度",
-      "target": "健康状态",
-      "relation": "能够掌握"
+      "type": "平均相对误差为",
+      "head": "LSSVM预测模型",
+      "tail": "0.44%"
     },
     {
-      "source": "监视和预测排气温度",
-      "target": "性能衰退",
-      "relation": "能够掌握"
+      "type": "平均相对误差为",
+      "head": "WNN预测模型",
+      "tail": "0.39%"
     },
     {
-      "source": "小波去噪",
-      "target": "数据",
-      "relation": "用于去噪"
+      "type": "具有优势",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "收敛速度"
     },
     {
-      "source": "LSSVM预测模型",
-      "target": "0.44%",
-      "relation": "的平均相对误差为"
+      "type": "具有优势",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "精度"
     },
     {
-      "source": "WNN预测模型",
-      "target": "0.39%",
-      "relation": "的平均相对误差为"
+      "type": "具有",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "较强的逼近能力"
     },
     {
-      "source": "LSSVM-WNN预测模型",
-      "target": "0.12%",
-      "relation": "的平均相对误差为"
+      "type": "具有",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "较强的泛化能力"
     },
     {
-      "source": "WNN预测模型",
-      "target": "LSSVM预测模型",
-      "relation": "的预测效果比...更好"
+      "type": "使用",
+      "head": "LSSVM预测模型",
+      "tail": "RBF核函数"
     },
     {
-      "source": "LSSVM-WNN预测模型",
-      "target": "LSSVM预测模型",
-      "relation": "的预测效果比...更好"
-    },
-    {
-      "source": "LSSVM-WNN预测模型",
-      "target": "WNN预测模型",
-      "relation": "的预测效果比...更好"
-    },
-    {
-      "source": "LSSVM-WNN预测模型",
-      "target": "收敛速度",
-      "relation": "具有...更快的优势"
-    },
-    {
-      "source": "LSSVM-WNN预测模型",
-      "target": "精度",
-      "relation": "具有...更高的优势"
-    },
-    {
-      "source": "LSSVM-WNN预测模型",
-      "target": "逼近能力",
-      "relation": "具有较强的"
-    },
-    {
-      "source": "LSSVM-WNN预测模型",
-      "target": "泛化能力",
-      "relation": "具有较强的"
+      "type": "使用",
+      "head": "WNN预测模型",
+      "tail": "morlet小波"
     }
   ]
 }

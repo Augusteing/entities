@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空发动机"
+    },
+    {
+      "type": "技术",
+      "text": "核主成分分析"
+    },
+    {
+      "type": "技术",
+      "text": "深度置信网络"
+    },
+    {
+      "type": "技术",
+      "text": "KPCA"
+    },
+    {
+      "type": "技术",
+      "text": "DBN"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理"
+    },
+    {
+      "type": "技术",
+      "text": "排气温度"
+    },
+    {
+      "type": "技术",
+      "text": "EGT基线模型"
+    },
+    {
+      "type": "技术",
+      "text": "QAR数据"
+    },
+    {
+      "type": "技术",
+      "text": "高斯函数"
+    },
+    {
+      "type": "技术",
+      "text": "主成分分析法"
+    },
+    {
+      "type": "技术",
+      "text": "Kernel Principle Component Analysis"
+    },
+    {
+      "type": "技术",
+      "text": "Gaussian function"
+    },
+    {
+      "type": "技术",
+      "text": "Principle Component Analysis"
+    },
+    {
+      "type": "技术",
+      "text": "遗传算法优化的反向传播神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "GA-BP神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "平均绝对误差"
+    },
+    {
+      "type": "技术",
+      "text": "Mean Absolute Error"
+    },
+    {
+      "type": "技术",
+      "text": "KPCA-DBN模型"
+    },
+    {
+      "type": "技术",
+      "text": "CFM56-7B发动机"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "source": "核主成分分析",
+      "target": "航空发动机排气温度基线模型构建"
+    },
+    {
+      "type": "应用于",
+      "source": "深度置信网络",
+      "target": "航空发动机排气温度基线模型构建"
+    },
+    {
+      "type": "组成关系",
+      "source": "KPCA",
+      "target": "核主成分分析"
+    },
+    {
+      "type": "组成关系",
+      "source": "DBN",
+      "target": "深度置信网络"
+    },
+    {
+      "type": "优于",
+      "source": "KPCA-DBN模型",
+      "target": "遗传算法优化的反向传播神经网络"
+    },
+    {
+      "type": "优于",
+      "source": "KPCA-DBN模型",
+      "target": "单一的DBN网络模型"
+    },
+    {
+      "type": "导致",
+      "source": "EGT超过规定值",
+      "target": "燃烧室、涡轮叶片和尾喷管等发动机部件出现异常"
+    },
+    {
+      "type": "导致",
+      "source": "输入数据复杂",
+      "target": "深度置信网络结构复杂化"
+    },
+    {
+      "type": "导致",
+      "source": "核主成分分析法进行降维处理",
+      "target": "简化网络结构并提高模型精度"
+    },
+    {
+      "type": "导致",
+      "source": "KPCA-DBN模型",
+      "target": "预测精度提高"
+    },
+    {
+      "type": "导致",
+      "source": "多维余的输入数据",
+      "target": "深度置信网络结构复杂化"
+    },
+    {
+      "type": "导致",
+      "source": "KPCA降维",
+      "target": "提高模型精度"
+    },
+    {
+      "type": "导致",
+      "source": "KPCA-DBN模型",
+      "target": "预测精度最高"
+    }
+  ]
+}

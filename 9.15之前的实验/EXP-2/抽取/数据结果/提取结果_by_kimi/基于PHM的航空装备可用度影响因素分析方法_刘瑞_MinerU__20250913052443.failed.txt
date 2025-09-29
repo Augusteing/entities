@@ -1,2 +1,2 @@
-失败时间: 2025-09-15T11:42:05.447959+00:00
-异常: JSON 解析失败: Unterminated string starting at: line 287 column 15 (char 4895). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-3\抽取\数据结果\提取结果_by_kimi\基于PHM的航空装备可用度影响因素分析方法_刘瑞_MinerU__20250913052443.raw.txt
+失败时间: 2025-09-24T10:37:36.461477+00:00
+异常: Error code: 429 - {'error': {'message': 'Your account org-e9cb9612059f41f181d5803f613256c0<ak-f55zm8ry59qi11a8s8ki> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}

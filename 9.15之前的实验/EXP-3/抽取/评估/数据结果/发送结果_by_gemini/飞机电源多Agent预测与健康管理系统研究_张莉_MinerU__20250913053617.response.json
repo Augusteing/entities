@@ -1,0 +1,620 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机电源预测与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构模型",
+      "text": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准架构",
+      "text": "OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统模型",
+      "text": "AEPHM系统模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维护方式",
+      "text": "设备维护方式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维护方式",
+      "text": "事后维护方式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维护方式",
+      "text": "预防性定期维护方式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维护方式",
+      "text": "基于状态的维护方式CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "OSA-CBM系统架构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结构",
+      "text": "七层分布式结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "数据采集层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "数据处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "状态监测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Agent技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "基于OSA-CBM的PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "基于多Agent的AEPHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "状态监测Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "健康评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "用户接口Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "数据仓库管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "服务Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "状态监测多Agent子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "多种数据分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "诊断多Agent子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "专家系统Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "人工神经网络Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "遗传算法Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent",
+      "text": "模糊推理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "粗糙集RS(Rough Set)理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "三级数据融合的故障诊断策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合方法",
+      "text": "数据级融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合方法",
+      "text": "特征级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合方法",
+      "text": "决策级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "RUL（Remaining Useful Life）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "人工智能技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修计划",
+      "text": "最佳的预测维修计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通信语言",
+      "text": "KQML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "交互与共享",
+      "text": "Agent之间的交互与共享",
+      "evaluation": "正确"
+    },
+    {
+      "type": "语言",
+      "text": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "消息",
+      "text": "KQML通信原语消息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "XML文档的SCHEMA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ATML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "描述语言",
+      "text": "XUME（AgentUML）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "系统运行",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "基于多Agent的AEPHM体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "PHM系统的可重构性和可扩展性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "系统的灵活性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "鲁棒性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "系统的可靠性",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "以...为标准架构",
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "tail": "OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...构建",
+      "head": "AEPHM系统模型",
+      "tail": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "设备维护方式",
+      "tail": "基于状态的维护方式CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "OSA-CBM系统架构",
+      "tail": "七层分布式结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "数据采集层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "数据处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "状态监测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "覆盖",
+      "head": "七层分布式结构",
+      "tail": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入到",
+      "head": "Agent技术",
+      "tail": "基于OSA-CBM的PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "状态监测Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "健康评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "用户接口Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "数据仓库管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "服务Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测多Agent子系统",
+      "tail": "多种数据分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现不同的诊断算法",
+      "head": "诊断元Agent",
+      "tail": "专家系统Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现不同的诊断算法",
+      "head": "诊断元Agent",
+      "tail": "人工神经网络Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现不同的诊断算法",
+      "head": "诊断元Agent",
+      "tail": "遗传算法Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现不同的诊断算法",
+      "head": "诊断元Agent",
+      "tail": "模糊推理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进行数据挖掘",
+      "head": "故障仲裁和决策Agent",
+      "tail": "粗糙集RS(Rough Set)理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于多Agent的AEPHM体系结构",
+      "tail": "三级数据融合的故障诊断策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "信息采集Agent",
+      "tail": "数据级融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...得到最终诊断结果",
+      "head": "故障仲裁和决策Agent",
+      "tail": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "健康评估Agent",
+      "tail": "RUL（Remaining Useful Life）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...推理出",
+      "head": "维修与后勤保障Agent",
+      "tail": "最佳的预测维修计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...实现",
+      "head": "Agent之间的交互与共享",
+      "tail": "KQML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...描述",
+      "head": "KQML通信原语消息",
+      "tail": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "根据...设计",
+      "head": "XML文档的SCHEMA",
+      "tail": "ATML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为",
+      "head": "XUME（AgentUML）",
+      "tail": "体系结构描述语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "以...为中心",
+      "head": "系统运行",
+      "tail": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发出诊断请求给",
+      "head": "状态监测Agent",
+      "tail": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提交诊断结果给",
+      "head": "故障诊断Agent",
+      "tail": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发出维修请求给",
+      "head": "管理Agent",
+      "tail": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "基于多Agent的AEPHM体系结构",
+      "tail": "PHM系统的可重构性和可扩展性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "增加",
+      "head": "基于多Agent的AEPHM体系结构",
+      "tail": "系统的灵活性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "增加",
+      "head": "基于多Agent的AEPHM体系结构",
+      "tail": "鲁棒性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高",
+      "head": "基于多Agent的AEPHM体系结构",
+      "tail": "系统的可靠性",
+      "evaluation": "正确"
+    }
+  ]
+}

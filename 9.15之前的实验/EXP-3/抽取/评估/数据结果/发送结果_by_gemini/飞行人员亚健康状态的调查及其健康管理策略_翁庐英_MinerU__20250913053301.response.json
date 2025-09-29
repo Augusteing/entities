@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "飞行人员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康问题",
+      "text": "亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理策略",
+      "text": "健康管理策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "方便性抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "问卷调查",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评价工具",
+      "text": "亚健康状态量表",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康问题",
+      "text": "生理亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康问题",
+      "text": "心理亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康问题",
+      "text": "社会亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "t检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "方差分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "统计方法",
+      "text": "多元线性逐步回归分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "危险因素",
+      "text": "离婚或丧偶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "危险因素",
+      "text": "行政职务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "危险因素",
+      "text": "不良生活习惯（抽烟、饮酒）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "保护因素",
+      "text": "体能训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "工作环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "工作应激",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "婚姻状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响因素",
+      "text": "不良生活方式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理措施",
+      "text": "健康干预措施",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理措施",
+      "text": "精细化的健康管理措施",
+      "evaluation": "正确"
+    },
+    {
+      "type": "管理目标",
+      "text": "自我管理健康能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康问题",
+      "text": "职业病",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "研究",
+      "head": "本研究",
+      "tail": "飞行人员亚健康状态及其影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "type": "旨在实施",
+      "head": "本研究",
+      "tail": "健康管理策略",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的重要危险因素",
+      "head": "离婚或丧偶",
+      "tail": "飞行人员亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的重要危险因素",
+      "head": "行政职务",
+      "tail": "飞行人员亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的重要危险因素",
+      "head": "不良生活习惯（抽烟、饮酒）",
+      "tail": "飞行人员亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的保护因素",
+      "head": "体能训练",
+      "tail": "飞行人员亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生正性影响",
+      "head": "体育锻炼",
+      "tail": "心理亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "工作环境",
+      "tail": "工作应激过高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "工作应激",
+      "tail": "亚健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "婚姻状态",
+      "tail": "飞行人员亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "不良生活方式",
+      "tail": "飞行人员亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "亚健康状态",
+      "tail": "生理亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "亚健康状态",
+      "tail": "心理亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "亚健康状态",
+      "tail": "社会亚健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "健康管理策略",
+      "tail": "亚健康状态的飞行人员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康管理",
+      "tail": "精细化的健康管理措施",
+      "evaluation": "错误"
+    },
+    {
+      "type": "旨在培养",
+      "head": "健康管理",
+      "tail": "自我管理健康能力",
+      "evaluation": "错误"
+    }
+  ]
+}

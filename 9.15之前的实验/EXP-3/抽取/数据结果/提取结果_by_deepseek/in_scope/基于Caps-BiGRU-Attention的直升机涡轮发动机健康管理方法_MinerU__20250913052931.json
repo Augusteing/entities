@@ -1,0 +1,308 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "Caps-BiGRU-Attention"
+    },
+    {
+      "type": "算法",
+      "text": "胶囊网络"
+    },
+    {
+      "type": "算法",
+      "text": "BiGRU"
+    },
+    {
+      "type": "机制",
+      "text": "SE注意力机制"
+    },
+    {
+      "type": "研究对象",
+      "text": "直升机涡轮发动机"
+    },
+    {
+      "type": "研究问题",
+      "text": "故障模式识别"
+    },
+    {
+      "type": "研究问题",
+      "text": "扭矩裕度预测"
+    },
+    {
+      "type": "指标",
+      "text": "准确率"
+    },
+    {
+      "type": "指标",
+      "text": "平均绝对误差"
+    },
+    {
+      "type": "数据集",
+      "text": "直升机涡轮发动机数据集"
+    },
+    {
+      "type": "传感器",
+      "text": "外部空气温度"
+    },
+    {
+      "type": "传感器",
+      "text": "平均气体温度"
+    },
+    {
+      "type": "传感器",
+      "text": "可用功率"
+    },
+    {
+      "type": "传感器",
+      "text": "指示空速"
+    },
+    {
+      "type": "传感器",
+      "text": "净功率"
+    },
+    {
+      "type": "传感器",
+      "text": "压缩机转速"
+    },
+    {
+      "type": "传感器",
+      "text": "测量扭矩"
+    },
+    {
+      "type": "目标值",
+      "text": "故障模式"
+    },
+    {
+      "type": "目标值",
+      "text": "扭矩裕度"
+    },
+    {
+      "type": "方法",
+      "text": "SHAP特征分析"
+    },
+    {
+      "type": "分布",
+      "text": "贝塔分布"
+    },
+    {
+      "type": "状态",
+      "text": "严重失效"
+    },
+    {
+      "type": "状态",
+      "text": "轻微失效"
+    },
+    {
+      "type": "状态",
+      "text": "衰减状态"
+    },
+    {
+      "type": "状态",
+      "text": "健康状态"
+    },
+    {
+      "type": "参数",
+      "text": "动态路由次数"
+    },
+    {
+      "type": "参数",
+      "text": "胶囊数量"
+    },
+    {
+      "type": "参数",
+      "text": "胶囊维度"
+    },
+    {
+      "type": "参数",
+      "text": "批处理数量"
+    },
+    {
+      "type": "参数",
+      "text": "迭代次数"
+    },
+    {
+      "type": "优化器",
+      "text": "Adam"
+    },
+    {
+      "type": "损失函数",
+      "text": "交叉熵损失函数"
+    },
+    {
+      "type": "损失函数",
+      "text": "均方误差"
+    },
+    {
+      "type": "硬件",
+      "text": "Intel W-2223 CPU处理器"
+    },
+    {
+      "type": "软件",
+      "text": "Python 3.9"
+    },
+    {
+      "type": "框架",
+      "text": "TensorFlow 2.1"
+    },
+    {
+      "type": "方法",
+      "text": "概率分布拟合"
+    },
+    {
+      "type": "检验",
+      "text": "K-S检验"
+    },
+    {
+      "type": "准则",
+      "text": "AIC值"
+    },
+    {
+      "type": "模型",
+      "text": "Random Forest"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU-Attention"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiLstm"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU"
+    }
+  ],
+  "relations": [
+    {
+      "type": "由...组成",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "胶囊网络"
+    },
+    {
+      "type": "由...组成",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "BiGRU"
+    },
+    {
+      "type": "由...组成",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "SE注意力机制"
+    },
+    {
+      "type": "应用于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "故障模式识别"
+    },
+    {
+      "type": "应用于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "type": "在...上准确率超过99.7%",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "故障模式识别"
+    },
+    {
+      "type": "将平均绝对误差降低至0.027",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "type": "优于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "Random Forest"
+    },
+    {
+      "type": "优于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiGRU-Attention"
+    },
+    {
+      "type": "优于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiLstm"
+    },
+    {
+      "type": "优于",
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiGRU"
+    },
+    {
+      "type": "使用",
+      "head": "实验验证",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "type": "影响",
+      "head": "外部空气温度",
+      "tail": "故障模式"
+    },
+    {
+      "type": "影响",
+      "head": "平均气体温度",
+      "tail": "故障模式"
+    },
+    {
+      "type": "影响",
+      "head": "测量扭矩",
+      "tail": "故障模式"
+    },
+    {
+      "type": "影响",
+      "head": "故障模式",
+      "tail": "扭矩裕度"
+    },
+    {
+      "type": "影响",
+      "head": "指示空速",
+      "tail": "扭矩裕度"
+    },
+    {
+      "type": "影响",
+      "head": "压缩机转速",
+      "tail": "扭矩裕度"
+    },
+    {
+      "type": "影响",
+      "head": "可用功率",
+      "tail": "扭矩裕度"
+    },
+    {
+      "type": "拟合为",
+      "head": "扭矩裕度",
+      "tail": "贝塔分布"
+    },
+    {
+      "type": "对应",
+      "head": "严重失效",
+      "tail": "贝塔分布"
+    },
+    {
+      "type": "对应",
+      "head": "轻微失效",
+      "tail": "贝塔分布"
+    },
+    {
+      "type": "对应",
+      "head": "健康状态",
+      "tail": "贝塔分布"
+    },
+    {
+      "type": "难以拟合",
+      "head": "衰减状态",
+      "tail": "概率分布"
+    },
+    {
+      "type": "基于",
+      "head": "SHAP特征分析",
+      "tail": "Random Forest模型"
+    },
+    {
+      "type": "揭示了",
+      "head": "SHAP特征分析",
+      "tail": "特征影响机理"
+    }
+  ]
+}

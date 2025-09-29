@@ -1,0 +1,416 @@
+{
+  "entities": [
+    {
+      "type": "验证系统",
+      "text": "航空机电作动器健康管理验证系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "健康管理智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "生理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "齿轮减速器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "数学建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障注入方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件平台",
+      "text": "验证系统硬件平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件环境",
+      "text": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能模块",
+      "text": "验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能平台",
+      "text": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "全数字仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "半实物仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能模块",
+      "text": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "智能推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "诊断预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能模块",
+      "text": "决策支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Lua脚本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "电机堵转故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "绕组匝间短路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "齿轮减速器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "控制器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能模块",
+      "text": "PID控制模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "PXI测控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "FPGA数据采集卡PXI一7854",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件架构",
+      "text": "组件模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "C# .NET的反射功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "递归最小二乘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "故障现象数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障诊断与预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "轴承故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "漏电阻故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "绕组匝间故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "轴承抱死故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "霍尔信号检测故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "失效模式",
+      "text": "齿轮摩擦力大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件架构",
+      "text": "软件框架",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "设计用于验证与评估",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "健康管理智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计用于验证与评估",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "生理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "健康管理系统",
+      "tail": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "健康管理系统",
+      "tail": "智能推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "健康管理系统",
+      "tail": "诊断预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "健康管理系统",
+      "tail": "决策支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "最主要的故障类型是",
+      "head": "航空机电作动器",
+      "tail": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "最常见的故障是",
+      "head": "机械故障",
+      "tail": "轴承故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "漏电阻故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "绕组匝间故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "轴承抱死故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "控制器",
+      "tail": "霍尔信号检测故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "齿轮减速器",
+      "tail": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "齿轮减速器",
+      "tail": "齿轮摩擦力大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...开发",
+      "head": "软件运行环境",
+      "tail": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...开发",
+      "head": "软件运行环境",
+      "tail": "Lua脚本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于模拟",
+      "head": "PID控制模块",
+      "tail": "齿轮减速器故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "验证系统硬件平台",
+      "tail": "PXI测控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "PXI测控系统",
+      "tail": "FPGA数据采集卡PXI一7854",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "软件框架",
+      "tail": "组件模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...加载模块",
+      "head": "软件框架",
+      "tail": "C# .NET的反射功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于处理",
+      "head": "递归最小二乘",
+      "tail": "故障现象数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于处理",
+      "head": "粒子滤波",
+      "tail": "故障现象数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "递归最小二乘",
+      "tail": "故障诊断与预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "粒子滤波",
+      "tail": "故障诊断与预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于评估",
+      "head": "验证与评估模块",
+      "tail": "诊断预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "粒子滤波",
+      "tail": "剩余使用寿命",
+      "evaluation": "正确"
+    }
+  ]
+}

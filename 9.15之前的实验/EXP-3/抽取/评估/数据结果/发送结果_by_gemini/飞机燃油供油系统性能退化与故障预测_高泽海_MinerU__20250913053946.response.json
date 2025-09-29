@@ -1,0 +1,275 @@
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机燃油供油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务/技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术/概念",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "供油增压泵叶片磨损",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具/软件",
+      "text": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "健康状态指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "飞机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "飞机安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "供油增压泵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具/软件",
+      "text": "Flowmaster",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具/软件",
+      "text": "Labsiew",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法/技术",
+      "text": "键合图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "低温引发的供油管路堵塞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "高温引起的爆炸",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "供油系统性能下降",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "单支路供油系统数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "离心泵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障机理",
+      "text": "气蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障机理",
+      "text": "流体腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数/指标",
+      "text": "增压泵出口流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数/指标",
+      "text": "增压泵出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "性能衰退曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务/技术",
+      "text": "系统健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "叶片磨损面积变化曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康状态变化曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务/技术",
+      "text": "4步预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/退化",
+      "text": "增压泵性能退化",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "影响",
+      "head": "飞机燃油系统",
+      "tail": "飞机安全性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "健康管理技术",
+      "tail": "飞机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "供油增压泵叶片磨损",
+      "tail": "性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于建立",
+      "head": "Simulink",
+      "tail": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于进行",
+      "head": "灰色预测模型",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于进行",
+      "head": "健康管理技术",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于建模",
+      "head": "Flowmaster",
+      "tail": "飞机燃油供油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于建立模型",
+      "head": "键合图",
+      "tail": "飞机燃油供油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "增压泵叶片磨损",
+      "tail": "供油系统性能下降",
+      "evaluation": "错误"
+    },
+    {
+      "type": "造成",
+      "head": "气蚀",
+      "tail": "增压泵叶片磨损",
+      "evaluation": "错误"
+    },
+    {
+      "type": "造成",
+      "head": "流体腐蚀",
+      "tail": "增压泵叶片磨损",
+      "evaluation": "错误"
+    },
+    {
+      "type": "下降",
+      "head": "叶片的磨损",
+      "tail": "增压泵出口流量与压力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于仿真",
+      "head": "性能退化模型",
+      "tail": "性能退化历程",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于得到",
+      "head": "叶片磨损面积变化曲线",
+      "tail": "健康状态变化曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于评定",
+      "head": "增压泵出口压力",
+      "tail": "系统健康状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于评定",
+      "head": "增压泵出口流量",
+      "tail": "系统健康状态",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "故障预测",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "GM(1,1)模型",
+      "tail": "4步预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "增压泵叶片磨损",
+      "tail": "增压泵性能退化",
+      "evaluation": "错误"
+    }
+  ]
+}

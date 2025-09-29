@@ -1,0 +1,297 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "飞机起落架液压收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多故障仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "起落架不能正常收放",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障相关概念",
+      "text": "故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "PHM系统概念",
+      "text": "飞机系统健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测诊断技术",
+      "text": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测诊断技术",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测方法",
+      "text": "预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "PHM系统概念",
+      "text": "定期维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "PHM系统概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "仿真分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障模式及影响分析（FMEA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "电磁换向阀开口量不足",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "作动筒泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "液压泵泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "健康特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "诊断模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "轻微故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "中等故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "严重故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "向前型神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Levenberg-Marquardt算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "故障类别诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "故障程度评估正确率",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "研究对象是",
+      "head": "健康评估",
+      "tail": "飞机起落架液压收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...建立",
+      "head": "仿真模型",
+      "tail": "AMESim软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...实现",
+      "head": "健康评估",
+      "tail": "神经网络算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的组成部分",
+      "head": "健康评估",
+      "tail": "飞机系统健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "将...转变为",
+      "head": "飞机系统健康管理",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "前身是",
+      "head": "视情维修",
+      "tail": "定期维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机系统健康管理",
+      "tail": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机系统健康管理",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机系统健康管理",
+      "tail": "预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "识别出",
+      "head": "故障模式及影响分析（FMEA）",
+      "tail": "作动筒泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "识别出",
+      "head": "故障模式及影响分析（FMEA）",
+      "tail": "液压泵泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "识别出",
+      "head": "故障模式及影响分析（FMEA）",
+      "tail": "电磁换向阀开口量不足",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "作动筒泄漏",
+      "tail": "液压泵出口压力减小",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "作动筒泄漏",
+      "tail": "液压泵出口处的流量会增大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "反映",
+      "head": "压力",
+      "tail": "系统健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "反映",
+      "head": "流量",
+      "tail": "系统健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "反映",
+      "head": "时间",
+      "tail": "系统健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为输入",
+      "head": "健康特征",
+      "tail": "诊断模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Levenberg-Marquardt算法",
+      "tail": "学习训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "隐含层节点数目",
+      "tail": "故障识别正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "为...提供依据",
+      "head": "健康评估",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    }
+  ]
+}

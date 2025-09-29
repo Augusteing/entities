@@ -1,0 +1,230 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "防热系统"
+    },
+    {
+      "type": "方法",
+      "text": "健康管理"
+    },
+    {
+      "type": "指标",
+      "text": "温度"
+    },
+    {
+      "type": "软件",
+      "text": "ANSYS"
+    },
+    {
+      "type": "损伤",
+      "text": "意外损伤"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤光栅高温传感器"
+    },
+    {
+      "type": "传感器",
+      "text": "微型悬臂梁传感器"
+    },
+    {
+      "type": "区域",
+      "text": "高温区"
+    },
+    {
+      "type": "区域",
+      "text": "中温区"
+    },
+    {
+      "type": "区域",
+      "text": "低温区"
+    },
+    {
+      "type": "结构",
+      "text": "RCC热结构"
+    },
+    {
+      "type": "材料",
+      "text": "防热瓦"
+    },
+    {
+      "type": "模型",
+      "text": "有限元仿真"
+    },
+    {
+      "type": "方程",
+      "text": "防热瓦一维连续热辐射与导热复合传热能量守恒控制方程组"
+    },
+    {
+      "type": "部位",
+      "text": "鼻锥"
+    },
+    {
+      "type": "部位",
+      "text": "机翼前缘"
+    },
+    {
+      "type": "部位",
+      "text": "机头部分"
+    },
+    {
+      "type": "部位",
+      "text": "机翼机身下表面"
+    },
+    {
+      "type": "部位",
+      "text": "机身上表面"
+    },
+    {
+      "type": "部位",
+      "text": "机身两侧"
+    },
+    {
+      "type": "损伤程度",
+      "text": "轻微撞击"
+    },
+    {
+      "type": "损伤程度",
+      "text": "严重撞击"
+    },
+    {
+      "type": "温度变化",
+      "text": "1250°C"
+    },
+    {
+      "type": "温度变化",
+      "text": "413°C"
+    },
+    {
+      "type": "温度变化",
+      "text": "9°C"
+    },
+    {
+      "type": "方法",
+      "text": "温度监测"
+    },
+    {
+      "type": "方法",
+      "text": "数据比较"
+    },
+    {
+      "type": "系统",
+      "text": "传感器系统"
+    },
+    {
+      "type": "系统",
+      "text": "数据采集和处理系统"
+    },
+    {
+      "type": "系统",
+      "text": "地面监控中心"
+    },
+    {
+      "type": "功能",
+      "text": "诊断功能"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "防热系统",
+      "to_entity": "健康管理",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "温度",
+      "to_entity": "防热系统",
+      "relation": "监测关键性能指标"
+    },
+    {
+      "from_entity": "ANSYS",
+      "to_entity": "防热瓦",
+      "relation": "模拟温度分布"
+    },
+    {
+      "from_entity": "意外损伤",
+      "to_entity": "防热系统",
+      "relation": "导致破坏"
+    },
+    {
+      "from_entity": "光纤光栅高温传感器",
+      "to_entity": "高温区",
+      "relation": "用于监测"
+    },
+    {
+      "from_entity": "微型悬臂梁传感器",
+      "to_entity": "中温区",
+      "relation": "用于监测"
+    },
+    {
+      "from_entity": "防热瓦",
+      "to_entity": "温度",
+      "relation": "反映损伤情况"
+    },
+    {
+      "from_entity": "有限元仿真",
+      "to_entity": "防热瓦",
+      "relation": "计算温度分布"
+    },
+    {
+      "from_entity": "轻微撞击",
+      "to_entity": "防热瓦",
+      "relation": "引起温度升高"
+    },
+    {
+      "from_entity": "严重撞击",
+      "to_entity": "防热瓦",
+      "relation": "引起温度显著升高"
+    },
+    {
+      "from_entity": "传感器系统",
+      "to_entity": "数据采集和处理系统",
+      "relation": "传输信号到"
+    },
+    {
+      "from_entity": "地面监控中心",
+      "to_entity": "诊断功能",
+      "relation": "实现"
+    },
+    {
+      "from_entity": "温度监测",
+      "to_entity": "健康管理",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "数据比较",
+      "to_entity": "损伤评估",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "鼻锥",
+      "to_entity": "高温区",
+      "relation": "属于"
+    },
+    {
+      "from_entity": "机翼前缘",
+      "to_entity": "高温区",
+      "relation": "属于"
+    },
+    {
+      "from_entity": "机头部分",
+      "to_entity": "中温区",
+      "relation": "属于"
+    },
+    {
+      "from_entity": "机翼机身下表面",
+      "to_entity": "中温区",
+      "relation": "属于"
+    },
+    {
+      "from_entity": "机身上表面",
+      "to_entity": "低温区",
+      "relation": "属于"
+    },
+    {
+      "from_entity": "机身两侧",
+      "to_entity": "低温区",
+      "relation": "属于"
+    }
+  ]
+}

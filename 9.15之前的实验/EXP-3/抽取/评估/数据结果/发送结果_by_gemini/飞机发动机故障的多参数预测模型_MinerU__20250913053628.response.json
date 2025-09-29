@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "type": "研究人员",
+      "text": "孙姜燕",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究人员",
+      "text": "徐艳玲",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "飞机发动机故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色系统理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "机械敲缸系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "燃料敲缸系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "功率谱均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "峰值值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "平均振值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "灰色预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "新信息优先原理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "n元一阶常微分方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,n)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "拟合精度",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "孙姜燕",
+      "tail": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "徐艳玲",
+      "tail": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借鉴了...思想",
+      "head": "多参数预测模型",
+      "tail": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借鉴了...思想",
+      "head": "多参数预测模型",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "灰色理论",
+      "tail": "飞机发动机故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在不足",
+      "head": "灰色GM(1,1)模型",
+      "tail": "只考虑一个特征参数或单独考虑几个特征参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的基本模型",
+      "head": "GM(1,1)模型",
+      "tail": "灰色预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生",
+      "head": "GM(1,1)模型",
+      "tail": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的推广",
+      "head": "多参数预测模型",
+      "tail": "GM(1,1)预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不同于",
+      "head": "多参数预测模型",
+      "tail": "GM(1,n)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "多参数预测模型",
+      "tail": "n元一阶常微分方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "多参数预测模型",
+      "tail": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "多参数预测模型",
+      "tail": "较好拟合精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于预测",
+      "head": "多参数预测模型",
+      "tail": "飞机发动机故障",
+      "evaluation": "正确"
+    }
+  ]
+}

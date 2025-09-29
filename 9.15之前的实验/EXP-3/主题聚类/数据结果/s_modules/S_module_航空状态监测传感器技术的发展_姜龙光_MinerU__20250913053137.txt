@@ -2,6 +2,35 @@
 以下示例均为与待抽取文本语义最相关的段落，包含该段落及其标注：
 
 示例1 段落：
+[5] 张帅林，陈志雄，潘佑，等. 商用飞机机务维修保障能力评价方法[J]. 航空工程进展，2018，9（4）：544- 550. ZHANG Shuailin，CHEN Zhixiong，PAN You，et al. Evaluation method of maintenance support capability of commercial aircraft[J]. Advances in Aeronautical Science and Engineering，2018，9（4）：544- 550. (in Chinese) [6] 马海英，周林，王亮. 基于劣化度的装备健康评估模型[J]. 火力与指挥控制，2014，39（10）：66- 69. MA Haiying，ZHOU Lin，WANG Liang. Equipment health assessment model based on deterioration degree[J]. Firepower and command control，2014，39（10）：66- 69. (in Chinese) [7] LI Feng，CHYU M K，WANG Jiaxu，et al. Life grade recognition of rotating machinery based on supervised orthogonal linear local tangent space alignment and optimal supervised fuzzy C- Means clustering[J]. Measurement，2015，73：384- 400. [8] FERREIRO S，ARNAIZ A，SIERRA B，et al. Application of Bayesian networks in prognostics for a new integrated vehicle health management concept[J]. Expert Systems With Applications，2012，39（7）：6402- 6418. [9] CHENG Shengjun，SHI Meili，YANG Yu，et al. A roller bearing fault diagnosis method based on improved LMD and SVM[J]. Journal of Measurement Science and Instrumentation，2011，2（1）：1- 5. [10] LI Zhinong，HE Yongyong，CHU Fulei，et al. Fault recognition method for speed- up and speed- down process of rotating machinery based on independent component analysis and factorial hidden markov model[J]. Journal of Sound and Vibration，2005，391（1）：60- 71. [11] 李俨，陈海，张清江，等. 无人机系统健康状态评估方法研究[J]. 系统工程与电子技术，2011，33（3）：562- 567. LI Yan，CHEN Hei，ZHANG Qingjiang，et al. Assessment method of health condition for UAV systems[J]. Systems Engineering and Electronics，2011，33（3）：562- 567. (in Chinese) [12] 胡清忠，褚福磊. 航天发射场供气系统健康管理技术[J]. 振动、测试与诊断，2019，39（1）：78- 82. HU Qingzhong，CHU Fulei. Aerospace launch site gas supply system health management technology[J]. Journal of Vibration Measurement and Diagnosis，2019，39（1）：78- 82. (in Chinese) [13] 薛海红，严拴航，王瑶，等. 一种基于FMEA的故障诊断贝叶斯网络快速构建方法[J]. 航空工程进展，2016，7（3）：316- 324. XUE Haihong，YAN Shuanhang，WANG Yao，et al. Fast construction method of Bayesian network for fault diagnosis based on FMEA[J]. Advances in Aeronautical Science and Engineering，2016，7（3）：316- 324. (in Chinese) [14] 马丽叶，丁荣荣，卢志刚，等. 基于可拓云模型的配电网经济运行综合评价及灵敏度分析[J]. 电工电能新技术，2016，35（7）：8- 16.
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "健康评估"
+    },
+    {
+      "type": "指标",
+      "text": "劣化度"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的健康评估方法",
+      "head": "贝叶斯网络",
+      "tail": "健康评估"
+    }
+  ]
+}
+```
+
+示例2 段落：
 [1] 梅晓川，陈亚莉．航空飞行器维修技术发展综述[J]航空发动机，2009（6）：52- 57. MEI Xiaochuan, CHEN Yali. Overview of aircraft maintenance technology development[J]. Aeroengine, 2009(6): 52- 57. (in Chinese)[2] 来云峰，张志谦．跻身民机国产机载设备履历本改进研究[J]. 航空维修与工程，2015(3): 62- 64. LAI Yunfeng, ZHANG Zhiqian. Research on airborne equipment logbook of MA60[J]. Aviation Maintenance & Engineering, 2015(3): 62- 64. (in Chinese)[3] 李兴旺，汪慧云，沈勇，等．飞机综合健康管理系统的应用与发展[J]. 计算机测量与控制，2015(4): 1069- 1079. LI Xingwang, WANG Huiyun, SHEN Yong, et al. Application and development of integrated vehicle health management system in aviation field[J]. Computer Measurement and Control, 2015(4): 1069- 1079. (in Chinese)[4] 曹全新，杨融，刘于尧．民用飞机健康管理技术研究[J]. 航空电子技术，2014, 45(4): 15- 19. CAO Quanxin, YANG Rong, LIU Ziyao. Prognostics and health management technical study for civil aircraft[J]. Avionics Technology, 2014, 45(4): 15- 19. (in Chinese)[5] 李春生，张磊，张雷．飞机健康实时监控技术现状[J]. 中国民用航空，2013(10): 65- 67. LI Chunsheng, ZHANG Lei, ZHANG Lei. Technology status of aircraft health realtime monitoring[J]. China Civil Aviation, 2013(10): 65- 67. (in Chinese)[6] 李长杰，谢小东，明新国．基于状态监测的民机机载设备寿命预测方法现状研究[J]. 机械制造，2013, 51(8): 42- 45. LI Changjie, XIE Xiaodong, MING Xinguo. Research on current status of civil aircraft airborne equipment life predic-
 标注：
 ```json
@@ -23,7 +52,7 @@
 }
 ```
 
-示例2 段落：
+示例3 段落：
 作者简介：雷鸣（1985- ）男（畲族），江西人。空军工程大学工程学院，硕士，主要研究方向：飞机机载设备故障诊断、预测与健康管理.李学仁（1963- ）男，山西人，空军工程大学工程学院，教授，主要研究方向：飞机机载设备故障诊断、预测与健康管理：刘林刚（1976- ）男，山西人，空军工程大学工程学院，硕士，主要研究方向：飞机状态监控技术研究。
 标注：
 ```json
@@ -32,32 +61,6 @@
     {
       "type": "技术",
       "text": "故障诊断"
-    }
-  ]
-}
-```
-
-示例3 段落：
-based prognostics and health management [J]. IEEE Transactions on Industrial Electronics, 2011, 58(7): 3077- 3089. [4] 张宝珍, 王萍, 尤晨宇. 国外飞机预测与健康管理技术发展计划综述 [J]. 计算机测量与控制, 2016, 24(6): 1- 7. ZHANG B ZH, WANG P, YOU CH Y. Overview of oversea prognostics and health management technologies development projects [J]. Computer Measurement & Control, 2016, 24(6): 1- 7. [5] 王少萍. 大型飞机机载系统预测与健康管理关键技术 [J]. 航空学报, 2014, 35(6): 1459- 1472. WANG SH P. Prognostics and health management key technology of aircraft airborne system [J]. Acta Aeronautica et Astronautica Sinica, 2014, 35(6): 1- 7. [6] 李兴旺, 汪慧云, 沈勇, 等. 飞机综合健康管理系统的应用与发展 [J]. 计算机测量与控制, 2015, 23(4): 1069- 1072. LI X W, WANG H Y, SHEN Y, et al. Application and development of integrated vehicle health management system in aviation field [J]. Computer Measurement & Control, 2015, 23(4): 1069- 1072. [7] 曹全新, 杨融, 刘子尧. 民用飞机健康管理技术研究 [J]. 航空电子技术, 2014, 45(4): 15- 19. CAO Q X, YANG R, LIU Z B. Prognostics and health management technical study for civil aircraft [J]. Avionics Technology, 2014, 45(4): 1069- 1072. [8] 孙贤明, 樊晓光, 丛伟. 综合航电系统故障处理机制研究 [J]. 测试技术, 2016, 35(10): 146- 149. SUN X M, FAN X G, CONG W. Research on fault disposal mechanism of integrated modular avionics [J]. Measurement & Control Technology, 2016, 35(10): 146- 149. [9] 李权, 周兴社. 基于测控数据挖掘的航天器故障诊断技术研究 [J]. 计算机测量与控制, 2011, 19(3): 500- 503. LI Q, ZHOU X SH. Spacecraft fault diagnosis technology based on measurement and control data mining [J]. Computer Measurement & Control, 2011, 19(3): 500- 503. [10] 程延伟, 吕强, 谢永成, 等. 装甲车辆电源系统智能故障诊断方法研究 [J]. 计算机测量与控制, 2011, 19(6): 1410- 1412, 1419. CHEN Y W, LV Q, XIE Y CH, et al. Research on
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "技术",
-      "text": "故障诊断"
-    },
-    {
-      "type": "应用领域",
-      "text": "装甲车辆"
-    },
-    {
-      "type": "技术",
-      "text": "故障诊断技术"
-    },
-    {
-      "type": "技术",
-      "text": "健康管理"
     }
   ]
 }

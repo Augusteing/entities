@@ -1,0 +1,584 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "经验模态分解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空电子设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "电路类型",
+      "text": "大规模集成电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于极大似然和降噪自编码神经网络方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "极大似然法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "神经网络模型",
+      "text": "降噪自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "高维数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "故障特征的维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息类型",
+      "text": "冗余信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究案例",
+      "text": "航空电子系统电源模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证方法",
+      "text": "故障特征可视化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证方法",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术概念",
+      "text": "故障预测和健康管理（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "预测性维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心问题",
+      "text": "故障特征参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心问题",
+      "text": "故障预测模型及其算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "混合预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "小波包分解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "谱峭度方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "线性辨别分析（LDA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "主成分分析（PCA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "核主元分析（KPCA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "等距离映射（IOSMAP）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据类型",
+      "text": "非线性数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "非线性流行学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "神经网络模型",
+      "text": "自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络部分",
+      "text": "编码（encoder）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络部分",
+      "text": "解码（decoder）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "神经网络模型",
+      "text": "降噪自编码神经网络（denoising autoencoder，DAE）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "学习方式",
+      "text": "无监督学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "栈式自编码算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "训练方法",
+      "text": "无监督逐层贪婪预训练",
+      "evaluation": "正确"
+    },
+    {
+      "type": "神经网络模型",
+      "text": "栈式自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "本征维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合模块化航电系统（integrated modular avionics, IMA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "电源转换模块（power conversion module, PCM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "通用功能模块（common functional module, CFM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心模块",
+      "text": "DC- DC变换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "仿真环境",
+      "text": "PSPICE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "电解电容器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "MOS管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "二极管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障特征参数",
+      "text": "等效串联电阻ESR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障特征参数",
+      "text": "电容值 C",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障特征参数",
+      "text": "导通电阻 Rw",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障特征参数",
+      "text": "串联电阻 Rs",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障特征参数",
+      "text": "非线性结电阻 Rj",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "正常态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "退化状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "健康状态",
+      "text": "故障态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标",
+      "text": "欧氏距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分类器",
+      "text": "支持向量机（support vector machine，SVM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "早期故障",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的关键技术",
+      "head": "故障特征提取",
+      "tail": "航空电子设备故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出",
+      "head": "文章",
+      "tail": "基于极大似然和降噪自编码神经网络方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于分析",
+      "head": "极大似然法",
+      "tail": "高维数据集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于估计",
+      "head": "极大似然法",
+      "tail": "故障特征的维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于提取",
+      "head": "降噪自编码神经网络",
+      "tail": "关键的故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于去除",
+      "head": "降噪自编码神经网络",
+      "tail": "冗余信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "以...为例",
+      "head": "文章",
+      "tail": "航空电子系统电源模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...验证有效性",
+      "head": "文章",
+      "tail": "故障特征可视化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...验证有效性",
+      "head": "文章",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的基础",
+      "head": "故障预测",
+      "tail": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的核心问题",
+      "head": "故障特征参数",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的核心问题",
+      "head": "故障预测模型及其算法",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征提取方法",
+      "head": "小波包分解",
+      "tail": "电子设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征提取方法",
+      "head": "傅里叶变换方法",
+      "tail": "电子设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "谱峭度方法",
+      "tail": "经验模态分解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征提取方法",
+      "head": "线性辨别分析（LDA）",
+      "tail": "故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征提取方法",
+      "head": "主成分分析（PCA）",
+      "tail": "故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征提取方法",
+      "head": "核主元分析（KPCA）",
+      "tail": "故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不适合处理",
+      "head": "PCA",
+      "tail": "非线性数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可以处理",
+      "head": "KPCA",
+      "tail": "非线性数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "严重依赖于",
+      "head": "KPCA",
+      "tail": "核函数选择",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可以处理",
+      "head": "非线性流行学习方法",
+      "tail": "非线性数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "自编码神经网络",
+      "tail": "编码（encoder）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "自编码神经网络",
+      "tail": "解码（decoder）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的鲁棒性提升模型",
+      "head": "降噪自编码神经网络（denoising autoencoder，DAE）",
+      "tail": "自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于估计",
+      "head": "极大似然法",
+      "tail": "本征维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为...的输出维数",
+      "head": "本征维数",
+      "tail": "自编码网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的核心模块",
+      "head": "DC- DC变换器",
+      "tail": "电源转换单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...搭建模型",
+      "head": "DC- DC变换器",
+      "tail": "PSPICE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的故障特征参数",
+      "head": "等效串联电阻ESR",
+      "tail": "电解电容器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的故障特征参数",
+      "head": "电容值 C",
+      "tail": "电解电容器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的特征参数",
+      "head": "导通电阻 Rw",
+      "tail": "MOS管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的故障特征参数",
+      "head": "串联电阻 Rs",
+      "tail": "二极管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的故障特征参数",
+      "head": "非线性结电阻 Rj",
+      "tail": "二极管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "正常态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "退化状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "故障态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "SVM",
+      "tail": "样本进行分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "降噪自编码神经网络",
+      "tail": "PCA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优于",
+      "head": "降噪自编码神经网络",
+      "tail": "IOSMAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "能有效判断",
+      "head": "基于极大似然和降噪自编码神经网络方法",
+      "tail": "早期故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可应用于",
+      "head": "基于极大似然和降噪自编码神经网络方法",
+      "tail": "故障预测和健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可应用于",
+      "head": "基于极大似然和降噪自编码神经网络方法",
+      "tail": "故障诊断的特征提取",
+      "evaluation": "正确"
+    }
+  ]
+}

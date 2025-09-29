@@ -1,2 +1,2 @@
-失败时间: 2025-09-15T11:44:33.237529+00:00
-异常: JSON 解析失败: Expecting value: line 353 column 14 (char 5050). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-3\抽取\数据结果\提取结果_by_kimi\多电飞机电力系统及其关键技术_张卓然_MinerU__20250913054239.raw.txt
+失败时间: 2025-09-24T10:37:47.434926+00:00
+异常: Error code: 429 - {'error': {'message': 'Your account org-e9cb9612059f41f181d5803f613256c0<ak-f55zm8ry59qi11a8s8ki> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}

@@ -1,696 +1,747 @@
 {
   "entities": [
     {
-      "id": "1",
-      "type": "数据源",
-      "text": "快速存取记录器（QAR）数据",
-      "evaluation": "正确"
-    },
-    {
-      "id": "2",
-      "type": "系统",
       "text": "飞行控制系统",
+      "type": "系统",
       "evaluation": "正确"
     },
     {
-      "id": "3",
-      "type": "研究课题",
-      "text": "飞行控制系统故障分析",
+      "text": "快速存取记录器（QAR）",
+      "type": "数据源",
       "evaluation": "正确"
     },
     {
-      "id": "4",
-      "type": "研究阶段",
+      "text": "QAR数据",
+      "type": "数据",
+      "evaluation": "正确"
+    },
+    {
       "text": "故障监测",
+      "type": "故障研究阶段",
       "evaluation": "正确"
     },
     {
-      "id": "5",
-      "type": "研究阶段",
       "text": "故障识别",
+      "type": "故障研究阶段",
       "evaluation": "正确"
     },
     {
-      "id": "6",
-      "type": "研究阶段",
       "text": "故障诊断",
+      "type": "故障研究阶段",
       "evaluation": "正确"
     },
     {
-      "id": "7",
-      "type": "研究阶段",
       "text": "故障预测",
+      "type": "故障研究阶段",
       "evaluation": "正确"
     },
     {
-      "id": "8",
-      "type": "故障类型",
       "text": "方向舵液压泄漏",
+      "type": "故障类型",
       "evaluation": "正确"
     },
     {
-      "id": "9",
-      "type": "故障类型",
       "text": "升降舵指示不一致",
+      "type": "故障类型",
       "evaluation": "正确"
     },
     {
-      "id": "10",
-      "type": "故障类型",
       "text": "襟翼动作耗时",
+      "type": "故障类型",
       "evaluation": "正确"
     },
     {
-      "id": "11",
-      "type": "方法大类",
       "text": "物理模型",
+      "type": "方法",
       "evaluation": "正确"
     },
     {
-      "id": "12",
-      "type": "方法大类",
       "text": "多变量统计",
+      "type": "方法",
       "evaluation": "正确"
     },
     {
-      "id": "13",
-      "type": "方法大类",
       "text": "逻辑推理",
+      "type": "方法",
       "evaluation": "正确"
     },
     {
-      "id": "14",
-      "type": "技术领域",
       "text": "机器学习",
+      "type": "方法",
       "evaluation": "正确"
     },
     {
-      "id": "15",
-      "type": "飞机部件",
-      "text": "方向舵",
-      "evaluation": "正确"
-    },
-    {
-      "id": "16",
-      "type": "飞机部件",
-      "text": "升降舵",
-      "evaluation": "正确"
-    },
-    {
-      "id": "17",
-      "type": "飞机部件",
-      "text": "襟翼",
-      "evaluation": "正确"
-    },
-    {
-      "id": "18",
-      "type": "技术",
       "text": "实时故障预测技术",
-      "evaluation": "正确"
-    },
-    {
-      "id": "19",
-      "type": "处理流程",
-      "text": "QAR数据使用流程",
-      "evaluation": "正确"
-    },
-    {
-      "id": "20",
-      "type": "处理步骤",
-      "text": "数据获取和预处理",
-      "evaluation": "正确"
-    },
-    {
-      "id": "21",
-      "type": "处理步骤",
-      "text": "特征提取和选择",
-      "evaluation": "正确"
-    },
-    {
-      "id": "22",
-      "type": "处理步骤",
-      "text": "数据降维",
-      "evaluation": "正确"
-    },
-    {
-      "id": "23",
-      "type": "处理步骤",
-      "text": "模型建立",
-      "evaluation": "正确"
-    },
-    {
-      "id": "24",
-      "type": "处理步骤",
-      "text": "模型评估和验证",
-      "evaluation": "正确"
-    },
-    {
-      "id": "25",
-      "type": "处理步骤",
-      "text": "实践应用",
-      "evaluation": "正确"
-    },
-    {
-      "id": "26",
-      "type": "方法",
-      "text": "主成分分析法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "27",
-      "type": "方法",
-      "text": "数理统计方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "28",
-      "type": "故障预测子类",
-      "text": "实时故障预测",
-      "evaluation": "正确"
-    },
-    {
-      "id": "29",
-      "type": "故障预测子类",
-      "text": "非实时故障预测",
-      "evaluation": "正确"
-    },
-    {
-      "id": "30",
-      "type": "方法",
-      "text": "物理和数学模型方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "31",
-      "type": "算法",
-      "text": "卡尔曼滤波",
-      "evaluation": "正确"
-    },
-    {
-      "id": "32",
-      "type": "算法",
-      "text": "最小二乘",
-      "evaluation": "正确"
-    },
-    {
-      "id": "33",
-      "type": "算法",
-      "text": "K近邻",
-      "evaluation": "正确"
-    },
-    {
-      "id": "34",
-      "type": "算法",
-      "text": "偏最小二乘回归",
-      "evaluation": "正确"
-    },
-    {
-      "id": "35",
-      "type": "方法",
-      "text": "信号处理方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "36",
-      "type": "算法",
-      "text": "小波变换",
-      "evaluation": "正确"
-    },
-    {
-      "id": "37",
-      "type": "方法",
-      "text": "故障树分析方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "38",
-      "type": "算法",
-      "text": "支持向量机",
-      "evaluation": "正确"
-    },
-    {
-      "id": "39",
-      "type": "算法",
-      "text": "神经网络",
-      "evaluation": "正确"
-    },
-    {
-      "id": "40",
-      "type": "方法",
-      "text": "知识图谱方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "41",
-      "type": "技术领域",
-      "text": "深度学习",
-      "evaluation": "正确"
-    },
-    {
-      "id": "42",
-      "type": "方法",
-      "text": "数据驱动的预测方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "43",
-      "type": "方法",
-      "text": "混合预测方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "44",
-      "type": "系统",
-      "text": "主操纵系统",
-      "evaluation": "正确"
-    },
-    {
-      "id": "45",
-      "type": "系统",
-      "text": "辅助操纵系统",
-      "evaluation": "正确"
-    },
-    {
-      "id": "46",
-      "type": "飞机部件",
-      "text": "副翼",
-      "evaluation": "正确"
-    },
-    {
-      "id": "47",
-      "type": "故障类型",
-      "text": "方向舵作动筒的故障",
-      "evaluation": "正确"
-    },
-    {
-      "id": "48",
-      "type": "故障类型",
-      "text": "方向舵液压油混入空气",
-      "evaluation": "正确"
-    },
-    {
-      "id": "49",
-      "type": "故障类型",
-      "text": "作动筒液压油泄漏",
-      "evaluation": "正确"
-    },
-    {
-      "id": "50",
-      "type": "故障类型",
-      "text": "液压油污染",
-      "evaluation": "正确"
-    },
-    {
-      "id": "51",
-      "type": "模型",
-      "text": "差分进化算法结合极限学习机建立的故障诊断模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "52",
-      "type": "性能指标",
-      "text": "诊断准确度",
-      "evaluation": "正确"
-    },
-    {
-      "id": "53",
-      "type": "指标值",
-      "text": "91.3%",
-      "evaluation": "正确"
-    },
-    {
-      "id": "54",
-      "type": "模型",
-      "text": "卷积神经网络和支持向量机结合的模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "55",
-      "type": "性能指标",
-      "text": "故障诊断准确率",
-      "evaluation": "正确"
-    },
-    {
-      "id": "56",
-      "type": "指标值",
-      "text": "99.7%",
-      "evaluation": "正确"
-    },
-    {
-      "id": "57",
-      "type": "模型",
-      "text": "襟翼状态预测模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "58",
-      "type": "算法",
-      "text": "支持向量回归",
-      "evaluation": "正确"
-    },
-    {
-      "id": "59",
-      "type": "性能指标",
-      "text": "均方根相对误差",
-      "evaluation": "正确"
-    },
-    {
-      "id": "60",
-      "type": "指标值",
-      "text": "4.2%",
-      "evaluation": "正确"
-    },
-    {
-      "id": "61",
-      "type": "模型",
-      "text": "基于GRU神经网络的后缘襟翼性能评估模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "62",
-      "type": "故障类型",
-      "text": "后缘襟翼左右不对称",
-      "evaluation": "正确"
-    },
-    {
-      "id": "63",
-      "type": "模型",
-      "text": "改进的灰色模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "64",
-      "type": "模型",
-      "text": "遗传算法优化的最小二乘支持向量回归模型",
-      "evaluation": "正确"
-    },
-    {
-      "id": "65",
-      "type": "方法",
-      "text": "蒙特卡罗方法",
-      "evaluation": "正确"
-    },
-    {
-      "id": "66",
       "type": "技术",
-      "text": "5G-ATG技术",
       "evaluation": "正确"
     },
     {
-      "id": "67",
-      "type": "飞机型号",
-      "text": "C919",
+      "text": "QAR数据预处理",
+      "type": "数据处理步骤",
       "evaluation": "正确"
     },
     {
-      "id": "68",
-      "type": "飞机型号",
-      "text": "ARJ21",
+      "text": "特征提取",
+      "type": "数据处理步骤",
       "evaluation": "正确"
     },
     {
-      "id": "69",
-      "type": "飞机型号",
-      "text": "A320",
+      "text": "数据降维",
+      "type": "数据处理步骤",
       "evaluation": "正确"
     },
     {
-      "id": "70",
-      "type": "飞机型号",
-      "text": "B737",
+      "text": "模型建立",
+      "type": "流程步骤",
       "evaluation": "正确"
     },
     {
-      "id": "71",
-      "type": "研究阶段",
-      "text": "故障研究",
-      "evaluation": "错误"
+      "text": "主成分分析法",
+      "type": "降维技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "实时故障预测",
+      "type": "故障研究阶段",
+      "evaluation": "正确"
+    },
+    {
+      "text": "非实时故障预测",
+      "type": "故障研究阶段",
+      "evaluation": "正确"
+    },
+    {
+      "text": "物理和数学模型方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "卡尔曼滤波",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "最小二乘",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "多变量统计算法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "K近邻",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "偏最小二乘回归",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "独立成分分析",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "振动信号方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "信号处理方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "小波变换",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "谱分析",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "傅里叶变换",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "逻辑推理方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模糊差分方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障树分析方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "支持向量机",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "决策树",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "知识图谱方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "状态估计方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "粒子滤波",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于规则方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "BPNN",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "深度学习",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "聚类分析",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "数据驱动的预测方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "遗传算法",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "混合预测方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "主操纵系统",
+      "type": "子系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "辅助操纵系统",
+      "type": "子系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "方向舵",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "升降舵",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "副翼",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "前缘襟翼",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "后缘襟翼",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "扰流板",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "方向舵作动筒的故障",
+      "type": "故障类型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "舵面控制机构弹簧部分断裂",
+      "type": "故障原因",
+      "evaluation": "正确"
+    },
+    {
+      "text": "差分进化算法",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "极限学习机",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "方向舵液压控制部分的液压油混入空气、液压油泄漏和液压油污染3种常见故障类型",
+      "type": "故障类型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障诊断模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "91.3%",
+      "type": "性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "卷积神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "支持向量机分类器",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "升降舵液压故障诊断模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "99.7%",
+      "type": "性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "最小二乘法",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "支持向量回归",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "襟翼状态预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "4.2%",
+      "type": "性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "门限循环单元（Gated Recurrent Unit，GRU)神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "后缘襟翼性能评估模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "灰色模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "遗传算法优化的最小二乘支持向量回归模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "0.7",
+      "type": "性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "蒙特卡罗方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "襟翼不对称风险预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "协同智能移动Kriging方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "襟翼左右不对称故障",
+      "type": "故障类型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "5G ATG（Air to Groud）技术",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "C919、ARJ21等国产飞机",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障分析模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "实时故障预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "研究热点",
+      "type": "研究方向",
+      "evaluation": "正确"
     }
   ],
   "relations": [
     {
-      "from": "3",
-      "to": "1",
-      "type": "基于",
-      "evaluation": "正确"
+      "head": "基于QAR数据的飞行控制系统故障研究综述",
+      "type": "提出",
+      "tail": "故障研究阶段",
+      "evaluation": "错误"
     },
     {
-      "from": "71",
-      "to": "4",
-      "type": "分为",
-      "evaluation": "正确"
-    },
-    {
-      "from": "71",
-      "to": "5",
-      "type": "分为",
-      "evaluation": "正确"
-    },
-    {
-      "from": "71",
-      "to": "6",
-      "type": "分为",
-      "evaluation": "正确"
-    },
-    {
-      "from": "71",
-      "to": "7",
-      "type": "分为",
-      "evaluation": "正确"
-    },
-    {
-      "from": "19",
-      "to": "20",
+      "head": "故障研究阶段",
       "type": "包括",
+      "tail": "故障监测",
       "evaluation": "正确"
     },
     {
-      "from": "19",
-      "to": "21",
+      "head": "故障研究阶段",
       "type": "包括",
+      "tail": "故障识别",
       "evaluation": "正确"
     },
     {
-      "from": "19",
-      "to": "22",
+      "head": "故障研究阶段",
       "type": "包括",
+      "tail": "故障诊断",
       "evaluation": "正确"
     },
     {
-      "from": "19",
-      "to": "23",
+      "head": "故障研究阶段",
       "type": "包括",
+      "tail": "故障预测",
       "evaluation": "正确"
     },
     {
-      "from": "4",
-      "to": "5",
-      "type": "提供数据支持",
-      "evaluation": "正确"
-    },
-    {
-      "from": "4",
-      "to": "6",
-      "type": "提供数据支持",
-      "evaluation": "正确"
-    },
-    {
-      "from": "4",
-      "to": "7",
-      "type": "提供数据支持",
-      "evaluation": "正确"
-    },
-    {
-      "from": "6",
-      "to": "4",
-      "type": "基于",
-      "evaluation": "正确"
-    },
-    {
-      "from": "6",
-      "to": "5",
-      "type": "基于",
-      "evaluation": "正确"
-    },
-    {
-      "from": "7",
-      "to": "42",
-      "type": "利用",
-      "evaluation": "正确"
-    },
-    {
-      "from": "7",
-      "to": "28",
+      "head": "故障预测",
       "type": "细分为",
+      "tail": "实时故障预测",
       "evaluation": "正确"
     },
     {
-      "from": "7",
-      "to": "29",
+      "head": "故障预测",
       "type": "细分为",
+      "tail": "非实时故障预测",
       "evaluation": "正确"
     },
     {
-      "from": "2",
-      "to": "44",
-      "type": "包含",
+      "head": "故障监测",
+      "type": "提供数据支持",
+      "tail": "故障识别",
       "evaluation": "正确"
     },
     {
-      "from": "2",
-      "to": "45",
-      "type": "包含",
+      "head": "故障监测",
+      "type": "提供数据支持",
+      "tail": "故障诊断",
       "evaluation": "正确"
     },
     {
-      "from": "44",
-      "to": "16",
-      "type": "操纵",
+      "head": "故障监测",
+      "type": "提供数据支持",
+      "tail": "故障预测",
       "evaluation": "正确"
     },
     {
-      "from": "44",
-      "to": "15",
-      "type": "操纵",
+      "head": "故障诊断",
+      "type": "在...基础上",
+      "tail": "故障识别",
       "evaluation": "正确"
     },
     {
-      "from": "44",
-      "to": "46",
-      "type": "操纵",
+      "head": "飞行控制系统",
+      "type": "组成",
+      "tail": "主操纵系统",
       "evaluation": "正确"
     },
     {
-      "from": "45",
-      "to": "17",
-      "type": "操纵",
+      "head": "飞行控制系统",
+      "type": "组成",
+      "tail": "辅助操纵系统",
       "evaluation": "正确"
     },
     {
-      "from": "51",
-      "to": "48",
-      "type": "诊断",
+      "head": "主操纵系统",
+      "type": "通过操纵",
+      "tail": "升降舵",
       "evaluation": "正确"
     },
     {
-      "from": "51",
-      "to": "49",
-      "type": "诊断",
+      "head": "主操纵系统",
+      "type": "通过操纵",
+      "tail": "方向舵",
       "evaluation": "正确"
     },
     {
-      "from": "51",
-      "to": "50",
-      "type": "诊断",
+      "head": "主操纵系统",
+      "type": "通过操纵",
+      "tail": "副翼",
       "evaluation": "正确"
     },
     {
-      "from": "51",
-      "to": "52",
-      "type": "具有",
+      "head": "辅助操纵系统",
+      "type": "通过操纵",
+      "tail": "前缘襟翼",
       "evaluation": "正确"
     },
     {
-      "from": "52",
-      "to": "53",
-      "type": "达到",
+      "head": "辅助操纵系统",
+      "type": "通过操纵",
+      "tail": "后缘襟翼",
       "evaluation": "正确"
     },
     {
-      "from": "54",
-      "to": "16",
-      "type": "用于...故障诊断",
+      "head": "辅助操纵系统",
+      "type": "通过操纵",
+      "tail": "扰流板",
       "evaluation": "正确"
     },
     {
-      "from": "54",
-      "to": "55",
-      "type": "具有",
+      "head": "故障监测",
+      "type": "常用方法",
+      "tail": "物理和数学模型方法",
       "evaluation": "正确"
     },
     {
-      "from": "55",
-      "to": "56",
-      "type": "达到",
+      "head": "故障监测",
+      "type": "常用方法",
+      "tail": "多变量统计算法",
       "evaluation": "正确"
     },
     {
-      "from": "57",
-      "to": "32",
-      "type": "构建于",
+      "head": "故障监测",
+      "type": "常用方法",
+      "tail": "振动信号方法",
       "evaluation": "正确"
     },
     {
-      "from": "57",
-      "to": "58",
+      "head": "故障识别",
+      "type": "常用方法",
+      "tail": "信号处理方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障识别",
+      "type": "常用方法",
+      "tail": "逻辑推理方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障识别",
+      "type": "常用方法",
+      "tail": "机器学习",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断",
+      "type": "常用方法",
+      "tail": "知识图谱方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断",
+      "type": "常用方法",
+      "tail": "状态估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断",
+      "type": "常用方法",
+      "tail": "基于规则方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断",
+      "type": "常用方法",
+      "tail": "机器学习",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障预测",
+      "type": "常用方法",
+      "tail": "物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障预测",
+      "type": "常用方法",
+      "tail": "数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障预测",
+      "type": "常用方法",
+      "tail": "混合预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "升降舵指示不一致",
+      "type": "识别出原因",
+      "tail": "舵面控制机构弹簧部分断裂",
+      "evaluation": "正确"
+    },
+    {
+      "head": "差分进化算法",
       "type": "结合",
+      "tail": "极限学习机",
       "evaluation": "正确"
     },
     {
-      "from": "57",
-      "to": "59",
-      "type": "具有",
+      "head": "差分进化算法",
+      "type": "建立",
+      "tail": "故障诊断模型",
       "evaluation": "正确"
     },
     {
-      "from": "59",
-      "to": "60",
-      "type": "为",
+      "head": "故障诊断模型",
+      "type": "应用于",
+      "tail": "方向舵液压控制部分的液压油混入空气、液压油泄漏和液压油污染3种常见故障类型",
       "evaluation": "正确"
     },
     {
-      "from": "61",
-      "to": "17",
-      "type": "用于...性能评估",
+      "head": "故障诊断模型",
+      "type": "诊断准确度可达",
+      "tail": "91.3%",
       "evaluation": "正确"
     },
     {
-      "from": "64",
-      "to": "62",
-      "type": "用于...趋势预测",
+      "head": "卷积神经网络",
+      "type": "结合",
+      "tail": "支持向量机分类器",
       "evaluation": "正确"
     },
     {
-      "from": "65",
-      "to": "62",
-      "type": "用于...风险预测",
+      "head": "卷积神经网络",
+      "type": "构建",
+      "tail": "升降舵液压故障诊断模型",
       "evaluation": "正确"
     },
     {
-      "from": "66",
-      "to": "1",
-      "type": "应用于...实时传输",
+      "head": "升降舵液压故障诊断模型",
+      "type": "故障诊断准确率可达到",
+      "tail": "99.7%",
       "evaluation": "正确"
     },
     {
-      "from": "66",
-      "to": "18",
-      "type": "提供数据基础",
+      "head": "最小二乘法",
+      "type": "结合",
+      "tail": "支持向量回归",
       "evaluation": "正确"
     },
     {
-      "from": "3",
-      "to": "69",
-      "type": "研究机型包括",
+      "head": "最小二乘法",
+      "type": "建立",
+      "tail": "襟翼状态预测模型",
       "evaluation": "正确"
     },
     {
-      "from": "3",
-      "to": "70",
-      "type": "研究机型包括",
+      "head": "襟翼状态预测模型",
+      "type": "均方根相对误差为",
+      "tail": "4.2%",
       "evaluation": "正确"
     },
     {
-      "from": "18",
-      "to": "67",
-      "type": "是...的研究热点",
+      "head": "门限循环单元（Gated Recurrent Unit，GRU)神经网络",
+      "type": "提出",
+      "tail": "后缘襟翼性能评估模型",
       "evaluation": "正确"
     },
     {
-      "from": "18",
-      "to": "68",
-      "type": "是...的研究热点",
+      "head": "灰色模型",
+      "type": "结合",
+      "tail": "遗传算法优化的最小二乘支持向量回归模型",
       "evaluation": "正确"
+    },
+    {
+      "head": "灰色模型",
+      "type": "预测结果可靠性达到",
+      "tail": "0.7",
+      "evaluation": "错误"
+    },
+    {
+      "head": "蒙特卡罗方法",
+      "type": "建立",
+      "tail": "襟翼不对称风险预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "head": "协同智能移动Kriging方法",
+      "type": "用于监测",
+      "tail": "襟翼左右不对称故障",
+      "evaluation": "正确"
+    },
+    {
+      "head": "5G ATG（Air to Groud）技术",
+      "type": "为...提供数据基础",
+      "tail": "实时故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "建立并迭代C919、ARJ21等国产飞机的故障分析模型",
+      "type": "成为",
+      "tail": "研究热点",
+      "evaluation": "错误"
+    },
+    {
+      "head": "构建并验证实时故障预测模型",
+      "type": "成为",
+      "tail": "研究热点",
+      "evaluation": "错误"
     }
   ]
 }

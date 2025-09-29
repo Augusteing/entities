@@ -159,6 +159,39 @@
 以下是相关领域的标注示例，请参考这些示例的标注风格和粒度：
 
 示例1 段落：
+[1] Johnson S B. Introduction to system health engineering and management in aerospace [R]. First International Forum on Integrated System Health Engineering and Management in Aerospace Napa California USA. 2005- 11. [2] Andrew Hess Leo Fila Prognostics from the need to reality from the fleet users and PHM system designer/developers perspectives [A]. IEEE Aerospace Conference Proceedings[C]. 2002. [3] Byington C S Roemer M & Galie T. Prognostic enhancements to diagnostic systems for improved condition- based maintenance [A]. IEEE Aerospace Conference[C]. 2002. [4] Hess A. The joint strike fighter (JSF) prognostics and health management[A]. NDIA 4th Annual Systems Engineering Conference[C]. 2001- 10. [5] Scheuren W. Safety & the military aircraft joint strike fighter prognostics & health management[R]. AIAA 98- 3710, 1998. [6] 曾声奎，等.故障预测与健康管理（PHM）技术的现状与发展[J]. 航空学报，2005, 26(5). [7] 张宝珍，曾天翔. PHM：实现F- 35经济承受性目标的关键使能技术[J]. 航空维修与工程，2005, (6).
+标注：
+```json
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理（PHM）技术"
+    },
+    {
+      "type": "概念",
+      "text": "预测"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "经历了阶段",
+      "head": "预测与健康管理（PHM）技术",
+      "tail": "故障预测"
+    }
+  ]
+}
+```
+
+示例2 段落：
 B, KANG R, XII J S. The application technique of prognostic and health management system [J]. Measurement & Control Technology, 2007, 26(7):12- 14. ) [15] 杨渊, 景博, 张劼, 等. 飞机故障预测与健康管理应用模式研究 [J]. 计算机测量与控制, 2011, 19(9):2061- 2063. (YANG Z, JING B, ZHANG J, et al. Research on implementation modes of airborne PHM system [J]. Computer Measurement & Control, 2011, 19(9):2061- 2063. ) [16] 孙海东, 吕健. 航空电子系统健康管理专家系统的关键技术综述 [J]. 电光与控制, 2009, 16(7):40- 44. (SUN H D, LY T. J. On critical technologies for health management expert system of avionic system [J]. Electronics Optics & Control, 2009, 16(7):40- 44. ) [17] 杨渊, 景博, 张劼, 等. 机载系统故障预测与健康管理验证与评估方法 [J]. 测控技术, 2012, 31(3):101- 104. (YANG Z, JING B, ZHANG J, et al. Verification and evaluation method of airborne PHM system [J]. Measurement & Control Technology, 2012, 31(3):101- 104. ) [18] 张亮, 张凤鸣, 李俊涛, 等. 机载预测与健康管理 (PHM) 系统的体系结构 [J]. 空军工程大学学报: 自然科学版, 2008, 9(2):6- 9. (ZHANG L, ZHANG F M, LI J T, et al. Research on on- board prognostics and health management system architecture for operational aircraft [J]. Journal of Air Force Engineering University: Natural Science Edition, 2008, 9(2):6- 9. ) [19] 王昊天, 石健. 基于可用度模型的故障预测与健康管理方法 [J]. 系统工程与电子技术, 2010, 32(12):2584- 2589. (WANG H T, SHI J. Method of prognostics and health management based on availability model [J]. Systems Engineering and Electronics, 2010, 32(12):2584- 2589. ) [20] 张亮, 张凤鸣. 装备健康管理中的传感器优化配置问题研究 [J]. 传感器与微系统, 2008, 27(7):18- 20. (ZHANG L, ZHANG F M. Research on optimal sensor placement in equipment health management [J]. Transducer and Microsystem Technologies, 2008, 27(7):18- 20. ) [21] BENGTSSONL M, OLSSON E, FUNK P, et al. Technical design of condition based maintenance system: a case study using sound analysis and case- based reasoning [DB/OL]. [2015- 01- 01]. http: www. doc88. com/p- 9005742132930. html.
 标注：
 ```json
@@ -176,7 +209,7 @@ B, KANG R, XII J S. The application technique of prognostic and health managemen
 }
 ```
 
-示例2 段落：
+示例3 段落：
 [1] 夏立群，田一松，王可.浅谈作动器健康管理技术[D].系统仿真学报，2009，20（增2）：295- 299. [2] AHMADI A,FHANSSON T.Integration of RCM andPHM for the Next Generation of Aircraft [C] //Proceedingsof International IEEE Aerospace Conference. Big Sky,USA:[s.n.],2009:1- 9. [3] 李向前.复杂装备故障预测与健康管理关键技术研究[D].北京：北京理工大学，2014. [4] 李振翼.PHM对提升新一代飞机综合保障能力的研究[D].成都：电子科技大学，2009. [5] 杨洲，景博，张动，等.飞机故障预测与健康管理应用模式研究[J].计算机测量与控制，2011，19（9）：2061- 2063. [6] 罗军舟，金嘉晖，宋爱波，等.云计算：体系架构与关键技术[D].通信学报，2011，32（7）：3- 21. [7] 肖明清，杨召，薛辉辉，等.云计算及其在测试领域的应用探索[D].空军工程大学学报（自然科学版），2015,16(1):50- 55. [8] 扣彦敏，王俊峰，薛霄，等.集群协同制造服务组合策略比较研究[J].计算机工程，2016，42（12）：208- 216. [9] 刘志雄，梁华.粒子群算法中随机数参数的设置与实验分析[D].控制理论与应用，2010，27（11）：1489- 1496. [10] CHEN C L,DONG D Y,CHEN Z H.Grey Systems forIntelligent Sensors and Information Processing [J].Journal of Systems Engineering and Electronics,2008,19(4):659- 665. [11] 王娜，卫波，王晋东，等.基于混沌多目标粒子群算法的云服务选择方法[D].计算机工程，2014，40（3）：23- 27. [12] ZHAO Xinchao, SONG Boqian, HUANG Panyu, et al. AnImproved Discrete Immune Optimization Algorithm Basedon PSO for QoS- driven Web Service Composition [J].Applied Soft Computing,2012,12（8）:2208- 2216. [13] 周相兵.一种基于粒子群优化的虚拟资源分配方法[D].重庆邮电大学学报（自然科学版），2014，26（5）：686- 693. [14] RAO L,LIU X,LE XIE,et al. Minimizing ElectricityCost:Optimization of Distributed Internet Data Centersin a Multi- electricity- market Environment [C] //Proceedings of IEEE INFOCOM'10. Washington D.C.,USA:IEEE Press,2010:1145- 1153. [15] LECUE F, MEHANDJIEV N. Seeking Quality of WebService Composition in a Semantic Dimension [J].IEEETransactions on Knowledge and Data Engineering,2011,23(6):942- 958. [16] 李超.基于改进粒子群算法的云计算资源调度研究[D].徐州：中国矿业大学，2015.
 标注：
 ```json
@@ -193,20 +226,6 @@ B, KANG R, XII J S. The application technique of prognostic and health managemen
     {
       "type": "软件资源",
       "text": "算法"
-    }
-  ]
-}
-```
-
-示例3 段落：
-中航工业北京航空制造工程研究所数字化制造技术航空科技重点实验室 王湘念 侯志霞
-标注：
-```json
-{
-  "entities": [
-    {
-      "type": "组织",
-      "text": "中航工业"
     }
   ]
 }

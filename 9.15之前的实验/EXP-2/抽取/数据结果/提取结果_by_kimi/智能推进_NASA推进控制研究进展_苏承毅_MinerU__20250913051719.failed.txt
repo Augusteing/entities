@@ -1,2 +1,2 @@
-失败时间: 2025-09-15T11:54:03.682882+00:00
-异常: JSON 解析失败: Unterminated string starting at: line 341 column 15 (char 5042). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-3\抽取\数据结果\提取结果_by_kimi\智能推进_NASA推进控制研究进展_苏承毅_MinerU__20250913051719.raw.txt
+失败时间: 2025-09-24T10:49:55.087631+00:00
+异常: JSON 解析失败: Expecting ',' delimiter: line 333 column 24 (char 5005). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-2\抽取\数据结果\提取结果_by_kimi\智能推进_NASA推进控制研究进展_苏承毅_MinerU__20250913051719.raw.txt

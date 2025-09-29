@@ -187,14 +187,29 @@
 ```
 
 示例3 段落：
-[1] Couch R P, Rossback D R, Burgess R W, et al. Sensing incipient engine failure with electrostatic probes. Instrumentation for Airbreathing Propulsion, Proceeding of the Symposium. 1972: 519- 529. [2] Cartwright R A, Fisher C. Marine gas turbine condition monitoring by gas path electrostatic detection techniques. International Gas Turbine and Aero- engine Congress and Exposition. 1991. [3] Powrie H E G, Mnicholas K. Gas path condition monitoring during accelerated mission testing of a demonstrator engine. AIAA- 1997- 2904, 1997. [4] Powrie H E G, Novis A. Gas path debris monitoring for F- 35 joint strike fighter propulsion system PHM. IEEE Aerospace Conference Proceedings. 2006. [5] Wen Z H, Zuo H F, Li Y H. Gas path debris electrostatic monitoring technology and experiment. Journal of Aerospace Power. 2008, 23(12): 2321- 2326. (in Chinese) 文振华，左洪福，李耀华. 气路颗粒静电监测技术及实验. 航空动力学报. 2008, 23(12): 2321- 2326. [6] Li Y H, Zuo H F, Wen Z H. Simulated experiment of aircraft engine gas path debris monitoring technology. Acta Aeronautica et Astronautica Sinica, 2009, 30(4): 604- 608. (in Chinese) 李耀华，左洪福，文振华. 航空发动机气路颗粒静电监测技术模拟实验. 航空学报. 2009, 30(4): 604- 608. [7] Li Y H, Zuo H F, Liu P P. Gas path electrostatic monitoring of turbo- shaft engine: an exploratory experiment. Acta Aeronautica et Astronautica Sinica, 2010, 31(11): 2174- 2181. (in Chinese) 李耀华，左洪福，刘鹏鹏. 某型航空涡轮轴发动机尾气静电监测探索性实验. 航空学报. 2010, 31(11): 2174- 2181. [8] Sorokin A, Arnold F. Electrically charged small soot particles in the exhaust of an air craft gas turbine engine combustor: comparison of model and experiment. Atmospheric Environment, 2004, 38(17): 2611- 2618. [9] Yan C J, Fan W. Combustion. Xi'an: Northwestern Polytechnical University Press, 2005. (in Chinese)
+能计算仿真[J]. 航空计算技术, 2011, 41(4): 32- 35. Lu Bin, Liu Zhenxia, Lü Yaguo, et al. Performance Calculation Simulation of Aeroengine Lubrication Vent System[J]. Aeronautical Computing Technique, 2011, 41(4): 32- 35. [9] 方露露. 航空发动机轴承腔及回油管路两相流动换热规律研究[D]. 南京: 南京航空航天大学, 2020. Fang Lulu. Study on the Oil- gas Two- phase Flow and Heat Transfer in an Aeroengine Bearing Chamber and the Scavenge Piper[D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2020. [10] 汪元林. 航空发动机滑油系统温升研究[D]. 南京: 南京航空航天大学, 2016. Wang Yuanlin. Research on Temperature Addition of Aeroengine Oil System[D]. Nanjing: Nanjing University of Aeronautics and Astronautics, 2016. [11] 马明明. 基于试飞数据的航空发动机滑油系统模型建立及应用[J]. 润滑与密封, 2017, 42(10): 121- 126. Ma Mingming. Establishment and Application of Aeroengine Oil System Model Based on Flight Test Data[J]. Lubrication Engineering, 2017, 42(10): 121- 126. [12] 刘波, 周强, 程礼, 等. 构建航空发动机滑油系统稳态模型[J]. 推进技术, 2005, 26(6): 556- 559. Liu Bo, Zhou Qiang, Cheng Li, et al. Construction of Steady Model for an Engine Oil System[J]. Journal of Propulsion Technology, 2005, 26(6): 556- 559. [13] 张效伟. 涡扇发动机润滑系统性能计算与分析[D]. 西安: 西北工业大学, 2006. [14] 闫星辉, 郭迎清, 殷楷, 等. 基于MATLAB/Simulink的滑油系统建模仿真与优化[J]. 航空动力学报, 2017, 32(3): 740- 748. Yan Xinghui, Guo Yingqing, Yin Kai, et al. Modeling Simulation and Optimization of Oil System Based on MATLAB/Simulink[J]. Journal of Aerospace Power, 2017, 32(3): 740- 748. [15] 张书刚, 郭迎清, 陆军. 基于GasTurb/MATLAB的航空发动机部件级模型研究[J]. 航空动力学报, 2012, 27(12): 2850- 2856. Zhang Shugang, Guo Yingqing, Lu Jun. Research on Aircraft Engine Component- level Models Based on GasTurb/MATLAB[J]. Journal of Aerospace Power, 2012, 27(12): 2850- 2856. [16] 《航空发动机设计手册》总编委会. 航空发动机设计手册: 第12册传动及润滑系统[M]. 北京: 航空工业出版社, 2002. Editorial Board of Aeroengine Design Manual. Aeroengine Design Manual: Volume 12 Transmission and Lubrication System[M]. Beijing: Aviation Industry Press, 2002.
 标注：
 ```json
 {
   "entities": [
     {
-      "type": "技术",
-      "text": "静电监测技术"
+      "type": "研究对象",
+      "text": "航空发动机滑油系统"
+    },
+    {
+      "type": "软件/平台",
+      "text": "Simulink"
+    },
+    {
+      "type": "模型",
+      "text": "滑油系统模型"
+    }
+  ],
+  "relations": [
+    {
+      "type": "搭建于",
+      "head": "滑油系统模型",
+      "tail": "Simulink"
     }
   ]
 }

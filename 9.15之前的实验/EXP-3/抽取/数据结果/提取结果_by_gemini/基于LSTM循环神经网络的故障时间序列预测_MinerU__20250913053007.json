@@ -1,274 +1,208 @@
-[
-  {
-    "entities": [
-      {
-        "type": "方法",
-        "text": "基于LSTM循环神经网络的故障时间序列预测方法"
-      },
-      {
-        "type": "任务",
-        "text": "故障时间序列预测"
-      },
-      {
-        "type": "模型",
-        "text": "长短期记忆(LSTM)循环神经网络"
-      },
-      {
-        "type": "算法",
-        "text": "基于多层网格搜索的LSTM预测模型参数优选算法"
-      },
-      {
-        "type": "目标",
-        "text": "预测误差最小"
-      },
-      {
-        "type": "模型",
-        "text": "LSTM预测模型"
-      },
-      {
-        "type": "指标",
-        "text": "准确性"
-      },
-      {
-        "type": "方法",
-        "text": "基于故障机理（Physics- of- Failure，PoF）的方法"
-      },
-      {
-        "type": "方法",
-        "text": "数据驱动（Data- Driven，DD）的方法"
-      },
-      {
-        "type": "方法",
-        "text": "融合的方法"
-      },
-      {
-        "type": "模型",
-        "text": "自回归移动平均（Autoregressive Integrated Moving Average，ARIMA）"
-      },
-      {
-        "type": "方法",
-        "text": "奇异谱分析（Singular Spectrum Analysis，SSA）"
-      },
-      {
-        "type": "方法",
-        "text": "支持向量回归（Support Vector machines Regression，SVR）"
-      },
-      {
-        "type": "网络",
-        "text": "人工神经网络（Artificial Neural Network，ANN）"
-      },
-      {
-        "type": "数据",
-        "text": "系统级故障数据"
-      },
-      {
-        "type": "方法",
-        "text": "基于SSA和SVR的混合方法"
-      },
-      {
-        "type": "技术",
-        "text": "深度学习"
-      },
-      {
-        "type": "网络",
-        "text": "循环神经网络（Recurrent Neural Network，RNN）"
-      },
-      {
-        "type": "问题",
-        "text": "梯度消失"
-      },
-      {
-        "type": "问题",
-        "text": "梯度爆炸"
-      },
-      {
-        "type": "问题",
-        "text": "长期记忆能力不足"
-      },
-      {
-        "type": "算法",
-        "text": "基于时间的反向传播（Back Propagation Through Time，BPTT）算法"
-      },
-      {
-        "type": "算法",
-        "text": "适应性动量估计（Adaptive moment estimation，Adam）算法"
-      },
-      {
-        "type": "模型",
-        "text": "门限循环单元（Gated Recurrent Unit，GRU）"
-      },
-      {
-        "type": "参数",
-        "text": "分割窗口长度 L"
-      },
-      {
-        "type": "参数",
-        "text": "状态向量大小 S_state"
-      },
-      {
-        "type": "参数",
-        "text": "学习率 η"
-      },
-      {
-        "type": "数据集",
-        "text": "波音737飞机月度故障时间序列数据"
-      },
-      {
-        "type": "模型",
-        "text": "Holt-Winters模型"
-      },
-      {
-        "type": "方法",
-        "text": "多元线性回归（MultipleLinearRegression，MLR)"
-      },
-      {
-        "type": "指标",
-        "text": "均方根误差（RootMeanSquareError，RMSE）"
-      },
-      {
-        "type": "问题",
-        "text": "过拟合"
-      },
-      {
-        "type": "问题",
-        "text": "欠拟合"
-      },
-      {
-        "type": "指标",
-        "text": "计算耗时"
-      },
-      {
-        "type": "指标",
-        "text": "拟合精度"
-      },
-      {
-        "type": "指标",
-        "text": "预测精度"
-      },
-      {
-        "type": "研究者",
-        "text": "王鑫，吴际，刘超等"
-      },
-      {
-        "type": "实验结果",
-        "text": "优选后LSTM模型在B飞机测试点12上的预测精度(RMSE)达到0.864"
-      },
-      {
-        "type": "实验结果",
-        "text": "文献[8]中混合模型最优RMSE值为1.879"
-      }
-    ],
-    "relations": [
-      {
-        "type": "提出",
-        "head": "王鑫，吴际，刘超等",
-        "tail": "基于LSTM循环神经网络的故障时间序列预测方法"
-      },
-      {
-        "type": "提出",
-        "head": "王鑫，吴际，刘超等",
-        "tail": "基于多层网格搜索的LSTM预测模型参数优选算法"
-      },
-      {
-        "type": "应用于",
-        "head": "基于LSTM循环神经网络的故障时间序列预测方法",
-        "tail": "故障时间序列预测"
-      },
-      {
-        "type": "优选参数",
-        "head": "基于多层网格搜索的LSTM预测模型参数优选算法",
-        "tail": "LSTM预测模型"
-      },
-      {
-        "type": "弥补问题",
-        "head": "长短期记忆(LSTM)循环神经网络",
-        "tail": "梯度消失"
-      },
-      {
-        "type": "弥补问题",
-        "head": "长短期记忆(LSTM)循环神经网络",
-        "tail": "梯度爆炸"
-      },
-      {
-        "type": "弥补问题",
-        "head": "长短期记忆(LSTM)循环神经网络",
-        "tail": "长期记忆能力不足"
-      },
-      {
-        "type": "是简化版本",
-        "head": "门限循环单元（Gated Recurrent Unit，GRU）",
-        "tail": "长短期记忆(LSTM)循环神经网络"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "Holt-Winters模型"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "自回归移动平均（Autoregressive Integrated Moving Average，ARIMA）"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "奇异谱分析（Singular Spectrum Analysis，SSA）"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "多元线性回归（MultipleLinearRegression，MLR)"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "支持向量回归（Support Vector machines Regression，SVR）"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "循环神经网络（Recurrent Neural Network，RNN）"
-      },
-      {
-        "type": "进行对比",
-        "head": "LSTM预测模型",
-        "tail": "门限循环单元（Gated Recurrent Unit，GRU）"
-      },
-      {
-        "type": "精度高于",
-        "head": "LSTM预测模型",
-        "tail": "循环神经网络（Recurrent Neural Network，RNN）"
-      },
-      {
-        "type": "精度高于",
-        "head": "LSTM预测模型",
-        "tail": "门限循环单元（Gated Recurrent Unit，GRU）"
-      },
-      {
-        "type": "效果显著",
-        "head": "基于多层网格搜索的LSTM预测模型参数优选算法",
-        "tail": "LSTM预测模型"
-      },
-      {
-        "type": "采用数据集",
-        "head": "实验验证",
-        "tail": "波音737飞机月度故障时间序列数据"
-      },
-      {
-        "type": "影响性能",
-        "head": "学习率 η",
-        "tail": "LSTM预测模型"
-      },
-      {
-        "type": "导致",
-        "head": "过高或过低的学习率",
-        "tail": "欠拟合或过拟合问题"
-      },
-      {
-        "type": "优于",
-        "head": "优选后LSTM模型在B飞机测试点12上的预测精度(RMSE)达到0.864",
-        "tail": "文献[8]中混合模型最优RMSE值为1.879"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "type": "任务",
+      "text": "故障时间序列预测"
+    },
+    {
+      "type": "模型",
+      "text": "长短期记忆（LSTM）模型"
+    },
+    {
+      "type": "方法",
+      "text": "基于LSTM的故障时间序列预测方法"
+    },
+    {
+      "type": "算法",
+      "text": "基于多层网格搜索的参数优选算法"
+    },
+    {
+      "type": "方法",
+      "text": "多层网格搜索"
+    },
+    {
+      "type": "研究对象",
+      "text": "系统级故障时间序列"
+    },
+    {
+      "type": "数据集",
+      "text": "波音737飞机故障记录"
+    },
+    {
+      "type": "模型",
+      "text": "循环神经网络（RNN）模型"
+    },
+    {
+      "type": "问题",
+      "text": "梯度消失"
+    },
+    {
+      "type": "问题",
+      "text": "梯度爆炸"
+    },
+    {
+      "type": "问题",
+      "text": "长期记忆能力不足"
+    },
+    {
+      "type": "模型",
+      "text": "门限循环单元（GRU）模型"
+    },
+    {
+      "type": "算法",
+      "text": "Adam参数优化算法"
+    },
+    {
+      "type": "算法",
+      "text": "BPTT算法"
+    },
+    {
+      "type": "参数",
+      "text": "分割窗口长度 L"
+    },
+    {
+      "type": "参数",
+      "text": "状态向量大小 S_state"
+    },
+    {
+      "type": "参数",
+      "text": "学习率 η"
+    },
+    {
+      "type": "模型",
+      "text": "Holt-Winters模型"
+    },
+    {
+      "type": "模型",
+      "text": "自回归移动平均（ARIMA）模型"
+    },
+    {
+      "type": "方法",
+      "text": "奇异谱分析（SSA）"
+    },
+    {
+      "type": "方法",
+      "text": "多元线性回归（MLR）"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量回归（SVR）"
+    },
+    {
+      "type": "方法",
+      "text": "基于SSA和SVR的混合方法"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差（RMSE）"
+    },
+    {
+      "type": "问题",
+      "text": "过拟合"
+    },
+    {
+      "type": "问题",
+      "text": "欠拟合"
+    },
+    {
+      "type": "模型",
+      "text": "优选后的LSTM模型"
+    },
+    {
+      "type": "研究者",
+      "text": "本文"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于LSTM的故障时间序列预测方法"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于多层网格搜索的参数优选算法"
+    },
+    {
+      "type": "应用于",
+      "head": "基于LSTM的故障时间序列预测方法",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "type": "弥补",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "梯度消失"
+    },
+    {
+      "type": "弥补",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "梯度爆炸"
+    },
+    {
+      "type": "弥补",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "长期记忆能力不足"
+    },
+    {
+      "type": "是...的变体",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "循环神经网络（RNN）模型"
+    },
+    {
+      "type": "是...的简化版本",
+      "head": "门限循环单元（GRU）模型",
+      "tail": "长短期记忆（LSTM）模型"
+    },
+    {
+      "type": "用于优选",
+      "head": "基于多层网格搜索的参数优选算法",
+      "tail": "长短期记忆（LSTM）模型"
+    },
+    {
+      "type": "预测精度高于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "循环神经网络（RNN）模型"
+    },
+    {
+      "type": "预测精度高于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "门限循环单元（GRU）模型"
+    },
+    {
+      "type": "预测性能整体更优于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "Holt-Winters模型"
+    },
+    {
+      "type": "预测性能整体更优于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "自回归移动平均（ARIMA）模型"
+    },
+    {
+      "type": "拟合精度低于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "奇异谱分析（SSA）"
+    },
+    {
+      "type": "拟合精度低于",
+      "head": "长短期记忆（LSTM）模型",
+      "tail": "支持向量回归（SVR）"
+    },
+    {
+      "type": "效果显著",
+      "head": "基于多层网格搜索的参数优选算法",
+      "tail": "优选后的LSTM模型"
+    },
+    {
+      "type": "预测精度高于",
+      "head": "优选后的LSTM模型",
+      "tail": "基于SSA和SVR的混合方法"
+    },
+    {
+      "type": "导致",
+      "head": "过低或过高的学习率",
+      "tail": "欠拟合或过拟合问题"
+    }
+  ]
+}

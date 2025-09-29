@@ -1,0 +1,295 @@
+{
+  "entities": [
+    {
+      "type": "研究问题",
+      "text": "飞机空调冷却子系统维修次数超警戒",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "航空公司运营效率低下",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "基于某机型系统失效数据的失效模型建立新方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/部件",
+      "text": "热交换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建模方法",
+      "text": "扩展的Weibull分步建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "3参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2段Weibull分步模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "更新过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "期望失效数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/系统",
+      "text": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建模方法",
+      "text": "幂律过程建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "拉普拉斯算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究任务",
+      "text": "故障趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "维修计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究任务",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "脏堵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "平均失效时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果/数值",
+      "text": "207.21飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "视情检查间隔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果/数值",
+      "text": "每200飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准/文件",
+      "text": "飞机制造商给出的视情检查时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准/数值",
+      "text": "每1000飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "幂指模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/系统",
+      "text": "可修复系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检验方法",
+      "text": "Cram'er- vonMises统计量检验模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检验方法",
+      "text": "CBH测试",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "分段幂指模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/系统",
+      "text": "5架飞机空调失效数据叠加系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果/数值",
+      "text": "每年21次非例行维修任务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/部件",
+      "text": "水分离器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象/部件",
+      "text": "水循环机",
+      "evaluation": "错误"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出用于解决",
+      "head": "基于某机型系统失效数据的失效模型建立新方法",
+      "tail": "飞机空调冷却子系统维修次数超警戒",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "飞机空调冷却子系统维修次数超警戒",
+      "tail": "航空公司运营效率低下",
+      "evaluation": "正确"
+    },
+    {
+      "type": "选用",
+      "head": "扩展的Weibull分步建模",
+      "tail": "热交换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "幂律过程建模",
+      "tail": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "拉普拉斯算法",
+      "tail": "故障趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于解出",
+      "head": "更新过程",
+      "tail": "期望失效数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "拟合精度最高",
+      "head": "2段Weibull分步模型",
+      "tail": "热交换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效原因",
+      "head": "热交换器",
+      "tail": "脏堵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "求得",
+      "head": "更新过程函数",
+      "tail": "平均失效时间",
+      "evaluation": "错误"
+    },
+    {
+      "type": "值为",
+      "head": "热交换器的平均失效时间",
+      "tail": "207.21飞行小时",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出更改建议",
+      "head": "维修方案",
+      "tail": "视情维修",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建议为",
+      "head": "视情检查间隔",
+      "tail": "每200飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "值为",
+      "head": "飞机制造商给出的视情检查时间",
+      "tail": "每1000飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于确定",
+      "head": "幂指模型",
+      "tail": "可修复系统的可靠性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于检验拟合质量",
+      "head": "Cram'er- vonMises统计量检验模型",
+      "tail": "幂律过程建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于研究",
+      "head": "CBH测试",
+      "tail": "是否将单个系统的失效数据叠加整合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "符合",
+      "head": "5架飞机空调失效数据叠加系统",
+      "tail": "分段幂指模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "分段幂指模型",
+      "tail": "每年21次非例行维修任务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "将明显增加",
+      "head": "热交换器或水分离器的失效",
+      "tail": "水循环机的失效概率",
+      "evaluation": "错误"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机机载健康管理系统"
+    },
+    {
+      "type": "方法",
+      "text": "正向设计流程"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的系统工程"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象的工程设计"
+    },
+    {
+      "type": "系统",
+      "text": "EHM系统"
+    },
+    {
+      "type": "标准",
+      "text": "SAE AIR1587B"
+    },
+    {
+      "type": "架构",
+      "text": "OSA-CBM"
+    },
+    {
+      "type": "模块",
+      "text": "数据采集层"
+    },
+    {
+      "type": "模块",
+      "text": "数据操作层"
+    },
+    {
+      "type": "模块",
+      "text": "状态检测层"
+    },
+    {
+      "type": "模块",
+      "text": "健康评估层"
+    },
+    {
+      "type": "模块",
+      "text": "预测评估层"
+    },
+    {
+      "type": "模块",
+      "text": "建议生成层"
+    },
+    {
+      "type": "系统",
+      "text": "FADEC"
+    },
+    {
+      "type": "方法",
+      "text": "需求捕获"
+    },
+    {
+      "type": "方法",
+      "text": "需求分析"
+    },
+    {
+      "type": "方法",
+      "text": "功能分配"
+    },
+    {
+      "type": "平台",
+      "text": "正向设计流程平台"
+    },
+    {
+      "type": "方法",
+      "text": "OOSEM"
+    },
+    {
+      "type": "软件",
+      "text": "Rhapsody"
+    },
+    {
+      "type": "系统",
+      "text": "ACMS"
+    },
+    {
+      "type": "功能",
+      "text": "发动机数据采集功能"
+    },
+    {
+      "type": "功能",
+      "text": "发动机数据处理功能"
+    },
+    {
+      "type": "功能",
+      "text": "发动机状态监控功能"
+    },
+    {
+      "type": "功能",
+      "text": "发动机报文加载功能"
+    },
+    {
+      "type": "方法",
+      "text": "逻辑决断法"
+    },
+    {
+      "type": "方法",
+      "text": "模糊层次分析法"
+    },
+    {
+      "type": "方法",
+      "text": "FMECA"
+    },
+    {
+      "type": "功能",
+      "text": "BIT功能"
+    },
+    {
+      "type": "参数",
+      "text": "EGT"
+    }
+  ],
+  "relations": [
+    {
+      "from_entity": "基于模型的系统工程",
+      "to_entity": "正向设计流程",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "面向对象的工程设计",
+      "to_entity": "正向设计流程",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "SAE AIR1587B",
+      "to_entity": "EHM系统",
+      "relation": "定义了"
+    },
+    {
+      "from_entity": "OSA-CBM",
+      "to_entity": "EHM系统",
+      "relation": "基于"
+    },
+    {
+      "from_entity": "数据采集层",
+      "to_entity": "数据操作层",
+      "relation": "演进为"
+    },
+    {
+      "from_entity": "数据操作层",
+      "to_entity": "状态检测层",
+      "relation": "演进为"
+    },
+    {
+      "from_entity": "状态检测层",
+      "to_entity": "健康评估层",
+      "relation": "演进为"
+    },
+    {
+      "from_entity": "健康评估层",
+      "to_entity": "预测评估层",
+      "relation": "演进为"
+    },
+    {
+      "from_entity": "预测评估层",
+      "to_entity": "建议生成层",
+      "relation": "演进为"
+    },
+    {
+      "from_entity": "FADEC",
+      "to_entity": "EHM系统",
+      "relation": "作为基础数据源"
+    },
+    {
+      "from_entity": "需求捕获",
+      "to_entity": "需求分析",
+      "relation": "输入到"
+    },
+    {
+      "from_entity": "需求分析",
+      "to_entity": "功能分配",
+      "relation": "输入到"
+    },
+    {
+      "from_entity": "正向设计流程平台",
+      "to_entity": "EHM系统",
+      "relation": "实现了设计"
+    },
+    {
+      "from_entity": "OOSEM",
+      "to_entity": "MBSE方法",
+      "relation": "是典型方法"
+    },
+    {
+      "from_entity": "Rhapsody",
+      "to_entity": "OOSEM",
+      "relation": "用于建模"
+    },
+    {
+      "from_entity": "ACMS",
+      "to_entity": "EHM系统",
+      "relation": "参考了"
+    },
+    {
+      "from_entity": "发动机数据采集功能",
+      "to_entity": "发动机数据处理功能",
+      "relation": "输入到"
+    },
+    {
+      "from_entity": "发动机数据处理功能",
+      "to_entity": "发动机状态监控功能",
+      "relation": "输入到"
+    },
+    {
+      "from_entity": "发动机状态监控功能",
+      "to_entity": "发动机报文加载功能",
+      "relation": "输入到"
+    },
+    {
+      "from_entity": "逻辑决断法",
+      "to_entity": "功能分配",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "模糊层次分析法",
+      "to_entity": "功能分配",
+      "relation": "用于"
+    },
+    {
+      "from_entity": "FMECA",
+      "to_entity": "故障模式定义",
+      "relation": "提供了资料"
+    },
+    {
+      "from_entity": "BIT功能",
+      "to_entity": "传感器",
+      "relation": "应用于"
+    },
+    {
+      "from_entity": "EGT",
+      "to_entity": "传感器告警",
+      "relation": "用于监控"
+    }
+  ]
+}
