@@ -2,12 +2,12 @@
 """
 批量发送脚本：
 - 遍历 BASE_DIR/gemini 下的 .json 文件（最多 50 个，可用 --max 调整）
-- 为每个 JSON 寻找同名 prompt（同目录下 .txt/.md/.prompt/.prompt.txt），否则回退到 BASE_DIR/prompt/prompt.txt
+- 统一使用 BASE_DIR/prompt/prompt.txt 作为评估 Prompt（不再按文件同名查找）
 - 通过 hiapi.online 的 OpenAI 兼容接口（与 exact_gemini.py 相同方式）调用 Gemini
 - 保存响应到 数据结果/发送结果_by_gemini，记录日志与耗时
 
 运行示例（PowerShell）：
-  $env:HIAPI_API_KEY = "sk-xxxxx" ; python ./code/send_gemini_batch.py --max 50 --model gemini-2.5-pro
+    $env:HIAPI_API_KEY = "sk-xxxxx" ; python ./code/send_gemini_batch.py --max 50 --model gemini-2.5-pro
 """
 
 import os
@@ -110,21 +110,7 @@ def parse_strict_json(content: str):
 
 
 def find_prompt_for_json(json_path: str) -> str:
-    """根据 JSON 文件寻找对应 prompt；若未找到，回退默认 prompt 文件。
-    规则：同目录同名的以下扩展之一：.txt/.md/.prompt/.prompt.txt
-    """
-    base_dir = os.path.dirname(json_path)
-    stem = os.path.splitext(os.path.basename(json_path))[0]
-    candidates = [
-        os.path.join(base_dir, f"{stem}.txt"),
-        os.path.join(base_dir, f"{stem}.md"),
-        os.path.join(base_dir, f"{stem}.prompt"),
-        os.path.join(base_dir, f"{stem}.prompt.txt"),
-    ]
-    for p in candidates:
-        if os.path.exists(p):
-            return p
-    # fallback
+    """统一返回全局评估 Prompt：BASE_DIR/prompt/prompt.txt"""
     return DEFAULT_PROMPT_FILE
 
 
@@ -251,11 +237,11 @@ def main():
         with open(json_path, "r", encoding="utf-8") as jf:
             json_text = jf.read()
 
-        # 查找与读取 prompt
+        # 读取统一评估 prompt（不再按同名文件查找）
         prompt_path = find_prompt_for_json(json_path)
         if not os.path.exists(prompt_path):
             raise FileNotFoundError(
-                f"未找到可用的 prompt：{prompt_path}，请在同目录提供同名 prompt 或在 prompt/ 下提供默认 prompt.txt"
+                f"未找到统一评估 prompt：{prompt_path}，请在 prompt/ 下提供 prompt.txt"
             )
         with open(prompt_path, "r", encoding="utf-8") as pf:
             prompt_text = pf.read()
@@ -263,7 +249,7 @@ def main():
         # 构造消息
         messages = build_messages(prompt_text, json_text)
 
-        print(f"[{idx}/{len(target_files)}] 发送：{json_name}，使用 prompt：{os.path.relpath(prompt_path, BASE_DIR)}")
+        print(f"[{idx}/{len(target_files)}] 发送：{json_name}，使用统一 prompt：{os.path.relpath(prompt_path, BASE_DIR)}")
         start_ts = time.time()
         attempts = 0
 

@@ -1,0 +1,506 @@
+{
+  "entities": [
+    {
+      "text": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空发动机整体性能的实时监控与健康管理",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "核主成分分析",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "深度置信网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "快速存取数据",
+      "type": "数据",
+      "evaluation": "正确"
+    },
+    {
+      "text": "CFM56- 7B发动机",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "高斯函数",
+      "type": "函数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "核函数",
+      "type": "函数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "降维后的数据",
+      "type": "数据",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空发动机EGT基线模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "QAR数据",
+      "type": "数据",
+      "evaluation": "正确"
+    },
+    {
+      "text": "传统神经网络建模方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "网络结构的复杂度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模型的精度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空发动机健康管理",
+      "type": "系统概念",
+      "evaluation": "正确"
+    },
+    {
+      "text": "气路监控",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空发动机排气温度",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "回归分析",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "RBF神经网络算法",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "过程神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "遗传算法优化的反向传播(BP)神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "深度学习",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "自编码器",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "卷积神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "循环神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "输入数据的维度灾难问题",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "主成分分析法",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "核方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "受限玻尔兹曼机",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "反向传播网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "KPCA-DBN混合模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "平均绝对误差",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "单一的DBN网络模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "MAE",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "0.9068",
+      "type": "数值",
+      "evaluation": "正确"
+    },
+    {
+      "text": "0.6076",
+      "type": "数值",
+      "evaluation": "正确"
+    },
+    {
+      "text": "0.4349",
+      "type": "数值",
+      "evaluation": "正确"
+    },
+    {
+      "text": "2维主成分",
+      "type": "数据",
+      "evaluation": "正确"
+    },
+    {
+      "text": "累计贡献率",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "98.5",
+      "type": "数值",
+      "evaluation": "正确"
+    },
+    {
+      "text": "遗传算法",
+      "type": "算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "BP神经网络",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "论文",
+      "evaluation": "正确"
+    },
+    {
+      "text": "王奕首",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "余映红",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "卿新林",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "殷锴",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "赵奇",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "厦门大学航空航天学院",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "中国商用航空发动机有限责任公司",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "2020-02-15",
+      "type": "发表时间",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "head": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "tail": "航空发动机整体性能的实时监控与健康管理",
+      "type": "提出",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "tail": "核主成分分析",
+      "type": "结合",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "tail": "深度置信网络",
+      "type": "结合",
+      "evaluation": "正确"
+    },
+    {
+      "head": "快速存取数据",
+      "tail": "CFM56- 7B发动机",
+      "type": "作为...数据样本",
+      "evaluation": "错误"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "降维处理",
+      "type": "用于",
+      "evaluation": "错误"
+    },
+    {
+      "head": "高斯函数",
+      "tail": "核函数",
+      "type": "选用...作为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "降维后的数据",
+      "tail": "深度置信网络",
+      "type": "作为...输入",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度置信网络",
+      "tail": "航空发动机EGT基线模型",
+      "type": "建立",
+      "evaluation": "正确"
+    },
+    {
+      "head": "QAR数据",
+      "tail": "航空发动机EGT基线模型",
+      "type": "验证",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "tail": "传统神经网络建模方法",
+      "type": "相比...降低了",
+      "evaluation": "错误"
+    },
+    {
+      "head": "基于核主成分分析和深度置信网络相结合的航空发动机排气温度基线模型构建方法",
+      "tail": "传统神经网络建模方法",
+      "type": "相比...提高了",
+      "evaluation": "错误"
+    },
+    {
+      "head": "气路监控",
+      "tail": "航空发动机健康管理",
+      "type": "是...的核心",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空发动机排气温度",
+      "tail": "气路监控",
+      "type": "是...重要参数",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度学习",
+      "tail": "深度置信网络",
+      "type": "是...的父类",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度学习",
+      "tail": "自编码器",
+      "type": "是...的父类",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度学习",
+      "tail": "卷积神经网络",
+      "type": "是...的父类",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度学习",
+      "tail": "循环神经网络",
+      "type": "是...的父类",
+      "evaluation": "正确"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "输入数据的维度灾难问题",
+      "type": "解决",
+      "evaluation": "正确"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "主成分分析法",
+      "type": "融合形成",
+      "evaluation": "错误"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "核方法",
+      "type": "融合形成",
+      "evaluation": "错误"
+    },
+    {
+      "head": "深度置信网络",
+      "tail": "受限玻尔兹曼机",
+      "type": "由...组成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "深度置信网络",
+      "tail": "反向传播网络",
+      "type": "由...组成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "平均绝对误差",
+      "tail": "模型的预测精度",
+      "type": "表示",
+      "evaluation": "错误"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "tail": "单一的DBN网络模型",
+      "type": "预测精度高于",
+      "evaluation": "正确"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "tail": "遗传算法优化的反向传播(BP)神经网络",
+      "type": "预测精度高于",
+      "evaluation": "正确"
+    },
+    {
+      "head": "遗传算法优化的反向传播(BP)神经网络",
+      "tail": "0.9068",
+      "type": "MAE值为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "单一的DBN网络模型",
+      "tail": "0.6076",
+      "type": "MAE值为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "KPCA-DBN混合模型",
+      "tail": "0.4349",
+      "type": "MAE值为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "2维主成分",
+      "tail": "深度置信网络",
+      "type": "作为...输入向量",
+      "evaluation": "正确"
+    },
+    {
+      "head": "2维主成分",
+      "tail": "98.5",
+      "type": "累计贡献率为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "遗传算法",
+      "tail": "BP神经网络",
+      "type": "优化",
+      "evaluation": "正确"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "网络结构的复杂度",
+      "type": "简化",
+      "evaluation": "正确"
+    },
+    {
+      "head": "核主成分分析",
+      "tail": "模型的精度",
+      "type": "提高",
+      "evaluation": "正确"
+    },
+    {
+      "head": "王奕首",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "余映红",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "卿新林",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "殷锴",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "赵奇",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "王奕首",
+      "tail": "厦门大学航空航天学院",
+      "type": "隶属",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "tail": "2020-02-15",
+      "type": "发表于",
+      "evaluation": "正确"
+    }
+  ]
+}

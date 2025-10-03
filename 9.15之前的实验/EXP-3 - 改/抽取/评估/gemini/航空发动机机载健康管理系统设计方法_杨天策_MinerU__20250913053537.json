@@ -1,782 +1,835 @@
 {
   "entities": [
     {
-      "type": "系统",
-      "text": "航空发动机机载健康管理系统"
+      "text": "航空发动机机载健康管理系统",
+      "type": "系统"
     },
     {
-      "type": "流程",
-      "text": "正向设计流程"
+      "text": "正向设计流程",
+      "type": "流程"
     },
     {
-      "type": "需求",
-      "text": "设计需求"
+      "text": "设计需求",
+      "type": "需求"
     },
     {
-      "type": "问题",
-      "text": "正向设计流程不清晰"
+      "text": "正向设计流程不清晰",
+      "type": "问题"
     },
     {
-      "type": "问题",
-      "text": "设计需求不明确"
+      "text": "设计需求不明确",
+      "type": "问题"
     },
     {
-      "type": "问题",
-      "text": "需求设计对应及追溯不规范"
+      "text": "需求设计对应及追溯不规范",
+      "type": "问题"
     },
     {
-      "type": "架构",
-      "text": "健康管理功能架构体系"
+      "text": "健康管理功能架构体系",
+      "type": "架构"
     },
     {
-      "type": "流程",
-      "text": "需求捕获"
+      "text": "需求捕获",
+      "type": "流程"
     },
     {
-      "type": "流程",
-      "text": "需求分析"
+      "text": "需求分析",
+      "type": "流程"
     },
     {
-      "type": "流程",
-      "text": "功能分配"
+      "text": "功能分配",
+      "type": "流程"
     },
     {
-      "type": "流程",
-      "text": "航空发动机健康管理系统正向设计基本流程"
+      "text": "航空发动机健康管理系统正向设计基本流程",
+      "type": "流程"
     },
     {
-      "type": "平台",
-      "text": "航空发动机健康管理正向设计流程平台"
+      "text": "航空发动机健康管理正向设计流程平台",
+      "type": "平台"
     },
     {
-      "type": "架构",
-      "text": "机载功能架构"
+      "text": "机载功能架构",
+      "type": "架构"
     },
     {
-      "type": "设计",
-      "text": "机载功能架构的设计"
+      "text": "机载功能架构的设计",
+      "type": "设计"
     },
     {
-      "type": "思想",
-      "text": "基于模型的系统工程思想"
+      "text": "基于模型的系统工程思想",
+      "type": "思想"
     },
     {
-      "type": "思想",
-      "text": "基于模型的系统工程"
+      "text": "基于模型的系统工程",
+      "type": "思想"
     },
     {
-      "type": "思想",
-      "text": "面向对象的工程设计思路"
+      "text": "面向对象的工程设计思路",
+      "type": "思想"
     },
     {
-      "type": "方法",
-      "text": "图形化设计方法"
+      "text": "图形化设计方法",
+      "type": "方法"
     },
     {
-      "type": "方法",
-      "text": "功能目标量化"
+      "text": "功能目标量化",
+      "type": "方法"
     },
     {
-      "type": "方法",
-      "text": "功能描述"
+      "text": "功能描述",
+      "type": "方法"
     },
     {
-      "type": "方法",
-      "text": "模块定义"
+      "text": "模块定义",
+      "type": "方法"
     },
     {
-      "type": "技术",
-      "text": "硬件设计"
+      "text": "硬件设计",
+      "type": "技术"
     },
     {
-      "type": "概念",
-      "text": "航空发动机健康管理"
+      "text": "航空发动机健康管理",
+      "type": "概念"
     },
     {
-      "type": "系统",
-      "text": "EHM系统"
+      "text": "EHM系统",
+      "type": "系统"
     },
     {
-      "type": "方法",
-      "text": "传统设计方法"
+      "text": "传统设计方法",
+      "type": "方法"
     },
     {
-      "type": "平台",
-      "text": "流程平台"
+      "text": "流程平台",
+      "type": "平台"
     },
     {
-      "type": "方案",
-      "text": "基于模型的可扩展设计方案"
+      "text": "基于模型的可扩展设计方案",
+      "type": "方案"
     },
     {
-      "type": "标准",
-      "text": "ARP1587B《航空燃气涡轮发动机健康管理系统指南》"
+      "text": "ARP1587B《航空燃气涡轮发动机健康管理系统指南》",
+      "type": "标准"
     },
     {
-      "type": "组织",
-      "text": "SAE"
+      "text": "SAE",
+      "type": "组织"
     },
     {
-      "type": "架构",
-      "text": "EHM功能结构"
+      "text": "EHM功能结构",
+      "type": "架构"
     },
     {
-      "type": "方法",
-      "text": "基于文档的系统工程"
+      "text": "基于文档的系统工程",
+      "type": "方法"
     },
     {
-      "type": "语言",
-      "text": "SysML"
+      "text": "SysML",
+      "type": "语言"
     },
     {
-      "type": "工具",
-      "text": "Simulink"
+      "text": "Simulink",
+      "type": "工具"
     },
     {
-      "type": "模型",
-      "text": "SysML模型"
+      "text": "SysML模型",
+      "type": "模型"
     },
     {
-      "type": "模型",
-      "text": "Simulink模型"
+      "text": "Simulink模型",
+      "type": "模型"
     },
     {
-      "type": "方法",
-      "text": "面向对象的系统工程方法"
+      "text": "面向对象的系统工程方法",
+      "type": "方法"
     },
     {
-      "type": "方法",
-      "text": "基于MBSE面向对象的设计"
+      "text": "基于MBSE面向对象的设计",
+      "type": "方法"
     },
     {
-      "type": "架构",
-      "text": "开放体系（Open System Architecture for Condition- Based Maintenance, OSA- CBM）架构体系"
+      "text": "开放体系（Open System Architecture for Condition- Based Maintenance, OSA- CBM）架构体系",
+      "type": "架构"
     },
     {
-      "type": "标准",
-      "text": "SAE1587B"
+      "text": "SAE1587B",
+      "type": "标准"
     },
     {
-      "type": "标准",
-      "text": "SAE AIR1587B"
+      "text": "SAE AIR1587B",
+      "type": "标准"
     },
     {
-      "type": "模块",
-      "text": "数据采集层"
+      "text": "数据采集层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "数据操作层"
+      "text": "数据操作层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "状态检测层"
+      "text": "状态检测层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "健康评估层"
+      "text": "健康评估层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "预测评估层"
+      "text": "预测评估层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "建议生成层"
+      "text": "建议生成层",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "征兆"
+      "text": "征兆",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "诊断"
+      "text": "诊断",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "预测"
+      "text": "预测",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "操作"
+      "text": "操作",
+      "type": "模块"
     },
     {
-      "type": "公司",
-      "text": "GE"
+      "text": "GE",
+      "type": "公司"
     },
     {
-      "type": "公司",
-      "text": "波音"
+      "text": "波音",
+      "type": "公司"
     },
     {
-      "type": "公司",
-      "text": "Honeywell"
+      "text": "Honeywell",
+      "type": "公司"
     },
     {
-      "type": "公司",
-      "text": "洛马"
+      "text": "洛马",
+      "type": "公司"
     },
     {
-      "type": "组成部分",
-      "text": "机载"
+      "text": "机载",
+      "type": "组成部分"
     },
     {
-      "type": "组成部分",
-      "text": "空地通讯"
+      "text": "空地通讯",
+      "type": "组成部分"
     },
     {
-      "type": "组成部分",
-      "text": "地面处理"
+      "text": "地面处理",
+      "type": "组成部分"
     },
     {
-      "type": "架构",
-      "text": "分布式架构体系"
+      "text": "分布式架构体系",
+      "type": "架构"
     },
     {
-      "type": "系统",
-      "text": "全权限数字电子控制器（Full Authority Digital Engine Control, FADEC）"
+      "text": "全权限数字电子控制器（Full Authority Digital Engine Control, FADEC）",
+      "type": "系统"
     },
     {
-      "type": "功能",
-      "text": "发动机数据采集功能"
+      "text": "发动机数据采集功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "发动机数据处理功能"
+      "text": "发动机数据处理功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "发动机状态监控功能"
+      "text": "发动机状态监控功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "发动机报文加载功能"
+      "text": "发动机报文加载功能",
+      "type": "功能"
     },
     {
-      "type": "需求",
-      "text": "功能性需求"
+      "text": "功能性需求",
+      "type": "需求"
     },
     {
-      "type": "需求",
-      "text": "非功能性需求"
+      "text": "非功能性需求",
+      "type": "需求"
     },
     {
-      "type": "需求",
-      "text": "设计约束"
+      "text": "设计约束",
+      "type": "需求"
     },
     {
-      "type": "方法",
-      "text": "逻辑决断法"
+      "text": "逻辑决断法",
+      "type": "方法"
     },
     {
-      "type": "方法",
-      "text": "模糊层次分析法"
+      "text": "模糊层次分析法",
+      "type": "方法"
     },
     {
-      "type": "功能",
-      "text": "状态监测功能"
+      "text": "状态监测功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "故障诊断功能"
+      "text": "故障诊断功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "故障预测功能"
+      "text": "故障预测功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "寿命管理"
+      "text": "寿命管理",
+      "type": "功能"
     },
     {
-      "type": "平台",
-      "text": "机载EHM系统功能设计平台"
+      "text": "机载EHM系统功能设计平台",
+      "type": "平台"
     },
     {
-      "type": "资料",
-      "text": "故障模式、影响和严重度分析（Failure Mode, Effects and Criticality Analysis, FMECA）资料"
+      "text": "故障模式、影响和严重度分析（Failure Mode, Effects and Criticality Analysis, FMECA）资料",
+      "type": "资料"
     },
     {
-      "type": "模块",
-      "text": "机型配置"
+      "text": "机型配置",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "需求管理"
+      "text": "需求管理",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "指标分配"
+      "text": "指标分配",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "架构设计"
+      "text": "架构设计",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "对比确认"
+      "text": "对比确认",
+      "type": "模块"
     },
     {
-      "type": "方案",
-      "text": "功能架构设计方案"
+      "text": "功能架构设计方案",
+      "type": "方案"
     },
     {
-      "type": "工具",
-      "text": "Rhapsody"
+      "text": "Rhapsody",
+      "type": "工具"
     },
     {
-      "type": "系统",
-      "text": "飞机状态监控系统（Aircraft Condition Monitoring System, ACMS）"
+      "text": "飞机状态监控系统（Aircraft Condition Monitoring System, ACMS）",
+      "type": "系统"
     },
     {
-      "type": "功能",
-      "text": "通信连接功能"
+      "text": "通信连接功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "数据处理功能"
+      "text": "数据处理功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "机载状态监测功能"
+      "text": "机载状态监测功能",
+      "type": "功能"
     },
     {
-      "type": "功能",
-      "text": "故障信息报告功能"
+      "text": "故障信息报告功能",
+      "type": "功能"
     },
     {
-      "type": "工具",
-      "text": "DOORS"
+      "text": "DOORS",
+      "type": "工具"
     },
     {
-      "type": "模块",
-      "text": "健康管理系统专用传感器"
+      "text": "健康管理系统专用传感器",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "专用传感器"
+      "text": "专用传感器",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "数据采集处理模块"
+      "text": "数据采集处理模块",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "状态监测及故障报文生成模块"
+      "text": "状态监测及故障报文生成模块",
+      "type": "模块"
     },
     {
-      "type": "模块",
-      "text": "通信传输模块"
+      "text": "通信传输模块",
+      "type": "模块"
     },
     {
-      "type": "功能",
-      "text": "自检（Built- inTest，BIT)功能"
+      "text": "自检（Built- inTest，BIT)功能",
+      "type": "功能"
     },
     {
-      "type": "流程",
-      "text": "联合设计流程"
+      "text": "联合设计流程",
+      "type": "流程"
     },
     {
-      "type": "模型",
-      "text": "Modelica"
+      "text": "Modelica",
+      "type": "模型"
     },
     {
-      "type": "文献",
-      "text": "本文"
+      "text": "本文",
+      "type": "文献"
     },
     {
-      "type": "功能",
-      "text": "机载EHM系统功能"
+      "text": "机载EHM系统功能",
+      "type": "功能"
     },
     {
-      "type": "需求",
-      "text": "需求"
+      "text": "需求",
+      "type": "需求"
     },
     {
-      "type": "流程",
-      "text": "机载/地面功能分配"
+      "text": "机载/地面功能分配",
+      "type": "流程"
     },
     {
-      "type": "架构",
-      "text": "SAE AIR1587B EHM架构体系"
+      "text": "SAE AIR1587B EHM架构体系",
+      "type": "架构"
     },
     {
-      "type": "架构",
-      "text": "EHM系统功能架构"
+      "text": "EHM系统功能架构",
+      "type": "架构"
     },
     {
-      "type": "架构",
-      "text": "硬件基本架构"
+      "text": "硬件基本架构",
+      "type": "架构"
     },
     {
-      "type": "架构",
-      "text": "EHM架构"
+      "text": "EHM架构",
+      "type": "架构"
     },
     {
-      "type": "系统",
-      "text": "空地传输系统"
+      "text": "空地传输系统",
+      "type": "系统"
     },
     {
-      "type": "系统",
-      "text": "地面系统"
+      "text": "地面系统",
+      "type": "系统"
     },
     {
-      "type": "系统",
-      "text": "地面EHM系统"
+      "text": "地面EHM系统",
+      "type": "系统"
     },
     {
-      "type": "系统",
-      "text": "机载系统"
+      "text": "机载系统",
+      "type": "系统"
     },
     {
-      "type": "系统",
-      "text": "空地通信系统"
+      "text": "空地通信系统",
+      "type": "系统"
     },
     {
-      "type": "方法",
-      "text": "设计方法"
+      "text": "设计方法",
+      "type": "方法"
+    },
+    {
+      "text": "航空发动机机载健康管理系统设计方法",
+      "type": "论文"
+    },
+    {
+      "text": "杨天策",
+      "type": "作者"
+    },
+    {
+      "text": "张瑞",
+      "type": "作者"
+    },
+    {
+      "text": "蔡景",
+      "type": "作者"
+    },
+    {
+      "text": "南京航空航天大学民航学院",
+      "type": "发表单位"
+    },
+    {
+      "text": "中国航发沈阳发动机研究所",
+      "type": "发表单位"
+    },
+    {
+      "text": "2023-12-15",
+      "type": "发表时间"
     }
   ],
   "relations": [
     {
-      "type": "要解决的问题",
       "head": "航空发动机机载健康管理系统",
-      "tail": "正向设计流程不清晰"
+      "tail": "正向设计流程不清晰",
+      "type": "要解决的问题"
     },
     {
-      "type": "要解决的问题",
       "head": "航空发动机机载健康管理系统",
-      "tail": "设计需求不明确"
+      "tail": "设计需求不明确",
+      "type": "要解决的问题"
     },
     {
-      "type": "要解决的问题",
       "head": "航空发动机机载健康管理系统",
-      "tail": "需求设计对应及追溯不规范"
+      "tail": "需求设计对应及追溯不规范",
+      "type": "要解决的问题"
     },
     {
-      "type": "研究了",
       "head": "本文",
-      "tail": "航空发动机健康管理系统正向设计基本流程"
+      "tail": "航空发动机健康管理系统正向设计基本流程",
+      "type": "研究了"
     },
     {
-      "type": "开发了",
       "head": "本文",
-      "tail": "航空发动机健康管理正向设计流程平台"
+      "tail": "航空发动机健康管理正向设计流程平台",
+      "type": "开发了"
     },
     {
-      "type": "实现了",
       "head": "航空发动机健康管理正向设计流程平台",
-      "tail": "机载功能架构的设计"
+      "tail": "机载功能架构的设计",
+      "type": "实现了"
     },
     {
-      "type": "引入了",
       "head": "本文",
-      "tail": "基于模型的系统工程思想"
+      "tail": "基于模型的系统工程思想",
+      "type": "引入了"
     },
     {
-      "type": "采用了",
       "head": "本文",
-      "tail": "面向对象的工程设计思路"
+      "tail": "面向对象的工程设计思路",
+      "type": "采用了"
     },
     {
-      "type": "建立了",
       "head": "本文",
-      "tail": "图形化设计方法"
+      "tail": "图形化设计方法",
+      "type": "建立了"
     },
     {
-      "type": "包括",
       "head": "图形化设计方法",
-      "tail": "功能目标量化"
+      "tail": "功能目标量化",
+      "type": "包括"
     },
     {
-      "type": "包括",
       "head": "图形化设计方法",
-      "tail": "功能描述"
+      "tail": "功能描述",
+      "type": "包括"
     },
     {
-      "type": "包括",
       "head": "图形化设计方法",
-      "tail": "模块定义"
+      "tail": "模块定义",
+      "type": "包括"
     },
     {
-      "type": "验证了可用性于",
       "head": "图形化设计方法",
-      "tail": "硬件设计"
+      "tail": "硬件设计",
+      "type": "验证了可用性于"
     },
     {
-      "type": "发布了",
       "head": "SAE",
-      "tail": "ARP1587B《航空燃气涡轮发动机健康管理系统指南》"
+      "tail": "ARP1587B《航空燃气涡轮发动机健康管理系统指南》",
+      "type": "发布了"
     },
     {
-      "type": "向...转变",
       "head": "基于文档的系统工程",
-      "tail": "基于模型的系统工程"
+      "tail": "基于模型的系统工程",
+      "type": "向...转变"
     },
     {
-      "type": "进行联合仿真",
       "head": "SysML模型",
-      "tail": "Simulink模型"
+      "tail": "Simulink模型",
+      "type": "进行联合仿真"
     },
     {
-      "type": "应用",
       "head": "本文",
-      "tail": "基于MBSE面向对象的设计"
+      "tail": "基于MBSE面向对象的设计",
+      "type": "应用"
     },
     {
-      "type": "是...的顶层架构",
       "head": "开放体系（Open System Architecture for Condition- Based Maintenance, OSA- CBM）架构体系",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的顶层架构"
     },
     {
-      "type": "是...的核心模块",
       "head": "数据采集层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "是...的核心模块",
       "head": "数据操作层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "是...的核心模块",
       "head": "状态检测层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "是...的核心模块",
       "head": "健康评估层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "是...的核心模块",
       "head": "预测评估层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "是...的核心模块",
       "head": "建议生成层",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "是...的核心模块"
     },
     {
-      "type": "由...组成",
       "head": "SAE AIR1587B EHM架构体系",
-      "tail": "征兆"
+      "tail": "征兆",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "SAE AIR1587B EHM架构体系",
-      "tail": "诊断"
+      "tail": "诊断",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "SAE AIR1587B EHM架构体系",
-      "tail": "预测"
+      "tail": "预测",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "SAE AIR1587B EHM架构体系",
-      "tail": "操作"
+      "tail": "操作",
+      "type": "由...组成"
     },
     {
-      "type": "提出了",
       "head": "GE",
-      "tail": "EHM功能架构"
+      "tail": "EHM功能架构",
+      "type": "提出了"
     },
     {
-      "type": "提出了",
       "head": "波音",
-      "tail": "EHM功能架构"
+      "tail": "EHM功能架构",
+      "type": "提出了"
     },
     {
-      "type": "提出了",
       "head": "Honeywell",
-      "tail": "EHM功能架构"
+      "tail": "EHM功能架构",
+      "type": "提出了"
     },
     {
-      "type": "提出了",
       "head": "洛马",
-      "tail": "EHM功能架构"
+      "tail": "EHM功能架构",
+      "type": "提出了"
     },
     {
-      "type": "由...组成",
       "head": "EHM系统功能架构",
-      "tail": "机载"
+      "tail": "机载",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "EHM系统功能架构",
-      "tail": "空地通讯"
+      "tail": "空地通讯",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "EHM系统功能架构",
-      "tail": "地面处理"
+      "tail": "地面处理",
+      "type": "由...组成"
     },
     {
-      "type": "发展方向为",
       "head": "全权限数字电子控制器（Full Authority Digital Engine Control, FADEC）",
-      "tail": "EHM系统"
+      "tail": "EHM系统",
+      "type": "发展方向为"
     },
     {
-      "type": "以...为基础数据源",
       "head": "机载EHM系统",
-      "tail": "全权限数字电子控制器（Full Authority Digital Engine Control, FADEC）"
+      "tail": "全权限数字电子控制器（Full Authority Digital Engine Control, FADEC）",
+      "type": "以...为基础数据源"
     },
     {
-      "type": "包括",
       "head": "机载EHM系统功能",
-      "tail": "发动机数据采集功能"
+      "tail": "发动机数据采集功能",
+      "type": "包括"
     },
     {
-      "type": "包括",
       "head": "机载EHM系统功能",
-      "tail": "发动机数据处理功能"
+      "tail": "发动机数据处理功能",
+      "type": "包括"
     },
     {
-      "type": "包括",
       "head": "机载EHM系统功能",
-      "tail": "发动机状态监控功能"
+      "tail": "发动机状态监控功能",
+      "type": "包括"
     },
     {
-      "type": "包括",
       "head": "机载EHM系统功能",
-      "tail": "发动机报文加载功能"
+      "tail": "发动机报文加载功能",
+      "type": "包括"
     },
     {
-      "type": "分为",
       "head": "需求",
-      "tail": "功能性需求"
+      "tail": "功能性需求",
+      "type": "分为"
     },
     {
-      "type": "分为",
       "head": "需求",
-      "tail": "非功能性需求"
+      "tail": "非功能性需求",
+      "type": "分为"
     },
     {
-      "type": "分为",
       "head": "需求",
-      "tail": "设计约束"
+      "tail": "设计约束",
+      "type": "分为"
     },
     {
-      "type": "采用",
       "head": "机载/地面功能分配",
-      "tail": "逻辑决断法"
+      "tail": "逻辑决断法",
+      "type": "采用"
     },
     {
-      "type": "采用",
       "head": "机载/地面功能分配",
-      "tail": "模糊层次分析法"
+      "tail": "模糊层次分析法",
+      "type": "采用"
     },
     {
-      "type": "由...组成",
       "head": "流程平台",
-      "tail": "机型配置"
+      "tail": "机型配置",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "流程平台",
-      "tail": "需求管理"
+      "tail": "需求管理",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "流程平台",
-      "tail": "指标分配"
+      "tail": "指标分配",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "流程平台",
-      "tail": "架构设计"
+      "tail": "架构设计",
+      "type": "由...组成"
     },
     {
-      "type": "由...组成",
       "head": "流程平台",
-      "tail": "对比确认"
+      "tail": "对比确认",
+      "type": "由...组成"
     },
     {
-      "type": "得到",
       "head": "正向流程平台",
-      "tail": "功能架构设计方案"
+      "tail": "功能架构设计方案",
+      "type": "得到"
     },
     {
-      "type": "是...的设计过程",
       "head": "面向对象的系统工程方法",
-      "tail": "基于模型的系统设计方法"
+      "tail": "基于模型的系统设计方法",
+      "type": "是...的设计过程"
     },
     {
-      "type": "利用",
       "head": "面向对象的系统工程方法",
-      "tail": "SysML语言"
+      "tail": "SysML语言",
+      "type": "利用"
     },
     {
-      "type": "采用...建模",
       "head": "本文",
-      "tail": "Rhapsody"
+      "tail": "Rhapsody",
+      "type": "采用...建模"
     },
     {
-      "type": "参考",
       "head": "硬件基本架构",
-      "tail": "飞机状态监控系统（Aircraft Condition Monitoring System, ACMS）"
+      "tail": "飞机状态监控系统（Aircraft Condition Monitoring System, ACMS）",
+      "type": "参考"
     },
     {
-      "type": "是...的核心部件",
       "head": "健康管理系统专用传感器",
-      "tail": "EHM架构"
+      "tail": "EHM架构",
+      "type": "是...的核心部件"
     },
     {
-      "type": "是...的核心部件",
       "head": "数据采集处理模块",
-      "tail": "EHM架构"
+      "tail": "EHM架构",
+      "type": "是...的核心部件"
     },
     {
-      "type": "是...的核心部件",
       "head": "状态监测及故障报文生成模块",
-      "tail": "EHM架构"
+      "tail": "EHM架构",
+      "type": "是...的核心部件"
     },
     {
-      "type": "是...的核心部件",
       "head": "通信传输模块",
-      "tail": "EHM架构"
+      "tail": "EHM架构",
+      "type": "是...的核心部件"
     },
     {
-      "type": "应具备",
       "head": "专用传感器",
-      "tail": "自检（Built- inTest，BIT)功能"
+      "tail": "自检（Built- inTest，BIT)功能",
+      "type": "应具备"
     },
     {
-      "type": "支持集成",
       "head": "Rhapsody",
-      "tail": "Modelica"
+      "tail": "Modelica",
+      "type": "支持集成"
     },
     {
-      "type": "提出了",
       "head": "本文",
-      "tail": "航空发动机机载健康管理系统功能基本架构"
+      "tail": "航空发动机机载健康管理系统功能基本架构",
+      "type": "提出了"
     },
     {
-      "type": "基于",
       "head": "航空发动机机载健康管理系统功能基本架构",
-      "tail": "OSA-CBM"
+      "tail": "OSA-CBM",
+      "type": "基于"
     },
     {
-      "type": "基于",
       "head": "航空发动机机载健康管理系统功能基本架构",
-      "tail": "SAE AIR1587B"
+      "tail": "SAE AIR1587B",
+      "type": "基于"
     },
     {
-      "type": "适用于",
       "head": "设计方法",
-      "tail": "机载系统"
+      "tail": "机载系统",
+      "type": "适用于"
     },
     {
-      "type": "适用于",
       "head": "设计方法",
-      "tail": "空地通信系统"
+      "tail": "空地通信系统",
+      "type": "适用于"
     },
     {
-      "type": "适用于",
       "head": "设计方法",
-      "tail": "地面EHM系统"
+      "tail": "地面EHM系统",
+      "type": "适用于"
+    },
+    {
+      "head": "杨天策",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "type": "撰写"
+    },
+    {
+      "head": "张瑞",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "type": "撰写"
+    },
+    {
+      "head": "蔡景",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "type": "撰写"
+    },
+    {
+      "head": "杨天策",
+      "tail": "南京航空航天大学民航学院",
+      "type": "隶属"
+    },
+    {
+      "head": "航空发动机机载健康管理系统设计方法",
+      "tail": "2023-12-15",
+      "type": "发表于"
     }
   ]
 }

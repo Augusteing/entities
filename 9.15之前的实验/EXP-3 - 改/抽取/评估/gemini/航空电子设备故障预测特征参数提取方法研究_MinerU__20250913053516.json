@@ -1,356 +1,425 @@
-[
-  {
-    "entities": [
-      {
-        "type": "Task",
-        "text": "故障特征提取"
-      },
-      {
-        "type": "Research Object",
-        "text": "航空电子设备"
-      },
-      {
-        "type": "Task",
-        "text": "故障预测"
-      },
-      {
-        "type": "Algorithm",
-        "text": "小波变换"
-      },
-      {
-        "type": "Algorithm",
-        "text": "傅里叶变换"
-      },
-      {
-        "type": "Algorithm",
-        "text": "经验模态分解"
-      },
-      {
-        "type": "Method",
-        "text": "基于极大似然和降噪自编码神经网络方法"
-      },
-      {
-        "type": "Method",
-        "text": "极大似然法"
-      },
-      {
-        "type": "Model",
-        "text": "降噪自编码神经网络"
-      },
-      {
-        "type": "Data",
-        "text": "高维数据集"
-      },
-      {
-        "type": "Task",
-        "text": "维数估计"
-      },
-      {
-        "type": "Validation Method",
-        "text": "故障特征可视化"
-      },
-      {
-        "type": "Validation Method",
-        "text": "健康评估"
-      },
-      {
-        "type": "Example",
-        "text": "航空电子系统电源模块"
-      },
-      {
-        "type": "Concept",
-        "text": "故障预测和健康管理（prognostics and health management，PHM）"
-      },
-      {
-        "type": "Strategy",
-        "text": "预测性维修"
-      },
-      {
-        "type": "Model",
-        "text": "灰色理论"
-      },
-      {
-        "type": "Model",
-        "text": "相关向量机"
-      },
-      {
-        "type": "Model",
-        "text": "隐马尔科夫模型"
-      },
-      {
-        "type": "Model",
-        "text": "混合预测模型"
-      },
-      {
-        "type": "Algorithm",
-        "text": "小波包分解"
-      },
-      {
-        "type": "Method",
-        "text": "谱峭度方法"
-      },
-      {
-        "type": "Algorithm",
-        "text": "线性辨别分析（LDA）"
-      },
-      {
-        "type": "Algorithm",
-        "text": "主成分分析（PCA）"
-      },
-      {
-        "type": "Algorithm",
-        "text": "核主元分析（KPCA）"
-      },
-      {
-        "type": "Algorithm",
-        "text": "KLDA"
-      },
-      {
-        "type": "Method Category",
-        "text": "非线性流行学习方法"
-      },
-      {
-        "type": "Algorithm",
-        "text": "等距离映射（IOSMAP）"
-      },
-      {
-        "type": "Problem",
-        "text": "过拟合"
-      },
-      {
-        "type": "Model",
-        "text": "自编码神经网络"
-      },
-      {
-        "type": "Component",
-        "text": "编码（encoder）"
-      },
-      {
-        "type": "Component",
-        "text": "解码（decoder）"
-      },
-      {
-        "type": "Algorithm",
-        "text": "栈式自编码算法"
-      },
-      {
-        "type": "Training Method",
-        "text": "无监督逐层贪婪预训练"
-      },
-      {
-        "type": "Concept",
-        "text": "本征维数"
-      },
-      {
-        "type": "System",
-        "text": "综合模块化航电系统（integrated modular avionics, IMA）"
-      },
-      {
-        "type": "Component",
-        "text": "DC- DC变换器"
-      },
-      {
-        "type": "Component",
-        "text": "电解电容器"
-      },
-      {
-        "type": "Component",
-        "text": "MOS管"
-      },
-      {
-        "type": "Component",
-        "text": "二极管"
-      },
-      {
-        "type": "Health State",
-        "text": "正常态"
-      },
-      {
-        "type": "Health State",
-        "text": "退化状态"
-      },
-      {
-        "type": "Health State",
-        "text": "故障态"
-      },
-      {
-        "type": "Metric",
-        "text": "欧氏距离"
-      },
-      {
-        "type": "Method",
-        "text": "欧氏距离健康评估方法"
-      },
-      {
-        "type": "Algorithm",
-        "text": "支持向量机（support vector machine，SVM）"
-      },
-      {
-        "type": "Task",
-        "text": "故障诊断"
-      }
-    ],
-    "relations": [
-      {
-        "type": "是...的关键技术",
-        "head": "故障特征提取",
-        "tail": "航空电子设备故障预测"
-      },
-      {
-        "type": "提出了",
-        "head": "文章",
-        "tail": "基于极大似然和降噪自编码神经网络方法"
-      },
-      {
-        "type": "结合了",
-        "head": "基于极大似然和降噪自编码神经网络方法",
-        "tail": "极大似然法"
-      },
-      {
-        "type": "结合了",
-        "head": "基于极大似然和降噪自编码神经网络方法",
-        "tail": "降噪自编码神经网络"
-      },
-      {
-        "type": "用于分析",
-        "head": "极大似然法",
-        "tail": "高维数据集"
-      },
-      {
-        "type": "用于估计",
-        "head": "极大似然法",
-        "tail": "需要提取故障特征的维数"
-      },
-      {
-        "type": "用于",
-        "head": "降噪自编码神经网络",
-        "tail": "将高维故障信息映射到指定维数的数据空间"
-      },
-      {
-        "type": "用于",
-        "head": "降噪自编码神经网络",
-        "tail": "提取关键的故障特征"
-      },
-      {
-        "type": "作为...实例",
-        "head": "航空电子系统电源模块",
-        "tail": "验证本文提出的算法"
-      },
-      {
-        "type": "不适合处理",
-        "head": "LDA",
-        "tail": "非线性数据"
-      },
-      {
-        "type": "不适合处理",
-        "head": "PCA",
-        "tail": "非线性数据"
-      },
-      {
-        "type": "可以处理",
-        "head": "KPCA",
-        "tail": "非线性数据"
-      },
-      {
-        "type": "严重依赖于",
-        "head": "KPCA",
-        "tail": "核函数选择"
-      },
-      {
-        "type": "存在问题",
-        "head": "非线性流行学习方法",
-        "tail": "邻域大小选取敏感"
-      },
-      {
-        "type": "由...构成",
-        "head": "自编码神经网络",
-        "tail": "编码（encoder）"
-      },
-      {
-        "type": "由...构成",
-        "head": "自编码神经网络",
-        "tail": "解码（decoder）"
-      },
-      {
-        "type": "是...的一种",
-        "head": "降噪自编码神经网络",
-        "tail": "自编码神经网络"
-      },
-      {
-        "type": "具有",
-        "head": "降噪自编码神经网络",
-        "tail": "抗噪声能力"
-      },
-      {
-        "type": "用于估计",
-        "head": "极大似然法",
-        "tail": "输入数据的本征维数"
-      },
-      {
-        "type": "作为",
-        "head": "本征维数",
-        "tail": "自编码网络输出维数"
-      },
-      {
-        "type": "核心模块为",
-        "head": "电源转换单元",
-        "tail": "DC- DC变换器"
-      },
-      {
-        "type": "失效概率较大的部件包括",
-        "head": "DC- DC变换器",
-        "tail": "电解电容器"
-      },
-      {
-        "type": "失效概率较大的部件包括",
-        "head": "DC- DC变换器",
-        "tail": "MOS管"
-      },
-      {
-        "type": "失效概率较大的部件包括",
-        "head": "DC- DC变换器",
-        "tail": "二极管"
-      },
-      {
-        "type": "分为",
-        "head": "DC- DC变换器全寿命周期",
-        "tail": "正常态"
-      },
-      {
-        "type": "分为",
-        "head": "DC- DC变换器全寿命周期",
-        "tail": "退化状态"
-      },
-      {
-        "type": "分为",
-        "head": "DC- DC变换器全寿命周期",
-        "tail": "故障态"
-      },
-      {
-        "type": "用于验证",
-        "head": "SVM方法",
-        "tail": "极大似然估计的故障维数"
-      },
-      {
-        "type": "优于",
-        "head": "降噪自编码神经网络",
-        "tail": "PCA"
-      },
-      {
-        "type": "优于",
-        "head": "降噪自编码神经网络",
-        "tail": "IOSMAP"
-      },
-      {
-        "type": "用于",
-        "head": "欧氏距离健康评估方法",
-        "tail": "分析提取的故障特征效果"
-      },
-      {
-        "type": "可应用于",
-        "head": "本文提出的方法",
-        "tail": "故障诊断的特征提取"
-      }
-    ]
-  }
-]
+{
+  "entities": [
+    {
+      "text": "故障特征提取",
+      "type": "Task"
+    },
+    {
+      "text": "航空电子设备",
+      "type": "Research Object"
+    },
+    {
+      "text": "故障预测",
+      "type": "Task"
+    },
+    {
+      "text": "小波变换",
+      "type": "Algorithm"
+    },
+    {
+      "text": "傅里叶变换",
+      "type": "Algorithm"
+    },
+    {
+      "text": "经验模态分解",
+      "type": "Algorithm"
+    },
+    {
+      "text": "基于极大似然和降噪自编码神经网络方法",
+      "type": "Method"
+    },
+    {
+      "text": "极大似然法",
+      "type": "Method"
+    },
+    {
+      "text": "降噪自编码神经网络",
+      "type": "Model"
+    },
+    {
+      "text": "高维数据集",
+      "type": "Data"
+    },
+    {
+      "text": "维数估计",
+      "type": "Task"
+    },
+    {
+      "text": "故障特征可视化",
+      "type": "Validation Method"
+    },
+    {
+      "text": "健康评估",
+      "type": "Validation Method"
+    },
+    {
+      "text": "航空电子系统电源模块",
+      "type": "Example"
+    },
+    {
+      "text": "故障预测和健康管理（prognostics and health management，PHM）",
+      "type": "Concept"
+    },
+    {
+      "text": "预测性维修",
+      "type": "Strategy"
+    },
+    {
+      "text": "灰色理论",
+      "type": "Model"
+    },
+    {
+      "text": "相关向量机",
+      "type": "Model"
+    },
+    {
+      "text": "隐马尔科夫模型",
+      "type": "Model"
+    },
+    {
+      "text": "混合预测模型",
+      "type": "Model"
+    },
+    {
+      "text": "小波包分解",
+      "type": "Algorithm"
+    },
+    {
+      "text": "谱峭度方法",
+      "type": "Method"
+    },
+    {
+      "text": "线性辨别分析（LDA）",
+      "type": "Algorithm"
+    },
+    {
+      "text": "主成分分析（PCA）",
+      "type": "Algorithm"
+    },
+    {
+      "text": "核主元分析（KPCA）",
+      "type": "Algorithm"
+    },
+    {
+      "text": "KLDA",
+      "type": "Algorithm"
+    },
+    {
+      "text": "非线性流行学习方法",
+      "type": "Method Category"
+    },
+    {
+      "text": "等距离映射（IOSMAP）",
+      "type": "Algorithm"
+    },
+    {
+      "text": "过拟合",
+      "type": "Problem"
+    },
+    {
+      "text": "自编码神经网络",
+      "type": "Model"
+    },
+    {
+      "text": "编码（encoder）",
+      "type": "Component"
+    },
+    {
+      "text": "解码（decoder）",
+      "type": "Component"
+    },
+    {
+      "text": "栈式自编码算法",
+      "type": "Algorithm"
+    },
+    {
+      "text": "无监督逐层贪婪预训练",
+      "type": "Training Method"
+    },
+    {
+      "text": "本征维数",
+      "type": "Concept"
+    },
+    {
+      "text": "综合模块化航电系统（integrated modular avionics, IMA）",
+      "type": "System"
+    },
+    {
+      "text": "DC- DC变换器",
+      "type": "Component"
+    },
+    {
+      "text": "电解电容器",
+      "type": "Component"
+    },
+    {
+      "text": "MOS管",
+      "type": "Component"
+    },
+    {
+      "text": "二极管",
+      "type": "Component"
+    },
+    {
+      "text": "正常态",
+      "type": "Health State"
+    },
+    {
+      "text": "退化状态",
+      "type": "Health State"
+    },
+    {
+      "text": "故障态",
+      "type": "Health State"
+    },
+    {
+      "text": "欧氏距离",
+      "type": "Metric"
+    },
+    {
+      "text": "欧氏距离健康评估方法",
+      "type": "Method"
+    },
+    {
+      "text": "支持向量机（support vector machine，SVM）",
+      "type": "Algorithm"
+    },
+    {
+      "text": "故障诊断",
+      "type": "Task"
+    },
+    {
+      "text": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "论文"
+    },
+    {
+      "text": "陈华坤",
+      "type": "作者"
+    },
+    {
+      "text": "章卫国",
+      "type": "作者"
+    },
+    {
+      "text": "史静平",
+      "type": "作者"
+    },
+    {
+      "text": "何启志",
+      "type": "作者"
+    },
+    {
+      "text": "占正勇",
+      "type": "作者"
+    },
+    {
+      "text": "西北工业大学自动化学院",
+      "type": "发表单位"
+    },
+    {
+      "text": "中航工业自控所飞行控制一体化重点实验室",
+      "type": "发表单位"
+    },
+    {
+      "text": "2017-06-15",
+      "type": "发表时间"
+    }
+  ],
+  "relations": [
+    {
+      "head": "故障特征提取",
+      "tail": "航空电子设备故障预测",
+      "type": "是...的关键技术"
+    },
+    {
+      "head": "文章",
+      "tail": "基于极大似然和降噪自编码神经网络方法",
+      "type": "提出了"
+    },
+    {
+      "head": "基于极大似然和降噪自编码神经网络方法",
+      "tail": "极大似然法",
+      "type": "结合了"
+    },
+    {
+      "head": "基于极大似然和降噪自编码神经网络方法",
+      "tail": "降噪自编码神经网络",
+      "type": "结合了"
+    },
+    {
+      "head": "极大似然法",
+      "tail": "高维数据集",
+      "type": "用于分析"
+    },
+    {
+      "head": "极大似然法",
+      "tail": "需要提取故障特征的维数",
+      "type": "用于估计"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "将高维故障信息映射到指定维数的数据空间",
+      "type": "用于"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "提取关键的故障特征",
+      "type": "用于"
+    },
+    {
+      "head": "航空电子系统电源模块",
+      "tail": "验证本文提出的算法",
+      "type": "作为...实例"
+    },
+    {
+      "head": "LDA",
+      "tail": "非线性数据",
+      "type": "不适合处理"
+    },
+    {
+      "head": "PCA",
+      "tail": "非线性数据",
+      "type": "不适合处理"
+    },
+    {
+      "head": "KPCA",
+      "tail": "非线性数据",
+      "type": "可以处理"
+    },
+    {
+      "head": "KPCA",
+      "tail": "核函数选择",
+      "type": "严重依赖于"
+    },
+    {
+      "head": "非线性流行学习方法",
+      "tail": "邻域大小选取敏感",
+      "type": "存在问题"
+    },
+    {
+      "head": "自编码神经网络",
+      "tail": "编码（encoder）",
+      "type": "由...构成"
+    },
+    {
+      "head": "自编码神经网络",
+      "tail": "解码（decoder）",
+      "type": "由...构成"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "自编码神经网络",
+      "type": "是...的一种"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "抗噪声能力",
+      "type": "具有"
+    },
+    {
+      "head": "极大似然法",
+      "tail": "输入数据的本征维数",
+      "type": "用于估计"
+    },
+    {
+      "head": "本征维数",
+      "tail": "自编码网络输出维数",
+      "type": "作为"
+    },
+    {
+      "head": "电源转换单元",
+      "tail": "DC- DC变换器",
+      "type": "核心模块为"
+    },
+    {
+      "head": "DC- DC变换器",
+      "tail": "电解电容器",
+      "type": "失效概率较大的部件包括"
+    },
+    {
+      "head": "DC- DC变换器",
+      "tail": "MOS管",
+      "type": "失效概率较大的部件包括"
+    },
+    {
+      "head": "DC- DC变换器",
+      "tail": "二极管",
+      "type": "失效概率较大的部件包括"
+    },
+    {
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "正常态",
+      "type": "分为"
+    },
+    {
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "退化状态",
+      "type": "分为"
+    },
+    {
+      "head": "DC- DC变换器全寿命周期",
+      "tail": "故障态",
+      "type": "分为"
+    },
+    {
+      "head": "SVM方法",
+      "tail": "极大似然估计的故障维数",
+      "type": "用于验证"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "PCA",
+      "type": "优于"
+    },
+    {
+      "head": "降噪自编码神经网络",
+      "tail": "IOSMAP",
+      "type": "优于"
+    },
+    {
+      "head": "欧氏距离健康评估方法",
+      "tail": "分析提取的故障特征效果",
+      "type": "用于"
+    },
+    {
+      "head": "本文提出的方法",
+      "tail": "故障诊断的特征提取",
+      "type": "可应用于"
+    },
+    {
+      "head": "陈华坤",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "撰写"
+    },
+    {
+      "head": "章卫国",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "撰写"
+    },
+    {
+      "head": "史静平",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "撰写"
+    },
+    {
+      "head": "何启志",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "撰写"
+    },
+    {
+      "head": "占正勇",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "type": "撰写"
+    },
+    {
+      "head": "陈华坤",
+      "tail": "西北工业大学自动化学院",
+      "type": "隶属"
+    },
+    {
+      "head": "航空电子设备故障预测特征参数提取方法研究",
+      "tail": "2017-06-15",
+      "type": "发表于"
+    }
+  ]
+}
