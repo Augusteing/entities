@@ -1,0 +1,525 @@
+{
+  "entities": [
+    {
+      "text": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空装备可用度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "可用度影响因素",
+      "type": "概念",
+      "evaluation": "正确"
+    },
+    {
+      "text": "PHM",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "使用影响因素",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "设计影响因素",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "仿真",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "稳态可用度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "解析计算公式",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "仿真程序",
+      "type": "工具",
+      "evaluation": "正确"
+    },
+    {
+      "text": "单因素分析",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "多因素耦合分析",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "可用性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "可靠性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "测试性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "维修性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "保障性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "可用度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "概率模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障预测与健康管理",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "装备系统的构成及其可靠性、维修性参数",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "保障系统的属性",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "装备系统所执行的任务信息",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "装备停机时间",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "装备的使用可用度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "剩余寿命预测",
+      "type": "功能",
+      "evaluation": "正确"
+    },
+    {
+      "text": "FMECA",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于状态维修",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "预防性维修",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "机载PHM系统",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "外场可更换单元",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障隔离时间",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "随机故障",
+      "type": "故障",
+      "evaluation": "正确"
+    },
+    {
+      "text": "保障延误时间",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "漏报",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "误报",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "影响因素仿真模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模块的可靠性",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "MTBF",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障诊断时机",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "PHM系统预测准确率",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障修复时间",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "保障资源准备时间",
+      "type": "影响因素",
+      "evaluation": "正确"
+    },
+    {
+      "text": "参数输入模块",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "过程数据存储模块",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "数据处理模块",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "结果输出模块",
+      "type": "组件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "单变量仿真",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "多变量耦合影响仿真",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "论文",
+      "evaluation": "正确"
+    },
+    {
+      "text": "刘瑞",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "马麟",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "康锐",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "邹莹芝",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "北京航空航天大学可靠性与系统工程学院",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "北京强度环境研究所",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "2011-10-20 11:26",
+      "type": "发表时间",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "head": "本文",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "提出",
+      "evaluation": "错误"
+    },
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "使用影响因素",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "设计影响因素",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "装备系统的构成及其可靠性、维修性参数",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "保障系统的属性",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空装备可用度影响因素",
+      "tail": "装备系统所执行的任务信息",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "模块的可靠性",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "故障诊断时机",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "PHM系统预测准确率",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "故障修复时间",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设计影响因素",
+      "tail": "保障资源准备时间",
+      "type": "包括",
+      "evaluation": "正确"
+    },
+    {
+      "head": "可用性",
+      "tail": "可靠性",
+      "type": "是...的综合表征",
+      "evaluation": "正确"
+    },
+    {
+      "head": "可用性",
+      "tail": "测试性",
+      "type": "是...的综合表征",
+      "evaluation": "正确"
+    },
+    {
+      "head": "可用性",
+      "tail": "维修性",
+      "type": "是...的综合表征",
+      "evaluation": "正确"
+    },
+    {
+      "head": "可用性",
+      "tail": "保障性",
+      "type": "是...的综合表征",
+      "evaluation": "正确"
+    },
+    {
+      "head": "可用度",
+      "tail": "可用性",
+      "type": "用于度量",
+      "evaluation": "正确"
+    },
+    {
+      "head": "PHM技术",
+      "tail": "装备停机时间",
+      "type": "减少",
+      "evaluation": "正确"
+    },
+    {
+      "head": "PHM技术",
+      "tail": "装备的使用可用度",
+      "type": "提高",
+      "evaluation": "正确"
+    },
+    {
+      "head": "PHM技术",
+      "tail": "预防性维修",
+      "type": "取消",
+      "evaluation": "正确"
+    },
+    {
+      "head": "机载PHM系统",
+      "tail": "修复性维修中的故障隔离时间",
+      "type": "减少",
+      "evaluation": "错误"
+    },
+    {
+      "head": "PHM技术",
+      "tail": "保障延误时间",
+      "type": "缩短",
+      "evaluation": "正确"
+    },
+    {
+      "head": "漏报",
+      "tail": "随机故障",
+      "type": "导致",
+      "evaluation": "错误"
+    },
+    {
+      "head": "误报",
+      "tail": "装备的可用度",
+      "type": "降低",
+      "evaluation": "错误"
+    },
+    {
+      "head": "仿真模型",
+      "tail": "稳态可用度",
+      "type": "输出",
+      "evaluation": "正确"
+    },
+    {
+      "head": "模块的可靠性",
+      "tail": "MTBF",
+      "type": "用...度量",
+      "evaluation": "正确"
+    },
+    {
+      "head": "仿真程序",
+      "tail": "参数输入模块",
+      "type": "由...构成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "仿真程序",
+      "tail": "过程数据存储模块",
+      "type": "由...构成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "仿真程序",
+      "tail": "数据处理模块",
+      "type": "由...构成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "仿真程序",
+      "tail": "结果输出模块",
+      "type": "由...构成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "MTBF",
+      "tail": "基本作战单元可用度",
+      "type": "是...主要影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "head": "PHM系统预测准确率",
+      "tail": "基本作战单元可用度",
+      "type": "是...主要影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "head": "故障修复时间",
+      "tail": "基本作战单元可用度",
+      "type": "是...主要影响因素",
+      "evaluation": "错误"
+    },
+    {
+      "head": "实例",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "验证了...可行性",
+      "evaluation": "错误"
+    },
+    {
+      "head": "刘瑞",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "马麟",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "康锐",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "邹莹芝",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "刘瑞",
+      "tail": "北京航空航天大学可靠性与系统工程学院",
+      "type": "隶属",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于PHM的航空装备可用度影响因素分析方法",
+      "tail": "2011-10-20 11:26",
+      "type": "发表于",
+      "evaluation": "正确"
+    }
+  ]
+}

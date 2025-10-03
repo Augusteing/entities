@@ -212,14 +212,7 @@ def main():
             w.writerow(['模型','实体数量','实体类型数量','关系数量','关系类型数量'])
             for row in results:
                 w.writerow(row)
-    print('汇总CSV已生成:', csv_path)
-    print('\n运行参数概览:')
-    print('  use-paper-stems       =', args.use_paper_stems)
-    print('  only-correct          =', args.only_correct)
-    print('  only-correct-entities =', args.only_correct_entities)
-    print('  dedup-relations       =', args.dedup_relations)
-    print('  strict-correct        =', args.strict_correct)
-    print('  debug-relations       =', args.debug_relations)
+        print('汇总CSV已生成:', csv_path)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,931 @@
+{
+  "entities": [
+    {
+      "text": "健康监测与预测系统",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "先进维护管理系统",
+      "type": "系统类型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "全面的故障检测、预测与状态管理系统",
+      "type": "系统类型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "先进传感器技术",
+      "type": "关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障诊断与健康评估技术",
+      "type": "关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障预测技术",
+      "type": "关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "数据融合技术",
+      "type": "关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "系统验证与评价技术",
+      "type": "关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "虚警率高",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "不能复现",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "重测合格",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障诊断工时和平均修复时间（MTTR)过长",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机使用保障费用高",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "综合诊断方案",
+      "type": "解决方案",
+      "evaluation": "正确"
+    },
+    {
+      "text": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "中央维护系统(CMS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "提高飞机可靠性、维修性、安全性和保障性",
+      "type": "目标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "降低使用与保障费用",
+      "type": "目标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "直升机",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "固定翼飞机",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "民用大型飞机",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "传动系统",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "机体",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "发动机",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "旋翼",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "状态管理",
+      "type": "概念",
+      "evaluation": "正确"
+    },
+    {
+      "text": "视情维护",
+      "type": "概念",
+      "evaluation": "正确"
+    },
+    {
+      "text": "测试性/BIT",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "状态检测",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "余度技术",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "重构技术",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于传感器的诊断",
+      "type": "诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于智能系统的预测",
+      "type": "预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机航空电子系统",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "机电系统",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机结构",
+      "type": "部件",
+      "evaluation": "正确"
+    },
+    {
+      "text": "PL航空电子公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "Bristow直升机公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "IHUMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "座舱语音和飞行数据记录(CVFDR)",
+      "type": "功能",
+      "evaluation": "正确"
+    },
+    {
+      "text": "GEC- PL公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "GenHUMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "Smiths Industries公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "UHUMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "法国宇航公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "MHUMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "EUROHUMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "法国欧直公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "M'ARMS",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞行器综合健康管理(integrated vehicle health management, 简称IVHM)",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机状态监测系统(aircraft condition monitoring system, 简称ACMS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "发动机监测系统(engine monitoring system, 简称EMS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "综合诊断预测系统(integrated diagnostics and prognostics system, 简称IDPS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "综合状态评估系统(integrated condition assessment system, 简称ICAS)",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "F-22A“猛禽”",
+      "type": "飞机型号",
+      "evaluation": "正确"
+    },
+    {
+      "text": "F-35“联合攻击战斗机”",
+      "type": "飞机型号",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机状态管理系统（aircraft health management，简称AHM）",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "波音公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "B777",
+      "type": "飞机型号",
+      "evaluation": "正确"
+    },
+    {
+      "text": "B747-400",
+      "type": "飞机型号",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机状态分析与管理系统（ACAMS）",
+      "type": "系统",
+      "evaluation": "正确"
+    },
+    {
+      "text": "航空无线电通信公司",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "NASA兰利研究中心",
+      "type": "组织",
+      "evaluation": "正确"
+    },
+    {
+      "text": "落地维修",
+      "type": "维修模式",
+      "evaluation": "正确"
+    },
+    {
+      "text": "空中诊断、预测、预报、地面远程诊断、地面准备和飞机着陆后快速修复",
+      "type": "维修模式",
+      "evaluation": "正确"
+    },
+    {
+      "text": "诊断、维修、后勤保障一体化设计",
+      "type": "概念",
+      "evaluation": "正确"
+    },
+    {
+      "text": "任务成功率",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "现代控制理论",
+      "type": "理论",
+      "evaluation": "正确"
+    },
+    {
+      "text": "可靠性理论",
+      "type": "理论",
+      "evaluation": "正确"
+    },
+    {
+      "text": "数理统计",
+      "type": "理论",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模糊集理论",
+      "type": "理论",
+      "evaluation": "正确"
+    },
+    {
+      "text": "信号处理",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模式识别",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "人工智能",
+      "type": "技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "状态监测",
+      "type": "子技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "健康评估",
+      "type": "子技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障诊断",
+      "type": "子技术",
+      "evaluation": "正确"
+    },
+    {
+      "text": "正常状态",
+      "type": "设备状态",
+      "evaluation": "正确"
+    },
+    {
+      "text": "健康退化状态",
+      "type": "设备状态",
+      "evaluation": "正确"
+    },
+    {
+      "text": "危险状态",
+      "type": "设备状态",
+      "evaluation": "正确"
+    },
+    {
+      "text": "故障（失效）状态",
+      "type": "设备状态",
+      "evaluation": "正确"
+    },
+    {
+      "text": "贝叶斯推论",
+      "type": "数据融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "D- S证据理论",
+      "type": "数据融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "模糊逻辑推论",
+      "type": "数据融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "神经网络",
+      "type": "数据融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "较低层次的数据融合",
+      "type": "数据融合层次",
+      "evaluation": "正确"
+    },
+    {
+      "text": "较高层次的信息融合",
+      "type": "数据融合层次",
+      "evaluation": "正确"
+    },
+    {
+      "text": "最高层次的知识/决策融合",
+      "type": "数据融合层次",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于分析评估的方法",
+      "type": "验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于仿真的方法",
+      "type": "验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于试验的方法",
+      "type": "验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于状态的维修（CBM）",
+      "type": "维修策略",
+      "evaluation": "正确"
+    },
+    {
+      "text": "自主式保障",
+      "type": "保障策略",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机健康监测与预测系统的发展及展望",
+      "type": "论文",
+      "evaluation": "正确"
+    },
+    {
+      "text": "莫固良",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "汪慧云",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "李兴旺",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "单添敏",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "中航工业上海航空测控技术研究所",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "2013-12-15",
+      "type": "发表时间",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "head": "健康监测与预测系统",
+      "tail": "先进维护管理系统",
+      "type": "是一种",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "全面的故障检测、预测与状态管理系统",
+      "type": "是一种",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "先进传感器技术",
+      "type": "涉及关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "故障诊断与健康评估技术",
+      "type": "涉及关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "故障预测技术",
+      "type": "涉及关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "数据融合技术",
+      "type": "涉及关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "系统验证与评价技术",
+      "type": "涉及关键技术",
+      "evaluation": "正确"
+    },
+    {
+      "head": "综合诊断方案",
+      "tail": "虚警率高",
+      "type": "旨在解决",
+      "evaluation": "正确"
+    },
+    {
+      "head": "综合诊断方案",
+      "tail": "故障诊断工时和平均修复时间（MTTR)过长",
+      "type": "旨在解决",
+      "evaluation": "正确"
+    },
+    {
+      "head": "综合诊断方案",
+      "tail": "飞机使用保障费用高",
+      "type": "旨在解决",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "提高飞机可靠性、维修性、安全性和保障性",
+      "type": "旨在实现",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "降低使用与保障费用",
+      "type": "旨在实现",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "直升机",
+      "type": "针对",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "固定翼飞机",
+      "type": "针对",
+      "evaluation": "正确"
+    },
+    {
+      "head": "中央维护系统(CMS)",
+      "tail": "民用大型飞机",
+      "type": "针对",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "传动系统",
+      "type": "监测",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "机体",
+      "type": "监测",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "发动机",
+      "type": "监测",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "旋翼",
+      "type": "监测",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "视情维护",
+      "type": "实现",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "测试性/BIT",
+      "type": "基于成果",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "状态检测",
+      "type": "基于成果",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "余度技术",
+      "type": "基于成果",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "重构技术",
+      "type": "基于成果",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "tail": "从“基于传感器的诊断”到“基于智能系统的预测”",
+      "type": "实现转变",
+      "evaluation": "正确"
+    },
+    {
+      "head": "中央维护系统(CMS)",
+      "tail": "飞机航空电子系统",
+      "type": "维护对象覆盖",
+      "evaluation": "正确"
+    },
+    {
+      "head": "中央维护系统(CMS)",
+      "tail": "机电系统",
+      "type": "维护对象覆盖",
+      "evaluation": "正确"
+    },
+    {
+      "head": "中央维护系统(CMS)",
+      "tail": "飞机结构",
+      "type": "维护对象覆盖",
+      "evaluation": "正确"
+    },
+    {
+      "head": "PL航空电子公司",
+      "tail": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "Bristow直升机公司",
+      "tail": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "GEC- PL公司",
+      "tail": "IHUMS",
+      "type": "综合...形成",
+      "evaluation": "正确"
+    },
+    {
+      "head": "Smiths Industries公司",
+      "tail": "GenHUMS",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "法国宇航公司",
+      "tail": "UHUMS",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "Bristow直升机公司",
+      "tail": "MHUMS",
+      "type": "共同开发",
+      "evaluation": "正确"
+    },
+    {
+      "head": "Smiths Industries公司",
+      "tail": "MHUMS",
+      "type": "共同开发",
+      "evaluation": "正确"
+    },
+    {
+      "head": "EUROHUMS",
+      "tail": "M'ARMS",
+      "type": "发展为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "F-35“联合攻击战斗机”",
+      "tail": "飞机故障预测和状态管理系统（prognostics and health management system，简称PHM)",
+      "type": "设立项目",
+      "evaluation": "错误"
+    },
+    {
+      "head": "波音公司",
+      "tail": "飞机状态管理系统（aircraft health management，简称AHM）",
+      "type": "应用...技术开发",
+      "evaluation": "正确"
+    },
+    {
+      "head": "航空无线电通信公司",
+      "tail": "飞机状态分析与管理系统（ACAMS）",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "NASA兰利研究中心",
+      "tail": "飞机状态分析与管理系统（ACAMS）",
+      "type": "研制",
+      "evaluation": "正确"
+    },
+    {
+      "head": "落地维修",
+      "tail": "空中诊断、预测、预报、地面远程诊断、地面准备和飞机着陆后快速修复",
+      "type": "发展为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "传统飞机维修",
+      "tail": "诊断、维修、后勤保障一体化设计",
+      "type": "发展为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "直升机完好性与使用监测系统（health and usage monitoring system，简称HUMS)",
+      "tail": "任务成功率",
+      "type": "提高",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断与健康评估技术",
+      "tail": "状态监测",
+      "type": "包含",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断与健康评估技术",
+      "tail": "健康评估",
+      "type": "包含",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断与健康评估技术",
+      "tail": "故障诊断",
+      "type": "包含",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断与健康评估技术",
+      "tail": "现代控制理论",
+      "type": "涉及学科",
+      "evaluation": "正确"
+    },
+    {
+      "head": "故障诊断与健康评估技术",
+      "tail": "人工智能",
+      "type": "涉及学科",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设备使用过程",
+      "tail": "正常状态",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设备使用过程",
+      "tail": "健康退化状态",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设备使用过程",
+      "tail": "危险状态",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "设备使用过程",
+      "tail": "故障（失效）状态",
+      "type": "分为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "贝叶斯推论",
+      "type": "常用算法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "D- S证据理论",
+      "type": "常用算法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "模糊逻辑推论",
+      "type": "常用算法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "神经网络",
+      "type": "常用算法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "较低层次的数据融合",
+      "type": "包含层次",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "较高层次的信息融合",
+      "type": "包含层次",
+      "evaluation": "正确"
+    },
+    {
+      "head": "数据融合技术",
+      "tail": "最高层次的知识/决策融合",
+      "type": "包含层次",
+      "evaluation": "正确"
+    },
+    {
+      "head": "系统验证与评价技术",
+      "tail": "基于分析评估的方法",
+      "type": "主要验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "系统验证与评价技术",
+      "tail": "基于仿真的方法",
+      "type": "主要验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "系统验证与评价技术",
+      "tail": "基于试验的方法",
+      "type": "主要验证方法",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "基于状态的维修（CBM）",
+      "type": "发展趋势是支持",
+      "evaluation": "正确"
+    },
+    {
+      "head": "健康监测与预测系统",
+      "tail": "自主式保障",
+      "type": "发展趋势是支持",
+      "evaluation": "正确"
+    },
+    {
+      "head": "莫固良",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "汪慧云",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "李兴旺",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "单添敏",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "莫固良",
+      "tail": "中航工业上海航空测控技术研究所",
+      "type": "隶属",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机健康监测与预测系统的发展及展望",
+      "tail": "2013-12-15",
+      "type": "发表于",
+      "evaluation": "正确"
+    }
+  ]
+}

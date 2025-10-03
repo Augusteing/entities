@@ -1,0 +1,297 @@
+{
+  "entities": [
+    {
+      "text": "飞机发动机故障",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "特征信号",
+      "type": "信号",
+      "evaluation": "正确"
+    },
+    {
+      "text": "传统的基于灰色理论的飞机发动机故障预测",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "特征参数",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "预测的准确性不能满足实际工程需要",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "某型发动机故障",
+      "type": "研究对象",
+      "evaluation": "正确"
+    },
+    {
+      "text": "灰色预测建模",
+      "type": "思想",
+      "evaluation": "正确"
+    },
+    {
+      "text": "信息融合",
+      "type": "思想",
+      "evaluation": "正确"
+    },
+    {
+      "text": "基于多故障特征参数的发动机故障预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "预测的准确性",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "灰色系统理论",
+      "type": "理论",
+      "evaluation": "正确"
+    },
+    {
+      "text": "灰色GM(l，1)模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "机械敲缸系数",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "燃料敲缸系数",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "功率谱均值",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "峰值值",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "平均振值",
+      "type": "参数",
+      "evaluation": "正确"
+    },
+    {
+      "text": "多故障特征参数预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "GM(1,1)预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "滞后误差",
+      "type": "问题",
+      "evaluation": "正确"
+    },
+    {
+      "text": "发动机故障的多参数预测模型",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "n元一阶常微分方程组",
+      "type": "方程",
+      "evaluation": "正确"
+    },
+    {
+      "text": "最小二乘法",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "GM(1,n)",
+      "type": "模型",
+      "evaluation": "正确"
+    },
+    {
+      "text": "预测表决的方式",
+      "type": "方法",
+      "evaluation": "正确"
+    },
+    {
+      "text": "拟合精度",
+      "type": "指标",
+      "evaluation": "正确"
+    },
+    {
+      "text": "较高的预测准确性",
+      "type": "结果",
+      "evaluation": "正确"
+    },
+    {
+      "text": "飞机发动机故障的多参数预测模型",
+      "type": "论文",
+      "evaluation": "正确"
+    },
+    {
+      "text": "孙姜燕",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "徐艳玲",
+      "type": "作者",
+      "evaluation": "正确"
+    },
+    {
+      "text": "西安外事学院现代技术教育中心",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "中航工业自动控制研究所",
+      "type": "发表单位",
+      "evaluation": "正确"
+    },
+    {
+      "text": "2011-07-20 15:12",
+      "type": "发表时间",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "head": "飞机发动机故障",
+      "tail": "特征信号",
+      "type": "表现为",
+      "evaluation": "正确"
+    },
+    {
+      "head": "传统的基于灰色理论的飞机发动机故障预测",
+      "tail": "预测的准确性不能满足实际工程需要",
+      "type": "存在问题",
+      "evaluation": "正确"
+    },
+    {
+      "head": "预测的准确性不能满足实际工程需要",
+      "tail": "只考虑一个特征参数或单独考虑几个特征参数",
+      "type": "原因是",
+      "evaluation": "正确"
+    },
+    {
+      "head": "本文",
+      "tail": "基于多故障特征参数的发动机故障预测模型",
+      "type": "提出了",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "灰色预测建模",
+      "type": "借鉴了",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "信息融合",
+      "type": "借鉴了",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "预测的准确性",
+      "type": "提高了",
+      "evaluation": "正确"
+    },
+    {
+      "head": "灰色系统理论",
+      "tail": "飞机发动机故障预测",
+      "type": "应用于",
+      "evaluation": "正确"
+    },
+    {
+      "head": "灰色GM(l，1)模型",
+      "tail": "缺乏对各特征参数的统一考虑",
+      "type": "存在不足",
+      "evaluation": "正确"
+    },
+    {
+      "head": "GM(1,1)预测模型",
+      "tail": "滞后误差",
+      "type": "产生",
+      "evaluation": "正确"
+    },
+    {
+      "head": "发动机故障的多参数预测模型",
+      "tail": "n元一阶常微分方程组",
+      "type": "建立了",
+      "evaluation": "正确"
+    },
+    {
+      "head": "多故障特征参数预测模型",
+      "tail": "GM(1,1)预测模型",
+      "type": "是...在n元参量下的推广",
+      "evaluation": "正确"
+    },
+    {
+      "head": "多故障特征参数预测模型",
+      "tail": "GM(1,n)",
+      "type": "不同于",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "多个相关特征参数时间序列",
+      "type": "统一考虑",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "较好拟合精度",
+      "type": "具有",
+      "evaluation": "正确"
+    },
+    {
+      "head": "基于多故障特征参数的发动机故障预测模型",
+      "tail": "较高的预测准确性",
+      "type": "具有",
+      "evaluation": "正确"
+    },
+    {
+      "head": "预测表决的方式",
+      "tail": "发动机即将出现的故障",
+      "type": "可准确判断",
+      "evaluation": "正确"
+    },
+    {
+      "head": "孙姜燕",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "徐艳玲",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "type": "撰写",
+      "evaluation": "正确"
+    },
+    {
+      "head": "孙姜燕",
+      "tail": "西安外事学院现代技术教育中心",
+      "type": "隶属",
+      "evaluation": "正确"
+    },
+    {
+      "head": "飞机发动机故障的多参数预测模型",
+      "tail": "2011-07-20 15:12",
+      "type": "发表于",
+      "evaluation": "正确"
+    }
+  ]
+}
