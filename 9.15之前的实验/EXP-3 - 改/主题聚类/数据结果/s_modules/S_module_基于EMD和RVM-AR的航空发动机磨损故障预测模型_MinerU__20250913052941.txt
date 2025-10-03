@@ -1,0 +1,102 @@
+【S：Few-Shot动态采样】
+以下示例均为与待抽取文本语义最相关的标注（不展示原段落），每个示例同时包含实体与关系字段：
+
+示例1：
+```json
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波算法"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波（Particle Filter，PF）"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "Dewallef和Leonard",
+      "tail": "无迹卡尔曼滤波（UKF）算法"
+    },
+    {
+      "type": "优于",
+      "head": "UKF",
+      "tail": "EKF"
+    },
+    {
+      "type": "精度更高于",
+      "head": "UKF",
+      "tail": "EKF和线性卡尔曼滤波算法"
+    },
+    {
+      "type": "应用于",
+      "head": "粒子滤波（Particle Filter，PF）",
+      "tail": "发动机气路故障诊断"
+    }
+  ]
+}
+```
+
+示例2：
+```json
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "线性卡尔曼滤波"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波"
+    },
+    {
+      "type": "技术",
+      "text": "Unscented变换"
+    },
+    {
+      "type": "算法",
+      "text": "双卡尔曼滤波器"
+    }
+  ],
+  "relations": [
+    {
+      "type": "计算量相对较大",
+      "head": "UKF",
+      "tail": "LKF、EKF"
+    }
+  ]
+}
+```
+
+示例3：
+```json
+{
+  "entities": [
+    {
+      "type": "诊断方法",
+      "text": "状态估计"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波算法"
+    },
+    {
+      "type": "算法",
+      "text": "线性卡尔曼滤波（LKF）"
+    },
+    {
+      "type": "模型",
+      "text": "机载自适应模型"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Brotherton等",
+      "tail": "机载自适应模型"
+    }
+  ]
+}
+```

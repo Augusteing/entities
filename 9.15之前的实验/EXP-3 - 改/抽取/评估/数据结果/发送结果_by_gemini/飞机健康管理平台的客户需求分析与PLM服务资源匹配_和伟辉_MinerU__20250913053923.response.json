@@ -1,0 +1,377 @@
+[
+  {
+    "entities": [
+      {
+        "type": "理论",
+        "text": "模糊理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能",
+        "text": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台的各个模块需实现的功能",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "灰色关联法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "客户需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "自回归求和移动平均（ARIMA）模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "客户需求的动态特征",
+        "evaluation": "正确"
+      },
+      {
+        "type": "工具",
+        "text": "质量屋（House of Quality，HOQ）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "全生命周期管理（Product Lifecycle Management，PLM）的服务资源",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "匹配度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "客户对航空系统各种服务资源的满意度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "平台",
+        "text": "飞机故障诊断与健康管理（Prognostic and Health Management，PHM）平台",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究领域",
+        "text": "航空业着力发展的研究领域",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "波音777的AHM系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "空客A380的AIRMAN系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "飞机综合诊断系统（IDS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究框架",
+        "text": "飞机PHM平台的客户需求获取与推理总体框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "灰色系统理论",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "需求种类的重要度排序",
+        "evaluation": "错误"
+      },
+      {
+        "type": "工具",
+        "text": "QFD",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "面向PLM的客户需求向服务资源映射的配置模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利益相关方",
+        "text": "机场",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利益相关方",
+        "text": "航空公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利益相关方",
+        "text": "飞机设计方",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利益相关方",
+        "text": "飞机制造商",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利益相关方",
+        "text": "飞行员",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "需求重要度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "时间序列分析方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "非平稳时间序列模型一ARIMA (p,d,q) 模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "工程技术支援",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "航材备品备件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "培训资料",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "计算中心",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "云平台",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "数据库",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "传感网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "服务资源",
+        "text": "知识库",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "服务资源匹配度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "飞机PHM系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能模块",
+        "text": "实时监控",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能模块",
+        "text": "故障诊断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能模块",
+        "text": "维修决策",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能模块",
+        "text": "健康评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "软件",
+        "text": "SPSS",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "ARIMA(2,1,1)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "预测对象",
+        "text": "之后5天的浏览量",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "确立",
+        "head": "模糊理论",
+        "tail": "飞机故障诊断和健康管理（Prognostic and Health Management，PHM）平台的各个模块需实现的功能",
+        "evaluation": "错误"
+      },
+      {
+        "type": "进行重要度排序",
+        "head": "灰色关联法",
+        "tail": "客户需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "求解",
+        "head": "自回归求和移动平均（ARIMA）模型",
+        "tail": "客户需求的动态特征",
+        "evaluation": "错误"
+      },
+      {
+        "type": "衡量",
+        "head": "质量屋（House of Quality，HOQ）",
+        "tail": "匹配度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "定量反映",
+        "head": "质量屋（House of Quality，HOQ）",
+        "tail": "客户对航空系统各种服务资源的满意度",
+        "evaluation": "错误"
+      },
+      {
+        "type": "成为",
+        "head": "飞机故障诊断与健康管理（Prognostic and Health Management，PHM）平台",
+        "tail": "航空业着力发展的研究领域",
+        "evaluation": "错误"
+      },
+      {
+        "type": "提出",
+        "head": "本文",
+        "tail": "飞机PHM平台的客户需求获取与推理总体框架",
+        "evaluation": "正确"
+      },
+      {
+        "type": "对...进行重要度排序",
+        "head": "灰色系统理论",
+        "tail": "需求种类的重要度排序",
+        "evaluation": "错误"
+      },
+      {
+        "type": "构建",
+        "head": "QFD",
+        "tail": "面向PLM的客户需求向服务资源映射的配置模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "用于分类",
+        "head": "模糊理论",
+        "tail": "客户需求",
+        "evaluation": "正确"
+      },
+      {
+        "type": "求解",
+        "head": "灰色关联法",
+        "tail": "需求重要度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "预测",
+        "head": "时间序列分析方法",
+        "tail": "未来的某个时刻观测量的数值",
+        "evaluation": "正确"
+      },
+      {
+        "type": "预测",
+        "head": "ARIMA模型",
+        "tail": "服务资源平台对于客户需求的承载能力",
+        "evaluation": "正确"
+      },
+      {
+        "type": "表征",
+        "head": "HOQ",
+        "tail": "客户需求与企业服务资源的匹配关系",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为",
+        "head": "飞机PHM系统",
+        "tail": "实时监控",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为",
+        "head": "飞机PHM系统",
+        "tail": "故障诊断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为",
+        "head": "飞机PHM系统",
+        "tail": "维修决策",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为",
+        "head": "飞机PHM系统",
+        "tail": "健康评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行检验",
+        "head": "SPSS",
+        "tail": "ARIMA模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的最优模型",
+        "head": "ARIMA(2,1,1)",
+        "tail": "预测之后5天的浏览量",
+        "evaluation": "正确"
+      },
+      {
+        "type": "决定",
+        "head": "服务匹配度",
+        "tail": "各项服务资源相对于客户需求的重要程度",
+        "evaluation": "错误"
+      },
+      {
+        "type": "评估",
+        "head": "服务匹配度",
+        "tail": "各项服务资源的价值高低",
+        "evaluation": "正确"
+      },
+      {
+        "type": "结合了",
+        "head": "飞机PHM平台的客户需求获取与推理研究框架",
+        "tail": "灰色关联法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "结合了",
+        "head": "飞机PHM平台的客户需求获取与推理研究框架",
+        "tail": "ARIMA预测",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "entities": [
+      {
+        "type": "系统",
+        "text": "综合模块化航空电子（IMA）系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "功能",
+        "text": "健康管理功能",
+        "evaluation": "正确"
+      },
+      {
+        "type": "网络技术",
+        "text": "航空电子全双工交换式以太网（AFDX）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术解决方案",
+        "text": "通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "故障数据的配置管理方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "主机数据更新间隔、发送间隔与AFDX端系统定时器周期不匹配",
+        "evaluation": "正确"
+      },
+      {
+        "type": "策略",
+        "text": "发送策略",
+        "evaluation": "正确"
+      },
+      {
+        "type": "装置",
+        "text": "故障注入装置",
+        "evaluation": "正确"
+      },
+      {
+        "type": "软件",
+        "text": "故障注入软件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "机制",
+        "text": "健康管理和故障预测（PHM）机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障注入方式",
+        "text": "非法数据输入",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障注入方式",
+        "text": "特殊信令输入",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "故障注入系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "故障注入功能主机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "AFDX交换机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "嵌入式系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "硬件",
+        "text": "PC机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方案",
+        "text": "轻量化的数据库结合二进制数据文件的方案",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据库",
+        "text": "SQLite",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据结构",
+        "text": "功能数据集合（FDS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "缺陷",
+        "text": "非实时操作系统定时精度不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组件",
+        "text": "多媒体定时器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "硬件",
+        "text": "AFDX端系统板卡",
+        "evaluation": "正确"
+      },
+      {
+        "type": "机制",
+        "text": "队列模式发送的多缓冲机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "硬件定时",
+        "text": "AFDX端系统板卡协处理器的定时器高精度硬件定时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "软件",
+        "text": "Copilot软件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "数据发送间隔的定时精度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "仿真方法",
+        "text": "故障注入半物理仿真",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "为...提供",
+        "head": "航空电子全双工交换式以太网（AFDX）",
+        "tail": "通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案",
+        "evaluation": "错误"
+      },
+      {
+        "type": "用于验证",
+        "head": "通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案",
+        "tail": "综合模块化航空电子（IMA）系统的健康管理功能",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提出",
+        "head": "通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案",
+        "tail": "故障数据的配置管理方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提出",
+        "head": "通过航空电子全双工交换式以太网（AFDX）进行故障注入的技术解决方案",
+        "tail": "发送策略",
+        "evaluation": "正确"
+      },
+      {
+        "type": "解决",
+        "head": "发送策略",
+        "tail": "主机数据更新间隔、发送间隔与AFDX端系统定时器周期不匹配",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的骨干网络",
+        "head": "航空电子全双工交换式以太网（AFDX）",
+        "tail": "综合模块化航空电子（IMA）系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "故障注入系统",
+        "tail": "故障注入功能主机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "故障注入系统",
+        "tail": "AFDX交换机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "由...组成",
+        "head": "故障注入系统",
+        "tail": "嵌入式系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用",
+        "head": "故障注入功能主机",
+        "tail": "PC机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "故障数据的配置管理方法",
+        "tail": "轻量化的数据库结合二进制数据文件的方案",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用",
+        "head": "轻量化的数据库结合二进制数据文件的方案",
+        "tail": "SQLite",
+        "evaluation": "正确"
+      },
+      {
+        "type": "弥补",
+        "head": "发送策略",
+        "tail": "非实时操作系统定时精度不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用",
+        "head": "发送策略",
+        "tail": "队列模式发送的多缓冲机制",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用",
+        "head": "发送策略",
+        "tail": "AFDX端系统板卡协处理器的定时器高精度硬件定时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "用于监控",
+        "head": "Copilot软件",
+        "tail": "消息帧",
+        "evaluation": "错误"
+      },
+      {
+        "type": "成倍提高",
+        "head": "发送策略",
+        "tail": "数据发送间隔的定时精度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "适用于",
+        "head": "故障注入软件",
+        "tail": "故障注入半物理仿真",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

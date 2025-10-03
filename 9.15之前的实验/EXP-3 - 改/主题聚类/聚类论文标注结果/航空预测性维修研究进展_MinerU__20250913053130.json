@@ -1,0 +1,922 @@
+{
+  "entities": [
+    {
+      "type": "维修模式",
+      "text": "以可靠性为中心的计划维修"
+    },
+    {
+      "type": "维修模式",
+      "text": "基于状态的预测性维修"
+    },
+    {
+      "type": "概念",
+      "text": "系统工程"
+    },
+    {
+      "type": "技术",
+      "text": "航空健康监测"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "技术",
+      "text": "失效预测"
+    },
+    {
+      "type": "技术",
+      "text": "预测性维修对策技术"
+    },
+    {
+      "type": "技术",
+      "text": "飞机健康监测技术"
+    },
+    {
+      "type": "维修模式",
+      "text": "计划维修"
+    },
+    {
+      "type": "维修模式",
+      "text": "视情维修"
+    },
+    {
+      "type": "维修模式",
+      "text": "预测性维修"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞机可利用率"
+    },
+    {
+      "type": "成本",
+      "text": "维修保障成本"
+    },
+    {
+      "type": "标准",
+      "text": "适航标准"
+    },
+    {
+      "type": "维修策略",
+      "text": "被动维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "主动维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "纠正性维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "事后维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "预防性维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "定时维修"
+    },
+    {
+      "type": "维修策略",
+      "text": "视情维修策略（Condition Based Maintenance，CBM）"
+    },
+    {
+      "type": "维修策略",
+      "text": "基于预测的预测性维修策略（Predictive Maintenance，PdM）"
+    },
+    {
+      "type": "概念",
+      "text": "广义的预测性维修"
+    },
+    {
+      "type": "概念",
+      "text": "传统的基于状态的CBM"
+    },
+    {
+      "type": "概念",
+      "text": "狭义的基于预测的PdM"
+    },
+    {
+      "type": "方法",
+      "text": "以可靠性为中心的维修（Reliability- Centered Maintenance，RCM）"
+    },
+    {
+      "type": "方法",
+      "text": "维修指导小组（Maintenance Steering Group，MSG）的维修任务分析方法"
+    },
+    {
+      "type": "概念",
+      "text": "过维修"
+    },
+    {
+      "type": "概念",
+      "text": "欠维修"
+    },
+    {
+      "type": "技术",
+      "text": "健康监测"
+    },
+    {
+      "type": "技术",
+      "text": "失效或RUL预测"
+    },
+    {
+      "type": "技术",
+      "text": "维修决策"
+    },
+    {
+      "type": "方法",
+      "text": "模型驱动"
+    },
+    {
+      "type": "方法",
+      "text": "数据驱动"
+    },
+    {
+      "type": "方法",
+      "text": "基于观测器方法"
+    },
+    {
+      "type": "方法",
+      "text": "奇偶空间法"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波器"
+    },
+    {
+      "type": "方法",
+      "text": "参数估计"
+    },
+    {
+      "type": "模型",
+      "text": "混合自动机"
+    },
+    {
+      "type": "模型",
+      "text": "有符号键图"
+    },
+    {
+      "type": "方法",
+      "text": "有监督方法"
+    },
+    {
+      "type": "方法",
+      "text": "半监督方法"
+    },
+    {
+      "type": "方法",
+      "text": "无监督方法"
+    },
+    {
+      "type": "算法",
+      "text": "SVM(支持向量机)"
+    },
+    {
+      "type": "算法",
+      "text": "DT(决策树)"
+    },
+    {
+      "type": "网络",
+      "text": "BN(贝叶斯网络)"
+    },
+    {
+      "type": "方法",
+      "text": "深度学习方法(LSTM,CNN)"
+    },
+    {
+      "type": "网络",
+      "text": "生成对抗网络(GANs)"
+    },
+    {
+      "type": "网络",
+      "text": "变分自编码器(VAE)"
+    },
+    {
+      "type": "方法",
+      "text": "最近邻方法"
+    },
+    {
+      "type": "方法",
+      "text": "聚类方法"
+    },
+    {
+      "type": "方法",
+      "text": "降维方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于自编码器半监督异常检测方法"
+    },
+    {
+      "type": "指标",
+      "text": "健康指标（HealthIndicator，HI)"
+    },
+    {
+      "type": "方法",
+      "text": "基于多元状态估计技术的空调系统散热器HI"
+    },
+    {
+      "type": "模型",
+      "text": "基于长短期记忆网络自编码器(Long- Short Term Memory- Autoencoder,LSTM- AE)的HI计算模型"
+    },
+    {
+      "type": "指标",
+      "text": "迟滞时间"
+    },
+    {
+      "type": "方法",
+      "text": "LSTM- AE模型与核密度估计相结合的方法"
+    },
+    {
+      "type": "系统",
+      "text": "先进诊断及发动机监控系统（Advanced Diagnostic and Engine Monitoring，ADEM）"
+    },
+    {
+      "type": "系统",
+      "text": "发动机远程诊断系统（Remote Diagnosis，RD）"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理系统（Engine Health Management，EHM）"
+    },
+    {
+      "type": "方法",
+      "text": "基于机器学习和数据驱动的方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型和仿真的方法"
+    },
+    {
+      "type": "算法",
+      "text": "自适应提升算法(Adaboost)"
+    },
+    {
+      "type": "算法",
+      "text": "近邻成分分析(NCA)"
+    },
+    {
+      "type": "网络",
+      "text": "卷积神经网络(CNN)"
+    },
+    {
+      "type": "模型",
+      "text": "高斯混合模型(GMM)"
+    },
+    {
+      "type": "算法",
+      "text": "K-means算法"
+    },
+    {
+      "type": "算法",
+      "text": "改进的K-奇异值分解 Improved K-SVD)"
+    },
+    {
+      "type": "网络",
+      "text": "堆叠自编码器(SAE)"
+    },
+    {
+      "type": "网络",
+      "text": "反向传播神经网络(BPNN)"
+    },
+    {
+      "type": "网络",
+      "text": "半监督自编码器(SSAE)"
+    },
+    {
+      "type": "分类器",
+      "text": "Softmax分类器"
+    },
+    {
+      "type": "模型",
+      "text": "民机环控系统的数字孪生模型"
+    },
+    {
+      "type": "方法",
+      "text": "基于贝叶斯网络的 ECS 故障诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "故障模式影响分析和贝叶斯网络相结合"
+    },
+    {
+      "type": "模型",
+      "text": "集成深度自编码器与极限学习机模型"
+    },
+    {
+      "type": "模型",
+      "text": "基于卷积神经网络的飞机起落架收放系统的故障诊断模型"
+    },
+    {
+      "type": "概念",
+      "text": "剩余可用寿命（Re- main Useful Life，RUL）预测"
+    },
+    {
+      "type": "方法",
+      "text": "基于物理模型的方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的方法"
+    },
+    {
+      "type": "模型",
+      "text": "基于自适应Wiener过程的RUL预测模型"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波"
+    },
+    {
+      "type": "方法",
+      "text": "数据和模型融合驱动的服役HPT叶片寿命数字孪生建模方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动性能孪生（Performance Digital Twin，PDT）建模方法"
+    },
+    {
+      "type": "数据集",
+      "text": "CMAPSS"
+    },
+    {
+      "type": "数据集",
+      "text": "N- CMAPSS"
+    },
+    {
+      "type": "问题",
+      "text": "飞机维护检查调度问题（Aircraft Maintenance Check Scheduling，AMCS）"
+    },
+    {
+      "type": "算法",
+      "text": "启发式算法"
+    },
+    {
+      "type": "算法",
+      "text": "动态规划（DP）"
+    },
+    {
+      "type": "算法",
+      "text": "混合整数线性规划（MILP）"
+    },
+    {
+      "type": "算法",
+      "text": "深度强化学习（DRL）"
+    },
+    {
+      "type": "算法",
+      "text": "强化学习"
+    },
+    {
+      "type": "方法",
+      "text": "航空发动机机队寿命周期维修任务优化方法"
+    },
+    {
+      "type": "项目",
+      "text": "ReMAP项目"
+    },
+    {
+      "type": "工具",
+      "text": "多阶段预测性维修决策支持工具"
+    },
+    {
+      "type": "机构",
+      "text": "IATA"
+    },
+    {
+      "type": "文件",
+      "text": "民机预测性维修白皮书"
+    },
+    {
+      "type": "机构",
+      "text": "FAA"
+    },
+    {
+      "type": "适航要求",
+      "text": "AC43- 218《飞机综合健康管理（Aircraft Integrated Health Management，IAHM）系统的运行批准》"
+    },
+    {
+      "type": "机构",
+      "text": "IMRBPB"
+    },
+    {
+      "type": "文件",
+      "text": "P92/105"
+    },
+    {
+      "type": "文件",
+      "text": "IP180"
+    },
+    {
+      "type": "机构",
+      "text": "波音公司"
+    },
+    {
+      "type": "项目",
+      "text": "AnalytX项目"
+    },
+    {
+      "type": "机构",
+      "text": "空客公司"
+    },
+    {
+      "type": "平台",
+      "text": "Skywise"
+    },
+    {
+      "type": "系统/部件",
+      "text": "B787机型"
+    },
+    {
+      "type": "概念",
+      "text": "预测维修任务"
+    },
+    {
+      "type": "概念",
+      "text": "计划维修任务"
+    },
+    {
+      "type": "机构",
+      "text": "汉莎科技"
+    },
+    {
+      "type": "软件",
+      "text": "民机维护计划软件‘AVIATAR’"
+    },
+    {
+      "type": "机构",
+      "text": "北京飞机维修有限公司"
+    },
+    {
+      "type": "平台",
+      "text": "飞机状态预测与维修作业管理平台"
+    },
+    {
+      "type": "机构",
+      "text": "中国南方航空股份有限公司"
+    },
+    {
+      "type": "系统",
+      "text": "“天瞳”系统"
+    },
+    {
+      "type": "机构",
+      "text": "美国空军"
+    },
+    {
+      "type": "平台",
+      "text": "预测性维修支持平台PANDA"
+    },
+    {
+      "type": "模型",
+      "text": "数模融合模型"
+    },
+    {
+      "type": "方法",
+      "text": "物理信息融合的机器学习"
+    },
+    {
+      "type": "技术",
+      "text": "可解释的机器学习"
+    },
+    {
+      "type": "方法",
+      "text": "数字线程方法"
+    },
+    {
+      "type": "机构",
+      "text": "普惠公司"
+    },
+    {
+      "type": "机构",
+      "text": "GE航空公司"
+    },
+    {
+      "type": "机构",
+      "text": "罗尔斯- 罗伊斯公司"
+    },
+    {
+      "type": "研究者",
+      "text": "Basora等"
+    },
+    {
+      "type": "研究者",
+      "text": "孙见忠等"
+    },
+    {
+      "type": "研究者",
+      "text": "宁顺刚等"
+    },
+    {
+      "type": "研究者",
+      "text": "Guo等"
+    },
+    {
+      "type": "研究者",
+      "text": "闫洪胜等"
+    },
+    {
+      "type": "研究者",
+      "text": "Chowdhury 等"
+    },
+    {
+      "type": "研究者",
+      "text": "刘翠等"
+    },
+    {
+      "type": "机构",
+      "text": "NASA"
+    },
+    {
+      "type": "研究者",
+      "text": "Jia等"
+    },
+    {
+      "type": "研究者",
+      "text": "Chen等"
+    },
+    {
+      "type": "研究者",
+      "text": "Wang等"
+    },
+    {
+      "type": "研究者",
+      "text": "Orchard和Vacht- sevanos"
+    },
+    {
+      "type": "研究者",
+      "text": "李春华等"
+    },
+    {
+      "type": "研究者",
+      "text": "Deng等"
+    },
+    {
+      "type": "方法",
+      "text": "基于DP算法的飞机维修检查调度优化方法"
+    },
+    {
+      "type": "研究者",
+      "text": "Alaswad和Xiang"
+    },
+    {
+      "type": "研究进展",
+      "text": "基于系统退化过程的CBM维修策略研究进展"
+    },
+    {
+      "type": "研究者",
+      "text": "Tseremoglou等"
+    },
+    {
+      "type": "研究者",
+      "text": "闫洪胜"
+    }
+  ],
+  "relations": [
+    {
+      "type": "演变为",
+      "head": "以可靠性为中心的计划维修",
+      "tail": "基于状态的预测性维修"
+    },
+    {
+      "type": "促进转变",
+      "head": "飞机健康监测技术",
+      "tail": "基于状态的预测性维修"
+    },
+    {
+      "type": "提高",
+      "head": "预测性维修",
+      "tail": "飞机可利用率"
+    },
+    {
+      "type": "降低",
+      "head": "预测性维修",
+      "tail": "维修保障成本"
+    },
+    {
+      "type": "包括",
+      "head": "航空维修策略",
+      "tail": "被动维修"
+    },
+    {
+      "type": "包括",
+      "head": "航空维修策略",
+      "tail": "主动维修"
+    },
+    {
+      "type": "包括",
+      "head": "主动维修",
+      "tail": "预防性维修"
+    },
+    {
+      "type": "包括",
+      "head": "主动维修",
+      "tail": "预测性维修"
+    },
+    {
+      "type": "分为",
+      "head": "预测性维修",
+      "tail": "视情维修策略（Condition Based Maintenance，CBM）"
+    },
+    {
+      "type": "分为",
+      "head": "预测性维修",
+      "tail": "基于预测的预测性维修策略（Predictive Maintenance，PdM）"
+    },
+    {
+      "type": "包含",
+      "head": "广义的预测性维修",
+      "tail": "传统的基于状态的CBM"
+    },
+    {
+      "type": "包含",
+      "head": "广义的预测性维修",
+      "tail": "狭义的基于预测的PdM"
+    },
+    {
+      "type": "存在问题",
+      "head": "计划维修",
+      "tail": "过维修"
+    },
+    {
+      "type": "存在问题",
+      "head": "计划维修",
+      "tail": "欠维修"
+    },
+    {
+      "type": "包括",
+      "head": "航空预测性维修的关键技术",
+      "tail": "健康监测"
+    },
+    {
+      "type": "包括",
+      "head": "航空预测性维修的关键技术",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "包括",
+      "head": "航空预测性维修的关键技术",
+      "tail": "失效或RUL预测"
+    },
+    {
+      "type": "包括",
+      "head": "航空预测性维修的关键技术",
+      "tail": "维修决策"
+    },
+    {
+      "type": "分为",
+      "head": "健康监测方法",
+      "tail": "模型驱动"
+    },
+    {
+      "type": "分为",
+      "head": "健康监测方法",
+      "tail": "数据驱动"
+    },
+    {
+      "type": "分为",
+      "head": "数据驱动方法",
+      "tail": "有监督方法"
+    },
+    {
+      "type": "分为",
+      "head": "数据驱动方法",
+      "tail": "半监督方法"
+    },
+    {
+      "type": "分为",
+      "head": "数据驱动方法",
+      "tail": "无监督方法"
+    },
+    {
+      "type": "提出了",
+      "head": "Basora等",
+      "tail": "基于自编码器半监督异常检测方法"
+    },
+    {
+      "type": "提出了",
+      "head": "孙见忠等",
+      "tail": "基于多元状态估计技术的空调系统散热器HI"
+    },
+    {
+      "type": "提出了",
+      "head": "宁顺刚等",
+      "tail": "基于长短期记忆网络自编码器(Long- Short Term Memory- Autoencoder,LSTM- AE)的HI计算模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Guo等",
+      "tail": "迟滞时间"
+    },
+    {
+      "type": "提出了",
+      "head": "闫洪胜等",
+      "tail": "LSTM- AE模型与核密度估计相结合的方法"
+    },
+    {
+      "type": "开发了",
+      "head": "普惠公司",
+      "tail": "先进诊断及发动机监控系统（Advanced Diagnostic and Engine Monitoring，ADEM）"
+    },
+    {
+      "type": "开发了",
+      "head": "GE航空公司",
+      "tail": "发动机远程诊断系统（Remote Diagnosis，RD）"
+    },
+    {
+      "type": "开发了",
+      "head": "罗尔斯- 罗伊斯公司",
+      "tail": "发动机健康管理系统（Engine Health Management，EHM）"
+    },
+    {
+      "type": "分为",
+      "head": "航空故障诊断方法",
+      "tail": "基于机器学习和数据驱动的方法"
+    },
+    {
+      "type": "分为",
+      "head": "航空故障诊断方法",
+      "tail": "基于模型和仿真的方法"
+    },
+    {
+      "type": "提出了",
+      "head": "Chowdhury 等",
+      "tail": "民机环控系统的数字孪生模型"
+    },
+    {
+      "type": "提出了一种",
+      "head": "刘翠等",
+      "tail": "基于贝叶斯网络的 ECS 故障诊断方法"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "故障模式影响分析和贝叶斯网络相结合"
+    },
+    {
+      "type": "提出了",
+      "head": "Jia等",
+      "tail": "集成深度自编码器与极限学习机模型"
+    },
+    {
+      "type": "提出了一种",
+      "head": "Chen等",
+      "tail": "基于卷积神经网络的飞机起落架收放系统的故障诊断模型"
+    },
+    {
+      "type": "分为",
+      "head": "故障预测方法",
+      "tail": "基于物理模型的方法"
+    },
+    {
+      "type": "分为",
+      "head": "故障预测方法",
+      "tail": "基于数据驱动的方法"
+    },
+    {
+      "type": "提出一种",
+      "head": "Wang等",
+      "tail": "基于自适应Wiener过程的RUL预测模型"
+    },
+    {
+      "type": "用于",
+      "head": "粒子滤波",
+      "tail": "剩余寿命预测问题"
+    },
+    {
+      "type": "提出了",
+      "head": "李春华等",
+      "tail": "数据和模型融合驱动的服役HPT叶片寿命数字孪生建模方法"
+    },
+    {
+      "type": "提出了",
+      "head": "孙见忠等",
+      "tail": "基于数据驱动性能孪生（Performance Digital Twin，PDT）建模方法"
+    },
+    {
+      "type": "基于",
+      "head": "复杂系统RUL预测研究",
+      "tail": "CMAPSS"
+    },
+    {
+      "type": "基于",
+      "head": "复杂系统RUL预测研究",
+      "tail": "N- CMAPSS"
+    },
+    {
+      "type": "提出了",
+      "head": "Deng等",
+      "tail": "基于DP算法的飞机维修检查调度优化方法"
+    },
+    {
+      "type": "综述了",
+      "head": "Alaswad和Xiang",
+      "tail": "基于系统退化过程的CBM维修策略研究进展"
+    },
+    {
+      "type": "对比",
+      "head": "Tseremoglou等",
+      "tail": "混合整数线性规划（MILP）"
+    },
+    {
+      "type": "对比",
+      "head": "Tseremoglou等",
+      "tail": "深度强化学习（DRL）"
+    },
+    {
+      "type": "利用...提出了",
+      "head": "闫洪胜",
+      "tail": "航空发动机机队寿命周期维修任务优化方法"
+    },
+    {
+      "type": "设计并开发了",
+      "head": "ReMAP项目",
+      "tail": "多阶段预测性维修决策支持工具"
+    },
+    {
+      "type": "发布",
+      "head": "IATA",
+      "tail": "民机预测性维修白皮书"
+    },
+    {
+      "type": "提出了",
+      "head": "FAA",
+      "tail": "AC43- 218《飞机综合健康管理（Aircraft Integrated Health Management，IAHM）系统的运行批准》"
+    },
+    {
+      "type": "发布了",
+      "head": "IMRBPB",
+      "tail": "P92/105"
+    },
+    {
+      "type": "发布了",
+      "head": "IMRBPB",
+      "tail": "IP180"
+    },
+    {
+      "type": "启动了",
+      "head": "波音公司",
+      "tail": "AnalytX项目"
+    },
+    {
+      "type": "推出了",
+      "head": "空客公司",
+      "tail": "Skywise"
+    },
+    {
+      "type": "替代了",
+      "head": "预测维修任务",
+      "tail": "计划维修任务"
+    },
+    {
+      "type": "在...上实现",
+      "head": "波音公司",
+      "tail": "B787机型"
+    },
+    {
+      "type": "开发了",
+      "head": "汉莎科技",
+      "tail": "民机维护计划软件‘AVIATAR’"
+    },
+    {
+      "type": "开发了",
+      "head": "北京飞机维修有限公司",
+      "tail": "飞机状态预测与维修作业管理平台"
+    },
+    {
+      "type": "开发了",
+      "head": "中国南方航空股份有限公司",
+      "tail": "“天瞳”系统"
+    },
+    {
+      "type": "开发了",
+      "head": "美国空军",
+      "tail": "预测性维修支持平台PANDA"
+    },
+    {
+      "type": "是未来突破方向",
+      "head": "数模融合模型",
+      "tail": "预测性维修技术"
+    },
+    {
+      "type": "是未来突破方向",
+      "head": "物理信息融合的机器学习",
+      "tail": "预测性维修技术"
+    },
+    {
+      "type": "是未来突破方向",
+      "head": "可解释的机器学习",
+      "tail": "预测性维修技术"
+    },
+    {
+      "type": "是未来突破方向",
+      "head": "数字线程方法",
+      "tail": "预测性维修技术"
+    }
+  ]
+}

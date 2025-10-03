@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "基于时间序列分解的组合预测方法"
+    },
+    {
+      "type": "指标",
+      "text": "飞机平均故障间隔飞行时间（MFHBF）"
+    },
+    {
+      "type": "问题",
+      "text": "MFHBF指标值的预测问题"
+    },
+    {
+      "type": "算法",
+      "text": "STL(Seasonal and Trend Decomposition using Loess)"
+    },
+    {
+      "type": "数据",
+      "text": "长期趋势项"
+    },
+    {
+      "type": "数据",
+      "text": "季节变动项"
+    },
+    {
+      "type": "模型",
+      "text": "灰色模型"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型"
+    },
+    {
+      "type": "网络",
+      "text": "BP神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机回归"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络和支持向量机回归组合模型"
+    },
+    {
+      "type": "模型",
+      "text": "加法模型"
+    },
+    {
+      "type": "方法",
+      "text": "误差权重"
+    },
+    {
+      "type": "研究方法",
+      "text": "单独使用支持向量机回归预测"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均绝对误差由45%减小至21%"
+    },
+    {
+      "type": "研究方法",
+      "text": "时间序列预测"
+    },
+    {
+      "type": "模型",
+      "text": "自回归滑动平均（ARMA）模型"
+    },
+    {
+      "type": "算法",
+      "text": "Loess"
+    },
+    {
+      "type": "函数",
+      "text": "PolyKernel"
+    },
+    {
+      "type": "工具",
+      "text": "R软件"
+    },
+    {
+      "type": "工具",
+      "text": "weka"
+    },
+    {
+      "type": "数据集",
+      "text": "某外贸飞机MFHBF数据"
+    },
+    {
+      "type": "数据集",
+      "text": "某航空设备故障率数据"
+    },
+    {
+      "type": "指标",
+      "text": "故障率"
+    },
+    {
+      "type": "性能指标",
+      "text": "后验差比值C"
+    },
+    {
+      "type": "性能指标",
+      "text": "小误差频率P"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于时间序列分解的组合预测方法"
+    },
+    {
+      "type": "解决",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "MFHBF指标值的预测问题"
+    },
+    {
+      "type": "使用...分解",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "STL(Seasonal and Trend Decomposition using Loess)"
+    },
+    {
+      "type": "分解出",
+      "head": "STL(Seasonal and Trend Decomposition using Loess)",
+      "tail": "长期趋势项"
+    },
+    {
+      "type": "分解出",
+      "head": "STL(Seasonal and Trend Decomposition using Loess)",
+      "tail": "季节变动项"
+    },
+    {
+      "type": "基于",
+      "head": "STL(Seasonal and Trend Decomposition using Loess)",
+      "tail": "Loess"
+    },
+    {
+      "type": "使用...预测",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "GM(1,1)模型"
+    },
+    {
+      "type": "预测",
+      "head": "GM(1,1)模型",
+      "tail": "长期趋势项"
+    },
+    {
+      "type": "使用...预测",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "BP神经网络和支持向量机回归组合模型"
+    },
+    {
+      "type": "预测",
+      "head": "BP神经网络和支持向量机回归组合模型",
+      "tail": "季节变动项"
+    },
+    {
+      "type": "组成",
+      "head": "BP神经网络",
+      "tail": "BP神经网络和支持向量机回归组合模型"
+    },
+    {
+      "type": "组成",
+      "head": "支持向量机回归",
+      "tail": "BP神经网络和支持向量机回归组合模型"
+    },
+    {
+      "type": "使用...合并",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "加法模型"
+    },
+    {
+      "type": "合并",
+      "head": "加法模型",
+      "tail": "趋势和季节的预测值"
+    },
+    {
+      "type": "使用...计算权重",
+      "head": "BP神经网络和支持向量机回归组合模型",
+      "tail": "误差权重"
+    },
+    {
+      "type": "对比",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "单独使用支持向量机回归预测"
+    },
+    {
+      "type": "优于",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "单独使用支持向量机回归预测"
+    },
+    {
+      "type": "将...由...降低至",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "平均绝对误差由45%减小至21%"
+    },
+    {
+      "type": "实现于",
+      "head": "BP神经网络",
+      "tail": "weka"
+    },
+    {
+      "type": "实现于",
+      "head": "支持向量机回归",
+      "tail": "weka"
+    },
+    {
+      "type": "选择...作为核函数",
+      "head": "支持向量机回归",
+      "tail": "PolyKernel"
+    },
+    {
+      "type": "验证于",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "某外贸飞机MFHBF数据"
+    },
+    {
+      "type": "验证于",
+      "head": "基于时间序列分解的组合预测方法",
+      "tail": "某航空设备故障率数据"
+    },
+    {
+      "type": "是...的重要指标",
+      "head": "飞机平均故障间隔飞行时间（MFHBF）",
+      "tail": "使用阶段可靠性"
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+[
+  {
+    "entities": [
+      {
+        "type": "核心技术",
+        "text": "故障预测与健康管理(PHM)技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "传统技术",
+        "text": "故障诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "电子系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "特征参数法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "预警电路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "累积损伤模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "综合法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "特征参数获取",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "物理损伤模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "电子元器件质量",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发展方向",
+        "text": "可测性",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发展方向",
+        "text": "PHM的标准化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发展方向",
+        "text": "评价指标",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用领域",
+        "text": "发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用领域",
+        "text": "旋转机械",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用领域",
+        "text": "机体结构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "核心任务",
+        "text": "故障预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "监测特征参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征参数",
+        "text": "纹波电压",
+        "evaluation": "正确"
+      },
+      {
+        "type": "监测对象",
+        "text": "雷达发射机高压电源",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征参数",
+        "text": "阴极电流",
+        "evaluation": "正确"
+      },
+      {
+        "type": "监测对象",
+        "text": "雷达发射机多注速调管",
+        "evaluation": "正确"
+      },
+      {
+        "type": "预测算法",
+        "text": "灰色理论预测法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统/部件",
+        "text": "正常电路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统/部件",
+        "text": "故障预测单元",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "累积损伤模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "物理失效模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体方法",
+        "text": "寿命消耗监测法（LCM）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用对象",
+        "text": "JSF飞机电源开关模块",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用对象",
+        "text": "DC/DC转换器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "具体技术",
+        "text": "焊点故障预测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "隐马尔可夫模型（HMM)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "性能参数监测法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "实现方法",
+        "text": "故障物理模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "电子系统PHM系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "数据采集与传感器技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "故障预测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "数据融合技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "人工智能技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "BIT和BIST技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "健康管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "诊断方法",
+        "text": "基于解析模型的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "诊断方法",
+        "text": "基于信号处理的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "诊断方法",
+        "text": "基于知识的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法类别",
+        "text": "故障预测算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法类别",
+        "text": "参数模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法类别",
+        "text": "非参数模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "融合算法",
+        "text": "D一S证据理论融合",
+        "evaluation": "正确"
+      },
+      {
+        "type": "融合算法",
+        "text": "贝叶斯推理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "融合算法",
+        "text": "模糊逻辑推理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "融合算法",
+        "text": "神经网络融合",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术/工具",
+        "text": "人工智能推理机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "故障不能复现（CND)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "重测合格（RTOK)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "机内测试（Built- inTestBIT)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "支撑技术",
+        "text": "内建自测试（Built- in Self- Test BIST）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "管理活动",
+        "text": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "管理活动",
+        "text": "诊断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "管理活动",
+        "text": "缓解",
+        "evaluation": "正确"
+      },
+      {
+        "type": "管理活动",
+        "text": "修复",
+        "evaluation": "正确"
+      },
+      {
+        "type": "管理活动",
+        "text": "检验",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "特征参数不易获取",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "物理损伤模型复杂",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题/挑战",
+        "text": "电子元器件质量参差不齐",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障类型",
+        "text": "突发性故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障类型",
+        "text": "渐进性故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "相关技术",
+        "text": "可测性技术",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是更高级的技术",
+        "head": "故障预测与健康管理(PHM)技术",
+        "tail": "故障诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于",
+        "head": "故障预测与健康管理(PHM)技术",
+        "tail": "电子系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有实现方法",
+        "head": "电子系统故障预测",
+        "tail": "特征参数法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有实现方法",
+        "head": "电子系统故障预测",
+        "tail": "预警电路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有实现方法",
+        "head": "电子系统故障预测",
+        "tail": "累积损伤模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有实现方法",
+        "head": "电子系统故障预测",
+        "tail": "综合法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统PHM技术发展",
+        "tail": "特征参数获取",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统PHM技术发展",
+        "tail": "物理损伤模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统PHM技术发展",
+        "tail": "电子元器件质量",
+        "evaluation": "正确"
+      },
+      {
+        "type": "广泛应用于",
+        "head": "故障预测与健康管理(PHM)技术",
+        "tail": "发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "广泛应用于",
+        "head": "故障预测与健康管理(PHM)技术",
+        "tail": "旋转机械",
+        "evaluation": "正确"
+      },
+      {
+        "type": "广泛应用于",
+        "head": "故障预测与健康管理(PHM)技术",
+        "tail": "机体结构",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是核心任务",
+        "head": "故障预测",
+        "tail": "故障预测与健康管理(PHM)技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是健康状态特征参数",
+        "head": "纹波电压",
+        "tail": "雷达发射机高压电源",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是健康状态特征参数",
+        "head": "阴极电流",
+        "tail": "雷达发射机多注速调管",
+        "evaluation": "正确"
+      },
+      {
+        "type": "结合...预测",
+        "head": "阴极电流",
+        "tail": "灰色理论预测法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "先于...发生故障",
+        "head": "预警电路",
+        "tail": "正常电路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...基础上建立",
+        "head": "累积损伤模型",
+        "tail": "物理失效模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "属于",
+        "head": "寿命消耗监测法（LCM）",
+        "tail": "累积损伤模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于...寿命预测",
+        "head": "寿命消耗监测法（LCM）",
+        "tail": "JSF飞机电源开关模块",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于...寿命预测",
+        "head": "寿命消耗监测法（LCM）",
+        "tail": "DC/DC转换器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "基于",
+        "head": "焊点故障预测技术",
+        "tail": "隐马尔可夫模型（HMM)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "与...相结合",
+        "head": "性能参数监测法",
+        "tail": "故障物理模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "数据采集与传感器技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "故障诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "故障预测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "数据融合技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "人工智能技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "BIT和BIST技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "需要...支撑",
+        "head": "电子系统PHM系统",
+        "tail": "健康管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分成",
+        "head": "故障诊断技术",
+        "tail": "基于解析模型的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分成",
+        "head": "故障诊断技术",
+        "tail": "基于信号处理的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分成",
+        "head": "故障诊断技术",
+        "tail": "基于知识的方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "故障预测算法",
+        "tail": "参数模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "故障预测算法",
+        "tail": "非参数模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是常用方法",
+        "head": "人工智能推理机",
+        "tail": "故障不能复现（CND)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是常用方法",
+        "head": "人工智能推理机",
+        "tail": "重测合格（RTOK)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...概念的延伸",
+        "head": "内建自测试（Built- in Self- Test BIST）",
+        "tail": "机内测试（Built- inTestBIT)",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "健康管理",
+        "tail": "诊断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "健康管理",
+        "tail": "缓解",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "健康管理",
+        "tail": "修复",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可分为",
+        "head": "健康管理",
+        "tail": "检验",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统的PHM技术",
+        "tail": "特征参数不易获取",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统的PHM技术",
+        "tail": "物理损伤模型复杂",
+        "evaluation": "正确"
+      },
+      {
+        "type": "面临挑战",
+        "head": "电子系统的PHM技术",
+        "tail": "电子元器件质量参差不齐",
+        "evaluation": "正确"
+      },
+      {
+        "type": "比例远大于",
+        "head": "突发性故障",
+        "tail": "渐进性故障",
+        "evaluation": "不确定"
+      },
+      {
+        "type": "离不开...支持",
+        "head": "PHM系统",
+        "tail": "可测性技术",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

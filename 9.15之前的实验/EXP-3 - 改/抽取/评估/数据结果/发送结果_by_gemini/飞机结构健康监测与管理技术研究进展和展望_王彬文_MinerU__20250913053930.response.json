@@ -1,0 +1,955 @@
+[
+  {
+    "entities": [
+      {
+        "type": "技术",
+        "text": "飞机结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "结构安全性",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "维护费用",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "健康监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "美国国防部门",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "空军研究室（AFRL）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "波音公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "洛克德·马丁公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "美国NASA",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是...重要技术途径",
+        "head": "飞机结构健康监测与管理技术",
+        "tail": "保证结构安全性",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...重要技术途径",
+        "head": "飞机结构健康监测与管理技术",
+        "tail": "降低维护费用",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "飞机结构健康监测与管理技术",
+        "tail": "健康监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "飞机结构健康监测与管理技术",
+        "tail": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的前提和基础",
+        "head": "结构健康监测",
+        "tail": "结构健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的重要应用",
+        "head": "结构健康管理",
+        "tail": "结构健康监测",
+        "evaluation": "错误"
+      },
+      {
+        "type": "推动了...的发展",
+        "head": "美国国防部门",
+        "tail": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "推动了...的发展",
+        "head": "空军研究室（AFRL）",
+        "tail": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "推动了...的发展",
+        "head": "波音公司",
+        "tail": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "推动了...的发展",
+        "head": "洛克德·马丁公司",
+        "tail": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研发了",
+        "head": "美国NASA",
+        "tail": "健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研发了",
+        "head": "空军研究室",
+        "tail": "健康管理系统",
+        "evaluation": "正确"
+      }
+    ]
+  },
+  {
+    "entities": [
+      {
+        "type": "任务",
+        "text": "飞机结构完整性大纲任务",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计思想",
+        "text": "飞机结构设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计思想",
+        "text": "静强度",
+        "evaluation": "错误"
+      },
+      {
+        "type": "设计思想",
+        "text": "疲劳强度（安全寿命设计）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计思想",
+        "text": "损伤容限（含破损安全）设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "理论",
+        "text": "断裂力学",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计思想",
+        "text": "飞机结构损伤容限设计思想",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计方法",
+        "text": "安全寿命设计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "裂纹萌生问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计方法",
+        "text": "破损安全设计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "广布微损伤融合问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "设计方法",
+        "text": "损伤容限设计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题",
+        "text": "宏观裂纹扩展问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "体系",
+        "text": "飞机结构耐久性/损伤容限设计体系",
+        "evaluation": "正确"
+      },
+      {
+        "type": "理论",
+        "text": "飞机结构完整性的理论基础",
+        "evaluation": "错误"
+      },
+      {
+        "type": "大纲",
+        "text": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务包",
+        "text": "设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务包",
+        "text": "分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务包",
+        "text": "验证",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务包",
+        "text": "管理数据包",
+        "evaluation": "错误"
+      },
+      {
+        "type": "任务包",
+        "text": "使用管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "计划",
+        "text": "部队管理计划",
+        "evaluation": "正确"
+      },
+      {
+        "type": "计划",
+        "text": "部队结构维护计划（Force structural integrity program，FSIP）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "载荷/环境谱测量（Loads/environment spectra survey，L/ESS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "程序",
+        "text": "单机监控程序（Individual aircraft tracking，IAT）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "结构损伤监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "飞机IAT技术",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是...的驱动力",
+        "head": "飞机结构完整性大纲任务",
+        "tail": "结构健康监测与管理技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "经历了...思想转变",
+        "head": "飞机结构设计",
+        "tail": "静强度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "演变为",
+        "head": "静强度",
+        "tail": "疲劳强度（安全寿命设计）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "演变为",
+        "head": "疲劳强度（安全寿命设计）",
+        "tail": "损伤容限（含破损安全）设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "奠定了理论基础",
+        "head": "断裂力学",
+        "tail": "飞机结构损伤容限设计思想",
+        "evaluation": "正确"
+      },
+      {
+        "type": "关注",
+        "head": "安全寿命设计方法",
+        "tail": "裂纹萌生问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "关注",
+        "head": "破损安全设计方法",
+        "tail": "广布微损伤融合问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "关注",
+        "head": "损伤容限设计方法",
+        "tail": "宏观裂纹扩展问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "成为",
+        "head": "飞机结构耐久性/损伤容限设计体系",
+        "tail": "飞机结构完整性的理论基础",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "tail": "设计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "tail": "分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "tail": "验证",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "tail": "管理数据包",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "结构完整性大纲（Aircraftstructuralintegrity program，ASIP）",
+        "tail": "使用管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包含了",
+        "head": "部队管理计划",
+        "tail": "部队结构维护计划（Force structural integrity program，FSIP）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包含了",
+        "head": "部队管理计划",
+        "tail": "载荷/环境谱测量（Loads/environment spectra survey，L/ESS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包含了",
+        "head": "部队管理计划",
+        "tail": "单机监控程序（Individual aircraft tracking，IAT）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提供了技术手段",
+        "head": "结构损伤监测技术",
+        "tail": "飞机IAT技术",
+        "evaluation": "正确"
+      }
+    ]
+  },
+  {
+    "entities": [
+      {
+        "type": "技术",
+        "text": "飞机结构健康监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "结构载荷监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "损伤监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "任务",
+        "text": "载荷计算",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "参数解析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "参数回归分析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "直接测量法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "F-22飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "F-35飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "传感器",
+        "text": "应变传感器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "传感器",
+        "text": "光纤传感器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "飞机应变载荷监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "飞参/应变混合监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "基于导波的损伤监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "监测模式",
+        "text": "被动监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "监测模式",
+        "text": "主动监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "空客公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "项目",
+        "text": "飞机智能化（SARISTU—Smartintelligentaircraftstructures）项目",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "被动式撞击监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "美国空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "导波损伤监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "F-16",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "美国诺斯罗普-格鲁门公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "传感器",
+        "text": "压电传感器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "F/A-18机翼结构的损伤",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "A350飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "部件",
+        "text": "压电智能夹层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "复合材料加筋壁板结构冲击损伤",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "比较真空度裂纹监测（Comparative vacuum monitoring，CVM）技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "智能涂层裂纹监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "涡流薄膜监测技术",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是...最重要的技术内容和任务",
+        "head": "结构载荷监测",
+        "tail": "飞机结构健康监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...最重要的技术内容和任务",
+        "head": "损伤监测",
+        "tail": "飞机结构健康监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有...种方法",
+        "head": "载荷计算",
+        "tail": "参数解析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有...种方法",
+        "head": "载荷计算",
+        "tail": "参数回归分析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "有...种方法",
+        "head": "载荷计算",
+        "tail": "直接测量法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "F-22飞机",
+        "tail": "参数回归分析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用...直接测量应变",
+        "head": "F-35飞机",
+        "tail": "应变传感器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提供了新的技术手段",
+        "head": "光纤传感器",
+        "tail": "飞机应变载荷监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发展为",
+        "head": "载荷监测",
+        "tail": "飞参/应变混合监测技术",
+        "evaluation": "错误"
+      },
+      {
+        "type": "分为",
+        "head": "基于导波的损伤监测",
+        "tail": "被动监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "分为",
+        "head": "基于导波的损伤监测",
+        "tail": "主动监测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...项目支持下开展研究",
+        "head": "空客公司",
+        "tail": "飞机智能化（SARISTU—Smartintelligentaircraftstructures）项目",
+        "evaluation": "正确"
+      },
+      {
+        "type": "开展了...研究",
+        "head": "空客公司",
+        "tail": "被动式撞击监测技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "在...上进行了飞行演示验证",
+        "head": "导波损伤监测技术",
+        "tail": "F-16",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用...监测",
+        "head": "美国诺斯罗普-格鲁门公司",
+        "tail": "压电传感器",
+        "evaluation": "正确"
+      },
+      {
+        "type": "监测",
+        "head": "压电传感器",
+        "tail": "F/A-18机翼结构的损伤",
+        "evaluation": "正确"
+      },
+      {
+        "type": "布置了",
+        "head": "A350飞机",
+        "tail": "压电智能夹层",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行监测",
+        "head": "压电智能夹层",
+        "tail": "复合材料加筋壁板结构冲击损伤",
+        "evaluation": "正确"
+      }
+    ]
+  },
+  {
+    "entities": [
+      {
+        "type": "技术",
+        "text": "飞机结构健康管理（Structuralprognostic and health management，SPHM）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "发展阶段",
+        "text": "飞行小时数和起降次数的统计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "单机寿命监控技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "基于网络的综合健康管理体系",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "美国空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "大纲",
+        "text": "ASIP",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "加拿大空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "“安全寿命”和“损伤容限”的混合方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "英国空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "传感器",
+        "text": "疲劳计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "荷兰空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "FACE系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "F-16飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "德国空军",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "单机跟踪（IAT）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "选择跟踪（SAT）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "阶段跟踪（TAT）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "Tornado飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "项目",
+        "text": "JSF项目（Joint strike fighter，JSF）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "健康技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "F-35飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "NASA",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "综合管理系统IVHM（Integrated vehicle health management）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "可重复使用空间飞机X-33",
+        "evaluation": "正确"
+      },
+      {
+        "type": "产品",
+        "text": "X-37",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "史密斯航空",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "英国国防部",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "机队和使用管理系统（Health and usage monitoring systems，HUMS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "波音公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "飞机健康管理（Airplane health management，AHM）系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "组织",
+        "text": "空客公司",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "划分为3个阶段",
+        "head": "SPHM技术发展",
+        "tail": "飞行小时数和起降次数的统计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为3个阶段",
+        "head": "SPHM技术发展",
+        "tail": "单机寿命监控技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "划分为3个阶段",
+        "head": "SPHM技术发展",
+        "tail": "基于网络的综合健康管理体系",
+        "evaluation": "正确"
+      },
+      {
+        "type": "依靠...保证飞机结构使用安全",
+        "head": "美国空军",
+        "tail": "ASIP",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "加拿大空军",
+        "tail": "“安全寿命”和“损伤容限”的混合方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用...进行单机疲劳监控",
+        "head": "英国空军",
+        "tail": "疲劳计",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用",
+        "head": "荷兰空军",
+        "tail": "F-16飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用",
+        "head": "F-16飞机",
+        "tail": "FACE系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用...对...进行监控",
+        "head": "德国空军",
+        "tail": "单机跟踪（IAT）",
+        "evaluation": "错误"
+      },
+      {
+        "type": "使用...对...进行监控",
+        "head": "德国空军",
+        "tail": "选择跟踪（SAT）",
+        "evaluation": "错误"
+      },
+      {
+        "type": "使用...对...进行监控",
+        "head": "德国空军",
+        "tail": "阶段跟踪（TAT）",
+        "evaluation": "错误"
+      },
+      {
+        "type": "监控对象",
+        "head": "单机跟踪（IAT）",
+        "tail": "Tornado飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "提出了",
+        "head": "JSF项目（Joint strike fighter，JSF）",
+        "tail": "健康技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "作为...创新技术之一",
+        "head": "健康管理",
+        "tail": "F-35飞机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研发了",
+        "head": "NASA",
+        "tail": "综合管理系统IVHM（Integrated vehicle health management）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于",
+        "head": "综合管理系统IVHM（Integrated vehicle health management）",
+        "tail": "可重复使用空间飞机X-33",
+        "evaluation": "正确"
+      },
+      {
+        "type": "应用于",
+        "head": "综合管理系统IVHM（Integrated vehicle health management）",
+        "tail": "X-37",
+        "evaluation": "正确"
+      },
+      {
+        "type": "联合开发了",
+        "head": "史密斯航空",
+        "tail": "机队和使用管理系统（Health and usage monitoring systems，HUMS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "联合开发了",
+        "head": "英国国防部",
+        "tail": "机队和使用管理系统（Health and usage monitoring systems，HUMS）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "开发了",
+        "head": "波音公司",
+        "tail": "飞机健康管理（Airplane health management，AHM）系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "开发了",
+        "head": "空客公司",
+        "tail": "飞机维护分析管理系统（Aircraftmaintenanceanalysis，ARIMAN）",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]

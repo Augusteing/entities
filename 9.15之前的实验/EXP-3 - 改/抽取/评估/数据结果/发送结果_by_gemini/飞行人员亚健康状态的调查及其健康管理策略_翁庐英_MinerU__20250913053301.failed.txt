@@ -1,0 +1,2 @@
+失败时间: 2025-09-30T08:24:26.270587+00:00
+异常: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-ymU***a9Y] (request id: 20250930162431793162261YZc4wXp3)', 'type': 'new_api_error'}}

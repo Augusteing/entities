@@ -1,0 +1,388 @@
+[
+  {
+    "entities": [
+      {
+        "type": "问题",
+        "text": "航空发动机气路部件健康参数估计问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "线性和非线性模型的卡尔曼滤波估计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "KF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "扩展卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "EKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "无味卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "UKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "健康参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障",
+        "text": "气路部件渐变故障",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "卡尔曼增益",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "非线性参数估计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "维修策略",
+        "text": "视情维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "发动机性能参数估计技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "基于模型的诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "基于数据驱动的诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "基于知识的诊断技术",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "发动机健康参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统类型",
+        "text": "线性系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统类型",
+        "text": "非线性系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统特性",
+        "text": "强非线性",
+        "evaluation": "正确"
+      },
+      {
+        "type": "变换方法",
+        "text": "无味变换",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "常增益扩展卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "CGEKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "发动机非线性部件级模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "双轴涡扇发动机",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "最小方差估计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数学工具",
+        "text": "泰勒级数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数学工具",
+        "text": "雅可比矩阵",
+        "evaluation": "正确"
+      },
+      {
+        "type": "计算",
+        "text": "雅可比矩阵计算",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能指标",
+        "text": "估计误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能指标",
+        "text": "仿真用时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能指标",
+        "text": "模型调用次数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "线性化模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障",
+        "text": "多健康参数蜕化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "过程",
+        "text": "非线性对象的线性化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能指标",
+        "text": "计算时间",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能指标",
+        "text": "计算量",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "是实现...转变的关键技术",
+        "head": "健康管理系统",
+        "tail": "视情维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的重要内容",
+        "head": "发动机性能参数估计技术",
+        "tail": "健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可估计",
+        "head": "基于模型的诊断技术",
+        "tail": "发动机健康参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的最优估计",
+        "head": "卡尔曼滤波",
+        "tail": "线性系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "得到广泛应用",
+        "head": "扩展卡尔曼滤波",
+        "tail": "非线性系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "导致...估计误差增大甚至发散",
+        "head": "强非线性",
+        "tail": "扩展卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "使用",
+        "head": "无味卡尔曼滤波",
+        "tail": "无味变换",
+        "evaluation": "正确"
+      },
+      {
+        "type": "避免了",
+        "head": "无味卡尔曼滤波",
+        "tail": "非线性对象的线性化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "避免了",
+        "head": "无味卡尔曼滤波",
+        "tail": "雅可比矩阵计算",
+        "evaluation": "正确"
+      },
+      {
+        "type": "比...具有更高的估计精度",
+        "head": "无味卡尔曼滤波",
+        "tail": "扩展卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "大大减少了",
+        "head": "常增益扩展卡尔曼滤波",
+        "tail": "计算时间",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是典型的",
+        "head": "卡尔曼滤波",
+        "tail": "最小方差估计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用",
+        "head": "扩展卡尔曼滤波",
+        "tail": "泰勒级数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最大",
+        "head": "KF",
+        "tail": "估计误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最小",
+        "head": "UKF",
+        "tail": "估计误差",
+        "evaluation": "正确"
+      },
+      {
+        "type": "对...的估计效果较差",
+        "head": "KF",
+        "tail": "多健康参数蜕化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "估计结果更好",
+        "head": "UKF",
+        "tail": "EKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最短",
+        "head": "KF",
+        "tail": "仿真用时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最长",
+        "head": "UKF",
+        "tail": "仿真用时",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最少",
+        "head": "CGEKF",
+        "tail": "模型调用次数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "最多",
+        "head": "UKF",
+        "tail": "模型调用次数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可根据需要求取",
+        "head": "EKF",
+        "tail": "卡尔曼增益",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是一种实用的",
+        "head": "EKF",
+        "tail": "非线性参数估计方法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "简称",
+        "head": "卡尔曼滤波",
+        "tail": "KF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "简称",
+        "head": "扩展卡尔曼滤波",
+        "tail": "EKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "简称",
+        "head": "无味卡尔曼滤波",
+        "tail": "UKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "简称",
+        "head": "常增益扩展卡尔曼滤波",
+        "tail": "CGEKF",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行了估计效果比较",
+        "head": "卡尔曼滤波",
+        "tail": "扩展卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "进行了估计效果比较",
+        "head": "扩展卡尔曼滤波",
+        "tail": "无味卡尔曼滤波",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可在...下获得较好的估计结果",
+        "head": "常增益扩展卡尔曼滤波",
+        "tail": "较少计算量",
+        "evaluation": "错误"
+      }
+    ]
+  }
+]

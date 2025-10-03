@@ -1,0 +1,393 @@
+[
+  {
+    "entities": [
+      {
+        "type": "模型",
+        "text": "Caps-BiGRU-Attention"
+      },
+      {
+        "type": "研究对象",
+        "text": "直升机涡轮发动机"
+      },
+      {
+        "type": "任务",
+        "text": "健康管理"
+      },
+      {
+        "type": "任务",
+        "text": "故障模式识别"
+      },
+      {
+        "type": "任务",
+        "text": "扭矩裕度预测"
+      },
+      {
+        "type": "模型组件",
+        "text": "胶囊层"
+      },
+      {
+        "type": "模型组件",
+        "text": "BiGRU层"
+      },
+      {
+        "type": "技术",
+        "text": "SE注意力机制"
+      },
+      {
+        "type": "研究对象",
+        "text": "输入数据"
+      },
+      {
+        "type": "特征",
+        "text": "内在关系"
+      },
+      {
+        "type": "特征",
+        "text": "时间序列特征"
+      },
+      {
+        "type": "特征",
+        "text": "重要信息"
+      },
+      {
+        "type": "数据集",
+        "text": "直升机涡轮发动机数据集"
+      },
+      {
+        "type": "任务",
+        "text": "故障诊断"
+      },
+      {
+        "type": "指标",
+        "text": "准确率"
+      },
+      {
+        "type": "指标值",
+        "text": "99.7%"
+      },
+      {
+        "type": "指标",
+        "text": "平均绝对误差"
+      },
+      {
+        "type": "指标值",
+        "text": "0.027"
+      },
+      {
+        "type": "方法",
+        "text": "特征分析"
+      },
+      {
+        "type": "特征",
+        "text": "特征取值范围"
+      },
+      {
+        "type": "研究对象",
+        "text": "发动机健康状态"
+      },
+      {
+        "type": "方法",
+        "text": "概率分布拟合"
+      },
+      {
+        "type": "指标",
+        "text": "扭矩裕度"
+      },
+      {
+        "type": "健康状态",
+        "text": "严重失效"
+      },
+      {
+        "type": "健康状态",
+        "text": "轻微失效"
+      },
+      {
+        "type": "健康状态",
+        "text": "健康状态"
+      },
+      {
+        "type": "分布",
+        "text": "贝塔分布"
+      },
+      {
+        "type": "模型",
+        "text": "胶囊网络"
+      },
+      {
+        "type": "模型",
+        "text": "双向门控循环单元"
+      },
+      {
+        "type": "技术",
+        "text": "注意力机制"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiGRU-Attention"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiLstm"
+      },
+      {
+        "type": "模型",
+        "text": "CNN-BiGRU"
+      },
+      {
+        "type": "模型",
+        "text": "RandomForest"
+      },
+      {
+        "type": "模型",
+        "text": "SHAP模型"
+      },
+      {
+        "type": "特征",
+        "text": "外部空气温度"
+      },
+      {
+        "type": "特征",
+        "text": "平均气体温度"
+      },
+      {
+        "type": "特征",
+        "text": "测量扭矩"
+      },
+      {
+        "type": "特征",
+        "text": "指示空速"
+      },
+      {
+        "type": "特征",
+        "text": "净功率"
+      },
+      {
+        "type": "指标",
+        "text": "故障概率"
+      },
+      {
+        "type": "健康状态",
+        "text": "衰减状态"
+      },
+      {
+        "type": "方法",
+        "text": "K-S检验"
+      },
+      {
+        "type": "指标",
+        "text": "Akaike信息准则值"
+      },
+      {
+        "type": "模型",
+        "text": "混合高斯密度模型"
+      }
+    ],
+    "relations": [
+      {
+        "type": "提出",
+        "head": "本文",
+        "tail": "Caps-BiGRU-Attention"
+      },
+      {
+        "type": "应用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "直升机涡轮发动机"
+      },
+      {
+        "type": "用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "健康管理"
+      },
+      {
+        "type": "用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "故障模式识别"
+      },
+      {
+        "type": "用于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "扭矩裕度预测"
+      },
+      {
+        "type": "由...构成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "胶囊层"
+      },
+      {
+        "type": "由...构成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "BiGRU层"
+      },
+      {
+        "type": "由...构成",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "SE注意力机制"
+      },
+      {
+        "type": "用于",
+        "head": "胶囊层",
+        "tail": "捕捉输入数据的内在关系"
+      },
+      {
+        "type": "用于",
+        "head": "BiGRU层",
+        "tail": "提取时间序列特征"
+      },
+      {
+        "type": "用于",
+        "head": "SE注意力机制",
+        "tail": "对特征加权以突出重要信息"
+      },
+      {
+        "type": "通过...验证",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "直升机涡轮发动机数据集"
+      },
+      {
+        "type": "在...中准确率超过",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "99.7%"
+      },
+      {
+        "type": "在...中平均绝对误差降低至",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "0.027"
+      },
+      {
+        "type": "用于",
+        "head": "特征分析",
+        "tail": "寻找有利于发动机健康状态的特征取值范围"
+      },
+      {
+        "type": "用于",
+        "head": "概率分布拟合",
+        "tail": "扭矩裕度"
+      },
+      {
+        "type": "是...的最佳分布",
+        "head": "贝塔分布",
+        "tail": "严重失效"
+      },
+      {
+        "type": "是...的最佳分布",
+        "head": "贝塔分布",
+        "tail": "轻微失效"
+      },
+      {
+        "type": "是...的最佳分布",
+        "head": "贝塔分布",
+        "tail": "健康状态"
+      },
+      {
+        "type": "在故障诊断中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU-Attention"
+      },
+      {
+        "type": "在故障诊断中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiLstm"
+      },
+      {
+        "type": "在故障诊断中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU"
+      },
+      {
+        "type": "在故障诊断中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "RandomForest"
+      },
+      {
+        "type": "在扭矩裕度预测中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU-Attention"
+      },
+      {
+        "type": "在扭矩裕度预测中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiGRU"
+      },
+      {
+        "type": "在扭矩裕度预测中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "CNN-BiLstm"
+      },
+      {
+        "type": "在扭矩裕度预测中优于",
+        "head": "Caps-BiGRU-Attention",
+        "tail": "RandomForest"
+      },
+      {
+        "type": "在提取特征方面优于",
+        "head": "胶囊网络",
+        "tail": "CNN网络"
+      },
+      {
+        "type": "用于分析",
+        "head": "SHAP模型",
+        "tail": "特征"
+      },
+      {
+        "type": "增大时降低",
+        "head": "外部空气温度",
+        "tail": "故障概率"
+      },
+      {
+        "type": "增大时降低",
+        "head": "测量扭矩",
+        "tail": "故障概率"
+      },
+      {
+        "type": "增大时提高",
+        "head": "平均气体温度",
+        "tail": "故障概率"
+      },
+      {
+        "type": "减小时提高",
+        "head": "指示空速",
+        "tail": "扭矩裕度"
+      },
+      {
+        "type": "增加时降低",
+        "head": "测量扭矩",
+        "tail": "扭矩裕度"
+      },
+      {
+        "type": "增加时降低",
+        "head": "外部气体温度",
+        "tail": "扭矩裕度"
+      },
+      {
+        "type": "超过100kW后产生不利影响",
+        "head": "净功率",
+        "tail": "发动机"
+      },
+      {
+        "type": "超过110km/h后损害",
+        "head": "指示空速",
+        "tail": "发动机"
+      },
+      {
+        "type": "划分为",
+        "head": "健康状态",
+        "tail": "严重失效"
+      },
+      {
+        "type": "划分为",
+        "head": "健康状态",
+        "tail": "轻微失效"
+      },
+      {
+        "type": "划分为",
+        "head": "健康状态",
+        "tail": "衰减状态"
+      },
+      {
+        "type": "划分为",
+        "head": "健康状态",
+        "tail": "健康状态"
+      }
+    ]
+  }
+]

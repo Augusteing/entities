@@ -1,0 +1,451 @@
+[
+  {
+    "entities": [
+      {
+        "type": "研究对象",
+        "text": "飞机起落架液压收放系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障",
+        "text": "起落架不能正常收放",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "健康状态",
+        "evaluation": "正确"
+      },
+      {
+        "type": "研究对象",
+        "text": "典型支线客机的起落架收放系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障模式",
+        "text": "故障模式",
+        "evaluation": "错误"
+      },
+      {
+        "type": "概念",
+        "text": "健康程度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "评估的方法",
+        "evaluation": "错误"
+      },
+      {
+        "type": "软件",
+        "text": "AMESim软件",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "仿真模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统/部件",
+        "text": "液压回路",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "元件参数性能变化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "性能",
+        "text": "系统工作性能",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "系统输出参数",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "故障特征",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "神经网络算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "健康评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "飞机系统健康管理",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "状态监控",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "故障诊断",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "预测",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "定期维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "视情维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "系统",
+        "text": "健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "元件性能参数的进化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "系统工作性能恶化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "仿真分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "软件",
+        "text": "AMESim",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "健康性能影响因素分析",
+        "evaluation": "正确"
+      },
+      {
+        "type": "技术",
+        "text": "健康状态监测和评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "元件性能参数的退化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "故障模式及影响分析（FMEA）",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障模式",
+        "text": "电磁换向阀开口量不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障模式",
+        "text": "作动筒泄漏",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障模式",
+        "text": "液压泵泄漏",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "压力",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "流量",
+        "evaluation": "正确"
+      },
+      {
+        "type": "参数",
+        "text": "时间",
+        "evaluation": "正确"
+      },
+      {
+        "type": "故障模式",
+        "text": "作动筒发生不同程度内泄漏",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "液压泵出口压力减小",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "液压泵出口处的流量会增大",
+        "evaluation": "正确"
+      },
+      {
+        "type": "现象",
+        "text": "活塞杆运动速度减慢",
+        "evaluation": "正确"
+      },
+      {
+        "type": "数据类型",
+        "text": "时域信号",
+        "evaluation": "正确"
+      },
+      {
+        "type": "特征",
+        "text": "统计特征",
+        "evaluation": "正确"
+      },
+      {
+        "type": "模型",
+        "text": "诊断模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "健康特征",
+        "text": "液压泵动态工作过程和稳定状态时泵的出口压力平均值",
+        "evaluation": "正确"
+      },
+      {
+        "type": "健康特征",
+        "text": "压力的峭度值",
+        "evaluation": "正确"
+      },
+      {
+        "type": "健康特征",
+        "text": "起落架放下过程中泵出口流量的均值",
+        "evaluation": "正确"
+      },
+      {
+        "type": "健康特征",
+        "text": "起落架放下时间",
+        "evaluation": "正确"
+      },
+      {
+        "type": "概念",
+        "text": "健康降级程度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "问题类型",
+        "text": "分类问题",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "模型法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "层次分析法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "模糊评判法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "方法",
+        "text": "贝叶斯网络法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法模型",
+        "text": "神经网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法模型",
+        "text": "向前型神经网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "激励函数",
+        "text": "tansig型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "激励函数",
+        "text": "purelin型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "算法",
+        "text": "Levenberg-Marquardt算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "故障类别诊断正确率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "指标",
+        "text": "故障程度评估正确率",
+        "evaluation": "正确"
+      }
+    ],
+    "relations": [
+      {
+        "type": "以...为研究对象",
+        "head": "本文",
+        "tail": "典型支线客机的起落架收放系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用...建立",
+        "head": "本文",
+        "tail": "仿真模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "利用...实现",
+        "head": "本文",
+        "tail": "健康评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "将...转变为",
+        "head": "飞机系统健康管理",
+        "tail": "视情维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的重要组成部分",
+        "head": "健康评估",
+        "tail": "健康管理系统",
+        "evaluation": "正确"
+      },
+      {
+        "type": "可能会引起",
+        "head": "元件性能参数的进化",
+        "tail": "系统工作性能恶化",
+        "evaluation": "正确"
+      },
+      {
+        "type": "是...的基础",
+        "head": "健康性能影响因素分析",
+        "tail": "健康状态监测和评估",
+        "evaluation": "正确"
+      },
+      {
+        "type": "根据...可知",
+        "head": "故障模式及影响分析（FMEA）",
+        "tail": "电磁换向阀开口量不足",
+        "evaluation": "正确"
+      },
+      {
+        "type": "根据...可知",
+        "head": "故障模式及影响分析（FMEA）",
+        "tail": "作动筒泄漏",
+        "evaluation": "正确"
+      },
+      {
+        "type": "根据...可知",
+        "head": "故障模式及影响分析（FMEA）",
+        "tail": "液压泵泄漏",
+        "evaluation": "正确"
+      },
+      {
+        "type": "导致",
+        "head": "作动筒发生不同程度内泄漏",
+        "tail": "液压泵出口压力减小",
+        "evaluation": "正确"
+      },
+      {
+        "type": "导致",
+        "head": "作动筒发生不同程度内泄漏",
+        "tail": "液压泵出口处的流量会增大",
+        "evaluation": "正确"
+      },
+      {
+        "type": "导致",
+        "head": "作动筒发生不同程度内泄漏",
+        "tail": "活塞杆运动速度减慢",
+        "evaluation": "正确"
+      },
+      {
+        "type": "作为...的输入",
+        "head": "统计特征",
+        "tail": "诊断模型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "本文的健康评估",
+        "tail": "判断引起健康水平降级的故障模式",
+        "evaluation": "正确"
+      },
+      {
+        "type": "包括",
+        "head": "本文的健康评估",
+        "tail": "判断退化过程中的所处的健康降级程度",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "本文",
+        "tail": "神经网络",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "网络的隐含层神经元激励函数",
+        "tail": "tansig型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "输出层的激励函数",
+        "tail": "purelin型",
+        "evaluation": "正确"
+      },
+      {
+        "type": "采用",
+        "head": "学习训练",
+        "tail": "Levenberg-Marquardt算法",
+        "evaluation": "正确"
+      },
+      {
+        "type": "达到最高",
+        "head": "隐含层节点数为17",
+        "tail": "故障类别的诊断正确率",
+        "evaluation": "正确"
+      },
+      {
+        "type": "为...提供依据",
+        "head": "本文方法",
+        "tail": "视情维修",
+        "evaluation": "正确"
+      },
+      {
+        "type": "为...提供了一种思路和方法",
+        "head": "本文",
+        "tail": "新研飞机起落架液压收放系统的健康评估",
+        "evaluation": "正确"
+      }
+    ]
+  }
+]
