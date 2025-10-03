@@ -1,0 +1,4 @@
+# 忽略超大文件
+*.joblib
+*embedding_vectors.json
+*embedding_clusters_with_paragraph_annots.json
