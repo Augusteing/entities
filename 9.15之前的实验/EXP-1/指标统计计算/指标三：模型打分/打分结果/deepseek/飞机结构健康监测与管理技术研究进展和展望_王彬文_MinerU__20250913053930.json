@@ -1,0 +1,649 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "飞机结构健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "载荷监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "压电传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "涡流薄膜传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "智能涂层传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "比较真空度裂纹监测传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "ASIP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "IVHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "HUMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "AHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "ARIMAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "FACE系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "参数解析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "参数回归分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "直接测量法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "导波损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "比较真空度裂纹监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "智能涂层裂纹监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "涡流薄膜裂纹监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "结构完整性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "安全寿命设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "损伤容限设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "破损安全设计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "中国飞机强度研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "空客公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "洛克德·马丁公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "南京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-22",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-35",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A320",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A340-600",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "A350",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "EF-2000",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "Tornado",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-16",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "UH-60",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "CP-140",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "CF-18",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "HAWK",
+      "evaluation": "正确"
+    },
+    {
+      "type": "飞机型号",
+      "text": "F-4F Phantom",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "JSF项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "SARISTU项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "KASHMOS项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "HOMP计划",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王彬文",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "肖迎春",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "白生宝",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "袁慎芳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "邱雷",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王彬文",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "肖迎春",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "白生宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王莉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄博",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "田媛",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国飞机强度研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-02-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包括",
+      "head": "飞机结构健康监测",
+      "tail": "载荷监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机结构健康监测",
+      "tail": "损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "载荷监测",
+      "tail": "传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "损伤监测",
+      "tail": "传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "传统无损检测",
+      "tail": "结构健康监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "光纤传感器",
+      "tail": "飞机应变载荷监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "压电传感器",
+      "tail": "导波损伤监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "涡流薄膜传感器",
+      "tail": "裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "智能涂层传感器",
+      "tail": "裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "比较真空度裂纹监测传感器",
+      "tail": "裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "美国",
+      "tail": "ASIP",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "JSF项目",
+      "tail": "PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "NASA",
+      "tail": "IVHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "英国国防部",
+      "tail": "HUMS",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "波音公司",
+      "tail": "AHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "空客公司",
+      "tail": "ARIMAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "FACE系统",
+      "tail": "F-16飞机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "PHM",
+      "tail": "F-35飞机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "IVHM",
+      "tail": "X-33和X-37",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "HUMS",
+      "tail": "直升机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "AHM",
+      "tail": "波音777和波音747-400",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "ARIMAN",
+      "tail": "A320、A330和A340",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "载荷计算",
+      "tail": "参数解析法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "载荷计算",
+      "tail": "参数回归分析法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "载荷计算",
+      "tail": "直接测量法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "导波损伤监测",
+      "tail": "被动监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "导波损伤监测",
+      "tail": "主动监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发明了",
+      "head": "澳大利亚",
+      "tail": "比较真空度裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发明了",
+      "head": "加拿大和日本",
+      "tail": "智能涂层裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发明了",
+      "head": "美国斯坦福大学",
+      "tail": "涡流薄膜裂纹监测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研发了",
+      "head": "中国飞机强度研究所",
+      "tail": "主被动一体损伤监测系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "研发了",
+      "head": "南京航空航天大学",
+      "tail": "压电智能夹层",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "王彬文",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "肖迎春",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "白生宝",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "王莉",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "黄博",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作者是",
+      "head": "论文",
+      "tail": "田媛",
+      "evaluation": "错误"
+    },
+    {
+      "type": "隶属于",
+      "head": "王彬文",
+      "tail": "中国飞机强度研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "肖迎春",
+      "tail": "中国飞机强度研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "白生宝",
+      "tail": "中国飞机强度研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "袁慎芳",
+      "tail": "南京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "邱雷",
+      "tail": "南京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "王彬文",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "肖迎春",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "白生宝",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王莉",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "黄博",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "田媛",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王彬文",
+      "tail": "中国飞机强度研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机结构健康监测与管理技术研究进展和展望",
+      "tail": "2022-02-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

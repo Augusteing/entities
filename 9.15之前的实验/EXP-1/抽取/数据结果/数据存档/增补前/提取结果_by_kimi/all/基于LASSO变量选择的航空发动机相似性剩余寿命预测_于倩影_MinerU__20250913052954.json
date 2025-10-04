@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "LASSO(least absolute shrinkage and selection operator)"
+    },
+    {
+      "type": "算法",
+      "text": "K-means聚类"
+    },
+    {
+      "type": "算法",
+      "text": "基于相似性的剩余寿命预测方法"
+    },
+    {
+      "type": "模型",
+      "text": "线性回归模型"
+    },
+    {
+      "type": "模型",
+      "text": "欧氏距离模型"
+    },
+    {
+      "type": "模型",
+      "text": "1范数模型"
+    },
+    {
+      "type": "模型",
+      "text": "二阶多项式模型"
+    },
+    {
+      "type": "函数",
+      "text": "健康指标函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差的标准差"
+    },
+    {
+      "type": "研究结果",
+      "text": "基于LASSO选取变量的相似性寿命预测误差的标准差在3种运行周期下分别减少了约1.84、3.46、4.23"
+    },
+    {
+      "type": "研究结果",
+      "text": "基于LASSO方法选择的传感器进行寿命预测的误差均值为-4.6671"
+    },
+    {
+      "type": "研究结果",
+      "text": "基于传统方法的估算误差均值为-5.8944"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "剩余寿命预测",
+      "tail": "LASSO(least absolute shrinkage and selection operator)"
+    },
+    {
+      "type": "结合",
+      "head": "LASSO(least absolute shrinkage and selection operator)",
+      "tail": "相似性寿命预测方法"
+    },
+    {
+      "type": "用于",
+      "head": "K-means聚类",
+      "tail": "区分不同工况"
+    },
+    {
+      "type": "用于",
+      "head": "线性回归模型",
+      "tail": "健康指标构建"
+    },
+    {
+      "type": "定义",
+      "head": "健康指标函数",
+      "tail": "航空发动机的健康状况"
+    },
+    {
+      "type": "评估指标是",
+      "head": "寿命预测方法",
+      "tail": "预测误差的标准差"
+    },
+    {
+      "type": "表明",
+      "head": "基于LASSO选取变量的相似性寿命预测误差的标准差在3种运行周期下分别减少了约1.84、3.46、4.23",
+      "tail": "基于LASSO方法结合相似性寿命预测方法有效提高了剩余寿命的预测精度"
+    },
+    {
+      "type": "得出",
+      "head": "寿命预测",
+      "tail": "基于LASSO方法选择的传感器进行寿命预测的误差均值为-4.6671"
+    },
+    {
+      "type": "得出",
+      "head": "寿命预测",
+      "tail": "基于传统方法的估算误差均值为-5.8944"
+    }
+  ]
+}

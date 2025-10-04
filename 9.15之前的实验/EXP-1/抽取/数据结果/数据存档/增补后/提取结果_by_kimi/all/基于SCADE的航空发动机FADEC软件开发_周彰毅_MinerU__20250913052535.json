@@ -1,0 +1,272 @@
+{
+  "entities": [
+    {
+      "type": "软件",
+      "text": "SCADE"
+    },
+    {
+      "type": "技术",
+      "text": "基于模型开发"
+    },
+    {
+      "type": "技术",
+      "text": "自动代码生成"
+    },
+    {
+      "type": "标准",
+      "text": "DO-178C"
+    },
+    {
+      "type": "技术",
+      "text": "模型覆盖率"
+    },
+    {
+      "type": "技术",
+      "text": "DO-331"
+    },
+    {
+      "type": "工具",
+      "text": "KCG"
+    },
+    {
+      "type": "公司",
+      "text": "R&R"
+    },
+    {
+      "type": "公司",
+      "text": "GE"
+    },
+    {
+      "type": "公司",
+      "text": "P&W"
+    },
+    {
+      "type": "技术",
+      "text": "Simulink"
+    },
+    {
+      "type": "技术",
+      "text": "Stateflow"
+    },
+    {
+      "type": "技术",
+      "text": "MC/DC"
+    },
+    {
+      "type": "技术",
+      "text": "TCL"
+    },
+    {
+      "type": "技术",
+      "text": "硬件在环仿真"
+    },
+    {
+      "type": "技术",
+      "text": "SCM_INP"
+    },
+    {
+      "type": "技术",
+      "text": "SCM_EXE"
+    },
+    {
+      "type": "技术",
+      "text": "Simulink Translator"
+    },
+    {
+      "type": "技术",
+      "text": "StateflowImporter"
+    },
+    {
+      "type": "技术",
+      "text": "黑盒仿真"
+    },
+    {
+      "type": "技术",
+      "text": "白盒仿真"
+    },
+    {
+      "type": "技术",
+      "text": "传感器网络"
+    },
+    {
+      "type": "技术",
+      "text": "分簇路由算法"
+    },
+    {
+      "type": "技术",
+      "text": "WSNs非均匀分解算法"
+    },
+    {
+      "type": "技术",
+      "text": "能量均衡的无线传感器网络分解路由协议"
+    },
+    {
+      "type": "技术",
+      "text": "无线传感器网络"
+    },
+    {
+      "type": "技术",
+      "text": "多跳无线传感器网络"
+    },
+    {
+      "type": "技术",
+      "text": "高能效数据收集协议"
+    },
+    {
+      "type": "技术",
+      "text": "高效中继节点快速选择算法"
+    },
+    {
+      "type": "技术",
+      "text": "基于密度控制的传感器网络能量空洞避免策略"
+    },
+    {
+      "type": "技术",
+      "text": "基于功率控制的无线传感器网络节点定位算法"
+    },
+    {
+      "type": "技术",
+      "text": "基于非均匀分簇的无线传感器网络分层路由协议"
+    },
+    {
+      "type": "技术",
+      "text": "能量优化WSNs非均匀分簇路由协议"
+    },
+    {
+      "type": "技术",
+      "text": "能量均衡有效的WSN分簇路由算法"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "SCADE",
+      "tail": "航空发动机控制软件研制"
+    },
+    {
+      "type": "结合",
+      "head": "SCADE",
+      "tail": "Simulink"
+    },
+    {
+      "type": "遵循",
+      "head": "SCADE",
+      "tail": "DO-178C"
+    },
+    {
+      "type": "遵循",
+      "head": "SCADE",
+      "tail": "DO-331"
+    },
+    {
+      "type": "提供",
+      "head": "SCADE",
+      "tail": "KCG"
+    },
+    {
+      "type": "使用",
+      "head": "R&R、GE和P&W",
+      "tail": "SCADE"
+    },
+    {
+      "type": "支持",
+      "head": "SCADE",
+      "tail": "Stateflow"
+    },
+    {
+      "type": "要求",
+      "head": "DO-178C",
+      "tail": "MC/DC"
+    },
+    {
+      "type": "编写",
+      "head": "模型测试场景",
+      "tail": "TCL脚本"
+    },
+    {
+      "type": "进行",
+      "head": "软硬件集成测试",
+      "tail": "硬件在环仿真"
+    },
+    {
+      "type": "包含",
+      "head": "SCM_EXE",
+      "tail": "控制算法和控制逻辑"
+    },
+    {
+      "type": "转换",
+      "head": "Simulink模型",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "包括",
+      "head": "Simulink Gateway",
+      "tail": "Simulink Translator"
+    },
+    {
+      "type": "包括",
+      "head": "Simulink Gateway",
+      "tail": "StateflowImporter"
+    },
+    {
+      "type": "称为",
+      "head": "将SCADE模型集成到Simulink模型中",
+      "tail": "黑盒仿真"
+    },
+    {
+      "type": "称为",
+      "head": "Simulink仿真器直接驱动SCADE仿真器",
+      "tail": "白盒仿真"
+    },
+    {
+      "type": "研究",
+      "head": "基于混合粒子群算法的无线传感器网络路由协议",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "应用",
+      "head": "受限节点的WSNs非均匀分解算法",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "提出",
+      "head": "一种能量均衡的无线传感器网络分解路由协议",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "研究",
+      "head": "多跳无线传感器网络的高能效数据收集协议",
+      "tail": "多跳无线传感器网络"
+    },
+    {
+      "type": "研究",
+      "head": "多跳无线传感器网络的高效中继节点快速选择算法",
+      "tail": "多跳无线传感器网络"
+    },
+    {
+      "type": "提出",
+      "head": "基于密度控制的传感器网络能量空洞避免策略",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "研究",
+      "head": "基于功率控制的无线传感器网络节点定位算法",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "提出",
+      "head": "基于非均匀分簇的无线传感器网络分层路由协议",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "提出",
+      "head": "一种能量优化WSNs非均匀分簇路由协议",
+      "tail": "无线传感器网络"
+    },
+    {
+      "type": "提出",
+      "head": "一种能量均衡有效的WSN分簇路由算法",
+      "tail": "无线传感器网络"
+    }
+  ]
+}

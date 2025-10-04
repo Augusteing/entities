@@ -1,0 +1,230 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "神经网络算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "起落架液压收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "元件性能参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "故障模式及影响分析（FMEA）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "压力、流量和时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "选择阀开口不足故障、作动筒内漏故障和液压泵内漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机系统健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机液压、起落架系统甚至机载设备的健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机起落架液压收放系统的健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机起落架收放过程及故障的仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "飞机起落架收放系统仿真与健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康评估结果较理想",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "和麟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁丽嫒",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安飞豹科技发展公司仿真部",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "AMESim软件",
+      "tail": "建立系统仿真模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "影响",
+      "head": "元件性能参数的退化",
+      "tail": "系统工作性能恶化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "故障模式及影响分析（FMEA）",
+      "tail": "系统易发生的问题",
+      "evaluation": "错误"
+    },
+    {
+      "type": "反映",
+      "head": "压力、流量和时间",
+      "tail": "系统健康状态信息",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "作动筒内泄漏",
+      "tail": "液压泵出口压力减小",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "液压泵部件功能降级",
+      "tail": "压力、流量和起落架运动到位所需时间均会有明显的单调变化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "通过",
+      "head": "健康评估",
+      "tail": "判断退化过程中的所处的健康降级程度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "神经网络算法",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "本文的研究",
+      "tail": "新研飞机起落架液压收放系统的健康评估的一种思路和方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "起落架液压收放系统元件性能参数的进化",
+      "tail": "系统工作性能恶化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "飞机起落架不能正常收放",
+      "tail": "严重威胁飞行安全",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "故障特征选取合理",
+      "tail": "健康评估结果较理想",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "和麟",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁丽嫒",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "和麟",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "tail": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

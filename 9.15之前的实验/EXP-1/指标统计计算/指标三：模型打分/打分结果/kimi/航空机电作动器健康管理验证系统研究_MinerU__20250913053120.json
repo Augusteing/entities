@@ -1,0 +1,284 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "健康管理智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "生理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空机电作动器健康管理验证系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "故障注入方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件平台",
+      "text": "验证系统硬件平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件环境",
+      "text": "基于组件模式的通用软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "递归最小二乘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "监控效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "97%的监控效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RLS算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "PF算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "CPU占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "内存占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "稳定性评估指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命（RUL）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "于劲松",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘浩",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "廖灿星",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李芳亮",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "先进航空发动机协同创新中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95927部队14分队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95478部队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "验证与评估健康管理智能算法与生理模型性能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "智能推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "诊断预测算法与决策支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "软件运行环境",
+      "tail": "Lua脚本和C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "验证与评估模块",
+      "tail": "PHM算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "RLS算法",
+      "tail": "CPU占用率和内存占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "RLS算法",
+      "tail": "稳定性评估指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "PF算法",
+      "tail": "剩余使用寿命（RUL）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "PF算法",
+      "tail": "97%的监控效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "于劲松",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘浩",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张平",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "廖灿星",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李芳亮",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "于劲松",
+      "tail": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空机电作动器健康管理验证系统研究",
+      "tail": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "K-means聚类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Gamma过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Wiener过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔可夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "长短期记忆人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "深度神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯动态线性模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "非线性Wiener过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "半Copula模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Copula相似性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "皮尔逊相关",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "动态时间规整",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Akaike信息准则",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Kendall秩相关系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "两阶段极大似然估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "加力式涡扇发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "预测与健康管理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "系统",
+      "text": "C-MAPSS航空发动机仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Ps30",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "T50",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "BPR",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "T2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "T30",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "P2",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "P15",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "P30",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Nf",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Ne",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "epr",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Phi",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "NRf",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Nre",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "farB",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "htBleed",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "Nf_dmd",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "PCNfR_dmd",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "W31",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "W32",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "13.053%的预测误差减少",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "31.328%的预测误差减少",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "74.602%的预测误差减少",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "许先鑫",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李娟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孙秀慧",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "戴洪德",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "鲁东大学数学与统计科学学院统计系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空大学航空基础学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-11-23 13:16",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "许先鑫等",
+      "tail": "基于Copula相似性的航空发动机RUL预测方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机RUL预测",
+      "tail": "Copula函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "航空发动机RUL预测",
+      "tail": "K-means聚类",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "航空发动机RUL预测",
+      "tail": "线性退化模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选择",
+      "head": "线性退化模型",
+      "tail": "Ps30传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选择",
+      "head": "线性退化模型",
+      "tail": "T50传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "选择",
+      "head": "线性退化模型",
+      "tail": "BPR传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建模",
+      "head": "Copula函数",
+      "tail": "传感器相关性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估",
+      "head": "Akaike信息准则",
+      "tail": "Copula函数拟合效果",
+      "evaluation": "错误"
+    },
+    {
+      "type": "计算",
+      "head": "Kendall秩相关系数",
+      "tail": "传感器变化趋势",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "Copula相似性",
+      "tail": "航空发动机寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "寿命预测",
+      "tail": "历史样本相似性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "实验",
+      "tail": "C-MAPSS航空发动机仿真模型数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "比较",
+      "head": "基于Copula相似性方法",
+      "tail": "传统方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "减少",
+      "head": "基于Copula相似性方法",
+      "tail": "预测误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高",
+      "head": "基于Copula相似性方法",
+      "tail": "预测精度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "许先鑫",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李娟",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "孙秀慧",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "戴洪德",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "许先鑫",
+      "tail": "鲁东大学数学与统计科学学院统计系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于Copula相似性的航空发动机RUL预测",
+      "tail": "2022-11-23 13:16",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "LSTM循环神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "多层网格搜索算法"
+    },
+    {
+      "type": "算法",
+      "text": "Adam优化算法"
+    },
+    {
+      "type": "算法",
+      "text": "BPTT算法"
+    },
+    {
+      "type": "算法",
+      "text": "ARIMA"
+    },
+    {
+      "type": "算法",
+      "text": "SSA"
+    },
+    {
+      "type": "算法",
+      "text": "SVR"
+    },
+    {
+      "type": "算法",
+      "text": "Holt-Winters"
+    },
+    {
+      "type": "算法",
+      "text": "MLR"
+    },
+    {
+      "type": "算法",
+      "text": "RNN"
+    },
+    {
+      "type": "算法",
+      "text": "GRU"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM模型"
+    },
+    {
+      "type": "模型",
+      "text": "RNN模型"
+    },
+    {
+      "type": "模型",
+      "text": "GRU模型"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率"
+    },
+    {
+      "type": "数据集",
+      "text": "民航飞机故障数据"
+    },
+    {
+      "type": "数据集",
+      "text": "波音737飞机故障记录"
+    },
+    {
+      "type": "系统",
+      "text": "复杂系统"
+    },
+    {
+      "type": "系统",
+      "text": "轴承故障诊断系统"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习"
+    },
+    {
+      "type": "技术",
+      "text": "数据驱动方法"
+    },
+    {
+      "type": "技术",
+      "text": "故障机理方法"
+    },
+    {
+      "type": "技术",
+      "text": "融合方法"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "LSTM循环神经网络",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "type": "提出了",
+      "head": "LSTM循环神经网络",
+      "tail": "多层网格搜索算法"
+    },
+    {
+      "type": "用于",
+      "head": "Adam优化算法",
+      "tail": "LSTM模型训练"
+    },
+    {
+      "type": "用于",
+      "head": "BPTT算法",
+      "tail": "LSTM模型训练"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "ARIMA"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "SSA"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "SVR"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "Holt-Winters"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "MLR"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "RNN"
+    },
+    {
+      "type": "对比",
+      "head": "LSTM模型",
+      "tail": "GRU"
+    },
+    {
+      "type": "演化为",
+      "head": "RNN",
+      "tail": "LSTM"
+    },
+    {
+      "type": "演化为",
+      "head": "LSTM",
+      "tail": "GRU"
+    },
+    {
+      "type": "基于",
+      "head": "LSTM模型",
+      "tail": "深度学习"
+    },
+    {
+      "type": "应用于",
+      "head": "LSTM模型",
+      "tail": "故障时间序列预测"
+    },
+    {
+      "type": "使用",
+      "head": "实验",
+      "tail": "民航飞机故障数据"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障时间序列预测",
+      "tail": "RMSE"
+    },
+    {
+      "type": "得出",
+      "head": "LSTM模型",
+      "tail": "95.6%的准确率"
+    }
+  ]
+}

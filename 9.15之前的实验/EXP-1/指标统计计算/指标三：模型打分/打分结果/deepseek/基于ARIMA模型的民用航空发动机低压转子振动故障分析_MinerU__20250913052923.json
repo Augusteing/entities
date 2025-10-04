@@ -1,0 +1,594 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "ARIMA模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "回归分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "指数模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "线性回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "二次多项式回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三次多项式回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自回归积分移动平均模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三次指数平滑法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "ADF检验法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "差分法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "专家建模器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "可决系数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "拟合优度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "最大绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "民用航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "低压转子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "快速存储记录器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "波音737-800型飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "CFM56-7B发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "低压涡轮",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "风扇叶片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "中介轴承",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "振动故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "N1振动高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "振动值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "N1转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "飞行马赫数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "飞行高度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发动机高低压转子转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "TN1VIB",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "拟合系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "系数a",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "系数b",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "误差项",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "残差序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "白噪声",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "时间序列分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "平稳性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模型定阶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "参数估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "适应性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "有效性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "最小熵解卷积法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "随机森林法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "过程神经网络法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "振动趋势预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "方法",
+      "text": "匹配同步挤压小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "相关性分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "时间序列法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "STAR模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "方法",
+      "text": "单位根检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "航空航天",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "民用航空",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "发动机维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究领域",
+      "text": "振动分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "徐建新",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "姜春生",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马超",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国民航大学航空工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2019-07-08",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障分析方法",
+      "tail": "回归分析法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "故障分析方法",
+      "tail": "ARIMA模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "ARIMA模型",
+      "tail": "时间序列分析",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "回归分析法",
+      "tail": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "指数模型",
+      "tail": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "线性回归模型",
+      "tail": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "二次多项式回归模型",
+      "tail": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "三次多项式回归模型",
+      "tail": "回归拟合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "ADF检验法",
+      "tail": "平稳性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "差分法",
+      "tail": "数据预处理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "专家建模器",
+      "tail": "模型定阶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "专家建模器",
+      "tail": "参数估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "可决系数",
+      "tail": "拟合优度评估",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "均方根误差",
+      "tail": "有效性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "平均绝对误差",
+      "tail": "有效性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "最大绝对误差",
+      "tail": "有效性检验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "ARIMA模型",
+      "tail": "振动故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分析",
+      "head": "ARIMA模型",
+      "tail": "系数a序列",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "95.6%的准确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "方法",
+      "tail": "民用航空发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "针对",
+      "head": "研究",
+      "tail": "CFM56-7B发动机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "研究",
+      "tail": "波音737-800型飞机",
+      "evaluation": "错误"
+    },
+    {
+      "type": "记录",
+      "head": "快速存储记录器",
+      "tail": "飞行参数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监测",
+      "head": "方法",
+      "tail": "振动值",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监测",
+      "head": "方法",
+      "tail": "N1转速",
+      "evaluation": "错误"
+    },
+    {
+      "type": "拟合",
+      "head": "回归分析法",
+      "tail": "振动-转速特性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "研究",
+      "tail": "ARIMA模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "检验",
+      "head": "ADF检验法",
+      "tail": "平稳性",
+      "evaluation": "错误"
+    },
+    {
+      "type": "变换",
+      "head": "差分法",
+      "tail": "平稳序列",
+      "evaluation": "错误"
+    },
+    {
+      "type": "估计",
+      "head": "专家建模器",
+      "tail": "模型参数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "诊断",
+      "head": "方法",
+      "tail": "振动故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测",
+      "head": "方法",
+      "tail": "故障征兆",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "徐建新",
+      "tail": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "姜春生",
+      "tail": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马超",
+      "tail": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "徐建新",
+      "tail": "中国民航大学航空工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于ARIMA模型的民用航空发动机低压转子振动故障分析",
+      "tail": "2019-07-08",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

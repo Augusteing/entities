@@ -1,0 +1,330 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机起落架液压收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "起落架收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "健康特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "电磁换向阀开口量不足",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "作动筒泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "液压泵泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "作动筒内漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "分类问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "向前型神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "梯度下降的算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "tansig型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "purelin型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Levenberg-Marquardt算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障类别诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障程度评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "最终训练误差为8.15×10⁻⁶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "98.9%的诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "85.0%的评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "和麟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁丽嫒",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安飞豹科技发展公司仿真部",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "仿真模型",
+      "tail": "AMESim",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "神经网络算法",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提取",
+      "head": "健康评估",
+      "tail": "健康特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康特征",
+      "tail": "压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康特征",
+      "tail": "流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "健康特征",
+      "tail": "时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种",
+      "head": "健康评估",
+      "tail": "分类问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种",
+      "head": "向前型神经网络",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "神经网络",
+      "tail": "Levenberg-Marquardt算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "神经网络",
+      "tail": "tansig型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "神经网络",
+      "tail": "purelin型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "健康评估",
+      "tail": "故障类别诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "健康评估",
+      "tail": "故障程度评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "神经网络",
+      "tail": "最终训练误差为8.15×10⁻⁶",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "健康评估",
+      "tail": "98.9%的诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "健康评估",
+      "tail": "85.0%的评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供依据",
+      "head": "健康评估",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "和麟",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁丽嫒",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "和麟",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "tail": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

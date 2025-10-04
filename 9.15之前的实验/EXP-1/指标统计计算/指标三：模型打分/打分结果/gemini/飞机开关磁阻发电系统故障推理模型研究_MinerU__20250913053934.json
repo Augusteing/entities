@@ -1,0 +1,230 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "开关磁阻发电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "MATLAB软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "典型电气故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "记忆模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "代数环问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "输出电压信号",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "EMD算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征量",
+      "text": "标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "B-P神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "tansig",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机开关磁阻发电系统故障推理模型研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李宁",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "雷洪利",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "韩建定",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "朱喜华",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "空军工程大学工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的核心",
+      "head": "开关磁阻发电系统",
+      "tail": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于研究",
+      "head": "本文",
+      "tail": "飞机供电系统健康管理技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于仿真",
+      "head": "MATLAB软件",
+      "tail": "典型电气故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入...解决",
+      "head": "记忆模块",
+      "tail": "代数环问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于分解",
+      "head": "EMD算法",
+      "tail": "输出电压信号",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为",
+      "head": "标准差",
+      "tail": "特征量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于训练",
+      "head": "特征量",
+      "tail": "神经网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立",
+      "head": "神经网络",
+      "tail": "故障推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键技术",
+      "head": "故障推理模型",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用函数",
+      "head": "B-P神经网络",
+      "tail": "tansig",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "李宁",
+      "tail": "飞机开关磁阻发电系统故障推理模型研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "雷洪利",
+      "tail": "飞机开关磁阻发电系统故障推理模型研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "韩建定",
+      "tail": "飞机开关磁阻发电系统故障推理模型研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "朱喜华",
+      "tail": "飞机开关磁阻发电系统故障推理模型研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "李宁",
+      "tail": "空军工程大学工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机开关磁阻发电系统故障推理模型研究",
+      "tail": "2011-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

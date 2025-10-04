@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "EnsembleBRB-SHAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "集成置信规则库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "SHAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "EnsembleBRB模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "子置信规则库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差(MSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "低压涡轮机冷却液泄漏量、风扇转速等是决定发动机健康状态的关键参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "MSE = 0.0122",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "游雅倩",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "闫辉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "苏耀峰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王晓双",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "鄢睿丞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "国防科技大学信息通信学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2024-12-11 16:37",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机健康状态可解释预测方法",
+      "tail": "EnsembleBRB-SHAP",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EnsembleBRB模型",
+      "tail": "子置信规则库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "案例研究",
+      "tail": "C-MAPSS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "发动机健康状态预测",
+      "tail": "均方误差(MSE)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "tail": "MSE = 0.0122",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "tail": "低压涡轮机冷却液泄漏量、风扇转速等是决定发动机健康状态的关键参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "游雅倩",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "闫辉",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "苏耀峰",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王晓双",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "鄢睿丞",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "游雅倩",
+      "tail": "国防科技大学信息通信学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "tail": "2024-12-11 16:37",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

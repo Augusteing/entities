@@ -1,0 +1,348 @@
+{
+  "entities": [
+    {
+      "type": "系统/平台",
+      "text": "航空机电作动器健康管理验证系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/平台",
+      "text": "先进诊断与预测测试平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "航空机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "齿轮减速器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件/模块",
+      "text": "验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法/模型",
+      "text": "递归最小二乘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法/模型",
+      "text": "粒子滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术/方法",
+      "text": "组件模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "轴承故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "绕组匝间短路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "CPU占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "内存占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均CPU占用率34.3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均内存占用率42.3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RUL值为42.8min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "NASA Ames Research Center",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构",
+      "text": "Vanderbilt University",
+      "evaluation": "正确"
+    },
+    {
+      "type": "编程语言/工具",
+      "text": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "于劲松",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘浩",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "廖灿星",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李芳亮",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "先进航空发动机协同创新中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95927部队14分队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95478部队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "合作开发",
+      "head": "NASA Ames Research Center",
+      "tail": "先进诊断与预测测试平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "合作开发",
+      "head": "Vanderbilt University",
+      "tail": "先进诊断与预测测试平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "软件运行环境",
+      "tail": "组件模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "软件运行环境",
+      "tail": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要故障类型是",
+      "head": "航空机电作动器",
+      "tail": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "最常见是",
+      "head": "机械故障",
+      "tail": "轴承故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式",
+      "head": "电机",
+      "tail": "绕组匝间短路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式",
+      "head": "齿轮减速器",
+      "tail": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "验证与评估模块",
+      "tail": "CPU占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "验证与评估模块",
+      "tail": "内存占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "验证与评估模块",
+      "tail": "剩余使用寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "递归最小二乘",
+      "tail": "平均CPU占用率34.3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "递归最小二乘",
+      "tail": "平均内存占用率42.3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "粒子滤波",
+      "tail": "RUL值为42.8min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "于劲松",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘浩",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张平",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "廖灿星",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李芳亮",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "于劲松",
+      "tail": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空机电作动器健康管理验证系统研究",
+      "tail": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

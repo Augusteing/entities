@@ -1,0 +1,290 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "安全寿命思想"
+    },
+    {
+      "type": "概念",
+      "text": "损伤容限设计"
+    },
+    {
+      "type": "概念",
+      "text": "结构完整性思想"
+    },
+    {
+      "type": "理论",
+      "text": "断裂力学"
+    },
+    {
+      "type": "算法",
+      "text": "唯象疲劳分析方法"
+    },
+    {
+      "type": "模型",
+      "text": "S-N曲线"
+    },
+    {
+      "type": "模型",
+      "text": "ε-N曲线"
+    },
+    {
+      "type": "模型",
+      "text": "Basquin关系式"
+    },
+    {
+      "type": "模型",
+      "text": "Coffin-Manson关系式"
+    },
+    {
+      "type": "模型",
+      "text": "Walker模型"
+    },
+    {
+      "type": "模型",
+      "text": "SWT模型"
+    },
+    {
+      "type": "模型",
+      "text": "Palmgren-Miner线性累积损伤准则"
+    },
+    {
+      "type": "性能指标",
+      "text": "缺口疲劳系数"
+    },
+    {
+      "type": "算法",
+      "text": "局部应力应变法"
+    },
+    {
+      "type": "算法",
+      "text": "应力场强法"
+    },
+    {
+      "type": "理论",
+      "text": "临界距离理论"
+    },
+    {
+      "type": "概念",
+      "text": "结构疲劳品质"
+    },
+    {
+      "type": "算法",
+      "text": "名义应力法"
+    },
+    {
+      "type": "算法",
+      "text": "细节疲劳额定值法"
+    },
+    {
+      "type": "性能指标",
+      "text": "细节疲劳额定值"
+    },
+    {
+      "type": "概念",
+      "text": "积木式试验"
+    },
+    {
+      "type": "性能指标",
+      "text": "应力强度因子"
+    },
+    {
+      "type": "概念",
+      "text": "疲劳裂纹萌生"
+    },
+    {
+      "type": "概念",
+      "text": "疲劳裂纹扩展"
+    },
+    {
+      "type": "模型",
+      "text": "Paris关系式"
+    },
+    {
+      "type": "模型",
+      "text": "Elber裂纹闭合模型"
+    },
+    {
+      "type": "模型",
+      "text": "疲劳元模型"
+    },
+    {
+      "type": "模型",
+      "text": "Wheeler模型"
+    },
+    {
+      "type": "模型",
+      "text": "Willenborg模型"
+    },
+    {
+      "type": "模型",
+      "text": "Dugdale条带屈服模型"
+    },
+    {
+      "type": "模型",
+      "text": "Kitagawa-Takahashi模型"
+    },
+    {
+      "type": "模型",
+      "text": "El Haddad模型"
+    },
+    {
+      "type": "模型",
+      "text": "Chapetti模型"
+    },
+    {
+      "type": "概念",
+      "text": "原始疲劳质量"
+    },
+    {
+      "type": "算法",
+      "text": "概率断裂力学方法"
+    },
+    {
+      "type": "性能指标",
+      "text": "当量初始缺陷尺寸"
+    },
+    {
+      "type": "概念",
+      "text": "安全寿命理念"
+    },
+    {
+      "type": "概念",
+      "text": "破损安全理念"
+    },
+    {
+      "type": "概念",
+      "text": "损伤容限理念"
+    },
+    {
+      "type": "概念",
+      "text": "耐久性分析"
+    },
+    {
+      "type": "概念",
+      "text": "经济寿命"
+    },
+    {
+      "type": "概念",
+      "text": "飞机结构健康管理"
+    },
+    {
+      "type": "概念",
+      "text": "数字孪生"
+    },
+    {
+      "type": "软件",
+      "text": "NASGRO"
+    },
+    {
+      "type": "软件",
+      "text": "FRANC3D"
+    },
+    {
+      "type": "软件",
+      "text": "ZenCrack"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "损伤容限设计",
+      "tail": "断裂力学"
+    },
+    {
+      "type": "描述了",
+      "head": "Basquin关系式",
+      "tail": "S-N曲线"
+    },
+    {
+      "type": "描述了",
+      "head": "Coffin-Manson关系式",
+      "tail": "ε-N曲线"
+    },
+    {
+      "type": "退化为",
+      "head": "Walker模型",
+      "tail": "SWT模型"
+    },
+    {
+      "type": "提出了",
+      "head": "断裂力学",
+      "tail": "应力强度因子"
+    },
+    {
+      "type": "描述了",
+      "head": "Paris关系式",
+      "tail": "疲劳裂纹扩展"
+    },
+    {
+      "type": "是一种",
+      "head": "Wheeler模型",
+      "tail": "屈服区模型"
+    },
+    {
+      "type": "是一种",
+      "head": "Willenborg模型",
+      "tail": "屈服区模型"
+    },
+    {
+      "type": "基于",
+      "head": "Elber裂纹闭合模型",
+      "tail": "疲劳裂纹闭合"
+    },
+    {
+      "type": "是一种",
+      "head": "Dugdale条带屈服模型",
+      "tail": "条带屈服模型"
+    },
+    {
+      "type": "修正了",
+      "head": "El Haddad模型",
+      "tail": "Kitagawa-Takahashi模型"
+    },
+    {
+      "type": "修正了",
+      "head": "Chapetti模型",
+      "tail": "Kitagawa-Takahashi模型"
+    },
+    {
+      "type": "表征了",
+      "head": "当量初始缺陷尺寸",
+      "tail": "原始疲劳质量"
+    },
+    {
+      "type": "发展为",
+      "head": "安全寿命理念",
+      "tail": "破损安全理念"
+    },
+    {
+      "type": "发展为",
+      "head": "破损安全理念",
+      "tail": "损伤容限理念"
+    },
+    {
+      "type": "催生了",
+      "head": "断裂力学",
+      "tail": "损伤容限理念"
+    },
+    {
+      "type": "包含",
+      "head": "飞机结构健康管理",
+      "tail": "传感技术"
+    },
+    {
+      "type": "包含",
+      "head": "飞机结构健康管理",
+      "tail": "损伤识别技术"
+    },
+    {
+      "type": "包含",
+      "head": "数字孪生",
+      "tail": "高保真建模仿真技术"
+    },
+    {
+      "type": "包含",
+      "head": "数字孪生",
+      "tail": "真机实时状态感知技术"
+    }
+  ]
+}

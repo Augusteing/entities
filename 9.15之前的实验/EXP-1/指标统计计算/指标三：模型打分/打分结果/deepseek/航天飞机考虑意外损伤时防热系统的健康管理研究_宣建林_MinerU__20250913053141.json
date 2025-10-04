@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宣建林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "冯蕴雯",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张茂",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋笔锋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院 西安710072",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安710072",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2007-10-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "传统RNN",
+      "tail": "LSTM网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "LSTM网络",
+      "tail": "Transformer架构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "Transformer架构",
+      "tail": "自注意力机制",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "Transformer架构",
+      "tail": "注意力机制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "轴承故障诊断系统",
+      "tail": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "轴承故障诊断系统",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "宣建林",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "冯蕴雯",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张茂",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "宋笔锋",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "宣建林",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "tail": "2007-10-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

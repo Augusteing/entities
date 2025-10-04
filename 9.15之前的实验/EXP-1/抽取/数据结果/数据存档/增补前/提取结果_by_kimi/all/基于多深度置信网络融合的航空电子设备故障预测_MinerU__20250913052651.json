@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "type": "论文",
+      "text": "基于多深度置信网络融合的航空电子设备故障预测"
+    },
+    {
+      "type": "作者",
+      "text": "梁天辰"
+    },
+    {
+      "type": "机构",
+      "text": "中国西南电子技术研究所"
+    },
+    {
+      "type": "概念",
+      "text": "航空电子设备性能退化趋势"
+    },
+    {
+      "type": "概念",
+      "text": "工作环境"
+    },
+    {
+      "type": "技术",
+      "text": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合"
+    },
+    {
+      "type": "技术",
+      "text": "Dropout"
+    },
+    {
+      "type": "技术",
+      "text": "改进遗传算法"
+    },
+    {
+      "type": "技术",
+      "text": "深度置信网络"
+    },
+    {
+      "type": "技术",
+      "text": "迁移学习"
+    },
+    {
+      "type": "技术",
+      "text": "受限玻尔兹曼机"
+    },
+    {
+      "type": "技术",
+      "text": "对比散度算法"
+    },
+    {
+      "type": "技术",
+      "text": "跨域迁移训练"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量回归（Support Vector Regression，SVR）"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差均值"
+    },
+    {
+      "type": "性能指标",
+      "text": "相关度"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测精度高于单一DBN模型和支持向量机"
+    }
+  ],
+  "relations": [
+    {
+      "type": "作者隶属于",
+      "head": "梁天辰",
+      "tail": "中国西南电子技术研究所"
+    },
+    {
+      "type": "解决",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合",
+      "tail": "航空电子设备性能退化趋势预测问题"
+    },
+    {
+      "type": "影响",
+      "head": "工作环境",
+      "tail": "航空电子设备性能退化趋势"
+    },
+    {
+      "type": "包含",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合",
+      "tail": "Dropout"
+    },
+    {
+      "type": "包含",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合",
+      "tail": "改进遗传算法"
+    },
+    {
+      "type": "基于",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合",
+      "tail": "深度置信网络"
+    },
+    {
+      "type": "基于",
+      "head": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合",
+      "tail": "迁移学习"
+    },
+    {
+      "type": "组成",
+      "head": "深度置信网络",
+      "tail": "受限玻尔兹曼机"
+    },
+    {
+      "type": "优化",
+      "head": "对比散度算法",
+      "tail": "受限玻尔兹曼机"
+    },
+    {
+      "type": "包含",
+      "head": "深度置信网络迁移训练",
+      "tail": "跨域迁移训练"
+    },
+    {
+      "type": "对比",
+      "head": "支持向量回归（Support Vector Regression，SVR）",
+      "tail": "多深度置信网络（Multi- deep Belief Network，DBN）模型融合"
+    },
+    {
+      "type": "评估",
+      "head": "实验验证",
+      "tail": "均方根误差"
+    },
+    {
+      "type": "评估",
+      "head": "实验验证",
+      "tail": "相对误差均值"
+    },
+    {
+      "type": "评估",
+      "head": "实验验证",
+      "tail": "相关度"
+    },
+    {
+      "type": "得出",
+      "head": "实验验证",
+      "tail": "预测精度高于单一DBN模型和支持向量机"
+    }
+  ]
+}

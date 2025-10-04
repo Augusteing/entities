@@ -1,0 +1,371 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "基于状态的维护方式CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织",
+      "text": "美国海军",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "Boeing",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "Caterpillar",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公司",
+      "text": "Rockwell Automation",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多Agent系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BDI（Belief-Desire-Intention）Agent理论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "AEPHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "KQML语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ATML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多传感器信息融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "FFT分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "时域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "频域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粗糙集RS理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据仓库管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "知识查询与操作通讯语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "XML数据形式存储",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MATLAB数字仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "LabView虚拟仿真平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "Dijkstra算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "论文",
+      "text": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张莉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "袁海文",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "陕西师范大学计算机科学学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2010-07-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "飞机电源系统",
+      "tail": "机载设备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞机电源预测与健康管理",
+      "tail": "OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "资助",
+      "head": "OSA-CBM系统架构",
+      "tail": "美国海军",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同研究",
+      "head": "OSA-CBM系统架构",
+      "tail": "Boeing",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同研究",
+      "head": "OSA-CBM系统架构",
+      "tail": "Caterpillar",
+      "evaluation": "正确"
+    },
+    {
+      "type": "共同研究",
+      "head": "OSA-CBM系统架构",
+      "tail": "Rockwell Automation",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "AEPHM系统",
+      "tail": "多Agent系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多Agent系统",
+      "tail": "BDI（Belief-Desire-Intention）Agent理论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "AEPHM系统",
+      "tail": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "Agent之间的相互协作",
+      "tail": "KQML语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "描述",
+      "head": "KQML通信原语消息",
+      "tail": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "依据",
+      "head": "XML文档的SCHEMA",
+      "tail": "ATML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "状态监测Agent",
+      "tail": "多传感器信息融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多种数据分析Agent",
+      "tail": "FFT分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多种数据分析Agent",
+      "tail": "时域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多种数据分析Agent",
+      "tail": "频域分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多种数据分析Agent",
+      "tail": "小波分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "粗糙集RS理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入",
+      "head": "故障诊断Agent设计",
+      "tail": "信息融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "数据仓库管理Agent",
+      "tail": "分布式数据存储服务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "负责",
+      "head": "服务Agent",
+      "tail": "各个Agent的登记注册和身份验证",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "用户接口Agent",
+      "tail": "人机交互界面",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "仿真Agent",
+      "tail": "MATLAB数字仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "仿真Agent",
+      "tail": "LabView虚拟仿真平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "head": "一种基于Dijkstra算法的启发式最优路径搜索算法",
+      "tail": "Dijkstra算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "张莉",
+      "tail": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "袁海文",
+      "tail": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "张莉",
+      "tail": "陕西师范大学计算机科学学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机电源多Agent预测与健康管理系统研究",
+      "tail": "2010-07-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

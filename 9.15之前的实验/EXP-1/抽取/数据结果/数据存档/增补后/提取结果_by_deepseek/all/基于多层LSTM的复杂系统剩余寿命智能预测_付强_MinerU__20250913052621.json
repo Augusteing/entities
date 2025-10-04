@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多层LSTM预测模型"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络"
+    },
+    {
+      "type": "模型",
+      "text": "RNN模型"
+    },
+    {
+      "type": "算法",
+      "text": "Dropout方法"
+    },
+    {
+      "type": "函数",
+      "text": "误差得分函数"
+    },
+    {
+      "type": "算法",
+      "text": "K-means方法"
+    },
+    {
+      "type": "算法",
+      "text": "PCA"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机"
+    },
+    {
+      "type": "性能指标",
+      "text": "RMSE"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAE"
+    },
+    {
+      "type": "性能指标",
+      "text": "MSE"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAPE"
+    },
+    {
+      "type": "性能指标",
+      "text": "Std.Dev"
+    },
+    {
+      "type": "性能指标",
+      "text": "MAD"
+    },
+    {
+      "type": "性能指标",
+      "text": "MdAD"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均验证损失值0.023"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均预测误差12"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差得分5486.14"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "付强，王华伟",
+      "tail": "多层LSTM预测模型"
+    },
+    {
+      "type": "基于",
+      "head": "多层LSTM预测模型",
+      "tail": "LSTM网络"
+    },
+    {
+      "type": "改进为",
+      "head": "RNN模型",
+      "tail": "LSTM网络"
+    },
+    {
+      "type": "使用",
+      "head": "多层LSTM预测模型",
+      "tail": "Dropout方法"
+    },
+    {
+      "type": "设计",
+      "head": "多层LSTM预测模型",
+      "tail": "误差得分函数"
+    },
+    {
+      "type": "用于",
+      "head": "K-means方法",
+      "tail": "航空发动机工况识别"
+    },
+    {
+      "type": "用于",
+      "head": "PCA",
+      "tail": "健康因子构建"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "RMSE"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAE"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MSE"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAPE"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "Std.Dev"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MAD"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多层LSTM预测模型",
+      "tail": "MdAD"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "平均验证损失值0.023"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "平均预测误差12"
+    },
+    {
+      "type": "得出",
+      "head": "多层LSTM预测模型",
+      "tail": "误差得分5486.14"
+    }
+  ]
+}

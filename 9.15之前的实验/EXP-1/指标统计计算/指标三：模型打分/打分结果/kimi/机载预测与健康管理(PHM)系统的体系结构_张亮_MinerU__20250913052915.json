@@ -1,0 +1,448 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机载预测与健康管理（PHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "机载PHM系统体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "预测与健康管理（Prognostics and Health Management PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "涡流传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "小功率无线综合微型传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "无线微机电系统MEMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Gabor变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "快速傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "离散傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "自主式保障信息系统（ALIS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "集中式体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "分布式体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "分层融合式体系结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机健康状态监测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障检测和隔离系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "系统重构系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合推理管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "异常检测推理机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障诊断推理机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测推理机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息流",
+      "text": "纵向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息流",
+      "text": "横向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息流",
+      "text": "反馈信息流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "接口",
+      "text": "测试维护操作接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "接口",
+      "text": "地面维修辅助设备的接口",
+      "evaluation": "正确"
+    },
+    {
+      "type": "接口",
+      "text": "空地数据链接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "综合飞行器健康管理（IVHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "机载预测与健康管理(PHM)系统的体系结构",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张亮",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张凤鸣",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李俊涛",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李永宾",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "空军工程大学工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "空军工程大学工程学院 陕西西安710038",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "陕西西安710038",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2008-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "旨在",
+      "head": "机载预测与健康管理（PHM）系统",
+      "tail": "推动作战飞机从“事后维修”、“定时维修”向“视情维修”转变",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "机上部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "PHM系统",
+      "tail": "机下部分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "机载PHM",
+      "tail": "先进的传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "机载PHM",
+      "tail": "各种算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "机载PHM",
+      "tail": "智能模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供信息给",
+      "head": "机载PHM",
+      "tail": "自主式保障信息系统（ALIS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "适用于",
+      "head": "集中式体系结构",
+      "tail": "小型机载系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "适用于",
+      "head": "分层融合式体系结构",
+      "tail": "下一代战机机载PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "分层融合式体系结构",
+      "tail": "模块单元层PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "分层融合式体系结构",
+      "tail": "子系统级PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "分层融合式体系结构",
+      "tail": "区域级PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "分层融合式体系结构",
+      "tail": "平台级PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "完成",
+      "head": "平台级PHM",
+      "tail": "获取整个飞机系统的健康状态及其变化趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "完成",
+      "head": "区域级PHM",
+      "tail": "确认并隔离故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "完成",
+      "head": "子系统级PHM",
+      "tail": "子系统部件异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "完成",
+      "head": "模块单元层PHM",
+      "tail": "状态信息的获取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "机载PHM系统",
+      "tail": "可扩展的三推理机系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "机载PHM系统",
+      "tail": "综合推理管理器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "异常检测推理机",
+      "tail": "对异常行为进行分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "故障诊断推理机",
+      "tail": "隔离故障和失效的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "故障预测推理机",
+      "tail": "预计分系统组成部件的剩余寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现",
+      "head": "综合推理管理器",
+      "tail": "PHM集成",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机载PHM的体系结构",
+      "tail": "纵向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机载PHM的体系结构",
+      "tail": "横向数据流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机载PHM的体系结构",
+      "tail": "反馈信息流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "机载PHM和机下PHM",
+      "tail": "测试维护操作接口进行信息交互",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "机载PHM和机下PHM",
+      "tail": "地面维修辅助设备的接口进行信息交互",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "机载PHM和机下PHM",
+      "tail": "空地数据链接进行信息交互",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "本文",
+      "tail": "美军在JSF项目提出的PHM",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "本文",
+      "tail": "波音公司提出的综合飞行器健康管理（IVHM）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "张亮",
+      "tail": "机载预测与健康管理(PHM)系统的体系结构",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张凤鸣",
+      "tail": "机载预测与健康管理(PHM)系统的体系结构",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李俊涛",
+      "tail": "机载预测与健康管理(PHM)系统的体系结构",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李永宾",
+      "tail": "机载预测与健康管理(PHM)系统的体系结构",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "张亮",
+      "tail": "空军工程大学工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "机载预测与健康管理(PHM)系统的体系结构",
+      "tail": "2008-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

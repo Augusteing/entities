@@ -1,0 +1,264 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "AFDX网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合模块化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障注入技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障数据配置管理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "策略",
+      "text": "发送策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "故障注入装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "故障注入软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "协议",
+      "text": "AFDX网络协议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据库",
+      "text": "SQLite数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "SetTimer函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "TimeSetEvent函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Copilot软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "BAG",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "数据更新间隔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发送间隔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "定时器周期",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "定时精度提高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "数据发送间隔误差减小",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于AFDX网络的综合模块化航电故障注入技术",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "肖皓天",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "熊华钢",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李峭",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李静",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2017-07-26 10:50",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障注入技术",
+      "tail": "AFDX网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "AFDX网络",
+      "tail": "综合模块化航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "故障注入技术",
+      "tail": "故障数据配置管理方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "故障注入技术",
+      "tail": "发送策略",
+      "evaluation": "错误"
+    },
+    {
+      "type": "搭建了",
+      "head": "故障注入技术",
+      "tail": "故障注入装置",
+      "evaluation": "错误"
+    },
+    {
+      "type": "开发了",
+      "head": "故障注入技术",
+      "tail": "故障注入软件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "故障注入软件",
+      "tail": "SQLite数据库",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障数据配置",
+      "tail": "AFDX网络协议",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入软件",
+      "tail": "SetTimer函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障注入软件",
+      "tail": "TimeSetEvent函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Copilot软件",
+      "tail": "监控消息帧",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "发送策略",
+      "tail": "数据更新间隔与定时器周期不匹配问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优化",
+      "head": "发送策略",
+      "tail": "定时精度提高",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "数据发送间隔误差减小",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "肖皓天",
+      "tail": "基于AFDX网络的综合模块化航电故障注入技术",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "熊华钢",
+      "tail": "基于AFDX网络的综合模块化航电故障注入技术",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李峭",
+      "tail": "基于AFDX网络的综合模块化航电故障注入技术",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李静",
+      "tail": "基于AFDX网络的综合模块化航电故障注入技术",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "肖皓天",
+      "tail": "北京航空航天大学",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于AFDX网络的综合模块化航电故障注入技术",
+      "tail": "2017-07-26 10:50",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

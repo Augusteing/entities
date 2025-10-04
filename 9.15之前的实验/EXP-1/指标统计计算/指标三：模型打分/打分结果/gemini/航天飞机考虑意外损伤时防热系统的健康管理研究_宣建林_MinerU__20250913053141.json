@@ -1,0 +1,325 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "防热系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "防热瓦",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "ANSYS软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "有限元仿真计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "有限控制体积法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "航天飞机防热系统健康管理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "光纤光栅高温传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "微型悬臂梁传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "防热瓦一维连续热辐射与导热复合传热能量守恒控制方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "传感器系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "数据采集和处理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "防热瓦温度能准确明显地反映出防热瓦的损伤情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "现象",
+      "text": "意外损伤",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理量",
+      "text": "距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理量",
+      "text": "湿度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理量",
+      "text": "应变",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理量",
+      "text": "疲劳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "鼻锥",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "机翼前缘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宣建林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "冯蕴雯",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张茂",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋笔锋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院 西安710072",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安710072",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2007-10-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "文中",
+      "tail": "航天飞机防热系统健康管理方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "健康管理",
+      "tail": "健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "航天飞机防热系统健康管理方法",
+      "tail": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "传感器系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "数据采集和处理系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统健康监控的监控参量",
+      "tail": "温度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统健康监控的监控参量",
+      "tail": "距离",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统健康监控的监控参量",
+      "tail": "湿度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统健康监控的监控参量",
+      "tail": "应变",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统健康监控的监控参量",
+      "tail": "疲劳",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是一种",
+      "head": "光纤光栅高温传感器",
+      "tail": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种",
+      "head": "微型悬臂梁传感器",
+      "tail": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "本文",
+      "tail": "ANSYS软件",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模拟",
+      "head": "ANSYS软件",
+      "tail": "防热瓦在再入过程中的温度变化",
+      "evaluation": "错误"
+    },
+    {
+      "type": "论证了",
+      "head": "有限元模拟分析",
+      "tail": "航天飞机防热系统健康管理方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "本文",
+      "tail": "防热瓦温度能准确明显地反映出防热瓦的损伤情况",
+      "evaluation": "错误"
+    },
+    {
+      "type": "重点监测部位",
+      "head": "防热系统",
+      "tail": "鼻锥",
+      "evaluation": "正确"
+    },
+    {
+      "type": "重点监测部位",
+      "head": "防热系统",
+      "tail": "机翼前缘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "宣建林",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "冯蕴雯",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张茂",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "宋笔锋",
+      "tail": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "宣建林",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航天飞机考虑意外损伤时防热系统的健康管理研究",
+      "tail": "2007-10-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "经验模态分解（EMD）"
+    },
+    {
+      "type": "算法",
+      "text": "量子粒子群优化算法"
+    },
+    {
+      "type": "算法",
+      "text": "自回归模型（AR）"
+    },
+    {
+      "type": "算法",
+      "text": "相关向量机（RVM）"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机（SVM）"
+    },
+    {
+      "type": "模型",
+      "text": "EMD-AR模型"
+    },
+    {
+      "type": "模型",
+      "text": "RVM-AR模型"
+    },
+    {
+      "type": "模型",
+      "text": "EMD+RVM-AR模型"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM网络"
+    },
+    {
+      "type": "函数",
+      "text": "Copula函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对预测误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "Fe元素的平均相对预测误差提高了15%"
+    },
+    {
+      "type": "研究结果",
+      "text": "Si元素的平均相对预测误差提高了49%"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "EMD+RVM-AR模型",
+      "tail": "经验模态分解（EMD）"
+    },
+    {
+      "type": "基于",
+      "head": "EMD+RVM-AR模型",
+      "tail": "相关向量机（RVM）"
+    },
+    {
+      "type": "基于",
+      "head": "EMD+RVM-AR模型",
+      "tail": "自回归模型（AR）"
+    },
+    {
+      "type": "使用",
+      "head": "EMD+RVM-AR模型",
+      "tail": "量子粒子群优化算法"
+    },
+    {
+      "type": "结合了",
+      "head": "EMD+RVM-AR模型",
+      "tail": "EMD多分辨的优势"
+    },
+    {
+      "type": "结合了",
+      "head": "EMD+RVM-AR模型",
+      "tail": "RVM非线性处理能力"
+    },
+    {
+      "type": "优化了",
+      "head": "量子粒子群优化算法",
+      "tail": "RVM模型参数"
+    },
+    {
+      "type": "克服了",
+      "head": "量子粒子群优化算法",
+      "tail": "人为设置RVM模型参数缺乏科学依据和推广性不强的缺点"
+    },
+    {
+      "type": "评估指标是",
+      "head": "EMD+RVM-AR模型",
+      "tail": "预测精度"
+    },
+    {
+      "type": "评估指标是",
+      "head": "EMD+RVM-AR模型",
+      "tail": "平均相对预测误差"
+    },
+    {
+      "type": "得出",
+      "head": "EMD+RVM-AR模型",
+      "tail": "Fe元素的平均相对预测误差提高了15%"
+    },
+    {
+      "type": "得出",
+      "head": "EMD+RVM-AR模型",
+      "tail": "Si元素的平均相对预测误差提高了49%"
+    }
+  ]
+}

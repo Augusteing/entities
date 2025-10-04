@@ -1,0 +1,320 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "SVM"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机"
+    },
+    {
+      "type": "算法",
+      "text": "KNN"
+    },
+    {
+      "type": "算法",
+      "text": "逻辑回归"
+    },
+    {
+      "type": "算法",
+      "text": "决策树"
+    },
+    {
+      "type": "算法",
+      "text": "递归特征消除"
+    },
+    {
+      "type": "算法",
+      "text": "相关性分析"
+    },
+    {
+      "type": "模型",
+      "text": "SVM模型"
+    },
+    {
+      "type": "模型",
+      "text": "多参数故障预测模型"
+    },
+    {
+      "type": "模型",
+      "text": "APU监测模型"
+    },
+    {
+      "type": "模型",
+      "text": "混合PSO-SVM模型"
+    },
+    {
+      "type": "模型",
+      "text": "高斯过程回归"
+    },
+    {
+      "type": "模型",
+      "text": "FMEA模型"
+    },
+    {
+      "type": "系统",
+      "text": "APU"
+    },
+    {
+      "type": "系统",
+      "text": "辅助动力装置"
+    },
+    {
+      "type": "系统",
+      "text": "报文系统"
+    },
+    {
+      "type": "系统",
+      "text": "ACARS"
+    },
+    {
+      "type": "系统",
+      "text": "QAR"
+    },
+    {
+      "type": "系统",
+      "text": "DMU"
+    },
+    {
+      "type": "参数",
+      "text": "EGT"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度"
+    },
+    {
+      "type": "参数",
+      "text": "引气压力"
+    },
+    {
+      "type": "参数",
+      "text": "启动时间"
+    },
+    {
+      "type": "参数",
+      "text": "使用时间"
+    },
+    {
+      "type": "参数",
+      "text": "IGV角度"
+    },
+    {
+      "type": "参数",
+      "text": "滑油温度"
+    },
+    {
+      "type": "参数",
+      "text": "进口压力"
+    },
+    {
+      "type": "参数",
+      "text": "引气流量"
+    },
+    {
+      "type": "参数",
+      "text": "压气机进口温度"
+    },
+    {
+      "type": "参数",
+      "text": "峰值转速"
+    },
+    {
+      "type": "参数",
+      "text": "发电机载荷"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测正确率"
+    },
+    {
+      "type": "性能指标",
+      "text": "AUC"
+    },
+    {
+      "type": "性能指标",
+      "text": "F-score"
+    },
+    {
+      "type": "研究结果",
+      "text": "较高的预测正确率"
+    },
+    {
+      "type": "研究结果",
+      "text": "AUC值为0.94"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "蔡坤烨等",
+      "tail": "基于SVM方法的APU故障预测方法"
+    },
+    {
+      "type": "基于",
+      "head": "APU故障预测方法",
+      "tail": "报文数据"
+    },
+    {
+      "type": "用于",
+      "head": "报文数据",
+      "tail": "故障预测"
+    },
+    {
+      "type": "建立了",
+      "head": "蔡坤烨等",
+      "tail": "SVM模型"
+    },
+    {
+      "type": "优化了",
+      "head": "蔡坤烨等",
+      "tail": "SVM模型"
+    },
+    {
+      "type": "基于",
+      "head": "SVM模型",
+      "tail": "支持向量机"
+    },
+    {
+      "type": "用于",
+      "head": "SVM模型",
+      "tail": "APU故障预测"
+    },
+    {
+      "type": "比较了",
+      "head": "SVM模型",
+      "tail": "KNN"
+    },
+    {
+      "type": "比较了",
+      "head": "SVM模型",
+      "tail": "逻辑回归"
+    },
+    {
+      "type": "比较了",
+      "head": "SVM模型",
+      "tail": "决策树"
+    },
+    {
+      "type": "优于",
+      "head": "SVM模型",
+      "tail": "其他算法"
+    },
+    {
+      "type": "提出了",
+      "head": "高飞鹏等",
+      "tail": "基于QAR数据的APU故障诊断技术"
+    },
+    {
+      "type": "提出了",
+      "head": "李海然",
+      "tail": "QAR数据使用"
+    },
+    {
+      "type": "介绍了",
+      "head": "Gruyer等",
+      "tail": "ACARS应用前景"
+    },
+    {
+      "type": "进行了",
+      "head": "Zhai等",
+      "tail": "波音747巡航报文解析"
+    },
+    {
+      "type": "提出了",
+      "head": "顾祝平等",
+      "tail": "APU涡轮效率监控方法"
+    },
+    {
+      "type": "建立了",
+      "head": "唐敏杰",
+      "tail": "APU监测模型"
+    },
+    {
+      "type": "优化了",
+      "head": "丁慧锋",
+      "tail": "APU性能参数阈值"
+    },
+    {
+      "type": "应用了",
+      "head": "徐爽等",
+      "tail": "客户化报文"
+    },
+    {
+      "type": "采用了",
+      "head": "Garcia-Nieto等",
+      "tail": "混合PSO-SVM模型"
+    },
+    {
+      "type": "采用了",
+      "head": "Jiang等",
+      "tail": "SVM方法"
+    },
+    {
+      "type": "应用了",
+      "head": "Zhang等",
+      "tail": "SVM和神经网络"
+    },
+    {
+      "type": "提出了",
+      "head": "Zhan等",
+      "tail": "混合PSO-SVM模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Chen等",
+      "tail": "EEMD和高斯过程回归"
+    },
+    {
+      "type": "提出了",
+      "head": "Yang等",
+      "tail": "数据挖掘和FMEA模型"
+    },
+    {
+      "type": "提出了",
+      "head": "Brian等",
+      "tail": "机器学习框架"
+    },
+    {
+      "type": "基于",
+      "head": "特征提取",
+      "tail": "相关性分析"
+    },
+    {
+      "type": "验证了",
+      "head": "递归特征消除",
+      "tail": "特征重要性"
+    },
+    {
+      "type": "提高了",
+      "head": "特征提取",
+      "tail": "预测正确率"
+    },
+    {
+      "type": "优化了",
+      "head": "参数C和γ",
+      "tail": "SVM模型"
+    },
+    {
+      "type": "评估了",
+      "head": "混淆矩阵",
+      "tail": "模型性能"
+    },
+    {
+      "type": "评估了",
+      "head": "ROC曲线",
+      "tail": "模型优劣"
+    },
+    {
+      "type": "计算了",
+      "head": "AUC",
+      "tail": "诊断价值"
+    },
+    {
+      "type": "得出了",
+      "head": "案例验证",
+      "tail": "SVM优越性"
+    }
+  ]
+}

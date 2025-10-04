@@ -7,7 +7,8 @@ from typing import Iterable, Tuple, Set
 
 # 配置路径
 ROOT = Path(r"e:\知识图谱构建\9.15之前的实验\EXP-1")
-DATA_BASE = ROOT / '数据结果'
+# 数据源：抽取/数据结果 下的三个模型抽取结果
+DATA_BASE = ROOT / '抽取' / '数据结果'
 MODEL_DIR_MAP = {
     'deepseek': DATA_BASE / '提取结果_by_deepseek' / 'in_scope',
     'gemini': DATA_BASE / '提取结果_by_gemini' / 'in_scope',
@@ -16,8 +17,12 @@ MODEL_DIR_MAP = {
 
 # 评估论文目录（用于精确限制 50 篇）
 EVAL_PAPERS_DIR = ROOT / '论文文献' / '需要评估的论文'
-OUT_DIR = ROOT / '实验过程图' / '指标一：实体和关系数量'
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+# 输出目录：指标统计计算/指标一：实体关系数量/统计结果/{图像, 表格}
+_BASE_STAT_DIR = ROOT / '指标统计计算' / '指标一：实体关系数量' / '统计结果'
+OUT_IMG_DIR = _BASE_STAT_DIR / '图像'
+OUT_TABLE_DIR = _BASE_STAT_DIR / '表格'
+OUT_IMG_DIR.mkdir(parents=True, exist_ok=True)
+OUT_TABLE_DIR.mkdir(parents=True, exist_ok=True)
 
 # 颜色（按需求四种）
 COLOR_ENTITY_COUNT = '#925EB0'   # 紫
@@ -168,7 +173,7 @@ def plot_bar(model: str, stats):
     plt.title(f'{model} 模型实体和关系抽取数量统计（50篇）', fontsize=12)
     plt.ylabel('数量')
     plt.tight_layout()
-    out_path = OUT_DIR / f'{model}实体和关系抽取数量请执行.png'
+    out_path = OUT_IMG_DIR / f'{model}实体和关系抽取数量请执行.png'
     plt.savefig(out_path, bbox_inches='tight')
     plt.close()
     print(f"{model} 图已保存: {out_path}")
@@ -176,7 +181,8 @@ def plot_bar(model: str, stats):
 
 def main():
     parser = argparse.ArgumentParser(description='单模型或全部模型 50篇 实体/关系 数量与类型数量统计图 (可选过滤)')
-    group = parser.add_mutually_exclusive_group(required=True)
+    # 允许不传参数：不再强制 required=True
+    group = parser.add_mutually_exclusive_group(required=False)
     group.add_argument('--model', choices=list(MODEL_DIR_MAP.keys()), help='单个模型名称')
     group.add_argument('--all', action='store_true', help='一次性生成全部模型')
     parser.add_argument('--csv', action='store_true', help='输出一个汇总CSV')
@@ -187,6 +193,12 @@ def main():
     parser.add_argument('--strict-correct', action='store_true', help='与 --only-correct 搭配：缺 evaluation 视为不正确。默认缺 evaluation 保留')
     parser.add_argument('--debug-relations', action='store_true', help='打印关系过滤调试信息')
     args = parser.parse_args()
+
+    # 若未指定 --model 或 --all，默认执行全部并自动导出 CSV
+    if not args.model and not args.all:
+        print('[INFO] 未指定 --model/--all，默认执行全部模型 (--all) 并输出汇总 CSV。')
+        args.all = True
+        args.csv = True
 
     set_chinese_font()
 
@@ -206,7 +218,7 @@ def main():
         results.append((m, *stats))
 
     if args.csv:
-        csv_path = OUT_DIR / '模型实体关系统计汇总.csv'
+        csv_path = OUT_TABLE_DIR / '模型实体关系统计汇总.csv'
         with csv_path.open('w', newline='', encoding='utf-8-sig') as f:
             w = csv.writer(f)
             w.writerow(['模型','实体数量','实体类型数量','关系数量','关系类型数量'])

@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "EMD算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "量子粒子群优化算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "RVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "EMD+RVM-AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "IMF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "RF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "Gaussian核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对预测误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Fe元素平均相对预测误差提高15%和6%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Si元素平均相对预测误差提高49%和23%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "Si元素平均相对误差4.8%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "油液光谱分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "镜像延拓法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "留一交叉验证",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "航空发动机磨损故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "范庚",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马登武",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空工程学院兵器科学与技术系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-07-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "范庚和马登武",
+      "tail": "基于EMD和RVM-AR的预测方法",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "基于",
+      "head": "预测方法",
+      "tail": "EMD算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "预测方法",
+      "tail": "RVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "预测方法",
+      "tail": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "EMD算法",
+      "tail": "分解序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "序列",
+      "tail": "IMF和RF",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "IMF分量",
+      "tail": "AR模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "RF分量",
+      "tail": "RVM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优化",
+      "head": "量子粒子群优化算法",
+      "tail": "RVM参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "优化",
+      "tail": "留一交叉验证误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "比较",
+      "head": "预测方法",
+      "tail": "AR和SVM方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "预测方法",
+      "tail": "Fe元素平均相对预测误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提高了",
+      "head": "预测方法",
+      "tail": "Si元素平均相对预测误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "预测方法",
+      "tail": "航空发动机滑油金属含量预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "范庚",
+      "tail": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马登武",
+      "tail": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "范庚",
+      "tail": "海军航空工程学院兵器科学与技术系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "tail": "2013-07-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

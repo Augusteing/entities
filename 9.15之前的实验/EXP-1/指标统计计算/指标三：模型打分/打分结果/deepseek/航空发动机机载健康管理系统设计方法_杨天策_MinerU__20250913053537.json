@@ -1,0 +1,328 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "EHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "MBSE",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "面向对象的系统工程方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "OOSEM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "架构",
+      "text": "SAE AIR1587B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "报文加载",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "寿命管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "Rhapsody",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "DOORS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "健康管理系统专用传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "数据采集处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "状态监测及故障报文生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "通信传输模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "EGT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "流程",
+      "text": "正向设计流程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "正向流程平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "杨天策",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张瑞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "蔡景",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航发沈阳发动机研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2023-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机健康管理系统",
+      "tail": "基于模型的系统工程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "航空发动机健康管理系统",
+      "tail": "面向对象的系统工程方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参考",
+      "head": "航空发动机健康管理系统",
+      "tail": "OSA-CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参考",
+      "head": "航空发动机健康管理系统",
+      "tail": "SAE AIR1587B",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "数据采集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "数据处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "状态监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "报文加载",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "EHM系统",
+      "tail": "寿命管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "正向设计流程",
+      "tail": "正向流程平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "MBSE",
+      "tail": "Rhapsody",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "MBSE",
+      "tail": "DOORS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "健康管理系统专用传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "数据采集处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "状态监测及故障报文生成模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "EHM系统",
+      "tail": "通信传输模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监控",
+      "head": "状态监控",
+      "tail": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监控",
+      "head": "状态监控",
+      "tail": "EGT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "杨天策",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张瑞",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "蔡景",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "杨天策",
+      "tail": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机机载健康管理系统设计方法",
+      "tail": "2023-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

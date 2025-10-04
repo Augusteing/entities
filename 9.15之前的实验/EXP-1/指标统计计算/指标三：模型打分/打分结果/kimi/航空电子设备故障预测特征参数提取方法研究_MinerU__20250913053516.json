@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "经验模态分解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "极大似然法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "降噪自编码神经网络方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "DC-DC变换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障特征可视化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈华坤",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "章卫国",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "史静平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "何启志",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "占正勇",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业自控所飞行控制一体化重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2017-06-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "小波变换",
+      "tail": "提取故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "傅里叶变换",
+      "tail": "提取故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "经验模态分解",
+      "tail": "提取故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "降噪自编码神经网络方法",
+      "tail": "提取故障特征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "故障特征提取",
+      "tail": "故障预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "故障特征提取",
+      "tail": "故障预测速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "故障特征可视化",
+      "tail": "验证提取方法有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过",
+      "head": "健康评估",
+      "tail": "验证提取方法有效性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "估计",
+      "head": "极大似然法",
+      "tail": "故障特征的维数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组成",
+      "head": "DC-DC变换器",
+      "tail": "电源转换单元",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "陈华坤",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "章卫国",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "史静平",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "何启志",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "占正勇",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "陈华坤",
+      "tail": "西北工业大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空电子设备故障预测特征参数提取方法研究",
+      "tail": "2017-06-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

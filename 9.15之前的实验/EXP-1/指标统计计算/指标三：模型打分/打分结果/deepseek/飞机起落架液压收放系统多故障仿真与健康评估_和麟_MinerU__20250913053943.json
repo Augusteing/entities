@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "type": "软件",
+      "text": "AMESim",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "起落架液压收放系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "电磁换向阀开口量不足",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "作动筒泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障模式",
+      "text": "液压泵泄漏",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "98.9%的故障类别诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "85.0%的故障程度评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "和麟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁丽嫒",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安飞豹科技发展公司仿真部",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "使用了",
+      "head": "起落架液压收放系统",
+      "tail": "AMESim",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "健康评估",
+      "tail": "神经网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "建立了",
+      "head": "AMESim",
+      "tail": "仿真模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分析了",
+      "head": "仿真模型",
+      "tail": "电磁换向阀开口量不足",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分析了",
+      "head": "仿真模型",
+      "tail": "作动筒泄漏",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分析了",
+      "head": "仿真模型",
+      "tail": "液压泵泄漏",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "健康评估",
+      "tail": "诊断正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "健康评估",
+      "tail": "98.9%的故障类别诊断正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "健康评估",
+      "tail": "85.0%的故障程度评估正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "和麟",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁丽嫒",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "和麟",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "tail": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

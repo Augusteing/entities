@@ -1,0 +1,491 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "航空状态监测传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "MEMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "光纤技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "无线传感网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "静电传感技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "光电传感技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "微弱电磁传感技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "MEMS传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "H- 46型直升机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "维修停飞期缩短了50%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少故障30%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "每年节约维修费用约6000万美元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "硅微陀螺",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "硅加速度计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "微型惯性测量装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "JSF战斗机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "MEMS轮胎压力传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "波音公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "压力带",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "Boeing757- 300飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "光纤布喇格光栅",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤应变和温度传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "F/A- 18E/F“超级大黄蜂”战机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "光纤应变传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "F/A- 22“猛禽”战机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "光纤网络技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "NASA",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "分布式光纤光栅传感系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "航天飞机X- 38",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "洛克希德·马丁公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "F- 16B试验机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "蓝牙技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "text": "飞机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "静电传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "原理",
+      "text": "静电感应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "英国史密斯宇航公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机气路颗粒物检测系统IDMS/EDMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "原理",
+      "text": "光电效应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "美国Impact公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "油品传感器OCM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "机构/公司",
+      "text": "加拿大Gastops公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "传感器",
+      "text": "全液流金属屑末在线监测传感器Metal- SCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "F35战机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "阿帕奇直升机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "装备",
+      "text": "海王直升机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "姜龙光",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王燕山",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘恩朋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军装备部舰船办",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空工业集团公司北京长城航空测控技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2012-04-18",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的基础",
+      "head": "飞机健康管理",
+      "tail": "航空状态监测传感器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "head": "H- 46型直升机",
+      "tail": "MEMS传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "MEMS传感器",
+      "tail": "维修停飞期缩短了50%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "MEMS传感器",
+      "tail": "减少故障30%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "MEMS传感器",
+      "tail": "每年节约维修费用约6000万美元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构成",
+      "head": "微型惯性测量装置",
+      "tail": "硅微陀螺",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构成",
+      "head": "微型惯性测量装置",
+      "tail": "硅加速度计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "JSF战斗机",
+      "tail": "MEMS轮胎压力传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研制了",
+      "head": "波音公司",
+      "tail": "压力带",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "压力带",
+      "tail": "MEMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "Boeing757- 300飞机",
+      "tail": "压力带",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "光纤应变和温度传感器",
+      "tail": "光纤布喇格光栅",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "F/A- 18E/F“超级大黄蜂”战机",
+      "tail": "光纤应变传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "光纤应变传感器",
+      "tail": "结构健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "F/A- 22“猛禽”战机",
+      "tail": "光纤网络技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "NASA",
+      "tail": "分布式光纤光栅传感系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "航天飞机X- 38",
+      "tail": "分布式光纤光栅传感系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证了",
+      "head": "洛克希德·马丁公司",
+      "tail": "蓝牙技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "F- 16B试验机",
+      "tail": "蓝牙技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "蓝牙技术",
+      "tail": "飞机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "静电传感器",
+      "tail": "静电感应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "开发了",
+      "head": "英国史密斯宇航公司",
+      "tail": "发动机气路颗粒物检测系统IDMS/EDMS",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "光电传感技术",
+      "tail": "光电效应",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研制了",
+      "head": "美国Impact公司",
+      "tail": "油品传感器OCM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研制了",
+      "head": "加拿大Gastops公司",
+      "tail": "全液流金属屑末在线监测传感器Metal- SCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "F35战机",
+      "tail": "全液流金属屑末在线监测传感器Metal- SCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "阿帕奇直升机",
+      "tail": "全液流金属屑末在线监测传感器Metal- SCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "海王直升机",
+      "tail": "全液流金属屑末在线监测传感器Metal- SCAN",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "姜龙光",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王燕山",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘恩朋",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "姜龙光",
+      "tail": "海军装备部舰船办",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空状态监测传感器技术的发展",
+      "tail": "2012-04-18",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

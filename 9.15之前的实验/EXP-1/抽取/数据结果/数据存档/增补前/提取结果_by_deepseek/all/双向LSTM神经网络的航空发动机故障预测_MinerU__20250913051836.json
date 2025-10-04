@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波"
+    },
+    {
+      "type": "模型",
+      "text": "双向LSTM神经网络"
+    },
+    {
+      "type": "模型",
+      "text": "LSTM神经网络"
+    },
+    {
+      "type": "模型",
+      "text": "RNN"
+    },
+    {
+      "type": "模型",
+      "text": "GRU"
+    },
+    {
+      "type": "模型",
+      "text": "Transformer架构"
+    },
+    {
+      "type": "函数",
+      "text": "sigmoid函数"
+    },
+    {
+      "type": "函数",
+      "text": "tanh函数"
+    },
+    {
+      "type": "函数",
+      "text": "ReLU函数"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方根误差"
+    },
+    {
+      "type": "性能指标",
+      "text": "非对称评分"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差下降33.58%"
+    },
+    {
+      "type": "研究结果",
+      "text": "非对称评分下降71.22%"
+    },
+    {
+      "type": "数据集",
+      "text": "C-MAPSS数据集"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机"
+    },
+    {
+      "type": "概念",
+      "text": "剩余使用寿命"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "曾慧洁",
+      "tail": "双向LSTM神经网络"
+    },
+    {
+      "type": "提出了",
+      "head": "郭建胜",
+      "tail": "双向LSTM神经网络"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测模型",
+      "tail": "双向LSTM神经网络"
+    },
+    {
+      "type": "对比",
+      "head": "双向LSTM神经网络",
+      "tail": "RNN"
+    },
+    {
+      "type": "对比",
+      "head": "双向LSTM神经网络",
+      "tail": "GRU"
+    },
+    {
+      "type": "对比",
+      "head": "双向LSTM神经网络",
+      "tail": "LSTM神经网络"
+    },
+    {
+      "type": "使用",
+      "head": "模型",
+      "tail": "C-MAPSS数据集"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测模型",
+      "tail": "均方根误差"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测模型",
+      "tail": "非对称评分"
+    },
+    {
+      "type": "得出",
+      "head": "双向LSTM神经网络",
+      "tail": "误差下降33.58%"
+    },
+    {
+      "type": "得出",
+      "head": "双向LSTM神经网络",
+      "tail": "非对称评分下降71.22%"
+    },
+    {
+      "type": "应用于",
+      "head": "双向LSTM神经网络",
+      "tail": "航空发动机故障预测"
+    }
+  ]
+}

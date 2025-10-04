@@ -1,0 +1,191 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康状态指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "增压泵出口流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "增压泵出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "相对误差为0.0011%至0.0017%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "飞机运营第583周，即11.2年，供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障时增压泵出口流量为0.001853566202883m³/s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障时增压泵出口压力为240575.8918002502Pa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "高泽海",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋东",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "性能退化模型",
+      "tail": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "增压泵故障预测",
+      "tail": "灰色预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "GM(1,1)模型",
+      "tail": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "GM(1,1)模型",
+      "tail": "相对误差为0.0011%至0.0017%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "GM(1,1)模型",
+      "tail": "飞机运营第583周，即11.2年，供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "性能退化模型",
+      "tail": "故障时增压泵出口流量为0.001853566202883m³/s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "性能退化模型",
+      "tail": "故障时增压泵出口压力为240575.8918002502Pa",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能退化模型",
+      "tail": "增压泵出口流量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "性能退化模型",
+      "tail": "增压泵出口压力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "高泽海",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "宋东",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "高泽海",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机燃油供油系统性能退化与故障预测",
+      "tail": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

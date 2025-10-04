@@ -1,0 +1,392 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "极大似然法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "降噪自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "栈式自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "栈式自编码算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "反向传播算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "主成分分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "核主元分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "线性辨别分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "经验模态分解",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "隐马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "邻近保持嵌入",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "等距离映射",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "邻近保持投影",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "欧氏距离健康评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "综合模块化航电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "故障预测和健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "DC-DC变换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "电源转换模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "通用功能模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "电解电容器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "MOS管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "二极管",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "波控芯片UCC28C43",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "电容值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "等效串联电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "导通电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "串联电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "非线性结电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "分类准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "92.857%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ASAAC标准",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "GJB181A-2003",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈华坤",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "章卫国",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "史静平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "何启志",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "占正勇",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业自控所飞行控制一体化重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2017-06-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "Pascal Vincent",
+      "tail": "降噪自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出了",
+      "head": "Geoffrey Hinton",
+      "tail": "栈式自编码算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "降噪自编码神经网络",
+      "tail": "自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "演化为",
+      "head": "自编码神经网络",
+      "tail": "栈式自编码神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "极大似然法",
+      "tail": "维数估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "降噪自编码神经网络",
+      "tail": "故障特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "故障预测系统",
+      "tail": "诊断准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "92.857%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "实验",
+      "tail": "95.6%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "DC-DC变换器",
+      "tail": "电源转换模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "电源转换模块",
+      "tail": "综合模块化航电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测",
+      "tail": "故障特征参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测",
+      "tail": "故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "陈华坤",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "章卫国",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "史静平",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "何启志",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "占正勇",
+      "tail": "航空电子设备故障预测特征参数提取方法研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "陈华坤",
+      "tail": "西北工业大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空电子设备故障预测特征参数提取方法研究",
+      "tail": "2017-06-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

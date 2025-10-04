@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "健康管理技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "灰色模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "健康状态指数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "飞行安全",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "工作效率与可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "性能退化结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康状态曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "高泽海",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋东",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "健康管理技术",
+      "tail": "飞机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "供油增压泵叶片磨损",
+      "tail": "性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "性能退化模型",
+      "tail": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "灰色预测模型",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "飞机燃油系统",
+      "tail": "飞行安全",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "健康管理技术",
+      "tail": "工作效率与可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "仿真",
+      "tail": "性能退化结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "仿真",
+      "tail": "健康状态曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了",
+      "head": "灰色模型",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "高泽海",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "宋东",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "高泽海",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机燃油供油系统性能退化与故障预测",
+      "tail": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

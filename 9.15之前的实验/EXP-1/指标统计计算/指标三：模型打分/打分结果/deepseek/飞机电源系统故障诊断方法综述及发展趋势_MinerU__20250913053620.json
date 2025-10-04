@@ -1,0 +1,429 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "主电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "二次电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "应急电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "辅助电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "发电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "恒速传动装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "辅助动力装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "航空蓄电池",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "变压器流器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "设备",
+      "text": "逆变器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "发电机控制单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障树法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障传播图法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Petri网法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "定性仿真法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "神经网络故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量机故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "专家系统故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊逻辑故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "证据理论故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "信号处理故障诊断方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "多电飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "电力电子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "赖思齐",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈桂鹏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "颜佳佳",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "卿新林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "包含",
+      "head": "飞机电源系统",
+      "tail": "主电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机电源系统",
+      "tail": "二次电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机电源系统",
+      "tail": "应急电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "飞机电源系统",
+      "tail": "辅助电源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "主电源",
+      "tail": "发电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "主电源",
+      "tail": "恒速传动装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "辅助电源",
+      "tail": "辅助动力装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "辅助电源",
+      "tail": "航空蓄电池",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "二次电源",
+      "tail": "变压器流器",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "二次电源",
+      "tail": "逆变器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "发电机",
+      "tail": "发电机控制单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "故障树法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "故障传播图法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "Petri网法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "定性仿真法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "神经网络故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "支持向量机故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "专家系统故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "模糊逻辑故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "证据理论故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于诊断",
+      "head": "信号处理故障诊断方法",
+      "tail": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "故障树法",
+      "tail": "基于模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "故障传播图法",
+      "tail": "基于模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "Petri网法",
+      "tail": "基于模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "定性仿真法",
+      "tail": "基于模型的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "神经网络故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "支持向量机故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是类型",
+      "head": "专家系统故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是类型",
+      "head": "模糊逻辑故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是类型",
+      "head": "证据理论故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是类型",
+      "head": "信号处理故障诊断方法",
+      "tail": "基于数据驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有",
+      "head": "飞机电源系统",
+      "tail": "故障模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "健康管理系统",
+      "tail": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "多电飞机",
+      "tail": "电力电子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "赖思齐",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈桂鹏",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "颜佳佳",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "卿新林",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "赖思齐",
+      "tail": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机电源系统故障诊断方法综述及发展趋势",
+      "tail": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

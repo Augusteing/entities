@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "核主成分分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "深度置信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "快速存取数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "高斯函数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "KPCA-DBN混合模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "KPCA-DBN模型的预测精度最高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法优化的BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "QAR数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王奕首",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "余映红",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "卿新林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "殷锴",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "赵奇",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国商用航空发动机有限责任公司",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2020-02-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "航空发动机排气温度基线模型",
+      "tail": "核主成分分析和深度置信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为",
+      "head": "快速存取数据",
+      "tail": "原始的数据样本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "核主成分分析",
+      "tail": "高斯函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "排气温度",
+      "tail": "发动机工作状况",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "KPCA-DBN混合模型",
+      "tail": "核主成分分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "KPCA-DBN混合模型",
+      "tail": "深度置信网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "模型",
+      "tail": "平均绝对误差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "KPCA-DBN模型的预测精度最高",
+      "evaluation": "错误"
+    },
+    {
+      "type": "优化",
+      "head": "遗传算法",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为",
+      "head": "QAR数据",
+      "tail": "数据样本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "王奕首",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "余映红",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "卿新林",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "殷锴",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "赵奇",
+      "tail": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王奕首",
+      "tail": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于KPCA和DBN的航空发动机排气温度基线模型",
+      "tail": "2020-02-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

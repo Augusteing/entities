@@ -1,0 +1,552 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "数据挖掘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "高斯过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子束滤波",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "一类分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多分类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "物理失效模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "气动热力计算模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "失效传播模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面保障站",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "先进推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "实时监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发动机推力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "涡轮前燃气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "气路参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "转子转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "叶片侵蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "叶尖间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "积碳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "主轴承",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "主减速齿轮",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "转子叶片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "轮盘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "主轴",
+      "evaluation": "正确"
+    },
+    {
+      "type": "学科",
+      "text": "计算机学科",
+      "evaluation": "正确"
+    },
+    {
+      "type": "学科",
+      "text": "航空宇航科学与技术学科",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "尉询楷",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "朱纪洪",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈良峰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "冯悦",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "杨立",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空工程技术研究中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "清华大学计算机科学与技术系智能系统与技术国家重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2012-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是",
+      "head": "数据挖掘",
+      "tail": "PHM技术的神经中枢",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "数据挖掘",
+      "tail": "发动机健康状态评估",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "数据挖掘",
+      "tail": "诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "数据挖掘",
+      "tail": "剩余寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "卡尔曼滤波",
+      "tail": "气路诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "神经网络",
+      "tail": "气路诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "神经网络",
+      "tail": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "支持向量机",
+      "tail": "剩余寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "高斯过程",
+      "tail": "剩余寿命预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "遗传算法",
+      "tail": "气路诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "模糊逻辑",
+      "tail": "气路诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "贝叶斯网络",
+      "tail": "气路诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "粒子束滤波",
+      "tail": "故障预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "一类分类",
+      "tail": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "多分类算法",
+      "tail": "实时监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测",
+      "tail": "物理失效模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障预测",
+      "tail": "数据驱动建模",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "异常检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "实时监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涉及",
+      "head": "PHM系统",
+      "tail": "先进推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "估计",
+      "head": "数据挖掘工具",
+      "tail": "发动机推力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "估计",
+      "head": "数据挖掘工具",
+      "tail": "涡轮前燃气温度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "检测",
+      "head": "异常检测算法",
+      "tail": "发动机异常",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测",
+      "head": "故障预测技术",
+      "tail": "剩余使用寿命",
+      "evaluation": "错误"
+    },
+    {
+      "type": "融合",
+      "head": "信息融合技术",
+      "tail": "多源数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "设计数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "FMECA分析结果",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "历史维修数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "健康管理诊断信息",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "飞行员观测信息",
+      "evaluation": "错误"
+    },
+    {
+      "type": "需要",
+      "head": "先进推理技术",
+      "tail": "维修规程要求",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "PHM技术",
+      "tail": "确保飞行安全的核心技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "PHM技术",
+      "tail": "减少维修保障费用的支撑技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "推动",
+      "head": "计算机学科",
+      "tail": "PHM技术成熟",
+      "evaluation": "错误"
+    },
+    {
+      "type": "推动",
+      "head": "航空宇航科学与技术学科",
+      "tail": "PHM技术成熟",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "尉询楷",
+      "tail": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "朱纪洪",
+      "tail": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈良峰",
+      "tail": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "冯悦",
+      "tail": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "杨立",
+      "tail": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "尉询楷",
+      "tail": "北京航空工程技术研究中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机PHM中的数据挖掘机遇与挑战",
+      "tail": "2012-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

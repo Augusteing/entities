@@ -1,0 +1,373 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "D-S证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "灰色关联分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "迁移学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "信号处理",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "Rete内部匹配算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Warshall算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "定性仿真",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "小波变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "快速傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "希尔伯特变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "短时傅里叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子群优化方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Elman神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Petri网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "动态故障树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "定性微分方程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障传播图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障字典",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障Petri网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "静态故障树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊Petri网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "模糊理论",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "模糊故障Petri网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三角模糊数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯理论",
+      "evaluation": "错误"
+    },
+    {
+      "type": "模型",
+      "text": "长短期记忆(LSTM)网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "离散时间序列卷积神经网络(DTCNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康指数参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "赖思齐",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈桂鹏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "颜佳佳",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "卿新林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "发展为",
+      "head": "静态故障树",
+      "tail": "动态故障树",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "故障树",
+      "tail": "故障字典",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于求解",
+      "head": "Warshall算法",
+      "tail": "故障传播图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发展为",
+      "head": "Petri网",
+      "tail": "模糊Petri网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "模糊Petri网",
+      "tail": "模糊理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "故障Petri网",
+      "tail": "模糊Petri网",
+      "evaluation": "错误"
+    },
+    {
+      "type": "发展为",
+      "head": "模糊Petri网",
+      "tail": "模糊故障Petri网",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "定性仿真",
+      "tail": "定性微分方程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合",
+      "head": "遗传算法",
+      "tail": "BP神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用",
+      "head": "迁移学习",
+      "tail": "离散时间序列卷积神经网络(DTCNN)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于优化",
+      "head": "粒子群优化方法",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "Rete内部匹配算法",
+      "tail": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "灰色关联分析",
+      "tail": "D-S证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于导出",
+      "head": "希尔伯特变换",
+      "tail": "健康指数参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "短时傅里叶变换",
+      "tail": "信号处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "快速傅里叶变换",
+      "tail": "信号处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "小波变换",
+      "tail": "信号处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "希尔伯特变换",
+      "tail": "信号处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "赖思齐",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈桂鹏",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "颜佳佳",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "卿新林",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "赖思齐",
+      "tail": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机电源系统故障诊断方法综述及发展趋势",
+      "tail": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

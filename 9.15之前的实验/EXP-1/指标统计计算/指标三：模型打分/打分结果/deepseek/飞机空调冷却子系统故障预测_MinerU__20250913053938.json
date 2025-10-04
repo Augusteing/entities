@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "拉普拉斯算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "3参数Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "双Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "三Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "2段Weibull分步",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "幂律过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "更新过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "热交换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "水分离器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "空气循环机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "关断活门",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "控制面板",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "冲压系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "限制活门",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "单向活门",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "压缩管道",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均失效时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "失效率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "207.21飞行小时",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "21次非例行维修任务",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机空调冷却子系统故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王辉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "徐坤",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国民航大学航空工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2019-02-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "Weibull分步",
+      "tail": "热交换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "幂律过程",
+      "tail": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "故障预测",
+      "tail": "拉普拉斯算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "模型",
+      "tail": "失效数据",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "207.21飞行小时",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "研究",
+      "tail": "21次非例行维修任务",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是",
+      "head": "脏堵",
+      "tail": "主要失效原因",
+      "evaluation": "错误"
+    },
+    {
+      "type": "属于",
+      "head": "热交换器",
+      "tail": "飞机空调冷却子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "王辉",
+      "tail": "飞机空调冷却子系统故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "徐坤",
+      "tail": "飞机空调冷却子系统故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王辉",
+      "tail": "中国民航大学航空工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机空调冷却子系统故障预测",
+      "tail": "2019-02-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

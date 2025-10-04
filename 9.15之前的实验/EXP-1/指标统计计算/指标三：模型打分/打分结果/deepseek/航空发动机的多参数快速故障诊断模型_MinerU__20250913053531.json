@@ -1,0 +1,285 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "粗糙集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "属性约简",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "可辨识矩阵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "3.01%的平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "93.01%的诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "高压转子转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "滑油压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "进口总温",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "发动机机匣振动值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "牛伟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王国庆",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "翟正军",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "成娟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "郭阳明",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学计算机学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空无线电电子研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安应用光学研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "结合了",
+      "head": "多参数预测模型",
+      "tail": "粗糙集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合了",
+      "head": "多参数预测模型",
+      "tail": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "粗糙集",
+      "tail": "属性约简",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计算了",
+      "head": "属性约简",
+      "tail": "可辨识矩阵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用了",
+      "head": "GM(1,1)模型",
+      "tail": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多参数预测模型",
+      "tail": "预测平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多参数预测模型",
+      "tail": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出了",
+      "head": "多参数预测模型",
+      "tail": "3.01%的平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出了",
+      "head": "多参数预测模型",
+      "tail": "93.01%的诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "多参数预测模型",
+      "tail": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测了",
+      "head": "航空发动机",
+      "tail": "高压转子转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测了",
+      "head": "航空发动机",
+      "tail": "滑油压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测了",
+      "head": "航空发动机",
+      "tail": "进口总温",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测了",
+      "head": "航空发动机",
+      "tail": "发动机机匣振动值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "牛伟",
+      "tail": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王国庆",
+      "tail": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "翟正军",
+      "tail": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "成娟",
+      "tail": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "郭阳明",
+      "tail": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "牛伟",
+      "tail": "西北工业大学计算机学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "2011-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

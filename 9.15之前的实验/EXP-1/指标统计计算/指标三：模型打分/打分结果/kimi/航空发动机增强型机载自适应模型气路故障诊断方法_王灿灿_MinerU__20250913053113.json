@@ -1,0 +1,173 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "RBF神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "增强型机载自适应模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "性能基线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "高斯聚类模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "98.83%的故障模式评估正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "90%以上的故障模式诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王灿灿",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孔祥兴",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁宁宁",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "童志伟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京机械设备研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空发动机研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学江苏省航空动力系统重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2021-07-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "增强型机载自适应模型",
+      "tail": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障模式判定和故障隔离",
+      "tail": "RBF神经网络",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "增强型机载自适应模型",
+      "tail": "神经网络补偿算法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "性能基线模型",
+      "tail": "分段线性函数结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证",
+      "head": "增强型自适应模型气路故障诊断方法",
+      "tail": "98.83%的故障模式评估正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "验证",
+      "head": "增强型自适应模型气路故障诊断方法",
+      "tail": "90%以上的故障模式诊断正确率",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "王灿灿",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "孔祥兴",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁宁宁",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "童志伟",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王灿灿",
+      "tail": "北京机械设备研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "tail": "2021-07-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

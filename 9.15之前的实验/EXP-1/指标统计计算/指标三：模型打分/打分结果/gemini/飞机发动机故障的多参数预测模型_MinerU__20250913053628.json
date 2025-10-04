@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色GM(l，1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色系统理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "飞机发动机故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "机械敲缸系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "燃料敲缸系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "功率谱均值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "峰值值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征参数",
+      "text": "平均振值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "拟合精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "缺陷",
+      "text": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "较高的预测准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "较好的预测效果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "较好拟合精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孙姜燕",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "徐艳玲",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安外事学院现代技术教育中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业自动控制研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-07-20 15:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "灰色预测建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "多参数预测模型",
+      "tail": "信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的推广",
+      "head": "多参数预测模型",
+      "tail": "GM(1,1)预测模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "存在问题",
+      "head": "GM(1,1)模型",
+      "tail": "滞后误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多参数预测模型",
+      "tail": "拟合精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "多参数预测模型",
+      "tail": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提高了",
+      "head": "多参数预测模型",
+      "tail": "预测的准确性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "仿真验证",
+      "tail": "较好的预测效果",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "多参数预测模型",
+      "tail": "较好拟合精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "孙姜燕",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "徐艳玲",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "孙姜燕",
+      "tail": "西安外事学院现代技术教育中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机发动机故障的多参数预测模型",
+      "tail": "2011-07-20 15:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

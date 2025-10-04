@@ -1,0 +1,293 @@
+{
+  "entities": [
+    {
+      "type": "总线",
+      "text": "GJB289A总线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "有损耦合传输线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "两端口GJB289A总线网络模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "分布参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "ADS软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "耦合变压器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "终端电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组件",
+      "text": "屏蔽双绞电缆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "插入损耗",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "稳定电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "上升时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "下降时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "现象",
+      "text": "过冲现象",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "终端电阻超差故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "耦合器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障类型",
+      "text": "电缆故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电气特性仿真分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "text": "电气故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "检查表",
+      "text": "典型电气故障特征参数检查表",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "郑敬杭",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "江志东",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "霍立平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张弟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空大学青岛校区航空电子工程与指挥系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国人民解放军92975部队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-04-04 07:00",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "用于",
+      "head": "GJB289A总线",
+      "tail": "实现各类航空电子设备之间的物理连接",
+      "evaluation": "正确"
+    },
+    {
+      "type": "构建基于",
+      "head": "两端口GJB289A总线网络模型",
+      "tail": "有损耦合传输线模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "两端口GJB289A总线网络模型",
+      "tail": "耦合变压器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "两端口GJB289A总线网络模型",
+      "tail": "终端电阻",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "两端口GJB289A总线网络模型",
+      "tail": "屏蔽双绞电缆",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "分布参数",
+      "tail": "仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "插入损耗",
+      "tail": "总线网络物理层面性能测试和电气故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "稳定电压",
+      "tail": "电气故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "上升时间",
+      "tail": "电气故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "下降时间",
+      "tail": "电气故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表现为",
+      "head": "过冲现象",
+      "tail": "电气故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "终端电阻超差故障",
+      "tail": "主总线电缆上的匹配电阻阻值异常",
+      "evaluation": "错误"
+    },
+    {
+      "type": "导致",
+      "head": "耦合器故障",
+      "tail": "总线网络进行通信时收发信号产生过冲",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "电缆故障",
+      "tail": "信号线高低端之间发生开路、短路、错接或信号线与屏蔽层之间发生的短路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "电气特性仿真分析",
+      "tail": "检测设备的研制和优化技术支撑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供",
+      "head": "电气故障诊断",
+      "tail": "外场总线网络电气故障的快速诊断",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "典型电气故障特征参数检查表",
+      "tail": "两端口网络的典型电气故障的唯一性判断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "郑敬杭",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "江志东",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "霍立平",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张弟",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "郑敬杭",
+      "tail": "海军航空大学青岛校区航空电子工程与指挥系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "GJB289A总线网络电气特性仿真及故障分析",
+      "tail": "2022-04-04 07:00",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

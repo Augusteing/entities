@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "type": "方法",
+      "text": "可拓学方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "灰色波形方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Gamma分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "风险指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "综合预警指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "等级",
+      "text": "故障后果等级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "等级",
+      "text": "故障可能性等级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "航空装备",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备",
+      "text": "发动机涡轮叶片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "飞行试验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障风险",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "85%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结果",
+      "text": "71%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空装备故障风险分析与趋势预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李飞敏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2021-02-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "故障后果定量分析方法",
+      "tail": "可拓学方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障可能性评定方法",
+      "tail": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障可能性评定方法",
+      "tail": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障风险综合预警信号预测方法",
+      "tail": "灰色波形方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障可能性评定",
+      "tail": "Gamma分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "故障风险趋势预测",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "航空装备",
+      "tail": "风险指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估",
+      "head": "航空装备",
+      "tail": "综合预警指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "划分",
+      "head": "故障后果",
+      "tail": "故障后果等级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "划分",
+      "head": "故障可能性",
+      "tail": "故障可能性等级",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用于",
+      "head": "可拓学方法",
+      "tail": "飞行试验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测",
+      "head": "灰色波形方法",
+      "tail": "故障风险",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "短期预测",
+      "tail": "85%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "中期预测",
+      "tail": "71%的准确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "李飞敏",
+      "tail": "航空装备故障风险分析与趋势预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "李飞敏",
+      "tail": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空装备故障风险分析与趋势预测方法",
+      "tail": "2021-02-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "type": "算法",
+      "text": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "灰色波形",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Gamma分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "风险指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "短期预测准确率达到了85%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "中期预测效果不太理想",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空装备故障风险分析与趋势预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李飞敏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2021-02-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "飞行试验故障可能性评定方法",
+      "tail": "蒙特卡洛抽样",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "飞行试验故障可能性评定方法",
+      "tail": "层次分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "故障风险综合预警信号预测方法",
+      "tail": "灰色波形",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于拟合",
+      "head": "故障率",
+      "tail": "Gamma分布",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于计算",
+      "head": "等高时刻序列",
+      "tail": "GM(1,1)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "评估指标是",
+      "head": "外场故障可能性评价",
+      "tail": "故障率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评估指标是",
+      "head": "航空装备试飞期间风险",
+      "tail": "风险指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "灰色波形预测方法",
+      "tail": "短期预测准确率达到了85%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "灰色波形预测方法",
+      "tail": "中期预测效果不太理想",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "李飞敏",
+      "tail": "航空装备故障风险分析与趋势预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "李飞敏",
+      "tail": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空装备故障风险分析与趋势预测方法",
+      "tail": "2021-02-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}
