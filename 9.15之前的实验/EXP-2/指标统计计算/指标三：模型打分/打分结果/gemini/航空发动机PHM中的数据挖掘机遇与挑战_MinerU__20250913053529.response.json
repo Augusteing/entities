@@ -1,0 +1,920 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "预测与健康管理（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修模式",
+      "text": "二级视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "核心技术",
+      "text": "数据挖掘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "发动机健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标",
+      "text": "飞行安全",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监视和故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "先进传感器的集成",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Gabor变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "快速傅立叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "离散傅立叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "智能模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "数据挖掘工具",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目标",
+      "text": "减少发动机寿命期维修保障费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "多用途先进航空涡轮发动机计划（VAATE，2005～2017）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "减少维修费用60%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "发动机健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "先进推理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "成本",
+      "text": "寿命周期费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "早期故障检测和准确诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障传播模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于一类分类的异常检测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于神经网络的异常检测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "数据挖掘方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "高斯过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于神经网络、高斯过程、相关向量机的轴承剩余寿命预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计划",
+      "text": "航空安全中长期研究计划（AVSP）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "飞机发动机健康管理数据挖掘工具的发展路线图",
+      "evaluation": "错误"
+    },
+    {
+      "type": "方法",
+      "text": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "模糊逻辑",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "时间序列分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "物理故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理故障",
+      "text": "叶片侵蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理故障",
+      "text": "腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理故障",
+      "text": "叶尖间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "物理故障",
+      "text": "积碳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "部件性能的变化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "可测量气路参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "关键发动机健康参数的估计与恢复",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Kalman滤波",
+      "evaluation": "错误"
+    },
+    {
+      "type": "算法",
+      "text": "逻辑回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "海量数据趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "趋势分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "异常检测与实时监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "异常检测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "经验模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "一类分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "实时监视",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多分类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "多源信息融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "发动机健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "融合技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "剩余寿命预测建模与不确定性管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于经验的故障预示法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于演化的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于特征传播和人工智能的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于状态估计的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子束滤波",
+      "evaluation": "错误"
+    },
+    {
+      "type": "方法",
+      "text": "基于物理失效的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "主轴承",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "主减速齿轮",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "转子叶片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "轮盘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "主轴",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "先进推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信息",
+      "text": "PHM的诊断信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建议",
+      "text": "维修操作建议",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "FMECA分析结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "历史维修数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "健康管理诊断信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "飞行员观测信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "以可靠性为中心的维修对策分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "维修规程要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空发动机PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "诊断隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "关键部件寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "自动故障推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "学科",
+      "text": "计算机学科",
+      "evaluation": "正确"
+    },
+    {
+      "type": "学科",
+      "text": "航空宇航科学与技术学科",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的关键使能技术",
+      "head": "预测与健康管理（PHM）",
+      "tail": "确保飞行安全",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的关键使能技术",
+      "head": "预测与健康管理（PHM）",
+      "tail": "实现二级视情维修",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的核心技术",
+      "head": "数据挖掘",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于实现",
+      "head": "数据挖掘",
+      "tail": "发动机健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于实现",
+      "head": "数据挖掘",
+      "tail": "诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于实现",
+      "head": "数据挖掘",
+      "tail": "剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "PHM技术",
+      "tail": "先进传感器的集成",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借助",
+      "head": "PHM技术",
+      "tail": "Gabor变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借助",
+      "head": "PHM技术",
+      "tail": "快速傅立叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借助",
+      "head": "PHM技术",
+      "tail": "离散傅立叶变换",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借助",
+      "head": "PHM技术",
+      "tail": "智能模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "借助",
+      "head": "PHM技术",
+      "tail": "数据挖掘工具",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的支撑技术",
+      "head": "PHM技术",
+      "tail": "减少发动机寿命期维修保障费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提出目标",
+      "head": "多用途先进航空涡轮发动机计划（VAATE，2005～2017）",
+      "tail": "减少维修费用60%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...最主要的技术实现途径",
+      "head": "发动机健康管理技术",
+      "tail": "减少维修费用60%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的神经中枢",
+      "head": "数据挖掘",
+      "tail": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为实现工具",
+      "head": "数据挖掘",
+      "tail": "早期故障检测和准确诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "作为建模工具",
+      "head": "数据挖掘方法",
+      "tail": "故障传播模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...方法",
+      "head": "基于一类分类的异常检测方法",
+      "tail": "早期故障检测和准确诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...方法",
+      "head": "基于神经网络的异常检测方法",
+      "tail": "早期故障检测和准确诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...方法",
+      "head": "基于神经网络、高斯过程、相关向量机的轴承剩余寿命预测方法",
+      "tail": "剩余寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "制定",
+      "head": "航空安全中长期研究计划（AVSP）",
+      "tail": "飞机发动机健康管理数据挖掘工具的发展路线图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引起",
+      "head": "物理故障",
+      "tail": "部件性能的变化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "产生",
+      "head": "部件性能的变化",
+      "tail": "可观测的变化",
+      "evaluation": "不确定"
+    },
+    {
+      "type": "包括",
+      "head": "物理故障",
+      "tail": "叶片侵蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "物理故障",
+      "tail": "腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "物理故障",
+      "tail": "叶尖间隙",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "物理故障",
+      "tail": "积碳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...诊断技术",
+      "head": "卡尔曼滤波",
+      "tail": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...诊断技术",
+      "head": "神经网络",
+      "tail": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...诊断技术",
+      "head": "模糊逻辑",
+      "tail": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...诊断技术",
+      "head": "贝叶斯网络",
+      "tail": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...诊断技术",
+      "head": "遗传算法",
+      "tail": "有限传感器下气路故障诊断、隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进行估计",
+      "head": "关键发动机健康参数的估计与恢复",
+      "tail": "Kalman滤波",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用...进行估计",
+      "head": "关键发动机健康参数的估计与恢复",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进行估计",
+      "head": "关键发动机健康参数的估计与恢复",
+      "tail": "逻辑回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...进行估计",
+      "head": "关键发动机健康参数的估计与恢复",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键问题",
+      "head": "趋势分析",
+      "tail": "航空发动机PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "异常检测算法",
+      "tail": "经验模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...典型模型",
+      "head": "人工神经网络",
+      "tail": "异常检测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "异常检测与实时监视",
+      "tail": "一类分类",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "实时监视",
+      "tail": "多分类算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对...进行集成",
+      "head": "融合技术",
+      "tail": "多源信息融合",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...最具代表性的技术",
+      "head": "故障预测",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测技术",
+      "tail": "基于经验的故障预示法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测技术",
+      "tail": "基于演化的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测技术",
+      "tail": "基于特征传播和人工智能的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测技术",
+      "tail": "基于状态估计的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测技术",
+      "tail": "基于物理失效的故障预测法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "拟合为",
+      "head": "基于经验的故障预示法",
+      "tail": "威布尔分布",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行训练",
+      "head": "基于特征传播和人工智能的故障预测法",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行训练",
+      "head": "基于特征传播和人工智能的故障预测法",
+      "tail": "支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行训练",
+      "head": "基于特征传播和人工智能的故障预测法",
+      "tail": "高斯过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于状态估计的故障预测法",
+      "tail": "卡尔曼滤波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "基于状态估计的故障预测法",
+      "tail": "粒子束滤波",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...理想预测技术",
+      "head": "基于物理失效的故障预测法",
+      "tail": "主轴承",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...理想预测技术",
+      "head": "基于物理失效的故障预测法",
+      "tail": "主减速齿轮",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...理想预测技术",
+      "head": "基于物理失效的故障预测法",
+      "tail": "转子叶片",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...理想预测技术",
+      "head": "基于物理失效的故障预测法",
+      "tail": "轮盘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...理想预测技术",
+      "head": "基于物理失效的故障预测法",
+      "tail": "主轴",
+      "evaluation": "正确"
+    },
+    {
+      "type": "将...转化成为",
+      "head": "先进推理",
+      "tail": "维修操作建议",
+      "evaluation": "错误"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "FMECA分析结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "历史维修数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "健康管理诊断信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "飞行员观测信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "以可靠性为中心的维修对策分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "综合运用",
+      "head": "先进推理技术",
+      "tail": "维修规程要求",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的大脑中枢",
+      "head": "数据挖掘",
+      "tail": "航空发动机PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的支撑技术",
+      "head": "数据挖掘",
+      "tail": "发动机健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的支撑技术",
+      "head": "数据挖掘",
+      "tail": "诊断隔离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的支撑技术",
+      "head": "数据挖掘",
+      "tail": "关键部件寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的支撑技术",
+      "head": "数据挖掘",
+      "tail": "自动故障推理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推动...成熟",
+      "head": "计算机学科",
+      "tail": "航空发动机PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推动...成熟",
+      "head": "航空宇航科学与技术学科",
+      "tail": "航空发动机PHM技术",
+      "evaluation": "正确"
+    }
+  ]
+}

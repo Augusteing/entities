@@ -1,0 +1,343 @@
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "基于LSSVM与WNN的燃气轮机状态趋势预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机未来状态趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "残差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM-WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "事后维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "计划维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "基于数据驱动的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "标准SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "思想",
+      "text": "最小二乘的思想",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "计算",
+      "evaluation": "错误"
+    },
+    {
+      "type": "性能指标",
+      "text": "训练速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "RBF核函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "新型前馈网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "非线性小波基",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "隐层的激励函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "morlet小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "主泵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "排气温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "燃气轮机的健康状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "性能衰退情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "小波去噪",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "LSSVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差为0.44%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均相对误差为0.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优点",
+      "text": "收敛速度更快",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优点",
+      "text": "精度更高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "能力",
+      "text": "较强的逼近能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "能力",
+      "text": "较强的泛化能力",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于预测",
+      "head": "基于LSSVM与WNN的燃气轮机状态趋势预测方法",
+      "tail": "燃气轮机未来状态趋势",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组合了",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "最小二乘支持向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组合了",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "小波神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...预测",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "残差",
+      "evaluation": "错误"
+    },
+    {
+      "type": "改进了",
+      "head": "最小二乘支持向量机",
+      "tail": "标准SVM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入了",
+      "head": "最小二乘支持向量机",
+      "tail": "最小二乘的思想",
+      "evaluation": "正确"
+    },
+    {
+      "type": "简化了",
+      "head": "最小二乘支持向量机",
+      "tail": "计算",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提升了",
+      "head": "最小二乘支持向量机",
+      "tail": "训练速度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是一种",
+      "head": "小波神经网络",
+      "tail": "新型前馈网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "替代",
+      "head": "非线性小波基",
+      "tail": "隐层的激励函数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "WNN预测模型",
+      "tail": "morlet小波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "需要",
+      "head": "视情维修",
+      "tail": "故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象是",
+      "head": "试验验证",
+      "tail": "主泵",
+      "evaluation": "错误"
+    },
+    {
+      "type": "监测参数是",
+      "head": "主泵",
+      "tail": "排气温度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "通过...掌握",
+      "head": "监视和预测排气温度",
+      "tail": "燃气轮机的健康状态及其性能衰退情况",
+      "evaluation": "错误"
+    },
+    {
+      "type": "数据预处理方法是",
+      "head": "试验验证",
+      "tail": "小波去噪",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测效果优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "LSSVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测效果优于",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "WNN预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "预测效果优于",
+      "head": "WNN预测模型",
+      "tail": "LSSVM预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM预测模型",
+      "tail": "平均相对误差为0.44%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "WNN预测模型",
+      "tail": "平均相对误差为0.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "相对误差为0.12%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有优点",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "收敛速度更快",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有优点",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "精度更高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有能力",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "较强的逼近能力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具有能力",
+      "head": "LSSVM-WNN预测模型",
+      "tail": "较强的泛化能力",
+      "evaluation": "正确"
+    }
+  ]
+}

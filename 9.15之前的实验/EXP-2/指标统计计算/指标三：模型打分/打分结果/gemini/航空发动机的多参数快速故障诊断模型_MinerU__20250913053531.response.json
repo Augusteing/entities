@@ -1,0 +1,312 @@
+{
+  "entities": [
+    {
+      "type": "模型",
+      "text": "航空发动机的多参数快速故障诊断模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "粗糙集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "多参数灰色模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "冗余信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "计算时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "快速性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "航空发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "小样本集问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "专家系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "小波包",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "人工智能技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "计算负荷过大的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "属性约简",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据处理方法",
+      "text": "离散化处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "最小二乘法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "预测平均相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "某型号飞机地面定检状态下发动机数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "SOM神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "最小属性集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属性/参数",
+      "text": "高压转子转速",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属性/参数",
+      "text": "滑油压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "4.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "3.01%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "诊断正确率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "1.56s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "91.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "0.97s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "93.01%",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "结合",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "粗糙集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "灰色理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...去除",
+      "head": "粗糙集",
+      "tail": "冗余信息",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "多参数灰色模型",
+      "tail": "快速准确的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "显著减少",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "计算时间",
+      "evaluation": "正确"
+    },
+    {
+      "type": "有效提高",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "快速性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "有效提高",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不降低",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "预测精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "小样本集问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "计算负荷过大的问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行",
+      "head": "粗糙集",
+      "tail": "属性约简",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行",
+      "head": "SOM神经网络",
+      "tail": "离散化处理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "改进了",
+      "head": "多参数灰色模型",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平均相对误差为",
+      "head": "GM(1,1)模型",
+      "tail": "4.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平均相对误差为",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "3.01%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计算占用时间为",
+      "head": "GM(1,1)模型",
+      "tail": "1.56s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "计算占用时间为",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "0.97s",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断正确率为",
+      "head": "GM(1,1)模型",
+      "tail": "91.39%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断正确率为",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "93.01%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在快速性和实时性方面明显优于",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在...上验证",
+      "head": "航空发动机的多参数快速故障诊断模型",
+      "tail": "某型号飞机地面定检状态下发动机数据",
+      "evaluation": "正确"
+    }
+  ]
+}

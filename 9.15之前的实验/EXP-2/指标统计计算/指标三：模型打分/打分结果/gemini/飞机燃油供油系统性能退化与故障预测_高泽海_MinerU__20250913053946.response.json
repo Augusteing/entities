@@ -1,0 +1,419 @@
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "飞机燃油供油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "供油增压泵叶片磨损",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "性能退化模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康状态指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究任务",
+      "text": "故障预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "APU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "燃油系统的安全性与可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "成本",
+      "text": "系统定期维修的巨大成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Flowmaster",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "Labsiew",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "键合图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "低温引发的供油管路堵塞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "高温引起的爆炸",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "供油增压泵",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "供油系统性能下降",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "性能衰退曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "灰色模型方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "Boeing737型飞机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "单支路供油系统数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "气蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "流体腐蚀",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "单支路供油系统性能退化数学模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测量",
+      "text": "增压泵出口流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "监测量",
+      "text": "增压泵出口压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障/问题",
+      "text": "供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究任务",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康状态图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "阶段",
+      "text": "状态评估/寿命预测段",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "实测流量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "相对误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "预测压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "实测压力",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "飞机运营第583周",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "11.2年",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "健康状态曲线",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "健康管理技术",
+      "tail": "飞机燃油系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "目的为",
+      "head": "健康管理技术",
+      "tail": "保证飞机飞行安全",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "供油增压泵叶片磨损",
+      "tail": "性能退化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用",
+      "head": "本文",
+      "tail": "Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "Simulink",
+      "tail": "性能退化模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "利用",
+      "head": "本文",
+      "tail": "灰色预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "灰色预测模型",
+      "tail": "故障预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "供给燃油给",
+      "head": "飞机燃油系统",
+      "tail": "发动机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "供给燃油给",
+      "head": "飞机燃油系统",
+      "tail": "APU",
+      "evaluation": "正确"
+    },
+    {
+      "type": "取决于",
+      "head": "飞机的安全",
+      "tail": "燃油系统的安全性与可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "降低",
+      "head": "健康管理技术",
+      "tail": "系统定期维修的巨大成本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "宋笔锋等人",
+      "tail": "Flowmaster",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行建模",
+      "head": "Flowmaster",
+      "tail": "供油系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "宋笔锋等人",
+      "tail": "Labsiew",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "Labsiew",
+      "tail": "数据采集、记录与显示",
+      "evaluation": "错误"
+    },
+    {
+      "type": "利用",
+      "head": "Sriram Narasimhan, Gautam Biswas",
+      "tail": "键合图",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立模型",
+      "head": "键合图",
+      "tail": "飞机燃油供油系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "引发",
+      "head": "低温",
+      "tail": "供油管路堵塞",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引起",
+      "head": "高温",
+      "tail": "爆炸",
+      "evaluation": "正确"
+    },
+    {
+      "type": "造成",
+      "head": "气蚀",
+      "tail": "增压泵叶片磨损",
+      "evaluation": "正确"
+    },
+    {
+      "type": "造成",
+      "head": "流体腐蚀",
+      "tail": "增压泵叶片磨损",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "叶片磨损",
+      "tail": "增压泵出口流量下降",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "叶片磨损",
+      "tail": "增压泵出口压力下降",
+      "evaluation": "正确"
+    },
+    {
+      "type": "评定为",
+      "head": "叶片磨损量到总面积的1/4",
+      "tail": "供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于评定",
+      "head": "增压泵出口流量",
+      "tail": "系统是否健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于评定",
+      "head": "增压泵出口压力",
+      "tail": "系统是否健康",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "本文",
+      "tail": "GM(1,1)模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "进行",
+      "head": "GM(1,1)模型",
+      "tail": "故障预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "预测",
+      "tail": "飞机运营第583周，供油系统故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "等于",
+      "head": "飞机运营第583周",
+      "tail": "11.2年",
+      "evaluation": "正确"
+    },
+    {
+      "type": "相对误差为",
+      "head": "预测流量",
+      "tail": "0.0014%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "相对误差为",
+      "head": "预测压力",
+      "tail": "0.0011%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "为...打下基础",
+      "head": "本文研究",
+      "tail": "飞机燃油系统的健康管理",
+      "evaluation": "正确"
+    }
+  ]
+}

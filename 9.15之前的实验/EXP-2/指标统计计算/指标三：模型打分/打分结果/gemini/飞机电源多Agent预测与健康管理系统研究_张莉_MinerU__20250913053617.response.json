@@ -1,0 +1,677 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机电源多Agent预测与健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构模型",
+      "text": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准架构",
+      "text": "状态维护开放系统体系结构OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "AEPHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障预测与健康管理PHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究对象",
+      "text": "飞机电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "信息孤岛",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修体制",
+      "text": "基于事后和定期计划维修为主的维修体制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维修策略",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能代理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "维护方式",
+      "text": "基于状态的维护方式CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "体系结构",
+      "text": "七层分布式结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "数据采集层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "数据处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "状态监测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能层",
+      "text": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "多Agent系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论模型",
+      "text": "BDI（Belief-Desire-Intention）Agent理论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实现结构",
+      "text": "基于事件驱动的统一Agent实现结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "机载PHM子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "地面PHM子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "状态监测Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "健康评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "用户接口Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "数据仓库管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "服务Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织模型",
+      "text": "嵌套式多Agent组织模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "数据分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "多传感器信息融合算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "FFT分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "时域分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "频域分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "小波分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "子系统",
+      "text": "诊断多Agent子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "专家系统Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "人工神经网络Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "遗传算法Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "模糊推理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "粗糙集RS(Rough Set)理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "机内测试BIT",
+      "evaluation": "正确"
+    },
+    {
+      "type": "诊断策略",
+      "text": "三级数据融合的故障诊断策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合层级",
+      "text": "数据级融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合层级",
+      "text": "特征级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "融合层级",
+      "text": "决策级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "态势分析与评估Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "预诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "指标",
+      "text": "RUL（Remaining Useful Life）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "Agent组件",
+      "text": "仿真Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通信语言",
+      "text": "知识查询与操作通讯语言KQML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标记语言",
+      "text": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "标准",
+      "text": "ATML（Automated Test Markup Language）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "描述语言",
+      "text": "XUME（AgentUML）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建模工具",
+      "text": "UML可视化建模工具",
+      "evaluation": "正确"
+    },
+    {
+      "type": "图表",
+      "text": "AUML协议图",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "以...为标准架构",
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "tail": "状态维护开放系统体系结构OSA-CBM模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...构建",
+      "head": "AEPHM",
+      "tail": "AUML技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入到",
+      "head": "智能代理技术",
+      "tail": "AEPHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提供了统一标准",
+      "head": "状态维护开放系统体系结构OSA-CBM模型",
+      "tail": "基于状态的维护方式CBM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "状态维护开放系统体系结构OSA-CBM模型",
+      "tail": "七层分布式结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "数据采集层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "数据处理层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "状态监测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "健康评估层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "预测层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "决策支持层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "七层分布式结构",
+      "tail": "表示层",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "基于事件驱动的统一Agent实现结构",
+      "tail": "BDI（Belief-Desire-Intention）Agent理论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机电源故障预测与健康管理系统",
+      "tail": "机载PHM子系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机电源故障预测与健康管理系统",
+      "tail": "地面PHM子系统",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "状态监测Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "故障诊断Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "健康评估Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "维修与后勤保障Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "用户接口Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "数据仓库管理Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "管理Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于多Agent的AEPHM系统",
+      "tail": "服务Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测Agent",
+      "tail": "信息采集Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "状态监测Agent",
+      "tail": "数据分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数据分析Agent",
+      "tail": "FFT分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数据分析Agent",
+      "tail": "时域分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数据分析Agent",
+      "tail": "频域分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "数据分析Agent",
+      "tail": "小波分析Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断任务分解Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断资源管理和调度Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "故障仲裁和决策Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断多Agent子系统",
+      "tail": "诊断元Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断元Agent",
+      "tail": "专家系统Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断元Agent",
+      "tail": "人工神经网络Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断元Agent",
+      "tail": "遗传算法Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "诊断元Agent",
+      "tail": "模糊推理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "粗糙集RS(Rough Set)理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "故障仲裁和决策Agent",
+      "tail": "DS证据理论",
+      "evaluation": "正确"
+    },
+    {
+      "type": "引入到...设计中",
+      "head": "信息融合算法",
+      "tail": "状态监测Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "引入到...设计中",
+      "head": "信息融合算法",
+      "tail": "故障诊断Agent",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "基于多Agent的飞机电源故障预测与健康管理系统体系结构模型",
+      "tail": "三级数据融合的故障诊断策略",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "三级数据融合的故障诊断策略",
+      "tail": "数据级融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "三级数据融合的故障诊断策略",
+      "tail": "特征级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "三级数据融合的故障诊断策略",
+      "tail": "决策级融合诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推断出",
+      "head": "健康评估Agent",
+      "tail": "RUL（Remaining Useful Life）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用...实现交互",
+      "head": "Agent组件",
+      "tail": "知识查询与操作通讯语言KQML",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用...描述",
+      "head": "知识查询与操作通讯语言KQML",
+      "tail": "XML",
+      "evaluation": "正确"
+    },
+    {
+      "type": "根据...设计",
+      "head": "XML",
+      "tail": "ATML（Automated Test Markup Language）",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作为...描述语言",
+      "head": "XUME（AgentUML）",
+      "tail": "AEPHM",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "XUME（AgentUML）",
+      "tail": "UML可视化建模工具",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用...描述",
+      "head": "Agent组件",
+      "tail": "AUML协议图",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提交诊断请求给",
+      "head": "状态监测Agent",
+      "tail": "故障诊断Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "提交诊断结果给",
+      "head": "故障诊断Agent",
+      "tail": "管理Agent",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发出维修请求给",
+      "head": "管理Agent",
+      "tail": "维修与后勤保障Agent",
+      "evaluation": "正确"
+    }
+  ]
+}
