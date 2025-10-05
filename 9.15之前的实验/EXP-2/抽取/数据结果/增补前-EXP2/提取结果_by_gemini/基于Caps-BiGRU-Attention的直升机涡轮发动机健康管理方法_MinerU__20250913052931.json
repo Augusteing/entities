@@ -1,0 +1,365 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "直升机涡轮发动机"
+    },
+    {
+      "type": "问题",
+      "text": "故障难以识别"
+    },
+    {
+      "type": "问题",
+      "text": "健康状况难以量化"
+    },
+    {
+      "type": "模型",
+      "text": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)"
+    },
+    {
+      "type": "任务",
+      "text": "故障模式识别"
+    },
+    {
+      "type": "任务",
+      "text": "扭矩裕度预测"
+    },
+    {
+      "type": "模型组件",
+      "text": "胶囊层"
+    },
+    {
+      "type": "模型组件",
+      "text": "BiGRU层"
+    },
+    {
+      "type": "机制",
+      "text": "SE注意力机制"
+    },
+    {
+      "type": "数据集",
+      "text": "直升机涡轮发动机数据集"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确率"
+    },
+    {
+      "type": "研究结果",
+      "text": "准确率超过99.7%"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对误差"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均绝对误差降低至0.027"
+    },
+    {
+      "type": "研究方法",
+      "text": "特征分析"
+    },
+    {
+      "type": "研究方法",
+      "text": "概率分布拟合"
+    },
+    {
+      "type": "分布模型",
+      "text": "贝塔分布"
+    },
+    {
+      "type": "健康状态",
+      "text": "严重失效"
+    },
+    {
+      "type": "健康状态",
+      "text": "轻微失效"
+    },
+    {
+      "type": "健康状态",
+      "text": "健康状态"
+    },
+    {
+      "type": "研究对象",
+      "text": "扭矩裕度"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理"
+    },
+    {
+      "type": "方法",
+      "text": "故障树分析法"
+    },
+    {
+      "type": "模型",
+      "text": "卷积自动编码器"
+    },
+    {
+      "type": "方法",
+      "text": "无监督分类器"
+    },
+    {
+      "type": "方法",
+      "text": "变分模态分解与多尺度卷积神经网络融合的故障诊断方法"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均准确率为97.25%"
+    },
+    {
+      "type": "网络",
+      "text": "胶囊网络（Capsule Network，Caps）"
+    },
+    {
+      "type": "网络",
+      "text": "传统卷积神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "动态路由算法"
+    },
+    {
+      "type": "网络",
+      "text": "双向门控循环单元（Bidirectional Gated Recurrent Unit，BiGRU）"
+    },
+    {
+      "type": "机制",
+      "text": "压缩激活注意力机制（Squeeze- and- Excitation Attention Mechanism，SE）"
+    },
+    {
+      "type": "函数",
+      "text": "交叉熵损失函数"
+    },
+    {
+      "type": "函数",
+      "text": "均方误差（Mean Squared Error，MSE）"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU-Attention"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiLstm"
+    },
+    {
+      "type": "模型",
+      "text": "CNN-BiGRU"
+    },
+    {
+      "type": "模型",
+      "text": "Random Forest"
+    },
+    {
+      "type": "模型",
+      "text": "SHAP（SHapley AdditiveexPlanations）模型"
+    },
+    {
+      "type": "特征",
+      "text": "外部空气温度"
+    },
+    {
+      "type": "特征",
+      "text": "平均气体温度"
+    },
+    {
+      "type": "特征",
+      "text": "测量扭矩"
+    },
+    {
+      "type": "特征",
+      "text": "故障模式"
+    },
+    {
+      "type": "特征",
+      "text": "净功率"
+    },
+    {
+      "type": "特征",
+      "text": "指示空速"
+    },
+    {
+      "type": "研究结果",
+      "text": "净功率提升到接近100kW时最有利于其健康状态"
+    },
+    {
+      "type": "研究结果",
+      "text": "指示空速超过110km/h会损害发动机"
+    },
+    {
+      "type": "检验方法",
+      "text": "K-S（Kolmogorov-Smirnov）检验"
+    },
+    {
+      "type": "评估准则",
+      "text": "Akaike信息准则值（Akaike Information Criterion，AIC）"
+    },
+    {
+      "type": "模型",
+      "text": "混合高斯密度模型"
+    },
+    {
+      "type": "健康状态",
+      "text": "衰减状态"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)"
+    },
+    {
+      "type": "解决",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "故障难以识别"
+    },
+    {
+      "type": "解决",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "健康状况难以量化"
+    },
+    {
+      "type": "用于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "故障模式识别"
+    },
+    {
+      "type": "用于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "扭矩裕度预测"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "胶囊层"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "BiGRU层"
+    },
+    {
+      "type": "由...组成",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "SE注意力机制"
+    },
+    {
+      "type": "用于",
+      "head": "胶囊层",
+      "tail": "捕捉输入数据的内在关系"
+    },
+    {
+      "type": "用于",
+      "head": "BiGRU层",
+      "tail": "提取时间序列特征"
+    },
+    {
+      "type": "用于",
+      "head": "SE注意力机制",
+      "tail": "对特征加权以突出重要信息"
+    },
+    {
+      "type": "在...上验证",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "直升机涡轮发动机数据集"
+    },
+    {
+      "type": "在故障诊断中达到",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "准确率超过99.7%"
+    },
+    {
+      "type": "在扭矩裕度预测中达到",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "平均绝对误差降低至0.027"
+    },
+    {
+      "type": "优于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "CNN-BiGRU-Attention"
+    },
+    {
+      "type": "优于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "CNN-BiLstm"
+    },
+    {
+      "type": "优于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "CNN-BiGRU"
+    },
+    {
+      "type": "优于",
+      "head": "基于注意力机制的胶囊网络-双向门控循环单元模型(Caps- BiGRU- Attention)",
+      "tail": "Random Forest"
+    },
+    {
+      "type": "替代",
+      "head": "胶囊网络（Capsule Network，Caps）",
+      "tail": "传统卷积神经网络"
+    },
+    {
+      "type": "用于",
+      "head": "SHAP（SHapley AdditiveexPlanations）模型",
+      "tail": "特征分析"
+    },
+    {
+      "type": "影响",
+      "head": "外部空气温度",
+      "tail": "故障模式"
+    },
+    {
+      "type": "影响",
+      "head": "平均气体温度",
+      "tail": "故障模式"
+    },
+    {
+      "type": "影响",
+      "head": "测量扭矩",
+      "tail": "故障模式"
+    },
+    {
+      "type": "是...最大影响因素",
+      "head": "故障模式",
+      "tail": "健康状态"
+    },
+    {
+      "type": "得出结论",
+      "head": "特征分析",
+      "tail": "净功率提升到接近100kW时最有利于其健康状态"
+    },
+    {
+      "type": "得出结论",
+      "head": "特征分析",
+      "tail": "指示空速超过110km/h会损害发动机"
+    },
+    {
+      "type": "确定",
+      "head": "概率分布拟合",
+      "tail": "贝塔分布"
+    },
+    {
+      "type": "是...最佳分布",
+      "head": "贝塔分布",
+      "tail": "严重失效"
+    },
+    {
+      "type": "是...最佳分布",
+      "head": "贝塔分布",
+      "tail": "轻微失效"
+    },
+    {
+      "type": "是...最佳分布",
+      "head": "贝塔分布",
+      "tail": "健康状态"
+    },
+    {
+      "type": "难以拟合",
+      "head": "衰减状态",
+      "tail": "概率分布拟合"
+    }
+  ]
+}

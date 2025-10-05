@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "type": "系统/部件",
+      "text": "飞机健康管理系统"
+    },
+    {
+      "type": "技术",
+      "text": "数据挖掘技术"
+    },
+    {
+      "type": "数据集",
+      "text": "飞机运行和维护产生的数据"
+    },
+    {
+      "type": "系统/部件",
+      "text": "CMCS(Central Maintenance Computing System)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "AHMS(Aircraft Health Management System)"
+    },
+    {
+      "type": "技术",
+      "text": "基于事例的推理方法(CBR- Case Based Reasoning)"
+    },
+    {
+      "type": "技术",
+      "text": "规则归纳"
+    },
+    {
+      "type": "技术",
+      "text": "决策树"
+    },
+    {
+      "type": "技术",
+      "text": "神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "异常检测"
+    },
+    {
+      "type": "技术",
+      "text": "聚集"
+    },
+    {
+      "type": "系统/部件",
+      "text": "CBR模块"
+    },
+    {
+      "type": "系统/部件",
+      "text": "维护方案模块"
+    },
+    {
+      "type": "系统/部件",
+      "text": "KDD(Knowledge Discovery in Database)模块"
+    },
+    {
+      "type": "系统/部件",
+      "text": "数据源反馈模块"
+    },
+    {
+      "type": "技术",
+      "text": "信息提取技术IE(Information Extraction)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "FIM(Fault Isolation Manual)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "AMM(Aircraft Maintenance Manual)"
+    },
+    {
+      "type": "系统/部件",
+      "text": "AMTAC(Aircraft Maintenance Tracking And Control)"
+    },
+    {
+      "type": "数据集",
+      "text": "重复故障库"
+    },
+    {
+      "type": "系统/部件",
+      "text": "CFD(Computational Fluid Dynamics)报文"
+    },
+    {
+      "type": "技术",
+      "text": "Java编程语言"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "数据挖掘技术",
+      "tail": "飞机健康管理系统"
+    },
+    {
+      "type": "产生",
+      "head": "飞机运行和维护",
+      "tail": "飞机运行和维护产生的数据"
+    },
+    {
+      "type": "生成",
+      "head": "CMCS(Central Maintenance Computing System)",
+      "tail": "实时报文"
+    },
+    {
+      "type": "设计",
+      "head": "朱睿",
+      "tail": "AHMS(Aircraft Health Management System)"
+    },
+    {
+      "type": "构建",
+      "head": "基于事例的推理方法(CBR- Case Based Reasoning)",
+      "tail": "CBR数据库"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS(Aircraft Health Management System)",
+      "tail": "CBR模块"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS(Aircraft Health Management System)",
+      "tail": "维护方案模块"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS(Aircraft Health Management System)",
+      "tail": "KDD(Knowledge Discovery in Database)模块"
+    },
+    {
+      "type": "组成",
+      "head": "AHMS(Aircraft Health Management System)",
+      "tail": "数据源反馈模块"
+    },
+    {
+      "type": "使用",
+      "head": "CBR模块",
+      "tail": "信息提取技术IE(Information Extraction)"
+    },
+    {
+      "type": "基于",
+      "head": "CBR数据库",
+      "tail": "飞机维护技术文档"
+    },
+    {
+      "type": "包含",
+      "head": "飞机维护技术文档",
+      "tail": "FIM(Fault Isolation Manual)"
+    },
+    {
+      "type": "包含",
+      "head": "飞机维护技术文档",
+      "tail": "AMM(Aircraft Maintenance Manual)"
+    },
+    {
+      "type": "记录",
+      "head": "AMTAC(Aircraft Maintenance Tracking And Control)",
+      "tail": "历史维护经验"
+    },
+    {
+      "type": "包含",
+      "head": "历史维护经验",
+      "tail": "重复故障库"
+    },
+    {
+      "type": "包含",
+      "head": "CFD(Computational Fluid Dynamics)报文",
+      "tail": "故障代码"
+    },
+    {
+      "type": "包含",
+      "head": "CFD(Computational Fluid Dynamics)报文",
+      "tail": "故障信息"
+    },
+    {
+      "type": "实现",
+      "head": "维护方案模块",
+      "tail": "Java编程语言"
+    }
+  ]
+}

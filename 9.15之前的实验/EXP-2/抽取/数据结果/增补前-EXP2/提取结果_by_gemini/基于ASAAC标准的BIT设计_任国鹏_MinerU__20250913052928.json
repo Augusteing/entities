@@ -1,0 +1,431 @@
+{
+  "entities": [
+    {
+      "type": "标准",
+      "text": "ASAC标准"
+    },
+    {
+      "type": "系统",
+      "text": "机内自测试(BIT)系统"
+    },
+    {
+      "type": "技术",
+      "text": "BIT设计"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统"
+    },
+    {
+      "type": "性能指标",
+      "text": "可测试性"
+    },
+    {
+      "type": "成本",
+      "text": "航空电子系统测试维护成本"
+    },
+    {
+      "type": "技术",
+      "text": "BIT技术"
+    },
+    {
+      "type": "功能",
+      "text": "故障检测"
+    },
+    {
+      "type": "功能",
+      "text": "故障隔离"
+    },
+    {
+      "type": "设计方法",
+      "text": "总线层次化方法"
+    },
+    {
+      "type": "测试层级",
+      "text": "系统级测试"
+    },
+    {
+      "type": "测试层级",
+      "text": "分系统级测试"
+    },
+    {
+      "type": "测试层级",
+      "text": "模块级测试"
+    },
+    {
+      "type": "管理系统",
+      "text": "健康管理"
+    },
+    {
+      "type": "管理系统",
+      "text": "故障管理"
+    },
+    {
+      "type": "性能指标",
+      "text": "测试覆盖率"
+    },
+    {
+      "type": "性能指标",
+      "text": "可靠性"
+    },
+    {
+      "type": "软件架构",
+      "text": "ASAAC模块软件体系结构"
+    },
+    {
+      "type": "软件层",
+      "text": "模块支持层"
+    },
+    {
+      "type": "软件层",
+      "text": "操作系统层"
+    },
+    {
+      "type": "软件层",
+      "text": "应用层"
+    },
+    {
+      "type": "软件模块",
+      "text": "通用系统管理(GSM)"
+    },
+    {
+      "type": "测试类型",
+      "text": "上电自测试(PBIT)"
+    },
+    {
+      "type": "测试类型",
+      "text": "周期自测试(CBIT)"
+    },
+    {
+      "type": "测试类型",
+      "text": "初始自测试(IBIT)"
+    },
+    {
+      "type": "硬件模块",
+      "text": "BIT系统硬件"
+    },
+    {
+      "type": "硬件模块",
+      "text": "测试处理芯片"
+    },
+    {
+      "type": "实现方式",
+      "text": "FPGA+IP核"
+    },
+    {
+      "type": "硬件模块",
+      "text": "数字测试电路"
+    },
+    {
+      "type": "硬件模块",
+      "text": "模拟测试电路"
+    },
+    {
+      "type": "标准",
+      "text": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "接口",
+      "text": "MOS接口"
+    },
+    {
+      "type": "接口",
+      "text": "SMOS接口"
+    },
+    {
+      "type": "接口",
+      "text": "MLI接口"
+    },
+    {
+      "type": "函数",
+      "text": "startPbit"
+    },
+    {
+      "type": "函数",
+      "text": "startCbit"
+    },
+    {
+      "type": "函数",
+      "text": "startIbit"
+    },
+    {
+      "type": "函数",
+      "text": "getPbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getCbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getIbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "sendBitTest"
+    },
+    {
+      "type": "函数",
+      "text": "receiveBitResult"
+    },
+    {
+      "type": "系统",
+      "text": "基于SATA的嵌入式直接存储系统"
+    },
+    {
+      "type": "硬件模块",
+      "text": "SATA存储通道"
+    },
+    {
+      "type": "性能指标",
+      "text": "180MB/s的存储带宽"
+    },
+    {
+      "type": "系统",
+      "text": "PCI存储系统"
+    },
+    {
+      "type": "性能指标",
+      "text": "较低的存储带宽"
+    },
+    {
+      "type": "系统",
+      "text": "FLASH存储系统"
+    },
+    {
+      "type": "性能指标",
+      "text": "较高的存储带宽"
+    },
+    {
+      "type": "缺点",
+      "text": "牺牲通用性与扩展性"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "BIT设计",
+      "tail": "ASAC标准"
+    },
+    {
+      "type": "目的为",
+      "head": "BIT设计",
+      "tail": "满足航空电子系统的可测试性"
+    },
+    {
+      "type": "目的为",
+      "head": "BIT设计",
+      "tail": "降低航空电子系统测试维护成本"
+    },
+    {
+      "type": "采用",
+      "head": "BIT设计",
+      "tail": "总线层次化方法"
+    },
+    {
+      "type": "分为",
+      "head": "BIT设计",
+      "tail": "系统级测试"
+    },
+    {
+      "type": "分为",
+      "head": "BIT设计",
+      "tail": "分系统级测试"
+    },
+    {
+      "type": "分为",
+      "head": "BIT设计",
+      "tail": "模块级测试"
+    },
+    {
+      "type": "结合",
+      "head": "机内自测试(BIT)系统",
+      "tail": "健康管理"
+    },
+    {
+      "type": "结合",
+      "head": "机内自测试(BIT)系统",
+      "tail": "故障管理"
+    },
+    {
+      "type": "提高",
+      "head": "机内自测试(BIT)系统",
+      "tail": "航空电子系统可靠性"
+    },
+    {
+      "type": "提高",
+      "head": "机内自测试(BIT)系统",
+      "tail": "可测试性"
+    },
+    {
+      "type": "利用",
+      "head": "BIT技术",
+      "tail": "自身资源"
+    },
+    {
+      "type": "实现",
+      "head": "BIT技术",
+      "tail": "故障检测"
+    },
+    {
+      "type": "实现",
+      "head": "BIT技术",
+      "tail": "故障隔离"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "模块支持层"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "操作系统层"
+    },
+    {
+      "type": "分为",
+      "head": "ASAAC模块软件体系结构",
+      "tail": "应用层"
+    },
+    {
+      "type": "包括",
+      "head": "操作系统层",
+      "tail": "通用系统管理(GSM)"
+    },
+    {
+      "type": "包括",
+      "head": "通用系统管理(GSM)",
+      "tail": "健康管理"
+    },
+    {
+      "type": "包括",
+      "head": "通用系统管理(GSM)",
+      "tail": "故障管理"
+    },
+    {
+      "type": "归结至",
+      "head": "BIT测试",
+      "tail": "通用系统管理(GSM)"
+    },
+    {
+      "type": "提供依据给",
+      "head": "BIT测试",
+      "tail": "健康管理"
+    },
+    {
+      "type": "提供依据给",
+      "head": "BIT测试",
+      "tail": "故障管理"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试功能",
+      "tail": "上电自测试(PBIT)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试功能",
+      "tail": "周期自测试(CBIT)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT测试功能",
+      "tail": "初始自测试(IBIT)"
+    },
+    {
+      "type": "采用",
+      "head": "测试处理芯片",
+      "tail": "FPGA+IP核"
+    },
+    {
+      "type": "根据",
+      "head": "数字测试电路",
+      "tail": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "提供",
+      "head": "模块支持层",
+      "tail": "MOS接口"
+    },
+    {
+      "type": "提供",
+      "head": "模块支持层",
+      "tail": "MLI接口"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "startPbit"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "startCbit"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "startIbit"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "getPbitResult"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "getCbitResult"
+    },
+    {
+      "type": "包括",
+      "head": "MOS接口",
+      "tail": "getIbitResult"
+    },
+    {
+      "type": "包括",
+      "head": "MLI接口",
+      "tail": "sendBitTest"
+    },
+    {
+      "type": "包括",
+      "head": "MLI接口",
+      "tail": "receiveBitResult"
+    },
+    {
+      "type": "调用",
+      "head": "通用系统管理(GSM)",
+      "tail": "MOS接口"
+    },
+    {
+      "type": "调用",
+      "head": "通用系统管理(GSM)",
+      "tail": "MLI接口"
+    },
+    {
+      "type": "提出",
+      "head": "本文",
+      "tail": "基于SATA的嵌入式直接存储系统"
+    },
+    {
+      "type": "达到",
+      "head": "SATA存储通道",
+      "tail": "180MB/s的存储带宽"
+    },
+    {
+      "type": "具有",
+      "head": "PCI存储系统",
+      "tail": "较低的存储带宽"
+    },
+    {
+      "type": "具有",
+      "head": "FLASH存储系统",
+      "tail": "较高的存储带宽"
+    },
+    {
+      "type": "缺点是",
+      "head": "FLASH存储系统",
+      "tail": "牺牲通用性与扩展性"
+    }
+  ]
+}

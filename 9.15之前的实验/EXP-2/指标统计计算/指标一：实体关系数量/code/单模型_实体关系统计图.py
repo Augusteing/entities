@@ -3,26 +3,64 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import argparse
 import csv
-from typing import Iterable, Tuple, Set
+from typing import Iterable, Tuple, Set, Dict, List
+import os
 
-# 配置路径
-ROOT = Path(r"e:\知识图谱构建\9.15之前的实验\EXP-1")
-# 数据源：抽取/数据结果 下的三个模型抽取结果
-DATA_BASE = ROOT / '抽取' / '数据结果'
-MODEL_DIR_MAP = {
-    'deepseek': DATA_BASE / '提取结果_by_deepseek' / 'in_scope',
-    'gemini': DATA_BASE / '提取结果_by_gemini' / 'in_scope',
-    'kimi': DATA_BASE / '提取结果_by_kimi' / 'in_scope',
-}
+"""
+通用单模型/全部模型 实体/关系 数量+类型 统计脚本
 
-# 评估论文目录（用于精确限制 50 篇）
-EVAL_PAPERS_DIR = ROOT / '论文文献' / '需要评估的论文'
-# 输出目录：指标统计计算/指标一：实体关系数量/统计结果/{图像, 表格}
-_BASE_STAT_DIR = ROOT / '指标统计计算' / '指标一：实体关系数量' / '统计结果'
-OUT_IMG_DIR = _BASE_STAT_DIR / '图像'
-OUT_TABLE_DIR = _BASE_STAT_DIR / '表格'
-OUT_IMG_DIR.mkdir(parents=True, exist_ok=True)
-OUT_TABLE_DIR.mkdir(parents=True, exist_ok=True)
+适配目录结构 (EXP-1 / EXP-2 / EXP-3)：
+  <EXPROOT>/
+    抽取/数据结果/提取结果_by_<model>/in_scope/*.json
+    论文文献/需要评估的论文/*.md   (用于 50 篇限定)
+    指标统计计算/指标一：实体关系数量/统计结果/{图像, 表格}
+
+自动行为：
+  - 若未显式提供 --root，则从当前脚本向上搜索同时存在 '抽取' 与 '指标统计计算' 目录的父级作为实验根。
+  - 自动发现模型：扫描 抽取/数据结果 下符合 提取结果_by_* 且含 in_scope 的目录。
+  - 未指定 --model/--all 且未给 --models 时，默认统计全部发现的模型并输出 CSV。
+
+新增参数：
+  --root <dir>         手动指定实验根
+  --models a,b,c       批量指定模型（覆盖自动发现）
+  --out-dir <dir>      自定义输出根目录（内部仍建 图像 / 表格）
+
+兼容参数：
+  --model / --all / --csv / --use-paper-stems 等保留。
+"""
+
+
+def auto_detect_root(script_path: Path) -> Path:
+    for p in [script_path] + list(script_path.parents):
+        if (p / '抽取').is_dir() and (p / '抽取' / '数据结果').is_dir():
+            return p
+    raise SystemExit('[ERROR] 未能自动找到实验根目录，请使用 --root 指定。')
+
+
+def discover_models(data_base: Path) -> Dict[str, Path]:
+    mapping: Dict[str, Path] = {}
+    if not data_base.exists():
+        return mapping
+    for d in data_base.glob('提取结果_by_*'):
+        if not d.is_dir():
+            continue
+        model = d.name.replace('提取结果_by_', '', 1)
+        in_scope = d / 'in_scope'
+        if in_scope.is_dir():
+            mapping[model] = in_scope
+    return mapping
+
+
+def ensure_output_dirs(root: Path, custom_out: Path | None) -> Tuple[Path, Path]:
+    if custom_out is None:
+        base_stat_dir = root / '指标统计计算' / '指标一：实体关系数量' / '统计结果'
+    else:
+        base_stat_dir = custom_out
+    out_img = base_stat_dir / '图像'
+    out_tbl = base_stat_dir / '表格'
+    out_img.mkdir(parents=True, exist_ok=True)
+    out_tbl.mkdir(parents=True, exist_ok=True)
+    return out_img, out_tbl
 
 # 颜色（按需求四种）
 COLOR_ENTITY_COUNT = '#925EB0'   # 紫
@@ -160,7 +198,7 @@ def aggregate(model: str, restrict_stems: bool, only_correct: bool, dedup_rel: b
 
     return total_entities, len(entity_types), total_relations, len(relation_types)
 
-def plot_bar(model: str, stats):
+def plot_bar(model: str, stats, out_img_dir: Path, title_suffix: str):
     (ent_count, ent_type_count, rel_count, rel_type_count) = stats
     labels = ['实体数量', '实体类型数量', '关系数量', '关系类型数量']
     values = [ent_count, ent_type_count, rel_count, rel_type_count]
@@ -170,40 +208,72 @@ def plot_bar(model: str, stats):
     bars = plt.bar(labels, values, color=colors, edgecolor='#333333')
     for bar, val in zip(bars, values):
         plt.text(bar.get_x() + bar.get_width()/2, bar.get_height(), str(val), ha='center', va='bottom', fontsize=9)
-    plt.title(f'{model} 模型实体和关系抽取数量统计（50篇）', fontsize=12)
+    plt.title(f'{model} 模型实体/关系抽取统计（{title_suffix}）', fontsize=12)
     plt.ylabel('数量')
     plt.tight_layout()
-    out_path = OUT_IMG_DIR / f'{model}实体和关系抽取数量请执行.png'
+    out_path = out_img_dir / f'{model}_实体关系数量统计.png'
     plt.savefig(out_path, bbox_inches='tight')
     plt.close()
     print(f"{model} 图已保存: {out_path}")
     print(f"统计 => 实体数量:{ent_count} 实体类型:{ent_type_count} 关系数量:{rel_count} 关系类型:{rel_type_count}")
 
 def main():
-    parser = argparse.ArgumentParser(description='单模型或全部模型 50篇 实体/关系 数量与类型数量统计图 (可选过滤)')
-    # 允许不传参数：不再强制 required=True
-    group = parser.add_mutually_exclusive_group(required=False)
-    group.add_argument('--model', choices=list(MODEL_DIR_MAP.keys()), help='单个模型名称')
-    group.add_argument('--all', action='store_true', help='一次性生成全部模型')
+    parser = argparse.ArgumentParser(description='单模型或全部模型 实体/关系 数量与类型数量统计 (适配 EXP-1/2/3 通用结构)')
+    parser.add_argument('--root', type=str, help='实验根目录 (含 抽取/指标统计计算)，默认自动检测')
+    parser.add_argument('--models', type=str, help='逗号分隔模型名，覆盖自动发现')
+    parser.add_argument('--model', type=str, help='单个模型名称 (与 --all 互斥)')
+    parser.add_argument('--all', action='store_true', help='统计全部模型')
     parser.add_argument('--csv', action='store_true', help='输出一个汇总CSV')
-    parser.add_argument('--use-paper-stems', action='store_true', help='严格仅统计评估目录(论文文献/需要评估的论文)列出的 50 篇')
+    parser.add_argument('--out-dir', type=str, help='自定义输出根目录 (默认: 实验根/指标统计计算/指标一：实体关系数量/统计结果)')
+    parser.add_argument('--use-paper-stems', action='store_true', help='仅统计评估目录(论文文献/需要评估的论文)列出的 50 篇')
     parser.add_argument('--only-correct', action='store_true', help='仅统计 evaluation 标记为 正确/correct 的关系')
     parser.add_argument('--only-correct-entities', action='store_true', help='仅统计 evaluation 标记为 正确/correct 的实体')
     parser.add_argument('--dedup-relations', action='store_true', help='关系按 (head, type, tail) 去重')
-    parser.add_argument('--strict-correct', action='store_true', help='与 --only-correct 搭配：缺 evaluation 视为不正确。默认缺 evaluation 保留')
+    parser.add_argument('--strict-correct', action='store_true', help='与 --only-correct 搭配：缺 evaluation 视为不正确 (默认保留)')
     parser.add_argument('--debug-relations', action='store_true', help='打印关系过滤调试信息')
     args = parser.parse_args()
 
-    # 若未指定 --model 或 --all，默认执行全部并自动导出 CSV
-    if not args.model and not args.all:
-        print('[INFO] 未指定 --model/--all，默认执行全部模型 (--all) 并输出汇总 CSV。')
-        args.all = True
-        args.csv = True
+    script_path = Path(__file__).resolve()
+    root = Path(args.root) if args.root else auto_detect_root(script_path)
+    data_base = root / '抽取' / '数据结果'
+    eval_dir = root / '论文文献' / '需要评估的论文'
+
+    model_map = discover_models(data_base)
+    if not model_map:
+        raise SystemExit(f'[ERROR] 未在 {data_base} 下发现任何 提取结果_by_* / in_scope 目录。')
+
+    # 解析模型选择逻辑
+    explicit_models: List[str] | None = None
+    if args.models:
+        explicit_models = [m.strip() for m in args.models.split(',') if m.strip()]
+    targets: List[str]
+    if explicit_models:
+        targets = [m for m in explicit_models if m in model_map]
+        missing = set(explicit_models) - set(targets)
+        if missing:
+            print(f'[WARN] 以下模型未发现且被忽略: {",".join(sorted(missing))}')
+    elif args.model:
+        if args.model not in model_map:
+            raise SystemExit(f'[ERROR] 指定模型 {args.model} 不存在于自动发现集合 {list(model_map.keys())}')
+        targets = [args.model]
+    else:
+        # 默认或 --all 统计全部
+        targets = sorted(model_map.keys())
+        if not args.model and not args.all and not args.models:
+            print('[INFO] 未指定模型参数，默认统计全部模型并输出 CSV。')
+            args.csv = True
+
+    # 输出目录
+    out_img_dir, out_table_dir = ensure_output_dirs(root, Path(args.out_dir) if args.out_dir else None)
+
+    # 让 _iter_target_json_files 可访问到动态变量
+    global MODEL_DIR_MAP, EVAL_PAPERS_DIR
+    MODEL_DIR_MAP = {m: model_map[m] for m in targets}  # type: ignore
+    EVAL_PAPERS_DIR = eval_dir  # type: ignore
 
     set_chinese_font()
-
+    title_suffix = '限定50篇' if args.use_paper_stems else '全部文件'
     results = []
-    targets = [args.model] if args.model else list(MODEL_DIR_MAP.keys())
     for m in targets:
         stats = aggregate(
             m,
@@ -214,17 +284,18 @@ def main():
             strict_correct=args.strict_correct,
             debug_rel=args.debug_relations,
         )
-        plot_bar(m, stats)
+        plot_bar(m, stats, out_img_dir, title_suffix)
         results.append((m, *stats))
 
     if args.csv:
-        csv_path = OUT_TABLE_DIR / '模型实体关系统计汇总.csv'
+        csv_path = out_table_dir / '模型实体关系统计汇总.csv'
         with csv_path.open('w', newline='', encoding='utf-8-sig') as f:
             w = csv.writer(f)
             w.writerow(['模型','实体数量','实体类型数量','关系数量','关系类型数量'])
             for row in results:
                 w.writerow(row)
-        print('汇总CSV已生成:', csv_path)
+        print('[INFO] 汇总CSV已生成:', csv_path)
+    print('[DONE] 处理完成。')
 
 if __name__ == '__main__':
     main()

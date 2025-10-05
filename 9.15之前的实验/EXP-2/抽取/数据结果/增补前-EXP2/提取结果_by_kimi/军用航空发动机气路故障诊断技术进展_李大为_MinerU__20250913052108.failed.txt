@@ -1,0 +1,2 @@
+失败时间: 2025-09-24T10:34:41.452515+00:00
+异常: JSON 解析失败: Unterminated string starting at: line 323 column 15 (char 4981). 原始输出已保存到 E:\知识图谱构建\9.15之前的实验\EXP-2\抽取\数据结果\提取结果_by_kimi\军用航空发动机气路故障诊断技术进展_李大为_MinerU__20250913052108.raw.txt

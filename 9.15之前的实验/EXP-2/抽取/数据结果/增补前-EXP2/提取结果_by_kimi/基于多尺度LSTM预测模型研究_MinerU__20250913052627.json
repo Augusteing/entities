@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "type": "研究对象",
+      "text": "航空发动机剩余寿命（remaining useful life，RUL）预测"
+    },
+    {
+      "type": "手段/工具",
+      "text": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型"
+    },
+    {
+      "type": "数据集",
+      "text": "NASA的C-MAPSS数据集"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确率和均方根误差指标"
+    },
+    {
+      "type": "研究结果",
+      "text": "所提出预测模型在准确率和均方根误差指标上均有所提升"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理（prognostics and health management，PHM）"
+    },
+    {
+      "type": "技术",
+      "text": "基于QAR数据的民用航空发动机高压涡轮叶片实际使用载荷谱的数值模拟方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于小波去噪和混沌粒子群相关向量机的锂电池剩余寿命预测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于信息融合的RVM发动机RUL预测方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于特征向量选择的RVM锂电池RUL预测方法"
+    },
+    {
+      "type": "技术",
+      "text": "多目标DBN集成方法"
+    },
+    {
+      "type": "技术",
+      "text": "CNN和RNN的混合模型"
+    },
+    {
+      "type": "技术",
+      "text": "LSTM模型"
+    },
+    {
+      "type": "技术",
+      "text": "基于BiLSTM和多尺度CNN的RUL预估方法"
+    },
+    {
+      "type": "技术",
+      "text": "基于BiLSTM的自适应故障诊断模型ABiLSTM"
+    },
+    {
+      "type": "技术",
+      "text": "多尺度自训练权重基于ABiLSTM，STW-MSABiLSTM"
+    },
+    {
+      "type": "技术",
+      "text": "长短期记忆神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "自训练权重"
+    },
+    {
+      "type": "技术",
+      "text": "注意力机制"
+    },
+    {
+      "type": "技术",
+      "text": "Z- score标准化方法"
+    },
+    {
+      "type": "技术",
+      "text": "多层感知机"
+    },
+    {
+      "type": "技术",
+      "text": "支持向量回归"
+    },
+    {
+      "type": "技术",
+      "text": "卷积神经网络"
+    },
+    {
+      "type": "技术",
+      "text": "单层LSTM"
+    },
+    {
+      "type": "技术",
+      "text": "卷积自编码"
+    },
+    {
+      "type": "技术",
+      "text": "三尺度ABiLSTM"
+    },
+    {
+      "type": "技术",
+      "text": "STW-MSABiLSTM"
+    }
+  ],
+  "relations": [
+    {
+      "type": "解决",
+      "head": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型",
+      "tail": "航空发动机剩余寿命（remaining useful life，RUL）预测"
+    },
+    {
+      "type": "应用于",
+      "head": "基于自训练权重的多尺度注意力双向长短期记忆神经网络模型",
+      "tail": "NASA的C-MAPSS数据集"
+    },
+    {
+      "type": "提高",
+      "head": "所提出预测模型",
+      "tail": "准确率和均方根误差指标"
+    },
+    {
+      "type": "核心问题",
+      "head": "航空发动机剩余寿命（remaining useful life，RUL）预测",
+      "tail": "故障预测与健康管理（prognostics and health management，PHM）"
+    },
+    {
+      "type": "提供了",
+      "head": "基于QAR数据的民用航空发动机高压涡轮叶片实际使用载荷谱的数值模拟方法",
+      "tail": "RUL预测"
+    },
+    {
+      "type": "提出了",
+      "head": "基于小波去噪和混沌粒子群相关向量机的锂电池剩余寿命预测方法",
+      "tail": "锂电池RUL预测"
+    },
+    {
+      "type": "提出了",
+      "head": "基于信息融合的RVM发动机RUL预测方法",
+      "tail": "发动机RUL预测"
+    },
+    {
+      "type": "提出了",
+      "head": "基于特征向量选择的RVM锂电池RUL预测方法",
+      "tail": "锂电池RUL预测"
+    },
+    {
+      "type": "提出了",
+      "head": "多目标DBN集成方法",
+      "tail": "航空发动机数据集上的预测精度"
+    },
+    {
+      "type": "提出了",
+      "head": "CNN和RNN的混合模型",
+      "tail": "提高预测的鲁棒性"
+    },
+    {
+      "type": "提出了",
+      "head": "LSTM模型",
+      "tail": "解决寿命预测过程中容易产生梯度消失和梯度爆炸等问题"
+    },
+    {
+      "type": "提出了",
+      "head": "基于BiLSTM和多尺度CNN的RUL预估方法",
+      "tail": "解决长期依赖时间序列数据的问题"
+    },
+    {
+      "type": "引入了",
+      "head": "基于BiLSTM的自适应故障诊断模型ABiLSTM",
+      "tail": "注意力机制"
+    },
+    {
+      "type": "提出了",
+      "head": "多尺度自训练权重基于ABiLSTM，STW-MSABiLSTM",
+      "tail": "航空发动机RUL预测"
+    },
+    {
+      "type": "通过",
+      "head": "长短期记忆神经网络",
+      "tail": "处理时间序列数据"
+    },
+    {
+      "type": "通过",
+      "head": "自训练权重",
+      "tail": "对提取的不同尺度特征进行拼接"
+    },
+    {
+      "type": "通过",
+      "head": "注意力机制",
+      "tail": "筛选目标特征"
+    },
+    {
+      "type": "采用",
+      "head": "Z- score标准化方法",
+      "tail": "对数据集进行归一化"
+    },
+    {
+      "type": "衡量",
+      "head": "准确率(accuracy，Acc)和均方根误差(root mean square error，RMSE)",
+      "tail": "模型的准确度"
+    },
+    {
+      "type": "优于",
+      "head": "STW-MSABiLSTM",
+      "tail": "三尺度ABiLSTM模型"
+    },
+    {
+      "type": "优于",
+      "head": "STW-MSABiLSTM",
+      "tail": "CAE- LSTM模型"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "type": "标准",
+      "text": "ASAAC标准"
+    },
+    {
+      "type": "系统",
+      "text": "BIT系统"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统"
+    },
+    {
+      "type": "方法",
+      "text": "总线层次化方法"
+    },
+    {
+      "type": "结构",
+      "text": "系统级测试结构"
+    },
+    {
+      "type": "结构",
+      "text": "分系统级测试结构"
+    },
+    {
+      "type": "结构",
+      "text": "模块级测试结构"
+    },
+    {
+      "type": "功能",
+      "text": "上电自测试(PBIT)"
+    },
+    {
+      "type": "功能",
+      "text": "周期自测试(CBIT)"
+    },
+    {
+      "type": "功能",
+      "text": "初始自测试(IBIT)"
+    },
+    {
+      "type": "接口",
+      "text": "测试总线接口(TM)"
+    },
+    {
+      "type": "接口",
+      "text": "MTP接口"
+    },
+    {
+      "type": "处理器",
+      "text": "BIT测试处理器"
+    },
+    {
+      "type": "芯片",
+      "text": "FPGA"
+    },
+    {
+      "type": "芯片",
+      "text": "IP核"
+    },
+    {
+      "type": "电路",
+      "text": "数字测试电路"
+    },
+    {
+      "type": "电路",
+      "text": "模拟测试电路"
+    },
+    {
+      "type": "协议",
+      "text": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "存储单元",
+      "text": "rom"
+    },
+    {
+      "type": "存储单元",
+      "text": "Flash"
+    },
+    {
+      "type": "函数",
+      "text": "startPbit"
+    },
+    {
+      "type": "函数",
+      "text": "startCbit"
+    },
+    {
+      "type": "函数",
+      "text": "startIbit"
+    },
+    {
+      "type": "函数",
+      "text": "getPbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getCbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "getIbitResult"
+    },
+    {
+      "type": "函数",
+      "text": "sendBitTest"
+    },
+    {
+      "type": "函数",
+      "text": "receiveBitResult"
+    },
+    {
+      "type": "指标",
+      "text": "测试覆盖率"
+    },
+    {
+      "type": "指标",
+      "text": "可靠性"
+    },
+    {
+      "type": "指标",
+      "text": "可测试性"
+    },
+    {
+      "type": "结果",
+      "text": "降低测试和维护成本"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "BIT系统",
+      "tail": "ASAAC标准"
+    },
+    {
+      "type": "设计为",
+      "head": "总线层次化方法",
+      "tail": "系统级测试结构"
+    },
+    {
+      "type": "设计为",
+      "head": "总线层次化方法",
+      "tail": "分系统级测试结构"
+    },
+    {
+      "type": "设计为",
+      "head": "总线层次化方法",
+      "tail": "模块级测试结构"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "上电自测试(PBIT)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "周期自测试(CBIT)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "初始自测试(IBIT)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "测试总线接口(TM)"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "MTP接口"
+    },
+    {
+      "type": "包括",
+      "head": "BIT系统",
+      "tail": "BIT测试处理器"
+    },
+    {
+      "type": "实现为",
+      "head": "BIT测试处理器",
+      "tail": "FPGA"
+    },
+    {
+      "type": "实现为",
+      "head": "BIT测试处理器",
+      "tail": "IP核"
+    },
+    {
+      "type": "基于",
+      "head": "数字测试电路",
+      "tail": "IEEE1149.1边界扫描协议"
+    },
+    {
+      "type": "应用于",
+      "head": "BIT系统",
+      "tail": "航空电子系统"
+    },
+    {
+      "type": "提高",
+      "head": "BIT系统",
+      "tail": "可靠性"
+    },
+    {
+      "type": "提高",
+      "head": "BIT系统",
+      "tail": "可测试性"
+    },
+    {
+      "type": "降低",
+      "head": "BIT系统",
+      "tail": "测试和维护成本"
+    },
+    {
+      "type": "满足",
+      "head": "BIT系统",
+      "tail": "测试覆盖率"
+    }
+  ]
+}

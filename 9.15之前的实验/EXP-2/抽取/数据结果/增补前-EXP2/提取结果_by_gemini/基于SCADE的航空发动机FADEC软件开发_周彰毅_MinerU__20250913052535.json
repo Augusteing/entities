@@ -1,0 +1,288 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空发动机全权限数字电子控制系统(FADEC)"
+    },
+    {
+      "type": "软件",
+      "text": "FADEC软件"
+    },
+    {
+      "type": "软件",
+      "text": "机载软件"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型开发(MBD)"
+    },
+    {
+      "type": "工具",
+      "text": "SCADE"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink"
+    },
+    {
+      "type": "解决方案",
+      "text": "基于SCADE工具集的完整MBD解决方案"
+    },
+    {
+      "type": "解决方案",
+      "text": "SCADE和Simulink的联合MBD解决方案"
+    },
+    {
+      "type": "软件",
+      "text": "健康管理模块应用软件"
+    },
+    {
+      "type": "软件",
+      "text": "推力矢量应用软件"
+    },
+    {
+      "type": "活动",
+      "text": "模型测试"
+    },
+    {
+      "type": "活动",
+      "text": "模型覆盖率分析"
+    },
+    {
+      "type": "活动",
+      "text": "软件硬件集成测试"
+    },
+    {
+      "type": "流程",
+      "text": "联合SCADE和Simulink的基于模型开发流程"
+    },
+    {
+      "type": "标准",
+      "text": "DO-331"
+    },
+    {
+      "type": "标准",
+      "text": "DO-178C"
+    },
+    {
+      "type": "技术",
+      "text": "自动代码生成(ACG)"
+    },
+    {
+      "type": "工具",
+      "text": "KCG"
+    },
+    {
+      "type": "概念",
+      "text": "A级软件"
+    },
+    {
+      "type": "属性",
+      "text": "模型和代码完全一致性"
+    },
+    {
+      "type": "机构",
+      "text": "R&R、GE和P&W"
+    },
+    {
+      "type": "工具",
+      "text": "QTE(QualifiedTestingEnvironment)"
+    },
+    {
+      "type": "工具",
+      "text": "MTC(ModelTestCoverage)"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Gateway"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Wrapper"
+    },
+    {
+      "type": "工具",
+      "text": "Simulink Translator"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机的健康管理系统"
+    },
+    {
+      "type": "模型库",
+      "text": "FADEC模型库"
+    },
+    {
+      "type": "指标",
+      "text": "MC/DC覆盖准则"
+    },
+    {
+      "type": "研究结果",
+      "text": "100%的模型结构覆盖"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink模型"
+    },
+    {
+      "type": "模型",
+      "text": "SCADE模型"
+    },
+    {
+      "type": "模型",
+      "text": "Stateflow模型"
+    },
+    {
+      "type": "模型",
+      "text": "标准状态机"
+    },
+    {
+      "type": "工具",
+      "text": "TCL测试脚本"
+    },
+    {
+      "type": "数据类型",
+      "text": "单精度浮点型"
+    },
+    {
+      "type": "数据结构",
+      "text": "位域结构"
+    },
+    {
+      "type": "技术",
+      "text": "位运算"
+    }
+  ],
+  "relations": [
+    {
+      "type": "探索...在...中的应用",
+      "head": "SCADE",
+      "tail": "FADEC软件"
+    },
+    {
+      "type": "面临挑战",
+      "head": "机载软件",
+      "tail": "复杂性、安全性和成本"
+    },
+    {
+      "type": "成为...的重要方法",
+      "head": "基于模型开发(MBD)",
+      "tail": "软件开发"
+    },
+    {
+      "type": "指导...的使用",
+      "head": "DO-331",
+      "tail": "基于模型开发(MBD)"
+    },
+    {
+      "type": "通过...认证",
+      "head": "KCG",
+      "tail": "DO-178C"
+    },
+    {
+      "type": "保证",
+      "head": "KCG",
+      "tail": "模型和代码完全一致性"
+    },
+    {
+      "type": "用作...开发环境",
+      "head": "R&R、GE和P&W",
+      "tail": "SCADE"
+    },
+    {
+      "type": "提供",
+      "head": "SCADE",
+      "tail": "基于SCADE工具集的完整MBD解决方案"
+    },
+    {
+      "type": "提供",
+      "head": "SCADE",
+      "tail": "SCADE和Simulink的联合MBD解决方案"
+    },
+    {
+      "type": "支持",
+      "head": "QTE(QualifiedTestingEnvironment)",
+      "tail": "模型测试"
+    },
+    {
+      "type": "支持",
+      "head": "QTE(QualifiedTestingEnvironment)",
+      "tail": "模型覆盖率分析"
+    },
+    {
+      "type": "将...转换为",
+      "head": "Simulink Gateway",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "将...集成到",
+      "head": "Simulink Wrapper",
+      "tail": "Simulink模型"
+    },
+    {
+      "type": "用于开发",
+      "head": "基于SCADE工具集的完整MBD解决方案",
+      "tail": "健康管理模块应用软件"
+    },
+    {
+      "type": "用于开发",
+      "head": "SCADE和Simulink的联合MBD解决方案",
+      "tail": "推力矢量应用软件"
+    },
+    {
+      "type": "要求",
+      "head": "DO-178C",
+      "tail": "MC/DC覆盖准则"
+    },
+    {
+      "type": "达到",
+      "head": "模型测试",
+      "tail": "100%的模型结构覆盖"
+    },
+    {
+      "type": "将...转换为",
+      "head": "Simulink Translator",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "只支持...的转换",
+      "head": "Simulink Gateway",
+      "tail": "标准状态机"
+    },
+    {
+      "type": "驱动",
+      "head": "TCL测试脚本",
+      "tail": "SCADE模型"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "联合SCADE和Simulink的基于模型开发流程"
+    },
+    {
+      "type": "是...的首选方法",
+      "head": "基于SCADE工具集的完整MBD解决方案",
+      "tail": "初次选择MBD技术的企业"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "单精度浮点型"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "位域结构"
+    },
+    {
+      "type": "不支持",
+      "head": "SCADE",
+      "tail": "位运算"
+    },
+    {
+      "type": "是...的开发工具",
+      "head": "SCADE",
+      "tail": "FADEC软件"
+    }
+  ]
+}

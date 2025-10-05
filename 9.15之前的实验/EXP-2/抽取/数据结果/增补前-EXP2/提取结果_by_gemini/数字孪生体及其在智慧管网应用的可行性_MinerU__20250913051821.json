@@ -1,0 +1,401 @@
+{
+  "entities": [
+    {
+      "type": "概念",
+      "text": "工业4.0"
+    },
+    {
+      "type": "概念",
+      "text": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "应用领域",
+      "text": "航空航天"
+    },
+    {
+      "type": "应用领域",
+      "text": "汽车制造"
+    },
+    {
+      "type": "应用领域",
+      "text": "军事"
+    },
+    {
+      "type": "应用领域",
+      "text": "能源"
+    },
+    {
+      "type": "应用领域",
+      "text": "管道行业"
+    },
+    {
+      "type": "应用领域",
+      "text": "产品设计"
+    },
+    {
+      "type": "应用领域",
+      "text": "飞机故障预测"
+    },
+    {
+      "type": "应用领域",
+      "text": "电厂发电机组智能健康管理"
+    },
+    {
+      "type": "应用领域",
+      "text": "复杂产品装配"
+    },
+    {
+      "type": "应用前景",
+      "text": "管道设计"
+    },
+    {
+      "type": "应用前景",
+      "text": "调度优化"
+    },
+    {
+      "type": "应用前景",
+      "text": "管道设备运行维护"
+    },
+    {
+      "type": "应用前景",
+      "text": "管道全生命周期管理"
+    },
+    {
+      "type": "研究对象",
+      "text": "油气管道"
+    },
+    {
+      "type": "系统",
+      "text": "智慧管网"
+    },
+    {
+      "type": "概念",
+      "text": "孪生体"
+    },
+    {
+      "type": "组织",
+      "text": "美国国家航空航天局（NationalAeronautics and Space Administration，NASA）"
+    },
+    {
+      "type": "项目",
+      "text": "阿波罗项目"
+    },
+    {
+      "type": "人物",
+      "text": "Grieves"
+    },
+    {
+      "type": "概念模型",
+      "text": "ConceptualIdealforPLM"
+    },
+    {
+      "type": "概念",
+      "text": "实体空间"
+    },
+    {
+      "type": "概念",
+      "text": "虚拟空间"
+    },
+    {
+      "type": "软件平台",
+      "text": "GE的Predix平台"
+    },
+    {
+      "type": "软件工具",
+      "text": "Siemens的Simcenter3D"
+    },
+    {
+      "type": "模型",
+      "text": "几何模型"
+    },
+    {
+      "type": "模型",
+      "text": "物理模型"
+    },
+    {
+      "type": "模型",
+      "text": "行为模型"
+    },
+    {
+      "type": "模型",
+      "text": "规则模型"
+    },
+    {
+      "type": "系统",
+      "text": "管道数字孪生体"
+    },
+    {
+      "type": "技术",
+      "text": "虚拟样机"
+    },
+    {
+      "type": "系统",
+      "text": "智能数据分析系统（Smart Data Analytics）"
+    },
+    {
+      "type": "组织",
+      "text": "美国空军"
+    },
+    {
+      "type": "系统",
+      "text": "结构数字孪生体"
+    },
+    {
+      "type": "任务",
+      "text": "飞机结构寿命预测"
+    },
+    {
+      "type": "平台",
+      "text": "机器人自动优化组装平台"
+    },
+    {
+      "type": "方法",
+      "text": "传统管道设计"
+    },
+    {
+      "type": "模型",
+      "text": "高保真动态三维模型"
+    },
+    {
+      "type": "模式",
+      "text": "基于数字孪生体的管网调度模式"
+    },
+    {
+      "type": "算法",
+      "text": "遗传算法"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "群体智能"
+    },
+    {
+      "type": "方法",
+      "text": "基于数字孪生体的设备维修维护"
+    },
+    {
+      "type": "方法",
+      "text": "RCM"
+    },
+    {
+      "type": "方法",
+      "text": "RBI"
+    },
+    {
+      "type": "方法",
+      "text": "SIL"
+    },
+    {
+      "type": "技术",
+      "text": "虚拟现实/增强现实/混合现实技术"
+    },
+    {
+      "type": "概念",
+      "text": "数字管道"
+    },
+    {
+      "type": "概念",
+      "text": "智能管道"
+    }
+  ],
+  "relations": [
+    {
+      "type": "催生了",
+      "head": "工业4.0",
+      "tail": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "在...中首次提出",
+      "head": "美国国家航空航天局（NationalAeronautics and Space Administration，NASA）",
+      "tail": "孪生体"
+    },
+    {
+      "type": "提出",
+      "head": "Grieves",
+      "tail": "ConceptualIdealforPLM"
+    },
+    {
+      "type": "是...的雏形",
+      "head": "ConceptualIdealforPLM",
+      "tail": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "正式提出",
+      "head": "Grieves",
+      "tail": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "发展而来",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "虚拟样机"
+    },
+    {
+      "type": "融合了",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "几何模型"
+    },
+    {
+      "type": "融合了",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "物理模型"
+    },
+    {
+      "type": "融合了",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "行为模型"
+    },
+    {
+      "type": "融合了",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "规则模型"
+    },
+    {
+      "type": "得到应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "航空航天"
+    },
+    {
+      "type": "得到应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "汽车制造"
+    },
+    {
+      "type": "得到应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "军事"
+    },
+    {
+      "type": "得到应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "能源"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "产品设计"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "飞机故障预测"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "电厂发电机组智能健康管理"
+    },
+    {
+      "type": "应用",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "复杂产品装配"
+    },
+    {
+      "type": "基于",
+      "head": "智能数据分析系统（Smart Data Analytics）",
+      "tail": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "利用...进行",
+      "head": "美国空军",
+      "tail": "飞机结构寿命预测"
+    },
+    {
+      "type": "基于",
+      "head": "机器人自动优化组装平台",
+      "tail": "数字孪生体(Digital Twin)"
+    },
+    {
+      "type": "在...有应用前景",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "油气管道"
+    },
+    {
+      "type": "可应用于",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "管道设计"
+    },
+    {
+      "type": "可应用于",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "调度优化"
+    },
+    {
+      "type": "可应用于",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "管道设备运行维护"
+    },
+    {
+      "type": "可应用于",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "管道全生命周期管理"
+    },
+    {
+      "type": "基于",
+      "head": "管道数字孪生体",
+      "tail": "高保真动态三维模型"
+    },
+    {
+      "type": "采用",
+      "head": "基于数字孪生体的管网调度模式",
+      "tail": "遗传算法"
+    },
+    {
+      "type": "采用",
+      "head": "基于数字孪生体的管网调度模式",
+      "tail": "人工神经网络"
+    },
+    {
+      "type": "采用",
+      "head": "基于数字孪生体的管网调度模式",
+      "tail": "群体智能"
+    },
+    {
+      "type": "进行...评估及诊断",
+      "head": "基于数字孪生体的设备维修维护",
+      "tail": "RCM"
+    },
+    {
+      "type": "进行...评估及诊断",
+      "head": "基于数字孪生体的设备维修维护",
+      "tail": "RBI"
+    },
+    {
+      "type": "进行...评估及诊断",
+      "head": "基于数字孪生体的设备维修维护",
+      "tail": "SIL"
+    },
+    {
+      "type": "提高人机交互体验",
+      "head": "基于数字孪生体的设备维修维护",
+      "tail": "虚拟现实/增强现实/混合现实技术"
+    },
+    {
+      "type": "推进...发展",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "数字管道"
+    },
+    {
+      "type": "发展为",
+      "head": "数字管道",
+      "tail": "智能管道"
+    },
+    {
+      "type": "发展为",
+      "head": "智能管道",
+      "tail": "智慧管网"
+    },
+    {
+      "type": "促进",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "智慧管网"
+    },
+    {
+      "type": "提升",
+      "head": "数字孪生体(Digital Twin)",
+      "tail": "管道技术和管理水平"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "基于MAS的飞机健康管理专家系统"
+    },
+    {
+      "type": "体系结构",
+      "text": "3层Browser/Server体系结构"
+    },
+    {
+      "type": "方法",
+      "text": "基于案例推理"
+    },
+    {
+      "type": "方法",
+      "text": "基于规则的不确定性推理"
+    },
+    {
+      "type": "技术",
+      "text": "MAS"
+    },
+    {
+      "type": "技术",
+      "text": "JADE"
+    },
+    {
+      "type": "技术",
+      "text": "JSP"
+    },
+    {
+      "type": "技术",
+      "text": "Tomcat"
+    },
+    {
+      "type": "数据库",
+      "text": "SQLServer2000"
+    },
+    {
+      "type": "Agent",
+      "text": "导航Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "无线电Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "雷达Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "案例管理Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "案例检索Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "预警与决策Agent"
+    },
+    {
+      "type": "Agent",
+      "text": "控制与反馈Agent"
+    },
+    {
+      "type": "方法",
+      "text": "最近邻搜索策略"
+    },
+    {
+      "type": "方法",
+      "text": "专家评价法"
+    },
+    {
+      "type": "方法",
+      "text": "层次分析法"
+    },
+    {
+      "type": "方法",
+      "text": "模糊综合评判法"
+    },
+    {
+      "type": "指标",
+      "text": "健康指数"
+    },
+    {
+      "type": "结果",
+      "text": "减少地面维护时间"
+    },
+    {
+      "type": "结果",
+      "text": "增加飞机使用寿命"
+    },
+    {
+      "type": "结果",
+      "text": "项目经济效益约1500万元"
+    },
+    {
+      "type": "方法",
+      "text": "不确定性推理算法"
+    },
+    {
+      "type": "模型",
+      "text": "三元组案例表示方法"
+    },
+    {
+      "type": "技术",
+      "text": "Jess"
+    },
+    {
+      "type": "技术",
+      "text": "JavaBean"
+    }
+  ],
+  "relations": [
+    {
+      "type": "设计实现了",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "地面机务维护的需要"
+    },
+    {
+      "type": "采用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "3层Browser/Server体系结构"
+    },
+    {
+      "type": "引入",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "基于案例推理和基于规则的不确定性推理的预测方法"
+    },
+    {
+      "type": "基于",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "MAS"
+    },
+    {
+      "type": "使用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "JADE"
+    },
+    {
+      "type": "通信",
+      "head": "JSP",
+      "tail": "JADE"
+    },
+    {
+      "type": "使用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "Tomcat"
+    },
+    {
+      "type": "使用",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "SQLServer2000"
+    },
+    {
+      "type": "负责",
+      "head": "导航Agent",
+      "tail": "机载导航系统"
+    },
+    {
+      "type": "负责",
+      "head": "无线电Agent",
+      "tail": "无线电系统"
+    },
+    {
+      "type": "负责",
+      "head": "雷达Agent",
+      "tail": "雷达系统"
+    },
+    {
+      "type": "构成",
+      "head": "案例管理Agent和案例检索Agent",
+      "tail": "基于案例的推理"
+    },
+    {
+      "type": "用于",
+      "head": "案例管理Agent",
+      "tail": "案例的学习、修改以及案例的收集与汇总"
+    },
+    {
+      "type": "负责",
+      "head": "案例检索Agent",
+      "tail": "建立案例索引和执行案例的检索与推理功能"
+    },
+    {
+      "type": "根据",
+      "head": "预警与决策Agent",
+      "tail": "各Agent得出的结果"
+    },
+    {
+      "type": "做出",
+      "head": "预警与决策Agent",
+      "tail": "决策"
+    },
+    {
+      "type": "告警",
+      "head": "预警与决策Agent",
+      "tail": "飞行员及地面机务人员"
+    },
+    {
+      "type": "给出",
+      "head": "预警与决策Agent",
+      "tail": "预控对策"
+    },
+    {
+      "type": "转化",
+      "head": "预警与决策Agent",
+      "tail": "定性指标为定量指标"
+    },
+    {
+      "type": "设置",
+      "head": "预警与决策Agent",
+      "tail": "两级警戒值"
+    },
+    {
+      "type": "实行",
+      "head": "控制与反馈Agent",
+      "tail": "反馈监督"
+    },
+    {
+      "type": "反馈",
+      "head": "控制与反馈Agent",
+      "tail": "系统及部件的健康指数"
+    },
+    {
+      "type": "实现",
+      "head": "各专业对应Agent",
+      "tail": "不确定性推理"
+    },
+    {
+      "type": "使用",
+      "head": "各专业对应Agent",
+      "tail": "Jess"
+    },
+    {
+      "type": "采用",
+      "head": "基于案例的推理",
+      "tail": "最近邻搜索策略"
+    },
+    {
+      "type": "确定",
+      "head": "专家评价法结合层次分析法",
+      "tail": "权重"
+    },
+    {
+      "type": "描述",
+      "head": "三元组案例表示方法",
+      "tail": "飞机故障案例"
+    },
+    {
+      "type": "实现",
+      "head": "不确定性推理",
+      "tail": "不确定性推理算法"
+    },
+    {
+      "type": "封装",
+      "head": "JavaBean",
+      "tail": "事实和结论"
+    },
+    {
+      "type": "达到",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "减少地面维护时间和增加飞机使用寿命"
+    },
+    {
+      "type": "产生",
+      "head": "基于MAS的飞机健康管理专家系统",
+      "tail": "项目经济效益约1500万元"
+    }
+  ]
+}

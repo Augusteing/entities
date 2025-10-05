@@ -1,8 +1,9 @@
 import re
 import json
 import argparse
+import csv
 from pathlib import Path
-from typing import List, Optional, Dict, Tuple, Iterable
+from typing import List, Optional, Dict, Tuple
 
 # ------------------ 配置 ------------------
 DEFAULT_METADATA_FILE = Path(r"E:\知识图谱构建\文献信息\PHM-217篇摘要.txt")
@@ -108,18 +109,30 @@ def dedup_relations(relations: List[Dict[str, str]]) -> List[Dict[str, str]]:
     return result
 
 
-def augment_one(json_path: Path, meta: Dict[str, object]) -> bool:
-    """将 meta 中元信息追加到指定 JSON。
-    支持两种结构：
-      1) 顶层 dict: { entities: [...], relations: [...] }
-      2) 顶层 list 且第一个元素为 dict（早期格式）
-    返回 True 表示内容有新增并写回。
+def augment_one(json_path: Path, meta: Dict[str, object], dry_run: bool = False) -> Dict[str, object]:
+    """将 meta 中元信息追加到指定 JSON；若候选实体/关系已存在则记录但不重复添加。
+
+    返回结构:
+      {
+        'changed': bool,
+        'added_entities': [...],
+        'added_relations': [...],
+        'duplicate_entities': [...],   # 已存在而未添加
+        'duplicate_relations': [...]
+      }
     """
+    result = {
+        'changed': False,
+        'added_entities': [],
+        'added_relations': [],
+        'duplicate_entities': [],
+        'duplicate_relations': []
+    }
     try:
         raw = json.loads(json_path.read_text(encoding="utf-8"))
     except Exception as e:
         print(f"[WARN] 读取失败 {json_path.name}: {e}")
-        return False
+        return result
 
     if isinstance(raw, dict):
         item = raw
@@ -129,48 +142,74 @@ def augment_one(json_path: Path, meta: Dict[str, object]) -> bool:
         container = raw
     else:
         print(f"[WARN] 不支持的结构: {json_path}")
-        return False
+        return result
 
     entities = item.get("entities") or []
     relations = item.get("relations") or []
     if not isinstance(entities, list) or not isinstance(relations, list):
         print(f"[WARN] entities/relations 非列表: {json_path}")
-        return False
+        return result
 
     title: str = str(meta.get("title", ""))
     authors: List[str] = meta.get("authors", [])  # type: ignore
     orgs: List[str] = meta.get("orgs", [])  # type: ignore
     pub_time: str = str(meta.get("pub_time", ""))
 
-    add_entities: List[Dict[str, str]] = []
+    candidate_entities: List[Dict[str, str]] = []
     if title:
-        add_entities.append({"type": "论文", "text": title})
+        candidate_entities.append({"type": "论文", "text": title})
     for a in authors:
         if a:
-            add_entities.append({"type": "作者", "text": a})
+            candidate_entities.append({"type": "作者", "text": a})
     for o in orgs:
         if o:
-            add_entities.append({"type": "发表单位", "text": o})
+            candidate_entities.append({"type": "发表单位", "text": o})
     if pub_time:
-        add_entities.append({"type": "发表时间", "text": pub_time})
+        candidate_entities.append({"type": "发表时间", "text": pub_time})
 
-    add_relations: List[Dict[str, str]] = []
+    candidate_relations: List[Dict[str, str]] = []
     for a in authors:
         if a and title:
-            add_relations.append({"type": "撰写", "head": a, "tail": title})
+            candidate_relations.append({"type": "撰写", "head": a, "tail": title})
     if authors and orgs and authors[0] and orgs[0]:
-        add_relations.append({"type": "隶属", "head": authors[0], "tail": orgs[0]})
+        candidate_relations.append({"type": "隶属", "head": authors[0], "tail": orgs[0]})
     if title and pub_time:
-        add_relations.append({"type": "发表于", "head": title, "tail": pub_time})
+        candidate_relations.append({"type": "发表于", "head": title, "tail": pub_time})
 
-    entities_extended = dedup_entities(entities + add_entities)
-    relations_extended = dedup_relations(relations + add_relations)
-    if len(entities_extended) == len(entities) and len(relations_extended) == len(relations):
-        return False
-    item["entities"] = entities_extended
-    item["relations"] = relations_extended
-    json_path.write_text(json.dumps(container, ensure_ascii=False, indent=2), encoding="utf-8")
-    return True
+    existing_entity_keys = {(e.get('text','').strip().lower(), e.get('type','').strip()) for e in entities}
+    existing_rel_keys = {(r.get('head','').strip(), r.get('tail','').strip(), r.get('type','').strip()) for r in relations}
+
+    new_entities = []
+    for ce in candidate_entities:
+        key = (ce.get('text','').strip().lower(), ce.get('type','').strip())
+        if key in existing_entity_keys:
+            result['duplicate_entities'].append(ce)
+        else:
+            new_entities.append(ce)
+            existing_entity_keys.add(key)
+            result['added_entities'].append(ce)
+
+    new_relations = []
+    for cr in candidate_relations:
+        key = (cr.get('head','').strip(), cr.get('tail','').strip(), cr.get('type','').strip())
+        if key in existing_rel_keys:
+            result['duplicate_relations'].append(cr)
+        else:
+            new_relations.append(cr)
+            existing_rel_keys.add(key)
+            result['added_relations'].append(cr)
+
+    if new_entities or new_relations:
+        result['changed'] = True
+        if not dry_run:
+            # 仍然使用去重函数保证整体唯一性
+            item['entities'] = dedup_entities(entities + new_entities)
+            item['relations'] = dedup_relations(relations + new_relations)
+            try:
+                json_path.write_text(json.dumps(container, ensure_ascii=False, indent=2), encoding='utf-8')
+            except Exception as e:
+                print(f"[ERROR] 写回失败 {json_path.name}: {e}")
+    return result
 
 
 def main():
@@ -179,6 +218,7 @@ def main():
     parser.add_argument("--models", default=",".join(TARGET_MODELS), help="需要处理的模型列表，逗号分隔")
     parser.add_argument("--dry-run", action="store_true", help="不写入，仅统计将发生的修改数")
     parser.add_argument("--limit", type=int, default=0, help="每模型最多处理 JSON 数 (0=不限)")
+    parser.add_argument("--existing-report", type=str, default=None, help="记录已存在(重复)的元数据项 CSV 路径")
     args = parser.parse_args()
 
     meta_file = Path(args.metadata_file)
@@ -222,55 +262,38 @@ def main():
         print(f"[模型 {model}] 待处理 JSON 数: {len(json_files)} (目录: {json_dir})")
 
         m_updated = m_no_meta = m_unchanged = 0
+        duplicate_rows = []  # model-level duplicates per file
         for jp in json_files:
             meta = find_meta_for_stem(jp.stem, indexed)
             if not meta:
                 m_no_meta += 1
                 continue
-            if args.dry_run:
-                # 预检：读取并模拟是否会变更
-                try:
-                    raw = json.loads(jp.read_text(encoding='utf-8'))
-                except Exception:
-                    m_unchanged += 1
-                    continue
-                if isinstance(raw, dict):
-                    ents = raw.get('entities') or []
-                    rels = raw.get('relations') or []
-                elif isinstance(raw, list) and raw and isinstance(raw[0], dict):
-                    ents = raw[0].get('entities') or []
-                    rels = raw[0].get('relations') or []
-                else:
-                    m_unchanged += 1
-                    continue
-                before_e, before_r = len(ents), len(rels)
-                # 粗略估计新增数
-                candidate_e = set((e.get('text','').strip().lower(), e.get('type','')) for e in ents)
-                # 论文
-                title = str(meta.get('title',''))
-                if title:
-                    candidate_e.add((title.strip().lower(), '论文'))
-                for a in meta.get('authors', []):  # type: ignore
-                    if a:
-                        candidate_e.add((str(a).strip().lower(), '作者'))
-                for o in meta.get('orgs', []):  # type: ignore
-                    if o:
-                        candidate_e.add((str(o).strip().lower(), '发表单位'))
-                pub = str(meta.get('pub_time',''))
-                if pub:
-                    candidate_e.add((pub.strip().lower(), '发表时间'))
-                if len(candidate_e) > before_e:
-                    m_updated += 1  # 计作将要更新
-                else:
-                    m_unchanged += 1
-                continue
-
-            changed = augment_one(jp, meta)
-            if changed:
+            res = augment_one(jp, meta, dry_run=args.dry_run)
+            if res['changed']:
                 m_updated += 1
             else:
-                # 有元数据但没有实际新增（可能之前已加过）
                 m_unchanged += 1
+            # 记录重复项
+            for e in res['duplicate_entities']:
+                duplicate_rows.append(['entity', e.get('type',''), e.get('text','') , '', jp.name])
+            for r in res['duplicate_relations']:
+                duplicate_rows.append(['relation', r.get('type',''), r.get('head',''), r.get('tail',''), jp.name])
+
+        # 写重复项报告（按模型追加）
+        if duplicate_rows:
+            if args.existing_report:
+                report_path = Path(args.existing_report)
+            else:
+                report_path = data_base / '元数据填充_已存在项.csv'
+            write_header = not report_path.exists()
+            report_path.parent.mkdir(parents=True, exist_ok=True)
+            with report_path.open('a', newline='', encoding='utf-8-sig') as rf:
+                w = csv.writer(rf)
+                if write_header:
+                    w.writerow(['model','file','kind','type','text_or_head','tail'])
+                for kind, ty, text_or_head, tail, fname in duplicate_rows:
+                    w.writerow([model, fname, kind, ty, text_or_head, tail])
+            print(f"[模型 {model}] 记录已存在元数据 {len(duplicate_rows)} 条 -> {report_path}")
 
         total_updated += m_updated
         total_skipped_no_meta += m_no_meta
