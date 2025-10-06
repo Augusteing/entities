@@ -1,0 +1,539 @@
+{
+  "entities": [
+    {
+      "type": "会议",
+      "text": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "时间",
+      "text": "2020年11月27日",
+      "evaluation": "正确"
+    },
+    {
+      "type": "地点",
+      "text": "成都",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "四川大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "电子科技大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国核动力研究院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "华为技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国仪器仪表学会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "四川大学电气工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "四川省空天信息与智能装备国际科技合作基地",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国仪器仪表学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国电子学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "北京航天测控技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国运载火箭技术研究院空天业务部",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国核动力研究设计院设计所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "山东科技大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "中国航空工业集团公司成都飞机设计研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "组织机构",
+      "text": "华南理工大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "苗强教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "肖先勇",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "张莉",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "于功敬研究员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "代言副总师",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "刘大同教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "何正熙研究员",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "王友清教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "陈银超",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "李巍华教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "人物",
+      "text": "孙博副教授",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "后人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "装备测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测与管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断与预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "维护决策与优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "航空航天领域智能健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "反应堆系统故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "先进战机预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "智能阴联汽车测试评价发展现状及思考",
+      "evaluation": "错误"
+    },
+    {
+      "type": "概念",
+      "text": "PHM工程实践与面临的挑战",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "高校、研究所、企业间的合作",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "我国装备测试技术的成熟与发展",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "《仪器仪表学报》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "《电子测量与仪器学报》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "INSTRUMENTATION",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "《中国测试》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "《电子测量技术》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "《国外电子测量技术》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "媒体",
+      "text": "中国仪器与测量网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "后人工智能背景下装备测试研讨会在成都召开",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2020-11-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "召开于",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "成都",
+      "evaluation": "正确"
+    },
+    {
+      "type": "召开于",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "2020年11月27日",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主办方是",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "中国仪器仪表学会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办方是",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "四川大学电气工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办方是",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "四川省空天信息与智能装备国际科技合作基地",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办方是",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "中国仪器仪表学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "承办方是",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "中国电子学会电子测量与仪器分会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持媒体",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "《仪器仪表学报》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持媒体",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "《电子测量与仪器学报》",
+      "evaluation": "正确"
+    },
+    {
+      "type": "支持媒体",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "中国仪器与测量网",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主持",
+      "head": "苗强教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致开幕辞",
+      "head": "肖先勇",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "致辞",
+      "head": "张莉",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "苗强教授",
+      "tail": "四川大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "肖先勇",
+      "tail": "四川大学电气工程学院",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "张莉",
+      "tail": "中国仪器仪表学会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "于功敬研究员",
+      "tail": "北京航天测控技术有限公司",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "代言副总师",
+      "tail": "中国运载火箭技术研究院空天业务部",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "刘大同教授",
+      "tail": "哈尔滨工业大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "何正熙研究员",
+      "tail": "中国核动力研究设计院设计所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "王友清教授",
+      "tail": "山东科技大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "陈银超",
+      "tail": "中国航空工业集团公司成都飞机设计研究所",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "李巍华教授",
+      "tail": "华南理工大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任职于",
+      "head": "孙博副教授",
+      "tail": "北京航空航天大学",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "于功敬研究员",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "刘大同教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "何正熙研究员",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "王友清教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "陈银超",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "李巍华教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "孙博副教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "做了交流报告",
+      "head": "苗强教授",
+      "tail": "2020预测与健康管理（PHM）研讨会",
+      "evaluation": "正确"
+    },
+    {
+      "type": "围绕",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "后人工智能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "探讨了",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "装备测试技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "装备测试技术",
+      "tail": "状态监测与管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "装备测试技术",
+      "tail": "故障诊断与预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "装备测试技术",
+      "tail": "维护决策与优化",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "航空航天领域智能健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "反应堆系统故障诊断技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "先进战机预测与健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "智能阴联汽车测试评价发展现状及思考",
+      "evaluation": "错误"
+    },
+    {
+      "type": "探讨了",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "PHM工程实践与面临的挑战",
+      "evaluation": "正确"
+    },
+    {
+      "type": "促进",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "高校、研究所、企业间的合作",
+      "evaluation": "正确"
+    },
+    {
+      "type": "推动",
+      "head": "2020预测与健康管理（PHM）研讨会",
+      "tail": "我国装备测试技术的成熟与发展",
+      "evaluation": "正确"
+    },
+    {
+      "type": "发表于",
+      "head": "后人工智能背景下装备测试研讨会在成都召开",
+      "tail": "2020-11-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

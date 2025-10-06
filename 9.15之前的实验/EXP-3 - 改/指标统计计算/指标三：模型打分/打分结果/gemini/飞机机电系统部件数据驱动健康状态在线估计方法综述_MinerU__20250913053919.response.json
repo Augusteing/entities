@@ -1,0 +1,1113 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "飞机机电系统部件健康状态在线估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "飞机机电系统部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "辅助动力装置",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "数据驱动健康状态在线估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术领域",
+      "text": "故障预测与健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "异常状态的检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康状态的估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "剩余寿命的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "飞机机电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "燃油子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "液压子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "起落架子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "辅助动力子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "机电作动器（electro- mechanical actuator，EMA）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "辅助动力装置（auxiliary power unit，APU）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "退化状态识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "退化状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "动力部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "能量转换部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "负载部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "多失效模式之间的耦合性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "时变工况影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "健康状态估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "模型驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "融合型方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "失效物理模型驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "机理模型驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "随机斜率/截距模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "反映论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "幂律模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "统计数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "支持/相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "高斯过程回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "长短时记忆网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "卷积神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "退化量分布法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "统计滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "随机过程法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "随机系数回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "协变量风险模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "集成学习法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "加权平均法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "可解释性强",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "不依赖于物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特性",
+      "text": "优势互补",
+      "evaluation": "正确"
+    },
+    {
+      "type": "局限性",
+      "text": "样本量要求高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "局限性",
+      "text": "可解释性差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "性能退化特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "健康状态表征方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "直接选取法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于人工神经网络法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "时变工况影响研究方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "工况参数修正法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "工况参数输入法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "工况-模型关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "多失效模式耦合影响研究方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "协变量风险模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "失效模式-模型关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多失效模式综合等效法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "难以直接在线表征健康状态问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "在线估计模型存在失配问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "间接监测数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据",
+      "text": "直接监测数据",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "健康因子",
+      "evaluation": "正确"
+    },
+    {
+      "type": "步骤",
+      "text": "健康因子构建",
+      "evaluation": "正确"
+    },
+    {
+      "type": "步骤",
+      "text": "健康状态在线估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "步骤",
+      "text": "性能退化特征融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "直接定义法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "信号处理法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "机理模型分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多元线性回归（multiple linear regression，MLR）法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "主成分分析（principal component analysis，PCA）法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于距离度量的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于人工神经网络的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于深度学习的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "自适应健康状态在线估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "融合健康状态在线估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "步骤",
+      "text": "模型构建",
+      "evaluation": "正确"
+    },
+    {
+      "type": "步骤",
+      "text": "模型更新",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "重新建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "局部建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "滑动时间窗方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "递归滤波器方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多元随机过程法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "多元统计分布法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "Copula函数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "健康因子构建模型失真问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "估计模型与健康因子难以匹配问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "飞机机电系统部件PHM设计不充分",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "状态监测数据质量较低",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "硬件平台计算能力限制",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "实验迭代不足",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "半实物仿真平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张玉杰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "彭宇",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘大同",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "四川大学电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "哈尔滨工业大学电子与信息工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-06-24 11:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "支撑",
+      "head": "飞机机电系统部件健康状态在线估计",
+      "tail": "视情维修",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "异常状态的检测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "健康状态的估计",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "故障的诊断",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测与健康管理",
+      "tail": "剩余寿命的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机机电系统",
+      "tail": "燃油子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机机电系统",
+      "tail": "液压子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机机电系统",
+      "tail": "起落架子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "飞机机电系统",
+      "tail": "辅助动力子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "机电作动器（electro- mechanical actuator，EMA）",
+      "tail": "起落架子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "隶属于",
+      "head": "辅助动力装置（auxiliary power unit，APU）",
+      "tail": "辅助动力子系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "也被称为",
+      "head": "健康状态估计",
+      "tail": "健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "也被称为",
+      "head": "健康状态估计",
+      "tail": "退化状态识别",
+      "evaluation": "正确"
+    },
+    {
+      "type": "也被称为",
+      "head": "健康状态估计",
+      "tail": "退化状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机机电系统部件",
+      "tail": "动力部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机机电系统部件",
+      "tail": "能量转换部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "飞机机电系统部件",
+      "tail": "负载部件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "飞机机电系统部件",
+      "tail": "多失效模式之间的耦合性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "飞机机电系统部件",
+      "tail": "时变工况影响",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "健康状态估计方法",
+      "tail": "模型驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "健康状态估计方法",
+      "tail": "数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "健康状态估计方法",
+      "tail": "融合型方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "模型驱动方法",
+      "tail": "失效物理模型驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "模型驱动方法",
+      "tail": "机理模型驱动的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "失效物理模型驱动的方法",
+      "tail": "随机斜率/截距模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "失效物理模型驱动的方法",
+      "tail": "Paris模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "失效物理模型驱动的方法",
+      "tail": "反映论模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "失效物理模型驱动的方法",
+      "tail": "幂律模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "细分为",
+      "head": "数据驱动方法",
+      "tail": "机器学习方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "细分为",
+      "head": "数据驱动方法",
+      "tail": "统计数据驱动方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机器学习方法",
+      "tail": "支持/相关向量机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机器学习方法",
+      "tail": "高斯过程回归",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机器学习方法",
+      "tail": "人工神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "机器学习方法",
+      "tail": "深度学习",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "深度学习",
+      "tail": "长短时记忆网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "深度学习",
+      "tail": "卷积神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "退化量分布法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "统计滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "随机过程法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "随机系数回归模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "马尔科夫模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "统计数据驱动方法",
+      "tail": "协变量风险模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合型方法",
+      "tail": "集成学习法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合型方法",
+      "tail": "统计滤波法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合型方法",
+      "tail": "加权平均法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优势是",
+      "head": "模型驱动方法",
+      "tail": "可解释性强",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优势是",
+      "head": "数据驱动方法",
+      "tail": "不依赖于物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "优势是",
+      "head": "融合型方法",
+      "tail": "优势互补",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不足是",
+      "head": "机器学习方法",
+      "tail": "样本量要求高",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不足是",
+      "head": "机器学习方法",
+      "tail": "可解释性差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康状态表征方法",
+      "tail": "直接选取法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "健康状态表征方法",
+      "tail": "基于人工神经网络法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "时变工况影响研究方法",
+      "tail": "工况参数修正法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "时变工况影响研究方法",
+      "tail": "工况参数输入法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "时变工况影响研究方法",
+      "tail": "工况-模型关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多失效模式耦合影响研究方法",
+      "tail": "协变量风险模型法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多失效模式耦合影响研究方法",
+      "tail": "失效模式-模型关联法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "多失效模式耦合影响研究方法",
+      "tail": "多失效模式综合等效法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "数据驱动方法",
+      "tail": "难以直接在线表征健康状态问题",
+      "evaluation": "错误"
+    },
+    {
+      "type": "存在问题",
+      "head": "数据驱动方法",
+      "tail": "在线估计模型存在失配问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要步骤是",
+      "head": "数据驱动的在线估计方法",
+      "tail": "健康因子构建",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要步骤是",
+      "head": "数据驱动的在线估计方法",
+      "tail": "健康状态在线估计",
+      "evaluation": "错误"
+    },
+    {
+      "type": "分为",
+      "head": "健康因子构建",
+      "tail": "性能退化特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "健康因子构建",
+      "tail": "性能退化特征融合",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征提取",
+      "tail": "直接定义法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征提取",
+      "tail": "信号处理法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征提取",
+      "tail": "机理模型分析法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征融合",
+      "tail": "多元线性回归（multiple linear regression，MLR）法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征融合",
+      "tail": "主成分分析（principal component analysis，PCA）法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征融合",
+      "tail": "基于距离度量的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征融合",
+      "tail": "基于人工神经网络的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "性能退化特征融合",
+      "tail": "基于深度学习的方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "自适应健康状态在线估计",
+      "tail": "模型构建",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "自适应健康状态在线估计",
+      "tail": "模型更新",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "模型更新",
+      "tail": "重新建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "模型更新",
+      "tail": "局部建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "模型更新",
+      "tail": "滑动时间窗方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分为",
+      "head": "模型更新",
+      "tail": "递归滤波器方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合健康状态在线估计",
+      "tail": "多元随机过程法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合健康状态在线估计",
+      "tail": "多元统计分布法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "融合健康状态在线估计",
+      "tail": "Copula函数法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在挑战",
+      "head": "飞机机电系统部件健康状态在线估计",
+      "tail": "健康因子构建模型失真问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在挑战",
+      "head": "飞机机电系统部件健康状态在线估计",
+      "tail": "估计模型与健康因子难以匹配问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "解决",
+      "head": "半实物仿真平台",
+      "tail": "状态监测数据质量较低",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "张玉杰",
+      "tail": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "彭宇",
+      "tail": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘大同",
+      "tail": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "张玉杰",
+      "tail": "四川大学电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机机电系统部件数据驱动健康状态在线估计方法综述",
+      "tail": "2022-06-24 11:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

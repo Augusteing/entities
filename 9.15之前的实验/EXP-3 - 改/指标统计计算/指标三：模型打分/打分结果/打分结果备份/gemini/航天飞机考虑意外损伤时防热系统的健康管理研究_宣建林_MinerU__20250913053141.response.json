@@ -1,0 +1,379 @@
+{
+  "entities": [
+    {
+      "type": "研究方法",
+      "text": "航天飞机防热系统健康管理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "防热系统健康管理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "防热系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "意外损伤",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "关键性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "状态",
+      "text": "系统状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "ANSYS软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "防热瓦",
+      "evaluation": "正确"
+    },
+    {
+      "type": "过程",
+      "text": "再入过程",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "温度分布情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备/传感器",
+      "text": "传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康监控",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "重大事故",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "电子设备监测措施",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "摄象技术监控方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "信息的不完全性和不确定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "高准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "高可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "传感器系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "数据采集和处理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "地面监控中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "功能",
+      "text": "诊断功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "安全性评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "鼻锥",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "机翼前缘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备/传感器",
+      "text": "光纤光栅高温传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设备/传感器",
+      "text": "微型悬臂梁传感器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型/方程",
+      "text": "防热瓦一维连续热辐射与导热复合传热能量守恒控制方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "有限元模拟分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "有限元仿真计算",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "有限控制体积法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "损伤程度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "风险",
+      "text": "烧蚀威胁",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "本文仿真得到的曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "文献[12]通过试验得到的曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "文献[8]给出的曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "防热瓦的损伤情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "防热瓦整体的温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算例",
+      "text": "算例",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出",
+      "head": "文中",
+      "tail": "航天飞机防热系统健康管理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过监测",
+      "head": "航天飞机防热系统健康管理方法",
+      "tail": "关键性能指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是",
+      "head": "关键性能指标",
+      "tail": "温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于分析评估",
+      "head": "航天飞机防热系统健康管理方法",
+      "tail": "系统状态",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...模拟",
+      "head": "文中",
+      "tail": "ANSYS软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于模拟",
+      "head": "ANSYS软件",
+      "tail": "防热瓦在再入过程中的温度分布情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论证了...可行性",
+      "head": "算例",
+      "tail": "航天飞机防热系统健康管理方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "导致",
+      "head": "防热系统的意外损伤",
+      "tail": "重大事故",
+      "evaluation": "正确"
+    },
+    {
+      "type": "存在问题",
+      "head": "摄象技术监控方法",
+      "tail": "信息的不完全性和不确定性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "难以达到",
+      "head": "摄象技术监控方法",
+      "tail": "实时性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "难以达到",
+      "head": "摄象技术监控方法",
+      "tail": "高准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "难以达到",
+      "head": "摄象技术监控方法",
+      "tail": "高可靠性",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "防热系统的健康管理",
+      "tail": "健康监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "传感器系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "数据采集和处理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "地面监控中心",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "防热系统的健康管理",
+      "tail": "诊断功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是需重点监测的部位",
+      "head": "鼻锥",
+      "tail": "防热系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是需重点监测的部位",
+      "head": "机翼前缘",
+      "tail": "防热系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可用于",
+      "head": "光纤光栅高温传感器",
+      "tail": "防热系统温度监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可用于",
+      "head": "微型悬臂梁传感器",
+      "tail": "防热系统温度监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行热传导分析",
+      "head": "地面专家",
+      "tail": "防热瓦一维连续热辐射与导热复合传热能量守恒控制方程组",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "有限元模拟分析",
+      "tail": "ANSYS软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "与...吻合",
+      "head": "本文仿真得到的曲线",
+      "tail": "文献[12]通过试验得到的曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "与...吻合",
+      "head": "本文仿真得到的曲线",
+      "tail": "文献[8]给出的曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "能反映",
+      "head": "防热瓦温度",
+      "tail": "防热瓦的损伤情况",
+      "evaluation": "正确"
+    },
+    {
+      "type": "影响",
+      "head": "损伤程度",
+      "tail": "防热瓦整体的温度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "增大",
+      "head": "损伤",
+      "tail": "烧蚀威胁",
+      "evaluation": "正确"
+    }
+  ]
+}

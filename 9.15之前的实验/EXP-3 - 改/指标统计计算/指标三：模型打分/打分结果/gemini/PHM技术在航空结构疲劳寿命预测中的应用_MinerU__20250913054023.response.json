@@ -1,0 +1,382 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "PHM技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "航空结构疲劳寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "飞机机体结构疲劳失效",
+      "evaluation": "正确"
+    },
+    {
+      "type": "部件",
+      "text": "紧固件孔",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "失效物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "连接件疲劳寿命的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系数",
+      "text": "应力严重系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系数",
+      "text": "疲劳缺口系数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "应变-寿命曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "局部应力应变法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "高、低周疲劳寿命的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "误差小于17%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验",
+      "text": "疲劳试验",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验结果",
+      "text": "疲劳试验结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机结构PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于失效物理模型的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于统计的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "修正局部应力应变法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "修正Neuber法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "公式",
+      "text": "Manson-Coffin公式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "b值修正",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验对象",
+      "text": "中心圆孔板件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验对象",
+      "text": "连接件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "实验设备",
+      "text": "MTS Landmark试验机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "疲劳寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "Newton-Raphson迭代方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "有限元法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究问题",
+      "text": "复杂机体结构",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用",
+      "text": "维修和保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋博",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "祝青钰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "曾照洋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空综合技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2017-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "可用于",
+      "head": "PHM技术",
+      "tail": "航空结构疲劳寿命预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "降低",
+      "head": "PHM技术",
+      "tail": "使用和保障费用",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "本文",
+      "tail": "连接件疲劳寿命的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "失效物理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "求解应力严重系数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "求解疲劳缺口系数",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "修正局部应力应变法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "修正了",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "应变-寿命曲线的弹性段",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使...适用于",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "高、低周疲劳寿命的预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "与...相比误差小于17%",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "疲劳试验结果",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的核心技术",
+      "head": "故障预测技术",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测技术",
+      "tail": "基于失效物理模型的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测技术",
+      "tail": "基于统计的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障预测技术",
+      "tail": "基于数据驱动的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "适用于",
+      "head": "局部应力应变法",
+      "tail": "低周疲劳",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过...修正",
+      "head": "局部应力应变法",
+      "tail": "b值修正",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用",
+      "head": "局部应力应变法",
+      "tail": "修正Neuber法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "描述",
+      "head": "Manson-Coffin公式",
+      "tail": "应变-寿命曲线",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...求解",
+      "head": "Newton-Raphson迭代方法",
+      "tail": "疲劳寿命",
+      "evaluation": "正确"
+    },
+    {
+      "type": "验证了",
+      "head": "疲劳试验",
+      "tail": "连接件疲劳寿命的预测方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "在...上进行",
+      "head": "疲劳试验",
+      "tail": "MTS Landmark试验机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "不适用于",
+      "head": "局部应力应变法",
+      "tail": "复杂的连接件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可用于求解",
+      "head": "有限元法",
+      "tail": "复杂机体结构",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可集成在",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "飞机结构PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "为...提供决策支持",
+      "head": "连接件疲劳寿命的预测方法",
+      "tail": "维修和保障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "宋博",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "祝青钰",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "曾照洋",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "宋博",
+      "tail": "中国航空综合技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "tail": "2017-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

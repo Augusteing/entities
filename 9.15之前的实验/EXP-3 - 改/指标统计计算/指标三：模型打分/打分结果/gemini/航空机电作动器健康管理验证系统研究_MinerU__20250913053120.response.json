@@ -1,0 +1,857 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "航空机电作动器健康管理验证系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "健康管理智能算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "生理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空机电作动器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "齿轮减速器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "数学建模方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "故障注入方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件平台",
+      "text": "验证系统硬件平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件环境",
+      "text": "基于组件模式的通用软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理系统（PHM）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM验证系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "先进诊断与预测测试平台（ADAPT）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "基于网页的PHM验证与确认平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "航空电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "项目",
+      "text": "F-35项目",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "航空机电作动器健康管理（AEMA-PHM）系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "电子故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "电气故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "轴承故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "齿轮故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "螺纹故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "滚珠丝杠的故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "漏电阻故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "绕组匝间故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "轴承抱死故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "霍尔信号检测故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "齿轮摩擦力大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "平台",
+      "text": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件环境",
+      "text": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "全数字仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据源",
+      "text": "半实物仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "Simulink模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "智能推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "诊断预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "决策支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "编程语言",
+      "text": "Lua脚本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "编程语言",
+      "text": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "AEMA仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "PID控制模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "电机堵转故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "绕组匝间短路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "齿轮减速器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "控制器故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件平台",
+      "text": "PXI测控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "硬件",
+      "text": "FPGA数据采集卡PXI一7854",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "组件模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "C#.NET的反射功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "工具",
+      "text": "Matlab",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "健康管理算法验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "评估指标",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "隔离率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "漏检率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "故障预测门限",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "间歇故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "漂移故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "持续故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "递归最小二乘（RLS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波（PF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "剩余使用寿命（RUL）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "RUL值为42.8min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "理论值42min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "CPU占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "内存占用率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均CPU占用率34.3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "平均内存占用率42.3%",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "稳定性评估指标值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "稳定性评估指标值为0.18",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "于劲松",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘浩",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "廖灿星",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李芳亮",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "先进航空发动机协同创新中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95927部队14分队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "解放军95478部队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "设计用于",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "健康管理智能算法与生理模型性能的验证与评估",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "电机、控制器、齿轮减速器的数学建模方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "主要失效模式的故障注入方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "验证系统硬件平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "基于组件模式的通用软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "设计了",
+      "head": "本文",
+      "tail": "验证与评估模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "以...为研究对象",
+      "head": "先进诊断与预测测试平台（ADAPT）",
+      "tail": "航空电源系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "结合",
+      "head": "基于网页的PHM验证与确认平台",
+      "tail": "F-35项目的实际需求",
+      "evaluation": "错误"
+    },
+    {
+      "type": "涵盖",
+      "head": "航空机电作动器",
+      "tail": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "航空机电作动器",
+      "tail": "电子故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "涵盖",
+      "head": "航空机电作动器",
+      "tail": "电气故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "最主要故障类型为",
+      "head": "航空机电作动器",
+      "tail": "机械故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "漏电阻故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "绕组匝间故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "电机",
+      "tail": "轴承抱死故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "控制器",
+      "tail": "霍尔信号检测故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "齿轮减速器",
+      "tail": "齿轮断齿故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "主要失效模式包括",
+      "head": "齿轮减速器",
+      "tail": "齿轮摩擦力大",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "故障注入平台",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "PHM系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...构成",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "软件运行环境",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障注入平台",
+      "tail": "全数字仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "故障注入平台",
+      "tail": "半实物仿真数据源",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "PHM系统",
+      "tail": "信号处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "PHM系统",
+      "tail": "智能推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "PHM系统",
+      "tail": "诊断预测算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "PHM系统",
+      "tail": "决策支持模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...开发",
+      "head": "软件运行环境",
+      "tail": "Lua脚本",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...开发",
+      "head": "软件运行环境",
+      "tail": "C#语言",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模拟",
+      "head": "PID控制模块",
+      "tail": "齿轮减速器故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包括",
+      "head": "验证系统硬件平台",
+      "tail": "PXI测控系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "PXI测控系统",
+      "tail": "FPGA数据采集卡PXI一7854",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于...提出",
+      "head": "本文",
+      "tail": "组件模式",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "基于组件模式的通用软件运行环境",
+      "tail": "C#.NET的反射功能",
+      "evaluation": "正确"
+    },
+    {
+      "type": "集成",
+      "head": "基于组件模式的通用软件运行环境",
+      "tail": "Matlab",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "检测率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "隔离率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "准确度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "精度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "均方误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "平均绝对百分比误差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "漏检率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "虚警率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包括",
+      "head": "评估指标",
+      "tail": "故障预测门限",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...处理",
+      "head": "本文",
+      "tail": "递归最小二乘（RLS）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...处理",
+      "head": "本文",
+      "tail": "粒子滤波（PF）",
+      "evaluation": "正确"
+    },
+    {
+      "type": "对...进行诊断及故障预测",
+      "head": "本文",
+      "tail": "绕组匝间短路故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "递归最小二乘（RLS）",
+      "tail": "平均CPU占用率34.3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "递归最小二乘（RLS）",
+      "tail": "平均内存占用率42.3%",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得出",
+      "head": "递归最小二乘（RLS）",
+      "tail": "稳定性评估指标值为0.18",
+      "evaluation": "错误"
+    },
+    {
+      "type": "预测出",
+      "head": "粒子滤波（PF）",
+      "tail": "RUL值为42.8min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "较为符合",
+      "head": "RUL值为42.8min",
+      "tail": "理论值42min",
+      "evaluation": "正确"
+    },
+    {
+      "type": "具备",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "加载各种PHM算法的能力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "具备",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "AEMA建模仿真与故障注入能力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "具备",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "PHM算法性能验证与评估能力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "具备",
+      "head": "航空机电作动器健康管理验证系统",
+      "tail": "结果的实时显示能力",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "于劲松",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘浩",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张平",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "廖灿星",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李芳亮",
+      "tail": "航空机电作动器健康管理验证系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "于劲松",
+      "tail": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空机电作动器健康管理验证系统研究",
+      "tail": "2014-06-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}

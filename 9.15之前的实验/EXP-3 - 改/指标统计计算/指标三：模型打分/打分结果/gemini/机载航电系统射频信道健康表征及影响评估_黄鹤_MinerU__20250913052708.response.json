@@ -1,0 +1,604 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "机载航电系统射频信道",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "健康表征",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究方法",
+      "text": "影响评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "失效模式影响及危害性分析(FMECA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "故障树分析(FTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "历史案例方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "健康表征参数选取原则和方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "隐马尔可夫模型(HMM)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "理论",
+      "text": "贝叶斯",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于HMM的健康表征方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "基于贝叶斯网络的健康评估方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用领域",
+      "text": "先进战斗机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "自主保障维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "应用案例",
+      "text": "美军先进联合攻击战斗机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "表征参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "灵敏表征参量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障模式",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障机理",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "射频模拟电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "数字电路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "KL(Kullback-Leibler)距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "似然概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "阈值",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "参数特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "健康指数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "状态监测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "线性辨别分析(LDA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "观测序列",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "故障建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "具体故障节点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "故障征兆节点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "概念",
+      "text": "因果关系",
+      "evaluation": "正确"
+    },
+    {
+      "type": "性能指标",
+      "text": "条件概率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "数据集",
+      "text": "故障征兆样本集",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "天线接口单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "开关矩阵模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "变频模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "预处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "电源模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "贝叶斯网络诊断模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "结构学习算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "数据挖掘",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "最大后验估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究结果",
+      "text": "射频信道健康表征的优先参量",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "电流",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "功放模块发射功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "功放模块驻波比",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "开关通道隔离度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "本振信号频率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "JTAG参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "接收增益",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "灵敏度",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "发射功率",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表征参数",
+      "text": "驻波",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "健康状态评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "任务",
+      "text": "性能趋势预测",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "系统重构方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄鹤",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈文豪",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张弋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国西南电子技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "提出了",
+      "head": "本文",
+      "tail": "健康表征参数选取原则和方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征参数选取原则和方法",
+      "tail": "失效模式影响及危害性分析(FMECA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征参数选取原则和方法",
+      "tail": "故障树分析(FTA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "基于",
+      "head": "健康表征参数选取原则和方法",
+      "tail": "历史案例方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "探讨了",
+      "head": "本文",
+      "tail": "基于HMM的健康表征方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "探讨了",
+      "head": "本文",
+      "tail": "基于贝叶斯网络的健康评估方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的基础",
+      "head": "健康管理技术",
+      "tail": "自主保障维护",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得到验证和应用",
+      "head": "健康管理技术",
+      "tail": "美军先进联合攻击战斗机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "可与...相结合",
+      "head": "故障树分析(FTA)",
+      "tail": "失效模式影响及危害性分析(FMECA)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于实现",
+      "head": "隐马尔可夫模型(HMM)",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "通过...计算",
+      "head": "基于HMM的健康表征方法",
+      "tail": "KL(Kullback-Leibler)距离",
+      "evaluation": "正确"
+    },
+    {
+      "type": "反映",
+      "head": "KL(Kullback-Leibler)距离",
+      "tail": "系统偏离正常态的程度",
+      "evaluation": "错误"
+    },
+    {
+      "type": "使用",
+      "head": "参数监测与健康评估过程",
+      "tail": "线性辨别分析(LDA)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "用于",
+      "head": "贝叶斯网络",
+      "tail": "故障建模",
+      "evaluation": "正确"
+    },
+    {
+      "type": "用于",
+      "head": "贝叶斯网络",
+      "tail": "健康评估",
+      "evaluation": "正确"
+    },
+    {
+      "type": "属于",
+      "head": "贝叶斯网络的结构学习过程",
+      "tail": "故障建模",
+      "evaluation": "错误"
+    },
+    {
+      "type": "包含",
+      "head": "贝叶斯网络",
+      "tail": "具体故障节点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "包含",
+      "head": "贝叶斯网络",
+      "tail": "故障征兆节点",
+      "evaluation": "正确"
+    },
+    {
+      "type": "表示",
+      "head": "有向连接弧",
+      "tail": "因果关系",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "射频信道",
+      "tail": "电源模块",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "射频信道",
+      "tail": "天线接口单元",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "射频信道",
+      "tail": "开关矩阵模块",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "射频信道",
+      "tail": "变频模块",
+      "evaluation": "错误"
+    },
+    {
+      "type": "由...组成",
+      "head": "射频信道",
+      "tail": "预处理模块",
+      "evaluation": "错误"
+    },
+    {
+      "type": "结合",
+      "head": "结构学习算法",
+      "tail": "专家经验",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "贝叶斯网络",
+      "tail": "最大后验估计方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "采用",
+      "head": "射频信道故障模式确定方法",
+      "tail": "失效模式影响及危害性分析(FMECA)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "采用",
+      "head": "射频信道故障模式确定方法",
+      "tail": "历史案例方法",
+      "evaluation": "错误"
+    },
+    {
+      "type": "辅助结合",
+      "head": "射频信道故障模式确定方法",
+      "tail": "故障树分析(FTA)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "得到",
+      "head": "本文研究",
+      "tail": "射频信道健康表征的优先参量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "电流",
+      "tail": "电源模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "功放模块发射功率",
+      "tail": "天线接口单元",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "开关通道隔离度",
+      "tail": "开关矩阵模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "本振信号频率",
+      "tail": "变频模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "JTAG参数",
+      "tail": "预处理模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的可用表征参数",
+      "head": "接收增益",
+      "tail": "射频信道",
+      "evaluation": "错误"
+    },
+    {
+      "type": "为...奠定基础",
+      "head": "本文研究",
+      "tail": "性能趋势预测",
+      "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "黄鹤",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈文豪",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张弋",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "黄鹤",
+      "tail": "中国西南电子技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "机载航电系统射频信道健康表征及影响评估",
+      "tail": "2013-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    }
+  ]
+}
