@@ -174,6 +174,42 @@
       "type": "数据集",
       "text": "实际飞机性能参数",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机性能参数预测的不确定性处理",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "许喆平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "郎荣玲",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "邓小乐",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学电子信息工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-12-14 16:50",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -302,6 +338,41 @@
       "head": "排气温度裕度(EGTM)",
       "tail": "发动机检测、维修和换发",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "许喆平",
+      "tail": "飞机性能参数预测的不确定性处理",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "郎荣玲",
+      "tail": "飞机性能参数预测的不确定性处理",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "邓小乐",
+      "tail": "飞机性能参数预测的不确定性处理",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "许喆平",
+      "tail": "北京航空航天大学电子信息工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机性能参数预测的不确定性处理",
+      "tail": "2011-12-14 16:50",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

@@ -209,6 +209,54 @@
       "type": "方法",
       "text": "相似性度量",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "许先鑫",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李娟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孙秀慧",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "戴洪德",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "鲁东大学数学与统计科学学院统计系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空大学航空基础学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-11-23 13:16",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -373,6 +421,48 @@
       "head": "以往相似性模型",
       "tail": "非线性相关关系",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "许先鑫",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李娟",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "孙秀慧",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "戴洪德",
+      "tail": "基于Copula相似性的航空发动机RUL预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "许先鑫",
+      "tail": "鲁东大学数学与统计科学学院统计系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于Copula相似性的航空发动机RUL预测",
+      "tail": "2022-11-23 13:16",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

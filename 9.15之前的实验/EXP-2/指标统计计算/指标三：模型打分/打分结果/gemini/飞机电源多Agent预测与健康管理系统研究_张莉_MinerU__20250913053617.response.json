@@ -334,6 +334,42 @@
       "type": "图表",
       "text": "AUML协议图",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张莉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "袁海文",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "陕西师范大学计算机科学学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学自动化科学与电气工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2010-07-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -672,6 +708,34 @@
       "head": "管理Agent",
       "tail": "维修与后勤保障Agent",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "张莉",
+      "tail": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "袁海文",
+      "tail": "飞机电源多Agent预测与健康管理系统研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "张莉",
+      "tail": "陕西师范大学计算机科学学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机电源多Agent预测与健康管理系统研究",
+      "tail": "2010-07-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

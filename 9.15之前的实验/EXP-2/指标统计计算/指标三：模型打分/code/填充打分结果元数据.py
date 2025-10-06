@@ -25,10 +25,32 @@ import argparse, json, re, csv
 from pathlib import Path
 from typing import List, Dict, Tuple, Any
 
-ROOT = Path(r"e:\知识图谱构建\9.15之前的实验\EXP-1")
-SCORED_BASE = ROOT / '指标统计计算' / '指标三：模型打分' / '打分结果'
-OUT_STAT_DIR = ROOT / '指标统计计算' / '指标三：模型打分' / '统计结果'
-OUT_STAT_DIR.mkdir(parents=True, exist_ok=True)
+"""
+通用化改造说明 (不改变填充/去重/注入逻辑):
+1. 去除硬编码 ROOT=EXP-1, 新增 auto_detect_root(): 自下而上寻找包含
+   '指标统计计算/指标三：模型打分/打分结果' 目录的根。
+2. 新增 CLI 参数:
+   --root <path>            手动指定实验根 (包含 指标统计计算)
+   --score-base <path>      直接指定打分结果根 (覆盖 root 下默认路径)
+   --out-stat-dir <path>    指定统计输出目录 (默认 root/指标统计计算/指标三：模型打分/统计结果)
+   --debug                  输出调试信息
+3. 其它填充逻辑 (evaluation='正确'、幂等、source 字段) 原样保留。
+4. 兼容旧调用: 不加 --root 时自动探测; 不加 --score-base 时按标准结构。
+"""
+
+def auto_detect_root(start: Path) -> Path:
+    for p in [start, *start.parents]:
+        if (p / '指标统计计算' / '指标三：模型打分' / '打分结果').is_dir():
+            return p
+    # fallback: 返回脚本上三级 (尽量模拟旧结构)
+    try:
+        return start.parents[3]
+    except Exception:
+        return start
+
+# 延迟初始化这两个路径 (在 main 中赋值)
+SCORED_BASE: Path | None = None
+OUT_STAT_DIR: Path | None = None
 
 # ---------------- Metadata parse (复用抽取脚本逻辑) ----------------
 RE_TITLE = re.compile(r"(?m)^Title-题名:\s*(.+)")
@@ -188,7 +210,22 @@ def main():
     ap.add_argument('--no-source', action='store_true', help='不写入 source=metadata_rule')
     ap.add_argument('--write-csv', action='store_true', help='输出汇总 CSV')
     ap.add_argument('--limit', type=int, default=0, help='每模型最大处理文件数 (0=全部)')
+    ap.add_argument('--root', type=Path, help='实验根目录 (包含 指标统计计算)')
+    ap.add_argument('--score-base', type=Path, help='直接指定打分结果根目录 (包含各模型子目录)')
+    ap.add_argument('--out-stat-dir', type=Path, help='统计输出目录 (默认 root/指标统计计算/指标三：模型打分/统计结果)')
+    ap.add_argument('--debug', action='store_true', help='输出调试信息')
     args = ap.parse_args()
+
+    script_dir = Path(__file__).resolve().parent
+    root_dir = args.root if args.root else auto_detect_root(script_dir)
+    score_base = args.score_base if args.score_base else (root_dir / '指标统计计算' / '指标三：模型打分' / '打分结果')
+    out_stat_dir = args.out_stat_dir if args.out_stat_dir else (root_dir / '指标统计计算' / '指标三：模型打分' / '统计结果')
+    out_stat_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.debug:
+        print(f'[调试] root_dir     = {root_dir}')
+        print(f'[调试] score_base   = {score_base}')
+        print(f'[调试] out_stat_dir = {out_stat_dir}')
 
     meta_file = Path(args.metadata_file)
     records = parse_metadata_file(meta_file)
@@ -198,7 +235,7 @@ def main():
     summary: List[List[Any]] = []
 
     for model in models:
-        mdir = SCORED_BASE / model
+        mdir = score_base / model
         if not mdir.exists():
             print(f"[WARN] 模型目录不存在: {mdir}")
             continue
@@ -214,7 +251,7 @@ def main():
                 continue
             matched_files += 1
             if args.dry_run:
-                # 预估：执行一次 inject_one 但不写
+                # 预估：执行一次 inject_one 但不写 (复制原逻辑, 未改动填充方式)
                 try:
                     raw = json.loads(f.read_text(encoding='utf-8'))
                 except Exception:
@@ -227,9 +264,8 @@ def main():
                     rels = raw[0].get('relations') or []
                 else:
                     continue
-                # 粗略 dedup 判断
-                existing_e_keys = {( (e.get('text','').strip().lower(), e.get('type','')) ) for e in ents}
-                existing_r_keys = {( (str(r.get('head','')).strip().lower(), str(r.get('tail','')).strip().lower(), r.get('type','')) ) for r in rels}
+                existing_e_keys = { (e.get('text','').strip().lower(), e.get('type','')) for e in ents }
+                existing_r_keys = { (str(r.get('head','')).strip().lower(), str(r.get('tail','')).strip().lower(), r.get('type','')) for r in rels }
                 title = meta.get('title','')
                 authors = meta.get('authors', [])
                 orgs = meta.get('orgs', [])
@@ -240,7 +276,6 @@ def main():
                 for o in orgs: cand_e.append((str(o).strip().lower(),'发表单位'))
                 if pub: cand_e.append((str(pub).strip().lower(),'发表时间'))
                 new_e_count = sum(1 for k in cand_e if k not in existing_e_keys)
-                # relations
                 cand_r = []
                 for a in authors:
                     if a and title: cand_r.append((a.strip().lower(), title.strip().lower(), '撰写'))
@@ -259,7 +294,7 @@ def main():
         mode = 'DRY-RUN' if args.dry_run else 'WRITE'
         print(f"[SUMMARY][{model}][{mode}] files={len(files)} matched={matched_files} addE={added_e_total} addR={added_r_total}")
     if args.write_csv and summary:
-        out_csv = OUT_STAT_DIR / '打分结果_元数据填充汇总.csv'
+        out_csv = out_stat_dir / '打分结果_元数据填充汇总.csv'
         with out_csv.open('w', newline='', encoding='utf-8-sig') as fw:
             w = csv.writer(fw)
             w.writerow(['模型','文件总数','匹配到元数据文件数','新增实体数','新增关系数'])

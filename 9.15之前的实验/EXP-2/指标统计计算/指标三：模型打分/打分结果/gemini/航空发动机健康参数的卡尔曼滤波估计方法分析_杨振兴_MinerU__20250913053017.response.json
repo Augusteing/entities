@@ -244,6 +244,42 @@
       "type": "性能指标数值",
       "text": "16",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机健康参数的卡尔曼滤波估计方法分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "杨振兴",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄金泉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "鲁峰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学能源与动力学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2012-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -432,6 +468,41 @@
       "head": "常增益扩展卡尔曼滤波(CGEKF)",
       "tail": "较好的估计结果",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "杨振兴",
+      "tail": "航空发动机健康参数的卡尔曼滤波估计方法分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "黄金泉",
+      "tail": "航空发动机健康参数的卡尔曼滤波估计方法分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "鲁峰",
+      "tail": "航空发动机健康参数的卡尔曼滤波估计方法分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "杨振兴",
+      "tail": "南京航空航天大学能源与动力学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机健康参数的卡尔曼滤波估计方法分析",
+      "tail": "2012-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

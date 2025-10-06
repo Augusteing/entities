@@ -304,6 +304,42 @@
       "type": "方法",
       "text": "系统重构方法",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄鹤",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈文豪",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张弋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国西南电子技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -528,6 +564,41 @@
       "head": "本文研究",
       "tail": "性能趋势预测",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "黄鹤",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈文豪",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张弋",
+      "tail": "机载航电系统射频信道健康表征及影响评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "黄鹤",
+      "tail": "中国西南电子技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "机载航电系统射频信道健康表征及影响评估",
+      "tail": "2013-05-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

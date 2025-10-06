@@ -259,6 +259,42 @@
       "type": "系统",
       "text": "健康管理系统",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞行试验数据驱动的涡扇发动机模型辨识",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "潘鹏飞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马明明",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "许艳芝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -405,6 +441,41 @@
       "head": "涡扇发动机试飞数据模型辨识方法",
       "tail": "健康管理系统",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "潘鹏飞",
+      "tail": "飞行试验数据驱动的涡扇发动机模型辨识",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马明明",
+      "tail": "飞行试验数据驱动的涡扇发动机模型辨识",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "许艳芝",
+      "tail": "飞行试验数据驱动的涡扇发动机模型辨识",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "潘鹏飞",
+      "tail": "中国飞行试验研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞行试验数据驱动的涡扇发动机模型辨识",
+      "tail": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

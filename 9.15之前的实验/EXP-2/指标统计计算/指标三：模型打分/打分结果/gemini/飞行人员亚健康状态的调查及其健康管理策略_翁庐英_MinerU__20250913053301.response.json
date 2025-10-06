@@ -184,6 +184,54 @@
       "type": "性能指标",
       "text": "基本认知功能",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞行人员亚健康状态的调查及其健康管理策略",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "翁庐英",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "朱超",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "赵璧",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "空军杭州航空医学鉴定训练中心质量管理办公室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "空军杭州航空医学鉴定训练中心医训处",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京军区福州总医院护理部",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-11-10",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -330,6 +378,41 @@
       "head": "亚健康状态量表",
       "tail": "社会亚健康",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "翁庐英",
+      "tail": "飞行人员亚健康状态的调查及其健康管理策略",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "朱超",
+      "tail": "飞行人员亚健康状态的调查及其健康管理策略",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "赵璧",
+      "tail": "飞行人员亚健康状态的调查及其健康管理策略",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "翁庐英",
+      "tail": "空军杭州航空医学鉴定训练中心质量管理办公室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞行人员亚健康状态的调查及其健康管理策略",
+      "tail": "2013-11-10",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

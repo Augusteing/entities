@@ -344,6 +344,72 @@
       "type": "框架",
       "text": "“感知- 分析- 决策- 验证”的敏捷高效闭环",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "詹轲倚",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄维娜",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "淳道勇",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "桂咏涛",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张椿林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航发贵阳发动机设计研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "贵州省转子结构完整性重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "清华大学航空发动机研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海装广州局驻贵阳地区军事代表室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2025-04-29 14:01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -574,6 +640,55 @@
       "head": "全流程数据双向贯通",
       "tail": "“感知- 分析- 决策- 验证”的敏捷高效闭环",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "詹轲倚",
+      "tail": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "黄维娜",
+      "tail": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "淳道勇",
+      "tail": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "桂咏涛",
+      "tail": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张椿林",
+      "tail": "航空发动机健康管理系统功能架构分析与研究",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "詹轲倚",
+      "tail": "中国航发贵阳发动机设计研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机健康管理系统功能架构分析与研究",
+      "tail": "2025-04-29 14:01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

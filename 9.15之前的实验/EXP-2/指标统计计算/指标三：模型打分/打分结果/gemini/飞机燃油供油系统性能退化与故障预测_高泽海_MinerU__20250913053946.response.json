@@ -214,6 +214,42 @@
       "type": "研究结果",
       "text": "健康状态曲线",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "高泽海",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋东",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -414,6 +450,41 @@
       "head": "本文研究",
       "tail": "飞机燃油系统的健康管理",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "高泽海",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "宋东",
+      "tail": "飞机燃油供油系统性能退化与故障预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "高泽海",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机燃油供油系统性能退化与故障预测",
+      "tail": "2015-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

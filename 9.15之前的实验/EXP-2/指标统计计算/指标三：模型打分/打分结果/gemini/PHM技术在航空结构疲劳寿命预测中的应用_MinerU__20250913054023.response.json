@@ -154,6 +154,42 @@
       "type": "应用",
       "text": "维修和保障",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "宋博",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "祝青钰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "曾照洋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空综合技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2017-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -306,6 +342,41 @@
       "head": "连接件疲劳寿命的预测方法",
       "tail": "维修和保障",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "宋博",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "祝青钰",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "曾照洋",
+      "tail": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "宋博",
+      "tail": "中国航空综合技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "PHM技术在航空结构疲劳寿命预测中的应用",
+      "tail": "2017-04-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

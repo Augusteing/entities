@@ -179,6 +179,36 @@
       "type": "研究目标",
       "text": "模型参数的自适应选择",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "范庚",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马登武",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空工程学院兵器科学与技术系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-07-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -361,6 +391,34 @@
       "head": "基于EMD和RVM一AR的预测方法",
       "tail": "某型航空发动机的16份油液光谱分析数据",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "范庚",
+      "tail": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马登武",
+      "tail": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "范庚",
+      "tail": "海军航空工程学院兵器科学与技术系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于EMD和RVM-AR的航空发动机磨损故障预测模型",
+      "tail": "2013-07-25",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

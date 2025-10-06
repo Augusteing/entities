@@ -544,6 +544,48 @@
       "type": "发展趋势",
       "text": "基于无历史数据的健康管理技术",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "赖思齐",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "陈桂鹏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "颜佳佳",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "卿新林",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -1152,6 +1194,48 @@
       "head": "飞机电源系统故障诊断",
       "tail": "基于无历史数据的健康管理技术",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "赖思齐",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "陈桂鹏",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "颜佳佳",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "卿新林",
+      "tail": "飞机电源系统故障诊断方法综述及发展趋势",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "赖思齐",
+      "tail": "厦门大学航空航天学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机电源系统故障诊断方法综述及发展趋势",
+      "tail": "2023-07-31 15:41",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

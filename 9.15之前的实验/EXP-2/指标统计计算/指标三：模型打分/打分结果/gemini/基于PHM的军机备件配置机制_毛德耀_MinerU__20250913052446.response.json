@@ -194,6 +194,54 @@
       "type": "目标",
       "text": "军机备件的优化配置",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于PHM的军机备件配置机制",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "毛德耀",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "周栋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "文培乾",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "吕川",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学可靠性与系统工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "驻上海航空电子公司军事代表室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-09-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -316,6 +364,48 @@
       "head": "基于PHM的军机备件配置机制",
       "tail": "联合共享备件配置机制框架",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "毛德耀",
+      "tail": "基于PHM的军机备件配置机制",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "周栋",
+      "tail": "基于PHM的军机备件配置机制",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "文培乾",
+      "tail": "基于PHM的军机备件配置机制",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "吕川",
+      "tail": "基于PHM的军机备件配置机制",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "毛德耀",
+      "tail": "北京航空航天大学可靠性与系统工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于PHM的军机备件配置机制",
+      "tail": "2011-09-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

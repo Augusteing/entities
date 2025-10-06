@@ -229,6 +229,48 @@
       "type": "流程",
       "text": "联合设计流程",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "杨天策",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张瑞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "蔡景",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航发沈阳发动机研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2023-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -447,6 +489,41 @@
       "head": "联合设计流程",
       "tail": "Rhapsody的活动图、状态机图",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "杨天策",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张瑞",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "蔡景",
+      "tail": "航空发动机机载健康管理系统设计方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "杨天策",
+      "tail": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机机载健康管理系统设计方法",
+      "tail": "2023-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

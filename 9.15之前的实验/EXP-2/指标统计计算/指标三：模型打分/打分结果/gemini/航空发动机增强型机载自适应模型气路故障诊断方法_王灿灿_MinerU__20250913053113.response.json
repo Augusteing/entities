@@ -209,6 +209,60 @@
       "type": "研究结果",
       "text": "诊断正确率均超过90%",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王灿灿",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孔祥兴",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁宁宁",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "童志伟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京机械设备研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空发动机研究院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学江苏省航空动力系统重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2021-07-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -391,6 +445,48 @@
       "head": "仿真结果",
       "tail": "气路故障诊断平台的有效性",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "王灿灿",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "孔祥兴",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁宁宁",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "童志伟",
+      "tail": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王灿灿",
+      "tail": "北京机械设备研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空发动机增强型机载自适应模型气路故障诊断方法",
+      "tail": "2021-07-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

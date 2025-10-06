@@ -294,6 +294,54 @@
       "type": "研究结果",
       "text": "决定发动机健康状态的关键参数",
       "evaluation": "错误"
+    },
+    {
+      "type": "论文",
+      "text": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "游雅倩",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "闫辉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "苏耀峰",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王晓双",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "鄢睿丞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "国防科技大学信息通信学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2024-12-11 16:37",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -566,6 +614,55 @@
       "head": "发动机健康状态",
       "tail": "风扇转速（PFS）",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "游雅倩",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "闫辉",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "苏耀峰",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王晓双",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "鄢睿丞",
+      "tail": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "游雅倩",
+      "tail": "国防科技大学信息通信学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于EnsembleBRB-SHAP的航空发动机健康状态可解释预测方法",
+      "tail": "2024-12-11 16:37",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

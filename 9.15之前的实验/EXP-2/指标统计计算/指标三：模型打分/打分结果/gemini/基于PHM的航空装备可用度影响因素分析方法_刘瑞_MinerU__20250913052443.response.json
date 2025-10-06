@@ -234,6 +234,54 @@
       "type": "概念",
       "text": "装备及其保障系统的设计权衡分析",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘瑞",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马麟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "康锐",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "邹莹芝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京航空航天大学可靠性与系统工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "北京强度环境研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-10-20 11:26",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -440,6 +488,48 @@
       "head": "可靠性",
       "tail": "可用度",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "刘瑞",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马麟",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "康锐",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "邹莹芝",
+      "tail": "基于PHM的航空装备可用度影响因素分析方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "刘瑞",
+      "tail": "北京航空航天大学可靠性与系统工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于PHM的航空装备可用度影响因素分析方法",
+      "tail": "2011-10-20 11:26",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

@@ -224,6 +224,48 @@
       "type": "策略",
       "text": "APU的视情维修",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于SVM方法的APU故障预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "蔡坤烨",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "蔡景",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "周迪",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "泽山",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2019-08-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -448,6 +490,48 @@
       "head": "相关性分析",
       "tail": "使用时间",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "蔡坤烨",
+      "tail": "基于SVM方法的APU故障预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "蔡景",
+      "tail": "基于SVM方法的APU故障预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "周迪",
+      "tail": "基于SVM方法的APU故障预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "泽山",
+      "tail": "基于SVM方法的APU故障预测方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "蔡坤烨",
+      "tail": "南京航空航天大学民航学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于SVM方法的APU故障预测方法",
+      "tail": "2019-08-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

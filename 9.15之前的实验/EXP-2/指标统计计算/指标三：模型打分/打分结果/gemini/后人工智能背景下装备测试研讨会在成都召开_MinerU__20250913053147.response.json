@@ -249,6 +249,18 @@
       "type": "媒体",
       "text": "中国仪器与测量网",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "后人工智能背景下装备测试研讨会在成都召开",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2020-11-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -515,6 +527,13 @@
       "head": "2020预测与健康管理（PHM）研讨会",
       "tail": "我国装备测试技术的成熟与发展",
       "evaluation": "正确"
+    },
+    {
+      "type": "发表于",
+      "head": "后人工智能背景下装备测试研讨会在成都召开",
+      "tail": "2020-11-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

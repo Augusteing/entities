@@ -169,6 +169,54 @@
       "type": "模型",
       "text": "客户需求与服务资源QFD匹配模型",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "和伟辉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "明新国",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘安",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "郑茂宽",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "上海交通大学机械与动力工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安卫星测控中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2018-10-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -327,6 +375,48 @@
       "head": "服务资源匹配度",
       "tail": "各项服务资源的价值高低",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "和伟辉",
+      "tail": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "明新国",
+      "tail": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘安",
+      "tail": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "郑茂宽",
+      "tail": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "和伟辉",
+      "tail": "上海交通大学机械与动力工程学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机健康管理平台的客户需求分析与PLM服务资源匹配",
+      "tail": "2018-10-20",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

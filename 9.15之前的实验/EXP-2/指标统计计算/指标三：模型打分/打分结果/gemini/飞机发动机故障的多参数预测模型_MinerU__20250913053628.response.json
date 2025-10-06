@@ -149,6 +149,42 @@
       "type": "研究结果",
       "text": "较好的预测效果",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "孙姜燕",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "徐艳玲",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安外事学院现代技术教育中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业自动控制研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2011-07-20 15:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -313,6 +349,34 @@
       "head": "基于多故障特征参数的发动机故障预测模型",
       "tail": "较好拟合精度",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "孙姜燕",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "徐艳玲",
+      "tail": "飞机发动机故障的多参数预测模型",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "孙姜燕",
+      "tail": "西安外事学院现代技术教育中心",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机发动机故障的多参数预测模型",
+      "tail": "2011-07-20 15:12",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

@@ -174,6 +174,54 @@
       "type": "能力",
       "text": "较强的泛化能力",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "崔建国",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李慧华",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "于明月",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "蒋丽英",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "沈阳航空航天大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业上海航空测控技术研究所故障诊断与健康管理技术航空科技重点实验室",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2018-08-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -338,6 +386,48 @@
       "head": "LSSVM-WNN预测模型",
       "tail": "较强的泛化能力",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "崔建国",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李慧华",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "于明月",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "蒋丽英",
+      "tail": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "崔建国",
+      "tail": "沈阳航空航天大学自动化学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于LSSVM与WNN的燃气轮机状态趋势预测",
+      "tail": "2018-08-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

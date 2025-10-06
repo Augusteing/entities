@@ -254,6 +254,66 @@
       "type": "健康状态",
       "text": "衰减状态",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张振良",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "毕俊喜",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "何荣荣",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "崔哲",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "周相志",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "鄂尔多斯应用技术学院大飞机学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "内蒙古工业大学理学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "内蒙古工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2025-04-21 13:31",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -442,6 +502,55 @@
       "head": "衰减状态",
       "tail": "概率分布拟合",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "张振良",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "毕俊喜",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "何荣荣",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "崔哲",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "周相志",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "张振良",
+      "tail": "鄂尔多斯应用技术学院大飞机学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "tail": "2025-04-21 13:31",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

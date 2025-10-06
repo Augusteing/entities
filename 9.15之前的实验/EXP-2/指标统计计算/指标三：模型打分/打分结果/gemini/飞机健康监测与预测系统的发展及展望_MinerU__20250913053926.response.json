@@ -509,6 +509,48 @@
       "type": "应用阶段",
       "text": "工程实用",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机健康监测与预测系统的发展及展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "莫固良",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "汪慧云",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "李兴旺",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "单添敏",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中航工业上海航空测控技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2013-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -933,6 +975,48 @@
       "head": "健康监测与预测系统",
       "tail": "故障预测技术",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "莫固良",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "汪慧云",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "李兴旺",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "单添敏",
+      "tail": "飞机健康监测与预测系统的发展及展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "莫固良",
+      "tail": "中航工业上海航空测控技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机健康监测与预测系统的发展及展望",
+      "tail": "2013-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

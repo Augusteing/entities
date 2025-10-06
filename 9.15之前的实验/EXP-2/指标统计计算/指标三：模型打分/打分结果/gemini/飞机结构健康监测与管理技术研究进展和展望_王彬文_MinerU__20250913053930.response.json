@@ -414,6 +414,60 @@
       "type": "系统",
       "text": "强度分析软件系统",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王彬文",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "肖迎春",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "白生宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王莉",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "黄博",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "田媛",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国飞机强度研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-02-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -728,6 +782,62 @@
       "head": "飞机结构健康监测与管理技术",
       "tail": "多专业融合交叉的技术领域",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "王彬文",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "肖迎春",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "白生宝",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王莉",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "黄博",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "田媛",
+      "tail": "飞机结构健康监测与管理技术研究进展和展望",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "王彬文",
+      "tail": "中国飞机强度研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机结构健康监测与管理技术研究进展和展望",
+      "tail": "2022-02-01",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

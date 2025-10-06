@@ -244,6 +244,48 @@
       "type": "研究方法",
       "text": "基于AMESim和神经网络的健康评估方法",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "和麟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "梁丽嫒",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "马存宝",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "西安飞豹科技发展公司仿真部",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -426,6 +468,41 @@
       "head": "健康评估",
       "tail": "视情维修",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "和麟",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "梁丽嫒",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "马存宝",
+      "tail": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "和麟",
+      "tail": "西北工业大学航空学院",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "飞机起落架液压收放系统多故障仿真与健康评估",
+      "tail": "2016-12-15",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

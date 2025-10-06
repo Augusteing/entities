@@ -219,6 +219,54 @@
       "type": "研究方法",
       "text": "基于分布参数的仿真方法",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "郑敬杭",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "江志东",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "霍立平",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "张弟",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军航空大学青岛校区航空电子工程与指挥系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国人民解放军92975部队",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2022-04-04 07:00",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -371,6 +419,48 @@
       "head": "两端口网络分布参数模型",
       "tail": "典型电气故障",
       "evaluation": "正确"
+    },
+    {
+      "type": "撰写",
+      "head": "郑敬杭",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "江志东",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "霍立平",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "张弟",
+      "tail": "GJB289A总线网络电气特性仿真及故障分析",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "郑敬杭",
+      "tail": "海军航空大学青岛校区航空电子工程与指挥系",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "GJB289A总线网络电气特性仿真及故障分析",
+      "tail": "2022-04-04 07:00",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }

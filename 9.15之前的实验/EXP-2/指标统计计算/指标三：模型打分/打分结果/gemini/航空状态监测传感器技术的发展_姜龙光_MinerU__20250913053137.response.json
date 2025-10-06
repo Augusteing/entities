@@ -444,6 +444,48 @@
       "type": "成果",
       "text": "具有自主知识产权的技术成果",
       "evaluation": "正确"
+    },
+    {
+      "type": "论文",
+      "text": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "姜龙光",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "王燕山",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "作者",
+      "text": "刘恩朋",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "海军装备部舰船办",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表单位",
+      "text": "中国航空工业集团公司北京长城航空测控技术研究所",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表时间",
+      "text": "2012-04-18",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ],
   "relations": [
@@ -716,6 +758,41 @@
       "head": "航空状态监测传感器的开发",
       "tail": "具有自主知识产权的技术成果",
       "evaluation": "错误"
+    },
+    {
+      "type": "撰写",
+      "head": "姜龙光",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "王燕山",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "撰写",
+      "head": "刘恩朋",
+      "tail": "航空状态监测传感器技术的发展",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "隶属",
+      "head": "姜龙光",
+      "tail": "海军装备部舰船办",
+      "evaluation": "正确",
+      "source": "metadata_rule"
+    },
+    {
+      "type": "发表于",
+      "head": "航空状态监测传感器技术的发展",
+      "tail": "2012-04-18",
+      "evaluation": "正确",
+      "source": "metadata_rule"
     }
   ]
 }
