@@ -94,6 +94,22 @@ def dedup_entities(entities: List[Dict[str, str]]) -> List[Dict[str, str]]:
     return result
 
 
+# ------------------ 发表单位 规范化辅助 ------------------
+ORG_CITY_POSTCODE_PATTERN = re.compile(r"(西安|陕西西安)\s*\d{6}")
+
+def canonical_org(text: str) -> str:
+        """将机构变体统一到用于判重的 canonical 形式.
+        规则:
+            1) 去除常见城市+邮编片段: (西安|陕西西安) + 6位数字
+            2) 去掉所有空白与常见标点
+            3) 全部转小写
+        这样: '西北工业大学航空学院 西安710072' 与 '西北工业大学航空学院' 视为同一。
+        """
+        s = ORG_CITY_POSTCODE_PATTERN.sub('', text)
+        s = re.sub(r"[，,。;；:：()（）\s]", "", s)
+        return s.lower()
+
+
 def dedup_relations(relations: List[Dict[str, str]]) -> List[Dict[str, str]]:
     seen: set[Tuple[str, str, str]] = set()
     result: List[Dict[str, str]] = []
@@ -177,17 +193,28 @@ def augment_one(json_path: Path, meta: Dict[str, object], dry_run: bool = False)
         candidate_relations.append({"type": "发表于", "head": title, "tail": pub_time})
 
     existing_entity_keys = {(e.get('text','').strip().lower(), e.get('type','').strip()) for e in entities}
+    # 单独维护发表单位的 canonical key 集合
+    existing_org_canon = {canonical_org(e.get('text','')) for e in entities if e.get('type') == '发表单位'}
     existing_rel_keys = {(r.get('head','').strip(), r.get('tail','').strip(), r.get('type','').strip()) for r in relations}
 
     new_entities = []
     for ce in candidate_entities:
-        key = (ce.get('text','').strip().lower(), ce.get('type','').strip())
-        if key in existing_entity_keys:
-            result['duplicate_entities'].append(ce)
-        else:
+        raw_text = ce.get('text','').strip()
+        etype = ce.get('type','').strip()
+        key = (raw_text.lower(), etype)
+        is_duplicate = False
+        if etype == '发表单位':
+            canon = canonical_org(raw_text)
+            if canon in existing_org_canon:
+                is_duplicate = True
+            else:
+                existing_org_canon.add(canon)
+        if not is_duplicate and key not in existing_entity_keys:
             new_entities.append(ce)
             existing_entity_keys.add(key)
             result['added_entities'].append(ce)
+        else:
+            result['duplicate_entities'].append(ce)
 
     new_relations = []
     for cr in candidate_relations:

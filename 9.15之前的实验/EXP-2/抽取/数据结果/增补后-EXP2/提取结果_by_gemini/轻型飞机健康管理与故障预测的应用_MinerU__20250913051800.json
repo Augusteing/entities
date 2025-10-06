@@ -1,0 +1,565 @@
+{
+  "entities": [
+    {
+      "type": "技术",
+      "text": "健康管理与预测（PHM）"
+    },
+    {
+      "type": "应用领域",
+      "text": "轻型飞机"
+    },
+    {
+      "type": "指标",
+      "text": "可靠性"
+    },
+    {
+      "type": "指标",
+      "text": "可用性"
+    },
+    {
+      "type": "目标",
+      "text": "飞行安全"
+    },
+    {
+      "type": "成本",
+      "text": "使用成本"
+    },
+    {
+      "type": "计划",
+      "text": "维修计划"
+    },
+    {
+      "type": "技术",
+      "text": "故障预测与健康管理技术（PHM）"
+    },
+    {
+      "type": "技术",
+      "text": "故障诊断"
+    },
+    {
+      "type": "技术",
+      "text": "预测"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理"
+    },
+    {
+      "type": "任务",
+      "text": "对目标故障的探测与定位"
+    },
+    {
+      "type": "指标",
+      "text": "剩余寿命"
+    },
+    {
+      "type": "决策",
+      "text": "合理的维修决策"
+    },
+    {
+      "type": "应用领域",
+      "text": "航空领域"
+    },
+    {
+      "type": "系统",
+      "text": "PHM系统"
+    },
+    {
+      "type": "策略",
+      "text": "维修的策略"
+    },
+    {
+      "type": "策略",
+      "text": "视情维修（Condition- Based Maintenance，CBM）"
+    },
+    {
+      "type": "设备",
+      "text": "测试的设备"
+    },
+    {
+      "type": "资源",
+      "text": "维修人员的工作量"
+    },
+    {
+      "type": "成本",
+      "text": "维修和使用费用"
+    },
+    {
+      "type": "成本",
+      "text": "备件"
+    },
+    {
+      "type": "成本",
+      "text": "维修设备"
+    },
+    {
+      "type": "成本",
+      "text": "人力成本"
+    },
+    {
+      "type": "应用领域",
+      "text": "轻型通用飞机"
+    },
+    {
+      "type": "成本",
+      "text": "运营成本"
+    },
+    {
+      "type": "系统",
+      "text": "航空电子系统"
+    },
+    {
+      "type": "子系统",
+      "text": "命令与数据处理子系统"
+    },
+    {
+      "type": "子系统",
+      "text": "电源系统"
+    },
+    {
+      "type": "技术",
+      "text": "故障检测"
+    },
+    {
+      "type": "技术",
+      "text": "隔离"
+    },
+    {
+      "type": "技术",
+      "text": "恢复"
+    },
+    {
+      "type": "技术",
+      "text": "数据通信"
+    },
+    {
+      "type": "组件",
+      "text": "传感器"
+    },
+    {
+      "type": "研究方法",
+      "text": "技术权衡研究"
+    },
+    {
+      "type": "方法",
+      "text": "集成产品与过程设计（Integrated Product and Process Design，IPD）"
+    },
+    {
+      "type": "研究方法",
+      "text": "技术预测与技术鉴别、评估以及选择（TIES）"
+    },
+    {
+      "type": "工具",
+      "text": "质量功能展开（Quality Function Deployment, QFD）"
+    },
+    {
+      "type": "分析方法",
+      "text": "FMECA分析"
+    },
+    {
+      "type": "概念",
+      "text": "失效机制"
+    },
+    {
+      "type": "算法",
+      "text": "最优故障特征的算法"
+    },
+    {
+      "type": "故障",
+      "text": "早期故障"
+    },
+    {
+      "type": "设计方法",
+      "text": "CBM测试-计划"
+    },
+    {
+      "type": "数据",
+      "text": "故障数据"
+    },
+    {
+      "type": "算法",
+      "text": "故障诊断与预测的算法"
+    },
+    {
+      "type": "方法",
+      "text": "田口方法"
+    },
+    {
+      "type": "工具",
+      "text": "基于正交表的田口矩阵"
+    },
+    {
+      "type": "过程",
+      "text": "性能的评估"
+    },
+    {
+      "type": "分析方法",
+      "text": "成本-效益分析"
+    },
+    {
+      "type": "过程",
+      "text": "PHM系统的验证与适航认证"
+    },
+    {
+      "type": "标准",
+      "text": "RTCA/D0- 178B"
+    },
+    {
+      "type": "标准",
+      "text": "RTCA/D0- 254"
+    },
+    {
+      "type": "标准",
+      "text": "MIL- HDBK- 516B"
+    },
+    {
+      "type": "系统",
+      "text": "健康与使用监测系统（Health and Usage Monitoring System, HUMS）"
+    },
+    {
+      "type": "应用领域",
+      "text": "美国军用直升机"
+    },
+    {
+      "type": "组织",
+      "text": "美国军方的航空工程指挥部（Aviation Engineering Directorate, AED）"
+    },
+    {
+      "type": "标准",
+      "text": "ADS- 79- HDBK"
+    },
+    {
+      "type": "技术",
+      "text": "新型传感器技术"
+    },
+    {
+      "type": "技术",
+      "text": "在线监测技术"
+    },
+    {
+      "type": "理论",
+      "text": "新型故障诊断与预测理论"
+    },
+    {
+      "type": "研究方向",
+      "text": "PHM系统软件开放性"
+    },
+    {
+      "type": "研究方向",
+      "text": "PHM技术的标准"
+    },
+    {
+      "type": "研究方向",
+      "text": "PHM系统的自我修复功能"
+    },
+    {
+      "type": "技术",
+      "text": "异种传感器数据融合传输技术"
+    },
+    {
+      "type": "技术",
+      "text": "传感器嵌入技术"
+    },
+    {
+      "type": "技术",
+      "text": "传感器布置优化"
+    },
+    {
+      "type": "技术",
+      "text": "布线技术"
+    },
+    {
+      "type": "指标",
+      "text": "鲁棒性"
+    },
+    {
+      "type": "概念",
+      "text": "理解失效机制的原理"
+    },
+    {
+      "type": "概念",
+      "text": "对失效分析的综合框架"
+    },
+    {
+      "type": "概念",
+      "text": "相关失效事件的根本原因"
+    }
+  ],
+  "relations": [
+    {
+      "type": "应用于",
+      "head": "健康管理与预测（PHM）",
+      "tail": "轻型飞机"
+    },
+    {
+      "type": "保证",
+      "head": "健康管理与预测（PHM）",
+      "tail": "飞行安全"
+    },
+    {
+      "type": "降低",
+      "head": "健康管理与预测（PHM）",
+      "tail": "使用成本"
+    },
+    {
+      "type": "合理安排",
+      "head": "健康管理与预测（PHM）",
+      "tail": "维修计划"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "故障诊断"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "预测"
+    },
+    {
+      "type": "包含",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "健康管理"
+    },
+    {
+      "type": "完成",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "对目标故障的探测与定位"
+    },
+    {
+      "type": "预测",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "剩余寿命"
+    },
+    {
+      "type": "做出",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "合理的维修决策"
+    },
+    {
+      "type": "改变",
+      "head": "PHM系统",
+      "tail": "维修的策略"
+    },
+    {
+      "type": "实现",
+      "head": "PHM系统",
+      "tail": "视情维修（Condition- Based Maintenance，CBM）"
+    },
+    {
+      "type": "减少",
+      "head": "PHM系统",
+      "tail": "测试的设备"
+    },
+    {
+      "type": "减少",
+      "head": "PHM系统",
+      "tail": "维修人员的工作量"
+    },
+    {
+      "type": "减少",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "备件"
+    },
+    {
+      "type": "减少",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "维修设备"
+    },
+    {
+      "type": "减低",
+      "head": "故障预测与健康管理技术（PHM）",
+      "tail": "人力成本"
+    },
+    {
+      "type": "节约",
+      "head": "PHM系统",
+      "tail": "运营成本"
+    },
+    {
+      "type": "由...组成",
+      "head": "PHM系统",
+      "tail": "航空电子系统"
+    },
+    {
+      "type": "包括",
+      "head": "航空电子系统",
+      "tail": "命令与数据处理子系统"
+    },
+    {
+      "type": "包括",
+      "head": "航空电子系统",
+      "tail": "电源系统"
+    },
+    {
+      "type": "遵循",
+      "head": "技术权衡研究",
+      "tail": "集成产品与过程设计（Integrated Product and Process Design，IPD）"
+    },
+    {
+      "type": "属于",
+      "head": "故障诊断与预测",
+      "tail": "技术预测与技术鉴别、评估以及选择（TIES）"
+    },
+    {
+      "type": "使用",
+      "head": "集成产品与过程设计（Integrated Product and Process Design，IPD）",
+      "tail": "质量功能展开（Quality Function Deployment, QFD）"
+    },
+    {
+      "type": "是...的基础",
+      "head": "理解失效机制的原理",
+      "tail": "设计PHM系统"
+    },
+    {
+      "type": "提供",
+      "head": "FMECA分析",
+      "tail": "对失效分析的综合框架"
+    },
+    {
+      "type": "找到",
+      "head": "FMECA分析",
+      "tail": "相关失效事件的根本原因"
+    },
+    {
+      "type": "得到",
+      "head": "FMECA分析",
+      "tail": "最优故障特征的算法"
+    },
+    {
+      "type": "检测和隔离",
+      "head": "FMECA分析",
+      "tail": "早期故障"
+    },
+    {
+      "type": "预测出",
+      "head": "FMECA分析",
+      "tail": "剩余寿命"
+    },
+    {
+      "type": "获取",
+      "head": "CBM测试-计划",
+      "tail": "故障数据"
+    },
+    {
+      "type": "训练和验证",
+      "head": "故障数据",
+      "tail": "故障诊断与预测的算法"
+    },
+    {
+      "type": "依据",
+      "head": "CBM测试-计划",
+      "tail": "田口方法"
+    },
+    {
+      "type": "使用",
+      "head": "CBM测试-计划",
+      "tail": "基于正交表的田口矩阵"
+    },
+    {
+      "type": "涉及",
+      "head": "性能的评估",
+      "tail": "成本-效益分析"
+    },
+    {
+      "type": "需要",
+      "head": "PHM系统",
+      "tail": "PHM系统的验证与适航认证"
+    },
+    {
+      "type": "基于",
+      "head": "航空系统软件的适航认证",
+      "tail": "RTCA/D0- 178B"
+    },
+    {
+      "type": "基于",
+      "head": "航空电子设备硬件的适航认证",
+      "tail": "RTCA/D0- 254"
+    },
+    {
+      "type": "基于",
+      "head": "航空器系统的适航认证",
+      "tail": "MIL- HDBK- 516B"
+    },
+    {
+      "type": "得到使用",
+      "head": "健康与使用监测系统（Health and Usage Monitoring System, HUMS）",
+      "tail": "美国军用直升机"
+    },
+    {
+      "type": "规定标准",
+      "head": "美国军方的航空工程指挥部（Aviation Engineering Directorate, AED）",
+      "tail": "健康与使用监测系统（Health and Usage Monitoring System, HUMS）"
+    },
+    {
+      "type": "出版",
+      "head": "美国军方的航空工程指挥部（Aviation Engineering Directorate, AED）",
+      "tail": "ADS- 79- HDBK"
+    },
+    {
+      "type": "需要支撑",
+      "head": "PHM",
+      "tail": "新型传感器技术"
+    },
+    {
+      "type": "需要支撑",
+      "head": "PHM",
+      "tail": "在线监测技术"
+    },
+    {
+      "type": "需要支撑",
+      "head": "PHM",
+      "tail": "新型故障诊断与预测理论"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "PHM系统软件开放性"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "PHM技术的标准"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "PHM系统的自我修复功能"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "新型传感器技术"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "异种传感器数据融合传输技术"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "传感器嵌入技术"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "传感器布置优化"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "布线技术"
+    },
+    {
+      "type": "未来研究方向",
+      "head": "轻型飞机的PHM系统",
+      "tail": "故障诊断与预测的算法"
+    },
+    {
+      "type": "增强",
+      "head": "故障诊断与预测的算法",
+      "tail": "鲁棒性"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "飞机开关磁阻发电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "技术",
+      "text": "健康管理技术",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "检测参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "MATLAB软件",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "开关磁阻发电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "典型电气故障",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "仿真分析",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模块",
+      "text": "记忆模块",
+      "evaluation": "正确"
+    },
+    {
+      "type": "问题",
+      "text": "代数环问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "信号",
+      "text": "发电机输出电压信号",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "EMD算法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "特征量",
+      "text": "各层频率信号的标准差",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "开关磁阻发电系统的故障推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "参数",
+      "text": "输出电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "飞机整个供电系统健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统",
+      "text": "三相6/4结构的开关磁阻发电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "主电源分系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "功率变换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "系统/部件",
+      "text": "发电机控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "定子绕组开路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "绕组短路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "绕组匝间短路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "绕组正端输出接地",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "功率管开路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "功率管短路",
+      "evaluation": "正确"
+    },
+    {
+      "type": "故障",
+      "text": "功率管输出接地",
+      "evaluation": "正确"
+    },
+    {
+      "type": "软件",
+      "text": "MATLAB/Simulink",
+      "evaluation": "正确"
+    },
+    {
+      "type": "模型",
+      "text": "SRG仿真模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "算法",
+      "text": "经验模态分解(EmpiricalModeDecomposition, EMD)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "自适应时频分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分量",
+      "text": "基本模式分量(IMF)",
+      "evaluation": "正确"
+    },
+    {
+      "type": "方法",
+      "text": "开关磁阻发电机故障特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "网络",
+      "text": "B-P神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "函数",
+      "text": "tansig",
+      "evaluation": "正确"
+    }
+  ],
+  "relations": [
+    {
+      "type": "是...的核心部分",
+      "head": "开关磁阻发电系统",
+      "tail": "飞机供电系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "研究",
+      "head": "本文",
+      "tail": "飞机供电系统健康管理技术",
+      "evaluation": "错误"
+    },
+    {
+      "type": "目标是减少",
+      "head": "故障推理模型",
+      "tail": "检测参数",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行仿真分析",
+      "head": "MATLAB软件",
+      "tail": "开关磁阻发电机典型电气故障",
+      "evaluation": "错误"
+    },
+    {
+      "type": "引入...解决",
+      "head": "记忆模块",
+      "tail": "代数环问题",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...进行分解",
+      "head": "EMD算法",
+      "tail": "发电机输出电压信号",
+      "evaluation": "错误"
+    },
+    {
+      "type": "作为特征量训练",
+      "head": "各层频率信号的标准差",
+      "tail": "神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "得出",
+      "head": "神经网络",
+      "tail": "开关磁阻发电系统的故障推理模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "只需测量",
+      "head": "开关磁阻发电系统的故障推理模型",
+      "tail": "输出电压",
+      "evaluation": "正确"
+    },
+    {
+      "type": "减少了",
+      "head": "开关磁阻发电系统的故障推理模型",
+      "tail": "检测参数的数量",
+      "evaluation": "错误"
+    },
+    {
+      "type": "为...奠定基础",
+      "head": "开关磁阻发电系统的故障推理模型",
+      "tail": "故障预测模型",
+      "evaluation": "正确"
+    },
+    {
+      "type": "为...奠定基础",
+      "head": "开关磁阻发电系统的故障推理模型",
+      "tail": "飞机整个供电系统健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键技术",
+      "head": "故障推理模型",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "是...的关键技术",
+      "head": "故障预测模型",
+      "tail": "健康管理系统",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "主电源分系统",
+      "tail": "开关磁阻发电机",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "主电源分系统",
+      "tail": "功率变换器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "由...组成",
+      "head": "主电源分系统",
+      "tail": "发电机控制器",
+      "evaluation": "正确"
+    },
+    {
+      "type": "搭建",
+      "head": "MATLAB/Simulink",
+      "tail": "SRG仿真模型",
+      "evaluation": "错误"
+    },
+    {
+      "type": "是一种",
+      "head": "经验模态分解(EmpiricalModeDecomposition, EMD)",
+      "tail": "自适应时频分析方法",
+      "evaluation": "正确"
+    },
+    {
+      "type": "分解为",
+      "head": "经验模态分解(EmpiricalModeDecomposition, EMD)",
+      "tail": "基本模式分量(IMF)",
+      "evaluation": "错误"
+    },
+    {
+      "type": "应用于",
+      "head": "EMD算法",
+      "tail": "开关磁阻发电机故障特征提取",
+      "evaluation": "正确"
+    },
+    {
+      "type": "利用...训练和验证",
+      "head": "各层频率信号的标准差",
+      "tail": "B-P神经网络",
+      "evaluation": "正确"
+    },
+    {
+      "type": "使用...作为函数",
+      "head": "B-P神经网络",
+      "tail": "tansig",
+      "evaluation": "正确"
+    },
+    {
+      "type": "建立",
+      "head": "B-P神经网络",
+      "tail": "故障推理模型",
+      "evaluation": "正确"
+    }
+  ]
+}

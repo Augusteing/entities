@@ -5,6 +5,17 @@ import matplotlib.pyplot as plt
 from typing import Optional, Tuple, Dict
 import csv
 
+"""
+通用化改造说明 (仅路径/适配增强, 其余逻辑保持不变):
+1. 去除对固定层级 parents[3] 的依赖, 增加 auto_detect_root():
+    - 自下而上寻找包含  指标统计计算/指标三：模型打分/打分结果  的目录作为 ROOT。
+2. 新增 CLI 参数:
+    --root <path>     手动指定实验根 (包含 指标统计计算 目录)
+    --out-dir <path>  指定输出根 (默认仍放在 根/指标统计计算/指标三：模型打分/统计结果)
+3. 仍支持 --models, --no-figure, --summary-only, --no-summary, --title-suffix。
+4. 兼容旧调用: 无参数直接运行与之前行为一致 (自动探测)。
+"""
+
 # 颜色与字体
 COLOR_ENTITY = '#925EB0'   # 实体正确率柱
 COLOR_REL    = '#7AB656'   # 关系正确率柱
@@ -160,33 +171,45 @@ def write_summary_csv(all_stats: Dict[str, dict], out_csv: Path):
 def format_percent(p: Optional[float]) -> str:
     return 'NA' if p is None else f"{p*100:.2f}%"
 
+def auto_detect_root(start: Path) -> Path:
+    for p in [start, *start.parents]:
+        if (p / '指标统计计算' / '指标三：模型打分' / '打分结果').is_dir():
+            return p
+    # fallback: 尝试 parents[3] 或 start
+    try:
+        return start.parents[3]
+    except Exception:
+        return start
+
+
 def main():
-    parser = argparse.ArgumentParser(description='统计多个模型打分 JSON 中实体与关系正确率并绘图')
+    parser = argparse.ArgumentParser(description='统计多个模型打分 JSON 中实体与关系正确率并绘图 (通用化路径版)')
     parser.add_argument('--models', nargs='*', default=['deepseek','gemini','kimi'], help='要统计的模型列表 (默认: deepseek gemini kimi)')
     parser.add_argument('--no-figure', action='store_true', help='只生成 CSV，不绘图')
     parser.add_argument('--title-suffix', type=str, default='', help='标题后缀')
     parser.add_argument('--summary-only', action='store_true', help='只生成汇总 CSV，不生成单模型 CSV')
     parser.add_argument('--no-summary', action='store_true', help='不生成汇总 CSV')
+    parser.add_argument('--root', type=Path, help='指定实验根目录 (包含 指标统计计算)')
+    parser.add_argument('--out-dir', type=Path, help='统计结果输出根 (下含 表格/ 图表)')
+    parser.add_argument('--debug', action='store_true', help='输出调试信息')
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
-    # 修正根目录推断：
-    # 原来使用 parents[2] 得到的是 “…/指标统计计算”，再拼接 '指标统计计算' 导致重复段。
-    # 当前脚本路径结构：EXP-1/指标统计计算/指标三：模型打分/code/绘图脚本/脚本.py
-    # 需要的项目根 EXP-1 = parents[3]
-    root_dir = script_dir.parents[3]
-    if not (root_dir / '指标统计计算').exists():  # 防御：若层级变化则回退
-        # 回退到旧逻辑（尽量不中断执行）
-        root_dir = script_dir.parents[2]
-        print(f'[INFO] 未在 parents[3] 发现 标识目录，使用回退 root_dir={root_dir}')
+    root_dir = args.root if args.root else auto_detect_root(script_dir)
+    if args.debug:
+        print(f'[调试] ROOT = {root_dir}')
 
-    # 输入根：指标统计计算/指标三：模型打分/打分结果/{model}
     score_base = root_dir / '指标统计计算' / '指标三：模型打分' / '打分结果'
-    out_base = root_dir / '指标统计计算' / '指标三：模型打分' / '统计结果'
+    default_out_base = root_dir / '指标统计计算' / '指标三：模型打分' / '统计结果'
+    out_base = args.out_dir if args.out_dir else default_out_base
     out_tables = out_base / '表格'
     out_figs = out_base / '图表'
     out_tables.mkdir(parents=True, exist_ok=True)
     out_figs.mkdir(parents=True, exist_ok=True)
+
+    if args.debug:
+        print(f'[调试] score_base = {score_base}')
+        print(f'[调试] out_base   = {out_base}')
 
     all_stats: Dict[str, dict] = {}
     for mk in args.models:

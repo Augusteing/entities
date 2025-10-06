@@ -1,0 +1,420 @@
+{
+  "entities": [
+    {
+      "text": "Caps-BiGRU-Attention",
+      "type": "模型"
+    },
+    {
+      "text": "胶囊网络",
+      "type": "算法"
+    },
+    {
+      "text": "双向门控循环单元",
+      "type": "算法"
+    },
+    {
+      "text": "SE注意力机制",
+      "type": "机制"
+    },
+    {
+      "text": "动态路由算法",
+      "type": "方法"
+    },
+    {
+      "text": "直升机涡轮发动机",
+      "type": "系统"
+    },
+    {
+      "text": "故障模式",
+      "type": "故障"
+    },
+    {
+      "text": "扭矩裕度",
+      "type": "指标"
+    },
+    {
+      "text": "准确率",
+      "type": "性能指标"
+    },
+    {
+      "text": "平均绝对误差",
+      "type": "性能指标"
+    },
+    {
+      "text": "直升机涡轮发动机数据集",
+      "type": "数据集"
+    },
+    {
+      "text": "外部空气温度传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "平均气体温度传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "可用功率传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "指示空速传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "净功率传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "压缩机转速传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "测量扭矩传感器",
+      "type": "传感器"
+    },
+    {
+      "text": "SHAP特征分析",
+      "type": "方法"
+    },
+    {
+      "text": "贝塔分布",
+      "type": "分布"
+    },
+    {
+      "text": "严重失效",
+      "type": "状态"
+    },
+    {
+      "text": "轻微失效",
+      "type": "状态"
+    },
+    {
+      "text": "衰减状态",
+      "type": "状态"
+    },
+    {
+      "text": "健康状态",
+      "type": "状态"
+    },
+    {
+      "text": "99.7%",
+      "type": "数值"
+    },
+    {
+      "text": "0.027",
+      "type": "数值"
+    },
+    {
+      "text": "100kW",
+      "type": "数值"
+    },
+    {
+      "text": "110km/h",
+      "type": "数值"
+    },
+    {
+      "text": "概率分布拟合",
+      "type": "方法"
+    },
+    {
+      "text": "K-S检验",
+      "type": "测试"
+    },
+    {
+      "text": "AIC值",
+      "type": "指标"
+    },
+    {
+      "text": "TensorFlow2.1",
+      "type": "框架"
+    },
+    {
+      "text": "Python3.9",
+      "type": "语言"
+    },
+    {
+      "text": "Intel W-2223 CPU",
+      "type": "处理器"
+    },
+    {
+      "text": "Adam",
+      "type": "优化器"
+    },
+    {
+      "text": "交叉熵损失函数",
+      "type": "函数"
+    },
+    {
+      "text": "均方误差函数",
+      "type": "函数"
+    },
+    {
+      "text": "反向传播",
+      "type": "方法"
+    },
+    {
+      "text": "全局平均池化",
+      "type": "方法"
+    },
+    {
+      "text": "粒子群优化",
+      "type": "方法"
+    },
+    {
+      "text": "极大似然估计",
+      "type": "方法"
+    },
+    {
+      "text": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "论文"
+    },
+    {
+      "text": "张振良",
+      "type": "作者"
+    },
+    {
+      "text": "毕俊喜",
+      "type": "作者"
+    },
+    {
+      "text": "何荣荣",
+      "type": "作者"
+    },
+    {
+      "text": "崔哲",
+      "type": "作者"
+    },
+    {
+      "text": "周相志",
+      "type": "作者"
+    },
+    {
+      "text": "鄂尔多斯应用技术学院大飞机学院",
+      "type": "发表单位"
+    },
+    {
+      "text": "内蒙古工业大学理学院",
+      "type": "发表单位"
+    },
+    {
+      "text": "内蒙古工业大学航空学院",
+      "type": "发表单位"
+    },
+    {
+      "text": "2025-04-21 13:31",
+      "type": "发表时间"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "直升机涡轮发动机健康管理方法",
+      "type": "提出了"
+    },
+    {
+      "head": "胶囊网络",
+      "tail": "捕捉输入数据的内在关系",
+      "type": "用于"
+    },
+    {
+      "head": "双向门控循环单元",
+      "tail": "提取时间序列特征",
+      "type": "用于"
+    },
+    {
+      "head": "SE注意力机制",
+      "tail": "对特征加权以突出重要信息",
+      "type": "用于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "注意力机制",
+      "type": "基于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "胶囊层",
+      "type": "包含"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "BiGRU层",
+      "type": "包含"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "SE注意力机制",
+      "type": "包含"
+    },
+    {
+      "head": "动态路由算法",
+      "tail": "胶囊网络",
+      "type": "使用"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "直升机涡轮发动机故障诊断",
+      "type": "应用于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "扭矩裕度预测",
+      "type": "应用于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "直升机涡轮发动机数据集",
+      "type": "验证于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "99.7%的准确率",
+      "type": "达到"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "平均绝对误差至0.027",
+      "type": "降低"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiGRU-Attention",
+      "type": "优于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "CNN-BiLSTM",
+      "type": "优于"
+    },
+    {
+      "head": "Caps-BiGRU-Attention",
+      "tail": "Random Forest",
+      "type": "优于"
+    },
+    {
+      "head": "SHAP特征分析",
+      "tail": "量化特征影响",
+      "type": "使用"
+    },
+    {
+      "head": "外部空气温度",
+      "tail": "故障模式",
+      "type": "影响"
+    },
+    {
+      "head": "平均气体温度",
+      "tail": "故障模式",
+      "type": "影响"
+    },
+    {
+      "head": "测量扭矩",
+      "tail": "故障模式",
+      "type": "影响"
+    },
+    {
+      "head": "故障模式",
+      "tail": "扭矩裕度",
+      "type": "影响"
+    },
+    {
+      "head": "概率分布拟合",
+      "tail": "扭矩裕度分布",
+      "type": "拟合"
+    },
+    {
+      "head": "概率分布拟合",
+      "tail": "贝塔分布为最优分布",
+      "type": "确定"
+    },
+    {
+      "head": "扭矩裕度范围",
+      "tail": "健康状态",
+      "type": "对应"
+    },
+    {
+      "head": "实验",
+      "tail": "TensorFlow2.1框架",
+      "type": "使用"
+    },
+    {
+      "head": "实验",
+      "tail": "Python3.9语言",
+      "type": "使用"
+    },
+    {
+      "head": "实验",
+      "tail": "Intel W-2223 CPU处理器",
+      "type": "运行于"
+    },
+    {
+      "head": "模型训练",
+      "tail": "Adam优化器",
+      "type": "采用"
+    },
+    {
+      "head": "故障诊断",
+      "tail": "交叉熵损失函数",
+      "type": "采用"
+    },
+    {
+      "head": "扭矩裕度预测",
+      "tail": "均方误差函数",
+      "type": "采用"
+    },
+    {
+      "head": "反向传播",
+      "tail": "更新模型参数",
+      "type": "通过"
+    },
+    {
+      "head": "全局平均池化",
+      "tail": "SE注意力机制",
+      "type": "使用"
+    },
+    {
+      "head": "粒子群优化",
+      "tail": "寻找最优箱数",
+      "type": "使用"
+    },
+    {
+      "head": "极大似然估计",
+      "tail": "参数估计",
+      "type": "使用"
+    },
+    {
+      "head": "张振良",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "撰写"
+    },
+    {
+      "head": "毕俊喜",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "撰写"
+    },
+    {
+      "head": "何荣荣",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "撰写"
+    },
+    {
+      "head": "崔哲",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "撰写"
+    },
+    {
+      "head": "周相志",
+      "tail": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "type": "撰写"
+    },
+    {
+      "head": "张振良",
+      "tail": "鄂尔多斯应用技术学院大飞机学院",
+      "type": "隶属"
+    },
+    {
+      "head": "基于Caps-BiGRU-Attention的直升机涡轮发动机健康管理方法",
+      "tail": "2025-04-21 13:31",
+      "type": "发表于"
+    }
+  ]
+}

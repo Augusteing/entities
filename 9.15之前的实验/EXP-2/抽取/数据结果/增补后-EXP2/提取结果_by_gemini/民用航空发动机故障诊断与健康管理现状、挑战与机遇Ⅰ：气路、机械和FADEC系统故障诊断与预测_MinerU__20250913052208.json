@@ -1,0 +1,962 @@
+{
+  "entities": [
+    {
+      "type": "系统",
+      "text": "民用航空发动机故障诊断与健康管理(EHM)系统"
+    },
+    {
+      "type": "研究对象",
+      "text": "民用发动机气路性能退化诊断和预测"
+    },
+    {
+      "type": "研究对象",
+      "text": "发动机机械系统故障"
+    },
+    {
+      "type": "研究对象",
+      "text": "发动机FADEC系统故障诊断与预测"
+    },
+    {
+      "type": "算法",
+      "text": "非线性无迹卡尔曼滤波器(UKF)"
+    },
+    {
+      "type": "技术",
+      "text": "深度学习神经网络"
+    },
+    {
+      "type": "算法",
+      "text": "发动机气路故障诊断算法"
+    },
+    {
+      "type": "性能指标",
+      "text": "气路诊断精度"
+    },
+    {
+      "type": "部件",
+      "text": "复合材料叶片"
+    },
+    {
+      "type": "系统",
+      "text": "涡扇发动机"
+    },
+    {
+      "type": "技术",
+      "text": "增材制造技术"
+    },
+    {
+      "type": "部件",
+      "text": "金属屑末传感器"
+    },
+    {
+      "type": "技术",
+      "text": "融合诊断"
+    },
+    {
+      "type": "信号",
+      "text": "振动信号"
+    },
+    {
+      "type": "系统",
+      "text": "发动机全权限数字控制系统（FADEC)"
+    },
+    {
+      "type": "架构",
+      "text": "集中式控制架构"
+    },
+    {
+      "type": "系统",
+      "text": "航空发动机健康管理系统（Engine Health Management，EHM）"
+    },
+    {
+      "type": "策略",
+      "text": "基于视情的维护、维修优化决策"
+    },
+    {
+      "type": "系统",
+      "text": "地面综合诊断"
+    },
+    {
+      "type": "系统",
+      "text": "智能寿命管理"
+    },
+    {
+      "type": "系统",
+      "text": "智能维护维修决策系统"
+    },
+    {
+      "type": "系统",
+      "text": "EHM全流程解决方案"
+    },
+    {
+      "type": "研究方向",
+      "text": "气路性能退化监测"
+    },
+    {
+      "type": "研究方向",
+      "text": "振动（机械）故障诊断与预测"
+    },
+    {
+      "type": "研究方向",
+      "text": "控制系统（FADEC）故障诊断与预测"
+    },
+    {
+      "type": "算法",
+      "text": "扩展卡尔曼滤波估计器（Extended Kalman Filter，EKF）"
+    },
+    {
+      "type": "技术",
+      "text": "气路故障诊断技术"
+    },
+    {
+      "type": "故障",
+      "text": "内来物损伤（DOD）"
+    },
+    {
+      "type": "故障",
+      "text": "外来物损伤（FOD）"
+    },
+    {
+      "type": "故障",
+      "text": "叶片腐蚀、侵蚀、积垢"
+    },
+    {
+      "type": "故障",
+      "text": "燃油喷油器堵塞"
+    },
+    {
+      "type": "故障",
+      "text": "叶尖磨损"
+    },
+    {
+      "type": "方法",
+      "text": "基于模型的故障诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于数据的故障诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于信息融合的故障诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于线性模型的诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "基于非线性模型的诊断方法"
+    },
+    {
+      "type": "算法",
+      "text": "卡尔曼滤波算法"
+    },
+    {
+      "type": "模型",
+      "text": "航空发动机机载自适应模型"
+    },
+    {
+      "type": "算法",
+      "text": "线性卡尔曼滤波器"
+    },
+    {
+      "type": "方法",
+      "text": "故障图（Fault Map）"
+    },
+    {
+      "type": "算法",
+      "text": "粒子滤波（Particle Filter，PF）"
+    },
+    {
+      "type": "方法",
+      "text": "人工神经网络方法"
+    },
+    {
+      "type": "方法",
+      "text": "专家系统方法"
+    },
+    {
+      "type": "方法",
+      "text": "模糊推理方法"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量机（Support Vector Machine，SVM）"
+    },
+    {
+      "type": "算法",
+      "text": "极限学习机（Extreme Learning Machine，ELM）"
+    },
+    {
+      "type": "网络",
+      "text": "BP网络"
+    },
+    {
+      "type": "网络",
+      "text": "径向基（RBF）网络"
+    },
+    {
+      "type": "网络",
+      "text": "概率神经网络（PNN）"
+    },
+    {
+      "type": "网络",
+      "text": "自组织特征映射网（SOFM）"
+    },
+    {
+      "type": "网络",
+      "text": "自联想网络（AANN）"
+    },
+    {
+      "type": "算法",
+      "text": "原始核极限学习机（Kernel- based Extreme Leraning Machine, KELM）"
+    },
+    {
+      "type": "理论",
+      "text": "DS（Dempster Shafre）证据理论"
+    },
+    {
+      "type": "算法",
+      "text": "改进的KELM算法"
+    },
+    {
+      "type": "方法",
+      "text": "贝叶斯融合"
+    },
+    {
+      "type": "方法",
+      "text": "DS证据融合"
+    },
+    {
+      "type": "方法",
+      "text": "智能融合"
+    },
+    {
+      "type": "方法",
+      "text": "模糊融合"
+    },
+    {
+      "type": "方法",
+      "text": "集成融合"
+    },
+    {
+      "type": "技术",
+      "text": "振动EHM技术"
+    },
+    {
+      "type": "故障",
+      "text": "转子不平衡"
+    },
+    {
+      "type": "故障",
+      "text": "不对中"
+    },
+    {
+      "type": "故障",
+      "text": "转静件碰摩"
+    },
+    {
+      "type": "算法",
+      "text": "FFT（Fast Forier Transformation）"
+    },
+    {
+      "type": "构型",
+      "text": "齿轮传动涡扇（Geared TurboFan，GTF）"
+    },
+    {
+      "type": "技术",
+      "text": "滑油金属屑末监测"
+    },
+    {
+      "type": "部件",
+      "text": "滚动轴承"
+    },
+    {
+      "type": "故障",
+      "text": "内外滚道表面剥落"
+    },
+    {
+      "type": "方法",
+      "text": "包络分析方法"
+    },
+    {
+      "type": "变换",
+      "text": "Hilbert变换"
+    },
+    {
+      "type": "方法",
+      "text": "能量算子解调"
+    },
+    {
+      "type": "方法",
+      "text": "循环平稳分析"
+    },
+    {
+      "type": "方法",
+      "text": "小波分析"
+    },
+    {
+      "type": "方法",
+      "text": "经验模式分解（EMD)"
+    },
+    {
+      "type": "算法",
+      "text": "ICA（Independent Component Analysis）"
+    },
+    {
+      "type": "方法",
+      "text": "共振稀疏分解（Resonance Sparse Decomposition）"
+    },
+    {
+      "type": "技术",
+      "text": "最小反褶积（Minimum Entropy Deconvolution，MED）"
+    },
+    {
+      "type": "技术",
+      "text": "最大相关峭度反褶积（Maximum Correlated Kurtosis Deconvolution，MCKD）"
+    },
+    {
+      "type": "部件",
+      "text": "附件齿轮箱（AccessoryGearBox，AGB）"
+    },
+    {
+      "type": "部件",
+      "text": "转接齿轮箱（TransferGearBox，TGB)"
+    },
+    {
+      "type": "故障",
+      "text": "轮齿折断"
+    },
+    {
+      "type": "故障",
+      "text": "接触疲劳破坏"
+    },
+    {
+      "type": "故障",
+      "text": "齿面胶合"
+    },
+    {
+      "type": "方法",
+      "text": "时域平均方法（TimeSynchronousAverage，TSA)"
+    },
+    {
+      "type": "故障",
+      "text": "裂纹"
+    },
+    {
+      "type": "模型",
+      "text": "呼吸裂纹模型"
+    },
+    {
+      "type": "技术",
+      "text": "涡流检测"
+    },
+    {
+      "type": "技术",
+      "text": "内窥镜目视检测"
+    },
+    {
+      "type": "技术",
+      "text": "多频涡流检测"
+    },
+    {
+      "type": "技术",
+      "text": "超声检测"
+    },
+    {
+      "type": "系统",
+      "text": "清洁动力PW1000G系列发动机"
+    },
+    {
+      "type": "系统",
+      "text": "超扇（UltraFan）发动机"
+    },
+    {
+      "type": "部件",
+      "text": "动力齿轮箱（PowerGearBox，PGB）"
+    },
+    {
+      "type": "技术",
+      "text": "结构健康监测"
+    },
+    {
+      "type": "部件",
+      "text": "光纤传感器"
+    },
+    {
+      "type": "系统",
+      "text": "滑油系统"
+    },
+    {
+      "type": "技术",
+      "text": "滑油品质监测"
+    },
+    {
+      "type": "计划",
+      "text": "ATOS（Advanced Transmission and Oil System）计划"
+    },
+    {
+      "type": "计划",
+      "text": "ELUBSYS（Engine Lubrication System Technology）计划"
+    },
+    {
+      "type": "方法",
+      "text": "基于遗传编程的发动机滑油系统故障诊断"
+    },
+    {
+      "type": "方法",
+      "text": "小波神经网络航空发动机滑油系统故障诊断方法"
+    },
+    {
+      "type": "方法",
+      "text": "故障树分析"
+    },
+    {
+      "type": "技术",
+      "text": "原子发射光谱分析法"
+    },
+    {
+      "type": "技术",
+      "text": "原子吸收光谱分析法"
+    },
+    {
+      "type": "技术",
+      "text": "X射线荧光光谱分析法"
+    },
+    {
+      "type": "技术",
+      "text": "铁谱分析法"
+    },
+    {
+      "type": "部件",
+      "text": "磁堵"
+    },
+    {
+      "type": "软件",
+      "text": "AMESim"
+    },
+    {
+      "type": "软件",
+      "text": "Flowmaster"
+    },
+    {
+      "type": "软件",
+      "text": "MATLAB/Simulink"
+    },
+    {
+      "type": "软件",
+      "text": "SimulationX"
+    },
+    {
+      "type": "模型",
+      "text": "Hammerstein模型"
+    },
+    {
+      "type": "系统",
+      "text": "液压机械式控制系统"
+    },
+    {
+      "type": "部件",
+      "text": "电子控制器EEC"
+    },
+    {
+      "type": "部件",
+      "text": "液压机械装置HMU"
+    },
+    {
+      "type": "技术",
+      "text": "BIT（Built-In-Test）机内测试技术"
+    },
+    {
+      "type": "技术",
+      "text": "解析冗余"
+    },
+    {
+      "type": "技术",
+      "text": "硬件冗余"
+    },
+    {
+      "type": "方法",
+      "text": "检测滤波器方法"
+    },
+    {
+      "type": "方法",
+      "text": "广义似然比方法"
+    },
+    {
+      "type": "系统",
+      "text": "故障指示与校正作用（FICA）系统"
+    },
+    {
+      "type": "计划",
+      "text": "ADIA（Advanced Detection Isolation and Accommodation）计划"
+    },
+    {
+      "type": "算法",
+      "text": "混合卡尔曼滤波器"
+    },
+    {
+      "type": "技术",
+      "text": "模式识别技术"
+    },
+    {
+      "type": "网络",
+      "text": "自联想NN"
+    },
+    {
+      "type": "理论",
+      "text": "未知输入观测器UIO理论"
+    },
+    {
+      "type": "算法",
+      "text": "支持向量回归机（SVR)"
+    },
+    {
+      "type": "算法",
+      "text": "自协调粒子群优化SVR（SPSO-SVR)算法"
+    },
+    {
+      "type": "算法",
+      "text": "在线学习稀疏最小二乘SVR算法（OPLS-SVR)"
+    },
+    {
+      "type": "算法",
+      "text": "硬SVR快速在线近似方法（FOHSVR)"
+    },
+    {
+      "type": "网络",
+      "text": "免疫网络"
+    },
+    {
+      "type": "方法",
+      "text": "主元分析方法"
+    },
+    {
+      "type": "方法",
+      "text": "残差检验方法"
+    },
+    {
+      "type": "技术",
+      "text": "数字孪生"
+    },
+    {
+      "type": "技术",
+      "text": "分布式BIT"
+    },
+    {
+      "type": "技术",
+      "text": "分布式FDIA"
+    },
+    {
+      "type": "部件",
+      "text": "智能传感器"
+    },
+    {
+      "type": "部件",
+      "text": "智能作动器"
+    }
+  ],
+  "relations": [
+    {
+      "type": "基于",
+      "head": "发动机气路故障诊断算法",
+      "tail": "非线性无迹卡尔曼滤波器(UKF)"
+    },
+    {
+      "type": "基于",
+      "head": "发动机气路故障诊断算法",
+      "tail": "深度学习神经网络"
+    },
+    {
+      "type": "显示出提高...的潜力",
+      "head": "发动机气路故障诊断算法",
+      "tail": "气路诊断精度"
+    },
+    {
+      "type": "得到广泛使用",
+      "head": "复合材料叶片",
+      "tail": "涡扇发动机"
+    },
+    {
+      "type": "应用于",
+      "head": "增材制造技术",
+      "tail": "复杂发动机零部件的制造"
+    },
+    {
+      "type": "为...铺平道路",
+      "head": "金属屑末传感器",
+      "tail": "与振动信号的融合诊断"
+    },
+    {
+      "type": "提出新的挑战",
+      "head": "发动机全权限数字控制系统（FADEC)",
+      "tail": "基于传统构型控制部件和集中式控制架构的故障诊断算法"
+    },
+    {
+      "type": "通过...实现",
+      "head": "EHM的价值",
+      "tail": "基于视情的维护、维修优化决策"
+    },
+    {
+      "type": "是...重要环节",
+      "head": "地面综合诊断",
+      "tail": "EHM全流程解决方案"
+    },
+    {
+      "type": "是...重要环节",
+      "head": "智能寿命管理",
+      "tail": "EHM全流程解决方案"
+    },
+    {
+      "type": "是...重要环节",
+      "head": "智能维护维修决策系统",
+      "tail": "EHM全流程解决方案"
+    },
+    {
+      "type": "可分为",
+      "head": "发动机气路故障诊断方法",
+      "tail": "基于模型的故障诊断方法"
+    },
+    {
+      "type": "可分为",
+      "head": "发动机气路故障诊断方法",
+      "tail": "基于数据的故障诊断方法"
+    },
+    {
+      "type": "可分为",
+      "head": "发动机气路故障诊断方法",
+      "tail": "基于信息融合的故障诊断方法"
+    },
+    {
+      "type": "可分为",
+      "head": "基于模型的故障诊断方法",
+      "tail": "基于线性模型的诊断方法"
+    },
+    {
+      "type": "可分为",
+      "head": "基于模型的故障诊断方法",
+      "tail": "基于非线性模型的诊断方法"
+    },
+    {
+      "type": "引入",
+      "head": "发动机故障诊断领域",
+      "tail": "卡尔曼滤波算法"
+    },
+    {
+      "type": "建立了",
+      "head": "Brotherton等",
+      "tail": "航空发动机机载自适应模型"
+    },
+    {
+      "type": "基于",
+      "head": "航空发动机机载自适应模型",
+      "tail": "线性卡尔曼滤波器"
+    },
+    {
+      "type": "开发了",
+      "head": "Borguet等",
+      "tail": "基于扩展卡尔曼滤波估计器（EKF）的气路故障诊断系统"
+    },
+    {
+      "type": "提出",
+      "head": "Dewallef和Leonard",
+      "tail": "无迹卡尔曼滤波（UKF）算法"
+    },
+    {
+      "type": "优于",
+      "head": "UKF",
+      "tail": "EKF"
+    },
+    {
+      "type": "精度更高于",
+      "head": "UKF",
+      "tail": "EKF和线性卡尔曼滤波算法"
+    },
+    {
+      "type": "应用于",
+      "head": "粒子滤波（Particle Filter，PF）",
+      "tail": "发动机气路故障诊断"
+    },
+    {
+      "type": "包括",
+      "head": "基于数据的故障诊断方法",
+      "tail": "人工神经网络方法"
+    },
+    {
+      "type": "包括",
+      "head": "基于数据的故障诊断方法",
+      "tail": "专家系统方法"
+    },
+    {
+      "type": "包括",
+      "head": "基于数据的故障诊断方法",
+      "tail": "模糊推理方法"
+    },
+    {
+      "type": "包括",
+      "head": "基于数据的故障诊断方法",
+      "tail": "支持向量机（SVM）"
+    },
+    {
+      "type": "包括",
+      "head": "基于数据的故障诊断方法",
+      "tail": "极限学习机（ELM）"
+    },
+    {
+      "type": "包括",
+      "head": "发动机气路诊断人工网络网络模型",
+      "tail": "BP网络"
+    },
+    {
+      "type": "包括",
+      "head": "发动机气路诊断人工网络网络模型",
+      "tail": "径向基（RBF）网络"
+    },
+    {
+      "type": "包括",
+      "head": "发动机气路诊断人工网络网络模型",
+      "tail": "概率神经网络（PNN）"
+    },
+    {
+      "type": "包括",
+      "head": "发动机气路诊断人工网络网络模型",
+      "tail": "自组织特征映射网（SOFM）"
+    },
+    {
+      "type": "包括",
+      "head": "发动机气路诊断人工网络网络模型",
+      "tail": "自联想网络（AANN）"
+    },
+    {
+      "type": "提出",
+      "head": "Lu等",
+      "tail": "改进的KELM算法"
+    },
+    {
+      "type": "用于",
+      "head": "改进的KELM算法",
+      "tail": "发动机故障回归与分类问题"
+    },
+    {
+      "type": "应用于",
+      "head": "支持向量机（SVM）",
+      "tail": "发动机气路故障诊断"
+    },
+    {
+      "type": "主要有",
+      "head": "信息融合方法",
+      "tail": "贝叶斯融合"
+    },
+    {
+      "type": "主要有",
+      "head": "信息融合方法",
+      "tail": "DS证据融合"
+    },
+    {
+      "type": "主要有",
+      "head": "信息融合方法",
+      "tail": "智能融合"
+    },
+    {
+      "type": "主要有",
+      "head": "信息融合方法",
+      "tail": "模糊融合"
+    },
+    {
+      "type": "主要有",
+      "head": "信息融合方法",
+      "tail": "集成融合"
+    },
+    {
+      "type": "提出了",
+      "head": "McFadden等",
+      "tail": "基于Hilbert变换的包络分析方法"
+    },
+    {
+      "type": "成为",
+      "head": "包络分析方法",
+      "tail": "工程实践中应用最广泛的轴承故障特征提取方法"
+    },
+    {
+      "type": "提出",
+      "head": "Yuan等",
+      "tail": "基于EMD分解的广义的时频域维数"
+    },
+    {
+      "type": "结合",
+      "head": "尚柏林等",
+      "tail": "EMD方法与ICA"
+    },
+    {
+      "type": "提出",
+      "head": "Wiggins",
+      "tail": "最小反褶积（Minimum Entropy Deconvolution，MED）"
+    },
+    {
+      "type": "提出",
+      "head": "McDonald等",
+      "tail": "最大相关峭度反褶积（Maximum Correlated Kurtosis Deconvolution，MCKD）"
+    },
+    {
+      "type": "总结了",
+      "head": "Lei等",
+      "tail": "行星齿轮箱的故障诊断方法"
+    },
+    {
+      "type": "研制成",
+      "head": "P&W公司",
+      "tail": "清洁动力PW1000G系列发动机"
+    },
+    {
+      "type": "正在研制",
+      "head": "罗-罗公司",
+      "tail": "超扇（UltraFan）发动机"
+    },
+    {
+      "type": "带来新的挑战",
+      "head": "GTF构型",
+      "tail": "故障诊断与健康管理"
+    },
+    {
+      "type": "开展了",
+      "head": "欧盟",
+      "tail": "ATOS（Advanced Transmission and Oil System）计划"
+    },
+    {
+      "type": "开展了",
+      "head": "欧盟",
+      "tail": "ELUBSYS（Engine Lubrication System Technology）计划"
+    },
+    {
+      "type": "提出了",
+      "head": "侯胜利、王威等",
+      "tail": "基于遗传编程的发动机滑油系统故障诊断"
+    },
+    {
+      "type": "搭建",
+      "head": "白杰等",
+      "tail": "发动机滑油系统模型"
+    },
+    {
+      "type": "开发了",
+      "head": "闫星辉等",
+      "tail": "滑油系统通用模块库"
+    },
+    {
+      "type": "建立了",
+      "head": "刘振刚和郭政波",
+      "tail": "涡扇发动机的主燃油系统的Hammerstein模型"
+    },
+    {
+      "type": "演变为",
+      "head": "液压机械式控制系统",
+      "tail": "全权限数字电子控制系统（FADEC）"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC控制系统",
+      "tail": "电子控制器EEC"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC控制系统",
+      "tail": "液压机械装置HMU"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC控制系统",
+      "tail": "作动部件"
+    },
+    {
+      "type": "包括",
+      "head": "FADEC控制系统",
+      "tail": "传感器"
+    },
+    {
+      "type": "依赖",
+      "head": "电子控制器的故障检测",
+      "tail": "BIT（Built-In-Test）机内测试技术"
+    },
+    {
+      "type": "提出",
+      "head": "Board",
+      "tail": "用解析冗余代替硬件冗余"
+    },
+    {
+      "type": "提出",
+      "head": "Corley和Spang",
+      "tail": "故障指示与校正作用（FICA）系统"
+    },
+    {
+      "type": "构建了",
+      "head": "ADIA（Advanced Detection Isolation and Accommodation）计划",
+      "tail": "多个卡尔曼滤波器"
+    },
+    {
+      "type": "提出",
+      "head": "Aretakis等",
+      "tail": "基于模式识别技术的发动机传感器故障诊断方法"
+    },
+    {
+      "type": "提出",
+      "head": "Guo和Nurie",
+      "tail": "基于人工神经网络（NN）的传感器故障诊断及信号重构系统"
+    },
+    {
+      "type": "提出",
+      "head": "Mattern等",
+      "tail": "基于自联想NN的传感器故障诊断方案"
+    },
+    {
+      "type": "提出",
+      "head": "薛薇和郭迎清",
+      "tail": "改进的多重故障假设方法"
+    },
+    {
+      "type": "提出",
+      "head": "鲁峰等",
+      "tail": "自协调粒子群优化SVR（SPSO-SVR)算法"
+    },
+    {
+      "type": "提出",
+      "head": "赵永平",
+      "tail": "在线学习稀疏最小二乘SVR算法（OPLS-SVR)"
+    },
+    {
+      "type": "提出",
+      "head": "赵永平",
+      "tail": "硬SVR快速在线近似方法（FOHSVR)"
+    },
+    {
+      "type": "提出",
+      "head": "蒋平国等",
+      "tail": "执行机构回路故障进行检测与决策"
+    },
+    {
+      "type": "提出",
+      "head": "杨士权",
+      "tail": "基于支持向量回归机估计发动机主燃油流量的方法"
+    },
+    {
+      "type": "提出",
+      "head": "潘阳等",
+      "tail": "基于发动机逆模型和执行机构模型的发动机燃油系统执行机构及其传感器故障诊断方法"
+    },
+    {
+      "type": "发展趋势",
+      "head": "FADEC系统",
+      "tail": "电气化、智能化、数字化"
+    },
+    {
+      "type": "可能部署于",
+      "head": "数字孪生",
+      "tail": "智能传感器"
+    },
+    {
+      "type": "可能部署于",
+      "head": "数字孪生",
+      "tail": "智能作动器"
+    }
+  ]
+}
